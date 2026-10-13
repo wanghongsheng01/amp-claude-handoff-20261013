@@ -1,0 +1,48 @@
+{
+  "scope": "metadata hash preservation only; no test reads",
+  "checks": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/DELIVERY_H4_H2_BRIDGE_FINAL_INDEX.json",
+      "expected": "c5a20a9d56f28370029d8cd39310db0e3064a8061d2b0e31e819f971ab18e395",
+      "actual": "c5a20a9d56f28370029d8cd39310db0e3064a8061d2b0e31e819f971ab18e395",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/DELIVERY_H3_FINAL_INDEX.json",
+      "expected": "8580a59558198db0a7dfed899f7e569af7dc5214ce668d74e2d3e1e19b60b6ac",
+      "actual": "8580a59558198db0a7dfed899f7e569af7dc5214ce668d74e2d3e1e19b60b6ac",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/DELIVERY_H2_FINAL_INDEX.json",
+      "expected": "6e12e3aef75054eed8237dd5816fda4638143935a7205710a8c4e04625ff6f8c",
+      "actual": "6e12e3aef75054eed8237dd5816fda4638143935a7205710a8c4e04625ff6f8c",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/H4_H2_BRIDGE_PREDECESSOR_PRESERVATION_AFTER.json",
+      "expected": "9efd8c47d3b62645724d0d9a46247fd9b853ed54e4206d249b1896477cac9781",
+      "actual": "9efd8c47d3b62645724d0d9a46247fd9b853ed54e4206d249b1896477cac9781",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/../HANDOFF.zh.md",
+      "expected": "a4617de225561f95718a90707b6cb6bd519a33518a51672b054267ad6dc8ed21",
+      "actual": "a4617de225561f95718a90707b6cb6bd519a33518a51672b054267ad6dc8ed21",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/HANDOFF_H4_H2_BRIDGE_20261011.zh.md",
+      "expected": "1c80f7ece329d851f4fc907f288723e4cc5e97913b9e56ae05fa1affb22ca6e2",
+      "actual": "1c80f7ece329d851f4fc907f288723e4cc5e97913b9e56ae05fa1affb22ca6e2",
+      "match": true
+    },
+    {
+      "path": "amp_h5/feasibility/CE_RECOVERY_FOUR_ARM_DELIVERY_v1.json",
+      "expected": "72dc82556c3b0bcfe8f959724002bba614ff53871dd48c1f731b00009b84ad38",
+      "actual": "72dc82556c3b0bcfe8f959724002bba614ff53871dd48c1f731b00009b84ad38",
+      "match": true
+    }
+  ],
+  "all_match": true
+}

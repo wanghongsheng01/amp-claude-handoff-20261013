@@ -1,0 +1,621 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "27_unique_IDs",
+      "pass": true
+    },
+    {
+      "name": "existing_frozen_CSV_exact_transcription",
+      "pass": true
+    },
+    {
+      "name": "27_supplier_ID_set_matches",
+      "pass": true
+    },
+    {
+      "name": "all_modification_fields_NA_not_Free",
+      "pass": true
+    },
+    {
+      "name": "all_supplier_comments_TFA_salt",
+      "pass": true
+    },
+    {
+      "name": "source_unchanged",
+      "pass": true
+    },
+    {
+      "name": "numeric30_N78_allN16",
+      "pass": true
+    },
+    {
+      "name": "threshold_6_7_7_any_and6_sa",
+      "pass": true
+    }
+  ],
+  "source_root": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011",
+  "source_hashes": {
+    "feishu_history/downloads/results_MIC_1__MfiVbdsnlatNlysGQLrcoLuznYe.xlsx": "32852e2680fc6f4b348a89eb57d073fa635fc1e5d8f639aaf8a0a15b1908608b",
+    "editorial_corrections/v6r2_substantive/mic_full_table/mic_full_table.csv": "85da911eac24f14a902d3a4a2342c2642eb06de4c0db311b7f35a9a57813a710",
+    "editorial_corrections/v6r2_substantive/mic_full_table/independent_review/REVIEW.zh.md": "3ef5a0112c4a9d5d089c99a30e7a41d74a8f4063ec5a276ff3c5656ea2cf3909",
+    "feishu_history/ARCHIVE_SAMPLE_LINKAGE.csv": "568105807d3f52f63ba15ca89a619510967e7ed6219af1dd35d370f09614b3d1",
+    "feishu_history/ARCHIVE_EVIDENCE_AUDIT.zh.md": "f3dbe1ddc28edc5af18280090239c4203a0cffe73bcf3b7bf204a04826ddcfc6",
+    "feishu_history/PROCESS_RECORD_AUDIT.zh.md": "b2a5b9671e3e30fa2fb09a632a59b64d3235581aaa99d7db90565dbf8c7a5b16",
+    "feishu_history/MIC_NEW_EXPORT_AUDIT.zh.md": "8840d7da535fe578f82613ecc16c4d6b4840d68a8317c1697e33b7ab137463fd",
+    "feishu_history/supplier_archive/HPLC_MS_TEXT_AUDIT.zh.md": "0007f347a8de08e75223bf24cf51c84a1c372aae951dd3fe8f4d6d03d9dadef9",
+    "evidence_followup_v5/mic/VISUAL_FOLLOWUP.zh.md": "83be83c718abd61433b0bfc4d039362cc2222b5d02511b4bb6d9d8686abb0efd",
+    "evidence_followup_v5/mic/source_images/20240818-image9.png": "4839d24555e9cdd1173cfae2c3e5e3f8d90b4914c84a61db8ff55e943df0c6b9",
+    "evidence_followup_v5/run/SEARCH_CONCLUSION.zh.md": "b64ca46c1ceaaed4b693c9dd63db8ed62884126ef8846fe52a4e06f6f1218296",
+    "evidence_followup_v5/run/CURATED_EVIDENCE.zh.md": "27bfc2ace2095a39c0db06546c0d27939d09c217cfb96de18328e5a868cdef4e",
+    "evidence_followup_v5/mic/historical_20240818_docx_text.txt": "ce3c74328049b923617946cdab65232314c9b095879e30765941a396aab0c2c9",
+    "feishu_history/docx_parsed/original_33p.fulltext.txt": "8d876a634f514aaebcf38975748361b2bdc5a84a2083ca11e89794d06a8693b5",
+    "review_checkpoint_v6r3_20261011/CHECKPOINT.zh.md": "0320b06dc119f5be91bca309d1e735496d8b095a50fea756a684eaf87342e7d8"
+  },
+  "direct_source_parse": {
+    "workbook": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/downloads/results_MIC_1__MfiVbdsnlatNlysGQLrcoLuznYe.xlsx",
+    "member": "xl/worksheets/sheet2.xml",
+    "worksheet_sha256": "699c976caf530bb29d271a454b3419b6ea5df80238a60f406371747717c38527",
+    "header_verbatim": {
+      "A": "ug|ml",
+      "B": "MIC of E.coli atcc 25922",
+      "C": "MIC of P.aeruginosa atcc 27853",
+      "D": "MIC of S.aureus atcc 29213",
+      "E": "MIC of E.faecalis atcc 29212"
+    }
+  },
+  "rows": [
+    {
+      "sample_id": "pp1-1",
+      "worksheet_row": 5,
+      "values": {
+        "B": "500",
+        "C": "N",
+        "D": "250",
+        "E": "125"
+      },
+      "source_cells": {
+        "A": "all!A5",
+        "B": "all!B5",
+        "C": "all!C5",
+        "D": "all!D5",
+        "E": "all!E5"
+      }
+    },
+    {
+      "sample_id": "pp1-2",
+      "worksheet_row": 6,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A6",
+        "B": "all!B6",
+        "C": "all!C6",
+        "D": "all!D6",
+        "E": "all!E6"
+      }
+    },
+    {
+      "sample_id": "pp1-3",
+      "worksheet_row": 7,
+      "values": {
+        "B": "62.5",
+        "C": "N",
+        "D": "31.25",
+        "E": "125"
+      },
+      "source_cells": {
+        "A": "all!A7",
+        "B": "all!B7",
+        "C": "all!C7",
+        "D": "all!D7",
+        "E": "all!E7"
+      }
+    },
+    {
+      "sample_id": "pp1-4",
+      "worksheet_row": 8,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A8",
+        "B": "all!B8",
+        "C": "all!C8",
+        "D": "all!D8",
+        "E": "all!E8"
+      }
+    },
+    {
+      "sample_id": "pp1-5",
+      "worksheet_row": 9,
+      "values": {
+        "B": "31.25",
+        "C": "125",
+        "D": "7.8125",
+        "E": "125"
+      },
+      "source_cells": {
+        "A": "all!A9",
+        "B": "all!B9",
+        "C": "all!C9",
+        "D": "all!D9",
+        "E": "all!E9"
+      }
+    },
+    {
+      "sample_id": "pp1-7",
+      "worksheet_row": 10,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A10",
+        "B": "all!B10",
+        "C": "all!C10",
+        "D": "all!D10",
+        "E": "all!E10"
+      }
+    },
+    {
+      "sample_id": "pp1-8",
+      "worksheet_row": 11,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A11",
+        "B": "all!B11",
+        "C": "all!C11",
+        "D": "all!D11",
+        "E": "all!E11"
+      }
+    },
+    {
+      "sample_id": "pp2-1",
+      "worksheet_row": 12,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A12",
+        "B": "all!B12",
+        "C": "all!C12",
+        "D": "all!D12",
+        "E": "all!E12"
+      }
+    },
+    {
+      "sample_id": "pp2-2",
+      "worksheet_row": 13,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A13",
+        "B": "all!B13",
+        "C": "all!C13",
+        "D": "all!D13",
+        "E": "all!E13"
+      }
+    },
+    {
+      "sample_id": "pp2-3",
+      "worksheet_row": 14,
+      "values": {
+        "B": "250",
+        "C": "N",
+        "D": "250",
+        "E": "1000"
+      },
+      "source_cells": {
+        "A": "all!A14",
+        "B": "all!B14",
+        "C": "all!C14",
+        "D": "all!D14",
+        "E": "all!E14"
+      }
+    },
+    {
+      "sample_id": "pp2-4",
+      "worksheet_row": 15,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A15",
+        "B": "all!B15",
+        "C": "all!C15",
+        "D": "all!D15",
+        "E": "all!E15"
+      }
+    },
+    {
+      "sample_id": "pp2-5",
+      "worksheet_row": 16,
+      "values": {
+        "B": "1000",
+        "C": "N",
+        "D": "250",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A16",
+        "B": "all!B16",
+        "C": "all!C16",
+        "D": "all!D16",
+        "E": "all!E16"
+      }
+    },
+    {
+      "sample_id": "pp2-6",
+      "worksheet_row": 17,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A17",
+        "B": "all!B17",
+        "C": "all!C17",
+        "D": "all!D17",
+        "E": "all!E17"
+      }
+    },
+    {
+      "sample_id": "pp2-7",
+      "worksheet_row": 18,
+      "values": {
+        "B": "1000",
+        "C": "N",
+        "D": "1000",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A18",
+        "B": "all!B18",
+        "C": "all!C18",
+        "D": "all!D18",
+        "E": "all!E18"
+      }
+    },
+    {
+      "sample_id": "pp2-8",
+      "worksheet_row": 19,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "15.625",
+        "E": "62.5"
+      },
+      "source_cells": {
+        "A": "all!A19",
+        "B": "all!B19",
+        "C": "all!C19",
+        "D": "all!D19",
+        "E": "all!E19"
+      }
+    },
+    {
+      "sample_id": "pp3-1",
+      "worksheet_row": 20,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A20",
+        "B": "all!B20",
+        "C": "all!C20",
+        "D": "all!D20",
+        "E": "all!E20"
+      }
+    },
+    {
+      "sample_id": "pp3-2",
+      "worksheet_row": 21,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A21",
+        "B": "all!B21",
+        "C": "all!C21",
+        "D": "all!D21",
+        "E": "all!E21"
+      }
+    },
+    {
+      "sample_id": "pp3-3",
+      "worksheet_row": 22,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A22",
+        "B": "all!B22",
+        "C": "all!C22",
+        "D": "all!D22",
+        "E": "all!E22"
+      }
+    },
+    {
+      "sample_id": "pp3-4",
+      "worksheet_row": 23,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A23",
+        "B": "all!B23",
+        "C": "all!C23",
+        "D": "all!D23",
+        "E": "all!E23"
+      }
+    },
+    {
+      "sample_id": "pp3-5",
+      "worksheet_row": 24,
+      "values": {
+        "B": "250",
+        "C": "N",
+        "D": "250",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A24",
+        "B": "all!B24",
+        "C": "all!C24",
+        "D": "all!D24",
+        "E": "all!E24"
+      }
+    },
+    {
+      "sample_id": "pp3-6",
+      "worksheet_row": 25,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A25",
+        "B": "all!B25",
+        "C": "all!C25",
+        "D": "all!D25",
+        "E": "all!E25"
+      }
+    },
+    {
+      "sample_id": "pp3-7",
+      "worksheet_row": 26,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A26",
+        "B": "all!B26",
+        "C": "all!C26",
+        "D": "all!D26",
+        "E": "all!E26"
+      }
+    },
+    {
+      "sample_id": "pp3-9",
+      "worksheet_row": 27,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A27",
+        "B": "all!B27",
+        "C": "all!C27",
+        "D": "all!D27",
+        "E": "all!E27"
+      }
+    },
+    {
+      "sample_id": "pp3-11",
+      "worksheet_row": 28,
+      "values": {
+        "B": "62.5",
+        "C": "1000",
+        "D": "15.625",
+        "E": "62.5"
+      },
+      "source_cells": {
+        "A": "all!A28",
+        "B": "all!B28",
+        "C": "all!C28",
+        "D": "all!D28",
+        "E": "all!E28"
+      }
+    },
+    {
+      "sample_id": "pp3-12",
+      "worksheet_row": 29,
+      "values": {
+        "B": "N",
+        "C": "N",
+        "D": "N",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A29",
+        "B": "all!B29",
+        "C": "all!C29",
+        "D": "all!D29",
+        "E": "all!E29"
+      }
+    },
+    {
+      "sample_id": "pp3-13",
+      "worksheet_row": 30,
+      "values": {
+        "B": "31.25",
+        "C": "N",
+        "D": "7.8125",
+        "E": "15.625"
+      },
+      "source_cells": {
+        "A": "all!A30",
+        "B": "all!B30",
+        "C": "all!C30",
+        "D": "all!D30",
+        "E": "all!E30"
+      }
+    },
+    {
+      "sample_id": "pp3-14",
+      "worksheet_row": 31,
+      "values": {
+        "B": "125",
+        "C": "N",
+        "D": "31.25",
+        "E": "N"
+      },
+      "source_cells": {
+        "A": "all!A31",
+        "B": "all!B31",
+        "C": "all!C31",
+        "D": "all!D31",
+        "E": "all!E31"
+      }
+    }
+  ],
+  "summary": {
+    "candidate_rows": 27,
+    "numeric_cells": 30,
+    "undefined_N_cells": 78,
+    "all_N_sample_ids": [
+      "pp1-2",
+      "pp1-4",
+      "pp1-7",
+      "pp1-8",
+      "pp2-1",
+      "pp2-2",
+      "pp2-4",
+      "pp2-6",
+      "pp3-1",
+      "pp3-2",
+      "pp3-3",
+      "pp3-4",
+      "pp3-6",
+      "pp3-7",
+      "pp3-9",
+      "pp3-12"
+    ],
+    "numeric_by_column": {
+      "B": 10,
+      "C": 2,
+      "D": 11,
+      "E": 7
+    },
+    "strict_thresholds": {
+      "32": {
+        "any_strain_IDs": [
+          "pp1-3",
+          "pp1-5",
+          "pp2-8",
+          "pp3-11",
+          "pp3-13",
+          "pp3-14"
+        ],
+        "S_aureus_IDs": [
+          "pp1-3",
+          "pp1-5",
+          "pp2-8",
+          "pp3-11",
+          "pp3-13",
+          "pp3-14"
+        ]
+      },
+      "128": {
+        "any_strain_IDs": [
+          "pp1-1",
+          "pp1-3",
+          "pp1-5",
+          "pp2-8",
+          "pp3-11",
+          "pp3-13",
+          "pp3-14"
+        ],
+        "S_aureus_IDs": [
+          "pp1-3",
+          "pp1-5",
+          "pp2-8",
+          "pp3-11",
+          "pp3-13",
+          "pp3-14"
+        ]
+      },
+      "200": {
+        "any_strain_IDs": [
+          "pp1-1",
+          "pp1-3",
+          "pp1-5",
+          "pp2-8",
+          "pp3-11",
+          "pp3-13",
+          "pp3-14"
+        ],
+        "S_aureus_IDs": [
+          "pp1-3",
+          "pp1-5",
+          "pp2-8",
+          "pp3-11",
+          "pp3-13",
+          "pp3-14"
+        ]
+      }
+    }
+  },
+  "scope": "Direct read of one supplied workbook all!A5:E31 plus prior source audits and linkage; no new wet experiment, model or full re-audit of108PDFs",
+  "image_read_this_review": {
+    "path": "evidence_followup_v5/mic/source_images/20240818-image9.png",
+    "observed_pp2_3_ecoli": "N",
+    "does_not_resolve_version_conflict": true
+  }
+}

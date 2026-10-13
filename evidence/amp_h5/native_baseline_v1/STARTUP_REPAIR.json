@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-12T09:17:27.453642+00:00",
+  "classification": "PRE_MODEL_SANDBOX_STARTUP_FAILURE",
+  "failed_operation": "os.nice(+10)",
+  "evidence": "Traceback points to os.nice before torch thread setup, before model construction, fold loop or validation prediction; only STARTED exists",
+  "model_steps": 0,
+  "fold_predictions": 0,
+  "scientific_data_code_config_changes": false,
+  "planned_repair": "Same frozen command under sandbox escalation to permit reducing own process priority; preserve startup failure; require independent acceptance before execution",
+  "stderr_sha256": "38c39f67c5977d63cf684f49e82d7382525d44797fc892204fefa5ff6d154b11"
+}

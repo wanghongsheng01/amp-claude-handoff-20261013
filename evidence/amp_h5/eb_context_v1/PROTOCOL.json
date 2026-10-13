@@ -1,0 +1,336 @@
+{
+  "scope": "AMP H5 terminal-conditioned context EB development experiment; independently implemented, not official PBCT replication",
+  "data": {
+    "train": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "rows": 279
+    },
+    "development": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "rows": 41
+    }
+  },
+  "grids": {
+    "pooled": [
+      {
+        "max_depth": 1,
+        "mode": "pooled",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 1,
+        "mode": "pooled",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 1,
+        "mode": "pooled",
+        "alpha": 1.0
+      },
+      {
+        "max_depth": 2,
+        "mode": "pooled",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 2,
+        "mode": "pooled",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 2,
+        "mode": "pooled",
+        "alpha": 1.0
+      },
+      {
+        "max_depth": 3,
+        "mode": "pooled",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 3,
+        "mode": "pooled",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 3,
+        "mode": "pooled",
+        "alpha": 1.0
+      }
+    ],
+    "separate": [
+      {
+        "max_depth": 1,
+        "mode": "separate",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 1,
+        "mode": "separate",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 1,
+        "mode": "separate",
+        "alpha": 1.0
+      },
+      {
+        "max_depth": 2,
+        "mode": "separate",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 2,
+        "mode": "separate",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 2,
+        "mode": "separate",
+        "alpha": 1.0
+      },
+      {
+        "max_depth": 3,
+        "mode": "separate",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 3,
+        "mode": "separate",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 3,
+        "mode": "separate",
+        "alpha": 1.0
+      }
+    ],
+    "partial": [
+      {
+        "max_depth": 1,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 1.0
+      },
+      {
+        "max_depth": 1,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 10.0
+      },
+      {
+        "max_depth": 1,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 100.0
+      },
+      {
+        "max_depth": 2,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 1.0
+      },
+      {
+        "max_depth": 2,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 10.0
+      },
+      {
+        "max_depth": 2,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 100.0
+      },
+      {
+        "max_depth": 3,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 1.0
+      },
+      {
+        "max_depth": 3,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 10.0
+      },
+      {
+        "max_depth": 3,
+        "mode": "partial",
+        "alpha": 0.5,
+        "shrinkage": 100.0
+      }
+    ],
+    "ngram": [
+      {
+        "max_depth": 1,
+        "mode": "separate",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 1,
+        "mode": "separate",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 1,
+        "mode": "separate",
+        "alpha": 1.0
+      },
+      {
+        "max_depth": 2,
+        "mode": "separate",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 2,
+        "mode": "separate",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 2,
+        "mode": "separate",
+        "alpha": 1.0
+      },
+      {
+        "max_depth": 3,
+        "mode": "separate",
+        "alpha": 0.1
+      },
+      {
+        "max_depth": 3,
+        "mode": "separate",
+        "alpha": 0.5
+      },
+      {
+        "max_depth": 3,
+        "mode": "separate",
+        "alpha": 1.0
+      }
+    ],
+    "ar_cv": [
+      {
+        "lr": 0.0003,
+        "steps": 250
+      },
+      {
+        "lr": 0.0003,
+        "steps": 500
+      },
+      {
+        "lr": 0.0003,
+        "steps": 1000
+      },
+      {
+        "lr": 0.001,
+        "steps": 250
+      },
+      {
+        "lr": 0.001,
+        "steps": 500
+      },
+      {
+        "lr": 0.001,
+        "steps": 1000
+      },
+      {
+        "lr": 0.003,
+        "steps": 250
+      },
+      {
+        "lr": 0.003,
+        "steps": 500
+      },
+      {
+        "lr": 0.003,
+        "steps": 1000
+      }
+    ]
+  },
+  "structure": {
+    "tree_alpha": 0.5,
+    "complexity_penalty": 1.0,
+    "min_child_count": 8
+  },
+  "training_seed": 222,
+  "ar_learning_rates": [
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "generation_seeds": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "requests_per_terminal": 32,
+  "max_length": 48,
+  "historical_ar_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/training/final.pt",
+  "historical_ar_caveat": "Fixed historical terminal-from-BOS AR; earlier development exposure. Not assigned fresh CV or claimed train-only-selected. Fresh ar_cv uses same 62501-parameter architecture and receives equal nine candidate selection opportunities.",
+  "grouping": {
+    "method": "Train-only connected components of normalized Levenshtein similarity >=0.70 across both terminal states, no inherited component_id used",
+    "packing": "Deterministic greedy normalized terminal squared-load minimization, size-first hash tie order",
+    "folds": 3,
+    "guards": [
+      "largest component <=50%train",
+      ">=6 components represent each terminal",
+      "each heldout fold >=5 rows each terminal",
+      "every fold-training portion has both terminals"
+    ],
+    "threshold_changes_allowed": false,
+    "interpretation": "Operational near-duplicate control, not biological homology proof"
+  },
+  "selection": {
+    "primary": "Mean full-sequence NLL within each terminal, then equal terminal mean over all out-of-fold rows",
+    "tie": "Exact numeric score then preregistered grid index",
+    "opportunities_per_family": 9,
+    "shared_tree": "Fit independently on fold-training rows only per depth; same tree reused for pooled/separate/partial emissions",
+    "equal_capacity_or_compute_claim": false,
+    "ngram": "Maximum context lengths 1/2/3 with terminal-specific longest-seen suffix backoff and add-alpha smoothing; terminology context length, not total n-gram order"
+  },
+  "training": {
+    "cpu_threads": 1,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "gradient_clip": 1.0,
+    "loss": "Mean observed-token CE",
+    "shuffle": "Independent torch CPU generator seed222; partial final batch retained; reshuffle at epoch end",
+    "trajectory_reuse": "Per fold/lr one 1000-step trajectory scored at250/500/1000; no development monitoring"
+  },
+  "metrics_policy": {
+    "primary": "Frozen predictive full sequence conditional NLL: every residue from BOS and first EOS iff length<48, no extra EOS at cap48; terminal means and equal terminal mean",
+    "secondary": "Token NLL, AA/EOS NLL; all unfiltered generation validity, EOS/cap, lengths, frozen MMD, AA/dipeptide JS, exact copy, nearest identity, entropy",
+    "generation": "Temperature1; six methods x2terminals x32requests=384; no oracle length, no rejection, no replenishment; identical integer seeds across methods but torch/Python RNG streams differ",
+    "development": "One post-freeze scoring pass; reused development set from prior work, not a new holdout. Independent checks use saved outputs.",
+    "no_claims": [
+      "biological efficacy",
+      "new algorithm",
+      "significance",
+      "general superiority",
+      "submission readiness"
+    ]
+  },
+  "budget": {
+    "natural_total_seconds": 1200,
+    "runner_hard_cap_seconds": 1000,
+    "independent_saved_output_recompute_cap_seconds": 200,
+    "seed_count": 1,
+    "parallel_models": false,
+    "retries": 0
+  },
+  "success_rule": "Partial must strictly improve balanced sequence NLL over every primary control in grouped CV and over all controls including historical AR on dev, with neither terminal worse (tolerance1e-9). Generation empty, <5, cap48, exact-copy counts cannot exceed pooled, separate, fresh AR or historical AR in either terminal. All distribution metrics reported without selective claims. Any failure NOT_SUPPORTED; no retune.",
+  "failure_rule": "Invalid grouping, hashes, nonfinite scores/gradients, sample execution or budget failure => BLOCKED with partial outputs retained; no retry or relaxed rule.",
+  "source_references": [
+    "https://link.springer.com/article/10.1007/s11222-026-10835-7",
+    "https://github.com/daniyarghani/pbct",
+    "https://arxiv.org/abs/1107.0312"
+  ],
+  "backup": "BACKUP_BLOCKED: no upload/push permitted",
+  "audit": "Save all per-fold per-config model states, heldout/training molecule membership, token NLL traces, every CV score and all final generation strings; independent postrun recomputation has no new fitting/sampling."
+}

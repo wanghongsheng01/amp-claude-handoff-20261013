@@ -1,0 +1,99 @@
+{
+  "created_utc": "2026-10-11T12:38:58.363134+00:00",
+  "scope": "Explicit local delivery index, not a full workspace snapshot or scientific acceptance gate",
+  "n_files": 18,
+  "files": [
+    {
+      "path": "HANDOFF_H0_20261011.zh.md",
+      "bytes": 7005,
+      "sha256": "057622a8ed1506cb2fade754a8441fd96d653340c7ac2fa10bdaf6772ad33b18"
+    },
+    {
+      "path": "H0_AUTHORIZATION_RECEIPT.json",
+      "bytes": 1259,
+      "sha256": "fb0208556711eec6392904578691e0c8352ab4473fc614ba9a39638f87255e41"
+    },
+    {
+      "path": "H0_PREDECESSOR_PRESERVATION.json",
+      "bytes": 11042,
+      "sha256": "eb6b663073c5a1441facd040dea6b9e5de10198615c1b0dc9d5c267b8749f20c"
+    },
+    {
+      "path": "DELIVERY_FINAL_INDEX.json",
+      "bytes": 953,
+      "sha256": "f9c4a9fbc35a9554d032e922f32a7a2fd9a126bd383ba105980afe1ea69b3194"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/PRELOCK_MANIFEST.json",
+      "bytes": 772,
+      "sha256": "31d96aebb7f988ca7776b8dfc0386b303cddf2dc7ceb056363e51865f79213c6"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/START.json",
+      "bytes": 732,
+      "sha256": "6d5cdb7ba5b988bdb4960dde11397313b621a3f504536e7ea6cdb87b3edbf409"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/AUTHOR_READOUT_r2.zh.md",
+      "bytes": 6995,
+      "sha256": "f9455a4fc27237821bc06e3b2beed41cf418aab16a95aa2dbf22dc416fef3338"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/AUTHOR_DELIVERY_r2_MANIFEST.json",
+      "bytes": 861,
+      "sha256": "ea08851d885e6eb38e20ab37adc50029c37e991ac42876c00cdffb881adf88ee"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/run/MANIFEST.json",
+      "bytes": 14490,
+      "sha256": "f5e2aa872ba8cdd45f5d474cd22eff1783f1bbb777f04bc389fec1f7f740f5d2"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/run/status.json",
+      "bytes": 457,
+      "sha256": "b183aa03389a1cffb2492674d992d5fc628d7f14a40ab5e5db492107658e3819"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/run/ORIGINAL_VAL_REPLICATION.json",
+      "bytes": 2327,
+      "sha256": "c0cde3c5ed3b60317efd0fbe962f3dec9d80cdd95998a41b8770e4ab333917ce"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/independent_review/PREFLIGHT_MANIFEST.json",
+      "bytes": 1152,
+      "sha256": "b8c75291b60bcdcce4d668f0fcd82ac00ffcdce79c19b0d1add1afafe0cf49ce"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/independent_review/POST_AUDIT_RULES.json",
+      "bytes": 2842,
+      "sha256": "48f6ad1de504c6201aa7bcb3abf07461e86939d746aaa3d19ca5ac5f087cb867"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/independent_review/POST_REVIEW.zh.md",
+      "bytes": 9605,
+      "sha256": "4fbbfb4b5a841d56151976d219ff4c6a164901fb2b176083a47decac920fc971"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/independent_review/FINAL_MANIFEST.json",
+      "bytes": 2873,
+      "sha256": "a5d5677f5cda07bfa49a7062d20dd43a7b9e4480edfa16a5d2f6c9f87b217e45"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/independent_review/FINAL_RECEIPT.json",
+      "bytes": 967,
+      "sha256": "b72bd68111d7d9f239f58b08223bdd4b80cc190f99855c5e6426e4e13c55d320"
+    },
+    {
+      "path": "diagnostics_h0_fixed_checkpoint_v1/independent_review/POST_AUDIT_RESULTS.json",
+      "bytes": 11711999,
+      "sha256": "23364d5f3c87198017700b621b297f1bc26bfc8f32de3339f182d199f332944c"
+    },
+    {
+      "path": "final_science_review/H0_INCREMENT_CLAIM_REVIEW.json",
+      "bytes": 5914,
+      "sha256": "d3417e764f6763a8589c2d39356cad9df09b749c603db3b805503c72a54f3b7e"
+    }
+  ],
+  "backup_status": "BACKUP_BLOCKED",
+  "no_cloud_backup_claim": true
+}

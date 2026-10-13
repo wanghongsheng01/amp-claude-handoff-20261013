@@ -1,0 +1,1600 @@
+[
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=1&offset=0",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:01.878742+00:00",
+    "monotonic_start": 5.110084916,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:04 GMT",
+      "content-type": "application/json",
+      "content-length": "334"
+    },
+    "raw_file": "raw/000_count.json",
+    "bytes": 334,
+    "sha256": "04202f4f53185dcf49a72d5955e21833b6424a5287baf6444a6048a28e7f0c4e",
+    "ended_utc": "2026-10-12T08:26:04.854776+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=0",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:06.983041+00:00",
+    "monotonic_start": 10.214431166,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:09 GMT",
+      "content-type": "application/json",
+      "content-length": "2739"
+    },
+    "raw_file": "raw/001_list_offset_0.json",
+    "bytes": 2739,
+    "sha256": "8fd254331e0bb3ed735e748e9996dfb007087b1d732e3ba5592608cb6712aa5c",
+    "ended_utc": "2026-10-12T08:26:09.881718+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=115",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:12.087201+00:00",
+    "monotonic_start": 15.318585083,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:14 GMT",
+      "content-type": "application/json",
+      "content-length": "2596"
+    },
+    "raw_file": "raw/002_list_offset_115.json",
+    "bytes": 2596,
+    "sha256": "9857a49fbb1a7f29924719711f93df4d3ecee676e4a34e078500dd339c1b0834",
+    "ended_utc": "2026-10-12T08:26:14.802363+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=230",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:17.192269+00:00",
+    "monotonic_start": 20.423643333,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:20 GMT",
+      "content-type": "application/json",
+      "content-length": "2941"
+    },
+    "raw_file": "raw/003_list_offset_230.json",
+    "bytes": 2941,
+    "sha256": "36f08a96407b05d7596d0ce3fafd7f1e61494eaab9003680eae91186865e7b29",
+    "ended_utc": "2026-10-12T08:26:20.172678+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=345",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:22.296729+00:00",
+    "monotonic_start": 25.528101916,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:25 GMT",
+      "content-type": "application/json",
+      "content-length": "2726"
+    },
+    "raw_file": "raw/004_list_offset_345.json",
+    "bytes": 2726,
+    "sha256": "c291b0e763eff8a5755d5246eece6234e214ade3bf957e70590f867c1c9f6f02",
+    "ended_utc": "2026-10-12T08:26:25.320800+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=460",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:27.400856+00:00",
+    "monotonic_start": 30.632222666,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:30 GMT",
+      "content-type": "application/json",
+      "content-length": "2909"
+    },
+    "raw_file": "raw/005_list_offset_460.json",
+    "bytes": 2909,
+    "sha256": "fcd59ca515bb28d1f571e01f2ab940fb542a8225e00db87fee7bf661dfc21d6b",
+    "ended_utc": "2026-10-12T08:26:30.005407+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=575",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:32.505410+00:00",
+    "monotonic_start": 35.7367675,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:34 GMT",
+      "content-type": "application/json",
+      "content-length": "2573"
+    },
+    "raw_file": "raw/006_list_offset_575.json",
+    "bytes": 2573,
+    "sha256": "90b0ba4c747a8fd47d85a11d581d86cdfcd451ec3688b45b63d46e8241c74f26",
+    "ended_utc": "2026-10-12T08:26:34.980698+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=690",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:37.609811+00:00",
+    "monotonic_start": 40.841159583,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:40 GMT",
+      "content-type": "application/json",
+      "content-length": "3089"
+    },
+    "raw_file": "raw/007_list_offset_690.json",
+    "bytes": 3089,
+    "sha256": "698d58f54199484a299a8ac767c292915b43889326ebee4079ff36a64787cb21",
+    "ended_utc": "2026-10-12T08:26:41.289064+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=806",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:42.711446+00:00",
+    "monotonic_start": 45.942791125,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:45 GMT",
+      "content-type": "application/json",
+      "content-length": "2841"
+    },
+    "raw_file": "raw/008_list_offset_806.json",
+    "bytes": 2841,
+    "sha256": "9f98d79776cc98402faa2319504fcbc0dbc80c83cf7b72635c280693c6e82748",
+    "ended_utc": "2026-10-12T08:26:45.716180+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=921",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:47.816493+00:00",
+    "monotonic_start": 51.047837833,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:52 GMT",
+      "content-type": "application/json",
+      "content-length": "2979"
+    },
+    "raw_file": "raw/009_list_offset_921.json",
+    "bytes": 2979,
+    "sha256": "94b73f88c58f7caad864f481d16709a76b1f59dc0e50f7ce342432e0d1919283",
+    "ended_utc": "2026-10-12T08:26:52.899587+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1036",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:52.920022+00:00",
+    "monotonic_start": 56.151358166,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:26:56 GMT",
+      "content-type": "application/json",
+      "content-length": "2970"
+    },
+    "raw_file": "raw/010_list_offset_1036.json",
+    "bytes": 2970,
+    "sha256": "a3a0dd636b1f5c65669f35cb6fc38b7f534bc7d5e23449e72eef7e1509164675",
+    "ended_utc": "2026-10-12T08:26:56.242471+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1151",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:26:58.024287+00:00",
+    "monotonic_start": 61.255617708,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:02 GMT",
+      "content-type": "application/json",
+      "content-length": "2919"
+    },
+    "raw_file": "raw/011_list_offset_1151.json",
+    "bytes": 2919,
+    "sha256": "d60ff0cc426455a28af668fe702592d5ca055725e727891a38c18f708998d7dd",
+    "ended_utc": "2026-10-12T08:27:02.325701+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1266",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:03.128830+00:00",
+    "monotonic_start": 66.360164375,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:06 GMT",
+      "content-type": "application/json",
+      "content-length": "2907"
+    },
+    "raw_file": "raw/012_list_offset_1266.json",
+    "bytes": 2907,
+    "sha256": "69f6b2e827ac6e80103ba1cf1a5e90a76341a36ba5fcfde23872bfe9ee8958bf",
+    "ended_utc": "2026-10-12T08:27:06.799075+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1381",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:08.233735+00:00",
+    "monotonic_start": 71.465054166,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:11 GMT",
+      "content-type": "application/json",
+      "content-length": "2714"
+    },
+    "raw_file": "raw/013_list_offset_1381.json",
+    "bytes": 2714,
+    "sha256": "a1d8a5f057db4823e631adf80428c4d65c2dc47269b314d8b50597f83eab2676",
+    "ended_utc": "2026-10-12T08:27:11.012105+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1497",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:13.338726+00:00",
+    "monotonic_start": 76.570042208,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:16 GMT",
+      "content-type": "application/json",
+      "content-length": "2719"
+    },
+    "raw_file": "raw/014_list_offset_1497.json",
+    "bytes": 2719,
+    "sha256": "df69939bb4461e8104267098f5f4026b2e6a3234f57785fab311396fb549eb73",
+    "ended_utc": "2026-10-12T08:27:16.030222+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1612",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:18.442159+00:00",
+    "monotonic_start": 81.673479083,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:21 GMT",
+      "content-type": "application/json",
+      "content-length": "2755"
+    },
+    "raw_file": "raw/015_list_offset_1612.json",
+    "bytes": 2755,
+    "sha256": "83de8cd5e02d26cde8471d0facc2471153b394d6b62c3a1d06636a807e1085df",
+    "ended_utc": "2026-10-12T08:27:21.834854+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1727",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:23.547257+00:00",
+    "monotonic_start": 86.778554166,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:26 GMT",
+      "content-type": "application/json",
+      "content-length": "2735"
+    },
+    "raw_file": "raw/016_list_offset_1727.json",
+    "bytes": 2735,
+    "sha256": "4a97cad791bf7bef747a8f2b8c07f7feb03c4721eb939ba0eac1fa7ef15eba45",
+    "ended_utc": "2026-10-12T08:27:26.718164+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1842",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:28.651453+00:00",
+    "monotonic_start": 91.882745791,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:31 GMT",
+      "content-type": "application/json",
+      "content-length": "2686"
+    },
+    "raw_file": "raw/017_list_offset_1842.json",
+    "bytes": 2686,
+    "sha256": "16c5c818ff820480f6dd50571a8c278453e59a18e45288c4f4edf97aaedc7d74",
+    "ended_utc": "2026-10-12T08:27:32.135006+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=1957",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:33.756515+00:00",
+    "monotonic_start": 96.9878025,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:36 GMT",
+      "content-type": "application/json",
+      "content-length": "2571"
+    },
+    "raw_file": "raw/018_list_offset_1957.json",
+    "bytes": 2571,
+    "sha256": "7bf2176816f9fea4d3a9f816858f43507df78034359d252fe679291618dc7854",
+    "ended_utc": "2026-10-12T08:27:36.124751+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=2072",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:38.857823+00:00",
+    "monotonic_start": 102.089111708,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:41 GMT",
+      "content-type": "application/json",
+      "content-length": "2579"
+    },
+    "raw_file": "raw/019_list_offset_2072.json",
+    "bytes": 2579,
+    "sha256": "92a84b7de6885b83c957298cdd8315bde9decab118c1582d90944d3aef016642",
+    "ended_utc": "2026-10-12T08:27:41.418257+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides?complexity.value=Monomer&targetSpecies.value=Escherichia+coli&limit=10&offset=2188",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:43.958911+00:00",
+    "monotonic_start": 107.19019375,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:46 GMT",
+      "content-type": "application/json",
+      "content-length": "2611"
+    },
+    "raw_file": "raw/020_list_offset_2188.json",
+    "bytes": 2611,
+    "sha256": "22ed0b80321e6253f8e78f35b937ecafa42035986eb330e4794a59d6a8b4fc86",
+    "ended_utc": "2026-10-12T08:27:46.728714+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/16",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:49.063969+00:00",
+    "monotonic_start": 112.295244291,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:27:53 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_16.json",
+    "bytes": 15000,
+    "sha256": "db5704a2c5616da5b331cb387f543437f459c9b9e14f9f6cd31b05250c3826b7",
+    "ended_utc": "2026-10-12T08:27:53.766156+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/36",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:27:54.166279+00:00",
+    "monotonic_start": 117.397563083,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:28:00 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_36.json",
+    "bytes": 17063,
+    "sha256": "3f7316621c2f3c8a865837d7907a09c93b5a8cb19fd91cc83ff9761d0654d741",
+    "ended_utc": "2026-10-12T08:28:01.143706+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/37",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:28:01.146780+00:00",
+    "monotonic_start": 124.37806075,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:28:25 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_37.json",
+    "bytes": 46638,
+    "sha256": "f2c18c1426fc4171f0f18f52d736b841248f07582a0094f961ed9eff33a144d5",
+    "ended_utc": "2026-10-12T08:28:26.399833+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/102",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:28:26.404955+00:00",
+    "monotonic_start": 149.636206416,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:28:34 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_102.json",
+    "bytes": 17664,
+    "sha256": "7ffdfbdb87aba100f5218f93c30c9ca61e8c77c6457daa2dc2372c6b1ddb45fd",
+    "ended_utc": "2026-10-12T08:28:34.864326+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/103",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:28:34.867469+00:00",
+    "monotonic_start": 158.098713916,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:28:37 GMT",
+      "content-type": "application/json",
+      "content-length": "5176"
+    },
+    "raw_file": "raw/detail_103.json",
+    "bytes": 5176,
+    "sha256": "add97b4245cfd34143dafb71fa8dccc326f206d5a947bd97a8c2c0b3daa80906",
+    "ended_utc": "2026-10-12T08:28:37.616812+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/107",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:28:39.972377+00:00",
+    "monotonic_start": 163.203595583,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:28:51 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_107.json",
+    "bytes": 11196,
+    "sha256": "54fee80453c8bb461b717222fcd9b796b740f29cdb2a0d9fbda0cec320c07a31",
+    "ended_utc": "2026-10-12T08:28:56.085224+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/108",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:28:56.088565+00:00",
+    "monotonic_start": 179.390022,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:07 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_108.json",
+    "bytes": 11596,
+    "sha256": "468d74e4b91f33d6d79bf54d3d93ec08c2fc1c03ce26a80cb7302eb925cad4b2",
+    "ended_utc": "2026-10-12T08:29:07.934077+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/109",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:07.937148+00:00",
+    "monotonic_start": 191.23872425,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:12 GMT",
+      "content-type": "application/json",
+      "content-length": "5203"
+    },
+    "raw_file": "raw/detail_109.json",
+    "bytes": 5203,
+    "sha256": "4dea53e35792ece6c48677dc25ba3b79eb752d2e408b20eb4017b488b6e4dbc9",
+    "ended_utc": "2026-10-12T08:29:12.180431+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/110",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:13.039592+00:00",
+    "monotonic_start": 196.341196458,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:16 GMT",
+      "content-type": "application/json",
+      "content-length": "5218"
+    },
+    "raw_file": "raw/detail_110.json",
+    "bytes": 5218,
+    "sha256": "2f3ee1ce4eff2f0381a9f301d3735aa58477242b0d3364f3f4332461c53c0026",
+    "ended_utc": "2026-10-12T08:29:16.041628+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/111",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:18.141619+00:00",
+    "monotonic_start": 201.443280083,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:21 GMT",
+      "content-type": "application/json",
+      "content-length": "5230"
+    },
+    "raw_file": "raw/detail_111.json",
+    "bytes": 5230,
+    "sha256": "08597799c16ba49e6af6f29549a89670fe5f454ff54f106d472ca6a998456898",
+    "ended_utc": "2026-10-12T08:29:21.007744+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/873",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:23.246622+00:00",
+    "monotonic_start": 206.548328916,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:30 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_873.json",
+    "bytes": 17916,
+    "sha256": "26f5c4a870300ccb3ef8e3b9cfbdba6b5c992ea9993f4b861067fbfc51da34d0",
+    "ended_utc": "2026-10-12T08:29:30.339413+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/874",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:30.349312+00:00",
+    "monotonic_start": 213.651112291,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:38 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_874.json",
+    "bytes": 18103,
+    "sha256": "61e752097c7c4c686a50566172014996c71ed0165fad27d44c3a4557b6dd96ae",
+    "ended_utc": "2026-10-12T08:29:39.144969+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/875",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:39.148411+00:00",
+    "monotonic_start": 222.450299125,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:41 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_875.json",
+    "bytes": 10183,
+    "sha256": "90ba69df1a488fd49d183a2fbba8931ea6fc9311fbb06131f45117d159924c49",
+    "ended_utc": "2026-10-12T08:29:41.687524+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/876",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:44.253427+00:00",
+    "monotonic_start": 227.555347375,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:49 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_876.json",
+    "bytes": 10153,
+    "sha256": "aa33e1acbc925eb81b0d590ea1a2b571a481fc3b808a35db12d9782aeb79ed5b",
+    "ended_utc": "2026-10-12T08:29:49.147565+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/877",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:49.357856+00:00",
+    "monotonic_start": 232.659830166,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:52 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_877.json",
+    "bytes": 10065,
+    "sha256": "f5052570beaf944d385a1c7c44696a0246e074ba5ffdc45eaf1fb7ad4f9312d6",
+    "ended_utc": "2026-10-12T08:29:52.450695+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/878",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:54.458772+00:00",
+    "monotonic_start": 237.760802,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:29:59 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_878.json",
+    "bytes": 11817,
+    "sha256": "cf2173fde25c85bb6e0dee03cecba87e3119860d5db8757c02281e77e3fdc225",
+    "ended_utc": "2026-10-12T08:29:58.961768+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/879",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:29:59.559580+00:00",
+    "monotonic_start": 242.861648416,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:30:05 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_879.json",
+    "bytes": 9892,
+    "sha256": "b084cec26b24ce9fbd893e8151674e6dbb2a96f71cf013bee711f40f68e64564",
+    "ended_utc": "2026-10-12T08:30:05.626535+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/880",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:30:05.630460+00:00",
+    "monotonic_start": 248.932608958,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:30:09 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_880.json",
+    "bytes": 9761,
+    "sha256": "fea2efadcddaf33929136f673d1490544f7eb8a34462496df5fa0e170494d0aa",
+    "ended_utc": "2026-10-12T08:30:09.207073+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/881",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:30:10.733369+00:00",
+    "monotonic_start": 254.035555291,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:30:15 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_881.json",
+    "bytes": 10265,
+    "sha256": "44455d28e84f156999eedcb4d7f5a0b1d6e1d8f3d771bfd4173e0763742ba7e9",
+    "ended_utc": "2026-10-12T08:30:15.146655+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/882",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:30:15.838430+00:00",
+    "monotonic_start": 259.140640125,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:30:21 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_882.json",
+    "bytes": 10161,
+    "sha256": "ba6181aa2d10eccde2858eeaf1be7a484117a2ef399fd5d10c5809eb75dfab70",
+    "ended_utc": "2026-10-12T08:30:21.107415+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1666",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:30:21.112263+00:00",
+    "monotonic_start": 264.414569333,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:30:24 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_1666.json",
+    "bytes": 8297,
+    "sha256": "f42446eb48fbb6e9b5502135b59e3ebb59d38d20e9942baf82e114118ac6a0de",
+    "ended_utc": "2026-10-12T08:30:24.456407+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1681",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:30:26.216041+00:00",
+    "monotonic_start": 269.518379458,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:30:29 GMT",
+      "content-type": "application/json",
+      "content-length": "6250"
+    },
+    "raw_file": "raw/detail_1681.json",
+    "bytes": 6250,
+    "sha256": "6ba0d714aae3d4250c372674bb60bf8bba4505c27a4b6ef6088b355bdeb291eb",
+    "ended_utc": "2026-10-12T08:30:29.914051+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1688",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:30:31.321046+00:00",
+    "monotonic_start": 274.623440583,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:30:59 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_1688.json",
+    "bytes": 56262,
+    "sha256": "7529178c23f93646a4ad8086c810fa6ba4f8c3b34bdcf1488b20254126637334",
+    "ended_utc": "2026-10-12T08:31:00.564260+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1689",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:00.569227+00:00",
+    "monotonic_start": 303.871927916,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:11 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_1689.json",
+    "bytes": 19801,
+    "sha256": "1d34148331e08ed3ca6cfa9c9a514f0f513f20a9db352e557361a851d3db2ef0",
+    "ended_utc": "2026-10-12T08:31:11.920206+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1716",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:11.925255+00:00",
+    "monotonic_start": 315.228069291,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:16 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_1716.json",
+    "bytes": 18113,
+    "sha256": "6a2022658881743068b1ddaadb01f4cbda6d162f2e141ab3f05ee3daa239db32",
+    "ended_utc": "2026-10-12T08:31:16.796102+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1737",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:17.029651+00:00",
+    "monotonic_start": 320.332495375,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:23 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_1737.json",
+    "bytes": 30470,
+    "sha256": "2e57734923d61ed091bc41378077e5516e3d1caf543b7f4c061a626081f8574d",
+    "ended_utc": "2026-10-12T08:31:23.926666+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1738",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:23.932450+00:00",
+    "monotonic_start": 327.235384333,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:28 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_1738.json",
+    "bytes": 16757,
+    "sha256": "6985e1f20dc8b34e794a895f450fd0aecb3e33924d663c52337f8845544d0a3a",
+    "ended_utc": "2026-10-12T08:31:28.494595+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1773",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:29.037499+00:00",
+    "monotonic_start": 332.340463083,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:33 GMT",
+      "content-type": "application/json",
+      "content-length": "5642"
+    },
+    "raw_file": "raw/detail_1773.json",
+    "bytes": 5642,
+    "sha256": "0e09ed0784a052c6931fef10c35f6c592abf2513b42c5dec74b797bde1a18ab6",
+    "ended_utc": "2026-10-12T08:31:33.531510+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1783",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:34.141577+00:00",
+    "monotonic_start": 337.444595916,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:45 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_1783.json",
+    "bytes": 24550,
+    "sha256": "87d5cbc147b0221a1e1950150c7b7ee2b2ace635786d06cca242cf31784a9b28",
+    "ended_utc": "2026-10-12T08:31:45.723657+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/1821",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:45.728735+00:00",
+    "monotonic_start": 349.03188475,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:50 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_1821.json",
+    "bytes": 10828,
+    "sha256": "36960a9154aff86cb36fbdda53edc23088babd1729f478d916d0040ab8e87a52",
+    "ended_utc": "2026-10-12T08:31:50.266958+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2396",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:50.833747+00:00",
+    "monotonic_start": 354.136931791,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:53 GMT",
+      "content-type": "application/json",
+      "content-length": "6017"
+    },
+    "raw_file": "raw/detail_2396.json",
+    "bytes": 6017,
+    "sha256": "872c4f99e591a8a1e7bddf96ad4a1f6563b1889ec5538d8772c0532632e90a97",
+    "ended_utc": "2026-10-12T08:31:53.719829+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2397",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:31:55.936474+00:00",
+    "monotonic_start": 359.239690166,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:31:58 GMT",
+      "content-type": "application/json",
+      "content-length": "5877"
+    },
+    "raw_file": "raw/detail_2397.json",
+    "bytes": 5877,
+    "sha256": "1e5a6bb52183b1a1c182a37706d71365898fe2a21487adc965a59206d2429b7f",
+    "ended_utc": "2026-10-12T08:31:58.519037+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2398",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:01.037932+00:00",
+    "monotonic_start": 364.341177708,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:07 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_2398.json",
+    "bytes": 17233,
+    "sha256": "e96004d2184f75dbbe808a67510f32a4a42a6767199da044646734c367e54d9c",
+    "ended_utc": "2026-10-12T08:32:07.491209+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2399",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:07.496451+00:00",
+    "monotonic_start": 370.799816958,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:10 GMT",
+      "content-type": "application/json",
+      "content-length": "5675"
+    },
+    "raw_file": "raw/detail_2399.json",
+    "bytes": 5675,
+    "sha256": "cf3c092ccc44e1c365ff2418aaa47990d2da5c8b11cec923ea532ac471ebef82",
+    "ended_utc": "2026-10-12T08:32:10.020815+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2400",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:12.599585+00:00",
+    "monotonic_start": 375.9029865,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:15 GMT",
+      "content-type": "application/json",
+      "content-length": "5671"
+    },
+    "raw_file": "raw/detail_2400.json",
+    "bytes": 5671,
+    "sha256": "0bbdc2b8fa3bfee61f8db7c26c1d30a0fb01493c604d8175c9e5baf8a3b61ea1",
+    "ended_utc": "2026-10-12T08:32:15.811145+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2401",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:17.704578+00:00",
+    "monotonic_start": 381.008032083,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:21 GMT",
+      "content-type": "application/json",
+      "content-length": "5668"
+    },
+    "raw_file": "raw/detail_2401.json",
+    "bytes": 5668,
+    "sha256": "95f2e0a72c4431f24704f5ec2e02c18e9907c629993a04244599970fc91b189f",
+    "ended_utc": "2026-10-12T08:32:21.560494+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2425",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:22.805711+00:00",
+    "monotonic_start": 386.109213125,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:25 GMT",
+      "content-type": "application/json",
+      "content-length": "6113"
+    },
+    "raw_file": "raw/detail_2425.json",
+    "bytes": 6113,
+    "sha256": "d86fe51a758aff1940caef7e5b469a67c1a8a03f0d01c028efac033ef0c66636",
+    "ended_utc": "2026-10-12T08:32:25.157417+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2426",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:27.910772+00:00",
+    "monotonic_start": 391.214317541,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:31 GMT",
+      "content-type": "application/json",
+      "content-length": "5555"
+    },
+    "raw_file": "raw/detail_2426.json",
+    "bytes": 5555,
+    "sha256": "4d72c6deefa8abfd27594b5bb7eaf17f017e9ee40f8680e3bf10ce579da34772",
+    "ended_utc": "2026-10-12T08:32:31.247684+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2427",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:33.011882+00:00",
+    "monotonic_start": 396.315482416,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:36 GMT",
+      "content-type": "application/json",
+      "content-length": "6121"
+    },
+    "raw_file": "raw/detail_2427.json",
+    "bytes": 6121,
+    "sha256": "cf108d795e0fadbd55c7020e67a97e5e0422c9fc886ab4ad74539e191caf4f1e",
+    "ended_utc": "2026-10-12T08:32:36.256053+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/2428",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:38.116898+00:00",
+    "monotonic_start": 401.420549833,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:41 GMT",
+      "content-type": "application/json",
+      "content-length": "6015"
+    },
+    "raw_file": "raw/detail_2428.json",
+    "bytes": 6015,
+    "sha256": "bee510baa37c2751edec7a6920ed6accadbc47816e6f6d1eaa47293bb649a3c6",
+    "ended_utc": "2026-10-12T08:32:41.038060+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3086",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:43.221958+00:00",
+    "monotonic_start": 406.525637291,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:46 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_3086.json",
+    "bytes": 8292,
+    "sha256": "3319f433d88435aa32f6ffb5d06c785ba885b3683b365be7e5fb8b7b5ec81094",
+    "ended_utc": "2026-10-12T08:32:46.775042+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3087",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:48.326929+00:00",
+    "monotonic_start": 411.630687708,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:53 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_3087.json",
+    "bytes": 8250,
+    "sha256": "bc82ea90e13c7f042f98425a073e07ac5f54c8922111e9dd2a563f7ef5cc0d19",
+    "ended_utc": "2026-10-12T08:32:53.057756+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3088",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:53.431934+00:00",
+    "monotonic_start": 416.735742541,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:32:59 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_3088.json",
+    "bytes": 8256,
+    "sha256": "d279d912fec38eeffe322878f42455192b7b0d865566d0fb230a59764d41551c",
+    "ended_utc": "2026-10-12T08:32:59.038706+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3198",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:32:59.040086+00:00",
+    "monotonic_start": 422.343971875,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:07 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_3198.json",
+    "bytes": 21674,
+    "sha256": "5c396d9e3fa2bbf3177258d5c8914904704bac0fe126dbfbe61e582448c4db3a",
+    "ended_utc": "2026-10-12T08:33:07.508855+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3199",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:07.514039+00:00",
+    "monotonic_start": 430.8180055,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:10 GMT",
+      "content-type": "application/json",
+      "content-length": "6077"
+    },
+    "raw_file": "raw/detail_3199.json",
+    "bytes": 6077,
+    "sha256": "18292d7ae29bf23df2e4b7c8e681f2401d36477c5e5c53356376bd3201a0540e",
+    "ended_utc": "2026-10-12T08:33:10.821772+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3224",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:12.618867+00:00",
+    "monotonic_start": 435.922867208,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:15 GMT",
+      "content-type": "application/json",
+      "content-length": "4926"
+    },
+    "raw_file": "raw/detail_3224.json",
+    "bytes": 4926,
+    "sha256": "44b81674e8a695ac774bdaee04441225201fe7235e9881f6d1d75788d1a18a83",
+    "ended_utc": "2026-10-12T08:33:15.475964+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3225",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:17.723880+00:00",
+    "monotonic_start": 441.027934458,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:23 GMT",
+      "content-type": "application/json",
+      "content-length": "7429"
+    },
+    "raw_file": "raw/detail_3225.json",
+    "bytes": 7429,
+    "sha256": "7360a5cedcdbe2c62af50ffc2ec4afe9e4bcd1d8a391e9c3625add932e22958e",
+    "ended_utc": "2026-10-12T08:33:23.250082+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3226",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:23.256035+00:00",
+    "monotonic_start": 446.560161708,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:28 GMT",
+      "content-type": "application/json",
+      "content-length": "4983"
+    },
+    "raw_file": "raw/detail_3226.json",
+    "bytes": 4983,
+    "sha256": "3e4638d5f257d9d402a7ed422230eb15888e4a9f6366652e9619079a952a6c8f",
+    "ended_utc": "2026-10-12T08:33:28.481186+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3232",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:28.485284+00:00",
+    "monotonic_start": 451.789463375,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:37 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_3232.json",
+    "bytes": 26804,
+    "sha256": "50a2b0a3a2e2f5a128e701fd69692f1ede8b2d3f312dbf44e8a918ed29b470b2",
+    "ended_utc": "2026-10-12T08:33:37.659178+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/3301",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:37.666350+00:00",
+    "monotonic_start": 460.970619958,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:42 GMT",
+      "content-type": "application/json",
+      "content-length": "7504"
+    },
+    "raw_file": "raw/detail_3301.json",
+    "bytes": 7504,
+    "sha256": "b617204afac1406670041260f5fa3f43da50efe1df6253b869c5b0593abb5faa",
+    "ended_utc": "2026-10-12T08:33:42.251469+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4013",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:42.771366+00:00",
+    "monotonic_start": 466.075665708,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:44 GMT",
+      "content-type": "application/json",
+      "content-length": "3865"
+    },
+    "raw_file": "raw/detail_4013.json",
+    "bytes": 3865,
+    "sha256": "59fbfb410c4364e0544fc770dcffae0f5a2f93f331311da8e1e230e726504f5b",
+    "ended_utc": "2026-10-12T08:33:44.843115+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4014",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:47.875758+00:00",
+    "monotonic_start": 471.18011275,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:51 GMT",
+      "content-type": "application/json",
+      "content-length": "3879"
+    },
+    "raw_file": "raw/detail_4014.json",
+    "bytes": 3879,
+    "sha256": "bea65473b5293bed7abd7be342d6ba843c351374caf4896edca64679d885d6ac",
+    "ended_utc": "2026-10-12T08:33:51.420003+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4015",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:52.980759+00:00",
+    "monotonic_start": 476.285162291,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:33:57 GMT",
+      "content-type": "application/json",
+      "content-length": "4848"
+    },
+    "raw_file": "raw/detail_4015.json",
+    "bytes": 4848,
+    "sha256": "e90fa6534876fc92ad4210112048ee99463705cf868656628cff5265fc321d15",
+    "ended_utc": "2026-10-12T08:33:57.158534+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4016",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:33:58.090739+00:00",
+    "monotonic_start": 481.395202583,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:02 GMT",
+      "content-type": "application/json",
+      "content-length": "4836"
+    },
+    "raw_file": "raw/detail_4016.json",
+    "bytes": 4836,
+    "sha256": "e898b3412d9f9e4c2ea194ce373d0f4a88de88e68e34849b2f48e14432aaedc4",
+    "ended_utc": "2026-10-12T08:34:02.074073+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4017",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:03.190804+00:00",
+    "monotonic_start": 486.495309666,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:07 GMT",
+      "content-type": "application/json",
+      "content-length": "3847"
+    },
+    "raw_file": "raw/detail_4017.json",
+    "bytes": 3847,
+    "sha256": "5cb86f2d8713556795aa044bb4f3f9db7ebccc3197078e27d0cd9b21652e8d0c",
+    "ended_utc": "2026-10-12T08:34:06.963558+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4018",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:08.300183+00:00",
+    "monotonic_start": 491.604737833,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:11 GMT",
+      "content-type": "application/json",
+      "content-length": "3852"
+    },
+    "raw_file": "raw/detail_4018.json",
+    "bytes": 3852,
+    "sha256": "824f559055163c41dc36dd12ada42f07224dc23e774fb9140bbb40c20c0bdd61",
+    "ended_utc": "2026-10-12T08:34:11.396117+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4019",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:13.410200+00:00",
+    "monotonic_start": 496.714803958,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:16 GMT",
+      "content-type": "application/json",
+      "content-length": "4791"
+    },
+    "raw_file": "raw/detail_4019.json",
+    "bytes": 4791,
+    "sha256": "c52439bfb8aa95795f989639ed23efec997481e728f78b503d345756d9a50bfa",
+    "ended_utc": "2026-10-12T08:34:16.230232+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4020",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:18.520212+00:00",
+    "monotonic_start": 501.82486625,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:23 GMT",
+      "content-type": "application/json",
+      "content-length": "4801"
+    },
+    "raw_file": "raw/detail_4020.json",
+    "bytes": 4801,
+    "sha256": "288540b3ee87da1ed5332263e0dfe63be186522a6bbfda5daa9d78cd49f1f48a",
+    "ended_utc": "2026-10-12T08:34:23.675557+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4021",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:23.680097+00:00",
+    "monotonic_start": 506.984827916,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:27 GMT",
+      "content-type": "application/json",
+      "content-length": "3873"
+    },
+    "raw_file": "raw/detail_4021.json",
+    "bytes": 3873,
+    "sha256": "f40f85341fc99acec28b5cff7c8f58840d3b7f4e4dc91c386d5c5bf1e3827661",
+    "ended_utc": "2026-10-12T08:34:27.743975+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4022",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:28.788268+00:00",
+    "monotonic_start": 512.093043083,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:34 GMT",
+      "content-type": "application/json",
+      "content-length": "3856"
+    },
+    "raw_file": "raw/detail_4022.json",
+    "bytes": 3856,
+    "sha256": "c5fcf5652e49e5911a95e67100c0a0cb201b7d24094665e49f95d3811548e1f2",
+    "ended_utc": "2026-10-12T08:34:34.230307+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4339",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:34.235563+00:00",
+    "monotonic_start": 517.5403985,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:39 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_4339.json",
+    "bytes": 8897,
+    "sha256": "56725285c44ab3b828d5a18e550022a8394b98f03c5a1960021ed60696622539",
+    "ended_utc": "2026-10-12T08:34:39.459772+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4340",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:39.463330+00:00",
+    "monotonic_start": 522.768218291,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:43 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_4340.json",
+    "bytes": 11906,
+    "sha256": "d1d5c0281fe2ab4c7b484e1f9cb62fdc9e5833651884296d40c1f894720f36f5",
+    "ended_utc": "2026-10-12T08:34:43.134968+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4341",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:44.570359+00:00",
+    "monotonic_start": 527.875279583,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:48 GMT",
+      "content-type": "application/json",
+      "content-length": "6962"
+    },
+    "raw_file": "raw/detail_4341.json",
+    "bytes": 6962,
+    "sha256": "3d611b728f48e4a2b9422b2507ed7cec5371916cd68a0fe3e2a25e55619cca08",
+    "ended_utc": "2026-10-12T08:34:48.075917+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4342",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:49.672559+00:00",
+    "monotonic_start": 532.977530458,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:53 GMT",
+      "content-type": "application/json",
+      "content-length": "5207"
+    },
+    "raw_file": "raw/detail_4342.json",
+    "bytes": 5207,
+    "sha256": "ce1ffc3aaa1fe883f37b1eb32583319e1638d05a557c62b6a9b536e050da7826",
+    "ended_utc": "2026-10-12T08:34:53.347688+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4347",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:54.779778+00:00",
+    "monotonic_start": 538.084803166,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:34:58 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_4347.json",
+    "bytes": 14012,
+    "sha256": "e9f3ab11530760388c9ceff2d9a2b371d919e4e87bdc7bacd67077700aca2ee3",
+    "ended_utc": "2026-10-12T08:34:58.207180+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4352",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:34:59.887489+00:00",
+    "monotonic_start": 543.192561375,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:35:07 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_4352.json",
+    "bytes": 13270,
+    "sha256": "704ec82773cd43d96f17b8a583f5dc0df944a33ae8c3777dfc2bf7598ae4eedd",
+    "ended_utc": "2026-10-12T08:35:07.045312+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4379",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:35:07.050633+00:00",
+    "monotonic_start": 550.355796666,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:35:11 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_4379.json",
+    "bytes": 8935,
+    "sha256": "74eeae41ea35e650a5c6b690e120b2d28196c9ed3ea3eebe8ec03e30d595d0f7",
+    "ended_utc": "2026-10-12T08:35:11.904610+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4380",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:35:12.160669+00:00",
+    "monotonic_start": 555.465857208,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:35:16 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_4380.json",
+    "bytes": 8982,
+    "sha256": "c0c6da4bede79a286596d7904a8c03d147ec23e5cb95bcdc08aab7f57ab4dd4f",
+    "ended_utc": "2026-10-12T08:35:16.146237+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4407",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:35:17.268112+00:00",
+    "monotonic_start": 560.57334825,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:35:29 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_4407.json",
+    "bytes": 12274,
+    "sha256": "ef71cca4d1dd280aff768b87e3f5d953c1d198eae41a0ff4629bb1f6065c6bd1",
+    "ended_utc": "2026-10-12T08:35:29.745743+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/4476",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:35:29.750264+00:00",
+    "monotonic_start": 573.055654458,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:35:36 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_4476.json",
+    "bytes": 18757,
+    "sha256": "8d122fc93f333dae38b691e63156ef973840d20760158b7ae82c2f213c124e7e",
+    "ended_utc": "2026-10-12T08:35:36.769750+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/5518",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:35:36.775124+00:00",
+    "monotonic_start": 580.080584708,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:35:43 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_5518.json",
+    "bytes": 14794,
+    "sha256": "6436abc41781cb015b4f13c35febb9a5221047fef73c0450d0bee27b3fe81fba",
+    "ended_utc": "2026-10-12T08:35:43.655954+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/5545",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:35:43.662314+00:00",
+    "monotonic_start": 586.9678425,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:35:47 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_5545.json",
+    "bytes": 8960,
+    "sha256": "d3675d9dcf7a4b4028ba8b3b95d8d697de7d57bb5f3c00a173d8c4bef173754c",
+    "ended_utc": "2026-10-12T08:35:47.821219+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/5546",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:35:48.763582+00:00",
+    "monotonic_start": 592.069143041,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:36:03 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_5546.json",
+    "bytes": 10937,
+    "sha256": "f0fdd039c6511f1a923a673cc586cf2b78811de067e20be5ba4949b2d30015a8",
+    "ended_utc": "2026-10-12T08:36:03.723138+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/5547",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:36:03.727832+00:00",
+    "monotonic_start": 607.033562625,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:36:15 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_5547.json",
+    "bytes": 12631,
+    "sha256": "7f6ec0f6f835f28166bf8c11179e67ab54a48358f61bbb3252974cb7673724e4",
+    "ended_utc": "2026-10-12T08:36:15.226459+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/5548",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:36:15.232240+00:00",
+    "monotonic_start": 618.538084583,
+    "attempt": 1,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 08:36:30 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_5548.json",
+    "bytes": 10482,
+    "sha256": "a33cb84318be6f42a733ae3accfeddc7869d51aaf00f09519bc9573922853d78",
+    "ended_utc": "2026-10-12T08:36:30.429819+00:00"
+  },
+  {
+    "url": "https://dbaasp.org/peptides/5549",
+    "method": "GET",
+    "started_utc": "2026-10-12T08:36:30.435545+00:00",
+    "monotonic_start": 633.741541625,
+    "attempt": 1,
+    "ended_utc": "2026-10-12T08:37:01.372615+00:00",
+    "error": "timeout: The read operation timed out"
+  }
+]

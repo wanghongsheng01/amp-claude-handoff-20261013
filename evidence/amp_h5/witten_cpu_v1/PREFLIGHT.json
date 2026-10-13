@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-12T08:45:35.184266+00:00",
+  "initial_sandbox_ps": "PermissionError operation not permitted; retained here",
+  "approved_read_only_ps": "ps -axo pid,ppid,etime,command | rg (amp_h5|h5_) excluding command wrappers",
+  "result_exit_code": 1,
+  "matching_processes": [],
+  "decision": "NO_ACTIVE_H5_MODEL_OBSERVED",
+  "single_model_slot": "Assigned by root to witten_local_impl; other agents forbidden model execution"
+}

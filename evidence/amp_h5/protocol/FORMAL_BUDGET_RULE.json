@@ -1,0 +1,18 @@
+{
+  "scope": "Budget selection from real smoke throughput only, before any formal training or dev outcome",
+  "formal_vae_updates": 1000,
+  "formal_ddpm_updates": 1000,
+  "formal_ar_updates": 1000,
+  "vae_cap_seconds": "round_up_to_60(1.5 * 1000 * max_across_3_arms(mean recorded VAE update duration) + 120)",
+  "ddpm_cap_seconds": "round_up_to_60(1.5 * 1000 * max_across_3_arms(mean recorded DDPM update duration) + 120)",
+  "common_total_training_cap_seconds": "vae_cap_seconds + ddpm_cap_seconds; if sum exceeds3600, do not auto-launch and record budget infeasibility",
+  "generation_cap_seconds_per_method": 1800,
+  "generation_cap_basis": "Frozen H4 actual full generation1126.20s for96 shared requests, of which32 terminal-DDPM requests dominate;1800 is finite headroom, not a runtime prediction",
+  "ar_basis": "1000 updates approximately111epochs for279 rows,batch32; source LSTM_peptides example100epochs. Same maximum runtime, different actual cost. Do not deliberately spend unused cap through overtraining.",
+  "monitoring": "every100 VAE/AR updates,10fixed points; no checkpoint or hyperparameter selection; time charged to training cap",
+  "if_smoke_training_fails": "No formal automatic launch until independent diagnosis and separately frozen correction. Preserve failed smoke.",
+  "if_smoke_generation_fails": "Retain every failure. Independent diagnosis distinguishes implementation defect from undertrained numerical generation instability; no sigma clipping, retry or fewer reverse steps. Formal authorization requires explicit recorded justification and keeps finite failure policy.",
+  "model_selection_by_smoke_quality": false,
+  "retries": 0,
+  "new_train_seeds": 0
+}

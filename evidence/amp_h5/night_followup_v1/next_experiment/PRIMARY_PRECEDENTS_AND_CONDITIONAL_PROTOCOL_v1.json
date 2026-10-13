@@ -1,0 +1,176 @@
+{
+  "status": "CONDITIONAL_CONCEPT_PRELOCK_PENDING_ACTUAL_DIAGNOSTIC_AND_EXACT_ENGINEERING_CONTRACT",
+  "created_utc": "2026-10-11T20:55:13.644239+00:00",
+  "identity": "AMP H5 only; next single-component experiment, not new manuscript or method claim",
+  "sources": [
+    {
+      "id": "AMP_CLASS_PUBLICATION",
+      "url": "https://www.nature.com/articles/s41551-021-00689-x",
+      "verified": "Das et al., Accelerated antimicrobial discovery via deep generative models and molecular dynamics simulations, Nature Biomedical Engineering 5:613–623, published 11 March 2021; publisher links official IBM code. Author correction exists 28 June 2021.",
+      "access": "Publisher bibliographic record/abstract/code availability; detailed methods below from author manuscript and official code, not claimed publisher full-text access."
+    },
+    {
+      "id": "AMP_CLASS_METHODS",
+      "url": "https://arxiv.org/html/2005.11248",
+      "locations": [
+        "Methods autoencoder objective",
+        "Supplementary 6.1.1–6.1.4",
+        "density model Q section"
+      ],
+      "verified": "Compares beta-VAE and WAE; VAE KL anneals 0 to .03 or 1; separate heldout reconstruction and prior sample evaluations. Aggregate posterior z density fitted by GMM; paper uses 10 posterior samples per training example and 100 diagonal components selected on heldout likelihood.",
+      "boundary": "Large additional unlabeled data, optimization search, recurrent autoregressive decoder and filtering chain differ from H5; do not copy quantitative optimum or call H5 a reproduction."
+    },
+    {
+      "id": "AMP_CLASS_TRAIN_CODE",
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/train_vae.py",
+      "lines": "21–34",
+      "verified": "Calls model sample_z=1, separates reconstruction and z_regularizer; beta=utils.anneal; loss=reconstruction+beta*z_regu_loss plus optional variance terms.",
+      "boundary": "H5 already trains on stochastic posterior; adding another noise term or whole WAE changes more than KL schedule. Optional variance penalties will not be transferred."
+    },
+    {
+      "id": "AMP_CLASS_SAMPLE_CODE",
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/static_eval.py",
+      "lines": "96–122",
+      "verified": "Separately invokes reconstruction from sample_q=max and sampled q; decoder beam/categorical settings are separate decisions.",
+      "boundary": "Mean decode does not estimate random posterior reconstruction. H5 J/PAD differs from recurrent beam decoder."
+    },
+    {
+      "id": "AMP_CLASS_DENSITY_CODE",
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/density_modeling.py",
+      "lines": "57–87",
+      "verified": "mogQ fits sklearn GaussianMixture to mu+exp(.5*logvar)*epsilon; gaussianQ uses Cov(mu)+diag(mean(exp(logvar))).",
+      "boundary": "Official repository mechanism, not proof gaussianQ was the paper final method. H5 field is log-sigma, requiring exp(2*logs) for variance. Full replacement remains a source-model change and is not admitted now."
+    },
+    {
+      "id": "AMP_AR_PUBLICATION",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acs.jcim.7b00414",
+      "verified": "Müller et al., Recurrent Neural Network Model for Constructive Peptide Design, JCIM 2018 58(2):472–479, helical AMP sequence-generation study.",
+      "corroborating_author_abstract": "https://pubmed.ncbi.nlm.nih.gov/29355319/",
+      "access": "ACS search record and author abstract; direct publisher full text unavailable."
+    },
+    {
+      "id": "AMP_AR_CODE",
+      "url": "https://raw.githubusercontent.com/alexarnimueller/LSTM_peptides/master/LSTM_peptides.py",
+      "lines": "444–489;511–535",
+      "verified": "LSTM input and recurrent dropout per layer, categorical objective and validation tracking; dropout=0.1 produces layerwise .1/.2 in author implementation.",
+      "boundary": "H5 PyTorch inter-layer dropout alone is not this exact mechanism; changed regularization would be a separate baseline adaptation, not H5 innovation."
+    },
+    {
+      "id": "AEVB",
+      "url": "https://arxiv.org/html/1312.6114v11",
+      "locations": "Eq(3)–(7), section2.3",
+      "verified": "Expected reconstruction under learned approximate posterior q_phi is estimated through reparameterized samples. q_phi is not the intractable true posterior p_theta.",
+      "boundary": "A decoder evaluated at latent mean does not generally equal expected decoder distortion; finite K is Monte Carlo, not proof of zero gap."
+    },
+    {
+      "id": "MMD",
+      "url": "https://jmlr.org/papers/volume13/gretton12a/gretton12a.pdf",
+      "locations": "sections2.1–2.2, Theorem5 and discussion of characteristic kernels",
+      "verified": "MMD is an RKHS mean-embedding discrepancy; distribution-identifying conclusions require sufficient kernel richness and statistical test assumptions.",
+      "boundary": "H5 finite421-feature linear MMD measures differences of those feature means. Resampling existing outputs does not create independent trained models or a p-value automatically."
+    }
+  ],
+  "public_code_version_limit": "Read mutable master URLs on this turn; GitHub commit API/page failed. No official code installed or executed; no immutable commit asserted.",
+  "comparative_candidates": [
+    {
+      "id": "KL_SCHEDULE_ONLY",
+      "precedent": "Das/CLaSS 2021 beta-VAE branch",
+      "minimal_change": "Constant density-KL beta=1 versus linear warm-up to the same final beta=1; keep CE21, architecture, decoder J, scaler, data and all optimizers fixed.",
+      "status": "ONLY_SELECTED_CONDITIONAL_TRAINING_CANDIDATE",
+      "why": "Tests an optimization/regularization tradeoff within the existing VAE, without assuming DDPM is the bottleneck. Schedule is a mature method adaptation."
+    },
+    {
+      "id": "AGGREGATE_Z_DENSITY",
+      "precedent": "Das/CLaSS 2021 Q density plus official mogQ/gaussianQ",
+      "minimal_change": "Freeze CE encoder/decoder and replace learned source distribution with train-only aggregate decoder-z density.",
+      "status": "NOT_SELECTED",
+      "why": "B empirical posterior did not reduce dev MMD in both terminals; stochastic heldout decoder pathway and distribution sensitivity still unresolved. GMM dimension/component choices add fitting opportunities with only279 rows."
+    },
+    {
+      "id": "AR_REGULARIZATION",
+      "precedent": "Müller 2018 official LSTM dropout",
+      "minimal_change": "One explicitly implemented dropout mechanism while holding AR architecture/loss/data/schedule fixed.",
+      "status": "NOT_SELECTED_THIS_H5_COMPONENT_EXPERIMENT",
+      "why": "Existing AR overfit means this remains an adequacy issue, but it diagnoses baseline training rather than posterior-path damage. No claim H5 beats a strong AR will be admitted."
+    }
+  ],
+  "RMS_admission": {
+    "required": "Independent complete all-train279/dev41 R/M/S same-checkpoint diagnosis, K=8 fixed posterior draws (maximum8), identical legal J/PAD, original nonPAD target positions, all failures retained. A train32 donor subset alone is insufficient to qualify the all-dev gate.",
+    "R": "Original sequence target after verified preprocessing/readout identity; representation roundtrip error separately reported.",
+    "M": "Deterministic encoder-mean path through every actual downstream posterior transform; if nonlinear posterior flow is present, transformed base mean is not generally final posterior mean. Native prior flow must not be inserted into the posterior decoder route.",
+    "S": "K learned-q approximate posterior samples, complete actual decoder path; not true Bayes posterior.",
+    "per_sequence_statistic": "delta_i = accuracy_nonPAD(M_i,x_i) - (1/K)*sum_k accuracy_nonPAD(S_ik,x_i). Primary gap is unweighted mean delta_i over dev41; train279 and terminal strata separate. This is neither residue-weighted micro nor supported-AA macro.",
+    "resource_trigger": "mean delta on complete dev41 >=0.05. This user-proposed5pp is only a resource-allocation threshold, not significance or proof KL causes damage.",
+    "failure_or_incomplete": "Missing full dev S, any unresolved route/target/shape mismatch, incomplete slots, or a mean gap below5pp => no new VAE/DDPM training under this conditional protocol.",
+    "interpretation": "S worse than M supports examining stochastic pathway scale/robustness; both bad supports broader representation/information loss; similar M/S weakens posterior-noise explanation. None uniquely identifies DDPM."
+  },
+  "conditional_protocol": {
+    "execution_authorized": false,
+    "only_changed_component": "density-KL coefficient schedule",
+    "control": "Frozen CE21 constant beta1 trained1000; read-only historical control, no claim new randomized replication.",
+    "candidate_schedule": "beta(u)=min(1,u/500), updates u=1..1000; final500 updates at beta1. 500-update choice is explicit H5 adaptation, not an optimal setting from the AMP paper.",
+    "not_changed": [
+      "CE loss reduction B*48",
+      "encoder/decoder/prior-flow architecture",
+      "latent dimension",
+      "J/PAD readout",
+      "train279/dev41/test37 partition",
+      "train-fitted descriptor scaler",
+      "VAE learning-rate warmup",
+      "optimizer/clip/batch sizes",
+      "DDPM target (mu,logsigma), schedule and architecture",
+      "generation terminal-only information",
+      "no external/pretrained data"
+    ],
+    "budget": "At most one new VAE1000+own train re-encoding+own DDPM1000; CPU1thread serial. Retain frozen phase caps VAE1920s,DDPM1020s,totaltrain2940s,generation1800s. Prior observed complete comparable model jobs ~2868–2878s are evidence of feasibility, not guaranteed runtime. No retries, second beta, endpoint extension or best-dev selection.",
+    "seeds": "For matched deterministic-stream mechanism comparison inherit init/shuffle/VAE222,DDPM322,generation422/423,16 attempts per terminal. Admit only after exact RNG/batch coupling and no extra noise consumption are verified. These are common random inputs, not independent model replicas.",
+    "evaluation": "All existing generated metrics/denominators/negative outcomes; same K=8 R/M/S per-sequence distortion after training, plus micro/macro/length/exact summaries. Train and dev reported separately, no test. Each new latent representation must use its own newly trained DDPM; never plug into old DDPM.",
+    "failure_criteria": [
+      "Any incomplete/numerically invalid job: engineering fail, retain slots, do not promote.",
+      "Primary reconstruction hypothesis unsupported if new dev mean stochastic accuracy fails to improve by5pp versus constant-beta control, or the M−S gap fails to shrink; improvement of M alone is insufficient.",
+      "End-to-end benefit unsupported unless fixed both-terminal dev MMD decreases relative to CE control and valid5/48 denominators, exact-copy/nearest and all remaining metrics are reported; mixed metrics prevent overall superiority claim. No revised thresholds after seeing results.",
+      "A favorable single-fit pilot still does not establish novelty, general superiority, strong-AR superiority, statistical significance or activity."
+    ],
+    "fairness": "Same fixed update/configuration opportunity for CE control and candidate; new one-candidate opportunity and diagnostic-informed choice disclosed. AR fixed terminal-LSTM remains same-information contextual baseline, with known overfit and unequal real compute disclosed. Cannot claim strong-baseline victory without a separate predeclared balanced baseline adequacy comparison.",
+    "no_trigger_priorities": "Do not restart VAE/DDPM. Preserve residue-class and per-sequence error profile, train/dev homology and rare-AA support limitations, target/PAD information audit. These are evidence about representation/data coverage; no external-data addition or resplit performed."
+  },
+  "inputs": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/H5_LITERATURE_CHALLENGE.zh.md",
+      "sha256": "6000bb6adb0188f0d9344e13acc24706d1a7b911b31c3a67df59645b69b1c4ab",
+      "bytes": 10218
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/AR_BUDGET_ADVICE.zh.md",
+      "sha256": "cf1be13764549b5cb217cd8f0e6e55c7078fb060ba7304b22215c3a7903f3f6e",
+      "bytes": 2959
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+      "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a",
+      "bytes": 52866
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_REPLACEMENT_FINAL_SCIENTIFIC_REVIEW_v2.json",
+      "sha256": "c29e17a53b99dc18c2258bf06a860fec649a2e4acb5e0eb11e70a4a73865f9d4",
+      "bytes": 94700
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "bytes": 41408
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "bytes": 2541
+    }
+  ],
+  "operations": {
+    "model_calls": 0,
+    "training_updates": 0,
+    "test_access": 0,
+    "cohort_reads": 0,
+    "external_code_executions": 0
+  }
+}

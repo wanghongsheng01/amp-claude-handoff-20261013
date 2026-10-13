@@ -1,0 +1,34 @@
+{
+  "schema": "AMP_H5_WARMUP_ROOT_LAUNCH_V1",
+  "status": "NOT_AUTHORIZED_TEMPLATE_ONLY",
+  "candidate_manifest_sha256": null,
+  "scope": "VAE_ONLY_1000",
+  "independent_preaudit_pass": false,
+  "baseline_full_rms_complete": false,
+  "root_fresh_process_load_check_pass": false,
+  "single_serial_cpu_launch": false,
+  "no_other_active_amp_model_job": false,
+  "baseline_core_predictions_finite": false,
+  "train_rows": 279,
+  "dev_rows": 41,
+  "K": 8,
+  "dev_M_equal_sequence_accuracy": null,
+  "dev_S_equal_sequence_eight_draw_mean_accuracy": null,
+  "independent_preaudit": {
+    "path": null,
+    "sha256": null
+  },
+  "baseline_rms_delivery": {
+    "path": null,
+    "sha256": null
+  },
+  "baseline_epsilon_bank_manifest": {
+    "path": null,
+    "sha256": null
+  },
+  "root_process_load_check": {
+    "path": null,
+    "sha256": null
+  },
+  "instructions": "Root creates distinct ROOT_LAUNCH_AUTHORIZATION.json only if complete entry gate and independent preaudit pass; template is deliberately non-executable. Posttraining RMS needs separate contract."
+}

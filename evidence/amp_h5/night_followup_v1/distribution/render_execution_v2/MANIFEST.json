@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/render_execution_v2/COMMAND.json",
+      "bytes": 590,
+      "sha256": "762700d138f4cea6de905734d35ec76deafdb6eedb33646dc0af2d9af195226c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/render_execution_v2/RESULT.json",
+      "bytes": 355,
+      "sha256": "1a27ee4d91deddc19fd617685c00b890f68f3abd2a9e1d0ecc2a3e4ef6fa9396"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/render_execution_v2/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/render_execution_v2/stdout.log",
+      "bytes": 238,
+      "sha256": "30786cf2e33de653d9c47a1b7d5860704fb57bb48038ec4cd45c3ed4d8c17f55"
+    }
+  ]
+}

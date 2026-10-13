@@ -1,0 +1,125 @@
+{
+  "created_utc": "2026-10-11T20:17:34.510199+00:00",
+  "status": "HOLD_R_S1_EXCEPTION_CLASSIFICATION",
+  "execution_authorized": false,
+  "checks": [
+    {
+      "name": "frozen_candidate_contract_plan",
+      "pass": true
+    },
+    {
+      "name": "42_contract_bindings_48plan_bindings",
+      "pass": true
+    },
+    {
+      "name": "96_preallocated_slots_length0",
+      "pass": true
+    },
+    {
+      "name": "toy_full768_coordinate_bit_margins",
+      "pass": true
+    },
+    {
+      "name": "signed_zero_mapping_corruption_rejected",
+      "pass": true
+    },
+    {
+      "name": "nonbijective_permutation_rejected",
+      "pass": true
+    },
+    {
+      "name": "R_S1_false_zero_model_classification_reproduced",
+      "pass": true
+    },
+    {
+      "name": "correct_B_C_and_reference_g_routes_static",
+      "pass": true
+    },
+    {
+      "name": "base_preparation_precedes_model_constructor",
+      "pass": true
+    },
+    {
+      "name": "D_final_seal_before_any_decoder",
+      "pass": true
+    },
+    {
+      "name": "one_inverse_one_forward_one_decode_callsites",
+      "pass": true
+    },
+    {
+      "name": "exact_fixed_call_count_guard",
+      "pass": true
+    },
+    {
+      "name": "D_no_fallback_and_tolerance_fail",
+      "pass": true
+    },
+    {
+      "name": "source_manifest_intrinsic_validation",
+      "pass": true
+    },
+    {
+      "name": "closing_manifest_and_exit_consistency_static",
+      "pass": true
+    },
+    {
+      "name": "current_candidate_not_executed",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "blocking_findings": [
+    {
+      "id": "R-S1",
+      "location": "main() broad Exception around entire execute()",
+      "issue": "Any uncaught exception after real inverse/decoder work, especially finally I/O/hash export failures, is falsely labeled admission_failed_no_model and 0completed/96not_executed.",
+      "synthetic_reproduction": {
+        "exit_code": 2,
+        "reported_state": "admission_failed_no_model",
+        "reported_model_calls": 0,
+        "reported_not_executed": 96,
+        "test_used_no_models": true
+      },
+      "required_minimal_repair": "Confine zero-model admission evidence to validate_request failure. Other uncaught execution/finalization exceptions must preserve existing evidence and mark counts unknown or explicitly last-known, not claim zero. Preserve frozen v1; new version and new plan/receipt required."
+    }
+  ],
+  "nonblocking_manual_review": [
+    "B paired posterior parameters and epsilon; C actual B z column permutation with signed-zero-safe bit multiset; D same train row g with frozen scaler/positive-zero PAD and independent scalar-loop bytes.",
+    "Full global epsilon provenance and base seal precede model; D2inverse+2roundtrip precede final96decoder-input seal;6fixed decoder calls preserve all slots.",
+    "Exact binding/source-runtime validation, weights_only load, before/after state identities, no refit/encoder/DDPM, legacy gatesNA and no ranking.",
+    "120-before-final and aftermanifest success checks plus closingledger/outer180 require all final artifacts+exit to agree.",
+    "Contract/plan binds mandatoryD, scientific closeout, selector/permutation/epsilon seeds and prospective96requestledger."
+  ],
+  "remaining_final_requirements": [
+    "R-S1 repaired in preserved new version and exact finalplan re-bound.",
+    "Evaluator sidecar should explicitly map actual reference_train_row_id to previously named selected_train_row_id; raw metadata is retained.",
+    "No further natural input/RNG preparation or model execution before a new successful exact receipt."
+  ],
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v1.py",
+      "sha256": "cb14e4aad3977e6dbd8733d60a38a427886f504bd7ed8c8660915cc76b2466e4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v1.json",
+      "sha256": "7226435783bd6bc84f3bfb13f1fe96359b82325b2b8640a554205b09c7d917eb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v1.json",
+      "sha256": "c659f89641cc32b4003180b3655432213613b59f6db821f55a3ca6efa2f8d892"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v1/MANIFEST.json",
+      "sha256": "ef2a28649f6dac6f52198bed7cb528168c3a002c79acc221c9da75f00bd51e03"
+    }
+  ],
+  "reviewer_actions": {
+    "natural_array_reads": 0,
+    "natural_RNG_or_indices": 0,
+    "toy_random_draws": 0,
+    "model_calls": 0,
+    "numpy_deterministic_toy_only": true,
+    "test37_reads": 0
+  }
+}

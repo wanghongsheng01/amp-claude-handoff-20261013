@@ -1,0 +1,222 @@
+{
+  "identity": "AMP_H5_ZERO_PREDICTOR_ANALYTIC_REFERENCE",
+  "no_model_calls": true,
+  "no_model_loads": true,
+  "no_rng": true,
+  "no_sampling": true,
+  "no_training": true,
+  "no_test_reads": true,
+  "assumptions": [
+    "epsilon prediction identically zero at every reverse step",
+    "initial x has independent N(0,1) coordinates",
+    "fresh reverse noises independent of initial x and each other",
+    "last t=1 step adds no new noise"
+  ],
+  "frozen_schedule": {
+    "length": 999,
+    "reverse_first_t": 998,
+    "reverse_last_t": 1,
+    "beta_first": 9.999999747378752e-05,
+    "beta_last": 0.019999999552965164,
+    "source_storage_dtype": "float32",
+    "scalar_calculation_dtype": "float64",
+    "alpha0_used_in_this_recurrence": false
+  },
+  "recurrence": "V_after = V_before / alpha[t] + (beta[t] if t > 1 else 0)",
+  "closed_form": "prod(j=1..998,1/alpha[j]) + sum(t=2..998,beta[t]*prod(j=1..t-1,1/alpha[j]))",
+  "analytic": {
+    "terminal_mean": 0.0,
+    "terminal_variance": 48586.21117218827,
+    "terminal_std": 220.42280093535757,
+    "initial_variance_contribution": 24526.162220086666,
+    "reverse_noise_variance_contribution": 24060.048952101784,
+    "initial_only_std": 156.60830827285847,
+    "reverse_noise_only_std": 155.11301993095805,
+    "closed_form_variance": 48586.21117218819,
+    "recurrence_closed_form_abs_difference": 8.003553375601768e-11
+  },
+  "empirical_comparison": [
+    {
+      "source": "h5_smoke",
+      "arm": "categorical_ce",
+      "terminal": "FREE",
+      "coordinate": "mu",
+      "empirical_population_std": 215.80701004601357,
+      "std_over_analytic_reference": 0.9790593764812123,
+      "min": -599.8474731445312,
+      "max": 850.855224609375,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "categorical_ce",
+      "terminal": "FREE",
+      "coordinate": "logsigma",
+      "empirical_population_std": 216.70298102214392,
+      "std_over_analytic_reference": 0.9831241600350386,
+      "min": -942.982421875,
+      "max": 655.7024536132812,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "categorical_ce",
+      "terminal": "AMD",
+      "coordinate": "mu",
+      "empirical_population_std": 215.9075249624271,
+      "std_over_analytic_reference": 0.9795153860954037,
+      "min": -715.2327880859375,
+      "max": 680.4600219726562,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "categorical_ce",
+      "terminal": "AMD",
+      "coordinate": "logsigma",
+      "empirical_population_std": 216.25274717294457,
+      "std_over_analytic_reference": 0.9810815680378006,
+      "min": -714.0074462890625,
+      "max": 636.8909912109375,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "raw_onehot_mse",
+      "terminal": "FREE",
+      "coordinate": "mu",
+      "empirical_population_std": 215.76076403223706,
+      "std_over_analytic_reference": 0.9788495705374521,
+      "min": -593.62353515625,
+      "max": 854.3800048828125,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "raw_onehot_mse",
+      "terminal": "FREE",
+      "coordinate": "logsigma",
+      "empirical_population_std": 216.63702466780094,
+      "std_over_analytic_reference": 0.9828249334846858,
+      "min": -941.5715942382812,
+      "max": 660.4686279296875,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "raw_onehot_mse",
+      "terminal": "AMD",
+      "coordinate": "mu",
+      "empirical_population_std": 215.77841068184816,
+      "std_over_analytic_reference": 0.978929628723521,
+      "min": -707.1400756835938,
+      "max": 683.4441528320312,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "raw_onehot_mse",
+      "terminal": "AMD",
+      "coordinate": "logsigma",
+      "empirical_population_std": 216.1185052626071,
+      "std_over_analytic_reference": 0.9804725479647055,
+      "min": -715.3682250976562,
+      "max": 638.3247680664062,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "scalar_legacy",
+      "terminal": "FREE",
+      "coordinate": "mu",
+      "empirical_population_std": 215.85094494847584,
+      "std_over_analytic_reference": 0.9792586975236627,
+      "min": -601.1375122070312,
+      "max": 850.0640258789062,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "scalar_legacy",
+      "terminal": "FREE",
+      "coordinate": "logsigma",
+      "empirical_population_std": 216.73997577695613,
+      "std_over_analytic_reference": 0.9832919954615699,
+      "min": -943.0933227539062,
+      "max": 655.6301879882812,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "scalar_legacy",
+      "terminal": "AMD",
+      "coordinate": "mu",
+      "empirical_population_std": 215.95132314156143,
+      "std_over_analytic_reference": 0.9797140868602452,
+      "min": -717.2944946289062,
+      "max": 679.2720336914062,
+      "n": 768
+    },
+    {
+      "source": "h5_smoke",
+      "arm": "scalar_legacy",
+      "terminal": "AMD",
+      "coordinate": "logsigma",
+      "empirical_population_std": 216.3052547878651,
+      "std_over_analytic_reference": 0.9813197812112913,
+      "min": -714.3741455078125,
+      "max": 636.7850341796875,
+      "n": 768
+    },
+    {
+      "source": "h4_saved_generation",
+      "terminal": "FREE",
+      "coordinate": "mu",
+      "empirical_population_std": 1.9313313280803588,
+      "std_over_analytic_reference": 0.008761939871396299,
+      "min": -3.981844663619995,
+      "max": 9.683048248291016,
+      "n": 12288
+    },
+    {
+      "source": "h4_saved_generation",
+      "terminal": "FREE",
+      "coordinate": "logsigma",
+      "empirical_population_std": 0.13162461167364733,
+      "std_over_analytic_reference": 0.0005971460806917534,
+      "min": -1.446529507637024,
+      "max": 1.1499013900756836,
+      "n": 12288
+    },
+    {
+      "source": "h4_saved_generation",
+      "terminal": "AMD",
+      "coordinate": "mu",
+      "empirical_population_std": 1.9087481254888747,
+      "std_over_analytic_reference": 0.008659485848964622,
+      "min": -8.743789672851562,
+      "max": 4.971360683441162,
+      "n": 12288
+    },
+    {
+      "source": "h4_saved_generation",
+      "terminal": "AMD",
+      "coordinate": "logsigma",
+      "empirical_population_std": 0.18505135289228541,
+      "std_over_analytic_reference": 0.000839529087313225,
+      "min": -2.122235059738159,
+      "max": 1.91350519657135,
+      "n": 12288
+    }
+  ],
+  "interpretation_limits": [
+    "Similar empirical scale does not establish zero or near-zero model predictions.",
+    "This is not a causal diagnosis of overflow or an identified training defect.",
+    "H4 and smoke are saved outputs from different training maturity and seeds/batches.",
+    "Fixed-representation finite-step training remains the proposed maturity test, not an executed result here."
+  ],
+  "input_sha256": {
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/run/SCHEDULE.npz": "c0ea53da5fac9cbab6810a430f51b62b1c8cc32b5e2800fcd1709aaeb39d22ef",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/coordinate_audit/SAVED_NUMERIC_AUDIT.json": "bebf491465f43bcde6739a121698b682d7ac05ed60614dcb7876d225116c8bf9"
+  }
+}

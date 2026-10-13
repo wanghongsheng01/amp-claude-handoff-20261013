@@ -1,0 +1,1725 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "ug_ml_native_peptide_ID_36_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_36_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_50769_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4796_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4796_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4807_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4818_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4829_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4840_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4851_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4862_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4884_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_4895_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_12526_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_12526_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_12601_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_18691_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_18696_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_18699_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_18702_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_23078_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_23089_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_23100_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_23905_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_24672_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_24676_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_24680_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_28735_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_28747_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_31234_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_31234_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_31244_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_31244_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_31254_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_31254_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39663_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39673_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39683_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39693_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39703_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39782_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39795_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39808_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_39821_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_57368_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_46970_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_46970_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_47335_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_47335_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_91533_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_58729_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_58729_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_95703_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_95703_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_161390_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_107126_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_107201_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_107201_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_107203_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133341_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133341_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133347_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133347_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133355_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133355_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133362_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133362_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133369_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133369_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133375_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_133375_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_peptide_ID_summary",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_36_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_36_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_50769_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4796_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4796_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4807_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4818_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4829_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4840_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4851_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4862_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4884_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_4895_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_12526_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_12526_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_12601_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_18691_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_18696_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_18699_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_18702_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_23078_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_23089_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_23100_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_23905_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_24672_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_24676_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_24680_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_28735_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_28747_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_31234_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_31234_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_31244_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_31244_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_31254_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_31254_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39663_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39673_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39683_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39693_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39703_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39782_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39795_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39808_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_39821_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_57368_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_46970_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_46970_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_47335_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_47335_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_91533_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_58729_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_58729_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_95703_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_95703_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_161390_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_107126_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_107201_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_107201_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_107203_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_133341_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_133341_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_exact_sequence_summary",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_36_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_36_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_50769_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4796_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4796_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4807_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4818_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4829_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4840_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4851_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4862_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4884_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_4895_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_12526_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_12526_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_12601_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_18691_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_18696_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_18699_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_18702_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_23078_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_23089_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_23100_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_23905_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_24672_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_24676_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_24680_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_28735_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_28747_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_31234_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_31234_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_31244_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_31244_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_31254_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_31254_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39663_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39673_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39683_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39693_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39703_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39782_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39795_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39808_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_39821_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_57368_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_46970_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_46970_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_47335_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_47335_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_91533_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_58729_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_58729_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_95703_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_95703_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_161390_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_107126_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_107201_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_107201_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_107203_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_133341_bucket",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_133341_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_and_length_summary",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_18406_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_18406_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_51566_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_51569_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_340_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_343_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_62980_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_18584_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_18590_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_18590_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_18622_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_18625_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_18628_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_24714_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_24714_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_25117_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_46020_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_183419_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_183419_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_199969_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96162_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96162_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96187_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96187_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96188_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96188_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96189_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96189_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96190_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96190_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96191_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96191_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96192_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96192_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96193_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_96193_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_106653_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_106653_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_106652_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_106652_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_133771_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_peptide_ID_summary",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_18406_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_18406_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_51566_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_51569_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_340_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_343_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_62980_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_18584_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_18590_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_18590_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_18622_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_18625_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_18628_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_24714_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_24714_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_25117_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_46020_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_183419_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_183419_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_199969_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96162_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96162_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96187_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96187_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96188_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96188_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96189_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96189_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96190_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96190_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96191_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96191_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96192_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96192_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96193_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_96193_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_106653_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_106653_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_106652_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_106652_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_133771_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_exact_sequence_summary",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_18406_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_18406_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_51566_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_51569_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_340_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_343_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_62980_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_18584_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_18590_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_18590_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_18622_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_18628_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_24714_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_24714_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_25117_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_46020_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_183419_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_183419_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_199969_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96162_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96162_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96187_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96187_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96188_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96188_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96189_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96189_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96190_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96190_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96191_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96191_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96192_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96192_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96193_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_96193_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_106653_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_106653_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_106652_bucket",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_106652_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_133771_same_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_and_length_summary",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli 1_TSB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli 1_TSB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli ATCC 23716_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli ATCC 23716_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli ATCC 25922_CAMHB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli ATCC 25922_CAMHB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli ATCC 25922_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli ATCC 25922_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli ATCC 25922_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli ATCC 25922_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli CIP 76.24_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli CIP 76.24_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli DH5alpha_TSB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli DH5alpha_TSB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli DSM 1103_TSB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli DSM 1103_TSB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli Ec513_CAMHB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli Ec513_CAMHB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli KCTC 1039_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli KCTC 1039_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli LEC001_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli LEC001_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli MG1655_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli MG1655_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli MTCC 2622_TSB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli MTCC 2622_TSB_right",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli NCTC 12923_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_Escherichia coli NCTC 12923_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0112 EIEC26_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0112 EIEC26_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0112 EIEC27_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0112 EIEC27_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0143 EIEC7_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0143 EIEC7_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0152 EIEC1_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0152 EIEC1_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0164 EIEC6_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli 0164 EIEC6_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 25922_CAMHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 25922_CAMHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 25922_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 25922_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 25922_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 25922_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 35218_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 35218_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 35218_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ATCC 35218_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli AX-054-1-3_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli AX-054-1-3_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli AX-100-3-1_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli AX-100-3-1_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli AX-109-2-3_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli AX-109-2-3_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli AX-128-3-3_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli AX-128-3-3_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli BW25113_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli BW25113_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli BW25113 \u0394sbmA_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli BW25113 \u0394sbmA_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli D21_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli D21_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli DSM 1103_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli DSM 1103_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli JC113_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli JC113_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli K-12_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli K-12_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ML-35p_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ML-35p_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ML-35p_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli ML-35p_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli NCTC 10418_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli NCTC 10418_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 282_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 282_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 30328_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 30328_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 734/94_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 734/94_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 ATCC 43895_LBB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 ATCC 43895_LBB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 CB6392_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O157:H7 CB6392_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O26:H- CB6418_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O26:H- CB6418_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O26:H11 3_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O26:H11 3_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O6:K15:H31 536_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli O6:K15:H31 536_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli U7103_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli U7103_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli U7794_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli U7794_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli UB1005_MHB_point",
+      "pass": true
+    },
+    {
+      "name": "uM_native_Escherichia coli UB1005_MHB_right",
+      "pass": true
+    },
+    {
+      "name": "all_observed_strata_exact",
+      "pass": true
+    }
+  ],
+  "independent_encoding_summary": {
+    "ug_ml_native": {
+      "peptide_ID": {
+        "buckets": 54,
+        "empirical_MSE_floor_component": 0.014700992555128242,
+        "multiple_ID_buckets": 0,
+        "multiple_sequence_buckets": 0
+      },
+      "exact_sequence": {
+        "buckets": 49,
+        "empirical_MSE_floor_component": 0.016139390305754536,
+        "multiple_ID_buckets": 1,
+        "multiple_sequence_buckets": 0
+      },
+      "composition_and_length": {
+        "buckets": 49,
+        "empirical_MSE_floor_component": 0.016139390305754536,
+        "multiple_ID_buckets": 1,
+        "multiple_sequence_buckets": 0
+      }
+    },
+    "uM_native": {
+      "peptide_ID": {
+        "buckets": 27,
+        "empirical_MSE_floor_component": 0.03425877676785047,
+        "multiple_ID_buckets": 0,
+        "multiple_sequence_buckets": 0
+      },
+      "exact_sequence": {
+        "buckets": 27,
+        "empirical_MSE_floor_component": 0.03425877676785047,
+        "multiple_ID_buckets": 0,
+        "multiple_sequence_buckets": 0
+      },
+      "composition_and_length": {
+        "buckets": 26,
+        "empirical_MSE_floor_component": 0.035094944251456296,
+        "multiple_ID_buckets": 1,
+        "multiple_sequence_buckets": 1
+      }
+    }
+  },
+  "sha256": {
+    "ENCODING_DISPERSION.json": "e16af9040fc7d334c053ca88a9309b18138ba816f4a3409a4a7642693f8ffd96",
+    "OBSERVED_ASSAY_STRATA.json": "1a2115a3d0ee0a2c14134d570706a5c4d42a47f59d9b975805e5a287c9ce24f6",
+    "encoding_and_strata.py": "b81c908339e7c5256a04356ff73b23068fb8eb9211f2adf6fd49cf01980c93de"
+  },
+  "interpretation": "Composition input equality checked independently by sorted amino-acid multiset; this implies equal residue counts and length. Bucket floor is algebraic weighted minimum on these same observed rows for a deterministic equal-input predictor, not fitted prediction, biological noise or generalization bound. Assay strata use cached target text and recorded medium only, not harmonized assay conditions."
+}

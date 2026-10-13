@@ -1,0 +1,232 @@
+{
+  "reviewer": "independent",
+  "created_utc": "2026-10-11T21:11:14.076054+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "exact_plan_contract_script_bindings",
+      "passed": true
+    },
+    {
+      "name": "38_plan_bindings_sha_bytes_match",
+      "passed": true
+    },
+    {
+      "name": "all_model_and_scoring_preparation_manifest_members_sha_bytes_match",
+      "passed": true
+    },
+    {
+      "name": "original_frozen_checkpoint_and_1000_endpoint_bound",
+      "passed": true
+    },
+    {
+      "name": "same_train279_dev41_source_index_0_279_mapping",
+      "passed": true
+    },
+    {
+      "name": "saved_train_q_reused_new_dev_q_two_encoder_batches_only",
+      "passed": true
+    },
+    {
+      "name": "no_posterior_flow_mu_and_stochastic_z_direct_same_decoder",
+      "passed": true
+    },
+    {
+      "name": "known_R_encoder_inputs_disclosed_decoder_z_only_no_teacher_forcing",
+      "passed": true
+    },
+    {
+      "name": "eight_private_full320_epsilon_banks1422_to1429_before_model_sealed",
+      "passed": true
+    },
+    {
+      "name": "model_init_and_dev_work_fork_rng_restore_guards",
+      "passed": true
+    },
+    {
+      "name": "exact2880_slots_M320_S2560_and_99_decoder_batches",
+      "passed": true
+    },
+    {
+      "name": "first32_M_retained_pilot_time_only_no_extra_quality_selection",
+      "passed": true
+    },
+    {
+      "name": "all320_M_token_sequence_parity_with_historical_exports",
+      "passed": true
+    },
+    {
+      "name": "finite_z_raw_J_scores_and_positive_sigma_no_clip_guard",
+      "passed": true
+    },
+    {
+      "name": "same_legal_prefix_J_empty_and_cap48_retained_not_AR_EOS",
+      "passed": true
+    },
+    {
+      "name": "no_training_DDPM_prior_flow_or_new_prior_generation",
+      "passed": true
+    },
+    {
+      "name": "only82_executable_code_config_bytecode_entries_rehashed_9_noncode_not_opened",
+      "passed": true
+    },
+    {
+      "name": "legacy_CSV_skip_not_misidentified_as_sealed_test37",
+      "passed": true
+    },
+    {
+      "name": "model_inner120_after_manifest_guard_outer180_serial_supervisor_no_retry",
+      "passed": true
+    },
+    {
+      "name": "whole2880_intent_retained_and_postexecution_failure_counts_not_fabricated0",
+      "passed": true
+    },
+    {
+      "name": "scoring_requires_independent_model_postflight_exact_contract_and_manifest",
+      "passed": true
+    },
+    {
+      "name": "score_dev41_sequence_equal_S8_ExactFraction_one_twentieth_gate",
+      "passed": true
+    },
+    {
+      "name": "score_missing_or_failed_any320x9_core_is_NE_empty_cap_retained",
+      "passed": true
+    },
+    {
+      "name": "scoring_ALL_FREE_AMD_perseed_and_S8_macro_and_core_stratified",
+      "passed": true
+    },
+    {
+      "name": "supported_AA_macro_explicit_target_counts_S8_exposure8_no_survivor_averaging",
+      "passed": true
+    },
+    {
+      "name": "original421_features_and9raw_RDKit_descriptors_separate_missingness",
+      "passed": true
+    },
+    {
+      "name": "no_property_failure_filters_accuracy_denominator",
+      "passed": true
+    },
+    {
+      "name": "score300_inner360_outer_terminal_closing_required",
+      "passed": true
+    },
+    {
+      "name": "old_E_L_G_NE_AR_adequacy_unestablished_PROMOTE_HOLD",
+      "passed": true
+    },
+    {
+      "name": "independent30_model_toy73_core_toy22_scorer_toy_all_pass",
+      "passed": true
+    }
+  ],
+  "check_count": 30,
+  "blocking_issues": [],
+  "review_operations": {
+    "natural_model_calls": 0,
+    "torch_imports": 0,
+    "natural_RNG_or_latent_array_reads": 0,
+    "test37_or_legacy_dataset_content_reads": 0,
+    "natural_result_scoring": 0,
+    "synthetic_checks": 125
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_PLAN_v2.json",
+      "bytes": 11592,
+      "sha256": "b917c14e8db3e89f5a6a862bda5d3318bb202ed295244f04e80beee5ff5c909d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_CONTRACT_v2.json",
+      "bytes": 17551,
+      "sha256": "6829e2d4787f92fc46a4950f64ac72df847ab9c29384b32bd0a800d767d3ee0f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_rms_reconstruction_v2.py",
+      "bytes": 28397,
+      "sha256": "2b18396ad721d06aaf09f20faef90b5f9e77a0905c779b963aac04783a29b10b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_REQUEST_SLOTS_v2.json",
+      "bytes": 633883,
+      "sha256": "c314e31cbda3d954c1d474f3a08bcad4f4d19be28dd843251f06f4eefd0fe13d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_SCORING_CONTRACT_v2.json",
+      "bytes": 5766,
+      "sha256": "ca3db6d0f70d9205d90f80f8c0ac000f88db4dd18800f41af964b0fcc4d0e3d1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/score_rms_v2.py",
+      "bytes": 27853,
+      "sha256": "e2bae3222e5a13f0de4bc92f658ace2eaf336e17386eb42e416283b9986a2e75"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/rms_metric_core.py",
+      "bytes": 6680,
+      "sha256": "2e55dd45da964367ca24555b7e42e4d82d8c9be226c9816b714ab283b70ad31a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_export_candidate_v2/MANIFEST.json",
+      "bytes": 2076,
+      "sha256": "bdb2d8e8bda589491329f581b9a714b88b15f0aa62e2d19e9c20cb9fca7634b5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/PREPARATION_MANIFEST_v2.json",
+      "bytes": 3314,
+      "sha256": "a8372986653e9c3d9c2f837c087c4c98cd8c882f1770a2f592db77a70a4e0206"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "bytes": 3194,
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "bytes": 3703,
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/RMS_PREPARATION_SYNTHETIC_v2.json",
+      "bytes": 6346,
+      "sha256": "4fe4b06ce37504f58db3c39377c0ab17ab6f9d896222b741e817a500f025f081"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/RMS_SCORING_SYNTHETIC_v2.json",
+      "bytes": 1264,
+      "sha256": "1482f3398d45026aa73f28486e1668a98fdc4b2b973050d2a03335f05bfb4a60"
+    }
+  ],
+  "interpretation": [
+    "R/M/S measures reconstruction of known sequences using their encoder features; it is not terminal-only generation or independent new peptides.",
+    "Eight epsilon draws at one fitted VAE measure computational sampling variability; not eight training or biological replicates.",
+    "A dev M minus S8 gap at least0.05 is a prespecified resource-investment screen only; it does not identify early KL pressure or posterior sigma as a unique causal mechanism.",
+    "No training is authorized by this preflight or by crossing the investment screen. Any conditional VAE-only experiment requires a separate exact scope and independent receipt.",
+    "Original CE E/L/G remain permanently NOT_EVALUABLE due to interruption; no backfill; recovery descriptive G FAIL and PROMOTE HOLD remain unchanged."
+  ],
+  "future_review_limits": "Terminal model audit may read saved arrays/CSV, reconstruct existing epsilon RNG banks and recompute J from saved logits. It must not add any encoder, decoder, flow or DDPM forward. Separate scoring needs exact model postflight PASS.",
+  "original_CE_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+  "AR_adequacy": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "broader_training_or_generation_authorized": false,
+  "scope_id": "AMP_H5_CE_RMS_SCORING_V2",
+  "scoring_config_sha256": "ca3db6d0f70d9205d90f80f8c0ac000f88db4dd18800f41af964b0fcc4d0e3d1",
+  "scoring_script_sha256": "e2bae3222e5a13f0de4bc92f658ace2eaf336e17386eb42e416283b9986a2e75",
+  "authorized_conditionally": true,
+  "execution_boundary": {
+    "requires_independent_model_postflight_PASS": true,
+    "exact_model_scope": "AMP_H5_CE_RMS_RECONSTRUCTION_V2",
+    "natural_scoring_attempts": 1,
+    "model_calls": 0,
+    "inner_seconds": 300,
+    "outer_watchdog_seconds_required": 360,
+    "max_descriptor_keys": 3200,
+    "retry": false,
+    "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2"
+  },
+  "terminal_gate_use": "Require scoring exit0, completed CLOSING_LEDGER bound to MANIFEST, measured elapsed within300 and outer supervision within360. A raw INVESTMENT_SCREEN written by an incomplete/capped scoring attempt is not an accepted investment decision."
+}

@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-11T16:16:50.349720+00:00",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal.py",
+      "bytes": 40425,
+      "sha256": "9580bf84e2ffc2d2d357f77eaca04c338b6608abe0f6a30c17c578cf6e3606b5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+      "bytes": 37021,
+      "sha256": "9fabbd28171a7b1f98118161ca399dbc1fa81a3448cdb42668cddbf0468a492b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/run_rebuild_v3r2.py",
+      "bytes": 55508,
+      "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+      "bytes": 21115,
+      "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+      "bytes": 13241,
+      "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+      "bytes": 17846,
+      "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+      "bytes": 11330,
+      "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/diff.py",
+      "bytes": 7549,
+      "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "requested": 96,
+  "completed": 96,
+  "failed": 0,
+  "not_executed": 0,
+  "reused_prior_rows": 32,
+  "new_training_updates": 0,
+  "E_L_G": "NOT_APPLICABLE_SOURCE_DIAGNOSTIC"
+}

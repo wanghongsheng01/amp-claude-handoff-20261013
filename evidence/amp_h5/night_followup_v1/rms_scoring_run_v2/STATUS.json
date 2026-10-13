@@ -1,0 +1,53 @@
+{
+  "scope_id": "AMP_H5_CE_RMS_SCORING_V2",
+  "state": "finalizing",
+  "phase_at_stop": "completed",
+  "error": null,
+  "started_utc": "2026-10-11T21:15:57.183647+00:00",
+  "finished_utc": "2026-10-11T21:16:05.830203+00:00",
+  "wall_seconds_before_final_exports": 9.979583957698196,
+  "cap_seconds": 300,
+  "overrun_seconds": 0,
+  "post_compute_bookkeeping_allowed": true,
+  "rdkit_distribution_version": "2023.9.5",
+  "reference_rows": 320,
+  "requested_prediction_rows": 2880,
+  "scored_core_rows": 2880,
+  "unique_descriptor_keys_computed_or_classified": 2819,
+  "sources": {
+    "metric_core": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/rms_metric_core.py",
+      "sha256": "2e55dd45da964367ca24555b7e42e4d82d8c9be226c9816b714ab283b70ad31a",
+      "bytes": 6680
+    },
+    "frozen_metrics": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480",
+      "bytes": 25377
+    },
+    "molecular_representation": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/molecular_representation.py",
+      "sha256": "4d0d6abb6cb7c49efe69a387270dbd44e49e6749c8515ce2d844ccdc4a717dd4",
+      "bytes": 4424
+    }
+  },
+  "input_sha256": {
+    "config": "ca3db6d0f70d9205d90f80f8c0ac000f88db4dd18800f41af964b0fcc4d0e3d1",
+    "approval": "20c85e6e9afeec4991eb208c6a7260339d1e4a87853877d95d576e4a621fafac",
+    "postflight": "9786d0be1c9d1fa345f598c626cb6d9b284f63aa41e60b8a706bc6772d5e5666",
+    "reference_rows": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3",
+    "reconstructions": "5e9723d9a6ba31e3799aa0e4c9b5a4d752ce3bc306c5d2090dd97407e8783b49",
+    "model_manifest": "4fd0d9e25101aa304c9ed76b4a86c22ce067f930e4e0b6f814c0c32ee4799531"
+  },
+  "all_inputs_unchanged": true,
+  "all_sources_unchanged": true,
+  "model_calls": 0,
+  "training_updates": 0,
+  "random_draws": 0,
+  "test_access": false,
+  "raw_cohort_access": false,
+  "new_metric_scope": "paired R/M/S descriptive sequence metrics only",
+  "descriptor_missing_can_coexist_with_valid_accuracy_screen": true,
+  "computation_state": "completed",
+  "terminal_state_source": "CLOSING_LEDGER.json"
+}

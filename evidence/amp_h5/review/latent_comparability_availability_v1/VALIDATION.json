@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-11T19:42:34.423082+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "FREE_metadata_histogram_rows",
+      "pass": true
+    },
+    {
+      "check": "FREE_metadata_histogram_groups",
+      "pass": true
+    },
+    {
+      "check": "FREE_exact16_reachable",
+      "pass": true
+    },
+    {
+      "check": "AMD_metadata_histogram_rows",
+      "pass": true
+    },
+    {
+      "check": "AMD_metadata_histogram_groups",
+      "pass": true
+    },
+    {
+      "check": "AMD_exact16_reachable",
+      "pass": true
+    },
+    {
+      "check": "joint_component_count",
+      "pass": true
+    },
+    {
+      "check": "train_val_group_overlap_zero",
+      "pass": true
+    },
+    {
+      "check": "joint_exact16_reachable",
+      "pass": true
+    },
+    {
+      "check": "no_dev_latent_saved_in_inspected_dirs",
+      "pass": true
+    },
+    {
+      "check": "group_and_latent_cohort_bindings_identical",
+      "pass": true
+    }
+  ],
+  "scope": "Metadata/schema arithmetic only. No model, covariance, quality statistic, random sample or new split."
+}

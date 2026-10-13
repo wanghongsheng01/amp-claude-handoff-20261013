@@ -1,0 +1,2868 @@
+{
+  "identity": "AMP H5 source replacement v2 independent scientific final review",
+  "created_utc": "2026-10-11T20:45:05.449501+00:00",
+  "review_status": "COMPLETED_INDEPENDENT_SCIENTIFIC_CLOSEOUT",
+  "status": "PASS_REPORTING_WITH_EXPLICIT_INFERENCE_BOUNDARIES",
+  "source_diagnostic_closeout_complete": true,
+  "reporting_integrity": "SUPPORTED_WITH_COST_SOURCE_C_ERRATUM_BOUND",
+  "blocking_scientific_mismatches": [],
+  "new_scope_execution_authorized_by_this_review": false,
+  "delivery_index": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_SOURCE_REPLACEMENT_EVALUATION_DELIVERY_v2.json",
+    "bytes": 10933,
+    "sha256": "4370fdb76d765cd190cac3d7b33013b87345a45dfd0c0ed51ffe2a63b86d7dab"
+  },
+  "checks": [
+    {
+      "check": "33 direct delivery-index text member hashes and available byte counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "author full metrics exactly equal frozen evaluator JSON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "author all 128 sample audits exactly equal frozen evaluator JSON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "completed engineering postflight with 63 checks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "128 observations and eight groups, each with 16 requests",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unique observation IDs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "32 reused plus 96 new with fixed model-call accounting",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all raw provenance rows agree with audit IDs/sequence/status/terminal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all eight group denominators/copy/nearest/native cap/reference n agree with saved rows",
+      "pass": true,
+      "detail": [
+        {
+          "method": "CE_DDPM_REUSED",
+          "terminal": "AMD",
+          "pass": true
+        },
+        {
+          "method": "CE_DDPM_REUSED",
+          "terminal": "FREE",
+          "pass": true
+        },
+        {
+          "method": "COORDINATE_PERMUTATION_C",
+          "terminal": "AMD",
+          "pass": true
+        },
+        {
+          "method": "COORDINATE_PERMUTATION_C",
+          "terminal": "FREE",
+          "pass": true
+        },
+        {
+          "method": "EMPIRICAL_POSTERIOR_B",
+          "terminal": "AMD",
+          "pass": true
+        },
+        {
+          "method": "EMPIRICAL_POSTERIOR_B",
+          "terminal": "FREE",
+          "pass": true
+        },
+        {
+          "method": "REFERENCE_G_PRIOR_D",
+          "terminal": "AMD",
+          "pass": true
+        },
+        {
+          "method": "REFERENCE_G_PRIOR_D",
+          "terminal": "FREE",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "check": "all observations explicitly excluded from diagnostic ranking",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all new 96 are complete, legal 5..48 and no cap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A full groups are historical exact reuse except method label",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "B and D reference indices agree including AMD repeated donor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "C has no single donor sequence or g target",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "one exact training copy retained at B AMD slot 002",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source legacy gates marked not applicable, never new winner",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "original E/L/G permanently NE and PROMOTE HOLD",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no source reconstruction/AR NLL masquerading as observed results",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source wall accounting agrees with completed author status and postflight",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "cost C-origin error is explicitly corrected by immutable erratum",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "B dev MMD exceeds A in both terminals",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "C versus B keeps mixed AMD dev length KS exception",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all B/C/D AA and dipeptide entropy gaps to train exceed A",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_SOURCE_REPLACEMENT_EVALUATION_DELIVERY_v2.json",
+      "bytes": 10933,
+      "sha256": "4370fdb76d765cd190cac3d7b33013b87345a45dfd0c0ed51ffe2a63b86d7dab"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/MANIFEST.json",
+      "bytes": 1846,
+      "sha256": "c283d8f12746f9fff186460e6424f120248e8964303c17a0604fe2c02af1ebde"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/ar_teacher_forced_nll.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/exploratory_gates.json",
+      "bytes": 776,
+      "sha256": "b57349f8150f8b07b7b4350ebec6faa223e4cb7b08e0ffe45af5113f95b3450e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/generation_metrics.json",
+      "bytes": 591205,
+      "sha256": "528db036952eac8cf89b9326e3ca0b9ca210316a7b1f5622331098a82917bda6"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/generation_sample_audit.json",
+      "bytes": 241017,
+      "sha256": "2b9e03bc0da69d776e068add79e6de6db8bc3d821e1418c7f464bbfe7f8dac52"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/reconstruction_metrics.json",
+      "bytes": 1114,
+      "sha256": "7b382c8199ee0ba5eeca590c50bce39a4c0a3d9cb08c122b8c4757a3f90a3341"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/reconstruction_row_audit.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/run.json",
+      "bytes": 4817,
+      "sha256": "eb087b36d3983334d04cc5d9c2a3875aebecb02204dac3ebcacee7a0022d07bf"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_author_readout_v2/AUTHOR_FACTS.json",
+      "bytes": 1059783,
+      "sha256": "a33957df86a4d59c8a031b1269d595bc10d1cb3548956606ccb8a808d4aaa19e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_author_readout_v2/AUTHOR_READOUT.zh.md",
+      "bytes": 9554,
+      "sha256": "191894a45bdfb0044e0b75bd5bb65d55f6234cb6db6a731e64c51ba2920d51e1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_author_readout_v2/GATE_AND_SCOPE_INTERPRETATION.json",
+      "bytes": 948,
+      "sha256": "c6240092a19a537ee8f529989092a8f93b5e6fad36f433885ba1d2c049c1bfbd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_author_readout_v2/MANIFEST.json",
+      "bytes": 6903,
+      "sha256": "23d55313d239ef298658827f4c25c2368daedbff74f3bea9f72948c05d4e6a8c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/AUTHOR_OBSERVATIONS.zh.md",
+      "bytes": 2104,
+      "sha256": "45b24692b08a531d7a114b6cf5453d14375c66d28167f887329474a4c2e64423"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/AUTHOR_READOUT_COMMAND.json",
+      "bytes": 1072,
+      "sha256": "08d966422963539f09dac3a31f56a013d8455ecf879f7f9fea8c70b0d790b16e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/AUTHOR_READOUT_COMMAND.sh",
+      "bytes": 394,
+      "sha256": "044d247e6397c9784b935c478d787468cca1ac69167bcbffdd5bc3533b26306b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/AUTHOR_READOUT_RESULT.json",
+      "bytes": 428,
+      "sha256": "f28df5eb904c0f03542fd92f5bf9db527cba4b1188a1f1b92f93df8b1844b689"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/DELIVERY_VERIFICATION.json",
+      "bytes": 20929,
+      "sha256": "20f4c553b9941c407903cbcc41811b9e1a77e110e92ca808d0c3d1ef1090c154"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/EVALUATION_COMMAND.json",
+      "bytes": 8829,
+      "sha256": "44858a478161ffa0a8f80e53d3108cdb01677f1ad9f9151f67b8c1deba1eb691"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/EVALUATION_COMMAND.sh",
+      "bytes": 1240,
+      "sha256": "fcdd7c8f92ba9030a1cde5c3d7b56a27f240d7dd7784fe7c7588cab1bf171ad7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/EVALUATION_RESULT.json",
+      "bytes": 4128,
+      "sha256": "5df0d72cbf5f728f3e8555cb05df6487dcac8ab91a17335acc03de6bfd26dd28"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/MANIFEST.json",
+      "bytes": 3453,
+      "sha256": "f963df94aa1fbcb76347006828642caecb9f2193336c325db09582dc5c815b8f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/author_readout.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/author_readout.stdout.log",
+      "bytes": 244,
+      "sha256": "d027a39ce008d5c656a56f4b6e5f44c3254e3657aa9a5c5e49910fa5c902f947"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/evaluation.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_execution_v2/evaluation.stdout.log",
+      "bytes": 194,
+      "sha256": "c173fe553fc73e479ef18f1a87c3d1b77a7a7f5fa508c73c0ab984232bf5f396"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v2/PREPARATION_MANIFEST.json",
+      "bytes": 3605,
+      "sha256": "cae66f53b6caf54194f1269f28f6bced3bb30f2a5242d408d813b6490fa0c55f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+      "bytes": 29507,
+      "sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v2.json",
+      "bytes": 23261,
+      "sha256": "91e64d4ca473c1a56b2c66b285f0f5b8fd0ccba3884fe15ba465e574108bb46f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+      "bytes": 59016,
+      "sha256": "01fe09cbce4c4d4d8cf6c04d617408de40162b02f4583cb2a0c095418535cac3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/manifest.json",
+      "bytes": 6486,
+      "sha256": "8ea430dc704326b0000fdb96566ac0e5b0d526e4c03ebbe3adf922d03ac58beb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/CLOSING_LEDGER.json",
+      "bytes": 350,
+      "sha256": "7843eb0035c0468c5cb093bff4cea6a3c09956647864a192bca4c918ed287d4e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_execution_v2/SUPERVISOR_STATUS.json",
+      "bytes": 1279,
+      "sha256": "fa2e287cdff5eb39089f9926122d5b8eda56ae7aa0c66d28b84da04bbd9a5c02"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_FOUR_ARM_DELIVERY_v1.json",
+      "bytes": 12365,
+      "sha256": "72dc82556c3b0bcfe8f959724002bba614ff53871dd48c1f731b00009b84ad38"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+      "bytes": 59016,
+      "sha256": "01fe09cbce4c4d4d8cf6c04d617408de40162b02f4583cb2a0c095418535cac3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+      "bytes": 52866,
+      "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_BCD_EXACT_CONTRACT_SCIENTIFIC_REVIEW_v2.json",
+      "bytes": 14427,
+      "sha256": "36489ec862ca52048a796525a0d3a7228f26b2db49f8938fe3dee8da62693bfb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_evaluation_v1/generation_metrics.json",
+      "bytes": 605874,
+      "sha256": "7cd655ed623cd2d4d0751e1f06ab2e534361704e4c3fc755c7586ce9ee9eeac1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_replacement_v2_v1/COST_ADDENDUM.json",
+      "bytes": 12087,
+      "sha256": "8132da75896f07623f5389a56274bee82db4611d664288a2df1d53f3986a4a52"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_c_erratum_v1/ERRATUM_SOURCE_C_v1.json",
+      "bytes": 5294,
+      "sha256": "a4c2c7f33db7a0f1d87c71c3990bae83e97070f22a4f39afd71947cbbd8fdda4"
+    }
+  ],
+  "counts": {
+    "all_observations": 128,
+    "reused_DDPM": 32,
+    "new_B": 32,
+    "new_C": 32,
+    "new_D": 32,
+    "new_total": 96,
+    "new_encoder_calls": 0,
+    "new_DDPM_calls": 0,
+    "new_training_updates": 0,
+    "new_decoder_batches": 6,
+    "new_prior_inverse_batches": 2,
+    "new_prior_forward_roundtrip_batches": 2
+  },
+  "reference_denominators": {
+    "train_FREE": 126,
+    "train_AMD": 153,
+    "dev_FREE": 18,
+    "dev_AMD": 23,
+    "per_source_per_terminal": 16
+  },
+  "scalar_generation_summaries": [
+    {
+      "requests": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "invalid_alphabet_count": 0,
+      "length_over_48_count": 0,
+      "all_output_length": {
+        "n": 16,
+        "mean": 16.5,
+        "min": 4,
+        "max": 30,
+        "median": 18.0
+      },
+      "all_output_unique_count_including_empty_and_failed": 16,
+      "all_output_unique_fraction_including_empty_and_failed": 1.0,
+      "valid_1_48_count": 16,
+      "valid_1_48_fraction_of_requests": 1.0,
+      "valid_5_48_count": 15,
+      "valid_5_48_fraction_of_requests": 0.9375,
+      "status_ok_fraction_of_requests": 1.0,
+      "status_ok_and_valid_1_48_fraction_of_requests": 1.0,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_copy_train_fraction_of_requests": 0.0,
+      "exact_copy_train_fraction_of_valid_1_48": 0.0,
+      "nearest_train_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.44308949693237615,
+        "min": 0.3076923076923077,
+        "max": 0.5714285714285714,
+        "median": 0.4392857142857143
+      },
+      "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+      "nearest_train_at_least_70_percent_fraction_of_valid_1_48": 0.0,
+      "denominator_warning": "Conditional distribution/diversity metrics use named valid cohort; rates above retain every requested output, including empty and failed. Status is never silently filtered.",
+      "valid_1_48_vs_train": {
+        "aa_jensen_shannon_bits": 0.09447216287998406,
+        "aa_l1_distance": 0.489628349178911,
+        "dipeptide_jensen_shannon_bits": 0.2931123928240505,
+        "dipeptide_l1_distance": 0.9357077816423107,
+        "mmd2_linear_biased_fixed_features": 0.008949882952629573,
+        "length_ks_statistic_no_pvalue": 0.25531045751633985
+      },
+      "valid_1_48_vs_development": {
+        "aa_jensen_shannon_bits": 0.08845070704817436,
+        "aa_l1_distance": 0.42518173650249125,
+        "dipeptide_jensen_shannon_bits": 0.36559369734732183,
+        "dipeptide_l1_distance": 1.0693362995921398,
+        "mmd2_linear_biased_fixed_features": 0.007709821687840033,
+        "length_ks_statistic_no_pvalue": 0.30163043478260865
+      },
+      "method": "CE_DDPM_REUSED",
+      "terminal": "AMD",
+      "execution_completed_count": 16,
+      "execution_completed_fraction_of_requests": 1.0,
+      "seeds": [
+        "423"
+      ],
+      "train_same_terminal_n": 153,
+      "development_same_terminal_n": 23,
+      "valid_unique_count_per_request": 1.0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "exact_sequence_copy_any_train_terminal_fraction_of_requests": 0.0,
+      "nearest_any_train_terminal_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.4544759905557119,
+        "min": 0.3333333333333333,
+        "max": 0.5714285714285714,
+        "median": 0.45
+      },
+      "nearest_any_train_terminal_at_least_70_percent_count_valid_1_48": 0,
+      "nearest_and_copy_scope": "unqualified frozen keys mean same requested terminal; any_train_terminal explicitly pools distinct train sequences",
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.5628404258673214,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.1944294087053766,
+      "valid_1_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.1411488740883597,
+        "pooled_dipeptide_entropy_bits": 5.940559720341922,
+        "mean_per_sequence_aa_entropy_bits": 2.4960785565381403,
+        "length": {
+          "n": 16,
+          "mean": 16.5,
+          "min": 4,
+          "max": 30,
+          "median": 18.0
+        },
+        "length_counts": {
+          "4": 1,
+          "7": 1,
+          "11": 2,
+          "12": 1,
+          "14": 2,
+          "18": 3,
+          "19": 2,
+          "21": 1,
+          "22": 1,
+          "26": 1,
+          "30": 1
+        }
+      },
+      "valid_5_48": {
+        "n": 15,
+        "unique_count": 15,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.06666666666666667,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 3.906890595608518,
+        "pooled_aa_entropy_bits": 3.1449092930687126,
+        "pooled_dipeptide_entropy_bits": 5.943322329523004,
+        "mean_per_sequence_aa_entropy_bits": 2.5291504603073496,
+        "length": {
+          "n": 15,
+          "mean": 17.333333333333332,
+          "min": 7,
+          "max": 30,
+          "median": 18.0
+        },
+        "length_counts": {
+          "7": 1,
+          "11": 2,
+          "12": 1,
+          "14": 2,
+          "18": 3,
+          "19": 2,
+          "21": 1,
+          "22": 1,
+          "26": 1,
+          "30": 1
+        }
+      }
+    },
+    {
+      "requests": 16,
+      "status_counts": {
+        "no_eos_at_limit": 1,
+        "ok": 15
+      },
+      "empty_count": 0,
+      "invalid_alphabet_count": 0,
+      "length_over_48_count": 0,
+      "all_output_length": {
+        "n": 16,
+        "mean": 17.125,
+        "min": 2,
+        "max": 48,
+        "median": 17.5
+      },
+      "all_output_unique_count_including_empty_and_failed": 16,
+      "all_output_unique_fraction_including_empty_and_failed": 1.0,
+      "valid_1_48_count": 16,
+      "valid_1_48_fraction_of_requests": 1.0,
+      "valid_5_48_count": 14,
+      "valid_5_48_fraction_of_requests": 0.875,
+      "status_ok_fraction_of_requests": 0.9375,
+      "status_ok_and_valid_1_48_fraction_of_requests": 0.9375,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_copy_train_fraction_of_requests": 0.0,
+      "exact_copy_train_fraction_of_valid_1_48": 0.0,
+      "nearest_train_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.4002025295610822,
+        "min": 0.2222222222222222,
+        "max": 0.5238095238095238,
+        "median": 0.40283400809716596
+      },
+      "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+      "nearest_train_at_least_70_percent_fraction_of_valid_1_48": 0.0,
+      "denominator_warning": "Conditional distribution/diversity metrics use named valid cohort; rates above retain every requested output, including empty and failed. Status is never silently filtered.",
+      "valid_1_48_vs_train": {
+        "aa_jensen_shannon_bits": 0.10169432347600005,
+        "aa_l1_distance": 0.5175679769532836,
+        "dipeptide_jensen_shannon_bits": 0.339680009815442,
+        "dipeptide_l1_distance": 1.0191052705515768,
+        "mmd2_linear_biased_fixed_features": 0.01741593479424502,
+        "length_ks_statistic_no_pvalue": 0.27976190476190477
+      },
+      "valid_1_48_vs_development": {
+        "aa_jensen_shannon_bits": 0.09931655138833544,
+        "aa_l1_distance": 0.5353240433532405,
+        "dipeptide_jensen_shannon_bits": 0.41789109667112806,
+        "dipeptide_l1_distance": 1.1437090041741205,
+        "mmd2_linear_biased_fixed_features": 0.01732780337937688,
+        "length_ks_statistic_no_pvalue": 0.2638888888888889
+      },
+      "method": "CE_DDPM_REUSED",
+      "terminal": "FREE",
+      "execution_completed_count": 16,
+      "execution_completed_fraction_of_requests": 1.0,
+      "seeds": [
+        "422"
+      ],
+      "train_same_terminal_n": 126,
+      "development_same_terminal_n": 18,
+      "valid_unique_count_per_request": 1.0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "exact_sequence_copy_any_train_terminal_fraction_of_requests": 0.0,
+      "nearest_any_train_terminal_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.42395218086007563,
+        "min": 0.2222222222222222,
+        "max": 0.5454545454545454,
+        "median": 0.4444444444444444
+      },
+      "nearest_any_train_terminal_at_least_70_percent_count_valid_1_48": 0,
+      "nearest_and_copy_scope": "unqualified frozen keys mean same requested terminal; any_train_terminal explicitly pools distinct train sequences",
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.6667418133772367,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.6513668509043402,
+      "valid_1_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.267681166788934,
+        "pooled_dipeptide_entropy_bits": 6.013476991850741,
+        "mean_per_sequence_aa_entropy_bits": 2.3419653056230643,
+        "length": {
+          "n": 16,
+          "mean": 17.125,
+          "min": 2,
+          "max": 48,
+          "median": 17.5
+        },
+        "length_counts": {
+          "2": 2,
+          "6": 1,
+          "8": 1,
+          "11": 2,
+          "15": 1,
+          "17": 1,
+          "18": 3,
+          "19": 1,
+          "24": 1,
+          "28": 1,
+          "29": 1,
+          "48": 1
+        }
+      },
+      "valid_5_48": {
+        "n": 14,
+        "unique_count": 14,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.07142857142857142,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 3.8073549220576055,
+        "pooled_aa_entropy_bits": 3.2634926569573652,
+        "pooled_dipeptide_entropy_bits": 6.006944080356509,
+        "mean_per_sequence_aa_entropy_bits": 2.6051032064263593,
+        "length": {
+          "n": 14,
+          "mean": 19.285714285714285,
+          "min": 6,
+          "max": 48,
+          "median": 18.0
+        },
+        "length_counts": {
+          "6": 1,
+          "8": 1,
+          "11": 2,
+          "15": 1,
+          "17": 1,
+          "18": 3,
+          "19": 1,
+          "24": 1,
+          "28": 1,
+          "29": 1,
+          "48": 1
+        }
+      }
+    },
+    {
+      "requests": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "invalid_alphabet_count": 0,
+      "length_over_48_count": 0,
+      "all_output_length": {
+        "n": 16,
+        "mean": 13.1875,
+        "min": 10,
+        "max": 18,
+        "median": 12.5
+      },
+      "all_output_unique_count_including_empty_and_failed": 16,
+      "all_output_unique_fraction_including_empty_and_failed": 1.0,
+      "valid_1_48_count": 16,
+      "valid_1_48_fraction_of_requests": 1.0,
+      "valid_5_48_count": 16,
+      "valid_5_48_fraction_of_requests": 1.0,
+      "status_ok_fraction_of_requests": 1.0,
+      "status_ok_and_valid_1_48_fraction_of_requests": 1.0,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_copy_train_fraction_of_requests": 0.0,
+      "exact_copy_train_fraction_of_valid_1_48": 0.0,
+      "nearest_train_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.49706009048356187,
+        "min": 0.35714285714285715,
+        "max": 0.6428571428571429,
+        "median": 0.5
+      },
+      "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+      "nearest_train_at_least_70_percent_fraction_of_valid_1_48": 0.0,
+      "denominator_warning": "Conditional distribution/diversity metrics use named valid cohort; rates above retain every requested output, including empty and failed. Status is never silently filtered.",
+      "valid_1_48_vs_train": {
+        "aa_jensen_shannon_bits": 0.12204484983240768,
+        "aa_l1_distance": 0.676803467047889,
+        "dipeptide_jensen_shannon_bits": 0.3501938219535752,
+        "dipeptide_l1_distance": 1.0557173198542944,
+        "mmd2_linear_biased_fixed_features": 0.020093469062155127,
+        "length_ks_statistic_no_pvalue": 0.28022875816993464
+      },
+      "valid_1_48_vs_development": {
+        "aa_jensen_shannon_bits": 0.09852052182382144,
+        "aa_l1_distance": 0.5194619384014001,
+        "dipeptide_jensen_shannon_bits": 0.3618807327677793,
+        "dipeptide_l1_distance": 1.0596816976127326,
+        "mmd2_linear_biased_fixed_features": 0.016634657842282897,
+        "length_ks_statistic_no_pvalue": 0.3695652173913043
+      },
+      "method": "COORDINATE_PERMUTATION_C",
+      "terminal": "AMD",
+      "execution_completed_count": 16,
+      "execution_completed_fraction_of_requests": 1.0,
+      "seeds": [
+        "423"
+      ],
+      "train_same_terminal_n": 153,
+      "development_same_terminal_n": 23,
+      "valid_unique_count_per_request": 1.0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "exact_sequence_copy_any_train_terminal_fraction_of_requests": 0.0,
+      "nearest_any_train_terminal_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.5015243761978475,
+        "min": 0.35714285714285715,
+        "max": 0.6428571428571429,
+        "median": 0.5
+      },
+      "nearest_any_train_terminal_at_least_70_percent_count_valid_1_48": 0,
+      "nearest_and_copy_scope": "unqualified frozen keys mean same requested terminal; any_train_terminal explicitly pools distinct train sequences",
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.7913425161661936,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.7163230623631698,
+      "valid_1_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 2.9126467837894876,
+        "pooled_dipeptide_entropy_bits": 5.418666066684128,
+        "mean_per_sequence_aa_entropy_bits": 2.3915557145548227,
+        "length": {
+          "n": 16,
+          "mean": 13.1875,
+          "min": 10,
+          "max": 18,
+          "median": 12.5
+        },
+        "length_counts": {
+          "10": 1,
+          "11": 3,
+          "12": 4,
+          "13": 2,
+          "14": 2,
+          "15": 2,
+          "18": 2
+        }
+      },
+      "valid_5_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 2.9126467837894876,
+        "pooled_dipeptide_entropy_bits": 5.418666066684128,
+        "mean_per_sequence_aa_entropy_bits": 2.3915557145548227,
+        "length": {
+          "n": 16,
+          "mean": 13.1875,
+          "min": 10,
+          "max": 18,
+          "median": 12.5
+        },
+        "length_counts": {
+          "10": 1,
+          "11": 3,
+          "12": 4,
+          "13": 2,
+          "14": 2,
+          "15": 2,
+          "18": 2
+        }
+      }
+    },
+    {
+      "requests": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "invalid_alphabet_count": 0,
+      "length_over_48_count": 0,
+      "all_output_length": {
+        "n": 16,
+        "mean": 20.625,
+        "min": 17,
+        "max": 23,
+        "median": 21.0
+      },
+      "all_output_unique_count_including_empty_and_failed": 16,
+      "all_output_unique_fraction_including_empty_and_failed": 1.0,
+      "valid_1_48_count": 16,
+      "valid_1_48_fraction_of_requests": 1.0,
+      "valid_5_48_count": 16,
+      "valid_5_48_fraction_of_requests": 1.0,
+      "status_ok_fraction_of_requests": 1.0,
+      "status_ok_and_valid_1_48_fraction_of_requests": 1.0,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_copy_train_fraction_of_requests": 0.0,
+      "exact_copy_train_fraction_of_valid_1_48": 0.0,
+      "nearest_train_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.445413083449534,
+        "min": 0.36,
+        "max": 0.5238095238095238,
+        "median": 0.45227272727272727
+      },
+      "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+      "nearest_train_at_least_70_percent_fraction_of_valid_1_48": 0.0,
+      "denominator_warning": "Conditional distribution/diversity metrics use named valid cohort; rates above retain every requested output, including empty and failed. Status is never silently filtered.",
+      "valid_1_48_vs_train": {
+        "aa_jensen_shannon_bits": 0.13767577289163563,
+        "aa_l1_distance": 0.60650198144325,
+        "dipeptide_jensen_shannon_bits": 0.35497935204884173,
+        "dipeptide_l1_distance": 1.0827868078363907,
+        "mmd2_linear_biased_fixed_features": 0.02126814695919727,
+        "length_ks_statistic_no_pvalue": 0.39880952380952384
+      },
+      "valid_1_48_vs_development": {
+        "aa_jensen_shannon_bits": 0.12943214007658746,
+        "aa_l1_distance": 0.6484848484848487,
+        "dipeptide_jensen_shannon_bits": 0.43812197601557384,
+        "dipeptide_l1_distance": 1.2137840927649846,
+        "mmd2_linear_biased_fixed_features": 0.0233249974561213,
+        "length_ks_statistic_no_pvalue": 0.548611111111111
+      },
+      "method": "COORDINATE_PERMUTATION_C",
+      "terminal": "FREE",
+      "execution_completed_count": 16,
+      "execution_completed_fraction_of_requests": 1.0,
+      "seeds": [
+        "422"
+      ],
+      "train_same_terminal_n": 126,
+      "development_same_terminal_n": 18,
+      "valid_unique_count_per_request": 1.0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "exact_sequence_copy_any_train_terminal_fraction_of_requests": 0.0,
+      "nearest_any_train_terminal_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.46394099016558005,
+        "min": 0.38095238095238093,
+        "max": 0.55,
+        "median": 0.4733893557422969
+      },
+      "nearest_any_train_terminal_at_least_70_percent_count_valid_1_48": 0,
+      "nearest_and_copy_scope": "unqualified frozen keys mean same requested terminal; any_train_terminal explicitly pools distinct train sequences",
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.9187905022538612,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 2.0015049397636657,
+      "valid_1_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.0156324779123094,
+        "pooled_dipeptide_entropy_bits": 5.663338902991415,
+        "mean_per_sequence_aa_entropy_bits": 2.6572849423729794,
+        "length": {
+          "n": 16,
+          "mean": 20.625,
+          "min": 17,
+          "max": 23,
+          "median": 21.0
+        },
+        "length_counts": {
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 4,
+          "21": 3,
+          "22": 5,
+          "23": 1
+        }
+      },
+      "valid_5_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.0156324779123094,
+        "pooled_dipeptide_entropy_bits": 5.663338902991415,
+        "mean_per_sequence_aa_entropy_bits": 2.6572849423729794,
+        "length": {
+          "n": 16,
+          "mean": 20.625,
+          "min": 17,
+          "max": 23,
+          "median": 21.0
+        },
+        "length_counts": {
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 4,
+          "21": 3,
+          "22": 5,
+          "23": 1
+        }
+      }
+    },
+    {
+      "requests": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "invalid_alphabet_count": 0,
+      "length_over_48_count": 0,
+      "all_output_length": {
+        "n": 16,
+        "mean": 13.25,
+        "min": 8,
+        "max": 26,
+        "median": 12.0
+      },
+      "all_output_unique_count_including_empty_and_failed": 16,
+      "all_output_unique_fraction_including_empty_and_failed": 1.0,
+      "valid_1_48_count": 16,
+      "valid_1_48_fraction_of_requests": 1.0,
+      "valid_5_48_count": 16,
+      "valid_5_48_fraction_of_requests": 1.0,
+      "status_ok_fraction_of_requests": 1.0,
+      "status_ok_and_valid_1_48_fraction_of_requests": 1.0,
+      "exact_copy_train_count_all_requests": 1,
+      "exact_copy_train_fraction_of_requests": 0.0625,
+      "exact_copy_train_fraction_of_valid_1_48": 0.0625,
+      "nearest_train_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.7613362707983451,
+        "min": 0.5263157894736842,
+        "max": 1.0,
+        "median": 0.7596153846153846
+      },
+      "nearest_train_at_least_70_percent_count_valid_1_48": 14,
+      "nearest_train_at_least_70_percent_fraction_of_valid_1_48": 0.875,
+      "denominator_warning": "Conditional distribution/diversity metrics use named valid cohort; rates above retain every requested output, including empty and failed. Status is never silently filtered.",
+      "valid_1_48_vs_train": {
+        "aa_jensen_shannon_bits": 0.07821342736778146,
+        "aa_l1_distance": 0.4202475497790316,
+        "dipeptide_jensen_shannon_bits": 0.26888420954776227,
+        "dipeptide_l1_distance": 0.8813616145208675,
+        "mmd2_linear_biased_fixed_features": 0.009699451750871524,
+        "length_ks_statistic_no_pvalue": 0.23774509803921567
+      },
+      "valid_1_48_vs_development": {
+        "aa_jensen_shannon_bits": 0.09423323753982939,
+        "aa_l1_distance": 0.45552560646900264,
+        "dipeptide_jensen_shannon_bits": 0.36115671937229,
+        "dipeptide_l1_distance": 0.9970677926342961,
+        "mmd2_linear_biased_fixed_features": 0.013236364504926648,
+        "length_ks_statistic_no_pvalue": 0.4320652173913043
+      },
+      "method": "EMPIRICAL_POSTERIOR_B",
+      "terminal": "AMD",
+      "execution_completed_count": 16,
+      "execution_completed_fraction_of_requests": 1.0,
+      "seeds": [
+        "423"
+      ],
+      "train_same_terminal_n": 153,
+      "development_same_terminal_n": 23,
+      "valid_unique_count_per_request": 1.0,
+      "exact_sequence_copy_any_train_terminal_count": 1,
+      "exact_sequence_copy_any_train_terminal_fraction_of_requests": 0.0625,
+      "nearest_any_train_terminal_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.7613362707983451,
+        "min": 0.5263157894736842,
+        "max": 1.0,
+        "median": 0.7596153846153846
+      },
+      "nearest_any_train_terminal_at_least_70_percent_count_valid_1_48": 14,
+      "nearest_and_copy_scope": "unqualified frozen keys mean same requested terminal; any_train_terminal explicitly pools distinct train sequences",
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.7071207954778318,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.5847667844708848,
+      "valid_1_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 2.9968685044778494,
+        "pooled_dipeptide_entropy_bits": 5.550222344576413,
+        "mean_per_sequence_aa_entropy_bits": 2.1072341783084987,
+        "length": {
+          "n": 16,
+          "mean": 13.25,
+          "min": 8,
+          "max": 26,
+          "median": 12.0
+        },
+        "length_counts": {
+          "8": 1,
+          "9": 5,
+          "11": 1,
+          "12": 2,
+          "13": 1,
+          "14": 1,
+          "16": 2,
+          "19": 1,
+          "20": 1,
+          "26": 1
+        }
+      },
+      "valid_5_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 2.9968685044778494,
+        "pooled_dipeptide_entropy_bits": 5.550222344576413,
+        "mean_per_sequence_aa_entropy_bits": 2.1072341783084987,
+        "length": {
+          "n": 16,
+          "mean": 13.25,
+          "min": 8,
+          "max": 26,
+          "median": 12.0
+        },
+        "length_counts": {
+          "8": 1,
+          "9": 5,
+          "11": 1,
+          "12": 2,
+          "13": 1,
+          "14": 1,
+          "16": 2,
+          "19": 1,
+          "20": 1,
+          "26": 1
+        }
+      }
+    },
+    {
+      "requests": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "invalid_alphabet_count": 0,
+      "length_over_48_count": 0,
+      "all_output_length": {
+        "n": 16,
+        "mean": 18.6875,
+        "min": 9,
+        "max": 35,
+        "median": 18.0
+      },
+      "all_output_unique_count_including_empty_and_failed": 16,
+      "all_output_unique_fraction_including_empty_and_failed": 1.0,
+      "valid_1_48_count": 16,
+      "valid_1_48_fraction_of_requests": 1.0,
+      "valid_5_48_count": 16,
+      "valid_5_48_fraction_of_requests": 1.0,
+      "status_ok_fraction_of_requests": 1.0,
+      "status_ok_and_valid_1_48_fraction_of_requests": 1.0,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_copy_train_fraction_of_requests": 0.0,
+      "exact_copy_train_fraction_of_valid_1_48": 0.0,
+      "nearest_train_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.6619549799188925,
+        "min": 0.46153846153846156,
+        "max": 0.85,
+        "median": 0.6899038461538461
+      },
+      "nearest_train_at_least_70_percent_count_valid_1_48": 7,
+      "nearest_train_at_least_70_percent_fraction_of_valid_1_48": 0.4375,
+      "denominator_warning": "Conditional distribution/diversity metrics use named valid cohort; rates above retain every requested output, including empty and failed. Status is never silently filtered.",
+      "valid_1_48_vs_train": {
+        "aa_jensen_shannon_bits": 0.11611720280657675,
+        "aa_l1_distance": 0.47434806179826783,
+        "dipeptide_jensen_shannon_bits": 0.30724510304233,
+        "dipeptide_l1_distance": 0.9582811836000514,
+        "mmd2_linear_biased_fixed_features": 0.010718824353432856,
+        "length_ks_statistic_no_pvalue": 0.19940476190476197
+      },
+      "valid_1_48_vs_development": {
+        "aa_jensen_shannon_bits": 0.1201011732255917,
+        "aa_l1_distance": 0.5325833586703153,
+        "dipeptide_jensen_shannon_bits": 0.3836148277912255,
+        "dipeptide_l1_distance": 1.0776026094047293,
+        "mmd2_linear_biased_fixed_features": 0.017888733398073543,
+        "length_ks_statistic_no_pvalue": 0.2569444444444444
+      },
+      "method": "EMPIRICAL_POSTERIOR_B",
+      "terminal": "FREE",
+      "execution_completed_count": 16,
+      "execution_completed_fraction_of_requests": 1.0,
+      "seeds": [
+        "422"
+      ],
+      "train_same_terminal_n": 126,
+      "development_same_terminal_n": 18,
+      "valid_unique_count_per_request": 1.0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "exact_sequence_copy_any_train_terminal_fraction_of_requests": 0.0,
+      "nearest_any_train_terminal_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.6673932336156602,
+        "min": 0.47058823529411764,
+        "max": 0.85,
+        "median": 0.6899038461538461
+      },
+      "nearest_any_train_terminal_at_least_70_percent_count_valid_1_48": 7,
+      "nearest_and_copy_scope": "unqualified frozen keys mean same requested terminal; any_train_terminal explicitly pools distinct train sequences",
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.8126556318956033,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.8479707529421159,
+      "valid_1_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.1217673482705672,
+        "pooled_dipeptide_entropy_bits": 5.816873089812965,
+        "mean_per_sequence_aa_entropy_bits": 2.4575129470018626,
+        "length": {
+          "n": 16,
+          "mean": 18.6875,
+          "min": 9,
+          "max": 35,
+          "median": 18.0
+        },
+        "length_counts": {
+          "9": 1,
+          "10": 1,
+          "12": 1,
+          "16": 1,
+          "17": 3,
+          "18": 2,
+          "20": 1,
+          "22": 5,
+          "35": 1
+        }
+      },
+      "valid_5_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.1217673482705672,
+        "pooled_dipeptide_entropy_bits": 5.816873089812965,
+        "mean_per_sequence_aa_entropy_bits": 2.4575129470018626,
+        "length": {
+          "n": 16,
+          "mean": 18.6875,
+          "min": 9,
+          "max": 35,
+          "median": 18.0
+        },
+        "length_counts": {
+          "9": 1,
+          "10": 1,
+          "12": 1,
+          "16": 1,
+          "17": 3,
+          "18": 2,
+          "20": 1,
+          "22": 5,
+          "35": 1
+        }
+      }
+    },
+    {
+      "requests": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "invalid_alphabet_count": 0,
+      "length_over_48_count": 0,
+      "all_output_length": {
+        "n": 16,
+        "mean": 13.0625,
+        "min": 8,
+        "max": 26,
+        "median": 12.0
+      },
+      "all_output_unique_count_including_empty_and_failed": 16,
+      "all_output_unique_fraction_including_empty_and_failed": 1.0,
+      "valid_1_48_count": 16,
+      "valid_1_48_fraction_of_requests": 1.0,
+      "valid_5_48_count": 16,
+      "valid_5_48_fraction_of_requests": 1.0,
+      "status_ok_fraction_of_requests": 1.0,
+      "status_ok_and_valid_1_48_fraction_of_requests": 1.0,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_copy_train_fraction_of_requests": 0.0,
+      "exact_copy_train_fraction_of_valid_1_48": 0.0,
+      "nearest_train_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.7402509134634715,
+        "min": 0.47368421052631576,
+        "max": 0.9166666666666666,
+        "median": 0.75
+      },
+      "nearest_train_at_least_70_percent_count_valid_1_48": 13,
+      "nearest_train_at_least_70_percent_fraction_of_valid_1_48": 0.8125,
+      "denominator_warning": "Conditional distribution/diversity metrics use named valid cohort; rates above retain every requested output, including empty and failed. Status is never silently filtered.",
+      "valid_1_48_vs_train": {
+        "aa_jensen_shannon_bits": 0.07907358530313861,
+        "aa_l1_distance": 0.4246711301708345,
+        "dipeptide_jensen_shannon_bits": 0.2728138697897955,
+        "dipeptide_l1_distance": 0.8950279687249008,
+        "mmd2_linear_biased_fixed_features": 0.009688663591779025,
+        "length_ks_statistic_no_pvalue": 0.2655228758169934
+      },
+      "valid_1_48_vs_development": {
+        "aa_jensen_shannon_bits": 0.09446362289681967,
+        "aa_l1_distance": 0.44633023381782067,
+        "dipeptide_jensen_shannon_bits": 0.3694292700038693,
+        "dipeptide_l1_distance": 1.0257578464653696,
+        "mmd2_linear_biased_fixed_features": 0.01292611928213481,
+        "length_ks_statistic_no_pvalue": 0.4945652173913043
+      },
+      "method": "REFERENCE_G_PRIOR_D",
+      "terminal": "AMD",
+      "execution_completed_count": 16,
+      "execution_completed_fraction_of_requests": 1.0,
+      "seeds": [
+        "423"
+      ],
+      "train_same_terminal_n": 153,
+      "development_same_terminal_n": 23,
+      "valid_unique_count_per_request": 1.0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "exact_sequence_copy_any_train_terminal_fraction_of_requests": 0.0,
+      "nearest_any_train_terminal_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.7402509134634715,
+        "min": 0.47368421052631576,
+        "max": 0.9166666666666666,
+        "median": 0.75
+      },
+      "nearest_any_train_terminal_at_least_70_percent_count_valid_1_48": 13,
+      "nearest_and_copy_scope": "unqualified frozen keys mean same requested terminal; any_train_terminal explicitly pools distinct train sequences",
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.7181205878402119,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.6435182815701097,
+      "valid_1_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 2.9858687121154692,
+        "pooled_dipeptide_entropy_bits": 5.4914708474771885,
+        "mean_per_sequence_aa_entropy_bits": 2.0994746822621844,
+        "length": {
+          "n": 16,
+          "mean": 13.0625,
+          "min": 8,
+          "max": 26,
+          "median": 12.0
+        },
+        "length_counts": {
+          "8": 2,
+          "9": 4,
+          "11": 1,
+          "12": 3,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "19": 1,
+          "20": 1,
+          "26": 1
+        }
+      },
+      "valid_5_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 2.9858687121154692,
+        "pooled_dipeptide_entropy_bits": 5.4914708474771885,
+        "mean_per_sequence_aa_entropy_bits": 2.0994746822621844,
+        "length": {
+          "n": 16,
+          "mean": 13.0625,
+          "min": 8,
+          "max": 26,
+          "median": 12.0
+        },
+        "length_counts": {
+          "8": 2,
+          "9": 4,
+          "11": 1,
+          "12": 3,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "19": 1,
+          "20": 1,
+          "26": 1
+        }
+      }
+    },
+    {
+      "requests": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "invalid_alphabet_count": 0,
+      "length_over_48_count": 0,
+      "all_output_length": {
+        "n": 16,
+        "mean": 18.5,
+        "min": 9,
+        "max": 35,
+        "median": 18.0
+      },
+      "all_output_unique_count_including_empty_and_failed": 16,
+      "all_output_unique_fraction_including_empty_and_failed": 1.0,
+      "valid_1_48_count": 16,
+      "valid_1_48_fraction_of_requests": 1.0,
+      "valid_5_48_count": 16,
+      "valid_5_48_fraction_of_requests": 1.0,
+      "status_ok_fraction_of_requests": 1.0,
+      "status_ok_and_valid_1_48_fraction_of_requests": 1.0,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_copy_train_fraction_of_requests": 0.0,
+      "exact_copy_train_fraction_of_valid_1_48": 0.0,
+      "nearest_train_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.6392440275663961,
+        "min": 0.4444444444444444,
+        "max": 0.85,
+        "median": 0.6306818181818181
+      },
+      "nearest_train_at_least_70_percent_count_valid_1_48": 6,
+      "nearest_train_at_least_70_percent_fraction_of_valid_1_48": 0.375,
+      "denominator_warning": "Conditional distribution/diversity metrics use named valid cohort; rates above retain every requested output, including empty and failed. Status is never silently filtered.",
+      "valid_1_48_vs_train": {
+        "aa_jensen_shannon_bits": 0.13120694618693912,
+        "aa_l1_distance": 0.4649992592435819,
+        "dipeptide_jensen_shannon_bits": 0.3270612912593229,
+        "dipeptide_l1_distance": 1.006530948458463,
+        "mmd2_linear_biased_fixed_features": 0.010653713601117241,
+        "length_ks_statistic_no_pvalue": 0.19940476190476197
+      },
+      "valid_1_48_vs_development": {
+        "aa_jensen_shannon_bits": 0.12882132249854775,
+        "aa_l1_distance": 0.5025798525798526,
+        "dipeptide_jensen_shannon_bits": 0.37711532557908356,
+        "dipeptide_l1_distance": 1.0560439560439547,
+        "mmd2_linear_biased_fixed_features": 0.01710843601887612,
+        "length_ks_statistic_no_pvalue": 0.2013888888888889
+      },
+      "method": "REFERENCE_G_PRIOR_D",
+      "terminal": "FREE",
+      "execution_completed_count": 16,
+      "execution_completed_fraction_of_requests": 1.0,
+      "seeds": [
+        "422"
+      ],
+      "train_same_terminal_n": 126,
+      "development_same_terminal_n": 18,
+      "valid_unique_count_per_request": 1.0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "exact_sequence_copy_any_train_terminal_fraction_of_requests": 0.0,
+      "nearest_any_train_terminal_identity_valid_1_48": {
+        "n": 16,
+        "mean": 0.6463162681912683,
+        "min": 0.47058823529411764,
+        "max": 0.85,
+        "median": 0.6306818181818181
+      },
+      "nearest_any_train_terminal_at_least_70_percent_count_valid_1_48": 6,
+      "nearest_and_copy_scope": "unqualified frozen keys mean same requested terminal; any_train_terminal explicitly pools distinct train sequences",
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.8390841890271692,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.908276035525005,
+      "valid_1_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.0953387911390013,
+        "pooled_dipeptide_entropy_bits": 5.756567807230076,
+        "mean_per_sequence_aa_entropy_bits": 2.442858210670059,
+        "length": {
+          "n": 16,
+          "mean": 18.5,
+          "min": 9,
+          "max": 35,
+          "median": 18.0
+        },
+        "length_counts": {
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "15": 1,
+          "16": 1,
+          "17": 2,
+          "18": 2,
+          "20": 1,
+          "22": 5,
+          "35": 1
+        }
+      },
+      "valid_5_48": {
+        "n": 16,
+        "unique_count": 16,
+        "unique_fraction": 1.0,
+        "duplicate_fraction": 0.0,
+        "top_mode_fraction": 0.0625,
+        "pair_collision_probability": 0.0,
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.0953387911390013,
+        "pooled_dipeptide_entropy_bits": 5.756567807230076,
+        "mean_per_sequence_aa_entropy_bits": 2.442858210670059,
+        "length": {
+          "n": 16,
+          "mean": 18.5,
+          "min": 9,
+          "max": 35,
+          "median": 18.0
+        },
+        "length_counts": {
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "15": 1,
+          "16": 1,
+          "17": 2,
+          "18": 2,
+          "20": 1,
+          "22": 5,
+          "35": 1
+        }
+      }
+    }
+  ],
+  "saved_distance_comparisons_no_new_metrics_or_gate": [
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.11611720280657675,
+      "right_value": 0.10169432347600005,
+      "left_direction": "higher"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "aa_l1_distance",
+      "left_value": 0.47434806179826783,
+      "right_value": 0.5175679769532836,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.30724510304233,
+      "right_value": 0.339680009815442,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 0.9582811836000514,
+      "right_value": 1.0191052705515768,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.010718824353432856,
+      "right_value": 0.01741593479424502,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.19940476190476197,
+      "right_value": 0.27976190476190477,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.1201011732255917,
+      "right_value": 0.09931655138833544,
+      "left_direction": "higher"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "aa_l1_distance",
+      "left_value": 0.5325833586703153,
+      "right_value": 0.5353240433532405,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.3836148277912255,
+      "right_value": 0.41789109667112806,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.0776026094047293,
+      "right_value": 1.1437090041741205,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.017888733398073543,
+      "right_value": 0.01732780337937688,
+      "left_direction": "higher"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.2569444444444444,
+      "right_value": 0.2638888888888889,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.07821342736778146,
+      "right_value": 0.09447216287998406,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "aa_l1_distance",
+      "left_value": 0.4202475497790316,
+      "right_value": 0.489628349178911,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.26888420954776227,
+      "right_value": 0.2931123928240505,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 0.8813616145208675,
+      "right_value": 0.9357077816423107,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.009699451750871524,
+      "right_value": 0.008949882952629573,
+      "left_direction": "higher"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.23774509803921567,
+      "right_value": 0.25531045751633985,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.09423323753982939,
+      "right_value": 0.08845070704817436,
+      "left_direction": "higher"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "aa_l1_distance",
+      "left_value": 0.45552560646900264,
+      "right_value": 0.42518173650249125,
+      "left_direction": "higher"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.36115671937229,
+      "right_value": 0.36559369734732183,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 0.9970677926342961,
+      "right_value": 1.0693362995921398,
+      "left_direction": "lower"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.013236364504926648,
+      "right_value": 0.007709821687840033,
+      "left_direction": "higher"
+    },
+    {
+      "left": "B",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.4320652173913043,
+      "right_value": 0.30163043478260865,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.13767577289163563,
+      "right_value": 0.11611720280657675,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "aa_l1_distance",
+      "left_value": 0.60650198144325,
+      "right_value": 0.47434806179826783,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.35497935204884173,
+      "right_value": 0.30724510304233,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.0827868078363907,
+      "right_value": 0.9582811836000514,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.02126814695919727,
+      "right_value": 0.010718824353432856,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.39880952380952384,
+      "right_value": 0.19940476190476197,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.12943214007658746,
+      "right_value": 0.1201011732255917,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "aa_l1_distance",
+      "left_value": 0.6484848484848487,
+      "right_value": 0.5325833586703153,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.43812197601557384,
+      "right_value": 0.3836148277912255,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.2137840927649846,
+      "right_value": 1.0776026094047293,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.0233249974561213,
+      "right_value": 0.017888733398073543,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.548611111111111,
+      "right_value": 0.2569444444444444,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.12204484983240768,
+      "right_value": 0.07821342736778146,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "aa_l1_distance",
+      "left_value": 0.676803467047889,
+      "right_value": 0.4202475497790316,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.3501938219535752,
+      "right_value": 0.26888420954776227,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.0557173198542944,
+      "right_value": 0.8813616145208675,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.020093469062155127,
+      "right_value": 0.009699451750871524,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.28022875816993464,
+      "right_value": 0.23774509803921567,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.09852052182382144,
+      "right_value": 0.09423323753982939,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "aa_l1_distance",
+      "left_value": 0.5194619384014001,
+      "right_value": 0.45552560646900264,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.3618807327677793,
+      "right_value": 0.36115671937229,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.0596816976127326,
+      "right_value": 0.9970677926342961,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.016634657842282897,
+      "right_value": 0.013236364504926648,
+      "left_direction": "higher"
+    },
+    {
+      "left": "C",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.3695652173913043,
+      "right_value": 0.4320652173913043,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.13120694618693912,
+      "right_value": 0.10169432347600005,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "aa_l1_distance",
+      "left_value": 0.4649992592435819,
+      "right_value": 0.5175679769532836,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.3270612912593229,
+      "right_value": 0.339680009815442,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.006530948458463,
+      "right_value": 1.0191052705515768,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.010653713601117241,
+      "right_value": 0.01741593479424502,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.19940476190476197,
+      "right_value": 0.27976190476190477,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.12882132249854775,
+      "right_value": 0.09931655138833544,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "aa_l1_distance",
+      "left_value": 0.5025798525798526,
+      "right_value": 0.5353240433532405,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.37711532557908356,
+      "right_value": 0.41789109667112806,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.0560439560439547,
+      "right_value": 1.1437090041741205,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.01710843601887612,
+      "right_value": 0.01732780337937688,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.2013888888888889,
+      "right_value": 0.2638888888888889,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.07907358530313861,
+      "right_value": 0.09447216287998406,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "aa_l1_distance",
+      "left_value": 0.4246711301708345,
+      "right_value": 0.489628349178911,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.2728138697897955,
+      "right_value": 0.2931123928240505,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 0.8950279687249008,
+      "right_value": 0.9357077816423107,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.009688663591779025,
+      "right_value": 0.008949882952629573,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.2655228758169934,
+      "right_value": 0.25531045751633985,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.09446362289681967,
+      "right_value": 0.08845070704817436,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "aa_l1_distance",
+      "left_value": 0.44633023381782067,
+      "right_value": 0.42518173650249125,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.3694292700038693,
+      "right_value": 0.36559369734732183,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.0257578464653696,
+      "right_value": 1.0693362995921398,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.01292611928213481,
+      "right_value": 0.007709821687840033,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "A",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.4945652173913043,
+      "right_value": 0.30163043478260865,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.13120694618693912,
+      "right_value": 0.11611720280657675,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "aa_l1_distance",
+      "left_value": 0.4649992592435819,
+      "right_value": 0.47434806179826783,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.3270612912593229,
+      "right_value": 0.30724510304233,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.006530948458463,
+      "right_value": 0.9582811836000514,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.010653713601117241,
+      "right_value": 0.010718824353432856,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "train",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.19940476190476197,
+      "right_value": 0.19940476190476197,
+      "left_direction": "equal"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.12882132249854775,
+      "right_value": 0.1201011732255917,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "aa_l1_distance",
+      "left_value": 0.5025798525798526,
+      "right_value": 0.5325833586703153,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.37711532557908356,
+      "right_value": 0.3836148277912255,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.0560439560439547,
+      "right_value": 1.0776026094047293,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.01710843601887612,
+      "right_value": 0.017888733398073543,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "FREE",
+      "reference": "development",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.2013888888888889,
+      "right_value": 0.2569444444444444,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.07907358530313861,
+      "right_value": 0.07821342736778146,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "aa_l1_distance",
+      "left_value": 0.4246711301708345,
+      "right_value": 0.4202475497790316,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.2728138697897955,
+      "right_value": 0.26888420954776227,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 0.8950279687249008,
+      "right_value": 0.8813616145208675,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.009688663591779025,
+      "right_value": 0.009699451750871524,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "train",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.2655228758169934,
+      "right_value": 0.23774509803921567,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "aa_jensen_shannon_bits",
+      "left_value": 0.09446362289681967,
+      "right_value": 0.09423323753982939,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "aa_l1_distance",
+      "left_value": 0.44633023381782067,
+      "right_value": 0.45552560646900264,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "dipeptide_jensen_shannon_bits",
+      "left_value": 0.3694292700038693,
+      "right_value": 0.36115671937229,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "dipeptide_l1_distance",
+      "left_value": 1.0257578464653696,
+      "right_value": 0.9970677926342961,
+      "left_direction": "higher"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "mmd2_linear_biased_fixed_features",
+      "left_value": 0.01292611928213481,
+      "right_value": 0.013236364504926648,
+      "left_direction": "lower"
+    },
+    {
+      "left": "D",
+      "right": "B",
+      "terminal": "AMD",
+      "reference": "development",
+      "metric": "length_ks_statistic_no_pvalue",
+      "left_value": 0.4945652173913043,
+      "right_value": 0.4320652173913043,
+      "left_direction": "higher"
+    }
+  ],
+  "source_details": [
+    {
+      "method": "CE_DDPM_REUSED",
+      "label": "既有CE DDPM32复用",
+      "terminal": "FREE",
+      "requests": 16,
+      "new_decode_observations": 0,
+      "reused_observations": 16,
+      "condition_scopes": [
+        "original_terminal_only"
+      ],
+      "ranking_eligible_values": [
+        "false"
+      ],
+      "reference_train_row_ids": [],
+      "reference_row_unique_count": 0,
+      "reference_row_repeated_occurrences": 0,
+      "status_counts": {
+        "ok": 15,
+        "no_eos_at_limit": 1
+      },
+      "empty_count": 0,
+      "length_cap_hit_count": 1,
+      "cap_hit_sample_ids": [
+        "CE_DDPM_REUSED_FREE_009"
+      ]
+    },
+    {
+      "method": "CE_DDPM_REUSED",
+      "label": "既有CE DDPM32复用",
+      "terminal": "AMD",
+      "requests": 16,
+      "new_decode_observations": 0,
+      "reused_observations": 16,
+      "condition_scopes": [
+        "original_terminal_only"
+      ],
+      "ranking_eligible_values": [
+        "false"
+      ],
+      "reference_train_row_ids": [],
+      "reference_row_unique_count": 0,
+      "reference_row_repeated_occurrences": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "length_cap_hit_count": 0,
+      "cap_hit_sample_ids": []
+    },
+    {
+      "method": "EMPIRICAL_POSTERIOR_B",
+      "label": "B训练经验后验回放",
+      "terminal": "FREE",
+      "requests": 16,
+      "new_decode_observations": 16,
+      "reused_observations": 0,
+      "condition_scopes": [
+        "empirical_train_posterior_reference"
+      ],
+      "ranking_eligible_values": [
+        "false"
+      ],
+      "reference_train_row_ids": [
+        "68",
+        "4",
+        "193",
+        "271",
+        "23",
+        "85",
+        "97",
+        "164",
+        "64",
+        "187",
+        "96",
+        "52",
+        "249",
+        "75",
+        "202",
+        "226"
+      ],
+      "reference_row_unique_count": 16,
+      "reference_row_repeated_occurrences": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "length_cap_hit_count": 0,
+      "cap_hit_sample_ids": []
+    },
+    {
+      "method": "EMPIRICAL_POSTERIOR_B",
+      "label": "B训练经验后验回放",
+      "terminal": "AMD",
+      "requests": 16,
+      "new_decode_observations": 16,
+      "reused_observations": 0,
+      "condition_scopes": [
+        "empirical_train_posterior_reference"
+      ],
+      "ranking_eligible_values": [
+        "false"
+      ],
+      "reference_train_row_ids": [
+        "27",
+        "33",
+        "53",
+        "145",
+        "205",
+        "117",
+        "117",
+        "77",
+        "268",
+        "203",
+        "217",
+        "155",
+        "270",
+        "214",
+        "141",
+        "194"
+      ],
+      "reference_row_unique_count": 15,
+      "reference_row_repeated_occurrences": 1,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "length_cap_hit_count": 0,
+      "cap_hit_sample_ids": []
+    },
+    {
+      "method": "COORDINATE_PERMUTATION_C",
+      "label": "C逐坐标置换B的采样z",
+      "terminal": "FREE",
+      "requests": 16,
+      "new_decode_observations": 16,
+      "reused_observations": 0,
+      "condition_scopes": [
+        "permuted_train_posterior_decoder_z"
+      ],
+      "ranking_eligible_values": [
+        "false"
+      ],
+      "reference_train_row_ids": [],
+      "reference_row_unique_count": 0,
+      "reference_row_repeated_occurrences": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "length_cap_hit_count": 0,
+      "cap_hit_sample_ids": []
+    },
+    {
+      "method": "COORDINATE_PERMUTATION_C",
+      "label": "C逐坐标置换B的采样z",
+      "terminal": "AMD",
+      "requests": 16,
+      "new_decode_observations": 16,
+      "reused_observations": 0,
+      "condition_scopes": [
+        "permuted_train_posterior_decoder_z"
+      ],
+      "ranking_eligible_values": [
+        "false"
+      ],
+      "reference_train_row_ids": [],
+      "reference_row_unique_count": 0,
+      "reference_row_repeated_occurrences": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "length_cap_hit_count": 0,
+      "cap_hit_sample_ids": []
+    },
+    {
+      "method": "REFERENCE_G_PRIOR_D",
+      "label": "D reference-g条件native prior",
+      "terminal": "FREE",
+      "requests": 16,
+      "new_decode_observations": 16,
+      "reused_observations": 0,
+      "condition_scopes": [
+        "reference_g_extra_residue_and_length"
+      ],
+      "ranking_eligible_values": [
+        "false"
+      ],
+      "reference_train_row_ids": [
+        "68",
+        "4",
+        "193",
+        "271",
+        "23",
+        "85",
+        "97",
+        "164",
+        "64",
+        "187",
+        "96",
+        "52",
+        "249",
+        "75",
+        "202",
+        "226"
+      ],
+      "reference_row_unique_count": 16,
+      "reference_row_repeated_occurrences": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "length_cap_hit_count": 0,
+      "cap_hit_sample_ids": []
+    },
+    {
+      "method": "REFERENCE_G_PRIOR_D",
+      "label": "D reference-g条件native prior",
+      "terminal": "AMD",
+      "requests": 16,
+      "new_decode_observations": 16,
+      "reused_observations": 0,
+      "condition_scopes": [
+        "reference_g_extra_residue_and_length"
+      ],
+      "ranking_eligible_values": [
+        "false"
+      ],
+      "reference_train_row_ids": [
+        "27",
+        "33",
+        "53",
+        "145",
+        "205",
+        "117",
+        "117",
+        "77",
+        "268",
+        "203",
+        "217",
+        "155",
+        "270",
+        "214",
+        "141",
+        "194"
+      ],
+      "reference_row_unique_count": 15,
+      "reference_row_repeated_occurrences": 1,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_count": 0,
+      "length_cap_hit_count": 0,
+      "cap_hit_sample_ids": []
+    }
+  ],
+  "method_interpretations": {
+    "CE_DDPM_REUSED": "Byte-bound remapping of existing CE recovery32; preserve original source ID/method/path/SHA; no new DDPM or decoder calls.",
+    "EMPIRICAL_POSTERIOR_B": "Training empirical posterior replay with replacement; posterior contains seen sequence and conditioning information. Not novelty or new model success.",
+    "COORDINATE_PERMUTATION_C": "Within-terminal coordinate permutations of actual sampled B decoder-z; diagnostic of joint combination sensitivity, not a new generative method.",
+    "REFERENCE_G_PRIOR_D": "Frozen CE reference-g conditional native prior with same B TRAIN row indices; extra residue and length-template conditioning. Not terminal-only; excluded from c-only ranking."
+  },
+  "exact_copy_observations": [
+    {
+      "sample_id": "EMPIRICAL_POSTERIOR_B_AMD_002",
+      "terminal": "AMD",
+      "method": "EMPIRICAL_POSTERIOR_B",
+      "reference_train_row_id": "53",
+      "same_terminal_copy": true,
+      "any_train_copy": true
+    }
+  ],
+  "resolved_reporting_issue": {
+    "description": "Cost addendum C provenance wording incorrectly named existing DDPM-z; immutable erratum corrects actual sampled B empirical posterior decoder-z. Original sealed files unchanged; always cite erratum together.",
+    "erratum": "feasibility/cost_addendum_source_c_erratum_v1/ERRATUM_SOURCE_C_v1.json",
+    "numeric_effect": false,
+    "blocking_after_bound_erratum": false
+  },
+  "gate_interpretation": {
+    "legacy_gate_artifact_interpretation": "NOT_APPLICABLE_SOURCE_DIAGNOSTIC",
+    "reason": "Frozen CLI default gate operands are original CE/MSE/AR method IDs, absent here. Raw false values are not a diagnostic failure or win/loss gate.",
+    "raw_legacy_gate_retained": true,
+    "raw_legacy_gate_source": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/exploratory_gates.json",
+      "bytes": 776,
+      "sha256": "b57349f8150f8b07b7b4350ebec6faa223e4cb7b08e0ffe45af5113f95b3450e"
+    },
+    "original_CE_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+    "original_four_arm_recovery_screens": "UNCHANGED; not rerun or reinterpreted by this source diagnostic",
+    "new_winner_gate": null,
+    "ranking": "B/C/D diagnostic references; D uses additional reference-g information and is excluded from c-only ranking",
+    "reconstruction_AR_NLL": "NOT_APPLICABLE_NO_NEW_ENCODER_OR_NLL",
+    "PROMOTE": "HOLD"
+  },
+  "original_four_arm_L": {
+    "state": "PASS",
+    "passed": 4,
+    "failed": 0,
+    "scope": "CE recovery vs matched MSE descriptive screen"
+  },
+  "original_four_arm_G": {
+    "state": "FAIL",
+    "passed": 10,
+    "failed": 8,
+    "failed_subchecks": [
+      "FREE/development_mmd2_strictly_lower",
+      "FREE/valid5_count_not_lower",
+      "FREE/aa_entropy_train_gap_not_larger",
+      "FREE/dipeptide_entropy_train_gap_not_larger",
+      "AMD/development_mmd2_strictly_lower",
+      "AMD/valid5_count_not_lower",
+      "AMD/aa_entropy_train_gap_not_larger",
+      "AMD/dipeptide_entropy_train_gap_not_larger"
+    ],
+    "scope": "CE recovery vs terminal AR descriptive screen"
+  },
+  "AR_ADEQUACY": "NOT_ESTABLISHED_UNCHANGED",
+  "PROMOTE": "HOLD",
+  "verdict": {
+    "simple_two_terminal_source_rescue": "NOT_SUPPORTED_IN_THIS_FIXED_BANK",
+    "coordinate_combination_sensitivity": "DESCRIPTIVELY_SUPPORTED_WITH_MIXED_METRICS",
+    "unique_DDPM_causal_bottleneck": "NOT_IDENTIFIED",
+    "c_only_source_ranking": "NOT_APPLICABLE",
+    "method_novelty_or_general_superiority": "NOT_ESTABLISHED"
+  },
+  "costs": {
+    "new_source_outer_seconds": 2.679257582873106,
+    "nested_durations_do_not_sum": {
+      "new_diagnostic_status_phase_seconds": {
+        "base_input_preparation": 0.6174157080240548,
+        "model_load": 0.045956708025187254,
+        "D_inverse_and_roundtrip": 0.7632719166576862,
+        "decoder_and_export": 0.05761279119178653
+      },
+      "new_diagnostic_process_before_final_io": 2.4913654173724353,
+      "new_diagnostic_closing_after_manifest_before_ledger": 2.4944359590299428,
+      "new_diagnostic_supervisor_wall_seconds": 2.679257582873106,
+      "new_diagnostic_supervisor": {
+        "pid": 77123,
+        "created_utc": "2026-10-11T20:27:28.932882+00:00",
+        "state": "completed",
+        "plan_sha256": "91e64d4ca473c1a56b2c66b285f0f5b8fd0ccba3884fe15ba465e574108bb46f",
+        "jobs": [
+          {
+            "id": "ce_source_replacement_v2",
+            "argv": [
+              "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+              "-u",
+              "-B",
+              "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+              "--contract",
+              "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+              "--plan",
+              "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v2.json",
+              "--receipt",
+              "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_PREFLIGHT_v2.json",
+              "--output",
+              "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2"
+            ],
+            "started_utc": "2026-10-11T20:27:28.933294+00:00",
+            "state": "completed",
+            "pid": 77125,
+            "exit_code": 0,
+            "seconds": 2.679257582873106
+          }
+        ],
+        "completed_utc": "2026-10-11T20:27:31.613386+00:00"
+      },
+      "historical_CE_training_and_DDPM": "Already incurred; reused32 are not free independent new samples. Original interrupted CE generation lower bound >=451.935743s and recovery1115.496170s remain in closed four-arm cost record.",
+      "do_not_sum_nested_durations": true
+    },
+    "model_job_wall_lower_bound": {
+      "previous_v4_lower_bound_decimal": "9996.4754611649551",
+      "new_outer_wall_decimal": "2.679257582873106",
+      "combined_lower_bound_decimal": "9999.154718747828206",
+      "combined_lower_bound_seconds": 9999.154718747828,
+      "overall_exact_total_seconds": null,
+      "original_CE_exact_total_still_unknown": true,
+      "complete_total_cost_including_all_analysis_known": false
+    },
+    "scientific_review_elapsed_wall_seconds": null,
+    "known_analysis_costs_separate": "53.70622158146245758"
+  },
+  "scientific_limits": [
+    "Posthoc diagnostic designed after known generation/scale results; fixed one checkpoint, one paired epsilon bank and one selected training-row bank.",
+    "B is empirical training posterior replay containing seen sequence/conditioning information; copying or distribution proximity does not establish innovative or independent novel generation.",
+    "C permutes actual sampled B decoder-z coordinates within terminal, preserving finite coordinate marginals; it has no single donor sequence/g target and is not a new candidate model.",
+    "D uses the same B-selected training reference-g including residue/length-template information; it is not terminal-only, not a fair c-only competitor, and not independent new-peptide evidence.",
+    "B versus D also differs in posterior x/h information; differences cannot identify flow alone or a unique DDPM causal bottleneck.",
+    "Shared epsilon/row indices are paired random inputs, not independent training or biological replicates; no significance tests or new winner thresholds.",
+    "Full dev41 sequence metrics do not create missing dev posterior latent evidence.",
+    "Original four-arm results and CE interruption stay unchanged; no activity, safety, wetlab-validation, novelty or submission claim.",
+    "Every source group has only 16 observations per terminal; no p-values or significance claim. C disruption does not establish exact statistical independence or which dependencies caused changes.",
+    "No wetlab N inferred, no new prospective wetlab evidence.",
+    "Existing four-arm CE/MSE effective-KL-scale, scalar capacity/objective, AR adequacy and cost limitations remain unchanged."
+  ],
+  "operations": {
+    "model_calls": 0,
+    "training_updates": 0,
+    "natural_random_draws": 0,
+    "checkpoint_reads": 0,
+    "latent_array_reads": 0,
+    "raw_cohort_reads": 0,
+    "test37_reads": 0,
+    "new_quality_metric_recomputations": 0,
+    "saved_row_count_and_transcription_arithmetic": true
+  },
+  "markdown": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_REPLACEMENT_FINAL_SCIENTIFIC_REVIEW_v2.zh.md",
+    "bytes": 6275,
+    "sha256": "3021dcce5b3bd13f0616043dececcb6f1d492d4cf1a43dc31f6b389bd3e82b98"
+  }
+}

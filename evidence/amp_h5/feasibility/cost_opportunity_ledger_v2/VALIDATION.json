@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "direct_sources_stable": true,
+    "no_raw_original_status_reads": true,
+    "original_stale_state_preserved": true,
+    "original_terminal_fields_unknown": true,
+    "recovery_zero_training": true,
+    "recovery32_separate_from_original32": true,
+    "original_cost_is_lower_bound": true,
+    "total_lower_bound_arithmetic": true,
+    "total_exact_unknown": true,
+    "updates_accounting": true,
+    "attempts_vs_slots": true,
+    "evidence_state_partition": true,
+    "MSE_scalar_notstarted": true,
+    "equal_compute_not_claimed": true,
+    "original_not_backfilled": true
+  },
+  "model_calls": 0,
+  "source_train_dev_test_csv_reads": 0,
+  "original_files_written": 0,
+  "v1_files_written": 0
+}

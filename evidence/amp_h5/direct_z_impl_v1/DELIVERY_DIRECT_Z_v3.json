@@ -1,0 +1,823 @@
+{
+  "schema": "AMP_H5_DIRECT_Z_DELIVERY_V3",
+  "created_utc": "2026-10-12T04:17:40.927082+00:00",
+  "subject": "Antimicrobial peptide AMP H5 direct-z finite-budget experiment",
+  "execution_status": "COMPLETE",
+  "runner_scientific_outcome": "FAIL_MECHANISM_SCREEN",
+  "independent_postflight_status": "PASS_SAVED_SEQUENCE_METRICS_WITH_ORIGINAL_PIPELINE_AUDIT_FAILURE_RETAINED",
+  "overall_release_status": "CLOSED_NEGATIVE_NO_SEED_EXPANSION",
+  "decision": "The frozen direct-z scientific route is closed with a negative mechanism screen. No new candidate research, training, generation, tuning, seed expansion or submission follows this result.",
+  "evidence_levels": {
+    "engineering": "PASS_ENGINEERING: independent synthetic full path and throughput checks",
+    "natural_execution": "Independent postflight passed input/output hashes, exact96-slot denominator, counts and actual phase budgets",
+    "scientific_metrics": "PASS: non-author independently recalculated the saved96 sequences using only exact-bound JSON/CSV and textual frozen definitions. All8086 scalar checks agree within abs1e-12+rel1e-10; max error6.106226635438361e-16.",
+    "checkpoint_audit": "INCOMPLETE: original weights_only=True rejection of __builtin__.getattr is retained. No checkpoint/pickle/NPZ reads, unsafe fallback or allowlist in the safe metric closure."
+  },
+  "resource_cost_seconds": {
+    "engineering": 75.97498020809144,
+    "natural": 3374.7391436668113,
+    "independent_postflight": 1.7893823338672519,
+    "aggregate": 3452.645786333829,
+    "aggregate_cap": 4800,
+    "note": "Compute supervisors measured through child exit/final binding checks. Their final JSON serialization and manual reading/writing are outside reported compute wall; not represented as zero.",
+    "independent_safe_metric_closure": 0.1422801250591874,
+    "combined_saved_output_audits": 1.9316624589264393,
+    "combined_saved_output_audits_cap": 60
+  },
+  "natural_phase_timings": {
+    "prepare": {
+      "wall_seconds": 3.217757834121585,
+      "cap_seconds": 60,
+      "exceeded": false
+    },
+    "R_training": {
+      "wall_seconds": 550.696280958131,
+      "cap_seconds": 720,
+      "exceeded": false
+    },
+    "Z_training": {
+      "wall_seconds": 546.467505833134,
+      "cap_seconds": 720,
+      "exceeded": false
+    },
+    "R_generation": {
+      "wall_seconds": 1135.0472176671028,
+      "cap_seconds": 1440,
+      "exceeded": false
+    },
+    "Z_generation": {
+      "wall_seconds": 1136.2323366673663,
+      "cap_seconds": 1440,
+      "exceeded": false
+    },
+    "decode_score": {
+      "wall_seconds": 1.0847627501934767,
+      "cap_seconds": 120,
+      "exceeded": false
+    },
+    "closure": {
+      "wall_seconds": 0.5118429576978087,
+      "cap_seconds": 60,
+      "exceeded": false
+    }
+  },
+  "counts": {
+    "synthetic_model_forward": 128,
+    "synthetic_updates": 64,
+    "natural": {
+      "denoiser_train_forward": 2000,
+      "denoiser_generation_forward": 3992,
+      "A_decoder_forward": 47,
+      "updates": 2000,
+      "new_requests": 64,
+      "encoder_forward": 0,
+      "old_DDPM_forward": 0,
+      "C_forward": 0
+    },
+    "natural_model_forward_total": 6039,
+    "natural_attempts": 1,
+    "configuration_count": 1,
+    "training_seed_count": 1,
+    "scientific_retries": 0
+  },
+  "denominators": {
+    "R": 32,
+    "Z": 32,
+    "C_historical_reused": 32,
+    "total": 96,
+    "all_completed": true,
+    "all_valid_nonempty": true,
+    "all_empty": 0,
+    "all_cap_nonEOS": 0,
+    "all_exact_train_copy": 0,
+    "all_within_arm_terminal_duplicates": 0,
+    "evidence": {
+      "independently_verified": "Complete96-slot identity denominator and all listed sequence validity, empty, failed, cap, copy and within-arm-terminal duplicate counts. Execution counts and phase budgets passed the prior audit.",
+      "C32_historical_full_JSON_equality": true
+    }
+  },
+  "runner_reported_metrics": [
+    {
+      "arm": "R",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed": 16,
+      "valid_nonempty": 16,
+      "mmd2": 0.016628172958638363,
+      "dipeptide_JS_bits": 0.5440251595244825,
+      "length_mean": 12.125,
+      "length_gap_abs": 6.208333333333332,
+      "legal5_48_n": 15,
+      "copy_train_n": 0,
+      "duplicates_n": 0,
+      "empty_n": 0,
+      "cap_nonEOS_n": 0
+    },
+    {
+      "arm": "R",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed": 16,
+      "valid_nonempty": 16,
+      "mmd2": 0.01919529212667752,
+      "dipeptide_JS_bits": 0.5628390067729815,
+      "length_mean": 11.3125,
+      "length_gap_abs": 4.817934782608695,
+      "legal5_48_n": 14,
+      "copy_train_n": 0,
+      "duplicates_n": 0,
+      "empty_n": 0,
+      "cap_nonEOS_n": 0
+    },
+    {
+      "arm": "Z",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed": 16,
+      "valid_nonempty": 16,
+      "mmd2": 0.018201714671272046,
+      "dipeptide_JS_bits": 0.5491330442052956,
+      "length_mean": 13.0,
+      "length_gap_abs": 5.333333333333332,
+      "legal5_48_n": 15,
+      "copy_train_n": 0,
+      "duplicates_n": 0,
+      "empty_n": 0,
+      "cap_nonEOS_n": 0
+    },
+    {
+      "arm": "Z",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed": 16,
+      "valid_nonempty": 16,
+      "mmd2": 0.022469459359352878,
+      "dipeptide_JS_bits": 0.5956576049912348,
+      "length_mean": 11.375,
+      "length_gap_abs": 4.755434782608695,
+      "legal5_48_n": 15,
+      "copy_train_n": 0,
+      "duplicates_n": 0,
+      "empty_n": 0,
+      "cap_nonEOS_n": 0
+    },
+    {
+      "arm": "C",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed": 16,
+      "valid_nonempty": 16,
+      "mmd2": 0.00640753336151295,
+      "dipeptide_JS_bits": 0.3249306132706418,
+      "length_mean": 19.1875,
+      "length_gap_abs": 0.8541666666666679,
+      "legal5_48_n": 16,
+      "copy_train_n": 0,
+      "duplicates_n": 0,
+      "empty_n": 0,
+      "cap_nonEOS_n": 0
+    },
+    {
+      "arm": "C",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed": 16,
+      "valid_nonempty": 16,
+      "mmd2": 0.014968824722600813,
+      "dipeptide_JS_bits": 0.4442582818958851,
+      "length_mean": 14.0625,
+      "length_gap_abs": 2.0679347826086953,
+      "legal5_48_n": 16,
+      "copy_train_n": 0,
+      "duplicates_n": 0,
+      "empty_n": 0,
+      "cap_nonEOS_n": 0
+    }
+  ],
+  "runner_reported_comparisons": {
+    "R": [
+      {
+        "terminal": "FREE",
+        "checks": {
+          "MMD_strict_and_at_least_10percent": false,
+          "JS_strict": false,
+          "length_mean_difference_absolute": true,
+          "copy_train_n": true,
+          "duplicates_rate": true,
+          "legal5_48_rate": true
+        },
+        "pass": false
+      },
+      {
+        "terminal": "AMD",
+        "checks": {
+          "MMD_strict_and_at_least_10percent": false,
+          "JS_strict": false,
+          "length_mean_difference_absolute": true,
+          "copy_train_n": true,
+          "duplicates_rate": true,
+          "legal5_48_rate": true
+        },
+        "pass": false
+      }
+    ],
+    "C": [
+      {
+        "terminal": "FREE",
+        "checks": {
+          "MMD_strict_and_at_least_10percent": false,
+          "JS_strict": false,
+          "length_mean_difference_absolute": false,
+          "copy_train_n": true,
+          "duplicates_rate": true,
+          "legal5_48_rate": false
+        },
+        "pass": false
+      },
+      {
+        "terminal": "AMD",
+        "checks": {
+          "MMD_strict_and_at_least_10percent": false,
+          "JS_strict": false,
+          "length_mean_difference_absolute": false,
+          "copy_train_n": true,
+          "duplicates_rate": true,
+          "legal5_48_rate": false
+        },
+        "pass": false
+      }
+    ]
+  },
+  "runner_value_screen": "NOT_INTERPRETED",
+  "limitations": [
+    "Only train279/dev41; test37 never opened.",
+    "Each arm has only16 sequences per terminal, one configuration and one training seed; no power or significance claim.",
+    "R18611970 and Z18611329 parameters differ by641 boundary parameters; not strict equal capacity or isolated causal proof.",
+    "Z samples fresh posterior noise per exposure; R fixed parameter targets. Same row/timestep/dropout/first-channel diffusion noise and decoder token uniforms do not imply identical latent samples.",
+    "Frozen terminal-only AR C is a working local comparator, not a verified strongest external AMP baseline.",
+    "No biological efficacy, wet-lab prospective validation, novelty or submission-readiness claim.",
+    "Host process scan denied; safety clearance was scoped to managed H5 receipts plus original atomic lock, not unrelated host processes.",
+    "Safe closure certifies saved-sequence statistics, not checkpoint content, latent correctness or complete independent end-to-end replay.",
+    "Nearest-training-sequence edit distances were not independently recalculated.",
+    "Mechanism screen failed; C comparisons remain descriptive and the sequential value screen is NOT_INTERPRETED."
+  ],
+  "remaining_blockers": [],
+  "BACKUP": "BACKUP_BLOCKED",
+  "source_and_manuscript_policy": "Source root/H0-H4/manuscripts read-only and unedited; all new files confined to amp_h5.",
+  "process_check_boundary": {
+    "command": "ps -axo pid,pcpu,etime,command | rg '[a]mp_h5|[A]MP_VAEflow'",
+    "error": "zsh:1: operation not permitted: ps",
+    "denial_source": "filesystem/process sandbox, not an auto-review escalation",
+    "retried_or_bypassed": false,
+    "host_process_scan_completed": false
+  },
+  "artifacts": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/CONFIG.json",
+      "sha256": "08ed64a4238c40a496d31f45094a6ad17c06a50c2784c23692155827fc49ce9d",
+      "bytes": 11394
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/AUTHOR_STATIC_CHECK.json",
+      "sha256": "c22bd7a2b5e7e970f228115d28b35dfbb88c6d226bc4d8c0c6b870c65ace9e1e",
+      "bytes": 2138
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/ops/ROOT_CONDITIONAL_AUTHORIZATION_v1.json",
+      "sha256": "805fbbba0de183aea05e80b5c235b68b8f4440a7b5e1a0ecf0e6fdcb519cfc4f",
+      "bytes": 1610
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/ops/MANAGED_JOB_RECORD_v1.json",
+      "sha256": "ab9a11117feccac14596544eacf7e851cef4f403ba559d3d65ec3a1c3ac5fcf6",
+      "bytes": 23525
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/ops/ROOT_SYNTHETIC_WINDOW_v1.json",
+      "sha256": "9096b796ebfeda6f578bd54d813aa018aab41f6a163382b3f0d8d175cf55c048",
+      "bytes": 9683
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/ops/NATURAL_MANIFEST_v1.json",
+      "sha256": "72fffaade67bda42821f642c7f57f866517d38f9138d4eedbd8700d0f009f1a0",
+      "bytes": 11690
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/ops/NATURAL_ATTEMPT_v1.json",
+      "sha256": "55761a20d4a782cae70fbcb4c97af80bfb2bb7cfd1b11615cb456fa699c57d8c",
+      "bytes": 185
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/INDEPENDENT_STATIC_REVIEW_v1.json",
+      "sha256": "eb3a5a9f0d5458ae7ab7a0a6be561d58315cf5aa45e5906b3a65037d1620a07f",
+      "bytes": 10080
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/ENGINEERING_ADMISSION_v1.json",
+      "sha256": "ead863bdeaebf171caf904ea3b42088f7f2c81677177bf8f0a3a31802046d5bb",
+      "bytes": 5968
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/synthetic_window_v1/PROCESS_RESULT.json",
+      "sha256": "238365ba5fff5b0f52a0cbf4dcb6a3c92afcf8dd1f246fe36521ecd833da7c02",
+      "bytes": 1322
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/synthetic_window_v1/RESULT.json",
+      "sha256": "f4e1fcedc422ce2ab6de2a14d25e24c4e59e8aa70d8327be761e71c5501dfbe7",
+      "bytes": 8328
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/execution_v1/RESULT.json",
+      "sha256": "1ab5fb72cfb2d283bc6fb8af19aa938c78cecfcd5dd73a7148fa8df992fac98c",
+      "bytes": 3742
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/SUMMARY.json",
+      "sha256": "c1a1c0236d0d6ed8f380e45e132db4b35697c6daa508483e40c1df5f0eff96ed",
+      "bytes": 1424
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/METRICS.json",
+      "sha256": "80be37eaf5ce259aced5b311a1b6b83efb4955068abdbb3d50aff17f45763806",
+      "bytes": 235799
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/COUNTS.json",
+      "sha256": "95fa402394ba40ad93576915ce7056f9e063a1e15f0e8653b19da57a52c8bdd0",
+      "bytes": 363
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/GENERATION_SLOTS.json",
+      "sha256": "b3e9a437f7f15f9661a7d6cb0364bdde15c8244b0ae073e98cfa814c5fe3b5a9",
+      "bytes": 36726
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/MANIFEST.json",
+      "sha256": "905dc6f0b656036e906467a07badbbdc0b9a765751fc3023a8ec61036c5db0cf",
+      "bytes": 13695
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/PHASE_TIMINGS.json",
+      "sha256": "c47a6e3cd154d34ef70b03050b484fa0ea5e8dd45c9703e77f98bcebf527b843",
+      "bytes": 761
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/PHASE.json",
+      "sha256": "a7ebf8eedc58dc55ba9549454b90f4a68993884c401cb241d1788dbc9f6e1e54",
+      "bytes": 51
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/postflight_v1/AUDIT.json",
+      "sha256": "254907b9340825b4158e3c1cdb70ca42dac9cc21670aec4a71d721dd824832c4",
+      "bytes": 6745
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/postflight_v1/PROCESS_RESULT.json",
+      "sha256": "5c2008e095822776cd7ed08718d5c55586cc00cc4ae565c5e5da3d7de56dedbb",
+      "bytes": 281
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/DELIVERY_DIRECT_Z_v2.json",
+      "sha256": "595673e87f9bd48f29c269a8423c1660013c366f2252fc27c650c13758328c29",
+      "bytes": 14934
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/SIGNOFF_v1.json",
+      "sha256": "dd6610790a372d3373ec444c05136242f4b59218fd7284b0e1af425dbf2de7c1",
+      "bytes": 16470
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/AUDIT_PLAN_v1.json",
+      "sha256": "4b0169c777796cb703d340dea30c2cbd0feb58483f64b0e58aaa71d7229e4dff",
+      "bytes": 6406
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/safe_metrics_audit.py",
+      "sha256": "6f5d376210ebba873f84c599d0407f3ab4cb2eeb52d32197e86bf83edad314f7",
+      "bytes": 21583
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/ATTEMPT_v1.json",
+      "sha256": "dddd761f01f3c66b6548d89256bba770458b34c87e65b3ef87bf93d7e45a24c9",
+      "bytes": 208
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/run_v1/AUDIT_RESULT.json",
+      "sha256": "44cbf18d6f42666901a8d1fda5fbcee58dcef32a300cbb2cc3067b5c2f7f5f20",
+      "bytes": 10986
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/run_v1/PROCESS_RESULT.json",
+      "sha256": "851596abf02592ad54d146bfa935fb718e4ca1bfd7778bbeef0bc7c29fea6f4c",
+      "bytes": 524
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/run_v1/INDEPENDENT_METRICS.json",
+      "sha256": "7efeefb47fd482a623260dec2e6571d23716f93bf875f164b213f7a071ca083f",
+      "bytes": 217590
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/run_v1/COMPARISON_ITEMS.json",
+      "sha256": "29194e736db1ec8b978e72acba3bee0ad68173fe5847a3c303702f096f5aa99d",
+      "bytes": 1466898
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/CORE_METRICS_v1.csv",
+      "sha256": "278c9b9b56d1c80334198695aee09889c8e8e76bc16e35378c24f38e9811c205",
+      "bytes": 1036
+    }
+  ],
+  "supersedes": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/DELIVERY_DIRECT_Z_v2.json",
+    "sha256": "595673e87f9bd48f29c269a8423c1660013c366f2252fc27c650c13758328c29",
+    "preserved": true,
+    "reason": "Newly authorized safe JSON/CSV-only independent metric recalculation and signed closure; all previous failures retained."
+  },
+  "delivery_static_review": {
+    "reviewer": "/root/ar_admission_independent",
+    "signed_scope": "Independent standard-library verification of saved96sequence metrics and frozen decision inequalities only.",
+    "scientific_screen": "FAIL_MECHANISM_SCREEN",
+    "route": "CLOSED_NEGATIVE_NO_SEED_EXPANSION"
+  },
+  "independent_scientific_outcome": "FAIL_MECHANISM_SCREEN",
+  "independently_verified_metrics": [
+    {
+      "arm": "R",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed_n": 16,
+      "valid1_48_n": 16,
+      "legal1_48_rate": 1.0,
+      "legal5_48_n": 15,
+      "legal5_48_rate": 0.9375,
+      "empty_n": 0,
+      "failed_or_incomplete_n": 0,
+      "cap_nonEOS_n": 0,
+      "copy_train_n": 0,
+      "copy_train_terminal_n": 0,
+      "duplicates_n": 0,
+      "length_mean": 12.125,
+      "reference_n": 18,
+      "reference_length_mean": 18.333333333333332,
+      "length_gap_abs": 6.208333333333332,
+      "mmd2": 0.016628172958638356,
+      "dipeptide_JS_bits": 0.5440251595244827
+    },
+    {
+      "arm": "R",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed_n": 16,
+      "valid1_48_n": 16,
+      "legal1_48_rate": 1.0,
+      "legal5_48_n": 14,
+      "legal5_48_rate": 0.875,
+      "empty_n": 0,
+      "failed_or_incomplete_n": 0,
+      "cap_nonEOS_n": 0,
+      "copy_train_n": 0,
+      "copy_train_terminal_n": 0,
+      "duplicates_n": 0,
+      "length_mean": 11.3125,
+      "reference_n": 23,
+      "reference_length_mean": 16.130434782608695,
+      "length_gap_abs": 4.817934782608695,
+      "mmd2": 0.019195292126677515,
+      "dipeptide_JS_bits": 0.5628390067729809
+    },
+    {
+      "arm": "Z",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed_n": 16,
+      "valid1_48_n": 16,
+      "legal1_48_rate": 1.0,
+      "legal5_48_n": 15,
+      "legal5_48_rate": 0.9375,
+      "empty_n": 0,
+      "failed_or_incomplete_n": 0,
+      "cap_nonEOS_n": 0,
+      "copy_train_n": 0,
+      "copy_train_terminal_n": 0,
+      "duplicates_n": 0,
+      "length_mean": 13.0,
+      "reference_n": 18,
+      "reference_length_mean": 18.333333333333332,
+      "length_gap_abs": 5.333333333333332,
+      "mmd2": 0.018201714671272042,
+      "dipeptide_JS_bits": 0.549133044205296
+    },
+    {
+      "arm": "Z",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed_n": 16,
+      "valid1_48_n": 16,
+      "legal1_48_rate": 1.0,
+      "legal5_48_n": 15,
+      "legal5_48_rate": 0.9375,
+      "empty_n": 0,
+      "failed_or_incomplete_n": 0,
+      "cap_nonEOS_n": 0,
+      "copy_train_n": 0,
+      "copy_train_terminal_n": 0,
+      "duplicates_n": 0,
+      "length_mean": 11.375,
+      "reference_n": 23,
+      "reference_length_mean": 16.130434782608695,
+      "length_gap_abs": 4.755434782608695,
+      "mmd2": 0.022469459359352875,
+      "dipeptide_JS_bits": 0.5956576049912343
+    },
+    {
+      "arm": "C",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed_n": 16,
+      "valid1_48_n": 16,
+      "legal1_48_rate": 1.0,
+      "legal5_48_n": 16,
+      "legal5_48_rate": 1.0,
+      "empty_n": 0,
+      "failed_or_incomplete_n": 0,
+      "cap_nonEOS_n": 0,
+      "copy_train_n": 0,
+      "copy_train_terminal_n": 0,
+      "duplicates_n": 0,
+      "length_mean": 19.1875,
+      "reference_n": 18,
+      "reference_length_mean": 18.333333333333332,
+      "length_gap_abs": 0.8541666666666679,
+      "mmd2": 0.00640753336151295,
+      "dipeptide_JS_bits": 0.3249306132706424
+    },
+    {
+      "arm": "C",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed_n": 16,
+      "valid1_48_n": 16,
+      "legal1_48_rate": 1.0,
+      "legal5_48_n": 16,
+      "legal5_48_rate": 1.0,
+      "empty_n": 0,
+      "failed_or_incomplete_n": 0,
+      "cap_nonEOS_n": 0,
+      "copy_train_n": 0,
+      "copy_train_terminal_n": 0,
+      "duplicates_n": 0,
+      "length_mean": 14.0625,
+      "reference_n": 23,
+      "reference_length_mean": 16.130434782608695,
+      "length_gap_abs": 2.0679347826086953,
+      "mmd2": 0.014968824722600813,
+      "dipeptide_JS_bits": 0.4442582818958845
+    }
+  ],
+  "independently_verified_gate_inequalities": [
+    {
+      "control": "R",
+      "terminal": "FREE",
+      "inequalities": [
+        {
+          "metric": "MMD_strict",
+          "lhs": 0.018201714671272042,
+          "operator": "<",
+          "rhs": 0.016628172958638356,
+          "pass": false
+        },
+        {
+          "metric": "MMD_10percent",
+          "lhs": 0.018201714671272042,
+          "operator": "<=",
+          "rhs": 0.01496535566277452,
+          "pass": false
+        },
+        {
+          "metric": "JS_strict",
+          "lhs": 0.549133044205296,
+          "operator": "<",
+          "rhs": 0.5440251595244827,
+          "pass": false
+        },
+        {
+          "metric": "length_mean_difference_absolute",
+          "lhs": 5.333333333333332,
+          "operator": "<=",
+          "rhs": 6.208333333333332,
+          "pass": true
+        },
+        {
+          "metric": "copy_train_n",
+          "lhs": 0,
+          "operator": "<=",
+          "rhs": 0,
+          "pass": true
+        },
+        {
+          "metric": "duplicates_rate",
+          "lhs": 0.0,
+          "operator": "<=",
+          "rhs": 0.0,
+          "pass": true
+        },
+        {
+          "metric": "legal5_48_rate",
+          "lhs": 0.9375,
+          "operator": ">=",
+          "rhs": 0.9375,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "control": "R",
+      "terminal": "AMD",
+      "inequalities": [
+        {
+          "metric": "MMD_strict",
+          "lhs": 0.022469459359352875,
+          "operator": "<",
+          "rhs": 0.019195292126677515,
+          "pass": false
+        },
+        {
+          "metric": "MMD_10percent",
+          "lhs": 0.022469459359352875,
+          "operator": "<=",
+          "rhs": 0.017275762914009764,
+          "pass": false
+        },
+        {
+          "metric": "JS_strict",
+          "lhs": 0.5956576049912343,
+          "operator": "<",
+          "rhs": 0.5628390067729809,
+          "pass": false
+        },
+        {
+          "metric": "length_mean_difference_absolute",
+          "lhs": 4.755434782608695,
+          "operator": "<=",
+          "rhs": 4.817934782608695,
+          "pass": true
+        },
+        {
+          "metric": "copy_train_n",
+          "lhs": 0,
+          "operator": "<=",
+          "rhs": 0,
+          "pass": true
+        },
+        {
+          "metric": "duplicates_rate",
+          "lhs": 0.0,
+          "operator": "<=",
+          "rhs": 0.0,
+          "pass": true
+        },
+        {
+          "metric": "legal5_48_rate",
+          "lhs": 0.9375,
+          "operator": ">=",
+          "rhs": 0.875,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "control": "C",
+      "terminal": "FREE",
+      "inequalities": [
+        {
+          "metric": "MMD_strict",
+          "lhs": 0.018201714671272042,
+          "operator": "<",
+          "rhs": 0.00640753336151295,
+          "pass": false
+        },
+        {
+          "metric": "MMD_10percent",
+          "lhs": 0.018201714671272042,
+          "operator": "<=",
+          "rhs": 0.005766780025361655,
+          "pass": false
+        },
+        {
+          "metric": "JS_strict",
+          "lhs": 0.549133044205296,
+          "operator": "<",
+          "rhs": 0.3249306132706424,
+          "pass": false
+        },
+        {
+          "metric": "length_mean_difference_absolute",
+          "lhs": 5.333333333333332,
+          "operator": "<=",
+          "rhs": 0.8541666666666679,
+          "pass": false
+        },
+        {
+          "metric": "copy_train_n",
+          "lhs": 0,
+          "operator": "<=",
+          "rhs": 0,
+          "pass": true
+        },
+        {
+          "metric": "duplicates_rate",
+          "lhs": 0.0,
+          "operator": "<=",
+          "rhs": 0.0,
+          "pass": true
+        },
+        {
+          "metric": "legal5_48_rate",
+          "lhs": 0.9375,
+          "operator": ">=",
+          "rhs": 1.0,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "control": "C",
+      "terminal": "AMD",
+      "inequalities": [
+        {
+          "metric": "MMD_strict",
+          "lhs": 0.022469459359352875,
+          "operator": "<",
+          "rhs": 0.014968824722600813,
+          "pass": false
+        },
+        {
+          "metric": "MMD_10percent",
+          "lhs": 0.022469459359352875,
+          "operator": "<=",
+          "rhs": 0.013471942250340731,
+          "pass": false
+        },
+        {
+          "metric": "JS_strict",
+          "lhs": 0.5956576049912343,
+          "operator": "<",
+          "rhs": 0.4442582818958845,
+          "pass": false
+        },
+        {
+          "metric": "length_mean_difference_absolute",
+          "lhs": 4.755434782608695,
+          "operator": "<=",
+          "rhs": 2.0679347826086953,
+          "pass": false
+        },
+        {
+          "metric": "copy_train_n",
+          "lhs": 0,
+          "operator": "<=",
+          "rhs": 0,
+          "pass": true
+        },
+        {
+          "metric": "duplicates_rate",
+          "lhs": 0.0,
+          "operator": "<=",
+          "rhs": 0.0,
+          "pass": true
+        },
+        {
+          "metric": "legal5_48_rate",
+          "lhs": 0.9375,
+          "operator": ">=",
+          "rhs": 1.0,
+          "pass": false
+        }
+      ]
+    }
+  ],
+  "independent_verification": {
+    "reviewer": "/root/ar_admission_independent",
+    "signoff": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/SIGNOFF_v1.json",
+    "signoff_sha256": "dd6610790a372d3373ec444c05136242f4b59218fd7284b0e1af425dbf2de7c1",
+    "scope": "Independent standard-library verification of saved96sequence metrics and frozen decision inequalities only.",
+    "scalar_comparisons": 8086,
+    "maximum_absolute_numeric_error": 6.106226635438361e-16,
+    "numeric_tolerance": {
+      "absolute": 1e-12,
+      "relative": 1e-10
+    },
+    "overall_independent_pipeline_status": "INCOMPLETE",
+    "model_forward": 0,
+    "new_rng": 0,
+    "checkpoint_pickle_npz_reads": 0,
+    "test_reads": 0
+  },
+  "unresolved_artifact_verification_limits": [
+    "Checkpoint safe-load verification remains failed/incomplete.",
+    "Latent states, complete RNG replay and end-to-end independent validation are not certified.",
+    "Saved nearest_train_edit values were not independently recomputed."
+  ],
+  "current_task_completion": "Requested independent saved-sequence metric closure complete. Full checkpoint/latent/pipeline validation is not claimed; original audit failure remains intact."
+}

@@ -1,0 +1,442 @@
+{
+  "created_utc": "2026-10-11T20:26:48.472649+00:00",
+  "status": "PASS",
+  "authorized": true,
+  "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+  "allowed_attempts": 1,
+  "plan_sha256": "91e64d4ca473c1a56b2c66b285f0f5b8fd0ccba3884fe15ba465e574108bb46f",
+  "contract_sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8",
+  "control_script_sha256": "e915f23cbf6157b20bd1d9a94fe831d326b0ab6a20b4013824224921a2bbf444",
+  "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+  "launcher_sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+  "scientific_review_sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a",
+  "four_arm_scientific_review_checked": true,
+  "scalar_terminal_review_checked": true,
+  "generation_attempt_id": "ce_source_replacement_v2",
+  "generation_attempt_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2",
+  "supervisor_output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_execution_v2",
+  "independent_checks": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_FINAL_PREFLIGHT_CHECKS_v2.json",
+    "sha256": "be29d3281fccf1da5bfb124ed24ad5afd321af59663950f1806675cbcb3195c9",
+    "checks_passed": 28,
+    "failed_checks": []
+  },
+  "R_S1_repair_review": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_R_S1_REPAIR_REVIEW_v2.json",
+    "sha256": "15b3c5023d82dd905c0f518799ed17a19ab297fdbb6f0130b12748651750bba6",
+    "checks_passed": 12,
+    "failed_checks": []
+  },
+  "preserved_rejected_v1_review": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_CANDIDATE_REVIEW_v1.json",
+    "sha256": "48a12ed8e774698d9939d3188c1a464634f2add8df3069f4b2729951738d16a8"
+  },
+  "authorized_action": {
+    "job": {
+      "id": "ce_source_replacement_v2",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+        "--contract",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+        "--plan",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v2.json",
+        "--receipt",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_PREFLIGHT_v2.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2"
+      ],
+      "outer_timeout_seconds": 180
+    },
+    "new_decoder_inputs": 96,
+    "existing_DDPM_rows_reused": 32,
+    "all_observations": 128,
+    "decoder_batches": 6,
+    "prior_inverse_batches": 2,
+    "prior_roundtrip_forward_batches": 2,
+    "encoder_forwards": 0,
+    "DDPM_forwards": 0,
+    "training_updates": 0,
+    "D_enabled": true,
+    "epsilon_seeds": [
+      422,
+      423
+    ],
+    "selector_seeds": [
+      523,
+      524
+    ],
+    "permutation_seeds": [
+      625,
+      626
+    ],
+    "cpu_threads": 1,
+    "budgets_seconds": {
+      "total_inner": 120,
+      "outer": 180
+    },
+    "roundtrip_tolerance": {
+      "atol": 1e-05,
+      "rtol": 1e-05
+    }
+  },
+  "remaining_launch_condition": "Root must freshly confirm no active AMP/H5 model job and suitable CPU/load, then execute this exact single-job plan through the bound detached launcher/serial-lock supervisor. This receipt does not itself launch anything.",
+  "failure_boundary": [
+    "No automatic retry, replacement seed, parameter change, budget increase, D omission or A=N0I fallback.",
+    "Only validate_request-origin AdmissionFailure establishes zero model calls; any other escaped execution/finalization exception has unknown actual counts plus explicitly stale last records.",
+    "All96 intended requests remain the denominator. Missing actual output CSV after admission failure is NOT_EVALUABLE_ADMISSION_FAILURE, not0requests.",
+    "Final status, generation summary, manifest, independent CLOSING_LEDGER, and supervisor exit/wall must all be checked; no intermediate completed state alone establishes PASS."
+  ],
+  "postflight_authorized_readonly_scope": [
+    "Hash/source/slot/seed/g/array/weight identity review of saved artifacts.",
+    "Exact replay of fixed already-used epsilon/selector/permutation streams and saved arithmetic only; no new seeds or selected slots.",
+    "Recompute saved D roundtrip residual/tolerance, savedJ readout and finite/shape checks; no additional model forward, encoder, DDPM, inverse flow, decoder or training.",
+    "No independent full model replay will be claimed; D evidence is bound source/weights/call ledger and saved intermediate tensors."
+  ],
+  "scientific_boundaries": [
+    "Posthoc source diagnostic only; B/C/D excluded from c-only ranking and formal G/PROMOTE.",
+    "B empirical training reference, C changes only finite-column joint pairing of sampledBz; no single training target forC.",
+    "D is frozenCE native conditional prior with openly supplied training residue/length g from same B indices, not an independent terminal-only prior or historical scalar checkpoint.",
+    "Use complete frozen generation metrics only after independent engineering terminal postflight; legacy exploratory gates NOT_APPLICABLE_SOURCE_DIAGNOSTIC.",
+    "No result-triggered scope expansion or confirmatory/causal/biological/publication claim."
+  ],
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD",
+  "preflight_natural_model_calls": 0,
+  "preflight_natural_RNG_or_selected_indices": 0,
+  "test37_reads": 0,
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+      "sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8",
+      "bytes": 29507,
+      "role": "exact future final-plan prerequisite"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+      "sha256": "e915f23cbf6157b20bd1d9a94fe831d326b0ab6a20b4013824224921a2bbf444",
+      "bytes": 34554,
+      "role": "exact future final-plan prerequisite"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_scalar_legacy_execution_v2/SUPERVISOR_STATUS.json",
+      "sha256": "03c0f63c550cff367005eaa77cf226a0f54f10e7df1b00ef3905a1b82a6e6bf5",
+      "bytes": 1003,
+      "role": "exact future final-plan prerequisite"
+    },
+    {
+      "role": "closed scalar engineering review; not source-control authorization",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_POSTFLIGHT_v1.json",
+      "sha256": "911a453786a351ac4365e30c818af37aaeac446c5c93159fedf17aab37396d5c",
+      "bytes": 14224
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+      "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a",
+      "bytes": 52866,
+      "role": "completed four-arm scientific closeout; does not authorize this scope"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+      "sha256": "f191f8412a5382b7e11ad3af4a1bbb1a45895df0c3491693a7ab14b986c83aa6",
+      "bytes": 261,
+      "role": "prelocked epsilon schedule for all4 source IDs; version2 exact path"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_REQUEST_SLOTS_v2.json",
+      "sha256": "6857bdbd06e7bad7325cc23c06524862030f8bff492aa943813e77d3c744699c",
+      "bytes": 51556,
+      "role": "preallocated96 request intent, including admission failure denominator; version2 exact path"
+    },
+    {
+      "role": "frozen CE training/decoder/J and descriptor tensorization",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "bytes": 41408
+    },
+    {
+      "role": "frozen CE settings; no changes",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "bytes": 2541
+    },
+    {
+      "role": "final CE VAE parameters; hash only during drafting",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+      "bytes": 6800314
+    },
+    {
+      "role": "final CE tensor-state identity",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490",
+      "bytes": 421
+    },
+    {
+      "role": "saved train279 mu/logsigma",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a",
+      "bytes": 1315674
+    },
+    {
+      "role": "restore original statistics; no fit",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "bytes": 3279
+    },
+    {
+      "role": "existing FREE16 posterior/z/raw/tokens",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4",
+      "bytes": 201931
+    },
+    {
+      "role": "existing AMD16 posterior/z/raw/tokens",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a",
+      "bytes": 202058
+    },
+    {
+      "role": "existing 32 sequences; no redecoding",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57",
+      "bytes": 2135
+    },
+    {
+      "role": "frozen environment and implementation bindings",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1",
+      "bytes": 24995
+    },
+    {
+      "role": "D training reference residue descriptors only",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/train.csv",
+      "sha256": "f71de05d3a2086c37b082716781397f7bb6db65322b807366f4f19ebf3058e03",
+      "bytes": 254851
+    },
+    {
+      "role": "train ordered row/terminal identity",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "bytes": 64083
+    },
+    {
+      "role": "train model_row_id and component/sequence binding metadata",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9",
+      "bytes": 141151
+    },
+    {
+      "role": "native CE prior declaration and decoder",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+      "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+      "bytes": 17846
+    },
+    {
+      "role": "native conditional coupling forward/reverse",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+      "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+      "bytes": 11330
+    },
+    {
+      "role": "reviewed epsilon reconstruction, signed-zero-safe bitwise guard and input-seal candidate; do not execute old candidate",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_decoder_input_control_v2.py",
+      "sha256": "30211ed157ffcda9bf2f96620599beca9e48def87631cb7e4f3885cb0292fd98",
+      "bytes": 20437
+    },
+    {
+      "role": "historical candidate contract; preserved, not activated",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_DECODER_INPUT_CONTROL_CONTRACT_v2.json",
+      "sha256": "32ed71685ec5c988c76b7aca15d281f68cb882f7d753511fecc06c81ba348b86",
+      "bytes": 33826
+    },
+    {
+      "role": "reviewed v2 safeguards only, not authorization",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_DECODER_INPUT_CONTROL_PREPARATION_REVIEW_v2.json",
+      "sha256": "a7a99a6cd60d82484d3bc2864f734d8cebb359c90f3d8da5e4ed9815b892c2a0",
+      "bytes": 3477
+    },
+    {
+      "role": "conditional reference-g design opinion; not execution receipt",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/REFERENCE_G_PRIOR_DIAGNOSTIC_FEASIBILITY_v1.zh.md",
+      "sha256": "605313d33bb632a5bdb29c25aedfb2a48272fc8a79ff192040c92554d8865f3c",
+      "bytes": 3113
+    },
+    {
+      "role": "earlier design boundaries",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/FUTURE_FOUR_SOURCE_ROUTE_DESIGN_BOUNDARIES_v1.zh.md",
+      "sha256": "4d4ebe203a642ea52b4c2f5b788c4b3b825c611882b4381a29379ae0a95144a6",
+      "bytes": 4326
+    },
+    {
+      "role": "coordinate and conditional flow route evidence",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/LATENT_ROUTE_STATIC_AUDIT.json",
+      "sha256": "cddbc4a3ee25926f6654afabfeef8448b77adc3d4620b0e9664cb60b6d2f1096",
+      "bytes": 114898
+    },
+    {
+      "role": "separate existing generation engineering PASS",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484",
+      "bytes": 14870
+    },
+    {
+      "role": "closed MSE engineering review",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_POSTFLIGHT_v1.json",
+      "sha256": "a0a410526b6a252ba1f73fd3957dea5ee20413bb6e5c264fca5d34a4eec97b71",
+      "bytes": 21294
+    },
+    {
+      "role": "original CE interruption remains separate",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+      "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06",
+      "bytes": 4150
+    },
+    {
+      "role": "exploratory/posthoc status",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_POSTHOC_ADDENDUM.json",
+      "sha256": "6f925a28d4d189d29cd675db88ad68b00bf5905135bfd49ddd614067c0ad05ab",
+      "bytes": 1489
+    },
+    {
+      "role": "finite empirical range and macro accuracy limits",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_METRIC_CLARIFICATION.json",
+      "sha256": "42766c205908dd2d9bd0a97d1c52c720f4f1ce022555241f949272b01d505c7f",
+      "bytes": 2085
+    },
+    {
+      "role": "new same-n descriptive evidence; not causal proof",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/DELIVERY_MANIFEST.json",
+      "sha256": "6956edbd2632fa3639ac58c6cc7cf2f9f56023731279242e37d572b893dbdafa",
+      "bytes": 2331
+    },
+    {
+      "role": "unchanged future descriptive metrics interface",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+      "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417",
+      "bytes": 24404
+    },
+    {
+      "role": "unchanged metric definitions",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480",
+      "bytes": 25377
+    },
+    {
+      "role": "existing train/dev reference bindings and CLI schema, not quality outcomes",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/EVALUATION_COMMAND.json",
+      "sha256": "09ce64689f67b1c08ab40e104a70c0725cbb8a574e4eeaff9ed93c1f4840b116",
+      "bytes": 11185
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+      "bytes": 3194,
+      "role": "final plan prerequisite or preserved nonexecuted v1 provenance"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+      "bytes": 3703,
+      "role": "final plan prerequisite or preserved nonexecuted v1 provenance"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_DIAGNOSTIC_DRAFT_v1.json",
+      "sha256": "a5f12518b8b677c44f1b48a7da0b6ebe8a7626d9f7a6c4769c4ce12e3f7ce700",
+      "bytes": 27522,
+      "role": "historical DRAFT; final fixed all-D scope supersedes its optional wording"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/config.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "bytes": 2541,
+      "role": "exact actual trained CE configuration"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_BCD_INTERPRETATION_BOUNDARIES_PREAUDIT_v1.json",
+      "sha256": "2f0f55a8a4c29cce1a0e40ec42c1969f2fa0c82540eb5b82de4c456063e47737",
+      "bytes": 2352,
+      "role": "scientific diagnostic interpretation limits"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/LATENT_SAME_N_GROUP_REFERENCE_POSTFLIGHT_v1.json",
+      "sha256": "8598af09e05a322417d91c6b6db672fe07f4d3f5aea29bfbe53808411b71c133",
+      "bytes": 12209,
+      "role": "saved-array same-n independent postflight"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v2/PREPARATION_MANIFEST.json",
+      "sha256": "cae66f53b6caf54194f1269f28f6bced3bb30f2a5242d408d813b6490fa0c55f",
+      "bytes": 3605,
+      "role": "final plan prerequisite or preserved nonexecuted v1 provenance"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/source_copy_manifest.json",
+      "sha256": "019f4d1a6c6fd882c71849ae3c2920556020cee043ea084b31def1a89e980f48",
+      "bytes": 26725,
+      "role": "immutable corrected-code manifest validated by original runtime"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v1.json",
+      "sha256": "7226435783bd6bc84f3bfb13f1fe96359b82325b2b8640a554205b09c7d917eb",
+      "bytes": 26981,
+      "role": "preserved unexecuted v1 contract; known R-S1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v1.py",
+      "sha256": "cb14e4aad3977e6dbd8733d60a38a427886f504bd7ed8c8660915cc76b2466e4",
+      "bytes": 32879,
+      "role": "preserved unexecuted v1 source; narrow exception repair only"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v1/MANIFEST.json",
+      "sha256": "ef2a28649f6dac6f52198bed7cb528168c3a002c79acc221c9da75f00bd51e03",
+      "bytes": 2693,
+      "role": "preserved v1 preparation"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_CANDIDATE_REVIEW_v1.json",
+      "sha256": "48a12ed8e774698d9939d3188c1a464634f2add8df3069f4b2729951738d16a8",
+      "bytes": 4708,
+      "role": "final plan prerequisite or preserved nonexecuted v1 provenance"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v1.json",
+      "sha256": "c659f89641cc32b4003180b3655432213613b59f6db821f55a3ca6efa2f8d892",
+      "bytes": 21078,
+      "role": "final plan prerequisite or preserved nonexecuted v1 provenance"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/MANIFEST.json",
+      "sha256": "6b11d9311314bbd70c1b4bca12c4964ecfbc220be4f5a03687dbef473e2ce37b",
+      "bytes": 3740,
+      "role": "final plan prerequisite or preserved nonexecuted v1 provenance"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/AUTHOR_SYNTHETIC_VALIDATION.json",
+      "sha256": "4130e0903ca1996fe44aceeaa20a72c2889fbfe7c74317b8cc2200e7f08a4099",
+      "bytes": 1741,
+      "role": "final plan prerequisite or preserved nonexecuted v1 provenance"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/NARROW_REPAIR_VALIDATION.json",
+      "sha256": "5b5da56033a296a486a14b2570d0bffe64daeba59a0d4eeb0390fb5ba270ff26",
+      "bytes": 2005,
+      "role": "final plan prerequisite or preserved nonexecuted v1 provenance"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v2.json",
+      "sha256": "91e64d4ca473c1a56b2c66b285f0f5b8fd0ccba3884fe15ba465e574108bb46f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_FINAL_PREFLIGHT_CHECKS_v2.json",
+      "sha256": "be29d3281fccf1da5bfb124ed24ad5afd321af59663950f1806675cbcb3195c9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_R_S1_REPAIR_REVIEW_v2.json",
+      "sha256": "15b3c5023d82dd905c0f518799ed17a19ab297fdbb6f0130b12748651750bba6"
+    }
+  ]
+}

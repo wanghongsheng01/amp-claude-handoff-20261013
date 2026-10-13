@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-12T08:51:06.309525+00:00",
+  "local_sha256": {
+    "PLAN.json": "b2b866b539b021d07a2311aa7dbbf5b20a8bcf939f7a0e4f43bdd92b8c819246",
+    "audit_convert.py": "2902497a80db26067dbaad34b7b8bf171a0afa977fda2c0089108157877fc188",
+    "SYNTHETIC_CHECKS.json": "f2a87ece7bba63e1c702de278c44a3debefca0341287a9a55758c591ddc33d6e"
+  },
+  "mode": "offline chemistry audit, not model training",
+  "limits": {
+    "records": 75,
+    "tautomer_max_states_per_molecule": 256,
+    "tautomer_max_transforms": 1000
+  },
+  "source_and_measurement_semantics": "No material-mass-basis overrides"
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "AMP_H5_NATIVE_BASELINE_PROTOCOL_V1",
+  "created_utc": "2026-10-12T09:12:30.469244+00:00",
+  "scope": "One finite native-unit exploratory development run; cache labels already exposed; no untouched confirmation, no protected H5/test37 participation or transfer of these checkpoints into original H5 evaluation",
+  "authorization": "Current delegated user explicitly authorizes bounded development baseline after scientific reassessment; previous no-training-turn flags remain historical, not overwritten",
+  "units_separate": [
+    "ug_ml_native",
+    "uM_native"
+  ],
+  "target": "log10 of cached native positive point MIC lower_raw_unit; never interpret censors/ranges/plusminus as exact or convert unit",
+  "data": "Exactly85 flagged point rows,46 mass and39 molar. Unknown covariates and all original metadata retained; no complete-case deletion",
+  "split": "Leave one existing source-family union component out;10 mass folds and7 molar folds. Assert zero overlap of peptide ID/exact sequence/chemical fingerprint/family/source-group/known paper source keys. No row shuffling across folds; actual sizes recorded, refuse insufficient train groups",
+  "seed": 1729,
+  "models": [
+    "training_weighted_mean",
+    "composition_ridge",
+    "witten_CNN"
+  ],
+  "train_weights": "Each training source-family group equal, each peptide within group equal, each observation within peptide equal:1/(G*P_g*n_i), sum1. All methods same train rows and weights",
+  "constant": "Training-weighted mean log10 label",
+  "ridge": {
+    "features": "20AA exact-sequence fractions in fixed alphabet order plus log(length); no imputed chemistry or potency features",
+    "standardization": "Training-weighted mean/std only; zero std replaced1",
+    "alpha": 1.0,
+    "objective": "sum_i w_i(y_i-intercept-z_i beta)^2 + alpha*sum_j beta_j^2; intercept unpenalized",
+    "solver": "numpy.linalg.solve;21features fixed; no tuning"
+  },
+  "cnn": {
+    "model_source_sha256": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+    "parameters": 183069,
+    "epochs": 100,
+    "updates_per_epoch": 1,
+    "batch": "All training rows, at most45 rows; full-batch repeated-observation weights exact",
+    "loss": "weighted squared error on native log10 target, weights sum1",
+    "optimizer": "KerasStyleAdam lr.001 betas.9/.999 epsilon_hat1e-7",
+    "initialization": "reset same seed1729 independently everyfold/unit; Glorot; dropout.5 as audited model",
+    "endpoint": "Exactly100updates, no validation loss used during fit, no early stopping, no schedules, no hyperparameter/seed search",
+    "adaptation": "Architecture-equivalent PyTorch, not author training-protocol or performance reproduction. Full batch weighted objective and100epochs are explicit development adaptations",
+    "training_label_centering": "Subtract training fold group-peptide-weighted mean log10 target and add it back to predictions; validation labels never used for centering. Engineering preaudit recommendation fixed before execution."
+  },
+  "evaluation": {
+    "primary": "macro-group MAE = average over heldout source groups of average over peptides of average over records absolute log10 error",
+    "secondary": "sqrt(macro-group MSE), with same nested weights; not average of fold RMSE",
+    "sensitivities": [
+      "ordinary row-weighted MAE/RMSE",
+      "peptide-macro MAE/RMSE"
+    ],
+    "metrics_scope": "Eachunit independently; no pooling numerical units, no confidence/significance or independent-generalization claims",
+    "predictions": "Write all OOF prediction rows once after each heldout fold, before aggregate scoring; retain raw unit/value/operator, peptide/family/group/source and missingness"
+  },
+  "limits": {
+    "cpu_threads": 1,
+    "interop_threads": 1,
+    "blas_threads": 1,
+    "wall_seconds": 600,
+    "maximum_CNN_updates": 1700,
+    "peak_rss_bytes": 1500000000,
+    "process_nice_increment": 10,
+    "model_execution": "serial CPU only; no MPS/GPU; check active jobs before launch"
+  },
+  "failure_rules": [
+    "Any source/code/config/hash or fold-overlap mismatch aborts before model fit",
+    "Any nonfinite loss/gradient/prediction or absent model parameter gradient aborts entire run",
+    "Any resource limit stop preserves failure and completed folds; no retry or reseeding",
+    "Incomplete OOF rows produce only partial status, never aggregate success",
+    "No failure-dependent replacement data/fold/epoch choice"
+  ],
+  "simple_signal_rule": "Describe point estimates versus constant only; no minimum advantage or statistically significant claim, report allmodel outcomes including negatives",
+  "prohibited": [
+    "new acquisition",
+    "new dependencies/weights",
+    "test37 or original train/dev file access",
+    "Caliber project access",
+    "source H0-H4/manuscript edits",
+    "new censored model",
+    "new scientific intervention",
+    "uploads/credentials"
+  ],
+  "backup": "BACKUP_BLOCKED"
+}

@@ -1,0 +1,63 @@
+{
+  "before136": {
+    "all_MIC_rows": 1242,
+    "all_units": {
+      "µM": 417,
+      "µg/ml": 825
+    },
+    "all_formats": {
+      "range_unresolved": 149,
+      "point": 846,
+      "right_bound": 225,
+      "plusminus_unresolved": 21,
+      "unresolved": 1
+    },
+    "Ecoli_unit_by_format": {
+      "µM | range_unresolved": 18,
+      "µg/ml | point": 101,
+      "µM | point": 69,
+      "µg/ml | range_unresolved": 10,
+      "µM | plusminus_unresolved": 3,
+      "µg/ml | right_bound": 19,
+      "µM | right_bound": 12
+    },
+    "Ecoli_missing_trimmed": {
+      "medium": 20,
+      "cfu": 52,
+      "ph": 232,
+      "ionic_strength": 230,
+      "salt": 229
+    }
+  },
+  "after_checkpoint": {
+    "all_MIC_rows": 1278,
+    "all_units": {
+      "µM": 441,
+      "µg/ml": 837
+    },
+    "all_formats": {
+      "range_unresolved": 149,
+      "point": 875,
+      "right_bound": 232,
+      "plusminus_unresolved": 21,
+      "unresolved": 1
+    },
+    "Ecoli_unit_by_format": {
+      "µM | range_unresolved": 18,
+      "µg/ml | point": 103,
+      "µM | point": 74,
+      "µg/ml | range_unresolved": 10,
+      "µM | plusminus_unresolved": 3,
+      "µg/ml | right_bound": 19,
+      "µM | right_bound": 13
+    },
+    "Ecoli_missing_trimmed": {
+      "medium": 20,
+      "cfu": 52,
+      "ph": 240,
+      "ionic_strength": 238,
+      "salt": 236
+    }
+  },
+  "policy": "Native reported units kept separate; no mass-to-molar conversion, range/plusminus interpretation, unit repair or training. Whitespace missingness follows prior confirmed correction; original strings unchanged."
+}

@@ -1,0 +1,51 @@
+{
+  "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/CORE_SUMMARIES.json",
+      "bytes": 22268,
+      "sha256": "f5c554fa81f6d76b6c4bfc98b3635efed96cc119f797421618f992ad7c470c7e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/DESCRIPTOR_CACHE.jsonl",
+      "bytes": 933540,
+      "sha256": "397e94a8b6cc4e26163be5f527d3c1969c7deec5ee416b633599bc15d92628c9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/INVESTMENT_SCREEN.json",
+      "bytes": 703,
+      "sha256": "98f7de74e391bfe7a7cdc45cbc06f5219408bd4b7c785f09d73f5899b1495b5a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/PER_SEQUENCE_S8.json",
+      "bytes": 138005,
+      "sha256": "d9139e23303e910295208e273e07511e02e3b35eba781efc217c7a1f8148f98a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/PROPERTY_COVERAGE_AND_SUMMARIES.json",
+      "bytes": 350288,
+      "sha256": "9383de90c20870d879a8545228b9e6b414f543635c9ee299728271579599aaa9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/ROW_METRICS.jsonl",
+      "bytes": 18447847,
+      "sha256": "3eb8e3384235919113d17603efdec0a05bcb74afffefa2ccc4a6b78934cceccd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/S8_AGGREGATE_SUMMARIES.json",
+      "bytes": 2575,
+      "sha256": "bf244b1840b63e7451b83ca5cfacd6492715b9909269704d9b6c9d006527f0e6"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/STATUS.json",
+      "bytes": 2367,
+      "sha256": "9f87c75a67ab17546ad1519ed182559b13113c85d1db9dd31e0e0dd43031b802"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/STRATIFIED_CORE_SUMMARIES.json",
+      "bytes": 198289,
+      "sha256": "777c36092272b6abf9fb51b8ec70c8e59d81aefe333c51c4f00d7e5a429273d1"
+    }
+  ],
+  "status_sha256": "9f87c75a67ab17546ad1519ed182559b13113c85d1db9dd31e0e0dd43031b802"
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "synthetic phase-split readout only; no natural AMP reads or model calls",
+  "tests_run": 17,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v4.py",
+    "bytes": 36250,
+    "sha256": "8a762d82e9527c4cc4a8367a031f7c9a62a6ac8b150e579c286512cedfa94dc2"
+  },
+  "tests": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/synthetic_readout_v4_tests.py",
+    "bytes": 23235,
+    "sha256": "03b5dea33012c59ce4f3be137386b3b779a48d623af7d217b51032dfd2ed9254"
+  },
+  "preserved_v3_failure_reproduction": {
+    "scope": "synthetic only; natural AMP artifacts not read",
+    "frozen_v3_source": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v3.py",
+      "bytes": 27852,
+      "sha256": "7905f92e2a62a3f3e47295177842a9c5f667d83d6c932ea240257c85c69aa19d"
+    },
+    "before_metric_sha256": "6ceb5c4bf488b0412534912e939745228044a658872c1cdc842e884f1954b2d4",
+    "after_metric_sha256": "c6c4ebdc3e29d619709f5cb649546a8ebaa6abc6b84e847c8e358772f9c1717c",
+    "mutation": "first generation group valid_1_48_count changed to zero; MANIFEST unchanged",
+    "v3_effective_G": "PASS",
+    "v3_temporal_snapshot_stable": true,
+    "v4_effective_G": "NOT_EVALUABLE",
+    "v4_manifest_integrity": "NOT_EVALUABLE"
+  },
+  "frozen_dependencies": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v2.py",
+      "bytes": 21751,
+      "sha256": "ee585532c76a6be3adfd38480bdd304b3fbd316704362c69d4064dd18d181bca"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout.py",
+      "bytes": 25836,
+      "sha256": "75012cfc99e73f7d08c5b69cb0e9cf2d0f74acc28b98f6db8203e4b8536486dd"
+    }
+  ]
+}

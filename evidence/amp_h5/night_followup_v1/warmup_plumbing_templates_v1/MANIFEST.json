@@ -1,0 +1,29 @@
+{
+  "status": "TEMPLATES_ONLY_NOT_EXECUTED",
+  "created_utc": "2026-10-11T21:18:57.941616+00:00",
+  "model_calls": 0,
+  "random_draws": 0,
+  "new_tests": 0,
+  "sealed_candidate_unchanged": {
+    "manifest_sha256": "888c0c022e136e9ae72d616c5217ca0378e745080ec1d5bfeb3f0aec646a1bc4",
+    "contract_sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a"
+  },
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_plumbing_templates_v1/LAUNCHER_INTERFACE_TEMPLATE.json",
+      "sha256": "1ba917ad4d513b5d1d375ee80930e1a0d5fa6764a896c00eb337b206efb5f913"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_plumbing_templates_v1/READOUT.zh.md",
+      "sha256": "006e0e15a63608d7e853ebd28d3155548703c9363a5dc85936e4d68216690ad1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_plumbing_templates_v1/ROOT_LAUNCH_AUTHORIZATION_TEMPLATE.json",
+      "sha256": "420cb7a6955faec9677d6f407fbbb398e5e13da87813ef7ad43f4381f207c0e6"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_plumbing_templates_v1/SUPERVISOR_PLAN_TEMPLATE.json",
+      "sha256": "e921656197d1c492dfc5bd8c8b0ed30fb26aaecd08036f12b59c8e77e530901e"
+    }
+  ]
+}

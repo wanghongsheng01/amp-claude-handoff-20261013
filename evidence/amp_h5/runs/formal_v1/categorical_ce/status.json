@@ -1,0 +1,11 @@
+{
+  "state": "failed",
+  "purpose": "formal_pilot",
+  "config_sha256": "1d3cca4cea9c5c90dfa3f9934e6a9bef399501566171536a6549b31fdfda65bb",
+  "runner_sha256": "9580bf84e2ffc2d2d357f77eaca04c338b6608abe0f6a30c17c578cf6e3606b5",
+  "test_read": false,
+  "development_read": false,
+  "error": "ValueError('cohort/descriptor row identity differs at 0')",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal.py\", line 678, in run\n    dev = read_records(config[\"dev\"], config[\"dev_sha256\"], config[\"dev_rows\"],\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal.py\", line 150, in read_records\n    raise ValueError(\"cohort/descriptor row identity differs at \" + str(i))\nValueError: cohort/descriptor row identity differs at 0\n",
+  "process_seconds": 0.8533692504279315
+}

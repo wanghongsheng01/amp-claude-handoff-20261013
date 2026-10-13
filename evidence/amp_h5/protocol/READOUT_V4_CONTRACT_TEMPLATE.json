@@ -1,0 +1,38 @@
+{
+  "schema_version": "AMP_H5_PHASE_SPLIT_READOUT_V4",
+  "base_directory": "..",
+  "methods": {
+    "CE21_DDPM": {
+      "training_source_root": "runs/formal_v2/categorical_ce",
+      "generation_attempt_root": "runs/ce_checkpoint_recovery_v1",
+      "training_instance_id": "formal_v2/categorical_ce",
+      "generation_attempt_id": "ce_checkpoint_recovery_v1"
+    },
+    "MSE21_DDPM": {
+      "training_source_root": "runs/formal_v2/raw_onehot_mse",
+      "generation_attempt_root": "runs/formal_v2/raw_onehot_mse",
+      "training_instance_id": "formal_v2/raw_onehot_mse",
+      "generation_attempt_id": "formal_v2/raw_onehot_mse"
+    },
+    "scalar_DDPM": {
+      "training_source_root": "runs/formal_v2/scalar_legacy",
+      "generation_attempt_root": "runs/formal_v2/scalar_legacy",
+      "training_instance_id": "formal_v2/scalar_legacy",
+      "generation_attempt_id": "formal_v2/scalar_legacy"
+    },
+    "terminal_LSTM": {
+      "training_source_root": "runs/formal_v1/terminal_lstm",
+      "generation_attempt_root": "runs/formal_v1/terminal_lstm",
+      "training_instance_id": "formal_v1/terminal_lstm",
+      "generation_attempt_id": "formal_v1/terminal_lstm"
+    }
+  },
+  "evaluation_directories": [],
+  "recovery_postflight_receipt": null,
+  "context_evidence": [
+    {
+      "path": "protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+      "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06"
+    }
+  ]
+}

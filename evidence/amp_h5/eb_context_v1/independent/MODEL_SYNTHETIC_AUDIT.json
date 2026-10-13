@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T14:34:50.638135+00:00",
+  "model_sha256": "6f0514af960365641e2b97ba091b2bdee2aca7d78eda4a03fc5425cd52634750",
+  "independent_test_sha256": "46a90154699b8456a3ec80df4b6f2442b7767334d4604de03a625681532a1282",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_bos_no_crosssequence_and_cap (__main__.IndependentSyntheticTests) ... ok\ntest_fit_isolation_and_serialization (__main__.IndependentSyntheticTests) ... ok\ntest_hand_counts_formula (__main__.IndependentSyntheticTests) ... ok\ntest_normalization_unseen_and_limits (__main__.IndependentSyntheticTests) ... ok\ntest_tree_partition_counts_and_terminal_label_invariance (__main__.IndependentSyntheticTests) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.017s\n\nOK\n",
+  "natural_data_read": false,
+  "scope": "model synthetic only; protocol and runner still need review"
+}

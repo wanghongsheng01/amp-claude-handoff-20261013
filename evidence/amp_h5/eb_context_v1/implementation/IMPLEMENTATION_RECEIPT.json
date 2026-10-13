@@ -1,0 +1,13 @@
+{
+  "scope": "implementation_and_synthetic_only",
+  "natural_data_read": false,
+  "author_source_executed": false,
+  "files": {
+    "model.py": "6f0514af960365641e2b97ba091b2bdee2aca7d78eda4a03fc5425cd52634750",
+    "test_model.py": "46216d5ac8de72ed5867ab9583983376c2b254659fbbca91f5794a92c44c0ee8",
+    "profile_synthetic.py": "c65a0b8e64b6527b536d2c9e99b8e0912a14c344238bb2265ffbd28d92c505bd",
+    "IMPLEMENTATION_NOTES.md": "41db7634e3a3230e23afab8c2f1e2dcba4dd55a7e1bccc6ddfdbc09fb688630c",
+    "synthetic_tests.stdout.txt": "2d2a4b0d89e8d5bb8dc8edd184a336658f86cb30a02039d28cccce448e72e48f",
+    "synthetic_profile.json": "2c8ac2a2e643eda7b5934594b166e4059e8962d666ef3eac98894ed828391faa"
+  }
+}

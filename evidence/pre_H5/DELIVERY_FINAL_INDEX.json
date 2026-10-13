@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-11T12:12:15.703534+00:00",
+  "scope": "Explicit local delivery index, not a full workspace snapshot or scientific acceptance gate",
+  "n_files": 4,
+  "files": [
+    {
+      "path": "DELIVERY_CANDIDATE_MANIFEST.json",
+      "bytes": 6333,
+      "sha256": "46d254483894b73d4ba1ce55dbcb7e2c8edd2ac8f7deef8369b04d4071451bf6"
+    },
+    {
+      "path": "final_science_review/REPORT_FINAL.zh.md",
+      "bytes": 7780,
+      "sha256": "e31fcc1e596eb81fdcca280084ffe2301de5fe35453f0699065a4ea687c323ad"
+    },
+    {
+      "path": "final_science_review/AUDIT_FINAL.json",
+      "bytes": 33880,
+      "sha256": "3e4f257f1d4a1f009a7b7a5f1b927667bf311506374cd4038e1e466b07103294"
+    },
+    {
+      "path": "final_science_review/MANIFEST_FINAL.json",
+      "bytes": 1114,
+      "sha256": "d9f0edd3376f1a7f5e90cb9ae3d7a5c92236a91f5c8659ae9593a559ad3237ea"
+    }
+  ],
+  "backup_status": "BACKUP_BLOCKED",
+  "no_cloud_backup_claim": true
+}

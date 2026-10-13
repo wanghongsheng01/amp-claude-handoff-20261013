@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_direct_sources_stable": true,
+    "v4_manifest_and_all_members_unchanged": true,
+    "single_terminal_exit0_source_v2_job": true,
+    "final_independent_postflight_bound": true,
+    "source_readonly_evaluation_completed_and_timed": true,
+    "source_author_readout_completed_and_timed": true,
+    "both_source_audit_sections_counted_once": true,
+    "reviewer_label_failure_not_natural_model_failure": true,
+    "96_allocated_started_completed_no_failure": true,
+    "6_groups16_each": true,
+    "6_decoder_2_inverse_2_roundtrip_batches": true,
+    "zero_training_encoder_DDPM": true,
+    "reused32_not_new_attempts": true,
+    "old64_and_source_v1_not_model_attempts": true,
+    "model_outer_only_once": true,
+    "decimal_combined_model_lower_bound": true,
+    "mixed_scope296_248_226_bookkeeping_only": true,
+    "known_analysis_not_model_wall": true,
+    "v4_analysis_not_duplicated": true,
+    "missing_costs_null_not_zero": true,
+    "original_CE_unknown_and_partial_preserved": true,
+    "original_ELG_NE_PROMOTE_HOLD": true
+  },
+  "new_model_calls": 0,
+  "new_quality_statistics": 0
+}

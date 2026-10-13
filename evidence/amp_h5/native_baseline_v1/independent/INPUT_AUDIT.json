@@ -1,0 +1,599 @@
+{
+  "status": "PASS",
+  "sha256": "5e8a78d0378a3dfa99f14a9bd5521a6841afeec801ec27464c04343da55731c5",
+  "checks": [
+    {
+      "name": "142_original_ecoli_rows_retained",
+      "pass": true
+    },
+    {
+      "name": "activity_id_unique",
+      "pass": true
+    },
+    {
+      "name": "peptide_id_one_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "sequence_one_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "sequence_family_one_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "all_observed_source_keys_one_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_four_counts",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_points_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_raw_canonical_domain",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_source_attribution_and_no_pending",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G102_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G102_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G102_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G102_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G1737_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G1737_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G1737_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G1737_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G2425_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G2425_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G2425_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G2425_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3086_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3086_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3086_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3086_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3198_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3198_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3198_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3198_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3224_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3224_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3224_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3224_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G37_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G37_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G37_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G37_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G4013_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G4013_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G4013_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G4013_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G5545_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G5545_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G5545_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G5545_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G873_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G873_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G873_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G873_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "uM_native_four_counts",
+      "pass": true
+    },
+    {
+      "name": "uM_native_points_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native_raw_canonical_domain",
+      "pass": true
+    },
+    {
+      "name": "uM_native_source_attribution_and_no_pending",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G102_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G102_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G102_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G102_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G103_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G103_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G103_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G103_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G2396_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G2396_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G2396_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G2396_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3232_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3232_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3232_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3232_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3301_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3301_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3301_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3301_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G37_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G37_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G37_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G37_disjoint_sources",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G873_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G873_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G873_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G873_disjoint_sources",
+      "pass": true
+    }
+  ],
+  "units": {
+    "ug_ml_native": {
+      "counts": {
+        "rows": 46,
+        "peptides": 33,
+        "families": 17,
+        "source_family_groups": 10
+      },
+      "activity_ids": [
+        36,
+        4796,
+        4807,
+        4818,
+        4829,
+        4840,
+        4851,
+        4862,
+        4884,
+        4895,
+        12526,
+        12527,
+        12601,
+        18691,
+        18696,
+        18699,
+        18702,
+        23078,
+        23089,
+        23100,
+        23905,
+        24672,
+        24676,
+        24680,
+        28735,
+        28747,
+        31234,
+        31238,
+        31244,
+        31248,
+        31254,
+        31258,
+        39663,
+        39673,
+        39683,
+        39693,
+        50769,
+        54742,
+        58515,
+        58517,
+        58519,
+        112057,
+        112058,
+        141543,
+        177211,
+        177212
+      ],
+      "folds": [
+        {
+          "holdout_group": "G102",
+          "held_rows": 1,
+          "held_peptides": 1,
+          "held_families": 1,
+          "train_rows": 45,
+          "train_peptides": 32,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G1737",
+          "held_rows": 13,
+          "held_peptides": 5,
+          "held_families": 2,
+          "train_rows": 33,
+          "train_peptides": 28,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G2425",
+          "held_rows": 4,
+          "held_peptides": 4,
+          "held_families": 1,
+          "train_rows": 42,
+          "train_peptides": 29,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G3086",
+          "held_rows": 3,
+          "held_peptides": 3,
+          "held_families": 1,
+          "train_rows": 43,
+          "train_peptides": 30,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G3198",
+          "held_rows": 1,
+          "held_peptides": 1,
+          "held_families": 1,
+          "train_rows": 45,
+          "train_peptides": 32,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G3224",
+          "held_rows": 3,
+          "held_peptides": 3,
+          "held_families": 3,
+          "train_rows": 43,
+          "train_peptides": 30,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G37",
+          "held_rows": 5,
+          "held_peptides": 1,
+          "held_families": 1,
+          "train_rows": 41,
+          "train_peptides": 32,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G4013",
+          "held_rows": 2,
+          "held_peptides": 2,
+          "held_families": 2,
+          "train_rows": 44,
+          "train_peptides": 31,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G5545",
+          "held_rows": 4,
+          "held_peptides": 4,
+          "held_families": 4,
+          "train_rows": 42,
+          "train_peptides": 29,
+          "train_groups": 9
+        },
+        {
+          "holdout_group": "G873",
+          "held_rows": 10,
+          "held_peptides": 9,
+          "held_families": 1,
+          "train_rows": 36,
+          "train_peptides": 24,
+          "train_groups": 9
+        }
+      ]
+    },
+    "uM_native": {
+      "counts": {
+        "rows": 39,
+        "peptides": 13,
+        "families": 8,
+        "source_family_groups": 7
+      },
+      "activity_ids": [
+        340,
+        343,
+        18406,
+        18584,
+        18590,
+        18593,
+        18594,
+        18603,
+        18604,
+        18605,
+        18606,
+        18607,
+        18608,
+        18609,
+        18610,
+        18611,
+        18612,
+        18613,
+        18614,
+        18615,
+        18616,
+        18617,
+        18618,
+        18619,
+        18620,
+        18622,
+        18625,
+        18628,
+        24714,
+        24716,
+        24717,
+        25117,
+        51566,
+        51569,
+        59455,
+        62980,
+        68607,
+        101190,
+        105180
+      ],
+      "folds": [
+        {
+          "holdout_group": "G102",
+          "held_rows": 2,
+          "held_peptides": 2,
+          "held_families": 1,
+          "train_rows": 37,
+          "train_peptides": 11,
+          "train_groups": 6
+        },
+        {
+          "holdout_group": "G103",
+          "held_rows": 2,
+          "held_peptides": 2,
+          "held_families": 2,
+          "train_rows": 37,
+          "train_peptides": 11,
+          "train_groups": 6
+        },
+        {
+          "holdout_group": "G2396",
+          "held_rows": 25,
+          "held_peptides": 5,
+          "held_families": 1,
+          "train_rows": 14,
+          "train_peptides": 8,
+          "train_groups": 6
+        },
+        {
+          "holdout_group": "G3232",
+          "held_rows": 5,
+          "held_peptides": 1,
+          "held_families": 1,
+          "train_rows": 34,
+          "train_peptides": 12,
+          "train_groups": 6
+        },
+        {
+          "holdout_group": "G3301",
+          "held_rows": 1,
+          "held_peptides": 1,
+          "held_families": 1,
+          "train_rows": 38,
+          "train_peptides": 12,
+          "train_groups": 6
+        },
+        {
+          "holdout_group": "G37",
+          "held_rows": 3,
+          "held_peptides": 1,
+          "held_families": 1,
+          "train_rows": 36,
+          "train_peptides": 12,
+          "train_groups": 6
+        },
+        {
+          "holdout_group": "G873",
+          "held_rows": 1,
+          "held_peptides": 1,
+          "held_families": 1,
+          "train_rows": 38,
+          "train_peptides": 12,
+          "train_groups": 6
+        }
+      ]
+    }
+  },
+  "scope": "cached developmental material; operational groups are not certified independent biology; protected test untouched"
+}

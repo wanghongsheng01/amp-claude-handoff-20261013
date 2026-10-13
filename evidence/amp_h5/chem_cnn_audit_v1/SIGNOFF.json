@@ -1,0 +1,43 @@
+{
+  "status": "PASS_REVIEWED_PREPARATION_AND_SYNTHETIC_BASELINE_ONLY",
+  "time_utc": "2026-10-12T08:58:36.841026+00:00",
+  "chemistry_v1": {
+    "synthetic_independent_assertions": 21,
+    "actual_accounting_checks": 488,
+    "status": "retained; generic tautomer cap outcomes preserved"
+  },
+  "chemistry_v2": {
+    "synthetic_independent_assertions": 27,
+    "actual_accounting_checks": 605,
+    "structural_pass_peptides": 51,
+    "structural_pending_peptides": 24,
+    "conditional_rows": 54,
+    "conditional_peptides": 32,
+    "conditional_families": 23,
+    "assay_verified_conversion_rows": 0,
+    "assay_pending_rows": 86,
+    "plain_CNN_conditional_new_peptides": [
+      102,
+      1737,
+      1738
+    ],
+    "plain_CNN_conditional_rows": 5,
+    "new_plain_CNN_families": [
+      "F102",
+      "F1737",
+      "F1738"
+    ],
+    "actual_new_training_admitted_peptides": 0
+  },
+  "cnn": {
+    "architecture": "PASS_SOURCE_MATCH_WITH_DOCUMENTED_ADAPTATIONS",
+    "parameters": 183069,
+    "independent_numeric_assertions": "PASS fixedweight padding/pool/flatten; scalarMSE/gradient; epsilonhatAdam",
+    "author_synthetic_evidence": "13checks PASS;105syntheticoptimizersteps; source/tests inspected; no originalperformance or TensorFlowruntime parity claim",
+    "final_manifest_sha256": "c41d0769f2f79d801fb38b11a97d5de5615d90903cb9c607a1eb64bdb64882ae",
+    "all_manifest_files_pass": 17
+  },
+  "admission": "Naturaltraining NOT_ADMITTED. Existingrawsnapshot only; materialmassbasis, sourceassay semantics, terminalannotation gaps, representationalfit and contaminationisolation remain unresolved. Chemicalconsistency is not independence or biology. No train/dev/test files opened.",
+  "next_safe_work": "Resolve recorded material-mass basis and exact source-assay semantics for the three representation-compatible candidates; any histidine normalization needs separate frozen narrowly-scoped audit. Freeze group isolation and natural protocol only after admission data are established.",
+  "backup": "BACKUP_BLOCKED"
+}

@@ -1,0 +1,167 @@
+{
+  "status": "PASS_REPRESENTATION_ACCOUNTING_AND_PENDING_CLASSIFICATION",
+  "representation_records_checked": 8,
+  "compatible_potential_new_ids": [
+    102,
+    1737,
+    1738
+  ],
+  "compatible_rows": 5,
+  "compatible_potential_new_families": [
+    "F102",
+    "F1737",
+    "F1738"
+  ],
+  "v1_passes_retained": 30,
+  "v2_additional_structural_passes": 21,
+  "frozen_local_hashes": {
+    "PLAN.json": true,
+    "audit_convert.py": true,
+    "validate_synthetic.py": true,
+    "SYNTHETIC_CHECKS.json": true
+  },
+  "pending_histidine_observation": [
+    {
+      "peptide_id": 36,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 873,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 874,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 875,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 876,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 877,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 878,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 879,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 880,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 881,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 882,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 1716,
+      "histidine_count": 2,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 1783,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 3198,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 3199,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 3301,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 4347,
+      "histidine_count": 2,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 4352,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 5546,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    },
+    {
+      "peptide_id": 5547,
+      "histidine_count": 1,
+      "source_HID_variant": true,
+      "source_HIE_variant": true,
+      "observed_variant_matches_before_first_failure": []
+    }
+  ],
+  "pending_interpretation": "All20remaining graph/stereo mismatch records have histidine and source-described HID/HIE variant pairs. Narrow v2 deliberately does not normalize histidine. This supports an unhandled-tautomer hypothesis, does not certify other graph/stereo features correct or identify invalid chemistry. No further transformation executed.",
+  "training_admission": "NO_GO_NOW: assay massbasis for all86massrows remainsunknown, nullterminalannotations remainunknown, plainCNNeligiblecandidatecounts small and clustered, contamination isolation notimplemented, natural training protocol notfrozen. Continue source-curation and exactcandidate admissibility; no naturaltraining claim."
+}

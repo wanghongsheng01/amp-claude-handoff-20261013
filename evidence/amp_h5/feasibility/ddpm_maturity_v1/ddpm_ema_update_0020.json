@@ -1,0 +1,8 @@
+{
+  "path": "ddpm_ema_update_0020.pt",
+  "sha256": "759afe2dac8acefc505a7866104198e57908e4444d549fd74b84d9b80d72bfe1",
+  "tensor_state_sha256": "608060bcf188f3c9de76ece4e0cc2f1ff0e636c947776ae37d9fc08d67a4e1b4",
+  "update": 20,
+  "fresh_total_OneCycle_horizon": 1000,
+  "EMA_semantics": "original copy-current branch below2000; no averaging yet"
+}

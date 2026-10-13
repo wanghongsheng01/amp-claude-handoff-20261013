@@ -1,0 +1,65 @@
+{
+  "status": "PASS_STATIC_OBSERVABILITY_DELTA_AND_BUDGET_MATH",
+  "created_utc": "2026-10-11T16:05:12.186639+00:00",
+  "base_sha256": "9fabbd28171a7b1f98118161ca399dbc1fa81a3448cdb42668cddbf0468a492b",
+  "formal_sha256": "9580bf84e2ffc2d2d357f77eaca04c338b6608abe0f6a30c17c578cf6e3606b5",
+  "changed_existing_functions": [
+    "decode",
+    "generate"
+  ],
+  "added_functions": [
+    "tensor_observation_summary",
+    "save_generation_observations"
+  ],
+  "all_other_top_level_functions_exact_AST_equal": true,
+  "rng_call_AST_sequence_equal": true,
+  "new_model_or_random_calls_in_delta": false,
+  "budget_recomputed_from20_actual_updates_each_stage": {
+    "vae": 1920,
+    "ddpm": 1020
+  },
+  "total_training_cap": 2940,
+  "generation_cap": 1800,
+  "measurements": [
+    {
+      "arm": "categorical_ce",
+      "stage": "vae",
+      "mean_seconds": 1.1496471228310838,
+      "sha256": "f19cc7b84bff693930201f3d28460144d7079c1dfd46fefcca5386c1a52ed8a7"
+    },
+    {
+      "arm": "categorical_ce",
+      "stage": "ddpm",
+      "mean_seconds": 0.5508490020409227,
+      "sha256": "86025b38962521211e7db2b6c5f270903d7c5601534fad20cfdfdc793e1a1f0b"
+    },
+    {
+      "arm": "raw_onehot_mse",
+      "stage": "vae",
+      "mean_seconds": 1.1840331063605845,
+      "sha256": "04def96ac19de1ab9456a030aa359108b5c1146c0ae357fe82edfea41f760cce"
+    },
+    {
+      "arm": "raw_onehot_mse",
+      "stage": "ddpm",
+      "mean_seconds": 0.5688270938349888,
+      "sha256": "041a60d8e5d9fe9e072fa24edb3edd2240701fadd09a48d4f5651bac42f3b807"
+    },
+    {
+      "arm": "scalar_legacy",
+      "stage": "vae",
+      "mean_seconds": 1.1670799187617376,
+      "sha256": "8932d84115ea70296807ff9c6b2d662189f07a6e44e96fb2224fb876462d28ec"
+    },
+    {
+      "arm": "scalar_legacy",
+      "stage": "ddpm",
+      "mean_seconds": 0.5342279125005007,
+      "sha256": "e0c419d759d135048a75d2f205cb34039404c741ae6af87544ad76fddea1aed4"
+    }
+  ],
+  "natural_record_reads": 0,
+  "test_reads": 0,
+  "model_calls": 0,
+  "limitation": "AST plus manual review verifies observer-only intent; not new live model execution or complete wall-clock invariance. Added I/O is charged to observed run time."
+}

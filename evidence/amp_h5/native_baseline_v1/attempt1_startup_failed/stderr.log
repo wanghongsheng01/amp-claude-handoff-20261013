@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/native_baseline_v1/run.py", line 102, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/native_baseline_v1/run.py", line 36, in main
+    started=time.monotonic();steps=0;completed=[];preds=[];os.nice(cfg['limits']['process_nice_increment']);torch.set_num_threads(1);torch.set_num_interop_threads(1);torch.use_deterministic_algorithms(True)
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted

@@ -1,0 +1,112 @@
+{
+  "schema": "AMP_H5_WARMUP_ROOT_LAUNCH_V1",
+  "status": "NOT_AUTHORIZED_TEMPLATE_ONLY",
+  "candidate_manifest_sha256": "888c0c022e136e9ae72d616c5217ca0378e745080ec1d5bfeb3f0aec646a1bc4",
+  "scope": "VAE_ONLY_1000",
+  "independent_preaudit_pass": false,
+  "baseline_full_rms_complete": true,
+  "root_fresh_process_load_check_pass": false,
+  "single_serial_cpu_launch": false,
+  "no_other_active_amp_model_job": false,
+  "baseline_core_predictions_finite": true,
+  "train_rows": 279,
+  "dev_rows": 41,
+  "K": 8,
+  "dev_M_equal_sequence_accuracy": 0.7227961128580324,
+  "dev_S_equal_sequence_eight_draw_mean_accuracy": 0.6611157984837004,
+  "independent_preaudit": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+    "sha256": null,
+    "required_section": "candidate_warmup_static_review; exact final plan has its own independent launcher receipt"
+  },
+  "baseline_rms_delivery": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+    "sha256": null,
+    "required_section": "scoring_postflight.status PASS plus complete exact rational gate and score binding chain"
+  },
+  "baseline_epsilon_bank_manifest": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/EPSILON_BANKS_SEAL.json",
+    "sha256": "6b402b9744f292d88ecb39d4e3a7ededfff0ef72c8ef323f2dd0b985647371da"
+  },
+  "root_process_load_check": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/ops/WARMUP_PRELAUNCH_LOAD_v1.json",
+    "sha256": null
+  },
+  "instructions": "Root creates distinct ROOT_LAUNCH_AUTHORIZATION.json only if complete entry gate and independent preaudit pass; template is deliberately non-executable. Posttraining RMS needs separate contract.",
+  "exact_fraction_admission": {
+    "difference_exact_fraction": {
+      "numerator": 435643512761,
+      "denominator": 7062926270400
+    },
+    "threshold_exact_fraction": {
+      "numerator": 1,
+      "denominator": 20
+    },
+    "comparison": "20*numerator >= denominator with positive denominator; no rounded floats/tolerance",
+    "integer_left": 8712870255220,
+    "integer_right": 7062926270400,
+    "at_or_above_1_over_20": true,
+    "independently_recomputed": false,
+    "source_investment_screen": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/INVESTMENT_SCREEN.json",
+      "sha256": "1290fa554b55d9e6ecc6c5251ec52966529bb1dc44cb423ced795fedf7d1f9ff"
+    },
+    "independent_exact_rational_review": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "sha256": null,
+      "required_section": "scoring_postflight exact RMS gate; must independently recompute counts/lengths"
+    }
+  },
+  "baseline_scoring_evidence": {
+    "investment_screen": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/INVESTMENT_SCREEN.json",
+      "sha256": "1290fa554b55d9e6ecc6c5251ec52966529bb1dc44cb423ced795fedf7d1f9ff"
+    },
+    "closing_ledger": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/CLOSING_LEDGER.json",
+      "sha256": "041c836602d3ba77a30bd523522405d8e3ed2c48707fe2036c1f53af40896eaa"
+    },
+    "outer_result": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RESULT.json",
+      "sha256": "7b827a09b1724b23e2744a5750d1fba108702c69388a064b83a9f8b057733285"
+    },
+    "manifest": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/MANIFEST.json",
+      "sha256": "c2cc1fba99f43c84b1d191bfd6f2daee41eebc67f53c148b4ae2a47c27af3ef0"
+    },
+    "model_postflight": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RMS_RECONSTRUCTION_POSTFLIGHT_v2.json",
+      "sha256": "9786d0be1c9d1fa345f598c626cb6d9b284f63aa41e60b8a706bc6772d5e5666"
+    },
+    "score_contract": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_SCORING_CONTRACT_v2.json",
+      "sha256": "ca3db6d0f70d9205d90f80f8c0ac000f88db4dd18800f41af964b0fcc4d0e3d1"
+    }
+  },
+  "root_guards": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+    "bytes": 4360,
+    "sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194"
+  },
+  "budget_closure_requirement": {
+    "vae_stage_seconds": 1920,
+    "actual_supervisor_outer_seconds": 2100,
+    "note": "Wrapper status.outer_elapsed_seconds is captured before status/manifest final writes, so it is not authoritative complete-process time. Require final supervisor job exit0, no outer_timeout, job.seconds<=2100 and final status/manifest valid together. Record any shutdown/partial-checkpoint spill beyond2100; never call under-cap from wrapper alone. Supervisor terminate grace may add up to30sec; any timeout/failure/overrun is NOT_EVALUABLE, no retry.",
+    "scientific_success": "Not decided by training completion. Separate posttraining exact RMS scope/score and all four root guards required."
+  },
+  "required_root_instantiation": [
+    "Wait for concentrated joint postflight PASS and exact rational recomputation, fill both identical joint path/hash refs.",
+    "Independently validate complete scoring closing+outer and source_hashes, not only float M-S.",
+    "Set independent_preaudit_pass only if candidate static review passes; obtain separate exactplan independent launcher receipt.",
+    "Perform fresh ps/load inspection and save its actual hash, then set four process/serial booleans truthfully.",
+    "Write this to the fixed candidate ROOT_LAUNCH_AUTHORIZATION.json with status ROOT_AUTHORIZED only after all conditions; do not change sealed candidate files."
+  ],
+  "prospective_output_paths": {
+    "root_receipt": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ROOT_LAUNCH_AUTHORIZATION.json",
+    "training_output": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1",
+    "supervisor_plan": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_BETA_WARMUP_VAE_ONLY_PLAN_v1.json",
+    "independent_exact_plan_receipt": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_PREFLIGHT_v1.json",
+    "supervisor_output": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_execution_v1",
+    "launch_record": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/ops/WARMUP_LAUNCH_v1.json"
+  }
+}

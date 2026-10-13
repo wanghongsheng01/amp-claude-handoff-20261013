@@ -1,0 +1,201 @@
+{
+  "scope": "AMP_H5_WARMUP_CLOSURE_V1",
+  "created_utc": "2026-10-12T01:34:39.488498+00:00",
+  "status": "CLOSED_NEGATIVE",
+  "integrity_review": "PASS_ALL_FOUR_STAGES",
+  "scientific_resource_outcome": "FAIL_ALL_FOUR_PRELOCKED_GUARDS",
+  "decision": "Stop this fixed warmup route; no further seed/schedule/DDPM/generation runs. Separate AR mechanism proposal awaits one critical parent review before implementation/execution.",
+  "guards": {
+    "S8_sequence_equal_gain_at_least_1_over_20": false,
+    "M_sequence_equal_nondecrease": false,
+    "M_length_MAE_no_greater_than_baseline_zero": false,
+    "S8_supported_AA_macro_nondecrease": false
+  },
+  "metrics": {
+    "baseline": {
+      "M": {
+        "numerator": 7782097033,
+        "denominator": 10766655900,
+        "value": 0.7227961128580324
+      },
+      "S8": {
+        "numerator": 119728516433,
+        "denominator": 181100673600,
+        "value": 0.6611157984837004
+      },
+      "M_length_MAE": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "S8_supported_AA_macro": {
+        "numerator": 80728129338071,
+        "denominator": 212859392054400,
+        "value": 0.37925566055097765
+      },
+      "M_minus_S8": {
+        "numerator": 435643512761,
+        "denominator": 7062926270400,
+        "value": 0.06168031437433197
+      }
+    },
+    "candidate": {
+      "M": {
+        "numerator": 129065631077,
+        "denominator": 196192396400,
+        "value": 0.6578523604648727
+      },
+      "S8": {
+        "numerator": 1188790078747,
+        "denominator": 2017978934400,
+        "value": 0.5890993500883396
+      },
+      "M_length_MAE": {
+        "numerator": 2,
+        "denominator": 41,
+        "value": 0.04878048780487805
+      },
+      "S8_supported_AA_macro": {
+        "numerator": 8821298524301,
+        "denominator": 28381252273920,
+        "value": 0.3108142811727528
+      },
+      "M_minus_S8": {
+        "numerator": 194238977263,
+        "denominator": 2825170508160,
+        "value": 0.06875301037653318
+      }
+    }
+  },
+  "changes": {
+    "S8_gain_exact": {
+      "numerator": -203458746109,
+      "denominator": 2825170508160,
+      "value": -0.07201644839536084
+    },
+    "M_change_exact": {
+      "numerator": -281752417,
+      "denominator": 4338406800,
+      "value": -0.06494375239315962
+    },
+    "S8_macro_change_exact": {
+      "numerator": -29136780811627,
+      "denominator": 425718784108800,
+      "value": -0.06844137937822489
+    },
+    "gap_change_exact": {
+      "numerator": 7685220061,
+      "denominator": 1086604041600,
+      "value": 0.007072696002201212
+    }
+  },
+  "denominators": {
+    "train": 279,
+    "development": 41,
+    "posterior_epsilon_draws": 8,
+    "endpoint_slots": 2880,
+    "empty_outputs_retained": 2,
+    "baseline_M_micro": "497/701",
+    "warmup_M_micro": "456/701",
+    "main_accuracy": "Mean across original sequences, with S8 averaging8 draws within each sequence first; not pooled residue micro or AA macro"
+  },
+  "cost_delta_only": {
+    "outer_wall_seconds_by_stage": {
+      "training": 1181.1842636661604,
+      "admission_failure_zero_model_calls": 0.07434300007298589,
+      "endpoint": 11.098084792029113,
+      "scoring": 10.529740917030722,
+      "four_guards": 0.6585932089947164
+    },
+    "stage_outer_wall_seconds_total": "1203.54502558428793729",
+    "independent_audit_seconds_by_stage": [
+      1.430729249957949,
+      1.155203958041966,
+      2.499813875183463,
+      0.530308583
+    ],
+    "scope": "Outer stages added once; nested inner times not added. This closure segment does not replace historical V4/source/RMS/distribution costs. Static preparation, interactive reasoning, connection waiting and final bookkeeping not fully measured; total is not total project cost."
+  },
+  "connection": {
+    "actual_success_utc": "2026-10-12T01:29:12.153594+00:00",
+    "status": "ACTUAL_READ_SUCCEEDED",
+    "final_process_check": "No active H5 job observed after guard; unrelated standing Python services untouched"
+  },
+  "boundaries": {
+    "test37_opened": false,
+    "source_H0_H4_manuscripts_modified": false,
+    "new_experiment_started": false,
+    "remote_uploads": 0,
+    "external_backup": "BACKUP_BLOCKED",
+    "original_CE_E_L_G": "NOT_EVALUABLE",
+    "PROMOTE": "HOLD",
+    "wetlab_efficacy_claim": false
+  },
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_POSTFLIGHT_v1.json",
+      "sha256": "98ec7bd6937f05816493905c9ec5d77a2a09b673660c010cc4b8838657b6eb23",
+      "bytes": 9098
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_RMS_RECONSTRUCTION_POSTFLIGHT_v1.json",
+      "sha256": "4e4e0ce7a1a8643d4cf7ee322bf46317dfafe934a193e33006812abb3cc2d0c4",
+      "bytes": 7513
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_RMS_SCORING_POSTFLIGHT_v1.json",
+      "sha256": "b2bde7132a6879982313e50f662fe683a649fedf169d5b7a19f360c703b276cf",
+      "bytes": 6284
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_PAIRED_RESOURCE_GUARD_POSTFLIGHT_v1.json",
+      "sha256": "17d124007edd89d8724b287453b57010a586f06edd510da0adca598eb7b8bf1c",
+      "bytes": 9195
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/WARMUP_RMS_V1_ADMISSION_FAILURE_REVIEW.json",
+      "sha256": "562cbf807b479cd1090d342c149eafa78aee7e92cfdba93913ceb67ca23db7e3",
+      "bytes": 5922
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_execution_v1/SUPERVISOR_STATUS.json",
+      "sha256": "e770303d23968d3d7696f917167ae927c83abbf80a6401337b2c94b20983c329",
+      "bytes": 1176
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/execution_v1/SUPERVISOR_STATUS.json",
+      "sha256": "944e73ac21907570aee711e0255dff8fa5f10eb2719fd209a161dea66ced9c5f",
+      "bytes": 1418
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/execution_v1/SUPERVISOR_STATUS.json",
+      "sha256": "3da4251e18cf979532970602b3cf870f133f2fbab26edb4eaed558603ca7ac4a",
+      "bytes": 1437
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_execution_v1/RESULT.json",
+      "sha256": "baf2e3295220735ff2ec36e1fe5c076252f0928ce471973ba9d007d3df8b36b5",
+      "bytes": 3233
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_execution_v1/RESULT.json",
+      "sha256": "247d97d3dfb4d13fee9af38b700c29a0c0e00ca2d0464b15064615e93a916d31",
+      "bytes": 3402
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_run_v1/PAIRED_RESOURCE_GUARD.json",
+      "sha256": "a879cf42952903758c814e7b1a001099f31f65978a0576d8a8f4a77ab6b2aea2",
+      "bytes": 8250
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/AR_LATENT_MECHANISM_ONEPAGE_v2.zh.md",
+      "sha256": "e6486aff5bd7108c0e1a5723c7757a2b028bf8f79ab25e283bcaeb6dca9b58bb",
+      "bytes": 6834
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/ops/CHANNEL_PROBE_20261012T012912Z.json",
+      "sha256": "b4bd117c9d12397a5c5f72ff08d801cdea3def1e1c57ea9f97be766b7dd55088",
+      "bytes": 488
+    }
+  ]
+}

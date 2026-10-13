@@ -1,0 +1,91 @@
+{
+  "status": "CONFIRMED_PREMODEL_SCHEMA_ADMISSION_FAILURE",
+  "scope_id": "AMP_H5_WARMUP_RMS_ADMISSION_FAILURE_REVIEW_V1",
+  "created_utc": "2026-10-12T01:06:12.317146+00:00",
+  "failure_cause": {
+    "code_line": 131,
+    "historical_receipt_status": "PASS",
+    "historical_receipt_scope": "AMP_H5_CE_RMS_RECONSTRUCTION_V2",
+    "historical_blocked_field": "ABSENT",
+    "rejection": "get(blocked) is not False evaluates true for absent key; this is an incompatible additional schema expectation, not a failing baseline scientific result."
+  },
+  "execution_evidence": {
+    "supervisor_state": "completed_with_failures",
+    "exit_code": 2,
+    "actual_outer_seconds": 0.07434300007298589,
+    "requested_slots": 2880,
+    "completed": 0,
+    "not_executed": 2880,
+    "model_calls": 0,
+    "output_directory_exists": false,
+    "control_flow": "validate_request fails before OUTPUT.mkdir, frozen module/runtime imports, model construction, source cohort read, encoder or decoder. Traceback and absent output corroborate the premodel classification."
+  },
+  "reviewer_correction": "Prior preparation327a and exact7b064 preflights did not catch the missing blocked field on this exact historical baseline receipt. Preserve both receipts unchanged as records of the missed interface check; this addendum corrects their executability conclusion, not the valid baseline PASS or trained checkpoint.",
+  "minimal_repair_eligible": true,
+  "repair_scope": [
+    "New explicit code/contract/plan/output version; preserve all v1 files and console/status/receipt.",
+    "Only baseline historical exacthash9786d0… schema compatibility: require status PASS and exact scope; blocked may be absent, but any present value must be exactly False. Do not accept true/null/nonboolean as absence.",
+    "Continue requiring blocked is False on the new warmup training postflight; no general relaxation of independent completion, hashes, caps or late binding.",
+    "Reuse exact successful warmup checkpoint, same320rows/2880slots, eight saved epsilon banks,11encoder/99decoder,120inner/180outer, fixed scorer and four resource guards.",
+    "Root must freeze compatibility amendment/new hashes and obtain independent exactplan receipt before one new attempt. No training repeat or new seeds, sample selection, budget expansion or automatic further retry."
+  ],
+  "no_retry_accounting": "Original v1 attempt is a failed planned process, with0.07434300007298589s extra cost and2880 unexecuted requests. A new compatible admission attempt is an explicit protocol repair/deviation, not an original-v1 PASS or seamless resume. Since zero model calls/predictions occurred, it does not repeat a completed or partial natural model draw; still report the additional process attempt.",
+  "scientific_judgment": "Eligible solely to complete the already frozen endpoint. No scientific recipe or selection opportunity changes; prior endpoint monitor values must not affect inclusion. No new causal, novelty, generation or biological efficacy conclusion follows. Original E/L/G NE and PROMOTE HOLD.",
+  "execution_authorized_by_this_review": false,
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/execution_v1/SUPERVISOR_STATUS.json",
+      "sha256": "944e73ac21907570aee711e0255dff8fa5f10eb2719fd209a161dea66ced9c5f",
+      "bytes": 1418
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/execution_v1/warmup_posttrain_rms_v1.console.log",
+      "sha256": "40585c0578e9e1f403e0e5e221e570c776b5449e610087e797354dae6a1aba51",
+      "bytes": 2021
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RMS_RECONSTRUCTION_POSTFLIGHT_v2.json",
+      "sha256": "9786d0be1c9d1fa345f598c626cb6d9b284f63aa41e60b8a706bc6772d5e5666",
+      "bytes": 6749
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/ROOT_PLAN.json",
+      "sha256": "7f26d743dc41cd72ab3d1ceb4279ef34bce71f6456fec4461a72be4f828fb08e",
+      "bytes": 12711
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/INDEPENDENT_PREFLIGHT.json",
+      "sha256": "7b064abf346052d8574c800b88c749416ded0f006657c5437e5e2a36bbbde593",
+      "bytes": 3781
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/CONTRACT.json",
+      "sha256": "47d69cf0d895e5dc960c6043a09e22e48f1aba126347e46945f7f03222c6d9b1",
+      "bytes": 18974
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/export_postwarmup_rms_v1.py",
+      "sha256": "808ba5f7a4a6c735ecab0b2745403c29bbf49ec9efe669900b09e3e579fccf86",
+      "bytes": 31719
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/LATE_BOUND_TRAINING.json",
+      "sha256": "837849c1640d15fcfac2c69470225e9d8ccd93afef26a13d267351f1bc0e0ffe",
+      "bytes": 4075
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_POSTFLIGHT_v1.json",
+      "sha256": "98ec7bd6937f05816493905c9ec5d77a2a09b673660c010cc4b8838657b6eb23",
+      "bytes": 9098
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/WARMUP_POSTTRAIN_PREPARATION_REVIEW_v1.json",
+      "sha256": "327a5463f3c35c88dca1126643f853351b11082eaf076d508a1cb352be84d133",
+      "bytes": 9714
+    }
+  ],
+  "model_calls_by_reviewer": 0,
+  "new_RNG_calls": 0,
+  "test_reads": 0,
+  "audit_seconds_before_report_io": 0.0031174579999999966
+}

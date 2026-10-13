@@ -1,0 +1,97 @@
+{
+  "status": "PASS_CONTENT_REVIEW_WITH_FINAL_MANIFEST_CONDITION",
+  "reviewer": "/root/claude_handoff_audit",
+  "utc": "2026-10-13T02:27:10.283774+00:00",
+  "scope": "Independent scientific accuracy, navigation, selected-source and privacy/license review of current handoff staging. Not scientific promotion, legal guarantee, upload result, fresh experiment reproduction or universal DLP certification.",
+  "scientific_gate": "NO_GO_UNCHANGED",
+  "blocking_content_findings": [],
+  "delivery_condition": [
+    "After copying this review into staging, generate MANIFEST_SHA256.txt and verify every listed relative path and SHA256; exclude manifest self-reference. Repository creation/private visibility and push outcome remain parent responsibilities."
+  ],
+  "checks": {
+    "prompt_characters": 737,
+    "prompt_under_800": true,
+    "catalog_rows": 1699,
+    "catalog_errors": [],
+    "missing_navigation_links": [],
+    "current_staging_files": 1721,
+    "current_staging_bytes": 73072524,
+    "high_confidence_secret_pattern_hits": 0,
+    "forbidden_credential_session_filename_hits": 0,
+    "symlinks": 0,
+    "third_party_paper_pdfs_found": 0,
+    "pdf_scope": "13 files: author candidates/figures, policy decision, EB/data appendix. Four newly added historical figure SHA256 values match FILE_CATALOG.",
+    "third_party_code_scope": "IEEEtran retains explicit LPPL1.3 notice; original AMP repo source excluded for unestablished redistribution license. Witten model is labelled authored architecture-equivalent port; no official original-score replication claim.",
+    "data_rights": "Fixed200 minimal analysis tables carry cached explicit DBAASP attribution policy; source paper PDFs excluded, database rights not extended to paper copyright.",
+    "scope_keyword_false_positives": [
+      "OVERNIGHT_CONTINUATION only prohibits unrelated projects, contains no unrelated company data.",
+      "Moss S in public DBAASP citation authors is bibliographic metadata."
+    ],
+    "compile_evidence": "Parent LATEX_COMPILATION records current main/supplement/cover/decision plus historical main success; historical initial missing-figure failure retained; reviewer did not recompile.",
+    "train_dev_exposure": "Explicitly development/exposed; no new independent confirmation claimed.",
+    "test37": "No held-out test37 data file copied or read; only prior frozen metadata/guard text allowed.",
+    "network_calls": 0,
+    "model_runs": 0,
+    "pushes": 0
+  },
+  "scientific_findings": [
+    "CE fixed-beta same-capacity benefit not elevated to fair optimal baseline superiority. Formal interrupted gates and descriptive recovery distinct.",
+    "Warmup, AR+latent, direct-z, native/censored MIC, EB-context negative results retained; direct-z safe-load failure and incomplete whole audit visible.",
+    "27 wetlab data existence distinguished from unclosed historical generation/filter/sample chain; current H5 not assigned wetlab validation.",
+    "Fixed200 sampling/units/group counts and unresolved references do not change NO_GO or authorize training.",
+    "Bioinformatics current AI prose noncompliance and Communications Biology science/human-supervision limits correctly supersede old policy.",
+    "Historical BACKUP_BLOCKED remains historical; current private standalone repository authorization is separately described."
+  ],
+  "bound_navigation_and_catalog": [
+    {
+      "path": "README.md",
+      "bytes": 1654,
+      "sha256": "89ef3ae098735386f63823489f28b34af6171f28fbe11c65a67b02aca32f8a9e"
+    },
+    {
+      "path": "CLAUDE_HANDOFF_PROMPT.txt",
+      "bytes": 1665,
+      "sha256": "dcf9c877e6b65e68d8054e6404bab314b3500b3ba99c97364e59e3e04402ee20"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3959,
+      "sha256": "4c6c76bb6e67abe66a6c21c34117ae23d9ea84b5c8c9f2e64c7834a22e589987"
+    },
+    {
+      "path": "MATERIALS_INDEX.md",
+      "bytes": 2447,
+      "sha256": "bc1bc58e78ac8904a38413282aba2a7385ece5e2b79af6c5753769623b4427d2"
+    },
+    {
+      "path": "FILE_CATALOG.csv",
+      "bytes": 628082,
+      "sha256": "9e5709ea1674e3d6a1f1bbbc70f85c2bcff8d84422730642758027c920045b9c"
+    },
+    {
+      "path": "verification/LATEX_COMPILATION.json",
+      "bytes": 972,
+      "sha256": "51c5e3dffd4d24924eb11dbe61b693f28209ffac3b57bd0fafe739984c478e19"
+    },
+    {
+      "path": "docs/NEXT_STEPS.md",
+      "bytes": 3236,
+      "sha256": "50e3bb3516bfd45eceb194f8cc57a3a2be5d6a955cf2f63611283fc040fe710b"
+    },
+    {
+      "path": "docs/SOURCES_AND_LICENSES.md",
+      "bytes": 1883,
+      "sha256": "ea1c8fd5ee73f4488845cfa080475f4f9f45c6cbcb4714579b0d40a62020acb7"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 2413,
+      "sha256": "296e64a2414f7c90be16dc975555c267e636ba6ab1df65cf09ab839933f6a808"
+    },
+    {
+      "path": "docs/EXPERIMENT_LEDGER.md",
+      "bytes": 4871,
+      "sha256": "cf3ba4c8e4ab333d3964f6f78144a87bb6e417c2e66917e710bfb08b02519e8f"
+    }
+  ]
+}

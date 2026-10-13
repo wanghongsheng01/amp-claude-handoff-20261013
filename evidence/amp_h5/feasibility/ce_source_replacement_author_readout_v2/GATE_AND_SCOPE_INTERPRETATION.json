@@ -1,0 +1,16 @@
+{
+  "legacy_gate_artifact_interpretation": "NOT_APPLICABLE_SOURCE_DIAGNOSTIC",
+  "reason": "Frozen CLI default gate operands are original CE/MSE/AR method IDs, absent here. Raw false values are not a diagnostic failure or win/loss gate.",
+  "raw_legacy_gate_retained": true,
+  "raw_legacy_gate_source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2/exploratory_gates.json",
+    "bytes": 776,
+    "sha256": "b57349f8150f8b07b7b4350ebec6faa223e4cb7b08e0ffe45af5113f95b3450e"
+  },
+  "original_CE_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+  "original_four_arm_recovery_screens": "UNCHANGED; not rerun or reinterpreted by this source diagnostic",
+  "new_winner_gate": null,
+  "ranking": "B/C/D diagnostic references; D uses additional reference-g information and is excluded from c-only ranking",
+  "reconstruction_AR_NLL": "NOT_APPLICABLE_NO_NEW_ENCODER_OR_NLL",
+  "PROMOTE": "HOLD"
+}

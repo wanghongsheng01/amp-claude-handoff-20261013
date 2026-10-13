@@ -1,0 +1,116 @@
+{
+  "created_utc": "2026-10-12T01:55:48.677915+00:00",
+  "status": "STATIC_FREEZE_AND_CACHE_BYTES_CHECKED_NO_MODEL",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/AR_LATENT_DESIGN_FREEZE_v3.json",
+      "sha256": "6d86e96f5c441489ec79d4ebb7b659fda7c701ac256fa34baf72bd98d11fe491"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/AR_LATENT_PROTOCOL_FROZEN_v3.zh.md",
+      "sha256": "9626d4c7926382167d4357076fedf91cb6afd95178eaeaf04da95b8f162c86d7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_ENGINEERING_CHECK_PLAN_v1.json",
+      "sha256": "3196cc63d7ce61d7a49fc8dc01e1b43a7088b8cf7856480fde33347f45db4bfa"
+    }
+  ],
+  "cache_bytes": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/EPSILON_BANKS_SEAL.json",
+      "expected_sha256": "6b402b9744f292d88ecb39d4e3a7ededfff0ef72c8ef323f2dd0b985647371da",
+      "actual_sha256": "6b402b9744f292d88ecb39d4e3a7ededfff0ef72c8ef323f2dd0b985647371da",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1422.npz",
+      "expected_sha256": "ca84c611d068ecedc7277c8b32dc6e3f34e2be632078380bdbd13d90617601ad",
+      "actual_sha256": "ca84c611d068ecedc7277c8b32dc6e3f34e2be632078380bdbd13d90617601ad",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1423.npz",
+      "expected_sha256": "bf8b41b0f65c02c525d65b21339fdaf02f60e86ea3ce6a8946bbe7af48fdac50",
+      "actual_sha256": "bf8b41b0f65c02c525d65b21339fdaf02f60e86ea3ce6a8946bbe7af48fdac50",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1424.npz",
+      "expected_sha256": "30343fc7b90414dbfb5ad76d94352c067ca5dcd4f5f38a601d17e95d819d0c59",
+      "actual_sha256": "30343fc7b90414dbfb5ad76d94352c067ca5dcd4f5f38a601d17e95d819d0c59",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1425.npz",
+      "expected_sha256": "dca8e9a241f31211121d35a03f60bcd5d4c11f2d4a4ef6fcaef408a97fca323a",
+      "actual_sha256": "dca8e9a241f31211121d35a03f60bcd5d4c11f2d4a4ef6fcaef408a97fca323a",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1426.npz",
+      "expected_sha256": "7887518f0ea0ce72ba7ae6ad0bb012ab17e153fe72899e6f6ca84f4763d89487",
+      "actual_sha256": "7887518f0ea0ce72ba7ae6ad0bb012ab17e153fe72899e6f6ca84f4763d89487",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1427.npz",
+      "expected_sha256": "9307da4c497dcf296335e14580ec0201ca0132f5a62d833efeaa18f69d66f1cf",
+      "actual_sha256": "9307da4c497dcf296335e14580ec0201ca0132f5a62d833efeaa18f69d66f1cf",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1428.npz",
+      "expected_sha256": "52fbbb36fecb9d5356f7abacc6614046dd55a0d56b1df60c91f1328014f0a8b9",
+      "actual_sha256": "52fbbb36fecb9d5356f7abacc6614046dd55a0d56b1df60c91f1328014f0a8b9",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1429.npz",
+      "expected_sha256": "704263ad81ec7d566349d4c6d45981703019e3c25c6215ca40a78d23082b2d43",
+      "actual_sha256": "704263ad81ec7d566349d4c6d45981703019e3c25c6215ca40a78d23082b2d43",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/posterior_parameters320.npz",
+      "expected_sha256": "8d13fbc8da1143cfba63da5b3eb2a3ee6964c5af412041ce1685107290abbd7a",
+      "actual_sha256": "8d13fbc8da1143cfba63da5b3eb2a3ee6964c5af412041ce1685107290abbd7a",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/reference_rows.csv",
+      "expected_sha256": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3",
+      "actual_sha256": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "expected_sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57",
+      "actual_sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "expected_sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a",
+      "actual_sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "expected_sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4",
+      "actual_sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4",
+      "match": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/loaded_state_identity.json",
+      "expected_sha256": "fa6c248213a8b1bf1ad2bead2a03e791491d2f70d25be9d2913392619fbf2123",
+      "actual_sha256": "fa6c248213a8b1bf1ad2bead2a03e791491d2f70d25be9d2913392619fbf2123",
+      "match": true
+    }
+  ],
+  "all_cache_hashes_match": true,
+  "models_imported": false,
+  "forward_calls": 0,
+  "new_random_draws": 0,
+  "cache_arrays_parsed": false,
+  "natural_execution_admitted": false
+}

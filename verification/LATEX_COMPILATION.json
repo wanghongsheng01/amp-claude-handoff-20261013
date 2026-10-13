@@ -1,0 +1,37 @@
+{
+  "scope": "Fresh local copies; no source manuscript edits; shell escape disabled. Successful compile is not scientific or submission approval.",
+  "results": [
+    {
+      "source": "current/main.tex",
+      "exit_code": 0,
+      "seconds": 2.72,
+      "pages": 16
+    },
+    {
+      "source": "current/supplement.tex",
+      "exit_code": 0,
+      "seconds": 1.2,
+      "pages": 12
+    },
+    {
+      "source": "current/cover_letter.tex",
+      "exit_code": 0,
+      "seconds": 0.87,
+      "pages": 1
+    },
+    {
+      "source": "current/decision.tex",
+      "exit_code": 0,
+      "seconds": 0.4,
+      "pages": 1
+    },
+    {
+      "source": "historical/main.tex",
+      "exit_code": 0,
+      "seconds": 0.44,
+      "initial_exit_code": 12,
+      "pages": 10
+    }
+  ],
+  "initial_failure_preserved": "Historical first attempt failed because four authored figure dependencies were missing from staging; no manuscript edits. Added exact frozen figure dependencies."
+}

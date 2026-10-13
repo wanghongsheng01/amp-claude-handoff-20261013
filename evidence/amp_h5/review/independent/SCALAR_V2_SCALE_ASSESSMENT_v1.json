@@ -1,0 +1,104 @@
+{
+  "created_utc": "2026-10-11T19:59:58.252728+00:00",
+  "scope": "DESCRIPTIVE_NUMERICAL_SCALE_ONLY",
+  "source_audit": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_TERMINAL_AUDIT_v1.json",
+    "sha256": "bb4e5418a9372d7f140de139b154e1d4dfe78f43551f469572d254fef7def209"
+  },
+  "assessment": {
+    "decision": "OBSERVED_SCALAR_NUMERICALLY_FEASIBLE_WITH_TAIL_AND_MEAN_MISMATCH_DISCLOSED",
+    "basis": "Fixed1000/1000,32 complete chains; finite saved model/posterior/sigma/z/raw, positive sigma, exact native scalar clamp/round/firstPAD and seed reparameterization. No new scale threshold.",
+    "terminals": {
+      "FREE": {
+        "train_records": 126,
+        "generated_requests": 16,
+        "train_sigma_range": [
+          0.7661924362182617,
+          1.284053921699524
+        ],
+        "generated_sigma_range": [
+          0.47080498933792114,
+          2.480074167251587
+        ],
+        "train_mu_range": [
+          -3.113954544067383,
+          2.844475269317627
+        ],
+        "generated_mu_range": [
+          -4.3971099853515625,
+          7.561000347137451
+        ],
+        "generated_minus_train_mu_mean": 0.446028915536353,
+        "generated_logsigma_std_div_train": 2.7089566131818605,
+        "generated_z_rms": 2.3525450830762287,
+        "train_analytic_qz_rms": 1.8327094373207276,
+        "z_rms_ratio": 1.2836432416234287,
+        "per_request_z_rms_min": 1.4685274342945311,
+        "per_request_z_rms_max": 3.801070459080965,
+        "decoder_raw_range": [
+          1.421785831451416,
+          20.958946228027344
+        ],
+        "native_scalar_readout": {
+          "raw_below0_elements": 0,
+          "raw_above20_elements": 194,
+          "raw_elements": 768,
+          "raw_round_ties_after_clamp": 0,
+          "requests_firstPAD_at0": 0,
+          "requests_noPAD_at_limit48": 2,
+          "definition": "Frozen decoder clamp/torch.round followed by firstPAD; these counts are descriptive, never a quality or engineering pass threshold."
+        }
+      },
+      "AMD": {
+        "train_records": 153,
+        "generated_requests": 16,
+        "train_sigma_range": [
+          0.7762186527252197,
+          1.2235403060913086
+        ],
+        "generated_sigma_range": [
+          0.13723862171173096,
+          4.948741436004639
+        ],
+        "train_mu_range": [
+          -3.1340203285217285,
+          2.948678970336914
+        ],
+        "generated_mu_range": [
+          -10.108565330505371,
+          5.004835605621338
+        ],
+        "generated_minus_train_mu_mean": -0.2488577382366916,
+        "generated_logsigma_std_div_train": 3.9908735229804155,
+        "generated_z_rms": 2.232414915496039,
+        "train_analytic_qz_rms": 1.9234276427854857,
+        "z_rms_ratio": 1.160644084465315,
+        "per_request_z_rms_min": 1.5518145022605172,
+        "per_request_z_rms_max": 3.9266133074306664,
+        "decoder_raw_range": [
+          0.00281524658203125,
+          20.99262809753418
+        ],
+        "native_scalar_readout": {
+          "raw_below0_elements": 0,
+          "raw_above20_elements": 185,
+          "raw_elements": 768,
+          "raw_round_ties_after_clamp": 0,
+          "requests_firstPAD_at0": 0,
+          "requests_noPAD_at_limit48": 1,
+          "definition": "Frozen decoder clamp/torch.round followed by firstPAD; these counts are descriptive, never a quality or engineering pass threshold."
+        }
+      }
+    },
+    "limits": [
+      "Generated mu/sigma ranges extend beyond empirical training ranges in both terminals; finite feasibility is not latent distribution fit.",
+      "FREE zRMS is1.284x own train analyticqRMS; AMD1.161x; these descriptive ratios neither reject the model nor establish quality/biology.",
+      "Scalar raw outputs above20 are processed by the pre-existing native readout (194/768 FREE,185/768 AMD). These are not newly added numerical clipping; no new sampler clamp or retry.",
+      "One seed and16 requests per terminal; feature coordinates are dependent and reference sample sizes differ.",
+      "Scalar is a whole-pipeline legacy adaptation with different decoder head, reconstruction/KL normalization and readout. It is not a single-component loss ablation against CE/MSE."
+    ]
+  },
+  "original25_files_checked_unchanged": true,
+  "quality_metrics_used": false,
+  "model_calls": 0
+}

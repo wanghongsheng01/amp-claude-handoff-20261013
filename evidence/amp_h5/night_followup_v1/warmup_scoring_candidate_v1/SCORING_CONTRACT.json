@@ -1,0 +1,131 @@
+{
+  "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+  "status": "FROZEN_CANDIDATE_PENDING_INDEPENDENT_PREAUDIT_NO_EXECUTION_AUTHORIZATION",
+  "created_utc": "2026-10-11T21:22:13.503123+00:00",
+  "model_scope_id": "AMP_H5_WARMUP_POSTTRAIN_RMS_V1",
+  "model_contract": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/CONTRACT.json",
+    "sha256": "f3627ff6ecdcec60bfd93ffac12a23d403cb7a3bb99164d57999e0194579364e",
+    "bytes": 18709
+  },
+  "input_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/run_v1",
+  "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1",
+  "script": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+    "sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+    "bytes": 27857
+  },
+  "python_executable": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+  "rdkit_distribution_version": "2023.9.5",
+  "cap_seconds": 300,
+  "required_outer_watchdog_seconds": 360,
+  "max_unique_descriptors": 3200,
+  "seeds": [
+    1422,
+    1423,
+    1424,
+    1425,
+    1426,
+    1427,
+    1428,
+    1429
+  ],
+  "splits": {
+    "train": 279,
+    "development": 41
+  },
+  "expected_prediction_rows": 2880,
+  "sources": {
+    "metric_core": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/rms_metric_core.py",
+      "sha256": "2e55dd45da964367ca24555b7e42e4d82d8c9be226c9816b714ab283b70ad31a",
+      "bytes": 6680
+    },
+    "frozen_metrics": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480",
+      "bytes": 25377
+    },
+    "molecular_representation": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/molecular_representation.py",
+      "sha256": "4d0d6abb6cb7c49efe69a387270dbd44e49e6749c8515ce2d844ccdc4a717dd4",
+      "bytes": 4424
+    }
+  },
+  "main_metric": "dev41 sequence-equal nonPAD positional accuracy; first average all8 S draws within each original sequence, then equal41 sequence mean",
+  "main_threshold": "M minus S8 >=1/20 by exact rational correct-count/target-length arithmetic",
+  "main_gate_requirements": "Every fixed320x9 model output finite and complete; failed/not_executed/nonfinite/missing rows make gate NOT_EVALUABLE. Complete empty/J48 outputs remain in denominator. Property failures do not affect the accuracy gate.",
+  "secondary_metrics": [
+    "micro accuracy",
+    "whole exact",
+    "unit Levenshtein",
+    "Levenshtein/max(lengths)",
+    "signed predicted minus reference length",
+    "absolute length error",
+    "J48 cap and PAD termination",
+    "supported-AA macro/recall/support/correct",
+    "nonPAD error",
+    "split ALL/FREE/AMD stratification"
+  ],
+  "feature_policy": "Reuse frozen421 vector: length/48,20AA fractions,400dipeptide fractions, each block1/sqrt(3). Report full signed prediction-reference vector plus per-block signed_sum/L1/squared_L2 for R→M,R→S,M→S; no refit or new kernel.",
+  "descriptor_policy": "Call original representation(sequence,terminal)[global_raw], 9 raw RDKit descriptors. Cache exact (sequence,terminal), deterministic R then M then S0..7, train then dev,row_id ascending. Empty/invalid/error/nonfinite/timeout is missing, not zero. No new activity model or chemical interpretation.",
+  "descriptor_names": [
+    "RingCount",
+    "NumAromaticRings",
+    "NumSaturatedRings",
+    "FractionCSP3",
+    "HallKierAlpha",
+    "LabuteASA",
+    "MaxPartialCharge",
+    "MinPartialCharge",
+    "TPSA"
+  ],
+  "descriptor_units": "Original raw function/version; source has no explicit units table, no substitute/normalized quantities.",
+  "timeout_policy": "Stop computation at300s, retain partial stages and missingness. Check again after all manifest/result writes; CLOSING_LEDGER is authoritative terminal state. No retry or descriptor substitution. Outer360s watchdog covers final bookkeeping and interpreter exit.",
+  "preaudit_receipt_schema": {
+    "status": "PASS",
+    "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+    "scoring_config_sha256": "exact hash of this file",
+    "scoring_script_sha256": "exact script hash"
+  },
+  "postflight_requirements": "PASS exact model scope plus model contract and output manifest path/sha bindings; scorer resolves CSV hashes from bound output manifest.",
+  "natural_scoring_done": false,
+  "models_or_random_calls": 0,
+  "test_or_source_cohort_reads": 0,
+  "interpretation": "Investment screen only, no significance/causal proof/independent training or biological replicates; crossing does not authorize training.",
+  "terminal_stratification": [
+    "ALL",
+    "FREE",
+    "AMD"
+  ],
+  "core_summary_modes": [
+    "M",
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "supported_AA_macro": "For each split and terminal scope, equal mean of supported-AA recalls. M/S individual use correct/support; S8 uses correct pooled across8/(8*original AA support); incomplete prediction makes macro missing, no survivor seed aggregation.",
+  "nonpad_error": "Explicit1 minus per-sequence nonPAD accuracy; S8 averages all8 within sequence then equals sequence weights.",
+  "reuse": {
+    "baseline_scoring_contract": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_SCORING_CONTRACT_v2.json",
+      "sha256": "ca3db6d0f70d9205d90f80f8c0ac000f88db4dd18800f41af964b0fcc4d0e3d1",
+      "bytes": 5766
+    },
+    "baseline_scoring_script": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/score_rms_v2.py",
+      "sha256": "e2bae3222e5a13f0de4bc92f658ace2eaf336e17386eb42e416283b9986a2e75",
+      "bytes": 27853
+    },
+    "only_code_change": "SCOPE constant changed from AMP_H5_CE_RMS_SCORING_V2 to AMP_H5_WARMUP_RMS_SCORING_V1; all scoring mathematics, source calls and CLI are byte-identical",
+    "baseline_run": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2",
+    "old_internal_investment_screen": "M-minus-S screen is retained descriptively by the unchanged scorer; warmup resource success is exclusively the separate paired four-guard reader."
+  },
+  "late_binding": "New weights and training receipt must be separately bound and independently approved by the model RMS contract before its execution; scorer only accepts exact postflight PASS with bound model contract/output manifest. This preparation does not authorize training, forwards or scoring."
+}

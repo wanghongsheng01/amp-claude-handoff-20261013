@@ -1,0 +1,27 @@
+{
+  "source": "feishu_history/downloads/amp9.10_improved__KV0RdOukToDutyx7FLicsnQdnCh.docx",
+  "part": "word/document.xml",
+  "paragraphs": [
+    {
+      "paragraph_ordinal": 118,
+      "text": "To identify antimicrobial peptides (AMPs) with superior biological properties and potential applications, we implement a systematic, multi-stage screening process involving precise computational predictions and rigorous homology control. Initially, we generate a total of 1000 samples with diverse and representative data based on different diffusion output labels. Subsequently, we utilize RDKit tools to calculate charges at pH 7.4, selecting sequences with a net positive charge under physiological conditions, as these are likely to interact with biological membranes."
+    },
+    {
+      "paragraph_ordinal": 139,
+      "text": "We submit 27 AMP candidate sequences for testing. After initial screening and thorough evaluation, 6 AMPs demonstrate excellent antimicrobial effects, with a suc- cess rate of 22%. In the group validation experiment, we evaluated the success rate of specific resistance spectra generated under different labels. The experimental results showed that for samples that only had resistance to Gram-negative bacteria, the suc- cess rate was 0%, while for those that only had resistance to Gram-positive bacteria, the success rate reached 12.5%; in addition, for samples that showed broad-spectrum resistance, the success rate was 25%. This outcome verifies that our model can selec- tively and controllably generate AMPs with specific resistance profiles. To further validate our model’s performance, we compared it with other established models, as summarized in the table."
+    },
+    {
+      "paragraph_ordinal": 167,
+      "text": "S. aureus and E. faecalis. (ii) Gram-positive ’FMPVVLTKLFGVLHFRKIY’ specific AMP: This AMP specifically inhibits S. aureus and E. faecalis, with no significant activity against Gram-negative bacteria. (iii) Broad-spectrum AMP ’LKFTFIKGK- FGKSSYY’: This AMP effectively combats all four tested strains, demonstrating a wide antimicrobial spectrum. We use the I-TASSER tool to predict the tertiary struc- tures of three AMP-binding proteins. I-TASSER integrates template modeling, ab initio predictions, and structure refinement to generate high-precision models. These models are subsequently presented in the RCSB PDB database to facilitate further analysis and understanding of the spatial conformation, functional characteristics, and mechanisms of action of AMP proteins."
+    },
+    {
+      "paragraph_ordinal": 230,
+      "text": "Through MIC (Minimum Inhibitory Concentration) testing, we evaluate the antimicrobial efficacy of these AMPs in detail (see Table 3). Under a lenient thresh- old (128 mg/mL), 6 AMPs exhibit effective antimicrobial activity, while under a strict threshold (32 mg/mL), 1 AMP demonstrate high activity. These results indicate that our screened AMPs not only have broad antimicrobial spectra but also possess strong antimicrobial capabilities, particularly important for addressing the growing issue of antibiotic resistance."
+    },
+    {
+      "paragraph_ordinal": 232,
+      "text": "Table 3  MIC Values of AMPs"
+    }
+  ],
+  "note": "Ordinal counts all w:p including table cells; no revised manuscript was treated as original evidence"
+}

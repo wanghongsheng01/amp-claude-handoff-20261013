@@ -1,0 +1,263 @@
+{
+  "schema": "AMP_H5_CENSORED_LIKELIHOOD_V1_DELIVERY",
+  "utc": "2026-10-12T11:16:00.679563+00:00",
+  "execution_status": "COMPLETE_DEVELOPMENT_ONLY",
+  "scientific_result": "NEGATIVE_FIXED_WORKING_MODEL_SCREEN",
+  "natural_runs": 1,
+  "seed": 1729,
+  "folds": 34,
+  "fits": 102,
+  "predictions": 588,
+  "runtime_loop_seconds": 0.1190731250680983,
+  "units": {
+    "ug_ml_native": {
+      "point_mean": {
+        "rows": 79,
+        "peptide_IDs": 54,
+        "families": 32,
+        "source_groups": 21,
+        "group_peptide_MAE": 0.6608711830510042,
+        "group_peptide_RMSE": 0.8121947730429933,
+        "peptide_MAE": 0.5613845068180058,
+        "peptide_RMSE": 0.6909187374441688,
+        "row_MAE": 0.5241163669800866,
+        "row_RMSE": 0.6466360838774079
+      },
+      "point_ridge": {
+        "rows": 79,
+        "peptide_IDs": 54,
+        "families": 32,
+        "source_groups": 21,
+        "group_peptide_MAE": 0.7876524867735214,
+        "group_peptide_RMSE": 0.9604008572010014,
+        "peptide_MAE": 0.6207163658820603,
+        "peptide_RMSE": 0.7642875068530143,
+        "row_MAE": 0.5811253762639387,
+        "row_RMSE": 0.7141538608308288
+      },
+      "endpoint_ridge": {
+        "rows": 79,
+        "peptide_IDs": 54,
+        "families": 32,
+        "source_groups": 21,
+        "group_peptide_MAE": 0.8210338249537426,
+        "group_peptide_RMSE": 1.0097735129902092,
+        "peptide_MAE": 0.6264825825309108,
+        "peptide_RMSE": 0.7806655722812601,
+        "row_MAE": 0.6089393117816762,
+        "row_RMSE": 0.7656969671769454
+      },
+      "tail_ridge": {
+        "rows": 79,
+        "peptide_IDs": 54,
+        "families": 32,
+        "source_groups": 21,
+        "group_peptide_MAE": 0.8441279627974684,
+        "group_peptide_RMSE": 1.055449936037222,
+        "peptide_MAE": 0.6310931858380979,
+        "peptide_RMSE": 0.7962836283410127,
+        "row_MAE": 0.6256080254144093,
+        "row_RMSE": 0.8023666897562529
+      }
+    },
+    "uM_native": {
+      "point_mean": {
+        "rows": 68,
+        "peptide_IDs": 27,
+        "families": 18,
+        "source_groups": 13,
+        "group_peptide_MAE": 0.5495844097732039,
+        "group_peptide_RMSE": 0.6510286836921182,
+        "peptide_MAE": 0.533393573353254,
+        "peptide_RMSE": 0.632909607325048,
+        "row_MAE": 0.46606018720212256,
+        "row_RMSE": 0.5974101836320761
+      },
+      "point_ridge": {
+        "rows": 68,
+        "peptide_IDs": 27,
+        "families": 18,
+        "source_groups": 13,
+        "group_peptide_MAE": 0.5963027394105805,
+        "group_peptide_RMSE": 0.6892558731935622,
+        "peptide_MAE": 0.5299542019950132,
+        "peptide_RMSE": 0.6219402768998155,
+        "row_MAE": 0.4724452696885808,
+        "row_RMSE": 0.605405005726861
+      },
+      "endpoint_ridge": {
+        "rows": 68,
+        "peptide_IDs": 27,
+        "families": 18,
+        "source_groups": 13,
+        "group_peptide_MAE": 0.5895160709857723,
+        "group_peptide_RMSE": 0.7236610177046156,
+        "peptide_MAE": 0.47803296497906406,
+        "peptide_RMSE": 0.6109498393427727,
+        "row_MAE": 0.4763205942929208,
+        "row_RMSE": 0.5958814944827013
+      },
+      "tail_ridge": {
+        "rows": 68,
+        "peptide_IDs": 27,
+        "families": 18,
+        "source_groups": 13,
+        "group_peptide_MAE": 0.7268968826504572,
+        "group_peptide_RMSE": 0.9022068950658721,
+        "peptide_MAE": 0.6383682394976757,
+        "peptide_RMSE": 0.7830398470511198,
+        "row_MAE": 0.671639399725048,
+        "row_RMSE": 0.8084302407298998
+      }
+    }
+  },
+  "contrasts": {
+    "ug_ml_native": {
+      "tail_ridge_minus_endpoint_ridge": {
+        "metrics": {
+          "group_peptide_MAE": 0.023094137843725826,
+          "group_peptide_RMSE": 0.045676423047012804,
+          "peptide_MAE": 0.0046106033071871,
+          "peptide_RMSE": 0.015618056059752639,
+          "row_MAE": 0.016668713632733145,
+          "row_RMSE": 0.03666972257930756
+        },
+        "group_MAE_win_tie_loss": {
+          "win": 10,
+          "tie": 0,
+          "loss": 11
+        }
+      },
+      "endpoint_ridge_minus_point_ridge": {
+        "metrics": {
+          "group_peptide_MAE": 0.033381338180221154,
+          "group_peptide_RMSE": 0.0493726557892078,
+          "peptide_MAE": 0.005766216648850575,
+          "peptide_RMSE": 0.016378065428245825,
+          "row_MAE": 0.027813935517737476,
+          "row_RMSE": 0.051543106346116585
+        },
+        "group_MAE_win_tie_loss": {
+          "win": 9,
+          "tie": 0,
+          "loss": 12
+        }
+      },
+      "tail_ridge_minus_point_ridge": {
+        "metrics": {
+          "group_peptide_MAE": 0.05647547602394698,
+          "group_peptide_RMSE": 0.0950490788362206,
+          "peptide_MAE": 0.010376819956037675,
+          "peptide_RMSE": 0.03199612148799846,
+          "row_MAE": 0.04448264915047062,
+          "row_RMSE": 0.08821282892542415
+        },
+        "group_MAE_win_tie_loss": {
+          "win": 9,
+          "tie": 0,
+          "loss": 12
+        }
+      },
+      "tail_ridge_minus_point_mean": {
+        "metrics": {
+          "group_peptide_MAE": 0.18325677974646415,
+          "group_peptide_RMSE": 0.24325516299422878,
+          "peptide_MAE": 0.06970867902009215,
+          "peptide_RMSE": 0.10536489089684398,
+          "row_MAE": 0.10149165843432273,
+          "row_RMSE": 0.15573060587884502
+        },
+        "group_MAE_win_tie_loss": {
+          "win": 4,
+          "tie": 0,
+          "loss": 17
+        }
+      }
+    },
+    "uM_native": {
+      "tail_ridge_minus_endpoint_ridge": {
+        "metrics": {
+          "group_peptide_MAE": 0.13738081166468485,
+          "group_peptide_RMSE": 0.1785458773612566,
+          "peptide_MAE": 0.16033527451861168,
+          "peptide_RMSE": 0.17209000770834715,
+          "row_MAE": 0.19531880543212726,
+          "row_RMSE": 0.21254874624719844
+        },
+        "group_MAE_win_tie_loss": {
+          "win": 4,
+          "tie": 0,
+          "loss": 9
+        }
+      },
+      "endpoint_ridge_minus_point_ridge": {
+        "metrics": {
+          "group_peptide_MAE": -0.00678666842480824,
+          "group_peptide_RMSE": 0.034405144511053365,
+          "peptide_MAE": -0.05192123701594914,
+          "peptide_RMSE": -0.010990437557042765,
+          "row_MAE": 0.0038753246043399803,
+          "row_RMSE": -0.009523511244159621
+        },
+        "group_MAE_win_tie_loss": {
+          "win": 7,
+          "tie": 0,
+          "loss": 6
+        }
+      },
+      "tail_ridge_minus_point_ridge": {
+        "metrics": {
+          "group_peptide_MAE": 0.13059414323987661,
+          "group_peptide_RMSE": 0.21295102187230996,
+          "peptide_MAE": 0.10841403750266254,
+          "peptide_RMSE": 0.16109957015130438,
+          "row_MAE": 0.19919413003646724,
+          "row_RMSE": 0.20302523500303882
+        },
+        "group_MAE_win_tie_loss": {
+          "win": 5,
+          "tie": 0,
+          "loss": 8
+        }
+      },
+      "tail_ridge_minus_point_mean": {
+        "metrics": {
+          "group_peptide_MAE": 0.17731247287725327,
+          "group_peptide_RMSE": 0.25117821137375396,
+          "peptide_MAE": 0.10497466614442175,
+          "peptide_RMSE": 0.15013023972607187,
+          "row_MAE": 0.2055792125229255,
+          "row_RMSE": 0.21102005709782368
+        },
+        "group_MAE_win_tie_loss": {
+          "win": 3,
+          "tie": 0,
+          "loss": 10
+        }
+      }
+    }
+  },
+  "freeze_sha256": "8b723893076b8c2faab939905d5cf055537188329cee65b738c0b8d6cc93cc67",
+  "independent_result_audit_sha256": "c9d675b1c07aa560ad470cf453c2d02f014d51fb8d0237e1d63d4de2b3497540",
+  "entrypoints": [
+    "REPORT.zh.md",
+    "INVENTORY.json",
+    "DISTRIBUTION.csv",
+    "FOLD_CONTRASTS.csv",
+    "PROTOCOL.json",
+    "FREEZE.json",
+    "run/RESULT.json",
+    "independent/SCIENCE_PREAUDIT.json",
+    "independent/ENGINEERING_PREAUDIT.json",
+    "independent/RESULT_AUDIT.json"
+  ],
+  "limits": [
+    "Reported-point validation selection; fixed unverified Gaussian sigma1; omitted assay conditions",
+    "Censor-only groups not point-validation evidence; no left-censored natural sample",
+    "All data development-exposed; no biological efficacy/novelty/generation/submission claims"
+  ],
+  "no_network_acquisition": true,
+  "no_test37": true,
+  "no_H0_H4_or_manuscript_changes": true,
+  "backup": "BACKUP_BLOCKED"
+}

@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "config.json",
+      "sha256": "ad9d1af692c8c12caa15469f123d08737f05fa608aaade3c9601ed71a77d26ee",
+      "bytes": 664
+    },
+    {
+      "path": "generated.csv",
+      "sha256": "6df731dccb681110dac0503633898c199eaea618ad735cb5f7b9af46030baf67",
+      "bytes": 213
+    },
+    {
+      "path": "generation/GENERATION.json",
+      "sha256": "40427931c292765b8b366cd33f3f974d041f2bcfbf8812b80b1360be34ac91a2",
+      "bytes": 1642
+    },
+    {
+      "path": "generation/raw_sampling.pt",
+      "sha256": "c3de0e1aff055e05cbffb388a0a67eae22c96d9853170bb2e293a98637f06dcd",
+      "bytes": 30971
+    },
+    {
+      "path": "generation/samples.csv",
+      "sha256": "362204a24c25cbafcd817dc08d80acdf56f4ef181d1e450c0c91c58b84eb70fb",
+      "bytes": 430
+    },
+    {
+      "path": "generation/samples.jsonl",
+      "sha256": "c26d38bef9500b8462b0960696b55f4fdea331914afed1b624e87eadff1ba6d1",
+      "bytes": 729
+    },
+    {
+      "path": "status.json",
+      "sha256": "eb9a17eb188ea3cd20b2f903823eebc94d3abb0034877e6786007b493b2dab44",
+      "bytes": 25703
+    },
+    {
+      "path": "training/BOUND_TRAINING_INPUT.json",
+      "sha256": "17765693f9f9071d6efcd4411b57e3b5db9d4f3aa3df9d16c8753f63d2543222",
+      "bytes": 21530
+    },
+    {
+      "path": "training/RUN.json",
+      "sha256": "13c204a3fd00b12de0fe95acb152c7a83701b75d533bb872d5a2b09d7e0ccf38",
+      "bytes": 22959
+    },
+    {
+      "path": "training/final.pt",
+      "sha256": "5362cd9bb3ccddc19a741f720a07f9b0e2e9c7ca7d3ceb0fbcf49b5f6ddde3f9",
+      "bytes": 769620
+    },
+    {
+      "path": "training/initial.pt",
+      "sha256": "6e0c72dfec2d01bc0c8d8a14edcbc59179a27a58aa1a6f3b178e9b3def816c4d",
+      "bytes": 262188
+    },
+    {
+      "path": "training/steps.jsonl",
+      "sha256": "13a5681a89887999e438fd5636bf4cb5fbe60f8f5e51c3575bbd0bdc1edcfe43",
+      "bytes": 44585
+    }
+  ]
+}

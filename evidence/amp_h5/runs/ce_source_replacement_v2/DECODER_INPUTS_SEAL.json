@@ -1,0 +1,62 @@
+{
+  "base_input_seal_sha256": "64ef940ab02b79a7ea59a4422c4c56c4cbfa10a1a6da641609e615063a25f9a8",
+  "D_roundtrip_sha256": "a887d2688c4b7bf45c2e925e78161b8982f795b44ba27fa84cb29161a14213b4",
+  "all_96_decoder_inputs": {
+    "EMPIRICAL_POSTERIOR_B_FREE": {
+      "dtype": "torch.float32",
+      "shape": [
+        16,
+        16,
+        48
+      ],
+      "sha256": "cc97015da9dc234fc8f01c6e39acbd325bf50d9da6cf8717470ed76592c32841"
+    },
+    "EMPIRICAL_POSTERIOR_B_AMD": {
+      "dtype": "torch.float32",
+      "shape": [
+        16,
+        16,
+        48
+      ],
+      "sha256": "e80b316aa9e93623a5f0788b80a484dc156e2b16b8ef091f5e15487bbc807ea2"
+    },
+    "COORDINATE_PERMUTATION_C_FREE": {
+      "dtype": "torch.float32",
+      "shape": [
+        16,
+        16,
+        48
+      ],
+      "sha256": "8e0b20937d1f18df862404c9a47f25ed9c367ea469005bcb76d31a26f2a48ccd"
+    },
+    "COORDINATE_PERMUTATION_C_AMD": {
+      "dtype": "torch.float32",
+      "shape": [
+        16,
+        16,
+        48
+      ],
+      "sha256": "e207bf53e443fc4cdbc923ee308f12a7bb2ea26d6d462b221c58e3bd0614f6e8"
+    },
+    "REFERENCE_G_PRIOR_D_FREE": {
+      "dtype": "torch.float32",
+      "shape": [
+        16,
+        16,
+        48
+      ],
+      "sha256": "44bb3199541a685c2fdbb7938c181abaeeeca1f8f5ac4e1f129e6f050bb8d800"
+    },
+    "REFERENCE_G_PRIOR_D_AMD": {
+      "dtype": "torch.float32",
+      "shape": [
+        16,
+        16,
+        48
+      ],
+      "sha256": "7ee18532732c8a8b3503d08066efa1cefb932241a9cae1afb1244fd0b25cff86"
+    }
+  },
+  "sealed_before_any_decoder": true,
+  "D_z_created_after_inverse": true
+}

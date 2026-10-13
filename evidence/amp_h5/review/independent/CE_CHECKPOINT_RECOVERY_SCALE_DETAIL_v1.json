@@ -1,0 +1,422 @@
+{
+  "created_utc": "2026-10-11T18:09:45.258637+00:00",
+  "scope": "Saved latent scale description; no quality gate or adaptive threshold",
+  "precision": "Float64 descriptive exp and summaries; strict production float32 positivity and finite checks were independently established in the bound terminal audit.",
+  "terminals": {
+    "FREE": {
+      "train_per_record_analytic_qz_rms": {
+        "min": 1.4767728247313656,
+        "max": 1.8315540669591484,
+        "q05_q50_q95": [
+          1.4922009564339307,
+          1.5819517255136122,
+          1.7576848456470997
+        ]
+      },
+      "generated_mu_coordinates_outside_observed_terminal_train_range": 27,
+      "generated_logs_coordinates_outside_observed_terminal_train_range": 82,
+      "coordinate_count": 12288,
+      "generated_logs_std_divided_by_terminal_train": 1.6056008605877374,
+      "generated_mu_mean_minus_terminal_train_mean": 0.048175447896489254,
+      "requests": [
+        {
+          "request_index": 0,
+          "mu_min": -5.459733009338379,
+          "mu_max": 4.403360843658447,
+          "logsigma_min": -0.31390899419784546,
+          "logsigma_max": 0.233223557472229,
+          "sigma_min": 0.7305855126547632,
+          "sigma_max": 1.2626637256877344,
+          "actual_z_rms": 1.6515139258259035,
+          "generated_posterior_analytic_qz_rms": 1.650269913438038
+        },
+        {
+          "request_index": 1,
+          "mu_min": -3.0538523197174072,
+          "mu_max": 4.188584327697754,
+          "logsigma_min": -0.2013443261384964,
+          "logsigma_max": 0.1467660814523697,
+          "sigma_min": 0.8176308514051589,
+          "sigma_max": 1.1580830342420512,
+          "actual_z_rms": 1.3702275262958556,
+          "generated_posterior_analytic_qz_rms": 1.3608314542700612
+        },
+        {
+          "request_index": 2,
+          "mu_min": -6.724516868591309,
+          "mu_max": 6.2989325523376465,
+          "logsigma_min": -0.410896360874176,
+          "logsigma_max": 0.28445160388946533,
+          "sigma_min": 0.6630556465474682,
+          "sigma_max": 1.3290329917159507,
+          "actual_z_rms": 2.026810469005359,
+          "generated_posterior_analytic_qz_rms": 2.0008846991137497
+        },
+        {
+          "request_index": 3,
+          "mu_min": -3.2713165283203125,
+          "mu_max": 3.8154304027557373,
+          "logsigma_min": -0.12687547504901886,
+          "logsigma_max": 0.12729784846305847,
+          "sigma_min": 0.8808433527433802,
+          "sigma_max": 1.13575525036369,
+          "actual_z_rms": 1.2877145651018127,
+          "generated_posterior_analytic_qz_rms": 1.3097031498142617
+        },
+        {
+          "request_index": 4,
+          "mu_min": -6.031279563903809,
+          "mu_max": 4.686685562133789,
+          "logsigma_min": -0.47368448972702026,
+          "logsigma_max": 0.47518107295036316,
+          "sigma_min": 0.6227036909884166,
+          "sigma_max": 1.6083053917236516,
+          "actual_z_rms": 1.8704132918332177,
+          "generated_posterior_analytic_qz_rms": 1.8762562310710786
+        },
+        {
+          "request_index": 5,
+          "mu_min": -3.498220205307007,
+          "mu_max": 4.165239334106445,
+          "logsigma_min": -0.2727946639060974,
+          "logsigma_max": 0.2583423852920532,
+          "sigma_min": 0.7612490834950856,
+          "sigma_max": 1.2947820570735011,
+          "actual_z_rms": 1.5307429755607027,
+          "generated_posterior_analytic_qz_rms": 1.5160867542359804
+        },
+        {
+          "request_index": 6,
+          "mu_min": -3.3596251010894775,
+          "mu_max": 3.578974962234497,
+          "logsigma_min": -0.12738458812236786,
+          "logsigma_max": 0.12237824499607086,
+          "sigma_min": 0.8803950180131461,
+          "sigma_max": 1.1301815064428493,
+          "actual_z_rms": 1.3429545103139588,
+          "generated_posterior_analytic_qz_rms": 1.3584742212205183
+        },
+        {
+          "request_index": 7,
+          "mu_min": -2.4517107009887695,
+          "mu_max": 2.4998362064361572,
+          "logsigma_min": -0.1332559734582901,
+          "logsigma_max": 0.14004282653331757,
+          "sigma_min": 0.8752410249603767,
+          "sigma_max": 1.1503230621512788,
+          "actual_z_rms": 1.3521376527161468,
+          "generated_posterior_analytic_qz_rms": 1.3074759012536317
+        },
+        {
+          "request_index": 8,
+          "mu_min": -2.8205137252807617,
+          "mu_max": 3.7379825115203857,
+          "logsigma_min": -0.18656304478645325,
+          "logsigma_max": 0.14582446217536926,
+          "sigma_min": 0.8298062453446833,
+          "sigma_max": 1.1569930741768801,
+          "actual_z_rms": 1.2988856776966715,
+          "generated_posterior_analytic_qz_rms": 1.3055959957581431
+        },
+        {
+          "request_index": 9,
+          "mu_min": -5.372647762298584,
+          "mu_max": 5.364945888519287,
+          "logsigma_min": -0.3512148857116699,
+          "logsigma_max": 0.26782673597335815,
+          "sigma_min": 0.7038324940580363,
+          "sigma_max": 1.307120643407662,
+          "actual_z_rms": 1.5821218737265885,
+          "generated_posterior_analytic_qz_rms": 1.6352421216622648
+        },
+        {
+          "request_index": 10,
+          "mu_min": -3.2121262550354004,
+          "mu_max": 3.819279193878174,
+          "logsigma_min": -0.1997666209936142,
+          "logsigma_max": 0.1298804134130478,
+          "sigma_min": 0.8189218499457639,
+          "sigma_max": 1.138692202867976,
+          "actual_z_rms": 1.3857300413620242,
+          "generated_posterior_analytic_qz_rms": 1.3680782147757966
+        },
+        {
+          "request_index": 11,
+          "mu_min": -4.1957173347473145,
+          "mu_max": 5.09144401550293,
+          "logsigma_min": -0.21455976366996765,
+          "logsigma_max": 0.12955023348331451,
+          "sigma_min": 0.8068965871895423,
+          "sigma_max": 1.1383162916190352,
+          "actual_z_rms": 1.3351253191456525,
+          "generated_posterior_analytic_qz_rms": 1.3469575123822528
+        },
+        {
+          "request_index": 12,
+          "mu_min": -3.3653440475463867,
+          "mu_max": 4.433708190917969,
+          "logsigma_min": -0.15782783925533295,
+          "logsigma_max": 0.14207252860069275,
+          "sigma_min": 0.8539967940372697,
+          "sigma_max": 1.1526602463400937,
+          "actual_z_rms": 1.363331292068413,
+          "generated_posterior_analytic_qz_rms": 1.3461707417151456
+        },
+        {
+          "request_index": 13,
+          "mu_min": -3.925424814224243,
+          "mu_max": 4.054464817047119,
+          "logsigma_min": -0.23211951553821564,
+          "logsigma_max": 0.12323687970638275,
+          "sigma_min": 0.792851359586962,
+          "sigma_max": 1.1311523362476723,
+          "actual_z_rms": 1.4136515043887903,
+          "generated_posterior_analytic_qz_rms": 1.4140632894638874
+        },
+        {
+          "request_index": 14,
+          "mu_min": -1.755244255065918,
+          "mu_max": 4.2255940437316895,
+          "logsigma_min": -0.3519522249698639,
+          "logsigma_max": 0.22162431478500366,
+          "sigma_min": 0.7033137220079774,
+          "sigma_max": 1.2481023961580149,
+          "actual_z_rms": 1.5245420551488715,
+          "generated_posterior_analytic_qz_rms": 1.5050225055757385
+        },
+        {
+          "request_index": 15,
+          "mu_min": -1.7814247608184814,
+          "mu_max": 3.317028284072876,
+          "logsigma_min": -0.3638561964035034,
+          "logsigma_max": 0.19155225157737732,
+          "sigma_min": 0.6949911297812252,
+          "sigma_max": 1.2111281148411004,
+          "actual_z_rms": 1.4353678198838704,
+          "generated_posterior_analytic_qz_rms": 1.4198594176276078
+        }
+      ]
+    },
+    "AMD": {
+      "train_per_record_analytic_qz_rms": {
+        "min": 1.4645770914190517,
+        "max": 1.80864931363168,
+        "q05_q50_q95": [
+          1.4870731367927572,
+          1.563022076853399,
+          1.6816873994801236
+        ]
+      },
+      "generated_mu_coordinates_outside_observed_terminal_train_range": 133,
+      "generated_logs_coordinates_outside_observed_terminal_train_range": 1279,
+      "coordinate_count": 12288,
+      "generated_logs_std_divided_by_terminal_train": 5.485363099152415,
+      "generated_mu_mean_minus_terminal_train_mean": -0.22122059923888387,
+      "requests": [
+        {
+          "request_index": 0,
+          "mu_min": -2.4978294372558594,
+          "mu_max": 3.2990152835845947,
+          "logsigma_min": -0.15197822451591492,
+          "logsigma_max": 0.07829410582780838,
+          "sigma_min": 0.8590069858304155,
+          "sigma_max": 1.0814406699067605,
+          "actual_z_rms": 1.2833187562195814,
+          "generated_posterior_analytic_qz_rms": 1.2530720584969532
+        },
+        {
+          "request_index": 1,
+          "mu_min": -3.616556167602539,
+          "mu_max": 4.532080173492432,
+          "logsigma_min": -0.1358002871274948,
+          "logsigma_max": 0.15328089892864227,
+          "sigma_min": 0.8730169678060227,
+          "sigma_max": 1.1656523634596703,
+          "actual_z_rms": 1.4652646462726164,
+          "generated_posterior_analytic_qz_rms": 1.4396050937280371
+        },
+        {
+          "request_index": 2,
+          "mu_min": -6.580291271209717,
+          "mu_max": 5.876944065093994,
+          "logsigma_min": -0.8679603338241577,
+          "logsigma_max": 0.79363614320755,
+          "sigma_min": 0.41980694261386087,
+          "sigma_max": 2.2114228750198865,
+          "actual_z_rms": 1.9823477960767153,
+          "generated_posterior_analytic_qz_rms": 2.0446094358568265
+        },
+        {
+          "request_index": 3,
+          "mu_min": -5.878458023071289,
+          "mu_max": 4.971142292022705,
+          "logsigma_min": -0.3310246169567108,
+          "logsigma_max": 0.2788952887058258,
+          "sigma_min": 0.718187489232627,
+          "sigma_max": 1.3216689429581094,
+          "actual_z_rms": 1.6266621030636395,
+          "generated_posterior_analytic_qz_rms": 1.6227017386874731
+        },
+        {
+          "request_index": 4,
+          "mu_min": -5.015321731567383,
+          "mu_max": 5.155797958374023,
+          "logsigma_min": -0.25148314237594604,
+          "logsigma_max": 0.24098387360572815,
+          "sigma_min": 0.777646566772742,
+          "sigma_max": 1.27250051429776,
+          "actual_z_rms": 1.4964874417044947,
+          "generated_posterior_analytic_qz_rms": 1.5106262471733547
+        },
+        {
+          "request_index": 5,
+          "mu_min": -5.908227443695068,
+          "mu_max": 5.6404008865356445,
+          "logsigma_min": -0.3055253326892853,
+          "logsigma_max": 0.2949592173099518,
+          "sigma_min": 0.7367362410828179,
+          "sigma_max": 1.3430715834972422,
+          "actual_z_rms": 1.6784459470364905,
+          "generated_posterior_analytic_qz_rms": 1.6745605090497189
+        },
+        {
+          "request_index": 6,
+          "mu_min": -6.146274566650391,
+          "mu_max": 4.395970821380615,
+          "logsigma_min": -0.7018241286277771,
+          "logsigma_max": 0.6128146052360535,
+          "sigma_min": 0.49568029400071156,
+          "sigma_max": 1.8456187834287008,
+          "actual_z_rms": 1.968707019055905,
+          "generated_posterior_analytic_qz_rms": 2.003455891856848
+        },
+        {
+          "request_index": 7,
+          "mu_min": -7.818604946136475,
+          "mu_max": 5.750168800354004,
+          "logsigma_min": -1.054013729095459,
+          "logsigma_max": 0.8524290919303894,
+          "sigma_min": 0.3485360087707811,
+          "sigma_max": 2.3453369773349464,
+          "actual_z_rms": 2.052545144023489,
+          "generated_posterior_analytic_qz_rms": 2.1226713520124125
+        },
+        {
+          "request_index": 8,
+          "mu_min": -4.091930389404297,
+          "mu_max": 4.846245288848877,
+          "logsigma_min": -0.17312704026699066,
+          "logsigma_max": 0.12090171128511429,
+          "sigma_min": 0.8410307632848265,
+          "sigma_max": 1.128513986726578,
+          "actual_z_rms": 1.4023727197360647,
+          "generated_posterior_analytic_qz_rms": 1.4417499182353715
+        },
+        {
+          "request_index": 9,
+          "mu_min": -2.906730890274048,
+          "mu_max": 2.207502841949463,
+          "logsigma_min": -0.14955388009548187,
+          "logsigma_max": 0.09994252026081085,
+          "sigma_min": 0.8610920410483853,
+          "sigma_max": 1.1051073949651806,
+          "actual_z_rms": 1.3767075775123394,
+          "generated_posterior_analytic_qz_rms": 1.4186390413905134
+        },
+        {
+          "request_index": 10,
+          "mu_min": -2.790064811706543,
+          "mu_max": 2.3839499950408936,
+          "logsigma_min": -0.13269706070423126,
+          "logsigma_max": 0.12494064122438431,
+          "sigma_min": 0.8757303450629876,
+          "sigma_max": 1.133081192758326,
+          "actual_z_rms": 1.4032683756099018,
+          "generated_posterior_analytic_qz_rms": 1.3358248694648562
+        },
+        {
+          "request_index": 11,
+          "mu_min": -10.114991188049316,
+          "mu_max": 6.258078098297119,
+          "logsigma_min": -2.1997923851013184,
+          "logsigma_max": 1.693267583847046,
+          "sigma_min": 0.11082616513702284,
+          "sigma_max": 5.437218276461296,
+          "actual_z_rms": 3.1458233919571894,
+          "generated_posterior_analytic_qz_rms": 3.1925707077588696
+        },
+        {
+          "request_index": 12,
+          "mu_min": -3.8728928565979004,
+          "mu_max": 4.432020664215088,
+          "logsigma_min": -0.19789659976959229,
+          "logsigma_max": 0.10587816685438156,
+          "sigma_min": 0.8204546839553525,
+          "sigma_max": 1.111686428001175,
+          "actual_z_rms": 1.3530180549828035,
+          "generated_posterior_analytic_qz_rms": 1.3448175108359186
+        },
+        {
+          "request_index": 13,
+          "mu_min": -1.60258150100708,
+          "mu_max": 2.428009033203125,
+          "logsigma_min": -0.31558123230934143,
+          "logsigma_max": 0.2318372279405594,
+          "sigma_min": 0.7293648206451054,
+          "sigma_max": 1.2609144704784823,
+          "actual_z_rms": 1.4476210909146965,
+          "generated_posterior_analytic_qz_rms": 1.4815133271307535
+        },
+        {
+          "request_index": 14,
+          "mu_min": -3.988168716430664,
+          "mu_max": 4.188649654388428,
+          "logsigma_min": -0.15070731937885284,
+          "logsigma_max": 0.11598923057317734,
+          "sigma_min": 0.8600993962494478,
+          "sigma_max": 1.1229837781765102,
+          "actual_z_rms": 1.3118107177386364,
+          "generated_posterior_analytic_qz_rms": 1.419787168152495
+        },
+        {
+          "request_index": 15,
+          "mu_min": -2.825148105621338,
+          "mu_max": 2.875995397567749,
+          "logsigma_min": -0.12285741418600082,
+          "logsigma_max": 0.09202617406845093,
+          "sigma_min": 0.8843897550042202,
+          "sigma_max": 1.0963935187842704,
+          "actual_z_rms": 1.278219433868802,
+          "generated_posterior_analytic_qz_rms": 1.283792677337709
+        }
+      ]
+    }
+  },
+  "bound_terminal_audit_sha256": "40086bfd2624a18340a4eb6b8a1a6e817ae9769076be79a9f7fbf5d9eba437fa",
+  "input_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a"
+    }
+  ],
+  "limitations": [
+    "Coordinate counts do not define independent sample size. There are16 generated requests per terminal from one fitted model/seed configuration.",
+    "Observed train extrema and per-record scales are descriptive, not preregistered pass thresholds, confidence bounds or goodness-of-fit tests.",
+    "A recovered model may show tail or mean mismatch while remaining numerically feasible; those mismatches must not be silently converted into quality-based control-arm selection."
+  ],
+  "actions": {
+    "model_calls": 0,
+    "training": 0,
+    "new_generation": 0,
+    "natural_CSV_reads": 0,
+    "test37_reads": 0
+  }
+}

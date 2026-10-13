@@ -1,0 +1,6 @@
+{
+  "actual_model_forward": 128,
+  "optimizer_updates": 64,
+  "phase": "Z_synthetic_generation",
+  "natural_forward": 0
+}

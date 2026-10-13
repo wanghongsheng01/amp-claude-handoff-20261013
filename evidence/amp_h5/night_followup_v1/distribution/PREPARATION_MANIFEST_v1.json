@@ -1,0 +1,37 @@
+{
+  "scope_id": "AMP_H5_NIGHT_DISTRIBUTION_V1",
+  "state": "CANDIDATE_FROZEN_PENDING_INDEPENDENT_PREAUDIT",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/distribution_diagnostic_v1.py",
+      "bytes": 18671,
+      "sha256": "7d9eb2fc1660a83375eeb85ae49773ae85267b226f0526cf27a5df4409ae5ada"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v1.json",
+      "bytes": 10796,
+      "sha256": "100e09dc6c3d182e9efacc818a9f93d51ba12bb8a3770908cf0c5a7244de1ed8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/check_synthetic_v1.py",
+      "bytes": 5927,
+      "sha256": "3df740a99f12aeb6c8e239cfcb5f0e99d1ac194be127fd764c7dcb8c7f47baf5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/SYNTHETIC_RESULT_v1.json",
+      "bytes": 1871,
+      "sha256": "1f39454c42b5d4881cc1f92fcca906bea4c02621bd23932a6c2ddafa1f809e98"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/DESIGN.zh.md",
+      "bytes": 4021,
+      "sha256": "a575acc1ceeb2aa5753067190e6c3bc087d1e2e93b54a6d7833db0435878ed89"
+    }
+  ],
+  "natural_statistics_executed": false,
+  "model_calls": 0,
+  "test_reads": 0,
+  "fixture_exit_code": 0,
+  "fixture_exec_wall_seconds": 0.115942759,
+  "receipt_required_before_natural_statistics": true
+}

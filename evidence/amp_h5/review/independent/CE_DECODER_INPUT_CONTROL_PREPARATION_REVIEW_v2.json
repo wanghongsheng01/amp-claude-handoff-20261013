@@ -1,0 +1,115 @@
+{
+  "created_utc": "2026-10-11T19:43:57.330358+00:00",
+  "status": "PASS_NARROW_STATIC_REPAIRS_ONLY",
+  "execution_authorized": false,
+  "checks": [
+    {
+      "name": "old_candidate_preserved",
+      "pass": true
+    },
+    {
+      "name": "new_candidate_exact_hash",
+      "pass": true
+    },
+    {
+      "name": "only_two_repairs_and_version_paths_ast",
+      "pass": true
+    },
+    {
+      "name": "all_other_contract_fields_unchanged",
+      "pass": true
+    },
+    {
+      "name": "110_input_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "signed_zero_bytes_distinct",
+      "pass": true
+    },
+    {
+      "name": "identical_bytes_accepted",
+      "pass": true
+    },
+    {
+      "name": "dtype_distinct_rejected",
+      "pass": true
+    },
+    {
+      "name": "shape_distinct_rejected",
+      "pass": true
+    },
+    {
+      "name": "terminal_completed",
+      "pass": true
+    },
+    {
+      "name": "terminal_completed_with_failures",
+      "pass": true
+    },
+    {
+      "name": "terminal_failed",
+      "pass": true
+    },
+    {
+      "name": "terminal_interrupted",
+      "pass": true
+    },
+    {
+      "name": "running_rejected",
+      "pass": true
+    },
+    {
+      "name": "running_child_rejected",
+      "pass": true
+    },
+    {
+      "name": "future_plan_receipt_outputs_absent",
+      "pass": true
+    },
+    {
+      "name": "new_control_still_requires_scalar_review_receipt",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "resolved_findings": [
+    "R-C1 dtype/shape/raw-byte SHA equality rejects signed zero differences before model construction.",
+    "R-C2 actual completed_with_failures enum accepted only as terminal, independent scope receipt still required."
+  ],
+  "scope_limitations": [
+    "Old A/B64 candidate is not authorized: latest user scope requires completion and independent review of all four arms, then a separate unified source-replacement protocol.",
+    "A remains decoder-space standard normal, not native flow prior; B remains empirical train posterior reference.",
+    "No natural arrays or live scalar output read, no torch/numpy imported, no RNG/model/forward/training, no test37."
+  ],
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_decoder_input_control_v1.py",
+      "sha256": "c3fadf38b1a4f7fed9b53c65e4b18905d3f4ed3744350e1575af0cb724513324"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_decoder_input_control_v2.py",
+      "sha256": "30211ed157ffcda9bf2f96620599beca9e48def87631cb7e4f3885cb0292fd98"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_DECODER_INPUT_CONTROL_CONTRACT_v1.json",
+      "sha256": "01687cab73e6dd90843002e5f8eb764fd3241e1fdcb8bad4506a9d34d6ab16e1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_DECODER_INPUT_CONTROL_CONTRACT_v2.json",
+      "sha256": "32ed71685ec5c988c76b7aca15d281f68cb882f7d753511fecc06c81ba348b86"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_DECODER_INPUT_CONTROL_PREPARATION_REVIEW_v1.json",
+      "sha256": "76f1edede40bddfba387e62131d11b3691e55463d70476996927d5f694b1988e"
+    }
+  ],
+  "reviewer_actions": {
+    "stdlib_only": true,
+    "natural_tensor_loads": 0,
+    "random_draws": 0,
+    "model_calls": 0,
+    "live_scalar_reads": 0,
+    "test37_reads": 0
+  }
+}

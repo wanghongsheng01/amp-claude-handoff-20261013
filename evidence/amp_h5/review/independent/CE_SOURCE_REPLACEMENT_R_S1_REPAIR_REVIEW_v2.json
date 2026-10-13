@@ -1,0 +1,83 @@
+{
+  "created_utc": "2026-10-11T20:24:45.348813+00:00",
+  "status": "PASS_R_S1_REPAIR_EXACT_V2_SCRIPT_ONLY",
+  "execution_authorized": false,
+  "checks": [
+    {
+      "name": "v1_frozen_unchanged",
+      "pass": true
+    },
+    {
+      "name": "v2_exact_script",
+      "pass": true
+    },
+    {
+      "name": "unchanged_all_other_functions",
+      "pass": true
+    },
+    {
+      "name": "execute_all_post_admission_AST_unchanged",
+      "pass": true
+    },
+    {
+      "name": "only_validate_request_inside_admission_try",
+      "pass": true
+    },
+    {
+      "name": "true_admission_zero_calls96pending",
+      "pass": true
+    },
+    {
+      "name": "postwork_failure_not_zeroed",
+      "pass": true
+    },
+    {
+      "name": "last_persisted_counts_preserved_but_not_final",
+      "pass": true
+    },
+    {
+      "name": "corrupt_status_unknown_failure",
+      "pass": true
+    },
+    {
+      "name": "missing_status_unknown_failure",
+      "pass": true
+    },
+    {
+      "name": "signal_unknown_not_admission",
+      "pass": true
+    },
+    {
+      "name": "no_ML_imports_or_real_output",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "finding_resolution": "Only validate_request errors now authorize zero-model admission accounting. All other escaped execution/finalization/signal errors retain unknown true counters and optional explicitly stale saved evidence; exit2 cannot be called final success.",
+  "unchanged_scientific_scope": "All scientific/input/tensor/decoder functions and execute body after admission are AST-identical; versions change paths/scope only.",
+  "pending": "Exact finalv2 contract, evaluation binding and root plan still require final hash review and new receipt.",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v1.py",
+      "sha256": "cb14e4aad3977e6dbd8733d60a38a427886f504bd7ed8c8660915cc76b2466e4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+      "sha256": "e915f23cbf6157b20bd1d9a94fe831d326b0ab6a20b4013824224921a2bbf444"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_CANDIDATE_REVIEW_v1.json",
+      "sha256": "48a12ed8e774698d9939d3188c1a464634f2add8df3069f4b2729951738d16a8"
+    }
+  ],
+  "reviewer_actions": {
+    "stdlib_only": true,
+    "synthetic_exception_cases": 5,
+    "natural_data_reads": 0,
+    "natural_RNG_or_indices": 0,
+    "model_imports": 0,
+    "model_calls": 0,
+    "test37_reads": 0
+  },
+  "transport_recovery": "Prior cancelled tool call left neither this script nor report; existence checked before this first actual execution."
+}

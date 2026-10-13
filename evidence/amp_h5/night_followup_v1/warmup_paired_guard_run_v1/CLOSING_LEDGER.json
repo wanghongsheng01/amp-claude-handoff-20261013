@@ -1,0 +1,9 @@
+{
+  "scope_id": "AMP_H5_WARMUP_PAIRED_RESOURCE_GUARD_V1",
+  "state": "completed",
+  "wall_seconds_after_manifest_before_closing": 0.5496440827846527,
+  "cap_seconds": 30,
+  "manifest_sha256": "144cf103866871a1209f6668e0f00c05a1e65ad4293c9b6b0508b9ba6131f360",
+  "model_calls": 0,
+  "outer_watchdog_required_seconds": 60
+}

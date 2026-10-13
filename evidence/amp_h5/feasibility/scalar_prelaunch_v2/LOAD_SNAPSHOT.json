@@ -1,0 +1,6 @@
+{
+  "current_time": "2026-10-11 19:10:05 UTC",
+  "ps": " 1937     1   0.0  1.3 30-19:34:18 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python\n54264 54263   0.0  0.0    03:40:03 .venv/bin/python\n62630     1   0.1  0.6 28-10:55:57 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python\n78259     1   0.0  0.0 19-10:13:11 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python\n79113     1   0.0  0.0 18-07:46:10 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python\n",
+  "logical_cpus_previously_verified": 10,
+  "interpretation": "Prior AMP CE recovery and MSE PIDs absent; single-thread serial scalar launch only after independent exact-plan receipt."
+}

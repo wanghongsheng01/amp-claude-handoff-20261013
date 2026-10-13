@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-12T08:46:03.101835+00:00",
+  "sha256": {
+    "model.py": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+    "validate_synthetic.py": "c381374708d7f2d5922f32ef062da5770e1e1f7f25a5ecca1a9e08c3de5612c5",
+    "CONFIG.json": "15d5af361d66e9eb3ecd152e493ba256f3a5b25391cd01b77c6b908290e62d8e",
+    "AUTHOR_BINDING.json": "0f113581e79d6dd6edc04d8e324eedfadeedf39806fe17f1f40c7f752958db4f",
+    "PREFLIGHT.json": "98982c3a1fe34034f041d7c1d0f61aef49ef0b5e7dfeca69a4812b61cade558e",
+    "REPAIR.json": "93e988055d2b13841cb17ac0851fa5697565857d235b3cf6ba9c4933a87d25e7"
+  },
+  "natural_data": "NONE; generated in memory from frozen seed only"
+}

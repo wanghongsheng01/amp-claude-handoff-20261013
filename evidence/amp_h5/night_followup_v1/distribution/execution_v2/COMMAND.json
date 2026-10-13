@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/distribution_diagnostic_v2.py",
+    "--protocol",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v2.json",
+    "--preaudit",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/DISTRIBUTION_PREFLIGHT_v2.json",
+    "--preaudit-sha256",
+    "de60e3f25d850adea8d6a5407394d49783fc4bc7a27dfa433107b8c79c1a4e8a"
+  ],
+  "cwd": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution",
+  "timeout_seconds": 180,
+  "retry": false,
+  "protocol": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v2.json",
+    "bytes": 11616,
+    "sha256": "027611e8a8c3e1fee211c60c7f4ae6be2ba9c59ff8cc9af201efa5ef969c0c3a"
+  },
+  "preaudit": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/DISTRIBUTION_PREFLIGHT_v2.json",
+    "bytes": 10021,
+    "sha256": "de60e3f25d850adea8d6a5407394d49783fc4bc7a27dfa433107b8c79c1a4e8a"
+  },
+  "execution_wrapper": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/execute_once_v2.py",
+    "bytes": 2640,
+    "sha256": "478e41959473950832c8bf978baba51e0f31d16e46352c53de2c811dec1a724f"
+  }
+}

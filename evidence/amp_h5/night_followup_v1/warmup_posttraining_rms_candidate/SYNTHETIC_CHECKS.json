@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": 49,
+  "scope": "stdlib synthetic slots, AST and latebinding metadata only",
+  "model_imports": 0,
+  "model_forwards": 0,
+  "training_updates": 0,
+  "cohort_reads": 0,
+  "epsilon_NPZ_reads": 0,
+  "test_reads": 0,
+  "random_draws": 0,
+  "script_sha256": "808ba5f7a4a6c735ecab0b2745403c29bbf49ec9efe669900b09e3e579fccf86",
+  "test_script_sha256": "34f762298eb5e974a4a826fd0e1f5a15515fd378df009d38cc20ffdcccd54c73",
+  "limitation": "No model smoke, no numeric natural score, no throughput run. Actual newcheckpoint remains unknown and unbound."
+}

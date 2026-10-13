@@ -1,0 +1,224 @@
+{
+  "schema": "AMP_H5_DIRECT_Z_MINIMAL_PLAN_V1",
+  "status": "DESIGN_ONLY_NO_TRAINING_AUTHORIZATION",
+  "author": "/root",
+  "scientific_claim": "成熟direct-latent prior机制的有限预算适配；检验固定A下，直接建模实际z是否较参数对r建模改善自由生成。不声称创新或孤立的张量目标因果效应。",
+  "arms": {
+    "R": "新拟合标准化r=(mu,logsigma) conditional DDPM -> inverse normalization -> z=mu+exp(logsigma)*epsilon -> 冻结AR A",
+    "Z": "新拟合标准化实际后验样本z conditional DDPM -> inverse normalization -> 同一冻结AR A",
+    "C": "冻结AR v3 terminal-only C，复用已审计32输出；token uniform与R/Z完全一致，模型无新调用"
+  },
+  "fixed_assets": {
+    "encoder": "原CE冻结；只读279缓存，不重新编码",
+    "A": "ar_latent_v3/runs/natural_v1/A/final.pt",
+    "C": "ar_latent_v3/runs/natural_v1/C/final.pt",
+    "train": "279:FREE126/AMD153",
+    "dev": "41:FREE18/AMD23；仅评价，不能拟合任何缩放/目标/噪声日程",
+    "test37": "NEVER_OPEN",
+    "D": "历史背景，不作此次主比较"
+  },
+  "capacity": {
+    "architecture": "原UNet_conditional，time_dim256，主干宽度/注意力/空间16x48不变；仅输入输出2→1通道",
+    "remove_legacy_dead_embeddings": "两臂均删除forward不使用的embed_level_1及embed_level_2，共1024参数；保留实际使用的label_emb。不得补无效参数。",
+    "R_effective_params_static_expected": 18611970,
+    "Z_effective_params_static_expected": 18611329,
+    "difference": 641,
+    "difference_percent": 0.0034440201655171377,
+    "derivation": "第一层Conv2d减少64*1*3*3=576；最后1x1Conv减少64+1=65。原18612994含两组未使用512参数embedding。",
+    "initialization": "私有seed322先初始化R；相同形状主干/label参数逐字节复制到Z。Z首conv取R首输入通道乘sqrt(2)以匹配单位方差输入的fan-in方差，Z末conv/bias取R首输出通道；不宣称边界权重逐字节相同。冻结初态hash与RNG状态。",
+    "claim_limit": "不是严格等容；共同主干、相同训练对象曝光/更新/上限与实测成本。输入维度及目标随机性是该建模方案的一部分，不能把收益唯一归因于换目标张量。"
+  },
+  "normalization": {
+    "fit": "float64，仅279训练缓存，所有16x48位置等权、总体方差ddof0、跨terminal合并；两臂不做位置/terminal白化",
+    "R_mean": [
+      0.01368275461642464,
+      -0.013993807936512519
+    ],
+    "R_std": [
+      1.2358883058881482,
+      0.03768022555492503
+    ],
+    "Z_mean_analytic": 0.01368275461642464,
+    "Z_std_analytic": 1.5819537697447765,
+    "Z_formula": "m=mean(mu); v=mean(mu^2+exp(2*logsigma))-m^2; s=sqrt(v)",
+    "transform": "u=(target-m)/s；训练/采样均在u坐标，完成reverse后只做一次target=m+s*u；Z直接喂A，R重参数化后喂A",
+    "failure": "任何统计非有限或std<=1e-8则准入失败；无临时epsilon修复、clip、whitening或dev调整。统计float64封存，模型输入float32。",
+    "baseline_scope": "R也是重新标准化训练的匹配baseline，不复用旧未标准化DDPM作为因果对照；此选择改变两臂共同训练合同。"
+  },
+  "randomness": {
+    "updates_each": 1000,
+    "batch_size": 8,
+    "sampling": "同一279行随机循环，无放回一轮；尾batch7保留；1000步共7972对象曝光/臂",
+    "batches_seed": 322,
+    "initialization_seed": 322,
+    "timestep_seed": 3322,
+    "diffusion_noise_seed": 4322,
+    "label_dropout_seed": 5322,
+    "posterior_epsilon_seed_Z": 6322,
+    "generation_noise_seeds": {
+      "FREE": 7422,
+      "AMD": 7423
+    },
+    "R_final_reparam_epsilon_seeds": {
+      "FREE": 8422,
+      "AMD": 8423
+    },
+    "token_uniform": "精确复用ARv3 RANDOM_BANKS.npz中uniforms：FREE3422/AMD3423；不重新挑样本",
+    "separate_generators": "每一用途独立CPU torch Generator；禁止依赖全局交错消费次序",
+    "training_coupling": "每步共享row_ids、t和整batch10%label dropout事件。R扩散噪声[B,2,16,48]；Z共享其首通道，R第二通道有独立元素。Z每次对象曝光重新以mu+exp(logsigma)*epsilon抽样，R目标r固定；该随机性差异明报，不能当作更多独立训练对象。R不人为抽取无用途epsilon。",
+    "generation_coupling": "每端16条，R初始/每reverse步2通道噪声，Z共享首通道；R最终重参数化epsilon独立。相同seed不称同一latent样本配对；两臂token uniforms同slot同位置。",
+    "seal": "在自然forward前封存私有generator初终态、1000批次/时刻/dropout及q-epsilon和逐reverse噪声hash；保存允许重放所需seed/版本/消费规范，不按输出修改。"
+  },
+  "optimization": {
+    "optimizer": "AdamW",
+    "lr_max": 0.005,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-05,
+    "weight_decay": 0.01,
+    "gradient_clip": null,
+    "loss": "mean squared epsilon prediction error acrossbatch andall C*16*48 elements；期望单位噪声MSE为1；不得用总和使R多一倍权重",
+    "schedule": "OneCycleLR total_steps1000,pct_start0.3,anneal_strategy=cos,cycle_momentum=True,base_momentum0.85,max_momentum0.95,div_factor25,final_div_factor10000,three_phase=False,last_epoch=-1；固定torch版本并hash完整序列",
+    "checkpoint": "只用最终1000步；不早停挑点；继承原EMA语义：2000步前均复制，因此本次所谓EMA等于最终当前模型，无额外EMA收益",
+    "monitoring": "记录每步loss/grad有限性/参数有限性及固定100,200,...1000训练摘要，不用dev选checkpoint；R/Z损失大小不跨目标作质量排名"
+  },
+  "diffusion": {
+    "noise_steps": 999,
+    "beta": "float32 linspace(1e-4,0.02,999)",
+    "training_t": "uniform integer1..998",
+    "forward": "sqrt(alpha_bar[t])*u +sqrt(1-alpha_bar[t])*eta",
+    "reverse": "原DDPM ancestral式，t=998..1；方差beta[t]，最后t1无噪声；每端batch16，完整998步；无CFG/温度/DDIM/步数变更",
+    "sampling_condition": "terminal only；不传g/h/真实残基/真长度，不做flow inverse",
+    "failures": "非有限u/r/exp(logsigma)/z任一即保留已请求槽位并失败；不clamp、重采样、补齐或换seed"
+  },
+  "evaluation": {
+    "new_requests": 64,
+    "slots": "R32+Z32新生成，C32历史复用，共96；每臂各16/terminal。D不计主分母。",
+    "decoder": "固定A，49个预测位置，原EOS/absorbing/cap规则、全类inverseCDF；R/Z各整batch32；无新dev重建forward，因为q/A固定不会改变该事实",
+    "metrics": "原冻结scoring.py和421维biased linear MMD²、pooled dipeptideJS、长度均值偏差、legal5–48、copy/duplicate；不得更换feature/scorer/过滤",
+    "screening_power": "32条足够作本次低成本继续/停止操作筛查，不足以证明显著性、总体优越、训练种子稳健或生物活性。每端16使比例步长6.25pp。六组旧敏感性不能移作新CI；不做反复采样或显著性追逐。",
+    "mechanism_screen": "对每个terminal：Z的MMD²<=0.90*R且严格<R；JS严格<R；绝对长度均值偏差<=R；legal5–48>=R；训练copy数、duplicate率<=R。任一不满足即有限预算机制收益未通过。10%是预定实用筛查幅度，非显著性或功效标定。",
+    "value_screen": "仅机制筛查通过后解释相同规则Z相对C：两端MMD至少10%改善且严格更低，JS严格更低，长度/合法性/copy/dup不劣。否则只可报告优于该R而仍不足替代C；停止，不调参。",
+    "undefined": "候选任一空/缺失/非有限=>FAIL；R/C任一不可评价=>NOT_EVALUABLE；全部保留并停止。MMD基线为0时无法满足strict improvement，判停止。",
+    "uncertainty": "无新bootstrap或p值；不宣称显著。筛查双通过只允许父任务再判断是否值得独立确认，不自动训练/扩样或打开test。"
+  },
+  "budget": {
+    "total_compute_job_outer_seconds": 4800,
+    "meaning": "所有新计算作业外层wall之和的硬上限；人工阅读/编写及等待回执不作计算wall，不填0。CPU单线程串行；启动前查H5进程并持锁。",
+    "independent_engineering_outer": 180,
+    "natural_supervisor_outer": 4560,
+    "natural_phase_caps": {
+      "prepare": 60,
+      "R_training": 720,
+      "Z_training": 720,
+      "R_generation": 1440,
+      "Z_generation": 1440,
+      "decode_score": 120,
+      "closure": 60
+    },
+    "independent_saved_output_audit_outer": 60,
+    "natural_updates_total": 2000,
+    "natural_denoiser_train_forward": 2000,
+    "natural_denoiser_generation_forward": 3992,
+    "A_decoder_step_forward_max": 98,
+    "total_natural_forward_max": 6090,
+    "new_encoder_or_old_DDPM_or_C_forward": 0,
+    "configuration_count": 1,
+    "training_seed_count": 1,
+    "natural_attempts": 1,
+    "retries": 0,
+    "historical_throughput_basis": "原同主干r DDPM1000步含编码/保存564.346s；32条完整998步生成1115.496s。新目标/负载吞吐未知，必须先经合成准入；不是保证。",
+    "failure_policy": "阶段或总cap超限即STOP_RESOURCE；保留部分/失败/未执行，不减步救场、不续跑、不扩cap、不改变lr。"
+  },
+  "engineering_admission": {
+    "status": "NOT_EXECUTED",
+    "synthetic_fixture": "不使用真实序列输出；deterministic synthetic means/logsigma/labels及边界。32更新/臂，共64合成更新；每臂32次batch16 reverse-like forward用于吞吐，共64；最多4次边界forward；总<=132model forward，外层180s。全部合成权重隔离，不进入自然运行。",
+    "projection": "每臂training forecast=1.2*(1000/32*该臂32步含日志耗时)+setup/save实测+20，须<=720；generation forecast=1.2*(1996/32*该臂32次batch16含噪声/有限性/哈希耗时)+30，须<=1440。完整代码路径或可证明保守上界；任一不合格停止，不改budget。",
+    "required_checks": [
+      "静态来源/缓存/decoder/scorer/环境/源码hash与train/dev划分；test路径拒绝；训练posterior与冻结A原缓存tensor逐字节一致",
+      "count有效参数；确认删除的embedding从不进forward；所有余下可训练参数在适当conditional synthetic batch接收梯度，不能用无效参数补数",
+      "共享主干初态、首conv fan-in缩放/末head拷贝；独立边界层差异如实记录",
+      "float64仅train归一化/解析Z矩/正逆变换；constant/nonfinite拒绝；shape2→1、latent轴顺序、logσ而非logvar",
+      "全部私有RNG消费、跨臂共享时刻/dropout/首通道噪声、q抽样随曝光变化；无dev缩放/无generation target内容",
+      "mean MSE分母；噪声日程/OneCycle/EMA末态一致；generation完整998步与无CFG",
+      "继承A decode/cap/EOS/C输出及uniform parity；失败槽位全部保留；指标门tie/zero/empty测试",
+      "外层hard kill无grace、共享H5锁、phase预算、hash绑定与唯一launch reservation；检查计数上限"
+    ],
+    "admission_rule": "不同于作者的审计者签exact-code/config/input/plan hash回执后，且另有父任务运行授权，才可执行自然一次；本设计review不替代工程验收。"
+  },
+  "result_branches": [
+    "工程/吞吐未通过：BLOCKED，不启动自然。",
+    "自然资源或数值失败/控制不可评价：保留全部；FAIL或NOT_EVALUABLE，停止。",
+    "完整但机制筛查失败：否定本预算适配收益；停止。",
+    "机制通过、C价值筛查失败：只有对R的局部改进，不能声称复杂管线价值；停止。",
+    "两筛查通过：仅SCREEN_POSITIVE/HOLD，提交父任务判断，不自动确认、扩样或投稿。"
+  ],
+  "backup": "BACKUP_BLOCKED_NO_AUTHORIZED_VERIFIED_DESTINATION；本案不开展备份工作。",
+  "precedents": [
+    "https://github.com/daib13/TwoStageVAE/blob/master/network/two_stage_vae_model.py",
+    "https://github.com/NVlabs/LSGM/blob/main/training_obj_joint.py"
+  ],
+  "activity_this_draft": {
+    "training": 0,
+    "forward": 0,
+    "new_rng": 0,
+    "train_cache_moment_analysis": "float64 numpy only; no model import",
+    "test_reads": 0
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/diff.py",
+      "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_training_summary.json",
+      "sha256": "74755fd716e27fd37f4cb13334689df3cff80f17c75d4d7d2bc0dc9e083c09d9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generation_summary.json",
+      "sha256": "bc5c1919ec5868462cd1195e7f5a74071d57db6f46b4f5fd3e2a9094ad6b6128"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/A/final.pt",
+      "sha256": "b1e360887374c6a0d5daf3a1ae1695b42ceab4a6483c8a3872bed4f9adf0e4f9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/C/final.pt",
+      "sha256": "da3d364a295161e31320d3a4b4f9bc9ab8dc11a160aa0ec9696abe8f0f2f9114"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/RANDOM_BANKS.npz",
+      "sha256": "41203d7edd79ba04c88f908aba9921c218706d3ea9b28ddd72bef797db66bcac"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/GENERATION_SLOTS.json",
+      "sha256": "5c647c49e8b7702ac87cfc082f3aea97d4b76fc3dd96bf8b5fb26f5ab7ffcf5a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/scoring.py",
+      "sha256": "e0e0563bb8c17f5aa272f44b32daec0a2e467b9bd3f3a0e6e075c63b4d2295af"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/core.py",
+      "sha256": "18b8fe1589bb3bda66a3eaa091a9a59dc1420db8da255ee1373ae369ea7cac2a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/CANDIDATE_CONFIG.json",
+      "sha256": "419b283b8b08b745be0e5aad21b1ca2e164255489403c7a96ca85fdb255e4d5c"
+    }
+  ]
+}

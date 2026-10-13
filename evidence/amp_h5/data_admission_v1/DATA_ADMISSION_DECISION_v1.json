@@ -1,0 +1,90 @@
+{
+  "schema": "AMP_H5_READ_ONLY_DATA_ADMISSION_V1",
+  "date": "2026-10-12",
+  "decision": "NO_GO_FOR_TRAINING_IMPORT",
+  "candidate_count": 2,
+  "preferred_source": "DBAASP official assay-level export; licensing passes but snapshot and isolation gates remain open",
+  "scope": {
+    "model_calls": 0,
+    "training": 0,
+    "generation": 0,
+    "model_weight_downloads": 0,
+    "test37_reads": 0,
+    "training_imports": 0,
+    "manuscript_edits": 0,
+    "raw_external_dataset_saved": false,
+    "backup": "BACKUP_BLOCKED"
+  },
+  "author_release": {
+    "name": "AMP-Designer author repository, available DBAASP-derived sequence file",
+    "status": "NO_GO",
+    "commit": "07d455dd6eb7ef61fe03b85732966caa32bf3dc4",
+    "original_location": "https://github.com/jkwang93/AMP-Designer/blob/07d455dd6eb7ef61fe03b85732966caa32bf3dc4/data/DBAASP/dbaasp_active_sequence.csv",
+    "git_blob": "907056d79cad578155141d930e3f17c8d7016882",
+    "sha256": "36c70fbbd45d0df10cb375e55621bbb6c6bec7683ef37afc94cf941066f7aee8",
+    "bytes": 197834,
+    "rows": 10752,
+    "unique_sequences": 10752,
+    "labels": "Every row is one sequence; no header, strain, MIC, unit, censoring, terminal chemistry, assay or source record IDs. It is not a verified copy of the paper's AMP-MIC training dataset.",
+    "code": "AMP-MIC directory contains AMP-MIC.py. Read code is prediction-oriented: Sequence input, dummy label 0, exponentiation 10**out; this cannot reconstruct experimental label units or censoring.",
+    "license": "Repository MIT is software/associated documentation licensing. No explicit data-specific grant for the entire multi-source collection was verified. Official upstream DBAASP terms permit use with attribution, but do not repair lost label/provenance fields or establish permissions for other pooled sources.",
+    "overlap": "Exact case-sensitive sequence intersection: 197/279 local train rows and 27/41 local dev rows. No test access; no homology check. These counts apply only to this pinned file, not to all current DBAASP or all AMP-Designer training data.",
+    "audit": "AMP_DESIGNER_PINNED_FILE_AUDIT.json"
+  },
+  "alternative": {
+    "name": "DBAASP official live database, authors of Nucleic Acids Research 49(D1):D288-D297; DOI 10.1093/nar/gkaa991",
+    "status": "NO_GO_FOR_TRAINING_IMPORT",
+    "license_gate": "PASS_SOURCE_DATA_REUSE_WITH_ATTRIBUTION",
+    "terms_url": "https://dbaasp.org/terms-and-conditions",
+    "terms_observation": "Data Access Policy expressly permits access, download, copying, use, adaptation and redistribution and requires source acknowledgement. This is a database data policy, not an inference from article or code licensing.",
+    "download_locations": [
+      "https://dbaasp.org/search",
+      "https://dbaasp.org/api?page=rest",
+      "https://dbaasp.org/v3/api-docs",
+      "https://dbaasp.org/peptides",
+      "https://dbaasp.org/peptides/{peptideId}"
+    ],
+    "version": "Official OpenAPI info.version=4.0.1; this is API version, NOT an immutable data release. Source is continuously updated. No dated complete assay snapshot with publisher checksum was verified.",
+    "schema_verified": [
+      "peptide id and dbaaspId",
+      "sequence, N/C termini, unusual amino acids, bonds, complexity",
+      "targetActivities.id, peptideId, targetSpecies.name/description",
+      "activityMeasureGroup, activityMeasureValue, concentration, unit",
+      "medium, CFU, pH, ionic strength, salt, note, reference",
+      "articles and PubMed reference"
+    ],
+    "label_evidence_boundary": "Official article/help establish experimentally measured activities, strain where available, and assay conditions. The API schema establishes field availability, not actual per-row completeness. Search indexing of peptide8198 reports P. aeruginosa ATCC27853 MIC19.41uM in LBB, but live rendered card was empty and JSON fetch unavailable; not accepted as a verified complete raw sample.",
+    "censoring": "Raw activity/concentration are strings; no dedicated universal censoring field in observed schema. Preserve strings, relation (<,<=,>,>=), interval bounds, unit and note. Never coerce inequalities to exact values or NA/unmeasured to inactive. Restrict outcome to MIC, not MBC/IC50/HC50. Retain ambiguous units/strain as excluded-with-reason.",
+    "normalization": "For the first eligible subset prefer explicitly named single strain and already-uM measurements. Mass-to-molar conversion only with verified chemical molecular mass including termini/modifications. Do not uppercase D residues into L residues. Match current representation only with verified canonical linear single-chain peptides and resolved terminal chemistry.",
+    "duplicate_and_homology_feasibility": "Executable once raw rows are frozen: chemical identity includes sequence, stereochemistry, termini, modifications and bonds. Preserve repeated strain/assay/reference measurements instead of averaging conflicting rows blindly. Group the same sequence across all chemical variants and targets into one split; add similarity clusters and source-paper/family grouping with predeclared alignment/coverage parameters. Current schema supports this, but counts and achieved isolation have not been calculated.",
+    "blocking_gates": [
+      "complete dated immutable assay snapshot, raw response hashes and frozen query/ID inventory absent",
+      "raw sample and actual strain/MIC/unit/censoring completeness unverified; eligible N unknown",
+      "exact and homology exclusions against train/dev not executed for the live database",
+      "sealed-test isolation requires independent custodian; no method-author test access",
+      "AMPGen training/scorer/MSA/pretraining overlap inventory absent"
+    ]
+  },
+  "contamination": {
+    "AMPGen": "The formal AMPGen paper reports a DBAASP MIC dataset (3929 items) used in model development. Common upstream source is therefore established; actual overlap with a future DBAASP subset is not measured. Treat AMPGen MIC scorer as potentially exposed, not an independent validation oracle.",
+    "AMPDesigner": "Pinned author file already shares 197 train and27 dev sequences; public availability does not create an untouched holdout.",
+    "existing_H5": "Preserve local train/dev hashes and reused-dev status. Future exclusions must cover exact sequences, chemistry variants, homologues and source families across generator, predictor, reward and evaluation data.",
+    "test37": "Must be checked only by an independent custodian against a frozen candidate inventory; return exclusion IDs/opaque audit receipt, never sealed sequences or labels to this task.",
+    "wetlab27": "Existing27 wetlab measurements must not validate newly generated candidates."
+  },
+  "scientific_scope": {
+    "supported_if_gates_close": "A strain- and assay-conditioned MIC prediction/evaluation task, with held-out peptide families, is more biologically informative than Free/Amide sequence statistics. It could supply a property-evaluation basis for an eventual AR generation study.",
+    "not_supported": "No verified eligible sample size, independent generation efficacy, method novelty or publication-readiness claim. No new model route or experiment authorized here.",
+    "stop": "Two sources inspected; no third-source search, model downloads, training, pooled-data import or new independent-review round."
+  },
+  "sources": [
+    "https://github.com/jkwang93/AMP-Designer/commit/07d455dd6eb7ef61fe03b85732966caa32bf3dc4",
+    "https://raw.githubusercontent.com/jkwang93/AMP-Designer/main/LICENSE",
+    "https://raw.githubusercontent.com/jkwang93/AMP-Designer/main/AMP-MIC/AMP-MIC.py",
+    "https://dbaasp.org/terms-and-conditions",
+    "https://dbaasp.org/help",
+    "https://dbaasp.org/v3/api-docs",
+    "https://academic.oup.com/nar/article/49/D1/D288/5957160",
+    "https://www.nature.com/articles/s42003-025-08282-7"
+  ]
+}

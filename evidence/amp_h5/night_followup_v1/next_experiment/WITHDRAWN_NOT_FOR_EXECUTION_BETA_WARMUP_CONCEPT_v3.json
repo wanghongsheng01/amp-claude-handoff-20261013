@@ -1,0 +1,209 @@
+{
+  "schema": "AMP_H5_BETA_WARMUP_CONDITIONAL_SCIENTIFIC_PROTOCOL_V3",
+  "created_utc": "2026-10-11T20:58:28.808803+00:00",
+  "status": "FROZEN_CONDITIONAL_SCIENTIFIC_PROTOCOL_NOT_EXECUTION_AUTHORIZATION",
+  "identity": "AMP H5 only",
+  "supersedes": {
+    "prior": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/PRIMARY_PRECEDENTS_AND_CONDITIONAL_PROTOCOL_v1.json",
+      "bytes": 13549,
+      "sha256": "6b7769754399dc390d9bfbac827b53bd4d969ffed2d63702a07ef9967e16443b"
+    },
+    "preserve_prior": true,
+    "explicit_changes": [
+      "500-step concept warmup replaced by200/1000-step warmup using official code one-fifth-duration convention as H5 adaptation.",
+      "Only a VAE1000 experiment is conditionally proposed; no automatic DDPM fitting or new generation.",
+      "Any later DDPM/generation needs a separately justified scope; VAE distortion improvement alone does not establish end-to-end benefit."
+    ]
+  },
+  "paper_and_code": {
+    "published_paper": {
+      "title": "Accelerated antimicrobial discovery via deep generative models and molecular dynamics simulations",
+      "authors": "Das et al.",
+      "venue": "Nature Biomedical Engineering",
+      "year": 2021,
+      "publication_date": "2021-03-11",
+      "volume_pages": "5:613–623",
+      "url": "https://www.nature.com/articles/s41551-021-00689-x",
+      "official_code": "https://github.com/IBM/controlled-peptide-generation"
+    },
+    "paper_VAE_recipe": {
+      "url": "https://arxiv.org/html/2005.11248",
+      "section": "6.1.1",
+      "beta_variants": "VAE anneals0→.03 by default; comparison variant0→1; this is the author manuscript statement, not a claim current repository default is VAE.",
+      "not_transferred": [
+        "WAE MMD objective",
+        "variance regularization",
+        "word dropout",
+        "GRU architecture",
+        "external unlabeled data",
+        "beam5 decoder",
+        "GMM/attribute rejection filtering"
+      ]
+    },
+    "official_default_warning": {
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/cfg.py?amp_h5_read=1",
+      "lines": "155–172",
+      "exact": "Current cfg default z_regu_loss=mmdrf, beta.start.val1,end.val2; lambda_logvar_KL1e−3. It overrides anneal end.iter=s_iter+n_iter//5. This is WAE configuration, not the paper VAE0→.03 default."
+    },
+    "interpolation": {
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/utils.py",
+      "lines": "42–53",
+      "exact": "Linear interpolation between start/end values; clamp to end at or after end iteration."
+    },
+    "objective": {
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/train_vae.py",
+      "lines": "21–34",
+      "exact": "sample_z1, reconstruction+beta*selected_regularizer+separate optional variance penalties; do not copy those extra penalties."
+    },
+    "normalization": {
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/losses.py",
+      "lines": "7–9,15–28",
+      "author_code": "KL sums latent dimensions then averages examples. Shifted reconstruction CE averages non-PAD token targets (ignore_index=PAD).",
+      "H5": "Both reconstruction CE over all48 positions and conditional prior density difference divide by B*48; latent shape16*48 and native conditional prior differ.",
+      "consequence": "Author numerical beta.03 is not H5 beta.03 in effective regularization. Keeping final H5 beta1 isolates schedule within H5; warmup transfer is a declared method adaptation, not quantitative reproduction."
+    },
+    "version_limit": "Read mutable master, not immutable commit. No upstream code installed/executed. Web browsing supplied code; local urllib download failed DNS and yielded no code snapshot."
+  },
+  "admission_before_training": {
+    "all_required": [
+      "Independent engineering completion of full current CE checkpoint R/M/S on train279/dev41, fixedK8 learned-q samples per sequence; no test.",
+      "Full dev41 primary delta complete; target/R and posterior path exact; every expected slot retained, no stochastic sample selection.",
+      "User resource trigger mean_i[aM_i−mean_k(aS_ik)] >=0.05 on dev41, using equal sequence weights and true nonPAD target positions.",
+      "Root freezes an exact implementation/budget/seed contract and independent preaudit passes; this scientific file alone does not authorize a forward."
+    ],
+    "not_a_substitute": "Existing B32 training donor evidence is not full-dev admission:31unique donors, one sample each, AMD duplicate. Train-only gap cannot trigger dev gate.",
+    "not_significance": "5pp current dev M−S gap is user resource-allocation threshold only; it cannot identify early KL pressure, posterior-sigma or DDPM causality. Candidate remains a mature falsifiable exploratory intervention, not a mechanism already proved.",
+    "current_frozen_route": "Current encoder q is diagonalGaussian, no posteriorflow; M=decode(mu), S=decode(mu+exp(logsigma)*epsilon). prior_flow(z,g) is used only in density objective; g/h enter encoder, decoder has no g/teacher forcing.",
+    "if_not_triggered": "Do not train the candidate, do not enlargeK or choose seeds to force gate. Preserve no-trigger/incomplete finding."
+  },
+  "only_candidate": {
+    "name": "CE21 density-KL warmup to unchanged final beta1",
+    "mature_mechanism": "Delay full latent regularization during early representation learning; tests optimization-path tradeoff. It does not isolate posterior sigma as a cause.",
+    "objective": "loss(u)=CE_sum/(B*48)+beta(u)*density_sum/(B*48)",
+    "schedule": "one-based step=1..1000; beta(step)=min(1,(step−1)/199). step1 beta0, step200 beta1, step200..1000 beta1. This exact endpoint convention is H5 adaptation, not claimed identical to current CLaSS cfg.",
+    "control": "Frozen current CE21 beta1 VAE1000 from same initialization/shuffle/forward RNG; reused historical control explicitly identified. No new control replicas claimed.",
+    "coupling": "init222,shuffle222,VAE noise222, same batch order/sizes, identical stochastic call counts/order; altered stochastic parameters may alter sampled z values but same base random draws must be verifiable. Bind old checkpoint/scaler/config hashes before any execution.",
+    "unchanged": [
+      "data train279/dev41,test37sealed",
+      "target/representation/vocabulary",
+      "CE21 head and capacity",
+      "encoder, decoder, priorflow",
+      "descriptor scaler",
+      "VAE learning-rate warmup/schedule",
+      "Adam, gradient clipping, batch32",
+      "legal J/PAD readout",
+      "condition information",
+      "1000 fixed updates; no bestdev checkpoint",
+      "no external data or architecture changes"
+    ],
+    "scope_and_budget": {
+      "VAE_updates": 1000,
+      "new_DDPM_updates": 0,
+      "new_generation_requests": 0,
+      "new_AR_training": 0,
+      "candidate_count": 1,
+      "hyperparameter_grid": false,
+      "device": "CPU1thread,serial,rootchecksload",
+      "VAE_seconds_ceiling_proposed": 1920,
+      "basis": "Inherited formal VAE phase cap; prior completed CE VAE~1179s, conditional feasibility only.",
+      "posttraining_RMS": "One complete fixedK8 R/M/S evaluation with same upstream definition,train279/dev41 and prebound random bank. Exact forward/call/time caps must be supplied by rootimplementationpreflight; no overflow extension."
+    },
+    "why_from_scratch": "Early warmup concerns the beginning of learning. Same init/data/RNG yields the cleanest schedule intervention; incurs a full VAE1000 but no DDPM/generation yet.",
+    "why_not_checkpoint_continuation": "Starting at CE1000 misses early-regularization mechanism; a fair continuation requires both beta schedules to continue identically in optimizer/LR/time, cannot compare adapted checkpoint at1200 against frozen1000 alone. Restarting optimizer orLR would add components. Not selected.",
+    "why_not_short_pilot": "A fresh much-shorter run changes training maturity and spends a new budget level; previous short-run instability means it cannot settle the selected1000-step mechanism. No short-to-long outcome-dependent extension."
+  },
+  "primary_hypothesis_and_failure": {
+    "hypothesis": "One mature KL-warmup optimization-path intervention may improve fixed-checkpoint stochastic persequence reconstruction while preserving deterministic reconstruction/length and stochastic class-balanced recall. A diagnostic gap cannot identify early KL pressure or posterior-sigma causality.",
+    "primary_quantity": "mean_i mean_k accuracy_nonPAD(S_ik,x_i); training and each terminal are reported separately; persequence mean is not AA macro or residue micro.",
+    "minimum_effect_for_further_investment": "All four required versus frozen constant-beta1 at the same complete dev41 and same8epsilon bank: (1) mean stochastic persequence nonPAD accuracy improves >=0.05; (2) mean-path persequence nonPAD accuracy does not decline; (3) mean-path lengthMAE<=0, i.e. stays0; (4) stochastic supported-AA macro recall does not decline. M−S gap change is reported as descriptive only.",
+    "failure": [
+      "Any incomplete/nonfinite/route or coupling failure => invalid experiment, retainallslots; no automatic retry.",
+      "If any of the four required criteria fails, the limited VAE-only hypothesis fails; retain mixed outcomes. No beta change, extended endpoint, new seed or downstream DDPM under this result.",
+      "Report whole-sequence exactness, all20class support/recall including zero classes, stochastic length/empty/cap outcomes and train-to-dev disparity even when four conditions pass; do not hide secondary deterioration.",
+      "Posterior/prior-density or scale deterioration is a side effect, not silently dismissed. Better stochastic reconstruction does not establish aggregate-prior match or generation benefit."
+    ],
+    "secondary_complete_readout": [
+      "train/dev persequence delta distribution and paired draw summaries",
+      "residue micro and supported-AA macro,all20classsupport/recall including zero classes",
+      "lengthMAE,empty/cap/exact/full denominators",
+      "logsigma/variance finite summaries and unweighted density term,with original units",
+      "actualelapsedcost and originalCE recovery/exploratory opportunity costs"
+    ],
+    "not_permitted": [
+      "new endtoend generation superiority",
+      "independent training replication",
+      "generalization established on reuseddev",
+      "posterior collapse/noise as unique mechanism",
+      "method novelty or paper readiness",
+      "AMP activity/safety/wetlab N inference"
+    ],
+    "required_conditions": [
+      {
+        "metric": "dev_S_mean_persequence_nonPAD_accuracy",
+        "comparison": "candidate−control >=0.05"
+      },
+      {
+        "metric": "dev_M_mean_persequence_nonPAD_accuracy",
+        "comparison": "candidate−control >=0"
+      },
+      {
+        "metric": "dev_M_length_MAE",
+        "comparison": "candidate<=0"
+      },
+      {
+        "metric": "dev_S_supported_AA_macro_recall",
+        "comparison": "candidate−control>=0"
+      }
+    ],
+    "limited_interpretation": "Passing allows only a limited single-fit VAE-only optimization-path finding. It is not proof of early-KL pressure or sigma cause, aggregate-prior compatibility, full-generation gain, novelty or strongbaseline superiority."
+  },
+  "AR_fairness": "No current new AR run; historical terminalLSTM is a c-only contextual comparator with overfit and adequacy unresolved. If later completegeneration is justified, strongbaseline claims require a separately predeclared balanced tuning/checkpoint opportunity; actual costs cannot be called equal.",
+  "no_training_priority": "Inspect already observed per-class error and target/PAD representation routes, including train-supported zero-recall AA; training support is present, so zero recall alone is neither missing-data proof nor proof of a unique information-loss component. Do not add/resplit data, classweights,latentnormalization or newhead without a new single-component question.",
+  "prior_evidence": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/RESULTS.json",
+      "bytes": 36268,
+      "sha256": "086868e492b7ad6a1af39040bcc7952d166ec9ba09ca6d8e8ce402907d1f7c84"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+      "bytes": 52866,
+      "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_REPLACEMENT_FINAL_SCIENTIFIC_REVIEW_v2.json",
+      "bytes": 94700,
+      "sha256": "c29e17a53b99dc18c2258bf06a860fec649a2e4acb5e0eb11e70a4a73865f9d4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "bytes": 41408,
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "bytes": 2541,
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    }
+  ],
+  "operations": {
+    "model_calls": 0,
+    "training_updates": 0,
+    "cohort_reads": 0,
+    "test_reads": 0,
+    "execution_authorized": false
+  },
+  "v2_exact_amendment": {
+    "prior": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/BETA_WARMUP_CONDITIONAL_PROTOCOL_v2.json",
+      "sha256": "86f102de2e2e7140a2963ed200fd6668d77c090d1481d17db73f99cc48a4a9ec"
+    },
+    "prior_preserved": true,
+    "reason": "Root and independent reviewer fixed exact endpoint indexing and stronger predeclared success/side-effect conditions before any new training.",
+    "changes": [
+      "step1=0,step200=1 endpoint-inclusive linear schedule; replace v2 zero-based u/200.",
+      "Require stochastic persequence accuracy +5pp, mean persequence accuracy no decline, mean lengthMAE remains0, and stochastic supported-AA macro no decline. M−S gap change is reported, not a sufficient or independently necessary success condition."
+    ]
+  }
+}

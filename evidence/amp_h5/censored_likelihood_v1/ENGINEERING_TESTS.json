@@ -1,0 +1,8 @@
+{
+  "gradient_max_error": 1.577359909354925e-10,
+  "closedform_max_error": 1.6065361617412233e-08,
+  "status": "PASS",
+  "finite_extreme_tails": true,
+  "point_only_objectives_identical": true,
+  "synthetic_only": true
+}

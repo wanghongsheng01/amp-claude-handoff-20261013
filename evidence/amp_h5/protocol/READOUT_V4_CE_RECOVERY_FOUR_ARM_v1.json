@@ -1,0 +1,90 @@
+{
+  "schema_version": "AMP_H5_PHASE_SPLIT_READOUT_V4",
+  "base_directory": "..",
+  "methods": {
+    "CE21_DDPM": {
+      "training_source_root": "runs/formal_v2/categorical_ce",
+      "generation_attempt_root": "runs/ce_checkpoint_recovery_v1",
+      "training_instance_id": "formal_v2/categorical_ce",
+      "generation_attempt_id": "ce_checkpoint_recovery_v1"
+    },
+    "MSE21_DDPM": {
+      "training_source_root": "runs/formal_v2/raw_onehot_mse",
+      "generation_attempt_root": "runs/formal_v2/raw_onehot_mse",
+      "training_instance_id": "formal_v2/raw_onehot_mse",
+      "generation_attempt_id": "raw_onehot_mse_v2"
+    },
+    "scalar_DDPM": {
+      "training_source_root": "runs/formal_v2/scalar_legacy",
+      "generation_attempt_root": "runs/formal_v2/scalar_legacy",
+      "training_instance_id": "formal_v2/scalar_legacy",
+      "generation_attempt_id": "scalar_legacy_v2"
+    },
+    "terminal_LSTM": {
+      "training_source_root": "runs/formal_v1/terminal_lstm",
+      "generation_attempt_root": "runs/formal_v1/terminal_lstm",
+      "training_instance_id": "formal_v1/terminal_lstm",
+      "generation_attempt_id": "formal_v1/terminal_lstm"
+    }
+  },
+  "evaluation_directories": [
+    "feasibility/ce_recovery_four_arm_evaluation_v1"
+  ],
+  "recovery_postflight_receipt": {
+    "path": "review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+    "bytes": 14870,
+    "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484"
+  },
+  "context_evidence": [
+    {
+      "path": "protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+      "bytes": 4150,
+      "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06"
+    },
+    {
+      "path": "review/independent/READOUT_V4_INDEPENDENT_REVIEW_v1.json",
+      "bytes": 4298,
+      "sha256": "fdb6da4032a2b1675a3105d0e99227c4ec41e741d09ccf70fad73e9c70f6a0a0"
+    },
+    {
+      "path": "review/independent/AR_FORMAL_POSTFLIGHT_REVIEW.json",
+      "bytes": 5301,
+      "sha256": "3e523bc8d7f4c1a3aef8f442b33a1976d601aba8e5c8bed825b9427b8bbf62fb"
+    },
+    {
+      "path": "review/independent/MSE_V2_POSTFLIGHT_v1.json",
+      "bytes": 21294,
+      "sha256": "a0a410526b6a252ba1f73fd3957dea5ee20413bb6e5c264fca5d34a4eec97b71"
+    },
+    {
+      "path": "review/independent/SCALAR_V2_POSTFLIGHT_v1.json",
+      "bytes": 14224,
+      "sha256": "911a453786a351ac4365e30c818af37aaeac446c5c93159fedf17aab37396d5c"
+    },
+    {
+      "path": "feasibility/ce_recovery_four_arm_execution_v1/EVALUATION_COMMAND.json",
+      "bytes": 11185,
+      "sha256": "09ce64689f67b1c08ab40e104a70c0725cbb8a574e4eeaff9ed93c1f4840b116"
+    },
+    {
+      "path": "feasibility/ce_recovery_four_arm_execution_v1/EVALUATION_RESULT.json",
+      "bytes": 4174,
+      "sha256": "5577a7759bc91644833be94019902bd24547c79af604eaa2ac95617187f29bd7"
+    },
+    {
+      "path": "feasibility/ce_recovery_four_arm_evaluation_v1/MANIFEST.json",
+      "bytes": 1849,
+      "sha256": "71d996665d80af3a4f831062d1033f9454713a249cb22252a27ce6221b96209f"
+    },
+    {
+      "path": "feasibility/CE_RECOVERY_MSE_AR_THREE_ARM_DELIVERY_v1.json",
+      "bytes": 9374,
+      "sha256": "d0bb39e3f90c93b284acca9308a6f97737a3afc598a49908695c660d85e7f891"
+    },
+    {
+      "path": "feasibility/CE_RECOVERY_AR_PARTIAL_WITH_ADDENDUM_INDEX_v1.json",
+      "bytes": 1525,
+      "sha256": "bb0a2ec8a18742702d57f20fe559ece92fe9a0a81ec0734c7af0d084e58f0714"
+    }
+  ]
+}

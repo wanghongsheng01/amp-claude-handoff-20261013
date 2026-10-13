@@ -1,0 +1,40 @@
+{
+  "audit_date": "2026-10-12",
+  "digest": "SHA256",
+  "files": [
+    {
+      "path": "DRAFT_SCOPE_COST_REVIEW_v1.md",
+      "bytes": 3398,
+      "sha256": "e5c2ca94490e5d86f9f23c50d537871725f4b84bf9118f1e3d05d41ee1552b5e"
+    },
+    {
+      "path": "NOVELTY_CHALLENGE_v1.md",
+      "bytes": 15776,
+      "sha256": "9a19f600fa1e455fadcdb46b74634d1a6fc7b26102eb8edbbcfc90c41d76e5e3"
+    },
+    {
+      "path": "NOVELTY_DECISION_v1.json",
+      "bytes": 2487,
+      "sha256": "8df97a07a399221ecafc3930b6d43b4604afe9157c9846022e77f4a90724fe10"
+    },
+    {
+      "path": "code_audit/OFFICIAL_CODE_AUDIT_v1.json",
+      "bytes": 6285,
+      "sha256": "f669c3779fbad74bd3c469aae144d9f3ae5e3699119bd41be0c74ea37378bdd1"
+    },
+    {
+      "path": "code_audit/OFFICIAL_CODE_AUDIT_v1.md",
+      "bytes": 11517,
+      "sha256": "df00017260fa3b214d0ca077a6820a9cdd33d023e08a43ea1b7d776d2c52cef7"
+    },
+    {
+      "path": "mathematical_audit.md",
+      "bytes": 22425,
+      "sha256": "76141f9a769d57d86cfb34ddb0012a0f552437b5010263b14ddf33208547c2d8"
+    }
+  ],
+  "paper_source_snapshot_note": "Explicit versioned official URLs were read via web tools; original PDF/HTML bytes were not locally archived or byte-hashed by this auditor.",
+  "code_source_snapshot_note": "Current official repository commit and selected Git blob identifiers are preserved in code_audit/OFFICIAL_CODE_AUDIT_v1.json; these are Git identities, not claims of successful execution.",
+  "status": "STATIC_SOURCE_VERIFIED_RUNNABLE_UNVERIFIED",
+  "backup_status": "BACKUP_BLOCKED"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "NOT_EXECUTED_TEMPLATE_ONLY",
+  "future_argv": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-u",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+    "--plan",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_BETA_WARMUP_VAE_ONLY_PLAN_v1.json",
+    "--receipt",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_PREFLIGHT_v1.json",
+    "--launch-record",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/ops/WARMUP_LAUNCH_v1.json"
+  ],
+  "receipt_required_fields": {
+    "authorized": true,
+    "plan_sha256": "ROOT_FILL_ACTUAL_PLAN_SHA",
+    "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+    "launcher_sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+    "scope_id": "AMP_H5_CE_BETA_WARMUP_VAE_ONLY_V1"
+  },
+  "outer_timeout_in_actual_job": 2100,
+  "no_automatic_execution": true,
+  "no_existing_launch_or_output_allowed": true
+}

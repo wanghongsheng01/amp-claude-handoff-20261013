@@ -1,0 +1,8 @@
+{
+  "returncode": 0,
+  "wall_seconds": 0.055293042,
+  "stdout": "{\"output\": \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_author_readout_v1\", \"recovery_L\": \"PASS\", \"recovery_G\": \"FAIL\", \"original_protocol_E_L_G\": \"NOT_EVALUABLE\", \"v4_executed\": false, \"scalar_output_reads\": 0}\n",
+  "stderr": "",
+  "v4_executed": false,
+  "scalar_output_reads": 0
+}

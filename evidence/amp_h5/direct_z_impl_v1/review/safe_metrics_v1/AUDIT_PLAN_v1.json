@@ -1,0 +1,149 @@
+{
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "created_utc": "2026-10-12T04:15:29.239941+00:00",
+  "independent_author": "/root/ar_admission_independent",
+  "audit_script": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1/safe_metrics_audit.py",
+  "audit_script_sha256": "6f5d376210ebba873f84c599d0407f3ab4cb2eeb52d32197e86bf83edad314f7",
+  "python_executable": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+  "python_flags": [
+    "-I",
+    "-S",
+    "-B"
+  ],
+  "source_imports": false,
+  "imports_static_allowlist": [
+    "argparse",
+    "collections",
+    "csv",
+    "datetime",
+    "hashlib",
+    "json",
+    "math",
+    "os",
+    "pathlib",
+    "signal",
+    "subprocess",
+    "sys",
+    "time",
+    "traceback"
+  ],
+  "inputs": [
+    {
+      "role": "config",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/CONFIG.json",
+      "sha256": "08ed64a4238c40a496d31f45094a6ad17c06a50c2784c23692155827fc49ce9d"
+    },
+    {
+      "role": "generation_slots",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/GENERATION_SLOTS.json",
+      "sha256": "b3e9a437f7f15f9661a7d6cb0364bdde15c8244b0ae073e98cfa814c5fe3b5a9"
+    },
+    {
+      "role": "historical_slots",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/GENERATION_SLOTS.json",
+      "sha256": "5c647c49e8b7702ac87cfc082f3aea97d4b76fc3dd96bf8b5fb26f5ab7ffcf5a"
+    },
+    {
+      "role": "train",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660"
+    },
+    {
+      "role": "development",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1"
+    },
+    {
+      "role": "metric_spec_text",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    },
+    {
+      "role": "gate_spec_text",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/score.py",
+      "sha256": "a1fb0174ff09e968108b85a0863c6ccfa76c160e6fd74d9ee8e0ef1bb725b7e1"
+    },
+    {
+      "role": "frozen_plan",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/MINIMAL_PLAN_v2.json",
+      "sha256": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8"
+    },
+    {
+      "role": "runner_metrics",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/METRICS.json",
+      "sha256": "80be37eaf5ce259aced5b311a1b6b83efb4955068abdbb3d50aff17f45763806"
+    },
+    {
+      "role": "old_audit",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/postflight_v1/AUDIT.json",
+      "sha256": "254907b9340825b4158e3c1cdb70ca42dac9cc21670aec4a71d721dd824832c4"
+    },
+    {
+      "role": "old_audit_process",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/postflight_v1/PROCESS_RESULT.json",
+      "sha256": "5c2008e095822776cd7ed08718d5c55586cc00cc4ae565c5e5da3d7de56dedbb"
+    },
+    {
+      "role": "engineering_process",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/synthetic_window_v1/PROCESS_RESULT.json",
+      "sha256": "238365ba5fff5b0f52a0cbf4dcb6a3c92afcf8dd1f246fe36521ecd833da7c02"
+    },
+    {
+      "role": "natural_process",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/execution_v1/RESULT.json",
+      "sha256": "1ab5fb72cfb2d283bc6fb8af19aa938c78cecfcd5dd73a7148fa8df992fac98c"
+    }
+  ],
+  "outer_seconds": 30,
+  "maximum_attempts": 1,
+  "retry_allowed": false,
+  "numeric_tolerance": {
+    "absolute": 1e-12,
+    "relative": 1e-10
+  },
+  "numeric_match_rule": "abs(a-b) <= absolute + relative*max(abs(a),abs(b)); integers, booleans, nulls, strings and gate decisions exact; thresholds are never relaxed.",
+  "metric_contract": {
+    "feature_dimensions": 421,
+    "blocks": [
+      "length/48",
+      "20 within-sequence AA fractions",
+      "400 within-sequence adjacent-pair fractions"
+    ],
+    "squared_kernel_block_weight": "1/3 each",
+    "MMD": "biased linear MMD^2 = squared distance between mean feature vectors",
+    "JS": "pooled adjacent-pair Jensen-Shannon divergence, base2",
+    "denominator": "16 requested slots per arm/terminal, all96 retained",
+    "mechanism": "Z vs R; both terminals must pass every frozen inequality",
+    "value": "Z vs C interpreted only when mechanism passes",
+    "reference": "terminal-matched dev18 FREE/dev23 AMD; no fitted scale or bandwidth"
+  },
+  "runner_result_exposure_rule": "Hash runner METRICS as opaque bytes before run; parse only after independent results have been saved.",
+  "required_checks": [
+    "exact input hashes unchanged",
+    "train279/dev41 identity",
+    "96 slots and C32 full-row historical equality",
+    "421 feature summaries and core/complementary metrics",
+    "complete/empty/failure/cap/legal/copy/duplicate denominators",
+    "two frozen screens and all individual inequalities",
+    "runner scalar comparison and embedded-slot equality",
+    "original AUDIT_FAILED preserved"
+  ],
+  "not_covered": [
+    "nearest_train_edit recomputation",
+    "checkpoint loading or integrity semantics",
+    "latent or RNG state replay",
+    "training correctness or end-to-end independent PASS",
+    "biological activity or population superiority"
+  ],
+  "old_postflight_wall_seconds": 1.7893823338672519,
+  "combined_postflight_cap_seconds": 60,
+  "maximum_combined_postflight_seconds": 31.78938233386725,
+  "model_forward": 0,
+  "new_rng": 0,
+  "new_training": 0,
+  "new_generation": 0,
+  "test_reads": 0,
+  "checkpoint_pickle_npz_reads": 0,
+  "write_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/safe_metrics_v1",
+  "promotion_authorized": false
+}

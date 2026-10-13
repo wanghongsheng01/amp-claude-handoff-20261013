@@ -1,0 +1,101 @@
+{
+  "status": "COVERAGE_PASS_FINISHED",
+  "stop_reason": null,
+  "new_details": 54,
+  "coverage": "200/200",
+  "remaining": 0,
+  "batch_attempts": 54,
+  "never_attempted_ids_tried": 47,
+  "previous_failure_ids_revisited": 7,
+  "min_completion_to_next_start_seconds": 5.105310790706426,
+  "max_request_seconds": 2.0452787498943508,
+  "all_peptides": {
+    "rows": 200,
+    "peptide_IDs": 200,
+    "exact_sequences": 192,
+    "annotation_fingerprints": 200,
+    "families": 141,
+    "source_family_components": 68
+  },
+  "all_MIC": {
+    "rows": 1788,
+    "peptide_IDs": 165,
+    "exact_sequences": 158,
+    "annotation_fingerprints": 165,
+    "families": 119,
+    "source_family_components": 53
+  },
+  "Ecoli_MIC": {
+    "rows": 318,
+    "peptide_IDs": 158,
+    "exact_sequences": 153,
+    "annotation_fingerprints": 158,
+    "families": 115,
+    "source_family_components": 50
+  },
+  "native_point_groups": {
+    "ug_ml_native": {
+      "rows": 103,
+      "peptide_IDs": 71,
+      "exact_sequences": 66,
+      "annotation_fingerprints": 71,
+      "families": 49,
+      "source_family_components": 27
+    },
+    "uM_native": {
+      "rows": 88,
+      "peptide_IDs": 42,
+      "exact_sequences": 42,
+      "annotation_fingerprints": 42,
+      "families": 28,
+      "source_family_components": 19
+    }
+  },
+  "before_native_point_groups": {
+    "ug_ml_native": {
+      "rows": 79,
+      "peptide_IDs": 54,
+      "exact_sequences": 49,
+      "annotation_fingerprints": 54,
+      "families": 32,
+      "source_family_components": 21
+    },
+    "uM_native": {
+      "rows": 70,
+      "peptide_IDs": 29,
+      "exact_sequences": 29,
+      "annotation_fingerprints": 29,
+      "families": 20,
+      "source_family_components": 14
+    }
+  },
+  "old_sources_unchanged": true,
+  "old_MIC_retention": {
+    "old_all1278_MIC_fields_unchanged_except_recomputed_groups": true,
+    "old240_native_eligibility_unchanged": true
+  },
+  "measurement_source_entries": 124,
+  "training": 0,
+  "test37_reads": 0,
+  "manuscript_edits": 0,
+  "backup": "BACKUP_BLOCKED",
+  "native_point_missing_covariates": {
+    "ug_ml_native": {
+      "medium": 3,
+      "cfu": 19,
+      "ph": 103,
+      "ionic_strength": 99,
+      "salt": 99,
+      "both_termini_observed": 103
+    },
+    "uM_native": {
+      "medium": 14,
+      "cfu": 19,
+      "ph": 88,
+      "ionic_strength": 86,
+      "salt": 86,
+      "both_termini_observed": 86
+    }
+  },
+  "missing_bias": "All fixed200 details now present (0 acquisition-missing); earlier timeouts/HTTP failures remain in history and were not label-selected. Full detail coverage does not resolve missing MIC fields, source linkage or assay covariates and does not make this fixed-position sample representative of database prevalence or efficacy. Families/source components are operational groupings, not certified independent biology."
+}

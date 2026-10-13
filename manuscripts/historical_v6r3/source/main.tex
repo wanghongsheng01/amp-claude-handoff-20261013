@@ -1,0 +1,489 @@
+\documentclass[journal]{IEEEtran}
+
+% *** PACKAGES ***
+\usepackage[T1]{fontenc}
+% Preserve visible glyphs while mapping CMEX delimiters to valid Unicode.
+\input{glyphtounicode}
+\input{glyphtounicode-cmex}
+\pdfgentounicode=1
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+% Correct bad hyphenation
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+% Use the style's supported spacing control without changing reference metadata.
+\bstctlcite{AMPv6SpacingControl}
+
+% Paper title
+\title{Antimicrobial Peptide Candidate Generation with a Sequence-and-Descriptor VAE and Class-Conditioned Diffusion}
+
+% Author information
+\author{Hongsheng~Wang,~\IEEEmembership{Member,~IEEE,}
+        Jie~Yang,~\IEEEmembership{Member,~IEEE,}
+        Feng~Lin,
+        and~Fei~Wu,~\IEEEmembership{Member,~IEEE}
+\thanks{H. Wang and F. Wu are with Zhejiang University, Zhejiang, China, 310058 (e-mail: wanghongsheng@zju.edu.cn; wufei@zju.edu.cn).}
+\thanks{J. Yang is with the School of Automation, Hangzhou Dianzi University, Zhejiang, China, 310018 (e-mail: yangjie08@hdu.edu.cn). (Corresponding author)}
+\thanks{F. Lin is with Fuyao University of Science and Technology, Fujian, China, 350109 (e-mail: asflin@fyust.org.cn).}
+\thanks{The historical manuscript lists grants U22A2047 and 62371173; their association with this work requires author confirmation.}
+}
+
+% Running heads
+\markboth{}%
+{Wang \MakeLowercase{\textit{et al.}}: VAE and Class-Conditioned Diffusion for AMP Candidate Generation}
+
+% Make the title area
+\maketitle
+\noindent\textbf{Evidence-reconciliation draft v6-r3, 11 October 2026.}
+This isolated revision preserves historical source material while correcting statements against the retrieved implementation and laboratory records. It is not a validated reproduction or a submission-ready manuscript. Historical run provenance, assay interpretation, and author confirmation remain open.
+
+% Abstract
+\begin{abstract}
+The global challenge of microbial infections and antibiotic resistance motivates the design of antimicrobial peptides (AMPs). This paper describes a two-stage model combining a sequence-based variational autoencoder (VAE), physicochemical descriptors, and class-conditioned diffusion. The retrieved implementation models the posterior mean and log-standard-deviation tensors; a latent is sampled after reverse diffusion and decoded by a convolutional decoder. The historical materials document synthesis reports for 27 candidates and a reported six active candidates, but disagree on the activity criterion and denominator. A retrospective count of the supplied MIC summary gives seven candidates with at least one recorded numeric MIC below 128 $\mu$g/mL; undefined entries are retained as unknown. This count does not establish label-specific control, an unconditional generation success rate, or an architectural advantage. The code-to-run linkage, independent evaluation split, selection ledger, and assay aggregation rules require resolution before these claims can be tested.
+
+\end{abstract}
+
+% Keywords
+\begin{IEEEkeywords}
+Multimodal, two-stages probabilistic distribution, antimicrobial peptide, conditional generation, variational autoencoder, diffusion model.
+\end{IEEEkeywords}
+
+% Introduction section
+\section{Introduction}
+\IEEEPARstart{A}{ntibiotic} resistance motivates investigation of antimicrobial peptides (AMPs) as candidate antibacterial agents. Reviews describe membrane-disrupting and intracellular mechanisms for different AMPs, together with constraints associated with resistance, host toxicity, and stability~\cite{huan2020antimicrobial,gan2021multifaceted}. These mechanisms do not by themselves establish clinical selectivity, safety, or freedom from resistance for a newly generated sequence.
+
+Computational discovery can identify AMP candidates for testing under specified conditions. For example, Huang et al. screened a library of six- to nine-residue peptides and evaluated selected candidates against bacterial isolates and in mouse pneumonia models~\cite{huang2023identification}. Those results concern the evaluated candidates and study conditions; they do not establish that AMPs as a class provide precise treatment, fewer side effects, or a replacement for broad-spectrum antibiotics. The objective considered here is class-conditioned candidate generation for subsequent experimental assessment.
+
+Experimental AMP development combines sequence design, peptide production, characterization, and biological testing~\cite{huan2020antimicrobial,gan2021multifaceted}. The work needed to produce and assess candidates motivates computational prioritization, including frameworks that combine sequence generation with activity prediction~\cite{li2021pepvae}. Candidate generation, predictor-based screening, and experimental evaluation are distinct steps; success at one step does not establish success at the others.
+
+Deep generative models are studied for molecular design~\cite{meyers2021denovo,zhavoronkov2023generative}, including AMP candidate generation followed by screening or experimental assessment~\cite{das2021accelerated,szymczak2023discovering}. Recurrent neural networks have been applied to molecular generation~\cite{segler2018generating,kotsias2020direct} and peptide sequence design~\cite{muller2018recurrent}. Variational autoencoders (VAEs) learn latent representations using encoder--decoder models~\cite{kingma2014autoencoding}; AMP applications include sequence generation from learned latent spaces~\cite{dean2020variational} and PepVAE, which combines a VAE with antimicrobial activity prediction~\cite{li2021pepvae}. Building on denoising diffusion models~\cite{ho2020denoising}, diffusion-based methods have been reported for protein structure design~\cite{watson2023denovo}, protein sequence generation~\cite{huang2024cpdiffusion}, and AMP generation~\cite{jin2024artificial}. These citations identify method families and applications; their published outcomes are not a matched performance comparison with the present model.
+
+Protein language models provide learned sequence representations~\cite{rives2021biological,elnaggar2021prottrans,brandes2022proteinbert,lin2023evolutionary}, while structure prediction networks address protein or biomolecular structure inference~\cite{jumper2021highly,baek2021accurate,abramson2024accurate}. Graph neural networks have been studied for molecular property prediction~\cite{wieder2020compact,xiong2020pushing,maziarka2024transfer}, and reinforcement learning for molecular design and optimization~\cite{olivecrona2017molecular,zhou2019optimization,wang2023denovo}. These related computational tasks do not by themselves establish antimicrobial activity or the validity of the historical structure predictions examined here.
+
+Two evaluation objectives motivate the present analysis:
+\begin{enumerate}
+\item The first objective is to assess whether the reported reconstruction and generation results are linked to documented training data, activity labels and independent evaluation partitions. Unlabeled sequence data and sequence-derived descriptors do not supply measured antibacterial outcomes. Their value for generalization requires a controlled comparison with verified partitions.
+\item The second objective is to assess whether class conditioning changes measured antibacterial activity after accounting for candidate selection. Related frameworks use activity predictors or additional preselection~\cite{li2021pepvae,szymczak2023discovering}; their effects must be distinguished from those of the generator. A class-conditioned sampling procedure alone does not demonstrate label-specific antibacterial control.
+\end{enumerate}
+
+This paper describes a two-stage sequence-and-descriptor model and reconciles its retrieved implementation with the available historical records. The following components define the inspected computational design; their empirical contribution remains to be established:
+
+\textbf{(i) Sequence and descriptor inputs to a VAE:} The retrieved VAE combines residue embeddings with aligned triplet descriptors and a global nine-dimensional descriptor vector. The historical manuscript describes pretraining on UniProt-derived sequences. The actual data snapshot, preprocessing and independent split have not been recovered, so this representation cannot yet be credited with improved robustness or generalization.
+
+\textbf{(ii) Class-conditioned diffusion of posterior parameters:} The retrieved implementation applies diffusion to the VAE posterior mean and log-standard-deviation tensors. After reverse diffusion, a latent is sampled and decoded into a candidate sequence. The sampler uses supplied class labels without querying an activity predictor, but the historical selection procedure uses AMP Scanner. The end-to-end pipeline is therefore not classifier-independent, and label-specific antibacterial control remains an empirical question.
+
+% Results section
+\section{Implementation and Supplied-Record Analysis}
+\label{sec:evidence_scope}
+This section separates a static account of the retrieved implementation from a retrospective description of the supplied MIC records. The repository snapshot is commit \texttt{e7486fb} of \texttt{3DHumanRehab/AMP}; its defaults cannot be assumed to identify the historical experiment. The archived VAE configuration uses the same training and validation path, and both diffusion scripts validate through the training loader. Actual run configurations, checkpoints, split membership and logs have not been recovered. Historical reconstruction, computational-comparison and structure exhibits are preserved in the separate provenance archive and are not used as empirical support in this manuscript. The revised Methods describe the fixed source implementation, not a retrospectively certified run.
+
+\subsection{Multimodal Deep Generative Probabilistic Model}
+
+To model peptides and specifically generate desired AMPs, a multimodal probabilistic model comprising two stages is proposed, as shown in Fig.~\ref{fig:framework}. The first stage employs a sequence-based VAE to fit and learn the broad probabilistic distribution and contextual relationships of peptides. The second utilizes a conditionally controlled diffusion generative model; the model focuses on fitting the probability distribution of AMPs with specific functions based on the general probabilistic distribution of known peptides, with the aim of condition-dependent generation. This describes the intended two-stage design; its antibacterial control and advantage over matched alternatives remain to be demonstrated.
+
+% Figure 1
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{../materials/figures/fig1_v6r3_method_overview.pdf}
+\caption{Two-stage design in the retrieved implementation. \textbf{a.} VAE training uses a reconstruction objective and a separate flow-dependent KL term. \textbf{b.} The frozen encoder supplies posterior mean and log-standard-deviation tensors to a class-conditioned diffusion model. \textbf{c.} Generation produces posterior parameters, samples a latent, and decodes a sequence. This is a static implementation schematic, not evidence of a verified historical run, structure-prediction confidence or biological control.}
+\label{fig:framework}
+\end{figure*}
+
+The historical manuscript attributes VAE pretraining to UniProt TrEMBL and reports sequence counts at several length cutoffs. The database snapshot, complete retained sequence file and exact filtering and split manifests have not been recovered. These historical counts are preserved in the provenance archive rather than treated as verified dataset sizes. The archived model uses 48 sequence positions; the corresponding historical length filter remains to be established.
+
+Nevertheless, these sequences are merely strings of letters. The historical manuscript describes two descriptor representations. The recovered scripts and their unresolved connection to the training inputs are distinguished below:
+
+\textbf{First}, the historical manuscript associates each residue with molecular weight (MolWt), partition coefficient (LogP), and topological polar surface area (TPSA). The retrieved dataset-side descriptor script constructs a molecule directly with \texttt{Chem.MolFromSequence}, calculates these three quantities, rounds them to two decimals, and preserves residue order. A separate task-side script instead calculates MolWt, hydrogen-bond acceptor count, and hydrogen-bond donor count. The historical run has not been linked to either script, and the outlier-based feature-selection procedure described in the old manuscript has not been recovered.
+
+\textbf{Second}, the historical manuscript lists nine global peptide descriptors: total ring count, aromatic ring count, saturated ring count, fraction of sp$^3$ carbons, Hall--Kier alpha, accessible surface area, maximum partial charge, minimum partial charge, and total polar surface area. The retrieved model consumes a nine-dimensional vector and applies an elementwise absolute value. The source of the historical vector, its scaling parameters, and the partition used to fit any scaling have not been recovered.
+
+These descriptor representations are sequence-derived model inputs. Their numerical consistency and their benefit over sequence-only inputs require a verified preprocessing record and a controlled comparison.
+
+\subsubsection{Multimodal Flow-Guided Variational Autoencoder}
+
+As illustrated in Fig.~\ref{fig:framework}, the retrieved VAE accepts three inputs: an amino-acid sequence, one triplet of physicochemical descriptors per residue, and a nine-dimensional global descriptor vector. The implementation determines how these inputs are combined; it does not establish a measured benefit from adding descriptors.
+
+The sequence and triplet inputs share residue positions. The encoder combines their representations using gated convolutions and retains a latent value at each padded sequence position. The retrieved reconstruction objective includes padding positions. These are implementation properties, not evidence of a unique architecture or improved generalization.
+
+The historical ablation values and reconstruction illustrations have no recovered run logs, normalization settings or independent split membership. They are retained in the provenance archive and excluded from the empirical results here. In the retrieved implementation, repeating the global descriptor across positions gives identical attention keys and values; this is equivalent to adding the same projected global vector at each position.
+
+A higher reconstruction loss alone does not demonstrate greater novelty, useful clustering, or better antimicrobial activity. Those hypotheses require same-data, same-budget ablations and outcome-specific measurements.
+
+The retrieved VAE includes a conditional additive coupling flow in its prior/KL term. The diffusion stage models posterior parameters, and final sequence generation samples in posterior space and calls the decoder without an inverse-flow step. The empirical benefit of the flow remains unverified.
+
+The historical report of 98 equal-length reconstructions among 100 examples is preserved in the provenance archive. It cannot establish independent reconstruction performance without the example identities and run/split linkage.
+
+% Figure 2
+
+
+\subsubsection{Conditional Diffusion Model for Sequence Generation}
+
+As illustrated in Fig.~\ref{fig:framework}(b), the two-stage design uses VAE posterior parameters as a representation for conditional diffusion. The intended role of VAE pretraining is to supply sequence features learned from a larger unlabeled collection before fitting the class-conditioned model on AMP data. The retrieved implementation establishes this computational path, but the historical training summaries do not demonstrate improved reconstruction, novelty, or antibacterial specificity relative to matched alternatives.
+
+The historical source describes three APD-derived condition labels: anti-Gram-negative, anti-Gram-positive, and broad-spectrum. Source-level activity records, assay coverage, and label-construction rules have not been recovered, so missing activity annotations cannot be interpreted as measured inactivity or specificity. In the retrieved implementation, the VAE supplies $(\mu,\ell)$ with $\ell=\log\sigma$; these posterior parameters, rather than a sampled latent, form the diffusion input. Class embeddings condition the denoising network.
+
+\subsubsection{Generation of Sequence Feature Distribution Parameters}
+
+As illustrated in Fig.~\ref{fig:framework}(c), reverse diffusion generates posterior parameters, followed by latent sampling and decoding. Historical bar values, t-SNE plots and heatmaps are preserved outside the main manuscript because their samples, coordinates, normalization and plotting settings have not been recovered. No matched computational-performance comparison is available from these materials.
+
+% Figure 3
+
+
+The historical manuscript reports maximum pairwise BLOSUM62-based similarities to label-specific training sequences. The generated pool, alignment settings, and per-sequence results have not been recovered. Similarity to a training label group does not establish antibacterial specificity, and no same-budget baseline or controlled ablation result is available in the retrieved materials.
+
+The historical analysis uses the modlamp instability index~\cite{muller2018modlamp} and sequence similarity as computational descriptors. An instability score is not a measured stability, toxicity, or safety result, and low sequence similarity alone is not proof of functional novelty. Raw generated sequences and analysis settings are needed to reproduce these summaries.
+
+\subsection{Screening of Generated Results}
+
+The historical manuscript describes a pool of 1000 generated sequences and filters for positive charge at pH 7.4, AMP Scanner score $>0.9$, instability index 10--40, and reported similarity no greater than 70\% to the training data. The complete generated pool, per-stage candidate IDs and counts, exact similarity definition, and retained/rejected records are unavailable. These are reported historical criteria, not a reproduced selection protocol.
+
+The use of AMP Scanner~\cite{veltri2018ampscannerv2} means that computational screening depends on a learned predictor even though the diffusion sampler does not query that predictor. Its training data overlap with candidates and evaluation data must also be audited before independent generalization can be claimed.
+
+A future independent validation requires exact-sequence deduplication, similarity-based grouping, and explicit cross-partition overlap audits across VAE training, diffusion training, candidate selection, and evaluation. The historical split must remain distinguishable from any new split; naming a clustering tool alone does not establish absence of leakage.
+
+\subsection{Wet-Laboratory Characterization}
+
+The retrieved records contain supplier reports for 27 candidate peptides and MIC summaries for four strains: \textit{E. coli} ATCC 25922, \textit{P. aeruginosa} ATCC 27853, \textit{S. aureus} ATCC 29213, and \textit{E. faecalis} ATCC 29212. A historical order screenshot lists 30 requested peptides, with 27 dispatched or awaiting dispatch and three still in production. The accompanying record attributes difficulty to hydrophobicity; it does not document the final fate of those three candidates. The supplier COA reports HPLC purity of 80.3\% for pp1-7, whereas the other 26 COAs report 95.0--99.1\%. The 80.3\% value meets the order's stated minimum purity of 80.0\%. These are supplier-reported measurements; pp1-7 is retained in the supplied-summary analysis, and its purity does not resolve any unknown MIC entry.
+
+The source process note describes six active candidates using a 200 $\mu$g/mL criterion, while its screenshot states 6/30. The manuscript instead reports 6/27 (22\%) at 128 $\mu$g/mL and label-group rates of 0\%, 12.5\%, and 25\%. The exact historical activity rule and group denominators are unresolved. The six highlighted IDs coincide with six low numeric MICs in the \textit{S. aureus} column, but that coincidence does not establish the intended rule. These original values, including the zero result, are retained here as unresolved historical reports rather than evidence of conditional control.
+
+An additional historical DOCX contains an embedded 30-row candidate screenshot, including pp1-6, pp3-8, and pp3-10, which are absent from the supplied 27-row summary. This recovers candidate-ID evidence but not the original order mapping or the final disposition of those three peptides. In the screenshot, the \textit{E. coli} entry for pp2-3 is N; both supplied workbooks instead contain 250 $\mu$g/mL. Five other screenshot entries are blank but populated in the workbooks. The assay dates and reasons for these version changes remain unknown, so neither representation is used to overwrite the other or counted as an independent experiment. The same DOCX still contains wet-laboratory placeholders; its threshold wording is not evidence of a finalized assay rule.
+
+The complete supplied summary is reported in Table~\ref{tab:complete_mic_summary}, including all 27 candidate IDs and all N entries. A retrospective count using a strict numerical MIC threshold of $<32$, $<128$, or $<200$~$\mu$g/mL identifies at least one recorded value below threshold in 6, 7, and 7 of the 27 listed candidates, respectively. For \textit{S. aureus} alone, the corresponding counts are 6, 6, and 6 of 27. The denominator is the 27 candidates listed in the summary. It does not establish that all four MICs are interpretable for every candidate and does not represent the full generated population. These are counts of recorded numerical values below specified thresholds, not generation-success rates. N remains undefined and is not interpreted as inactivity or censoring. Neither the two matching workbook exports nor this arithmetic resolves the original assay endpoint, aggregation rule, or historical selection process.
+
+Table~\ref{tab:comparison} lists these threshold-specific counts with their denominators. Published success rates with different thresholds, organisms, filters and denominators are not fair baselines for these data.
+
+% Retrospective counts; no model-level baseline claim.
+\begin{table}[!t]
+\caption{Retrospective numeric-MIC counts among 27 supplied candidates. Undefined N entries remain unknown.}
+\label{tab:comparison}
+\centering
+\begin{tabular}{lcc}
+\toprule
+Strict threshold & Any of four strains & \textit{S. aureus} only \\
+\midrule
+$<32$ $\mu$g/mL & 6/27 & 6/27 \\
+$<128$ $\mu$g/mL & 7/27 & 6/27 \\
+$<200$ $\mu$g/mL & 7/27 & 6/27 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The historical group-descriptor table and predicted-structure images lack verified sample-ID and computation mappings. Their exact content is preserved in the provenance archive; they are not presented as measurements of stability, potency, safety or antibacterial mechanism.
+
+% Table 2: Physicochemical Properties
+
+
+
+% Figure 4
+
+
+% Figure 5
+
+
+Table~\ref{tab:complete_mic_summary} gives all supplied values by sample ID, including pp1-1, whose \textit{E. faecalis} value changes the any-strain count. For pp1-1, the three reported endpoint rows are 250/125/125 for both \textit{S. aureus} and \textit{E. faecalis}, but their summaries are 250 and 125, respectively; the aggregation rule is unknown. An \textit{E. coli} blank entry of 0.3062 also requires assay review. The process record states a detection ceiling of 1000 $\mu$g/mL but does not define N. Biological versus technical replication, inhibition criteria, raw instrument exports, and assay provenance remain unresolved.
+
+% Table 3: MIC Values
+% Exact transcription of candidate cells all!A5:E31 in both supplied XLSX files.
+% File and cell hashes are recorded in source_workbooks.json and cell_provenance.json.
+% Requires booktabs. Body deliberately retains the manuscript's normal font size.
+\begin{table*}[!t]
+\centering
+\caption{Complete supplied MIC summary for 27 candidates ($\mu$g/mL). Exact numerical strings and the original N codes are transcribed from the matching \texttt{all} sheets of two supplied workbooks. These files contain the same candidate summary, not independent experimental repetitions.}
+\label{tab:complete_mic_summary}
+\begingroup
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+Sample ID & \shortstack{\textit{E. coli}\\ATCC 25922} & \shortstack{\textit{P. aeruginosa}\\ATCC 27853} & \shortstack{\textit{S. aureus}\\ATCC 29213} & \shortstack{\textit{E. faecalis}\\ATCC 29212} \\
+\midrule
+
+pp1-1 & 500 & N & 250 & 125 \\
+pp1-2 & N & N & N & N \\
+pp1-3 & 62.5 & N & 31.25 & 125 \\
+pp1-4 & N & N & N & N \\
+pp1-5 & 31.25 & 125 & 7.8125 & 125 \\
+pp1-7 & N & N & N & N \\
+pp1-8 & N & N & N & N \\
+pp2-1 & N & N & N & N \\
+pp2-2 & N & N & N & N \\
+pp2-3 & 250 & N & 250 & 1000 \\
+pp2-4 & N & N & N & N \\
+pp2-5 & 1000 & N & 250 & N \\
+pp2-6 & N & N & N & N \\
+pp2-7 & 1000 & N & 1000 & N \\
+pp2-8 & N & N & 15.625 & 62.5 \\
+pp3-1 & N & N & N & N \\
+pp3-2 & N & N & N & N \\
+pp3-3 & N & N & N & N \\
+pp3-4 & N & N & N & N \\
+pp3-5 & 250 & N & 250 & N \\
+pp3-6 & N & N & N & N \\
+pp3-7 & N & N & N & N \\
+pp3-9 & N & N & N & N \\
+pp3-11 & 62.5 & 1000 & 15.625 & 62.5 \\
+pp3-12 & N & N & N & N \\
+pp3-13 & 31.25 & N & 7.8125 & 15.625 \\
+pp3-14 & 125 & N & 31.25 & N \\
+\bottomrule
+\end{tabular*}
+\endgroup
+\par\medskip
+\parbox{\textwidth}{\raggedright N is an undefined source code; it is not assigned a negative, inactive, or censored value. Of 108 candidate--organism entries, 30 are numerical and 78 are N; 16 candidates have N in all four columns. IDs and row order are retained without inferring sequence, batch, or conditioning class. The summary transcription does not validate the original endpoint or replicate-aggregation procedure.}
+\end{table*}
+
+\section{Methods}
+
+\subsection{Design of Polypeptide Physicochemical Descriptor}
+
+\subsubsection{VAE Training with TrEMBL Database}
+
+The historical manuscript attributes VAE training data to UniProt TrEMBL and reports 3,611,582 retained peptide sequences of up to 48 residues. The retrieved CSV files are explicitly format examples, not the historical full dataset. The database snapshot, filtering implementation, exact-sequence deduplication, similarity grouping, and cross-partition audit have not been recovered. The reported training size is therefore not independently verified in this revision.
+
+\subsubsection{Isolated input-interface correction}
+The archived format examples exposed a delimiter and schema mismatch with the loader. In a separate corrected source copy, the input adapter reads named CSV or TSV columns, validates sequence length (1--48 standard residues), aligned triplets, nine global values and explicit class-index bounds, and rejects incomplete or inconsistent files. Numerical parsing does not evaluate expressions; negative values are preserved at the interface. The model's existing absolute-value operation on global inputs is retained and separately disclosed. The correction is integrated into the loader and model input preparation in this isolated copy; it does not identify the historical preprocessing path.
+
+Standard-library checks accept all four records in the archived validation-format example. Four overlength records in the training-format example and three in the diffusion-format example cause their respective files to be rejected; no truncated or selectively filtered training pool is substituted. A three-column example lacking the global descriptor column is also rejected. A newly created two-record synthetic fixture exercises parsing and array dimensions only; its toy values and labels are not chemical descriptors, biological measurements or historical research data. No research-model module or training run was executed for this interface check. Model integration, complete-data throughput, descriptor validity, activity-label semantics and historical split provenance remain unverified.
+
+\subsubsection{Residual Characterization with Triplet Descriptor}
+
+The dataset-side script uses RDKit~\cite{landrum2013rdkit} to construct a molecular object directly from each residue. Figure~\ref{fig:triplet_descriptors} identifies the called function. Its active path calculates the following triplet without a SMILES serialization step:
+
+\begin{itemize}
+\item \textbf{Molecular Weight (MolWt)}: Returns the molecular weight of the constructed molecule. This revision does not recompute the historical per-residue descriptor values.
+\item \textbf{Partition Coefficient (LogP)}: Indicates the hydrophobicity and hydrophilicity of the molecule, describing its distribution tendency in polar versus nonpolar environments. Values range from highly hydrophilic (negative LogP) to highly hydrophobic (positive LogP).
+\item \textbf{Topological Polar Surface Area (TPSA)}: Describes the surface area of polar atoms in the molecule, typically related to solubility and membrane transport ability. Higher TPSA values indicate greater polarity.
+\end{itemize}
+
+For each residue, the dataset-side script constructs a triplet containing MolWt, LogP and TPSA. The resulting triplet sequence follows the original residue sequence. This operation preserves residue order. The separate task-side script uses MolWt, hydrogen-bond acceptor count, and hydrogen-bond donor count instead. No recovered run record identifies which descriptor source produced the historical training inputs.
+
+\subsubsection{Generation of Polypeptide Nonuplet Descriptor}
+
+The historical manuscript specifies the following nine global peptide descriptors. The retrieved VAE reads an existing vector; the complete historical computation and preprocessing path has not been recovered:
+
+\begin{enumerate}
+\item \textbf{Total Ring Count}: Number of ring structures in the peptide
+\item \textbf{Aromatic Ring Count}: Number of aromatic rings
+\item \textbf{Saturated Ring Count}: Number of saturated rings
+\item \textbf{Fraction of sp$^3$ Hybridized Carbons (Fsp3)}: Proportion of carbon atoms with sp$^3$ hybridization
+\item \textbf{Hall-Kier Alpha}: Molecular connectivity index indicating structural branching
+\item \textbf{Accessible Surface Area (ASA)}: Total molecular surface area accessible to solvent
+\item \textbf{Maximum Partial Charge}: Highest partial charge among all atoms
+\item \textbf{Minimum Partial Charge}: Lowest partial charge among all atoms
+\item \textbf{Total Polar Surface Area (TPSA)}: Sum of polar surface areas across the entire molecule
+\end{enumerate}
+
+The historical manuscript describes normalized and standardized global descriptors. Their preprocessing implementation and fitted parameters have not been recovered, so that transformation is unverified. The retrieved model consumes the existing nine-dimensional vector, applies an elementwise absolute value, and fuses it as specified below.
+
+
+% Figure 6
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{../materials/figures/fig6_v6_descriptor_path.pdf}
+\caption{Residue descriptor path in the retrieved dataset-side script. A molecular object is constructed directly from each residue, followed by MolWt, MolLogP and TPSA evaluation and two-decimal rounding. The task-side script uses a different triplet; neither has been bound to the historical run. No disputed historical descriptor value is inferred or recomputed here.}
+\label{fig:triplet_descriptors}
+\end{figure}
+
+% Figure 7
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{../materials/figures/fig7_v6_historical_descriptors.pdf}
+\caption{Historical labels and values for the global peptide descriptor representation. The example sequence and all nine entries are transcribed from the historical illustration, without recomputation. The underlying computation and scaling have not been recovered; these values are not a validated reconstruction of the training inputs.}
+\label{fig:nonuplet_descriptors}
+\end{figure}
+
+\subsection{Multimodal Flow-Guided VAE}
+
+\textbf{Implementation provenance.} The following description aligns the historical manuscript with the retrieved implementation (commit \texttt{e7486fb}). Its linkage to the historical training runs and reported results remains unverified. The description and algorithms specify this source implementation; they do not establish that the reported experiments were reproduced.
+
+\subsubsection{Multimodal Embedding for Encoder}
+
+The VAE input consists of the amino acid sequence $X$, the aligned triplet descriptor sequence $D$, and the global nonuplet $G$. As described in the historical manuscript, a WaveNet-style structure combines residue embeddings and convolutionally projected triplet descriptors through gated convolutional layers and residual connections. The implementation takes the absolute value of the global descriptor before fusion. Its attention module repeats the same global vector at every sequence position; the repeated keys and values make the attention output equivalent to adding the same learned value projection at each position. This implementation therefore does not provide position-specific cross-modal attention weights with distinct value content.
+
+The encoder returns matrices $\mu$ and $\ell=\log\sigma$ with $C$ latent channels and $L$ padded sequence positions. The diagonal Gaussian posterior is sampled elementwise as
+\begin{equation}
+ z=\mu+\exp(\ell)\odot\xi,\qquad \xi\sim\mathcal{N}(0,I),
+\end{equation}
+where $\odot$ denotes elementwise multiplication. The retrieved implementation pads sequences to 48 positions; $C$ and $L$ below denote the latent channel count and padded length, respectively. Padding positions participate in the reconstruction objective.
+
+\subsubsection{Flow-Based Prior}
+
+The flow maps a sampled posterior latent $z$ to a standard-normal base variable $f_\psi(z;D)$, conditioned on the aligned triplet descriptors $D$. It consists of four additive residual coupling layers interleaved with channel flips. The conditional prior density is
+\begin{equation}
+ p_\psi(z\mid D)=\pi\bigl(f_\psi(z;D)\bigr)\left|\det J_{f_\psi}(z;D)\right|,
+\end{equation}
+where $\pi$ is the standard-normal density and $J_{f_\psi}$ is the Jacobian with respect to $z$. The implemented mean-only couplings and flips preserve volume, so $\log|\det J_{f_\psi}|=0$. The flow operates on $z$, with $D$ as a condition; it does not transform $D$ into a latent sample.
+
+For a mini-batch of $B$ sequences, let $y_{bj}$ be the integer residue code at position $j$, $r_{bj}$ the decoder's scalar output, and $N_{\mathrm{res}}$ the number of non-padding positions in the batch. The task uses
+\begin{equation}
+ \mathcal{L}_{\mathrm{rec}}=\frac{1}{N_{\mathrm{res}}}\sum_{b=1}^{B}\sum_{j=1}^{L}(r_{bj}-y_{bj})^2,
+\end{equation}
+including padding positions in the numerator. With one posterior sample $z_b$ per input, its implemented KL term is
+\begin{equation}
+\begin{aligned}
+ \widehat{\mathcal{L}}_{\mathrm{KL}}=\frac{1}{C}\sum_{b=1}^{B}\bigl[&\log q_\phi(z_b\mid X_b,D_b,G_b)\\
+ &-\log\pi(f_\psi(z_b;D_b))\bigr],
+\end{aligned}
+\end{equation}
+where the log densities sum over latent channels and padded positions. The training objective is $\mathcal{L}_{\mathrm{rec}}+\lambda_{\mathrm{KL}}\widehat{\mathcal{L}}_{\mathrm{KL}}$, where $\lambda_{\mathrm{KL}}$ is the configured weight. The encoder, decoder, and flow have parameters $\phi$, $\theta$, and $\psi$, respectively. The flow contributes through this prior term. The subsequent diffusion model uses the posterior parameters, and its final decoding path does not call the inverse flow.
+
+\subsubsection{Amino Acid Sequence Reconstruction}
+
+As described in the historical manuscript, the sampled latent sequence is decoded by WaveNet-style gated convolutional layers and a one-dimensional convolutional projection. In the retrieved implementation, $D_\theta(z)$ produces one real-valued residue code per position; it is trained using the squared-error objective above. It does not use the separate Transformer modules present elsewhere in the repository.
+
+For generation, define $\mathcal{Q}$ as the implemented conversion from scalar outputs to a peptide: clamp each output to $[0,20]$, round to the nearest integer, map codes 0--19 to amino acids, and stop at the first padding code 20. Thus the generated sequence is $\mathcal{Q}(D_\theta(z))$. This specifies the implemented discretization without assuming a categorical softmax likelihood.
+
+% Figure 8
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{../materials/figures/fig8_v6r2_parameter_mechanism.pdf}
+\caption{Implementation objects and their distinct roles. \textbf{a.} A sampled posterior latent supplies the convolutional reconstruction path and a conditional additive-flow branch used in the KL term; flow output is not the diffusion input. \textbf{b.} Diffusion is trained on stacked posterior parameters after the tensor permutation used by the retrieved root script. \textbf{c.} Reverse diffusion is followed by posterior-space latent sampling and direct decoding, without an inverse-flow step. Shown dimensions and operations describe the inspected configuration; historical run provenance remains unverified.}
+\label{fig:working_principle}
+\end{figure*}
+
+\subsection{Conditionally Controlled Diffusion in AMP Generative Model}
+
+The historical manuscript describes generating sequence distribution parameters before sampling a latent sequence for decoding. In the retrieved root \texttt{diffusion.py}, the pretrained VAE is fixed and the clean diffusion input is
+\begin{equation}
+ U_0=\operatorname{stack}(\mu,\ell),\qquad \ell=\log\sigma,
+\end{equation}
+a two-channel parameter tensor with $C\times L$ entries per channel. The sampled or flow-transformed latent is not the diffusion target.
+
+Let $\beta_s$ be the fixed linear noise schedule, $\alpha_s=1-\beta_s$, and $\bar\alpha_t=\prod_{s=0}^{t}\alpha_s$. Here $T$ denotes the last nonzero index of the retrieved schedule: its arrays are indexed from 0 through $T$, its cumulative product includes index 0, and training samples $t$ from $\{1,\ldots,T\}$. The noisy input is
+\begin{equation}
+ U_t=\sqrt{\bar\alpha_t}U_0+\sqrt{1-\bar\alpha_t}\epsilon,\qquad \epsilon\sim\mathcal{N}(0,I).
+\end{equation}
+A U-Net noise predictor $\epsilon_\omega$ is trained with mean squared error over all tensor entries. A single discrete class embedding is added to the time embedding and injected into the downsampling and upsampling blocks. Labels are dropped with probability 0.1 using one decision for the mini-batch. These are source implementation details; they do not establish the biological validity of the dataset labels.
+
+During generation, the reverse-update mean is
+\begin{equation}
+ M_t=\frac{1}{\sqrt{\alpha_t}}\left(U_t-\frac{1-\alpha_t}{\sqrt{1-\bar\alpha_t}}\epsilon_\omega(U_t,t,c)\right).
+\end{equation}
+The update uses fixed variance $\beta_t I$ for $t>1$ and no added noise at $t=1$. After denoising, split $U_0$ into $\widehat\mu$ and $\widehat\ell$, sample $z=\widehat\mu+\exp(\widehat\ell)\odot\xi$ with independent $\xi\sim\mathcal{N}(0,I)$, and decode using $\mathcal{Q}(D_\theta(z))$. Algorithms~\ref{alg:training} and~\ref{alg:generation} describe this root-script path with label conditioning and without the optional additional classifier-free-guidance mixing.
+
+\begin{algorithm}[!t]
+\caption{Parameter-space diffusion training in the retrieved implementation}
+\label{alg:training}
+\begin{algorithmic}[1]
+\REQUIRE Sequence/descriptor/label data $(X,D,G,c)$, fixed encoder $E_\phi$, schedule $\{\beta_s\}_{s=0}^{T}$
+\ENSURE Noise predictor $\epsilon_\omega$
+\REPEAT
+\STATE Sample a mini-batch $(X,D,G,c)$
+\STATE $(\mu,\ell)\leftarrow E_\phi(X,D,G)$; $U_0\leftarrow\operatorname{stack}(\mu,\ell)$
+\STATE For each sample, draw $t\sim\operatorname{Uniform}\{1,\ldots,T\}$ and $\epsilon\sim\mathcal{N}(0,I)$
+\STATE $U_t\leftarrow\sqrt{\bar\alpha_t}U_0+\sqrt{1-\bar\alpha_t}\epsilon$
+\STATE With probability 0.1, set all conditioning labels in the mini-batch to $\varnothing$
+\STATE $\widehat\epsilon\leftarrow\epsilon_\omega(U_t,t,c)$
+\STATE Update $\omega$ using $\operatorname{mean}((\epsilon-\widehat\epsilon)^2)$
+\UNTIL{the configured training schedule ends}
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[!t]
+\caption{Parameter generation followed by latent sampling and decoding}
+\label{alg:generation}
+\begin{algorithmic}[1]
+\REQUIRE Fixed noise predictor $\epsilon_\omega$, decoder $D_\theta$, label $c$, schedule $\{\beta_s\}_{s=0}^{T}$
+\ENSURE Generated peptide sequence $X_{\mathrm{new}}$
+\STATE Initialize $U_T\sim\mathcal{N}(0,I)$ with two $C\times L$ channels
+\FOR{$t=T$ down to $1$}
+\STATE $\widehat\epsilon\leftarrow\epsilon_\omega(U_t,t,c)$
+\STATE $M_t\leftarrow\alpha_t^{-1/2}\left(U_t-\frac{1-\alpha_t}{\sqrt{1-\bar\alpha_t}}\widehat\epsilon\right)$
+\IF{$t>1$}
+\STATE Draw $\eta\sim\mathcal{N}(0,I)$; $U_{t-1}\leftarrow M_t+\sqrt{\beta_t}\eta$
+\ELSE
+\STATE $U_0\leftarrow M_t$
+\ENDIF
+\ENDFOR
+\STATE $(\widehat\mu,\widehat\ell)\leftarrow\operatorname{split}(U_0)$
+\STATE Draw $\xi\sim\mathcal{N}(0,I)$; $z\leftarrow\widehat\mu+\exp(\widehat\ell)\odot\xi$
+\STATE $X_{\mathrm{new}}\leftarrow\mathcal{Q}(D_\theta(z))$
+\RETURN $X_{\mathrm{new}}$
+\end{algorithmic}
+\end{algorithm}
+
+\section{Discussion}
+The two-stage design combines sequence-derived physicochemical descriptors with conditional parameter-space diffusion. The historical manuscripts, code archive, supplier documents, and MIC tables now provide a traceable basis for correcting the implementation description. They do not yet establish a reproducible architectural gain or label-specific antibacterial control.
+
+\subsection{Relation to existing generative designs}
+AMPGen combines MSA-conditioned sequence diffusion with successive physicochemical, discriminator and target-specific scoring stages~\cite{jin2025ampgen}. PRO-LDM learns an autoencoder with a parallel fitness regressor and uses fitness-conditioned diffusion in the encoded latent space~\cite{zhang2025proldm}. Table~\ref{tab:mechanism_positioning} locates the inspected implementation relative to these designs. Its diffusion target comprises posterior parameters, followed by latent sampling and decoding. The effect of that choice on generation quality or biological control remains untested.
+
+\begin{table*}[!t]
+\centering
+\caption{Mechanism comparison based on published descriptions and the inspected local implementation. These are design distinctions, not a matched efficacy comparison. The local code has not been linked to the historical run.}
+\label{tab:mechanism_positioning}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.27\textwidth}>{\raggedright\arraybackslash}p{0.20\textwidth}>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+System & Generation object & Conditioning & Subsequent prediction or selection \\
+\midrule
+AMPGen~\cite{jin2025ampgen} & Peptide sequence; order-agnostic autoregressive diffusion & AMP multiple sequence alignment & Physicochemical filters, XGBoost discriminator and LSTM target-specific scorer \\
+\addlinespace
+PRO-LDM~\cite{zhang2025proldm} & Encoded latent variable $z$; U-Net diffusion & Fitness labels with classifier-free guidance & Parallel fitness regressor; additional predictors and structure checks for the reported GFP examples \\
+\addlinespace
+Inspected implementation & Stacked posterior mean and log-standard-deviation tensors; a latent is sampled after denoising & Supplied discrete class; biological label semantics remain unverified & Historical AMP Scanner and descriptor filters; complete selection ledger unavailable \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Other relevant precedents include PepVAE's reference-based latent-space sampling and separate MIC regressors~\cite{li2021pepvae}, HydrAMP's conditional VAE and additional ranking and molecular-dynamics preselection~\cite{szymczak2023discovering}, and VAE-based latent diffusion for AMP generation~\cite{jin2024artificial}. Published validation outcomes use their respective data, selection procedures and assays; they do not establish a performance ordering against the retrospective records here.
+
+A test of the present design must isolate the diffusion target and descriptor inputs while controlling data membership, model capacity, training budget, candidate selection and assay endpoints. Resource provenance also remains unresolved: this revision has not established whether code, training data, candidate peptides, synthesis or MIC batches, or figures are shared with AMPGen or other published or submitted studies. The required links are file versions, sequence identifiers, batch identifiers and dates; architectural differences alone do not establish independent experimental evidence.
+
+The remaining scientific dependencies are concrete: historical run/configuration and checkpoint linkage; complete source data and label provenance; exact and similarity-based overlap audits; a full generated-pool and selection ledger; same-data, same-budget baselines and capacity-controlled ablations; and sample-linked assay rules, replicate identities, and raw readings. Target-label versus observed-spectrum analysis must preserve failures and undefined outcomes. Predicted structures and calculated descriptors must remain separate from measured stability, toxicity, or safety. The supplied numerical records can support retrospective descriptive analyses under explicit rules; they cannot resolve missing experimental provenance by themselves.
+
+\section{Conclusion}
+This revision reconciles the author's two-stage AMP design with the retrieved conditional convolutional VAE and posterior-parameter diffusion implementation. Its accompanying provenance archive preserves the historical exhibits, and the manuscript retains negative and undefined outcomes while separating them from transparent retrospective MIC counts. The available evidence does not yet support a validated success rate, an independent generalization claim, or superiority over matched baselines. These conclusions require the outstanding run and assay evidence and an independent review of the revised manuscript.
+
+\section*{Use of generative AI tools}
+The documented local revision process used generative AI assistants through Codex for source-code inspection, historical document and numerical-record checks, editorial and reference corrections, substantive revisions to Methods, algorithms, interpretations and claim boundaries, and the preparation of deterministic figure and checking code. Early revision stages addressed units, template material, reference metadata, encoding, cross-references, and layout; later stages included substantive technical rewriting and historical-value transcription. Different AI agents performed modification and supplemental technical checks. Subsequent local work included layout and PDF text-mapping corrections, public-policy verification, a corrected input adapter with a newly created synthetic interface fixture, full MIC-table transcription, and a source-based comparison with related methods. These activities were not limited to language polishing and do not constitute human peer review. No model training, new peptide generation, or new laboratory measurement was performed in these documented revision stages. This account covers the recorded revision work only. The complete prior AI-use history, exact tool and model versions, and actual human verification of the final scientific content remain to be established with the authors; no completed author verification is asserted here.
+
+\section*{Data and code availability}
+This revision uses an authorized, locally held snapshot of the AMP source code containing 90 files. Its exact identifiers are:
+\begin{flushleft}
+Commit: \texttt{e7486fb7}\allowbreak\texttt{14cbf5c6}\allowbreak\texttt{63cc0105}\allowbreak\texttt{2e42fb63}\allowbreak\texttt{d4ba3a40}\\
+Archive SHA-256: \texttt{2ef88d14}\allowbreak\texttt{b093a166}\allowbreak\texttt{888828f3}\allowbreak\texttt{6c7924ea}\allowbreak\texttt{b6b6667b}\allowbreak\texttt{92a615ae}\allowbreak\texttt{0a68358e}\allowbreak\texttt{b5db22c1}
+\end{flushleft}
+These identifiers locate the inspected source; they do not establish the code or configuration used for each historical result. The locally inspected materials also include historical manuscripts, supplier certificates, MIC workbooks, and limited example data. A public release of the complete code and supporting research records has not been verified for this revision. Historical run configurations, checkpoint and log linkage, complete datasets and sample-level partitions, the generated-pool and selection ledger, and sample-linked assay interpretation and raw plate records remain unresolved. The supplied materials therefore do not yet constitute a complete reproducibility package.
+
+\section*{Acknowledgments}
+The historical manuscript lists National Natural Science Foundation of China grants U22A2047 and 62371173. Their association with this work requires author confirmation.
+
+\section*{Authors' Contributions}
+A verified contribution statement has not been supplied. The historical contribution text is preserved in the provenance archive, including descriptions that do not match this study; no author roles have been inferred.
+
+\section*{Conflicts of Interest}
+An author-confirmed competing-interest declaration remains outstanding. The historical declaration has not been treated as a verified disclosure.
+
+% Bibliography
+\bibliographystyle{IEEEtran}
+\bibliography{references,layout_control}
+
+% Biography section (optional for IEEE) - Commented out for now
+% Uncomment and add author photos if needed for final submission
+%\begin{IEEEbiography}{Hongsheng Wang}
+%received the degree from Zhejiang University, Zhejiang, China. His research interests include deep generative models, antimicrobial peptide design, and computational biology.
+%\end{IEEEbiography}
+%
+%\begin{IEEEbiography}{Jie Yang}
+%(Corresponding author) is with the School of Automation, Hangzhou Dianzi University, Zhejiang, China. Her research interests include machine learning and biomedical engineering.
+%\end{IEEEbiography}
+%
+%\begin{IEEEbiography}{Feng Lin}
+%is with Fuyao University of Science and Technology, Fujian, China. His research interests include computational methods and peptide design.
+%\end{IEEEbiography}
+%
+%\begin{IEEEbiography}{Fei Wu}
+%is with Zhejiang University, Zhejiang, China. His research interests include artificial intelligence and computational biology.
+%\end{IEEEbiography}
+
+\end{document}

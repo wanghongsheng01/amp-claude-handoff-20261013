@@ -1,0 +1,9 @@
+{
+  "sha256": "13a36ca7f0fe8fdf70000bce17df2079baa549a2ad2cae9e538a73aecaf635e8",
+  "tensor_state_sha256": "b14d625181d80bcb7b5f1fa623e87a561a29f7ecf3ba789420cd802899c46151",
+  "updates": 1000,
+  "requested_updates": 1000,
+  "fixed_endpoint_reached": true,
+  "initial_tensor_state_sha256": "9a6ad5d1c90f1da55bc02310ef77adc6425f6fb419099859159149d361ec478d",
+  "elapsed_seconds_before_checkpoint_io": 1184.3437878326513
+}

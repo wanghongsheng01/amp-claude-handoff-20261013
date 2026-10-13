@@ -1,0 +1,45 @@
+{
+  "scope": "Conditional mature-method VAE-only exploration; not permission to launch",
+  "effective_literature_protocol": "BETA_WARMUP_CONDITIONAL_PROTOCOL_v2.json",
+  "effective_literature_protocol_sha256": "86f102de2e2e7140a2963ed200fd6668d77c090d1481d17db73f99cc48a4a9ec",
+  "excluded_concept": "WITHDRAWN_NOT_FOR_EXECUTION_BETA_WARMUP_CONCEPT_v3.json",
+  "locked_before_full_RMS_results": true,
+  "decision_before_diagnostics": "HOLD",
+  "training_entry_conditions_all_required": [
+    "Complete frozen CE baseline R/M/S evaluation of all train279/dev41 records and eight prelocked S seeds, with no missing core prediction or nonfinite prediction.",
+    "On dev41 only, deterministic M sequence-equally-weighted nonPAD accuracy minus the eight-seed mean of sequence-equally-weighted S accuracy is at least 0.05.",
+    "Root and independent reviewer confirm the bounded comparison is a falsifiable optimization-path experiment, not a claimed unique KL/variance causal diagnosis.",
+    "Exact training implementation, input/config/checkpoint/baseline identities, seeds, RNG, metrics and finite execution budgets are frozen and independently reviewed before launch.",
+    "Fresh real process/load inspection shows no other active AMP model job; root performs the single serial CPU launch."
+  ],
+  "single_intervention": {
+    "updates": 1000,
+    "formula_zero_based": "beta(u) = min(1.0, u / 200.0), u = 0,...,999",
+    "one_based_anchors": {"step_1": 0.0, "step_200": 0.995, "step_201": 1.0, "step_1000": 1.0},
+    "baseline": "Existing frozen CE21+J fixed-beta=1 VAE1000 checkpoint and training trace",
+    "fixed": ["initialization seed222 and initial weights", "training rows and preprocessing", "batches", "forward RNG", "LR schedule", "architecture", "CE reconstruction loss", "KL density and normalization", "J", "fixed final step"],
+    "not_allowed": ["new DDPM training", "prior generation", "beta sweep", "new train seed", "extension after failure", "changing data or features", "posthoc best-checkpoint selection"],
+    "comparison_scope": "Reuses an already-observed fixed-beta baseline; one training seed and posthoc research opportunity, not matched actual cumulative compute or independent confirmation."
+  },
+  "training_success_resource_rule_all_required": [
+    "Candidate full dev41 eight-seed S mean per-sequence nonPAD accuracy is at least baseline S + 0.05, using the exact same saved epsilon banks and identity order.",
+    "Candidate deterministic M mean per-sequence nonPAD accuracy is no lower than baseline M.",
+    "Candidate deterministic M length MAE is no greater than baseline M=0.",
+    "Candidate S amino-acid macro recall averaged over the same eight seeds is no lower than baseline S macro recall."
+  ],
+  "failure_rules": {
+    "incomplete_or_numerical_failure": "NOT_EVALUABLE; preserve every partial record and do not replace sequences or seeds.",
+    "any_complete_success_guard_fails": "Do not advance this warmup route; no beta/seed/budget search under this scope.",
+    "entry_gap_below_threshold": "No new VAE training under this conditional scope; report that the stochastic-loss hypothesis did not meet the investment rule.",
+    "gap_shrinkage_alone": "Never success: worsening M can shrink the gap.",
+    "tolerance": "No rounding before threshold comparisons; identity/parity tolerances are declared separately in the exact execution contract."
+  },
+  "required_side_effect_reporting": ["M and S micro and per-sequence accuracy", "AA macro/zero-recall classes", "whole-sequence exact", "edit distances", "J/PAD termination and length errors", "fixed 421 features", "original nine raw physicochemical descriptors with missingness", "posterior sigma and prior-density/KL terms where already produced"],
+  "inference_limits": [
+    "The 0.05 thresholds are resource-investment rules, not significance or population-generalization claims.",
+    "Eight epsilon draws are Monte Carlo evaluations at one fitted model, not eight biological or training replicates.",
+    "A warmup effect changes optimization history and cannot isolate posterior variance as its sole mechanism.",
+    "Reconstruction improvement does not imply prior fit, generation superiority, antimicrobial activity, novelty or submission readiness.",
+    "No test37 access, no modification of original manuscripts or historical evidence."
+  ]
+}

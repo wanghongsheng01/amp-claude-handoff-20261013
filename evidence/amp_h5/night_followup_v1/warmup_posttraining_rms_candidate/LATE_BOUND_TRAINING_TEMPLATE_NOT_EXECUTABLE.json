@@ -1,0 +1,37 @@
+{
+  "scope_id": "AMP_H5_WARMUP_POSTTRAIN_RMS_V1",
+  "status": "UNBOUND_NOT_EXECUTABLE",
+  "checkpoint": {
+    "path": null,
+    "sha256": null
+  },
+  "checkpoint_tensor_digest": null,
+  "checkpoint_metadata": {
+    "path": null,
+    "sha256": null
+  },
+  "training_summary": {
+    "path": null,
+    "sha256": null
+  },
+  "training_status": {
+    "path": null,
+    "sha256": null
+  },
+  "training_supervisor": {
+    "path": null,
+    "sha256": null
+  },
+  "training_independent_postflight": {
+    "path": null,
+    "sha256": null
+  },
+  "training_execution_contract": {
+    "path": null,
+    "sha256": null
+  },
+  "bindings_for_integrity": [],
+  "independent_paired_trace_pass": false,
+  "root_confirms_single_beta_schedule_only": false,
+  "note": "Populate a NEW LATE_BOUND_TRAINING.json only after successful verified1000 training. Candidate does not infer or guess these identities."
+}

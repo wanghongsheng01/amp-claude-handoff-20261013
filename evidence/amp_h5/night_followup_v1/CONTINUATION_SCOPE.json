@@ -1,0 +1,36 @@
+{
+  "scope_id": "AMP_H5_NIGHT_FOLLOWUP_V1",
+  "parent_delivery": "../DELIVERY_H5_FOUR_ARM_SOURCE_DIAGNOSTIC_FINAL_v1.json",
+  "parent_delivery_sha256": "1757be8f1916affb82f0d7b2e4149a5a0b7705f583c3f0525f04fa23c0f616c9",
+  "authorization": "User continued overnight investigation, prioritizing low-cost cached evidence and allowing a prelocked, budgeted maximum of eight posterior draw seeds when new forward passes are required.",
+  "decision": "HOLD",
+  "objectives": [
+    "Distinguish deterministic reconstruction from stochastic approximate-posterior reconstruction at the same CE checkpoint.",
+    "Interpret fixed 421-feature linear MMD using same-size real-train resampling against frozen dev data and finite-sample sensitivity.",
+    "Select at most one mechanism-grounded next experiment from published AMP work conditional on evidence, or explicitly withhold training.",
+    "Write new candidate methods/results files reflecting verified evidence and limitations without editing the original manuscript."
+  ],
+  "data": {"train_rows": 279, "dev_rows": 41, "test_access": false},
+  "reconstruction_semantics": {
+    "R": "Original known sequence with declared terminal chemistry.",
+    "M": "Actual deterministic path for this model: decode(mu), because no posterior flow exists.",
+    "S": "Draw from learned approximate q(z|R,g,h): z=mu+exp(logsigma)*epsilon, followed by the same decoder and J.",
+    "flow": "The model's flow is the conditional prior density transform, not a posterior transform in this reconstruction route.",
+    "conditioning": "g and h derived from the known original enter encoder; decoder only receives z and is not teacher-forced.",
+    "not_claimed": "Exact Bayesian posterior, terminal-only de novo generation, independent training or biological replication."
+  },
+  "proposed_investment_trigger": "Prelock dev41 sequence-equally-weighted nonPAD accuracy difference M minus the eight-seed average S >= 0.05; not a significance test, proof of cause, or automatic training authorization.",
+  "constraints": [
+    "No changes to existing MMD features/kernel/bandwidth, no selection of favorable samples, no test access.",
+    "At most eight fixed posterior draw seeds, no seed sweep or quality-dependent continuation.",
+    "All new model forward passes require code/input/budget freeze, independent preflight and root-controlled serial launch after process inspection.",
+    "Previous C diagnostic shuffled actual sampled B decoder-z and did not test mu/logsigma pairing.",
+    "Keep all previous negative results, original CE interruption/NE and recovery G FAIL unchanged.",
+    "No external upload, credentials, original manuscript edits, or formal submission."
+  ],
+  "references_requested_by_user": [
+    "https://arxiv.org/abs/1312.6114",
+    "https://www.jmlr.org/papers/v13/gretton12a.html"
+  ],
+  "reporting": "Consolidate final scientific review and cost/backup reporting; record missing fields as missing, not zero."
+}

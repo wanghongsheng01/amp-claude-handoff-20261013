@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-12T11:10:36.195143+00:00",
+  "local": {
+    "prepare.py": "ff8fc59dff8c762b9a173722da16507f15c35fe18f8f6d671bc010ef78f64b16",
+    "model.py": "fd28c91fd56b15341eb10371b7abc2b18b33d2973abafc0051a7beb8d1f3677a",
+    "run.py": "f59bcfdab8a4356c752afc60d48413686299423ad9fdc3d0b964374c76b858af",
+    "validate.py": "897731f5f650eb04cd47d8e0ce0f61e01982047ba1a9dbab1a96b82ad881aaf7",
+    "freeze.py": "8c1fdb06643951649170a55fc3adbbb6c209bf1270abbcb9ae9e2e2866ca3162",
+    "PROTOCOL.json": "8d4965444bf635aefef19a5b67f41688a829381266fe46e378e7093c37a47769",
+    "DATA.jsonl": "cff125e593d0c3afcd912faf9b05aefc88deb672c6cf92856637e2c52db3dac5",
+    "EXCLUSIONS.json": "c124d4d7ae8dd0d7db2271aa7d15d25d6322f5dd1399928c7e65aa44ffa6d54f",
+    "INVENTORY.json": "0567aca6238c560ebfe739bb9fecd060213a3d878b134a69372e13aaadae927a",
+    "FOLDS.json": "86e56e1674197cdc9a4398adff4a0657a418b689abbfbf0758dc39f5e6722d30",
+    "ENGINEERING_TESTS.json": "c811796800dc9caa3a2a491fa810dc01abace9abd42f1414b9325506fd751854"
+  },
+  "sources": {
+    "dbaasp_coverage_v5/analysis/NATIVE_ROWS.jsonl": "f2c01a57b951cfea985ec169e1ef0a78dc1dba1892adf324f4962827d166c99a",
+    "dbaasp_coverage_v5/analysis/GROUP_RELATIONSHIPS.json": "1f512d2efb793fc7ede46e319d33710de00012698156c457d70f3df3ffe27c13",
+    "dbaasp_coverage_v5/FINAL_MANIFEST.json": "a7c922d7e7638e0ee0e69c126256664f3b83314196008b0989113a1e2920a4ee",
+    "dbaasp_coverage_v5/independent/SIGNOFF.json": "91b76257e6bf2776285a59b95adee3fbabcbfe457f7a3ad7169e61344d0e73eb",
+    "native_baseline_v1/PROTOCOL.json": "4e81c46c58af3f0468ae4e746d8f762803495a9d2fae8e49499d3042d21ed6f4",
+    "native_baseline_v1/run.py": "43f22d9376203f94a089f7ac6a8e11b4a6f82f0d524461f92811902b43f28d72"
+  },
+  "seed": 1729
+}

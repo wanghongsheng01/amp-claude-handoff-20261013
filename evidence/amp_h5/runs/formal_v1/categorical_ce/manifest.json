@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "config.json",
+      "bytes": 2493,
+      "sha256": "1d3cca4cea9c5c90dfa3f9934e6a9bef399501566171536a6549b31fdfda65bb"
+    },
+    {
+      "path": "generated.csv",
+      "bytes": 1878,
+      "sha256": "776950caeecda5b6541321b7965d303abca50cd2486ea913c0c2b73cd8b9eecb"
+    },
+    {
+      "path": "runtime_and_source.json",
+      "bytes": 24995,
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "path": "status.json",
+      "bytes": 1005,
+      "sha256": "213d495b3dabd9391641987ec641534defafe8d3fbe7601ed8fea629f8c3f5c1"
+    }
+  ]
+}

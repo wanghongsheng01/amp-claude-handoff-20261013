@@ -1,0 +1,573 @@
+{
+  "created_utc": "2026-10-11T19:39:10.739573+00:00",
+  "status": "LATENT_AVAILABILITY_CONFIRMED_GROUP_BINDING_SEPARATE",
+  "scope": "Only exact three completed/interrupted-CE artifact directories and existing audited array schemas; no live scalar/test/model/quality/sample execution. Absence claim applies to these current-checkpoint artifacts, not a global disk search.",
+  "inventory": [
+    {
+      "directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+      "file_names": [
+        "config.json",
+        "ddpm_ema_state.json",
+        "ddpm_ema_state.pt",
+        "ddpm_state.json",
+        "ddpm_state.pt",
+        "ddpm_train.jsonl",
+        "ddpm_training_state.pt",
+        "ddpm_training_summary.json",
+        "dev_monitor.jsonl",
+        "generated.csv",
+        "generation_progress.jsonl",
+        "runtime_and_source.json",
+        "status.json",
+        "train_feature_scaler.json",
+        "train_posterior_parameters.npz",
+        "vae_initial_state.json",
+        "vae_initial_state.pt",
+        "vae_initialization.json",
+        "vae_state.json",
+        "vae_state.pt",
+        "vae_train.jsonl",
+        "vae_training_state.pt",
+        "vae_training_summary.json"
+      ],
+      "record_values_read": false,
+      "config.json_sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1",
+      "file_names": [
+        "config.json",
+        "dev_reconstruction.csv",
+        "generated.csv",
+        "generated_AMD.npz",
+        "generated_FREE.npz",
+        "generated_posterior_AMD.npz",
+        "generated_posterior_FREE.npz",
+        "generated_posterior_summary_AMD.json",
+        "generated_posterior_summary_FREE.json",
+        "generation_progress.jsonl",
+        "generation_summary.json",
+        "input_integrity_after.json",
+        "loaded_state_identity.json",
+        "manifest.json",
+        "model_identity_after.json",
+        "phase_provenance.json",
+        "recovery_contract.json",
+        "restored_scaler_identity.json",
+        "runtime_and_source.json",
+        "status.json",
+        "train_reconstruction.csv"
+      ],
+      "record_values_read": false,
+      "config.json_sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "manifest.json_sha256": "c9dc68bb44d0677d92f1d7aca6a8b88d8ac971b6e7c5d177221f7ad35e60f6cc"
+    },
+    {
+      "directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse",
+      "file_names": [
+        "config.json",
+        "ddpm_ema_state.json",
+        "ddpm_ema_state.pt",
+        "ddpm_state.json",
+        "ddpm_state.pt",
+        "ddpm_train.jsonl",
+        "ddpm_training_state.pt",
+        "ddpm_training_summary.json",
+        "dev_monitor.jsonl",
+        "dev_reconstruction.csv",
+        "generated.csv",
+        "generated_AMD.npz",
+        "generated_FREE.npz",
+        "generated_posterior_AMD.npz",
+        "generated_posterior_FREE.npz",
+        "generated_posterior_summary_AMD.json",
+        "generated_posterior_summary_FREE.json",
+        "generation_progress.jsonl",
+        "generation_summary.json",
+        "manifest.json",
+        "runtime_and_source.json",
+        "status.json",
+        "train_feature_scaler.json",
+        "train_posterior_parameters.npz",
+        "train_reconstruction.csv",
+        "vae_initial_state.json",
+        "vae_initial_state.pt",
+        "vae_initialization.json",
+        "vae_state.json",
+        "vae_state.pt",
+        "vae_train.jsonl",
+        "vae_training_state.pt",
+        "vae_training_summary.json"
+      ],
+      "record_values_read": false,
+      "config.json_sha256": "861d530bce7529826ed481697083a4efee016cce24878d85dced240b28d9d004",
+      "manifest.json_sha256": "f3baae37853b38d8d64e6022f35144c8332c5f94484ff51b87962068d4d10edb"
+    }
+  ],
+  "available_train_posterior": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a",
+      "arrays": {
+        "values": {
+          "shape": [
+            279,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "labels": {
+          "shape": [
+            279
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "row_ids": {
+          "shape": [
+            279
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_posterior_parameters.npz",
+      "sha256": "803241f2a112a732b69d607fb8922d93f9828824dc4e0f44d1f932ea02249617",
+      "arrays": {
+        "values": {
+          "shape": [
+            279,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "labels": {
+          "shape": [
+            279
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "row_ids": {
+          "shape": [
+            279
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        }
+      }
+    }
+  ],
+  "available_generated": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+      "sha256": "f7899543f330e1fed829e592269c09c9b747e45abbffe2ec251f3e69c37fae0d",
+      "arrays": {
+        "values": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4",
+      "arrays": {
+        "posterior_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "z": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "raw": {
+          "shape": [
+            16,
+            21,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "tokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "lengths": {
+          "shape": [
+            16
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "length_scores": {
+          "shape": [
+            16,
+            49
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz",
+      "sha256": "fd987de8fec498386f414b3c64db0512f916253d4f294152c97a095eb6d30722",
+      "arrays": {
+        "values": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a",
+      "arrays": {
+        "posterior_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "z": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "raw": {
+          "shape": [
+            16,
+            21,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "tokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "lengths": {
+          "shape": [
+            16
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "length_scores": {
+          "shape": [
+            16,
+            49
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_FREE.npz",
+      "sha256": "79b4282b306cb92a7a77220be22bd897b5a70855a49981daecbe97a34192c68e",
+      "arrays": {
+        "values": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_FREE.npz",
+      "sha256": "189f4a97ee509c1c61569be4c42ba98fd7b8ef4712077bc43a99de0763e8810d",
+      "arrays": {
+        "posterior_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "z": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "raw": {
+          "shape": [
+            16,
+            21,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "tokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "lengths": {
+          "shape": [
+            16
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "length_scores": {
+          "shape": [
+            16,
+            49
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_AMD.npz",
+      "sha256": "49cc4057e28afc4cd035b133773406ea4bc513f5a8aadde958d36202f14729b9",
+      "arrays": {
+        "values": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_AMD.npz",
+      "sha256": "7c489cc1a2b04f041ca5357572cd6c67662253cd368a3c7c11ef333fa9e641c9",
+      "arrays": {
+        "posterior_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "z": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "raw": {
+          "shape": [
+            16,
+            21,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "tokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "lengths": {
+          "shape": [
+            16
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "length_scores": {
+          "shape": [
+            16,
+            49
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    }
+  ],
+  "mean_reconstruction_csv_headers": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+      "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020",
+      "header": [
+        "row_id",
+        "terminal",
+        "truth_sequence",
+        "prediction_sequence",
+        "prediction_tokens48",
+        "raw_prediction_tokens48",
+        "token_encoding",
+        "status"
+      ],
+      "row_values_parsed": false
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+      "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49",
+      "header": [
+        "row_id",
+        "terminal",
+        "truth_sequence",
+        "prediction_sequence",
+        "prediction_tokens48",
+        "raw_prediction_tokens48",
+        "token_encoding",
+        "status"
+      ],
+      "row_values_parsed": false
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_reconstruction.csv",
+      "sha256": "c51ef3d43c43e1ea37ec06fc89945115ed7bcc1cf7a453608d73788f64d1e0a0",
+      "header": [
+        "row_id",
+        "terminal",
+        "truth_sequence",
+        "prediction_sequence",
+        "prediction_tokens48",
+        "raw_prediction_tokens48",
+        "token_encoding",
+        "status"
+      ],
+      "row_values_parsed": false
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/dev_reconstruction.csv",
+      "sha256": "1b0b6836e6129e1e924fb5ceb3329295e4681b643163ac1b2cf2781a636953ec",
+      "header": [
+        "row_id",
+        "terminal",
+        "truth_sequence",
+        "prediction_sequence",
+        "prediction_tokens48",
+        "raw_prediction_tokens48",
+        "token_encoding",
+        "status"
+      ],
+      "row_values_parsed": false
+    }
+  ],
+  "missing": [
+    "No current CE or MSE dev posterior parameter cache (mu/logsigma) is saved in the inspected output inventories or their complete manifests.",
+    "No current dev sampled z or epsilon is saved.",
+    "Train posterior caches contain parameters, labels and row_ids only; no original sampled z, epsilon, or group ID is stored in those caches."
+  ],
+  "code_evidence": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "lines": "347-363,376-378",
+      "fact": "training encoding returns [B,2,16,48] mu/logsigma and saves values,labels,row_ids"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "lines": "551-588,591-608",
+      "fact": "dev encoding used transiently for monitor/mean reconstruction; no latent save"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+      "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+      "lines": "221-241",
+      "fact": "CE recovery exports frozen train/dev mean reconstruction, not latent tensors"
+    }
+  ],
+  "row_mapping_contract": {
+    "train_cache_row_ids": "source idx; train_idx_start=0, rows279",
+    "dev_reconstruction_row_id": "local export row0..40; source idx=279+localrow under bound config; this is not a latent cache or homology ID",
+    "config_bindings_identical_across_CE_recovery_MSE": true
+  },
+  "comparability_guard": {
+    "sample_unit": "whole sequence latent tensor, not scalar latent coordinates",
+    "generated_per_terminal_n": 16,
+    "centered_sample_covariance_rank_upper_bound": 15,
+    "do_not_directly_compare": "n16 generated covariance against all126/153 train sequences as if equal-sample estimators",
+    "no_subsampling_performed": true,
+    "no_new_dev_forward_authorized_by_this_audit": true
+  },
+  "actions": {
+    "model_imports": 0,
+    "forwards": 0,
+    "training": 0,
+    "sampling": 0,
+    "RNG_reconstruction": 0,
+    "quality_statistics": 0,
+    "test_reads": 0,
+    "live_scalar_reads": 0,
+    "frozen_edits": 0
+  }
+}

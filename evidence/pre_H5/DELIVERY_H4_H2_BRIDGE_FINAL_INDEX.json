@@ -1,0 +1,331 @@
+{
+  "created_utc": "2026-10-11T15:25:51.358404+00:00",
+  "scope": "Frozen local H2-only real-generation bridge: exact original96 replay and192 paired head outputs, full evaluation and independent audits complete; mixed descriptive result, no composite scientific improvement pass. H3 negative remains frozen. Future baseline documents are static only.",
+  "n_files": 64,
+  "files": [
+    {
+      "path": "HANDOFF_H4_H2_BRIDGE_20261011.zh.md",
+      "bytes": 7946,
+      "sha256": "1c80f7ece329d851f4fc907f288723e4cc5e97913b9e56ae05fa1affb22ca6e2"
+    },
+    {
+      "path": "H4_H2_BRIDGE_AUTHORIZATION_RECEIPT.json",
+      "bytes": 2481,
+      "sha256": "19d7e196aa3ae9cfdb1b774bbabd63401664bdf2ef63334ea2c325f36287391f"
+    },
+    {
+      "path": "H4_H2_BRIDGE_CLAIM_MATRIX_PRELOCK.json",
+      "bytes": 4075,
+      "sha256": "389e8e76522178c89ccb73cabf1a36cfcf3d4b032e2fc0ba59a99e3fa5f4a81b"
+    },
+    {
+      "path": "H4_H2_BRIDGE_CLAIM_STATUS_FINAL.json",
+      "bytes": 8294,
+      "sha256": "2fd99935113ec2eadb0d55629d603f0c4dbfc1c75c18e2d905bda6a2cc0904b9"
+    },
+    {
+      "path": "H4_H2_BRIDGE_PREDECESSOR_PRESERVATION_BEFORE.json",
+      "bytes": 140978,
+      "sha256": "908a609fbfc2674573049ad8963869d764eb9b1536a516e6b7d7dd7aa4e736be"
+    },
+    {
+      "path": "H4_H2_BRIDGE_PREDECESSOR_PRESERVATION_BEFORE.v2.json",
+      "bytes": 141833,
+      "sha256": "504c8ab5bbebd7425f182e8572c0146504e029d95815c81c45c964a22ae71a51"
+    },
+    {
+      "path": "H4_H2_BRIDGE_PREDECESSOR_PRESERVATION_AFTER.json",
+      "bytes": 154284,
+      "sha256": "9efd8c47d3b62645724d0d9a46247fd9b853ed54e4206d249b1896477cac9781"
+    },
+    {
+      "path": "H4_H2_BRIDGE_ROOT_READOUT_FACTS.json",
+      "bytes": 38528,
+      "sha256": "127a7248b60d5eac52d0eba802b082c68b271c75a475a4f7c74a7a8d40a209f7"
+    },
+    {
+      "path": "h4_root_prelock_history/H4_H2_BRIDGE_CLAIM_MATRIX_PRELOCK.v1.json",
+      "bytes": 3388,
+      "sha256": "5a2804ab207d8ef3e9f7753e539bc2f5773d71323843ea2d488a6dd0daac5069"
+    },
+    {
+      "path": "DELIVERY_H3_FINAL_INDEX.json",
+      "bytes": 8872,
+      "sha256": "8580a59558198db0a7dfed899f7e569af7dc5214ce668d74e2d3e1e19b60b6ac"
+    },
+    {
+      "path": "HANDOFF_H3_20261011.zh.md",
+      "bytes": 7642,
+      "sha256": "a80ba4de690db965e501ccae99e5ab335d3ad9962f9abff8e8872e207b71f86d"
+    },
+    {
+      "path": "H3_CLAIM_STATUS_FINAL.json",
+      "bytes": 5844,
+      "sha256": "b06bbdac7af188faeff3a9f9e92e561c7a07bf233aa224415be3b17af0672123"
+    },
+    {
+      "path": "DELIVERY_H2_FINAL_INDEX.json",
+      "bytes": 6293,
+      "sha256": "6e12e3aef75054eed8237dd5816fda4638143935a7205710a8c4e04625ff6f8c"
+    },
+    {
+      "path": "h4_followup_baseline_design/FAIR_BASELINE_REQUIREMENTS.zh.md",
+      "bytes": 14756,
+      "sha256": "043f55d9cfd07243c33a4d10ab6b9eec270164db2960a8fd975b6cc07f03dd80"
+    },
+    {
+      "path": "h4_followup_baseline_design/SOURCE_LEDGER.json",
+      "bytes": 11280,
+      "sha256": "7fc5ee71cdfdcd388b0a2350e9ce6039910c59ec7487ed6d487c6b483ea147c3"
+    },
+    {
+      "path": "final_science_review/H4_H2_PRELOCK_CLAIM_REVIEW.json",
+      "bytes": 19803,
+      "sha256": "83a758384f1660bebd69ae16451b137fd2015babf844e45c4b858e6344122206"
+    },
+    {
+      "path": "final_science_review/H4_H2_FINAL_REVIEW_CHECKLIST.json",
+      "bytes": 6052,
+      "sha256": "ebece7a9de234ecd8123e3a8bc14c78bb52de1572cde38218861da50dad77cd6"
+    },
+    {
+      "path": "final_science_review/H4_H2_INCREMENT_CLAIM_REVIEW.json",
+      "bytes": 31022,
+      "sha256": "704fb79eb662109b3007dd5e3a2fb9a88b9fbc443008900a445da38e539b78da"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/PRELOCK_MANIFEST.json",
+      "bytes": 1613,
+      "sha256": "f317c5f01ecfc399013097afc4184b0e19f8d0f82c8c98130dcf9110c8c635d7"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/PROTOCOL.json",
+      "bytes": 7073,
+      "sha256": "d463a194e9aa48bbdcbddc32cfce06d328d5dc36c9145602aa9f025bf10e6bc1"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/START.json",
+      "bytes": 2268,
+      "sha256": "f33b8c4f8ec6adcb7496c1f7556a2b4d46f38d083fad736e49a102a4766740f4"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/README.zh.md",
+      "bytes": 5211,
+      "sha256": "3a173a39dc98786564aaecbbdea55d3c4f4c03c2d1e028b2f71200a00b8d55f0"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/STATIC_INPUTS.json",
+      "bytes": 30814,
+      "sha256": "cbe167a3c9befcc607ae40c8cadfdf8c03aaff1a6087e35b0b7c69b0a3585f4d"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/CLOSEOUT_BINDING.json",
+      "bytes": 73163,
+      "sha256": "9cc2d752358ead7490f326c438f235da7c53b166d7258288987c0835a166ad51"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/EVALUATION_INPUTS.json",
+      "bytes": 1578,
+      "sha256": "712038c65f4d95774c7ce64868efc25d0d075a83dd35f82f2f8aa9485eb6b293"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/GENERATION_PLAN.json",
+      "bytes": 3160,
+      "sha256": "6ffda09a214a9bc3488b6f3aebf29f7bf582a309189c326726e85ce46db960ea"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/ROW_CONTEXT.json",
+      "bytes": 17360,
+      "sha256": "f8c9d958e36550e25e8e4f2929497202d4c71a7b1ebe9984d1e9c2a635c537ea"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+      "bytes": 21115,
+      "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/h4_evaluate.py",
+      "bytes": 5290,
+      "sha256": "bfb68e0c458b77a6ff89baf0c238f1bc4ea26363d99251be56b5d4e5bc10b727"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/h4_math.py",
+      "bytes": 10360,
+      "sha256": "ed22e3692d1879b7b9da874e72b92835b8f5763d6d6a7e4d0a8d29e8dd963e11"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/h4_contract.py",
+      "bytes": 3541,
+      "sha256": "1dc62b93103e7e9b87997e22dcafa24575da2d7fd36a79245f22290ac04040de"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/prepare_h4.py",
+      "bytes": 2839,
+      "sha256": "451b2c5c974704f5da1cbdbbf6fc0d8284c8bacac626fcb118d1c1ca9a841084"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_CANDIDATE_MANIFEST.json",
+      "bytes": 6444,
+      "sha256": "5ee15c37b3ea3b437e447008308895da175b72040698e1ba5e12857d8f7369d8"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_DELIVERY_MANIFEST.json",
+      "bytes": 14177,
+      "sha256": "8eaeece7286143bdf5f6b81843993a62bc844de5f2414d5544dc7520bc5a4f4d"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_READOUT.zh.md",
+      "bytes": 8325,
+      "sha256": "74e8cb973f6b691ba91d9a25a1f7e47c5e56c8486c086958d8396a8f11dac6cc"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_METRICS_LONG.csv",
+      "bytes": 9034,
+      "sha256": "5852f48525f4e81efb24ce29e4655f299e96562fbcba0bb69c95c2b4af1d5eb0"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_PAIRED_DELTAS.csv",
+      "bytes": 5558,
+      "sha256": "b45fa191d58b8537549638e8a002f052e4bd093164264993137261f6ddf33efb"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_DISTRIBUTION_FULL.csv",
+      "bytes": 3851,
+      "sha256": "4040c60134027f1281f1f3e81e9c2efe1ad14135d1156cf0b18ddf9911405f48"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_METRIC_FACTS.json",
+      "bytes": 71384,
+      "sha256": "41ea8738b3bada7713b9388b5285eec2ee1e04dde3dcecae127303251d9dcff2"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/run/MANIFEST.json",
+      "bytes": 3451,
+      "sha256": "305e1c7c47efadf85a92ce150c8d04b4d10a5387c685549a731b41db2cf711b9"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/run/status.json",
+      "bytes": 1123,
+      "sha256": "0b1993a6492e454fad2c5ac52400be52eeb74f7d5e14af1b8c129276b140c014"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/run/REPLAY_GATES.json",
+      "bytes": 1316,
+      "sha256": "e75fe54291d8bf18460e6f2c8dabaf023caa8dd695fef1df120ddbb14bfd0add"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/run/ELIGIBILITY.json",
+      "bytes": 2528,
+      "sha256": "eca33b5b570a6ba792e0dfa1709552441afc6a30f12bfc2630b13a5f1491b6b4"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/run/PRESERVATION.json",
+      "bytes": 116680,
+      "sha256": "51bcb1ec0ac2094e4cefabf94e0821093379ce45f44b5e91ec5c9923ce9c2303"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/MANIFEST.json",
+      "bytes": 1901,
+      "sha256": "46aa18fae1f16e6069e66d05cc1af8f756df4a1db99f669a6fe0e13f6c53f0cc"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/status.json",
+      "bytes": 736,
+      "sha256": "2f44519bbe4cf414e4b3af861833beef60e7c048d1bf874888d2352e2a7ace7b"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/original_scalar/metrics.json",
+      "bytes": 384820,
+      "sha256": "9f39b489516a1d917ce6cf081e7906481df8bf8e12f0fbaea5f417b0760a1916"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/H2_CE_J/metrics.json",
+      "bytes": 331504,
+      "sha256": "993353340336e3439465fbd312c5a5532be99df75365dd670d1a8fcab2ebae3f"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/architecture_review/PREFLIGHT_MANIFEST.json",
+      "bytes": 785,
+      "sha256": "09e30188c81571a8b5096e4cd52e60bd994db0baee62b27c02eb505e20d5184a"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/architecture_review/PREFLIGHT_RECEIPT.json",
+      "bytes": 985,
+      "sha256": "246bab142bc6e91010cf69926535508e1cded46e156611dea58b9985d1160a06"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/architecture_review/POST_AUDIT_RULES.json",
+      "bytes": 3609,
+      "sha256": "02d6e7652db14ee45b9e977390180349d00fac2c907fd3ecc375d3f3bc0a69ed"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/architecture_review/FINAL_MANIFEST.json",
+      "bytes": 4174,
+      "sha256": "9b6f95fd65a1d572175bc119e3cf06aab7311849d31d693a8a9d50b11feba491"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/architecture_review/FINAL_RECEIPT.json",
+      "bytes": 2089,
+      "sha256": "acbbd480d78535f6527870d636fce9a2ac8b49d4723520561c4eedbaa9bd2660"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/architecture_review/POST_REVIEW.zh.md",
+      "bytes": 5925,
+      "sha256": "4f163c9f4a3492ca06090f3069b3ed53d590032f45a97f966884c57792316cc4"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/PREFLIGHT_MANIFEST.json",
+      "bytes": 5413,
+      "sha256": "ac07d1d46c4cdf023516f32e41f8c514b88e90a9e89ab71adebfdd001cf61f1c"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/PREFLIGHT_RECEIPT.json",
+      "bytes": 1230,
+      "sha256": "d23f1535a2aad4017e41a3f4021a06a5fc80b622a290b852d2e9f62b7e0d7ce5"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/POST_AUDIT_RULES.json",
+      "bytes": 7301,
+      "sha256": "41cc7a66577dc448a5cd376e889b4282c995e4b349dc9377843b712d44b47e73"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/FINAL_MANIFEST.json",
+      "bytes": 8835,
+      "sha256": "b02c8f77fe466ca1efe3de407b69f25fa1ef81a4449ff567151f6ea1e1da1bc8"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/FINAL_RECEIPT.json",
+      "bytes": 2184,
+      "sha256": "5193e0ea81cd743e144ab7549c4469dbeb5ca16e635e68b7843c71f7b2315ec3"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/POST_REVIEW.zh.md",
+      "bytes": 7095,
+      "sha256": "a6c128a4d6287e74106cd5c1934c808255c1983fb57e85dfa5c27456051b77a5"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/POST_AUDIT_RESULTS.json",
+      "bytes": 455000,
+      "sha256": "e3677f3476cb7783b12026149b4420984ec6c44ef113a709262025e73ad8198a"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/AUTHOR_TABLE_REVIEW.json",
+      "bytes": 242831,
+      "sha256": "a06cfe4838917b277d8dc52a84bce70c723b7917cbc54156196dc74dfd43dc92"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/AUTHOR_READOUT_REVIEW.json",
+      "bytes": 30745,
+      "sha256": "485ce15622f5117c0901613c72e214f42ab088e817f92f52f9c2087820dec34e"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/FINAL_PRESERVATION.json",
+      "bytes": 172592,
+      "sha256": "f35a0c48b9c1937856c7ee70c23d920ec987dd2c13cb520d493aaeffb0d7a817"
+    }
+  ],
+  "nested_evidence": "Raw array and full source inventories remain bound through generation24, evaluation14, author89, architecture27, numeric58 and prior H3/H2 manifests. n_files counts this top-level index entries, not independent experiments.",
+  "backup_status": "BACKUP_BLOCKED",
+  "no_cloud_backup_claim": true,
+  "submission_readiness_claim": false
+}

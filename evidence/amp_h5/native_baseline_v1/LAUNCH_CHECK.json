@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-12T09:16:43.114097+00:00",
+  "method": "Read-only ps immediately before launch",
+  "active_H5_model_jobs": 0,
+  "matching_Caliber_solver_jobs_seen": 0,
+  "unrelated_load": "session_watcher ~83.1% CPU, uvicorn ~13.3%; untouched",
+  "policy": "nice+10,CPU1thread,serial,max600s",
+  "independent_preaudit": "PASS",
+  "model_slot": "ROOT_RESERVED"
+}

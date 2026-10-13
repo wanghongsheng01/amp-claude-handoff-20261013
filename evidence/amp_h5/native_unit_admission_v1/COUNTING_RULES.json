@@ -1,0 +1,44 @@
+{
+  "schema": "AMP_H5_NATIVE_UNIT_ADMISSION_REASSESSMENT_V1",
+  "purpose": "Recount existing75 records for narrow reported-label exploratory supervision, not run or authorize training, not promotion or independent confirmation",
+  "inputs": [
+    "dbaasp_bounded_v3/prepared/peptides.jsonl",
+    "dbaasp_bounded_v3/prepared/mic_measurements.jsonl",
+    "chemistry_units_v2/results/chemical_identity_audit.jsonl"
+  ],
+  "identity": "Retain original peptide ID, exact case-sensitive sequence, chemistry annotation fingerprint, all covalent modifications and raw hash. Do not convert lowercase to uppercase for model encoding. Unknown salt/purity or termini does not prove a mixture; explicit unresolved disconnected mixtures/multicomponent labels cannot be treated as single-peptide labels.",
+  "labels": "Existing raw MIC records for E.coli, recognized native units µg/ml or µM, positive parsed point/right/left bound and source linkage. Never convert units, pool native numeric units, infer net peptide content, replace censor bound with point, or reinterpret range/plusminus without source semantics.",
+  "core_descriptive_rows": "E.coli MIC native units with point or one-sided bound, valid original source index and peptide sequence nonempty, excluding any recorded explicit disconnected/mixture/interchain or conflicting molecular identity signal. Unknowns remain typed, not assigned facts. Traceable but unresolved labels retained outside usable core.",
+  "source_missing_sensitivity": "Show source-index unresolved rows separately; raw record traceability is not equivalent to verified paper measurement. No arbitrary source-index mapping.",
+  "plain_Witten_compatible": "Core rows whose exact sequence uses uppercase20 canonical symbols and 1<=length<100; do not require known Free termini, material mass basis, or no modifications for a sequence-only predictor of as-reported endpoint. Preserve modification and missingness strata and explicitly limit estimand; cannot distinguish same sequence chemical forms.",
+  "strata_sensitivities": [
+    "point vs left/right bound",
+    "native µg/ml vs native µM separately",
+    "exact strain heuristic known vs unknown",
+    "medium present vs absent",
+    "CFU present vs absent",
+    "pH/salt/ionic strength present vs absent",
+    "both termini explicit vs missing",
+    "represented structure confirmed vs unresolved",
+    "explicit modification/bond vs none annotated",
+    "existing previous stricter screen",
+    "one row per provenance signature count only, preserving all actual rows"
+  ],
+  "group_counts": "Report rows, unique peptide IDs, exact case sequences, annotation fingerprints, existing >=0.8 uppercase-backbone Levenshtein families and source-family union components. These are operational cluster counts, not certified independent peptides. Never sum strata with overlapping peptide/groups as independent N.",
+  "duplicates": "Keep every activity and its raw comparator/label/provenance. Same peptide/protocol/source is not proof of duplicate nor independent replicate. Link potential identical-observation fingerprints; future grouped loss/weighting must avoid pseudoreplication and all same-entity/source/family records stay in one split.",
+  "isolation": "All75 cached labels already exposed: developmental material only, not fresh blind evaluation. No train/dev/test reads. No relaxation of sealed test37 overlap/custody requirements; sample counts do not confer eligibility to use data in a protected AMP H5 pipeline.",
+  "decision_boundary": "Scientific appropriateness of native-unit development can be YES even when causal standardized potency or mass-to-molar conversion is NOT identified. Actual execution remains unperformed and requires frozen development split/budget and existing test isolation constraints. Do not treat promotion-validator limits as a prohibition on exploratory counts.",
+  "limits": {
+    "new_acquisition": 0,
+    "natural_training": 0,
+    "model_execution": 0,
+    "test37_reads": 0
+  },
+  "preserve_predecessors": true,
+  "attribution_pending_ids": [
+    16,
+    36,
+    1783
+  ],
+  "attribution_pending_rationale": "Saved note_reference says part of Dimer or Two-Peptide. Does not prove each MIC is mixture or isolated chain; narrow main task excludes pending attribution, retains all rows and reports sensitivity without exclusion."
+}

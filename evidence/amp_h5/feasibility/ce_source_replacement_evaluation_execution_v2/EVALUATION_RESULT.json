@@ -1,0 +1,103 @@
+{
+  "returncode": 0,
+  "wall_seconds": 5.654053791,
+  "stdout": "{\"output\": \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2\", \"rows_retained\": 128, \"groups\": 8, \"model_calls\": 0, \"test_accessed\": false}\n",
+  "stderr": "",
+  "input_preservation": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_REQUEST_SLOTS_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/reused_ddpm.csv",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REQUEST_SLOTS.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REUSED_DDPM_SLOTS.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/status.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generation_summary.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/CLOSING_LEDGER.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_execution_v2/SUPERVISOR_STATUS.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v2/PREPARATION_MANIFEST.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v2/EVALUATION_PREPARATION.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_PREFLIGHT_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "unchanged": true
+    }
+  ],
+  "all_inputs_unchanged": true,
+  "observations": 128,
+  "reused": 32,
+  "new": 96,
+  "model_calls": 0,
+  "test_access": false,
+  "legacy_gate_interpretation": "NOT_APPLICABLE_SOURCE_DIAGNOSTIC"
+}

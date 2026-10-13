@@ -1,0 +1,37 @@
+{
+  "prepare": {
+    "wall_seconds": 3.217757834121585,
+    "cap_seconds": 60,
+    "exceeded": false
+  },
+  "R_training": {
+    "wall_seconds": 550.696280958131,
+    "cap_seconds": 720,
+    "exceeded": false
+  },
+  "Z_training": {
+    "wall_seconds": 546.467505833134,
+    "cap_seconds": 720,
+    "exceeded": false
+  },
+  "R_generation": {
+    "wall_seconds": 1135.0472176671028,
+    "cap_seconds": 1440,
+    "exceeded": false
+  },
+  "Z_generation": {
+    "wall_seconds": 1136.2323366673663,
+    "cap_seconds": 1440,
+    "exceeded": false
+  },
+  "decode_score": {
+    "wall_seconds": 1.0847627501934767,
+    "cap_seconds": 120,
+    "exceeded": false
+  },
+  "closure": {
+    "wall_seconds": 0.5118429576978087,
+    "cap_seconds": 60,
+    "exceeded": false
+  }
+}

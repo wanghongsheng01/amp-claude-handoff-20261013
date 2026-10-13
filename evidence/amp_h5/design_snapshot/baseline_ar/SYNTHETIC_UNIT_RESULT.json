@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "kind": "synthetic_only_unit_contract",
+  "checks_passed": 38,
+  "wall_seconds_inside_python": 0.1229234584607184,
+  "wall_seconds_process": 1.213171797,
+  "command": "PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 env/bin/python -B baseline_ar/synthetic_unit_tests.py",
+  "torch": "2.2.2",
+  "parameter_count": 68709,
+  "script_sha256": "6efae060c240c697eee804e3612ed4efb54078d7327438be3d34d26936f77355",
+  "coverage": ["BOS shift", "first PAD/EOS and post-EOS mask", "48 AA without EOS49", "invalid input rejection", "parameter count", "teacher-forcing vs incremental equivalence", "no future-token influence", "masked loss and zero gradient", "AA/EOS decomposition", "uniform CE log21", "empty/short/capped sampling", "absorbing termination", "all requests retained", "isolated sampling RNG", "train/dev sequence/object/component isolation", "test role/path rejection before access", "hash mismatch rejection"],
+  "real_data_read_by_test": false,
+  "real_training": false,
+  "real_generation": false,
+  "test_accessed": false,
+  "synthetic_model_forward": true,
+  "synthetic_logit_gradient": true,
+  "model_optimizer_step": false,
+  "report_note": "Root author transcribed actual successful tool output; not an independent review. No empirical fit, throughput estimate, or method performance result is implied."
+}

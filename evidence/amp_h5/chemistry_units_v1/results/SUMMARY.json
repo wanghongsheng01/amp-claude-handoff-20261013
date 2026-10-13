@@ -1,0 +1,76 @@
+{
+  "schema": "AMP_H5_CHEMICAL_UNIT_AUDIT_V1",
+  "rdkit_version": "2023.09.5",
+  "created_utc": "2026-10-12T08:51:22.904147+00:00",
+  "records": 75,
+  "SMILES_variants": 152,
+  "structure_status_counts": {
+    "PENDING": 45,
+    "PASS_REPRESENTED_STRUCTURE": 30
+  },
+  "structure_reasons": {
+    "PENDING_TAUTOMER_ENUMERATION_LIMIT": 41,
+    "ASSAY_MATERIAL_MASS_BASIS_NOT_ESTABLISHED": 30,
+    "PENDING_NONCANONICAL_SEQUENCE": 3,
+    "PENDING_UNSPECIFIED_STEREOCHEMISTRY": 1
+  },
+  "mass_MIC_rows": {
+    "rows": 86,
+    "peptide_ids": 47,
+    "backbones": 47,
+    "sequence_families": 30,
+    "source_family_groups": 10
+  },
+  "assay_conversion_status": {
+    "PASS": {
+      "rows": 0,
+      "peptide_ids": 0,
+      "backbones": 0,
+      "sequence_families": 0,
+      "source_family_groups": 0
+    },
+    "REFUSE": {
+      "rows": 0,
+      "peptide_ids": 0,
+      "backbones": 0,
+      "sequence_families": 0,
+      "source_family_groups": 0
+    },
+    "PENDING": {
+      "rows": 86,
+      "peptide_ids": 47,
+      "backbones": 47,
+      "sequence_families": 30,
+      "source_family_groups": 10
+    }
+  },
+  "conditional_parent_equivalent_computable": {
+    "rows": 27,
+    "peptide_ids": 16,
+    "backbones": 16,
+    "sequence_families": 13,
+    "source_family_groups": 5
+  },
+  "conditional_screen_candidates_before_massbasis_chemistry_isolation": {
+    "rows": 11,
+    "peptide_ids": 3,
+    "backbones": 3,
+    "sequence_families": 3,
+    "source_family_groups": 2
+  },
+  "potential_new_candidate_ids_relative_to_old_screen": [
+    102,
+    1689
+  ],
+  "potential_new_candidate_families_relative_to_old_screen": [
+    "F102",
+    "F1689"
+  ],
+  "potential_new_candidate_source_groups_relative_to_old_screen": [],
+  "actual_new_assay_verified_peptides": 0,
+  "actual_new_assay_verified_families": 0,
+  "actual_new_training_admitted_peptides": 0,
+  "isolation_status": "NOT_IMPLEMENTED; no train/dev/test files opened",
+  "elapsed_seconds": 15.05345870833844,
+  "decision": "Structural conversion feasibility assessed; retain conditional values as audit fields, not verified assay labels. Resolve material mass basis before any admission. No natural training."
+}

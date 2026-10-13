@@ -1,0 +1,96 @@
+{
+  "created_utc": "2026-10-12T14:14:49.472706+00:00",
+  "scope": "AMP H5 single constrained-generation candidate; analytical falsification only",
+  "candidate_count": 1,
+  "decision": "REJECT_CORE_METHOD_NOVELTY",
+  "natural_development_admission": "NOT_ADMITTED",
+  "reason": "Exact surrogate completion DP is covered by Ctrl-G; true-model correction is covered by twisted SMC. No additional validated error certificate or algorithmic mechanism.",
+  "scientific_and_submission_status": "NO_GO_UNCHANGED",
+  "proposal_error_bound": "CONDITIONALLY_VALID_NOT_INSTANTIATED; applies to independent proposal Q, not finite-N SMC law",
+  "operation_counts": {
+    "training": 0,
+    "sampling": 0,
+    "checkpoint_loads": 0,
+    "original_data_reads": 0,
+    "test37_reads": 0,
+    "dependency_installs": 0,
+    "uploads": 0
+  },
+  "read_existing_aggregate_timing_receipt": "amp_h5/feasibility/ar_formal_readout/RUN_FACTS.json",
+  "baseline_status": "STATIC_SOURCE_VERIFIED_RUNNABLE_UNVERIFIED",
+  "counterfactual_diagnostic": {
+    "authorization": "DESIGN_ONLY_DO_NOT_EXECUTE",
+    "arms": 8,
+    "cells": 4,
+    "seeds": [
+      6101201,
+      6101202,
+      6101203
+    ],
+    "active_token_scores_per_arm_cell_seed": 16384,
+    "primary_inference_token_cap": 1572864,
+    "primary_inference_cpu_seconds_cap": 960,
+    "preparation_cpu_seconds_cap": 240,
+    "reference_cpu_seconds_cap": 240,
+    "parity_and_accounting_cpu_seconds_reserved": 360,
+    "total_cpu_seconds_cap": 1800,
+    "ram_gib_cap": 1,
+    "model_execution": "CPU_SINGLE_THREAD_SERIAL",
+    "estimated_implementation_person_hours": [
+      8,
+      16
+    ],
+    "estimate_status": "planning estimate, not measured",
+    "baseline_ineligibility_rule": "HOLD if mature baseline parity unavailable; never call an untrained/capped approximation strong",
+    "reference_fixed_attempts_per_cell": 65536,
+    "reference_token_score_cap": 12582912,
+    "preparation_token_score_cap": 524288,
+    "total_target_ar_token_score_cap": 14680064,
+    "smc_is_whole_system_checkpoints": [
+      2,
+      10
+    ],
+    "smc_is_particles": 32,
+    "smc_is_horizon": 48,
+    "smc_is_max_scores_at_checkpoints": [
+      3072,
+      15360
+    ],
+    "fixed_batch_rule": "Incomplete whole batches remain unresolved, never fabricated zero or excluded from an unbiased claim",
+    "statistical_power": "descriptive only; absence of resolved worsening is not equivalence"
+  },
+  "independent_agents": [
+    "constraint_prior_art_challenge",
+    "constraint_math_audit"
+  ],
+  "review_kind": "AI non-author technical challenge; not human peer review",
+  "reopen_only_if": [
+    "A concrete mechanism distinct from cited prior art or an applicable nonvacuous computable AR error certificate",
+    "Validated same-AR strong baseline implementations and a justified workload"
+  ],
+  "local_source_bindings": [
+    {
+      "path": "amp_h5/implementation/ar_pipeline.py",
+      "sha256": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee"
+    },
+    {
+      "path": "amp_h5/feasibility/ar_formal_readout/RUN_FACTS.json",
+      "sha256": "0182fc30ca63bdc1e5ef7cd25bf6d119ffdd5e8b21236ef4a81bd44fac1bf4da"
+    }
+  ],
+  "reasoning_mode_note": "Independent analysis agents explicitly requested ultra; no verified runtime control for switching this root thread. Analysis complete; parent may restore high.",
+  "backup": "BACKUP_BLOCKED",
+  "sharper_conditional_bound": {
+    "assumption": "abs(log(p/r))<=epsilon for every relevant reachable transition, identical stop/cap, exact surrogate DP",
+    "formula": "TV(Q,pi_C)<=tanh(48*epsilon); KL in either direction<=96*epsilon",
+    "status": "valid assumed-condition algebra, not certified for actual AR; applies to independent proposal only",
+    "supersedes": "looser substitution D<=2256epsilon as the preferred bound for this stronger assumption"
+  },
+  "audit_corrections_accepted": [
+    "same-guide full-path IS arm",
+    "fixed whole-system schedules and incomplete-batch rules",
+    "full reference/setup token cost ledger",
+    "no equivalence inferred from nonsignificance",
+    "sharper telescoping transition-ratio bound"
+  ]
+}

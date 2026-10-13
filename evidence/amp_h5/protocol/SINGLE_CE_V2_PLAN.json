@@ -1,0 +1,59 @@
+{
+  "scope": "Single CE fresh fixed pilot v2 after zero-update v1 input-index contract failure; no model/objective/data change",
+  "workspace": "/Users/loctek/Documents/Codex/2026-10-11/task-4",
+  "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_ce_execution_v2",
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/INPUT_INDEX_REPAIR_V2.zh.md",
+      "sha256": "9e2326423be0842fa3cc1f814ae06a2c38c2b8d703a2ccc8c367c7f3af5338fd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SINGLE_CE_STAGED_RULE.zh.md",
+      "sha256": "063f51f66879a439a33ef302ea1f3db1b51f97aa3725979fe5368764d3cca02a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.json",
+      "sha256": "113146eba8d1b7f1ce1efce64bf5ca989f975f570b39a158555ac326ad7d755a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.zh.md",
+      "sha256": "2ff3079574d6e1658adb650ef7ff7600d06199a9abe40b67e7604b2474bc1e35"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_POSTFLIGHT_REVIEW.json",
+      "sha256": "9104676486dcbf8c3c6622c17b8f1ca709c43cb311f5c5b2e1dec6ebd08eab56"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_SCALE_ASSESSMENT.json",
+      "sha256": "9db57db802a21bfd7e94ddc80df00ca548ae45a94db72ee1ce2a23964c42ad98"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "categorical_ce",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce"
+      ],
+      "outer_timeout_seconds": 4920
+    }
+  ],
+  "failure_policy": "One explicit pretraining-contract repair version; preserve v1 failedattempt; v2 no model retry,clipping,additionalbudget orautomaticMSE/scalar",
+  "prior_attempt": "runs/single_ce_execution_v1",
+  "PROMOTE": "HOLD"
+}

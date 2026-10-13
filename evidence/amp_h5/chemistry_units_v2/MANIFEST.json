@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-12T09:00:24.155690+00:00",
+  "files": {
+    "FREEZE.json": {
+      "sha256": "b25067548767302fe1794a2cb5fbd7a40474f6594c54713bafb3da7d84f3c0e4",
+      "bytes": 794
+    },
+    "PLAN.json": {
+      "sha256": "0253e3b239fb6523e8a67fd3cbc9264de55d9f4a8a44a04e6d5c8bb2e6b1338f",
+      "bytes": 4491
+    },
+    "README.zh.md": {
+      "sha256": "338b843b7cda823ef88c6004ddd68ad517d3d7a448b4f065f6ea0ed0e2a47594",
+      "bytes": 5083
+    },
+    "SYNTHETIC_CHECKS.json": {
+      "sha256": "38638de86f90ec136e50d21373e2b5f181e3f87beef333fb0def727239bc97e9",
+      "bytes": 670
+    },
+    "audit_convert.py": {
+      "sha256": "1f1ec396f17c0f1910dd70f59eeccfe2671365ae97c834a922bc84321716a9a2",
+      "bytes": 18148
+    },
+    "build_v2.py": {
+      "sha256": "09a54d0b5b87f88565435d195faa9e267e4aa969df8b9369f2cb55ffddee9732",
+      "bytes": 7249
+    },
+    "freeze.py": {
+      "sha256": "b8016dbda1caa4d4bb0275750ebfd19dd2a9a5b0df315f786269afd985fdac24",
+      "bytes": 719
+    },
+    "results/CNN_REPRESENTATION_AUDIT.json": {
+      "sha256": "ad419a67a06839d0392410dcd75d908cca64ad77a8b899747c9a0e09bb0ebc66",
+      "bytes": 2119
+    },
+    "results/SUMMARY.json": {
+      "sha256": "db857a717788bdc4e420cbc6c58920b4e38282775662fa953423b5ba35716826",
+      "bytes": 2616
+    },
+    "results/chemical_identity_audit.jsonl": {
+      "sha256": "68309522c055abe716726a76844c04122e712e3f012cd8326d455b7b240b7002",
+      "bytes": 163096
+    },
+    "results/mass_MIC_conversion_draft.csv": {
+      "sha256": "8be7c325cbe8bcf040aa5d1687045d65fb0b9713f4a0f43018973eca646e749e",
+      "bytes": 169305
+    },
+    "results/mass_MIC_conversion_draft.jsonl": {
+      "sha256": "7ec28eac2edb82565b94d362fb33951e1f2ef20cb214358c5505a0883bc34899",
+      "bytes": 237399
+    },
+    "run.log": {
+      "sha256": "e98952c8beedf05a5d1c8eb16e211d986f736594837c2357f8b326cb0488ce2f",
+      "bytes": 2224
+    },
+    "validate_synthetic.py": {
+      "sha256": "7e69ea77f64b987a32ae5be426d814bbc9afcfad434b45c7c4df45f29a17a1e3",
+      "bytes": 2947
+    }
+  },
+  "scope": "Code/config/source bindings/results/logs; bytecode cache excluded; generated after logs closed"
+}

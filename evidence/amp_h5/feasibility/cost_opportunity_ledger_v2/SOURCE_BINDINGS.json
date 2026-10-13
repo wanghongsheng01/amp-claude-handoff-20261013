@@ -1,0 +1,93 @@
+{
+  "direct_read_sources": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_opportunity_ledger_v1/MANIFEST.json",
+      "bytes": 1032,
+      "sha256": "c50df10ed1accbd24de77b3c2538ef30aec4dcfabb94c402b449028117be9299"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_opportunity_ledger_v1/COSTS.csv",
+      "bytes": 1329,
+      "sha256": "dbf03165edc3f26ae97dcf27a31dcbb98364534a17a81d3b57151f6184ff985a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_opportunity_ledger_v1/COST_OPPORTUNITY_LEDGER.json",
+      "bytes": 19471,
+      "sha256": "d51ee3e52a71ae92679df02533e3979a4590755170b3c22e8fc3a868a7a14859"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_opportunity_ledger_v1/READOUT.zh.md",
+      "bytes": 4786,
+      "sha256": "9a0a51ab187e17307ac971e25f0e35ca9a746c4a0fff21f856da509f02c27908"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_opportunity_ledger_v1/SOURCE_BINDINGS.json",
+      "bytes": 12128,
+      "sha256": "193066f763f4a76ccad5ac755339c6d58e6683b7ed6fbc955cef226a8644f9df"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_opportunity_ledger_v1/VALIDATION.json",
+      "bytes": 508,
+      "sha256": "de994142a041ffd0771c472d8ef913b3e81a94eb30d0934fdcf5d49d23cd18ce"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_opportunity_ledger_v1/build_ledger.py",
+      "bytes": 16557,
+      "sha256": "9332721784b8224e51eb0a82143da1801035606a0f132063f4d04f42626eeedd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_FORENSIC_v2.json",
+      "bytes": 15436,
+      "sha256": "af7ded6832371e2365801f7c5adfb9e3bc978bd151c822087a05480ab4f7fcfa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_author_v1/EVIDENCE.json",
+      "bytes": 21086,
+      "sha256": "608b6ad973f960bad648a36667807405b5e9e3c491ed6b5a5b0b20884b7a5c22"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_root_v1/INTERRUPTED_ARTIFACT_SNAPSHOT.json",
+      "bytes": 5799,
+      "sha256": "dd0fe7eac19e49b2a148113deff6ab96f15f44b055974b8eafba29e8907a9311"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_root_v1/PROCESS_SNAPSHOT.json",
+      "bytes": 1176,
+      "sha256": "8e17cce916157932b290a9f6b9be803959c67aee47bb8876640d0781710a2125"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "bytes": 14870,
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/status.json",
+      "bytes": 1972,
+      "sha256": "41d71b8d183cc2869cdd8c77dbdd9d5d5d864340b6246a63647ac5d79455dbc5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generation_summary.json",
+      "bytes": 224,
+      "sha256": "bc5c1919ec5868462cd1195e7f5a74071d57db6f46b4f5fd3e2a9094ad6b6128"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_execution_v1/SUPERVISOR_STATUS.json",
+      "bytes": 1294,
+      "sha256": "5c78608b0268502dc718168029bbb179de61a0e83a1f8daa043819c15c848858"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "bytes": 2135,
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+      "bytes": 4150,
+      "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06"
+    }
+  ],
+  "prior_v1_51_sources_transitively_bound_via_v1_manifest": true,
+  "raw_original_live_files_read": 0,
+  "source_train_dev_test_csv_reads": 0,
+  "checkpoint_loads": 0
+}

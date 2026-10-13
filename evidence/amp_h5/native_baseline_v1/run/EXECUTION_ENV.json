@@ -1,0 +1,17 @@
+{
+  "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "torch": "2.2.2",
+  "numpy": "1.26.4",
+  "torch_threads": 1,
+  "torch_interop_threads": 1,
+  "BLAS_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "device": "cpu",
+  "nice": 10,
+  "PID": 41442
+}

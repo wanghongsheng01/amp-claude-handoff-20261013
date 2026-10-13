@@ -1,0 +1,129 @@
+{
+  "identity": "AMP_H5_LATENT_SCALE_PRIOR_PRIMARY_BRIEF_V1",
+  "scope": "Three primary precedents; no causal identification or experiment authorization",
+  "primary_precedents": [
+    {
+      "id": "DDPM2020",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "url": "https://arxiv.org/pdf/2006.11239",
+      "locations": [
+        "Section3.3",
+        "Section4",
+        "Equation4"
+      ],
+      "verified_mechanism": "Image scaling to[-1,1],linear1000-step beta1e-4..0.02 relative to data scale,forward mean/noise equation",
+      "limit": "Not a requirement to whiten every target or evidence AMP normalization will fix quality."
+    },
+    {
+      "id": "LDM_OFFICIAL",
+      "title": "CompVis latent-diffusion official implementation",
+      "url": "https://github.com/CompVis/latent-diffusion/blob/main/ldm/models/diffusion/ddpm.py",
+      "read_url": "https://raw.githubusercontent.com/CompVis/latent-diffusion/main/ldm/models/diffusion/ddpm.py",
+      "locations": [
+        "LatentDiffusion.__init__",
+        "on_train_batch_start",
+        "get_first_stage_encoding",
+        "decode_first_stage"
+      ],
+      "verified_mechanism": "Optional first-train-batch global inverse-std factor,forward scaling of sampled z,and inverse scaling before decoder;scale_by_std defaults false",
+      "limits": [
+        "not per-coordinate centering/whitening of(mu,logsigma)",
+        "not full-train population variance",
+        "mutable main;immutable commit not verified",
+        "LDM paper PDF open failed;no paper passage claim"
+      ]
+    },
+    {
+      "id": "WAE2018_AUTHORS_V4",
+      "title": "Wasserstein Auto-Encoders",
+      "url": "https://arxiv.org/html/1711.01558v4",
+      "locations": [
+        "Section2 aggregated posterior and VAE regularizer discussion",
+        "AppendixA definition of Q_Z and VAE objective"
+      ],
+      "verified_mechanism": "Q_Z is the data-marginalized encoder posterior and differs conceptually from P_Z;VAE average posterior KL decomposes into aggregated KL plus mutual information in the stated common-coordinate setting",
+      "limit": "Not a diagnosis of AMP collapse;conditional flow requires correct coordinate/conditioning interpretation."
+    }
+  ],
+  "local_evidence": {
+    "ddpm_target": "raw r=(mu,logsigma),B2x16x48;no posterior-target standardization",
+    "decoder_coordinate": "z=mu+exp(logsigma)*epsilon",
+    "prior_coordinate": "zp=F_g(z);native inverse needs residue-conditioned g",
+    "CE_AMD_saved_scale_assessment": {
+      "generated_sigma_range": [
+        0.11082616448402405,
+        5.437218189239502
+      ],
+      "train_sigma_range": [
+        0.7842644453048706,
+        1.2480173110961914
+      ],
+      "generated_mu_range": [
+        -10.114991188049316,
+        6.258078098297119
+      ],
+      "train_mu_range": [
+        -4.4912109375,
+        5.389507293701172
+      ],
+      "generated_z_rms": 1.7052005226282765,
+      "train_analytic_qz_rms": 1.5701311990954532,
+      "ratio": 1.0860242275362952,
+      "generated_logs_std_ratio_to_train": 5.485363099152415,
+      "largest_request_z_rms": 3.1458233919571894,
+      "tail_warning": "AMIDATED generated posterior is broader and mean-shifted relative to its training cache; one request has z RMS3.1458. Retain this observed mismatch. It is not evidence of fitted latent distribution, generalization or AMP activity."
+    }
+  },
+  "derived_not_source_claims": [
+    "Fixed-schedule per-coordinate centered SNR depends on Var(r0).",
+    "Empirical mixture q_train(z) differs from empirical distribution of posterior parameter pairs.",
+    "Standard-normal decoder z is an independent control,not the native conditional-flow prior.",
+    "Mean/variance normalization does not guarantee Gaussianity or distribution matching."
+  ],
+  "conditional_future_contract": [
+    "Train-only fit/freeze/hash of target-coordinate transform with predefined axes and zero-variance handling.",
+    "Retrain DDPM on transformed targets;apply exact inverse before interpreting mu/logsigma and exp.",
+    "Keep VAE,data,other objectives,beta,architecture,schedule,seeds,budget and decoder/readout fixed for attribution.",
+    "Preserve fair AR information/selection opportunity,actual added costs,all attempts and existing dev reuse limits."
+  ],
+  "causal_root_cause_identified": false,
+  "normalization_benefit_established": false,
+  "new_method_novelty_established": false,
+  "operations": {
+    "new_web_queries": true,
+    "model_calls": 0,
+    "training_updates": 0,
+    "generation_calls": 0,
+    "live_scalar_reads": 0,
+    "test_reads": 0,
+    "source_or_existing_artifact_edits": 0,
+    "execution_authorization": false
+  },
+  "local_source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/coordinate_audit/COORDINATE_AUDIT.zh.md",
+      "bytes": 7897,
+      "sha256": "0e1f7c1f9cf90bff6a2e40bc2eaaa4fb6646453bf10f66c37724948bde20c571"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "bytes": 41408,
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "bytes": 14870,
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_SCALE_DETAIL_v1.json",
+      "bytes": 16604,
+      "sha256": "80b38d9b692be1807e1506c0637c0319b7d9c5d0ccabbfbfe38b87f63ab84ff8"
+    }
+  ],
+  "markdown": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/LATENT_SCALE_PRIOR_PRIMARY_BRIEF_v1.zh.md",
+    "bytes": 5462,
+    "sha256": "89754d84b661be28d7b87f4fb02187d49488c8e61ab44f0acf5913c0e38b9fa7"
+  }
+}

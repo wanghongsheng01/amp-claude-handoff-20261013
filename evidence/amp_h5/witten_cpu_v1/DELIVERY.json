@@ -1,0 +1,29 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY_PENDING_INDEPENDENT_AUDIT",
+  "parameter_count": 183069,
+  "checks": 13,
+  "throughput": {
+    "batch_size": 32,
+    "warmup_steps": 5,
+    "timed_steps": 20,
+    "training_seconds": 0.4420960829593241,
+    "train_seconds_per_step": 0.022104804147966207,
+    "train_examples_per_second": 1447.6491076689417,
+    "inference_seconds": 0.33495675027370453,
+    "inference_examples_per_second": 1910.6944388403406,
+    "training_steps_total": 105,
+    "natural_epochs_extrapolation": "ceil(N/32)*epochs*train_seconds_per_step; excludes IO/evaluation and is not measured natural throughput"
+  },
+  "peak_rss_bytes": 290177024,
+  "wall_seconds": 5.308467333205044,
+  "natural_training": "NOT_RUN_NOT_ADMITTED",
+  "performance_reproduction": "NOT_CLAIMED",
+  "initial_failure": "attempt1 JSON int serialization retained; same scientific config passed after logging repair",
+  "remaining_gates": [
+    "independent architecture and chemistry audit",
+    "data semantic/chemical admission",
+    "split and contamination isolation",
+    "natural training budget and failure rules frozen separately"
+  ],
+  "single_model_slot": "RELEASED"
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "Existing H4 saved last-timestep parity only; zero training/encoder/new sampling",
+  "workspace": "/Users/loctek/Documents/Codex/2026-10-11/task-4",
+  "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/h4_parity_execution_v1",
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/h4_saved_step_parity.py",
+      "sha256": "5e8d84f3baff188f3eb15a6b54343a72bb79c7d7dc0e23fa22b64593b93e3e30"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/PARITY_CONFIG.json",
+      "sha256": "e45478be33b64384cf59e4a0a4267815106e5e7b278784de1d6ebe64f5ac0ac8"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "h4_saved_parity",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/h4_saved_step_parity.py",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/PARITY_CONFIG.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/h4_parity_v1"
+      ],
+      "outer_timeout_seconds": 180
+    }
+  ],
+  "failure_policy": "No retry or tolerance relaxation; VAE formal hold persists"
+}

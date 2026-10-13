@@ -1,0 +1,31 @@
+{
+  "pid": 77123,
+  "created_utc": "2026-10-11T20:27:28.932882+00:00",
+  "state": "completed",
+  "plan_sha256": "91e64d4ca473c1a56b2c66b285f0f5b8fd0ccba3884fe15ba465e574108bb46f",
+  "jobs": [
+    {
+      "id": "ce_source_replacement_v2",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+        "--contract",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+        "--plan",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v2.json",
+        "--receipt",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_PREFLIGHT_v2.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2"
+      ],
+      "started_utc": "2026-10-11T20:27:28.933294+00:00",
+      "state": "completed",
+      "pid": 77125,
+      "exit_code": 0,
+      "seconds": 2.679257582873106
+    }
+  ],
+  "completed_utc": "2026-10-11T20:27:31.613386+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "A": {
+    "status": "COMPLETE",
+    "inner120_exceeded": false,
+    "outer150_exceeded": false,
+    "completed_updates": 1000,
+    "attempted_updates": 1000,
+    "failure": null,
+    "seconds": 17.110556584317237,
+    "final_state_sha256": "5d9fe06ca9f48f3751737dc2ffe0e6247191e1b1789bd264e1fa2e0e3bec0638",
+    "checkpoint_selection": "final_only"
+  },
+  "B": {
+    "status": "COMPLETE",
+    "inner120_exceeded": false,
+    "outer150_exceeded": false,
+    "completed_updates": 1000,
+    "attempted_updates": 1000,
+    "failure": null,
+    "seconds": 16.18255487503484,
+    "final_state_sha256": "ce7dc529d4046784283d1408bd3b3757ba7f7f6b835320e302b51c9c24ffca4b",
+    "checkpoint_selection": "final_only"
+  },
+  "C": {
+    "status": "COMPLETE",
+    "inner120_exceeded": false,
+    "outer150_exceeded": false,
+    "completed_updates": 1000,
+    "attempted_updates": 1000,
+    "failure": null,
+    "seconds": 12.991648375056684,
+    "final_state_sha256": "d4bdc1d3b700e9b51457a2770dbd9296c5289f6a8a07504d5345a728a8e891be",
+    "checkpoint_selection": "final_only"
+  }
+}

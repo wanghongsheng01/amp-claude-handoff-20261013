@@ -1,0 +1,41 @@
+{
+  "schema": "AMP_H5_DIRECT_Z_DESIGN_DELIVERY_V1",
+  "status": "PASS_DESIGN_AND_PASS_EXPLANATION_ONLY",
+  "training_authorized": false,
+  "natural_execution_authorized": false,
+  "files": [
+    {
+      "path": "MINIMAL_PLAN_v2.json",
+      "sha256": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8"
+    },
+    {
+      "path": "INDEPENDENT_DESIGN_REVIEW_v2.json",
+      "sha256": "a27396d04c7f5f1a9675373d6ce575cbc114ba4e561e12f87c7400c01c8c981a"
+    },
+    {
+      "path": "FOCUSED_MECHANISM_EVIDENCE_v1.json",
+      "sha256": "1441a7f5e207e9d2e5a8623f23f34ad333a3983774bf0f5dd8a9329b8df98f10"
+    },
+    {
+      "path": "INDEPENDENT_EVIDENCE_REVIEW_v1.json",
+      "sha256": "d58711acd868bde88b2230c2d8a335757198a9f73c73f27c2be2a7da924ce886"
+    }
+  ],
+  "source_bindings": {
+    "checked": 13,
+    "mismatches": 0
+  },
+  "precision_addendum": "采纳非阻断独审建议：AMPGen的MSA Transformer为100M参数，序列EvoDiff对照为640M；42M指后者UniRef50预训练序列数量，三者不可混读。来源https://www.nature.com/articles/s42003-025-08282-7。冻结方案及证据原件不改。",
+  "selected": "仅direct-z条件聚合后验先验的有限预算适配；R/Z+C对照；无新颖/效力/投稿就绪声明",
+  "compute": {
+    "future_total_seconds": 4800,
+    "current_model_forward": 0,
+    "current_training": 0
+  },
+  "remaining": [
+    "实际实现及独立工程/吞吐准入未完成",
+    "沙箱ps被拒绝，本轮未确认当前活跃进程；未来启动前须检查并持锁",
+    "外部方法完整复现仍未验证，详细缺口见证据文件"
+  ],
+  "backup": "BACKUP_BLOCKED_NO_AUTHORIZED_VERIFIED_DESTINATION；未开展新备份"
+}

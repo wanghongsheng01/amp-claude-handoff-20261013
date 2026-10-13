@@ -1,0 +1,183 @@
+{
+  "created_utc": "2026-10-11T19:24:25.839171+00:00",
+  "files": [
+    {
+      "source_id": "F",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "source_id": "RECOVERY",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+      "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c"
+    },
+    {
+      "source_id": "V",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+      "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09"
+    },
+    {
+      "source_id": "D",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/diff.py",
+      "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13"
+    },
+    {
+      "source_id": "FLOW",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+      "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45"
+    },
+    {
+      "source_id": "ATTN",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/attention_model.py",
+      "sha256": "87b160a350037bf5bbf0bb4daff50ec5b57cd8f1eab39911ee7352d961a42382"
+    },
+    {
+      "source_id": "ROOTDIFF",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+      "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da"
+    },
+    {
+      "source_id": "TASKDIFF",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/train_diffusion.py",
+      "sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8"
+    },
+    {
+      "source_id": "VAE_YAML",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/configs/train_vae.yaml",
+      "sha256": "b9ef1d24c50482674127b191494b314b68a7a24e15814dc61d248413471fb489"
+    },
+    {
+      "source_id": "CSV_LOADER",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/dataset_loader/dataset_utils/csv_dataset.py",
+      "sha256": "2c6ff082a309750f88d110dd21e8b3529dc4f1951f387b3c214c4fcbf49643f3"
+    },
+    {
+      "source_id": "OLD",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/run_rebuild_v3r2.py",
+      "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8"
+    },
+    {
+      "source_id": "H4",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+      "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78"
+    },
+    {
+      "source_id": "BUILD",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/build_descriptors_v2.py",
+      "sha256": "66533dcb00f88b1be61a9fea19a0a3726e4c63000cb6c0310aa4f626fbb7de06"
+    },
+    {
+      "source_id": "REP",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/molecular_representation.py",
+      "sha256": "4d0d6abb6cb7c49efe69a387270dbd44e49e6749c8515ce2d844ccdc4a717dd4"
+    },
+    {
+      "source_id": "SOURCE_MANIFEST",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/source_copy_manifest.json",
+      "sha256": "019f4d1a6c6fd882c71849ae3c2920556020cee043ea084b31def1a89e980f48"
+    },
+    {
+      "source_id": "CONFIG",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/config.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "source_id": "SCALER",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d"
+    },
+    {
+      "source_id": "RUNTIME",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "source_id": "DDPM_SUMMARY",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_training_summary.json",
+      "sha256": "74755fd716e27fd37f4cb13334689df3cff80f17c75d4d7d2bc0dc9e083c09d9"
+    },
+    {
+      "source_id": "DDPM_CURRENT_META",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_state.json",
+      "sha256": "77e0999541e9ffb5c6eca8188b4037d1d5dcf5835e7a60ad032f4a6f26b336af"
+    },
+    {
+      "source_id": "DDPM_EMA_META",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.json",
+      "sha256": "97f3db5bf0286af52f05cf46291cc3b1f2ce290cfda451d0e0fe77dbe980e0ac"
+    },
+    {
+      "source_id": "REC_SCALER",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/restored_scaler_identity.json",
+      "sha256": "4bb093dc1ea42adf1d08a18d36ee162ddef6422de8eee6e3733b8b88405ebca0"
+    },
+    {
+      "source_id": "REC_LOADED",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/loaded_state_identity.json",
+      "sha256": "fa6c248213a8b1bf1ad2bead2a03e791491d2f70d25be9d2913392619fbf2123"
+    },
+    {
+      "source_id": "REC_RUNTIME",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    }
+  ],
+  "historical_source_relation": [
+    {
+      "relative_path": "AMP_VAEflow/modules/vae.py",
+      "corrected_sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+      "source_sha256": "a6bf7137ee0cd4d68ecc6b15ae2cdb7cac372c7abf2d955a09dd0e275981b8ca",
+      "changed": true,
+      "source_id": "V"
+    },
+    {
+      "relative_path": "AMP_VAEflow/modules/diff.py",
+      "corrected_sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13",
+      "source_sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13",
+      "changed": false,
+      "source_id": "D"
+    },
+    {
+      "relative_path": "AMP_VAEflow/modules/flow_base.py",
+      "corrected_sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+      "source_sha256": "92c2f3c2260671d7b59c671e6fdd2c3ca13708bbabaf85cf56ba8aad4ae08140",
+      "changed": true,
+      "source_id": "FLOW"
+    },
+    {
+      "relative_path": "AMP_VAEflow/modules/attention_model.py",
+      "corrected_sha256": "87b160a350037bf5bbf0bb4daff50ec5b57cd8f1eab39911ee7352d961a42382",
+      "source_sha256": "87b160a350037bf5bbf0bb4daff50ec5b57cd8f1eab39911ee7352d961a42382",
+      "changed": false,
+      "source_id": "ATTN"
+    },
+    {
+      "relative_path": "diffusion.py",
+      "corrected_sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da",
+      "source_sha256": "3b584082f24b9fe9d9761594b94e9b547a1dc5c1b65c84cacb09839087f082e3",
+      "changed": true,
+      "source_id": "ROOTDIFF"
+    },
+    {
+      "relative_path": "AMP_VAEflow/tasks/train_diffusion.py",
+      "corrected_sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8",
+      "source_sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8",
+      "changed": false,
+      "source_id": "TASKDIFF"
+    },
+    {
+      "relative_path": "AMP_VAEflow/configs/train_vae.yaml",
+      "corrected_sha256": "b9ef1d24c50482674127b191494b314b68a7a24e15814dc61d248413471fb489",
+      "source_sha256": "b9ef1d24c50482674127b191494b314b68a7a24e15814dc61d248413471fb489",
+      "changed": false,
+      "source_id": "VAE_YAML"
+    },
+    {
+      "relative_path": "AMP_VAEflow/tasks/dataset_loader/dataset_utils/csv_dataset.py",
+      "corrected_sha256": "2c6ff082a309750f88d110dd21e8b3529dc4f1951f387b3c214c4fcbf49643f3",
+      "source_sha256": "0a9e04641c9934a60e5f8bcabf467255ecc66429c161a3b10576bd9c7aed88c1",
+      "changed": true,
+      "source_id": "CSV_LOADER"
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 0,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 1,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 2,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 3,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 4,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 5,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 6,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 7,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 8,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 9,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 10,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 11,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 12,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 13,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 14,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 15,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 0,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 1,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 2,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 3,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 4,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 5,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 6,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 7,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 8,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 9,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 10,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 11,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 12,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 13,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 14,
+    "status": "not_executed"
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 15,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 0,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 1,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 2,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 3,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 4,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 5,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 6,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 7,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 8,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 9,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 10,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 11,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 12,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 13,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 14,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 15,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 0,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 1,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 2,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 3,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 4,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 5,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 6,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 7,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 8,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 9,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 10,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 11,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 12,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 13,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 14,
+    "status": "not_executed"
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 15,
+    "status": "not_executed"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 0,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 1,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 2,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 3,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 4,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 5,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 6,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 7,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 8,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 9,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 10,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 11,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 12,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 13,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 14,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 15,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 0,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 1,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 2,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 3,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 4,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 5,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 6,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 7,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 8,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 9,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 10,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 11,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 12,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 13,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 14,
+    "status": "historical_C_pending_import"
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 15,
+    "status": "historical_C_pending_import"
+  }
+]

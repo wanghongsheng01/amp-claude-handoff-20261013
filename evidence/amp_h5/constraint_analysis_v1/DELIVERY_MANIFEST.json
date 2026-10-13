@@ -1,0 +1,50 @@
+{
+  "scope": "completed analysis artifacts only; no model/data freeze or experiment authorization",
+  "independent_reviews": "completed",
+  "files": {
+    "DECISION.json": {
+      "bytes": 4140,
+      "sha256": "2da712ca573c5c6fd4c4be3e40f9e7b54f29b2e3475905c16feef688631282b5"
+    },
+    "DRAFT_FOR_AUDIT.txt": {
+      "bytes": 11847,
+      "sha256": "4a1974fa25ecb7a850ce5e546ef49fab146d909e71681c249bb383abc3520928"
+    },
+    "FINAL_ANALYSIS.txt": {
+      "bytes": 22373,
+      "sha256": "8a5e292b00bc230d92a8b9b1c2aa65464ec3e7fdaeddd164de69619de6fb28e8"
+    },
+    "independent/AUDIT_FILE_HASHES_v1.json": {
+      "bytes": 1548,
+      "sha256": "652395ab136b8e9d7fcd44fba69e086eebb7aaa17163ed9dea778f3e638cf4cc"
+    },
+    "independent/DRAFT_SCOPE_COST_REVIEW_v1.md": {
+      "bytes": 3398,
+      "sha256": "e5c2ca94490e5d86f9f23c50d537871725f4b84bf9118f1e3d05d41ee1552b5e"
+    },
+    "independent/NOVELTY_CHALLENGE_v1.md": {
+      "bytes": 15776,
+      "sha256": "9a19f600fa1e455fadcdb46b74634d1a6fc7b26102eb8edbbcfc90c41d76e5e3"
+    },
+    "independent/NOVELTY_DECISION_v1.json": {
+      "bytes": 2487,
+      "sha256": "8df97a07a399221ecafc3930b6d43b4604afe9157c9846022e77f4a90724fe10"
+    },
+    "independent/code_audit/OFFICIAL_CODE_AUDIT_v1.json": {
+      "bytes": 6285,
+      "sha256": "f669c3779fbad74bd3c469aae144d9f3ae5e3699119bd41be0c74ea37378bdd1"
+    },
+    "independent/code_audit/OFFICIAL_CODE_AUDIT_v1.md": {
+      "bytes": 11517,
+      "sha256": "df00017260fa3b214d0ca077a6820a9cdd33d023e08a43ea1b7d776d2c52cef7"
+    },
+    "independent/mathematical_audit.md": {
+      "bytes": 22441,
+      "sha256": "4792dece65d3abfb398b04e069660ed1b705acad7c1a1b8afc1d0e05542b76ed"
+    },
+    "independent/sharper_bound_and_fixed_batch_addendum.md": {
+      "bytes": 6320,
+      "sha256": "a9b2789d0c2974ada4a83289e20277fc389e64ca457efd4589f0d1e2ccb83af9"
+    }
+  }
+}

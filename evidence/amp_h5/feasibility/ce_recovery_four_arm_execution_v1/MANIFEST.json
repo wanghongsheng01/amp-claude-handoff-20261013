@@ -1,0 +1,90 @@
+{
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/ADDENDUM_COMMAND.json",
+      "bytes": 612,
+      "sha256": "7fc984df94dad78cc406e2fb7bb2c35cac0ff04f698478402e71732f869d59b7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/ADDENDUM_COMMAND.sh",
+      "bytes": 178,
+      "sha256": "3d99d10ddb4cb1b65a9c160bf3069cc59877ce2022bf0ce6fb0bef47331478e5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/ADDENDUM_RESULT.json",
+      "bytes": 390,
+      "sha256": "219aa95b4c452e50ff8d68e4c0ea6f4b36371460ace1e8780c34bc747f0dc27d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/DELIVERY_VERIFICATION.json",
+      "bytes": 41051,
+      "sha256": "e1e5895149d5a581a2dc06372c5363f6fdeb947dc158846bb8f3fb21826a26ba"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/EVALUATION_COMMAND.json",
+      "bytes": 11185,
+      "sha256": "09ce64689f67b1c08ab40e104a70c0725cbb8a574e4eeaff9ed93c1f4840b116"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/EVALUATION_COMMAND.sh",
+      "bytes": 2464,
+      "sha256": "cf3399b307d603d768ff09ebcffd6559e660d8767c80e994ba2f822cd59e32a8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/EVALUATION_RESULT.json",
+      "bytes": 4174,
+      "sha256": "5577a7759bc91644833be94019902bd24547c79af604eaa2ac95617187f29bd7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/V4_READOUT_COMMAND.json",
+      "bytes": 1500,
+      "sha256": "01db609952a13a313fb3488ff5a13a57db019a103e3e4e335ca790976cb46032"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/V4_READOUT_COMMAND.sh",
+      "bytes": 381,
+      "sha256": "c7c0b6f6f02232e2046fe044fae3a077081f8242c210b5c67766d948c9db82d1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/V4_READOUT_RESULT.json",
+      "bytes": 474,
+      "sha256": "e93a35b39aeb6880ae074e27db3ad229534073dfa5119651593cf4880da3f112"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/addendum.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/addendum.stdout.log",
+      "bytes": 234,
+      "sha256": "161c70727e4e1990bc8a4fcc3ec8fedffa8c16e252873a375bdbd03d28fb5eaa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/evaluation.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/evaluation.stdout.log",
+      "bytes": 193,
+      "sha256": "bdb4f3a4d05e241f9dd71f1a91218c6b85541c3fbb0387742d1aea7f189e66c9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/v4_readout.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/v4_readout.stdout.log",
+      "bytes": 211,
+      "sha256": "b05124f6d2cbffe98a7544d5df7f9209dc9a2ffbfdb4902a4a30da3b3a6b2dd1"
+    }
+  ],
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "recovery_descriptive_L": "PASS",
+  "recovery_descriptive_G": "FAIL",
+  "PROMOTE": "HOLD",
+  "test_access": false,
+  "model_calls": 0
+}

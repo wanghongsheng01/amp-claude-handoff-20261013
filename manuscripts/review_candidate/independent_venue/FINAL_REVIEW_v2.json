@@ -1,0 +1,166 @@
+{
+  "schema_version": "2.0",
+  "review_date": "2026-10-12",
+  "review_type": "Requested final difference-only review and terminal artifact binding",
+  "supersedes_for_source_identity": "FINAL_REVIEW_v1.json",
+  "preserves_prior_review": true,
+  "scope_limit": "Focused source and final compile-log inspection only; no new webpage/citation research, full source diff against a preserved v1 text snapshot, raw scientific-data recomputation or rendered-PDF visual review. Prior audit limitations and blockers remain.",
+  "candidate_status": "PASS_FOR_REVIEW_CANDIDATE",
+  "submission_status": "NO_GO_FOR_SUBMISSION",
+  "recommended_candidate_venue": "Bioinformatics Original Paper",
+  "source_identity": {
+    "source/main.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/main.tex",
+      "bytes": 30196,
+      "sha256": "320d3387627756bc7bbabff367cb36fb1574b482a88ad7868fc0512b679bbf91",
+      "changed_since_v1": true
+    },
+    "source/supplement.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/supplement.tex",
+      "bytes": 23974,
+      "sha256": "1b9488da873e3d6f18a9bc01babfb346cc1b5e12ee347f2c940e024051ccea50",
+      "changed_since_v1": true
+    },
+    "source/references.bib": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/references.bib",
+      "bytes": 3767,
+      "sha256": "e01e3fb5c835d811c2b945cd30d39614b5fbebda1f52aab33f681ad76478ba37",
+      "changed_since_v1": false
+    },
+    "source/cover_letter.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/cover_letter.tex",
+      "bytes": 3080,
+      "sha256": "71ca6aafaf04de4156fdc76a7662d1e3c0f32f79387a1f88020246e2375b4cec",
+      "changed_since_v1": false
+    },
+    "source/decision.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/decision.tex",
+      "bytes": 2896,
+      "sha256": "1f602761e088bbc6b78424af7b5a094b87527a7fd6cbebe6a283f86878eefcb8",
+      "changed_since_v1": true
+    },
+    "build/main.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/main.pdf",
+      "bytes": 360732,
+      "sha256": "a5e484e1b81d5d82051b36b9759d0782d0375ed1ff4b05b5f8d2355210e1b788",
+      "changed_since_v1": true
+    },
+    "build/supplement.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/supplement.pdf",
+      "bytes": 251774,
+      "sha256": "c082d5f2d403ce9d0069721c2a62a4f953411103b88912eb01fcf9a48a2424fb",
+      "changed_since_v1": true
+    },
+    "build/cover_letter.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/cover_letter.pdf",
+      "bytes": 95637,
+      "sha256": "a0fb6d3785558c15f3c5835b811ad97a8cf591a4a8a66698a2d18c42738534d7",
+      "changed_since_v1": false
+    },
+    "build/decision.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/decision.pdf",
+      "bytes": 86308,
+      "sha256": "76b08bb60c56e29f24e24bcf824650fbce0b6622acb8640b76828469ca36fb56",
+      "changed_since_v1": true
+    },
+    "source/figures/reconstruction_generation.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/figures/reconstruction_generation.tex",
+      "bytes": 1620,
+      "sha256": "42bdad6fff393777d9e612d3e5c04424be4c8e0bf8adfbdd606802146113a13f",
+      "changed_since_v1": null
+    },
+    "source/figures/reconstruction_generation.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/figures/reconstruction_generation.pdf",
+      "bytes": 51866,
+      "sha256": "288e1f4c298de63d97c4446e0cb768b0fa1f2f909bf40c0a40d2fa5415447fe6",
+      "changed_since_v1": null
+    }
+  },
+  "final_compile_log_evidence": {
+    "main": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/main.log",
+      "sha256": "3c5c37503d746aea37fae3b1da575a47b571acec76f6b7e9737fbb1e0b95d34d",
+      "reported_pages": 16,
+      "reported_pdf_bytes": 360732,
+      "overfull_hbox_or_vbox_count": 0
+    },
+    "supplement": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/supplement.log",
+      "sha256": "2afb737f7607b4bc526d79164909a746e1ca31072bc78cb628dc0281d0c30791",
+      "reported_pages": 12,
+      "reported_pdf_bytes": 251774,
+      "overfull_hbox_or_vbox_count": 0
+    },
+    "cover_letter": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/cover_letter.log",
+      "sha256": "361c5108cdc746871184b160943366cbb0e4f5759381849e14f2e8f6c9d246e3",
+      "reported_pages": 1,
+      "reported_pdf_bytes": 95637,
+      "overfull_hbox_or_vbox_count": 0
+    },
+    "decision": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/decision.log",
+      "sha256": "cfdd8a32a32f838c194993a2970abdd0e9ad4404bfbde88ca63cfed97848946c",
+      "reported_pages": 1,
+      "reported_pdf_bytes": 86308,
+      "overfull_hbox_or_vbox_count": 0
+    }
+  },
+  "difference_checks": [
+    {
+      "id": "D01",
+      "status": "PASS_WITHIN_AUDIT_SCOPE",
+      "change": "Main evidence sources and partition methodology added",
+      "finding": "The added text distinguishes metadata-qualified selected cohort from confirmed activity, describes grouping/exposure-aware allocation, training-only scaling, and nonmatched terminal groups. It preserves unopened reserved-partition and reused-development limitations. Source-level scientific reconstruction of the underlying cohort is outside this difference-only venue audit."
+    },
+    {
+      "id": "D02",
+      "status": "PASS",
+      "change": "QMAP scope clarified",
+      "finding": "The introduction now explicitly says MIC and hemolytic-activity regression, matching the already verified reference; no claim that it is a generative-model benchmark."
+    },
+    {
+      "id": "D03",
+      "status": "PASS_WITHIN_AUDIT_SCOPE",
+      "change": "Supplement MIC grouping specified",
+      "finding": "Unit-cost Levenshtein threshold and transitive components are now explicit, with PubMed ID or normalized title plus year as source keys. Text distinguishes conservative grouping from identical stereochemistry and biological independence. No raw records or reserved dataset opened."
+    },
+    {
+      "id": "D04",
+      "status": "SOURCE_AND_BUILD_CHECK_PASS",
+      "change": "Figure B/C labels simplified",
+      "finding": "Figure source uses Free: MMD² and Amide: MMD² titles without redundant vertical labels. Source/compiled figure hashes bound. This auditor did not independently visually inspect the rendered figure; no collision-free visual certification is issued."
+    },
+    {
+      "id": "D05",
+      "status": "SOURCE_AND_BUILD_CHECK_PASS",
+      "change": "27-row historical table enlarged and isolated",
+      "finding": "Table now uses footnotesize, 3pt column padding, and clearpage before and after the historical table. Supplement final log reports 12 pages and no overfull boxes. Rendered-page visual review remains with the separate surface reviewer."
+    },
+    {
+      "id": "D06",
+      "status": "PASS",
+      "change": "Decision table column width",
+      "finding": "Decision table uses 0.23 and 0.70 linewidth columns with outer padding removed. Current decision.log reports 1 page and zero overfull boxes; older cumulative build logs retain the historical 0.66219pt warning and are not evidence of a current failure."
+    },
+    {
+      "id": "D07",
+      "status": "HONEST_FAIL_RETAINED",
+      "change": "AI disclosure mechanical phrase check",
+      "finding": "The requested exact phrase The authors verified is absent because human verification has not occurred. Main disclosure explicitly covers substantial AI roles and pending human responsibility. Do not fabricate verification to pass a literal-string check. Mechanical FAIL and submission NO_GO remain consistent."
+    },
+    {
+      "id": "D08",
+      "status": "PASS",
+      "change": "Unchanged bibliography and cover-letter scope",
+      "finding": "Hash comparison identifies unchanged references.bib and cover_letter.tex; prior source verification and cover-letter review carry forward. No web or citation checks were repeated."
+    }
+  ],
+  "remaining_blockers": [
+    "Independent scientific-validity limitations recorded in V09.",
+    "Human factual verification and declarations recorded in V10.",
+    "Public release and full reproducibility arrangements remain unresolved."
+  ],
+  "ai_mechanical_gate": "FAIL intentionally retained; no unsupported completed-human-verification statement added.",
+  "prior_guidelines_and_reference_findings": "Carry forward FINAL_REVIEW_v1.json, GUIDELINES.json and REFERENCES_VERIFIED.json without new web checking."
+}

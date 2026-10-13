@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "check_count": 17,
+  "checks": [
+    "320 reference / 2880 exact slots",
+    "perfect M and S zero screen",
+    "whole_exact numeric counts",
+    "S8 seq equal / micro retained",
+    "wrong sorted token order rejected",
+    "missing S not silently dropped",
+    "duplicate slot rejected",
+    "truth mismatch rejected",
+    "changed S seed rejected",
+    "complete nonfinite prediction rejected",
+    "complete empty remains eligible denominator",
+    "complete J48 remains eligible",
+    "failed draw NE not survivor average",
+    "failure retains dev41 denominator",
+    "frozen difference threshold direction",
+    "descriptor missing independent of core screen",
+    "descriptor delta direction"
+  ],
+  "wall_seconds": 0.637756041,
+  "model_calls": 0,
+  "natural_data_reads": 0,
+  "RDKit_calls": 0,
+  "random_draws": 0,
+  "script_sha256": "5896fea554c37979ed37abf87b5c0472002833539e4e6bb7d5e4f9182d13cc67"
+}

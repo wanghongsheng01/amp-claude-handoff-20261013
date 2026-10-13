@@ -1,0 +1,82 @@
+[
+  {
+    "step": 100,
+    "train_nll_nats": 2.5835970324035844,
+    "development_nll_nats": 2.6314405662351543,
+    "train_teacher_forced_accuracy": 0.19545366232756947,
+    "development_teacher_forced_accuracy": 0.18328840970350405,
+    "used_for_selection": false
+  },
+  {
+    "step": 200,
+    "train_nll_nats": 2.458414674013685,
+    "development_nll_nats": 2.6152527184499244,
+    "train_teacher_forced_accuracy": 0.2294540509034389,
+    "development_teacher_forced_accuracy": 0.18867924528301888,
+    "used_for_selection": false
+  },
+  {
+    "step": 300,
+    "train_nll_nats": 2.343882505699619,
+    "development_nll_nats": 2.6354723413678194,
+    "train_teacher_forced_accuracy": 0.27142024480279775,
+    "development_teacher_forced_accuracy": 0.1778975741239892,
+    "used_for_selection": false
+  },
+  {
+    "step": 400,
+    "train_nll_nats": 2.218446365810029,
+    "development_nll_nats": 2.707511058714833,
+    "train_teacher_forced_accuracy": 0.308334952399456,
+    "development_teacher_forced_accuracy": 0.19811320754716982,
+    "used_for_selection": false
+  },
+  {
+    "step": 500,
+    "train_nll_nats": 2.1051896626865467,
+    "development_nll_nats": 2.7711092802392185,
+    "train_teacher_forced_accuracy": 0.34699825140858753,
+    "development_teacher_forced_accuracy": 0.19946091644204852,
+    "used_for_selection": false
+  },
+  {
+    "step": 600,
+    "train_nll_nats": 2.0008000977321436,
+    "development_nll_nats": 2.8245445724446174,
+    "train_teacher_forced_accuracy": 0.37711288129007187,
+    "development_teacher_forced_accuracy": 0.1954177897574124,
+    "used_for_selection": false
+  },
+  {
+    "step": 700,
+    "train_nll_nats": 1.905814536038894,
+    "development_nll_nats": 2.9723217905049695,
+    "train_teacher_forced_accuracy": 0.39168447639401593,
+    "development_teacher_forced_accuracy": 0.1967654986522911,
+    "used_for_selection": false
+  },
+  {
+    "step": 800,
+    "train_nll_nats": 1.805384666868291,
+    "development_nll_nats": 3.0530186573450133,
+    "train_teacher_forced_accuracy": 0.43287351855449774,
+    "development_teacher_forced_accuracy": 0.20485175202156333,
+    "used_for_selection": false
+  },
+  {
+    "step": 900,
+    "train_nll_nats": 1.7127350191479866,
+    "development_nll_nats": 3.1364767480731977,
+    "train_teacher_forced_accuracy": 0.4728968331066641,
+    "development_teacher_forced_accuracy": 0.20215633423180593,
+    "used_for_selection": false
+  },
+  {
+    "step": 1000,
+    "train_nll_nats": 1.6431238127375474,
+    "development_nll_nats": 3.169792648274301,
+    "train_teacher_forced_accuracy": 0.4915484748397125,
+    "development_teacher_forced_accuracy": 0.20350404312668463,
+    "used_for_selection": false
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "id": "pp1-1",
+    "sequence": "LNLPKILFCSAPRTRLPGNWI",
+    "purity": "95.3",
+    "MIC": {
+      "ecoli_atcc_25922": "500",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "250",
+      "efaecalis_atcc_29212": "125"
+    }
+  },
+  {
+    "id": "pp1-2",
+    "sequence": "KAFFLLYFAVPFGPWS",
+    "purity": "97.3",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp1-3",
+    "sequence": "CVVSLFKSKKGGLRKHGVPFKL",
+    "purity": "95.6",
+    "MIC": {
+      "ecoli_atcc_25922": "62.5",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "31.25",
+      "efaecalis_atcc_29212": "125"
+    }
+  },
+  {
+    "id": "pp1-4",
+    "sequence": "LLWIMLAYRLAFHRNWNAGGWKLFAVV",
+    "purity": "95.1",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp1-5",
+    "sequence": "LKFTFIKGKFGKSSYY",
+    "purity": "96.1",
+    "MIC": {
+      "ecoli_atcc_25922": "31.25",
+      "paeruginosa_atcc_27853": "125",
+      "saureus_atcc_29213": "7.8125",
+      "efaecalis_atcc_29212": "125"
+    }
+  },
+  {
+    "id": "pp1-7",
+    "sequence": "AVCLILGLFNWGK",
+    "purity": "80.3",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp1-8",
+    "sequence": "CGHLFPYWLYLGPKTPW",
+    "purity": "97.5",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp2-1",
+    "sequence": "CPRTRVGSKT",
+    "purity": "95.6",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp2-2",
+    "sequence": "LKLLWLIKCSG",
+    "purity": "99.1",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp2-3",
+    "sequence": "AKLSFGKPFANKSKYW",
+    "purity": "97.4",
+    "MIC": {
+      "ecoli_atcc_25922": "250",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "250",
+      "efaecalis_atcc_29212": "1000"
+    }
+  },
+  {
+    "id": "pp2-4",
+    "sequence": "CNNLKLHICVKKFARYYLYGPTPYY",
+    "purity": "97.5",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp2-5",
+    "sequence": "RETGRGKRDKGNIGTALGCFRMI",
+    "purity": "95.2",
+    "MIC": {
+      "ecoli_atcc_25922": "1000",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "250",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp2-6",
+    "sequence": "VGPGKKFLPK",
+    "purity": "98.6",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp2-7",
+    "sequence": "FTGGKGRDWGGHSSRKKKSLGFA",
+    "purity": "97.0",
+    "MIC": {
+      "ecoli_atcc_25922": "1000",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "1000",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp2-8",
+    "sequence": "FMPVVLTKLFGVLHFRKIY",
+    "purity": "97.8",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "15.625",
+      "efaecalis_atcc_29212": "62.5"
+    }
+  },
+  {
+    "id": "pp3-1",
+    "sequence": "CHLKLAILFNFLKFLKQFLGNLTYV",
+    "purity": "97.2",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-2",
+    "sequence": "HGKFFKYFNLQVCLGLARALKDGG",
+    "purity": "96.0",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-3",
+    "sequence": "RPKQIYFFAHLRLIFGLKI",
+    "purity": "95.8",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-4",
+    "sequence": "CLGPKLYNNWQGLGGL",
+    "purity": "97.0",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-5",
+    "sequence": "NWQPRHFLADTFCPKLKGQILR",
+    "purity": "98.4",
+    "MIC": {
+      "ecoli_atcc_25922": "250",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "250",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-6",
+    "sequence": "MPKGIFFALKLLWKNFEKAI",
+    "purity": "96.3",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-7",
+    "sequence": "PKPFLWAKSDLFVKL",
+    "purity": "95.0",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-9",
+    "sequence": "GFFPGFIVLGCKTGFTPTY",
+    "purity": "96.2",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-11",
+    "sequence": "FKGVAKARHRLWFL",
+    "purity": "95.1",
+    "MIC": {
+      "ecoli_atcc_25922": "62.5",
+      "paeruginosa_atcc_27853": "1000",
+      "saureus_atcc_29213": "15.625",
+      "efaecalis_atcc_29212": "62.5"
+    }
+  },
+  {
+    "id": "pp3-12",
+    "sequence": "GFPGDVFKAKAAKA",
+    "purity": "97.7",
+    "MIC": {
+      "ecoli_atcc_25922": "N",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "N",
+      "efaecalis_atcc_29212": "N"
+    }
+  },
+  {
+    "id": "pp3-13",
+    "sequence": "KTFKKKLFLKLFYILHTPTY",
+    "purity": "95.4",
+    "MIC": {
+      "ecoli_atcc_25922": "31.25",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "7.8125",
+      "efaecalis_atcc_29212": "15.625"
+    }
+  },
+  {
+    "id": "pp3-14",
+    "sequence": "CFANFQSKLHREARKLMGGAKKWPY",
+    "purity": "95.9",
+    "MIC": {
+      "ecoli_atcc_25922": "125",
+      "paeruginosa_atcc_27853": "N",
+      "saureus_atcc_29213": "31.25",
+      "efaecalis_atcc_29212": "N"
+    }
+  }
+]

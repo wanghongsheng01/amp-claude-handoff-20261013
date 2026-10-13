@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-12",
+  "bioinformatics": {
+    "ai_policy_status": "NOT_COMPLIANT_CURRENT_USE",
+    "supersedes": "POLICY_ELIGIBILITY_NOT_CLEARED",
+    "journal_url": "https://academic.oup.com/BIOINFORMATICS/pages/author-guidelines",
+    "journal_access": "Full text reported by parent; this task web tool reported content too large",
+    "iscb_url": "https://www.iscb.org/about-iscb/policy-statements-bylaws-and-legal-documents/acceptable-use-of-large-language-models-policy",
+    "iscb_access": "Full direct read; explicitly applies to OUP Bioinformatics; prohibits drafting paper sections",
+    "template_pages_limit": 7,
+    "format_free_approx_words": 5000,
+    "actual_review_layout_pages": 16,
+    "template_compliance": "NOT_ESTABLISHED",
+    "disclosure_cures_prohibited_use": false
+  },
+  "communications_biology": {
+    "ai_policy_url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+    "conditional_support": "Extensive writing support allowed only under demonstrable human oversight/verification/disclosure; replacing judgment prohibited",
+    "current_workflow_compliant": false,
+    "current_workflow_reason": "Human control and actual verification not evidenced; AI agents not human reviewers",
+    "article_url": "https://www.nature.com/commsbio/submit/content-types",
+    "format_url": "https://www.nature.com/commsbio/submit/formatting-guidelines",
+    "abstract_words": [
+      150,
+      250
+    ],
+    "main_text_approx_words_excluding_methods": 5000,
+    "max_display_items": 10,
+    "scientific_fit": "NOT_ESTABLISHED",
+    "format_fit": "NOT_CONVERTED_OR_CERTIFIED",
+    "submission": "NO_GO"
+  },
+  "scope": {
+    "main_supplement_overleaf_unchanged": true,
+    "new_training": false,
+    "reserved_test_access": false,
+    "first_author_confirmed": "Hongsheng Wang",
+    "other_author_approvals": "UNCONFIRMED",
+    "formal_submission": false
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": "config.json",
+      "sha256": "4e30c3dd010ae43e247912a131f49d620bdefcdf34585f2eb28c935bc01800ec",
+      "bytes": 910
+    },
+    {
+      "path": "dev_nll.json",
+      "sha256": "6b3d2647cbeceb1f1e62db988b3ba2787bc68bf18891922861ab80ba56e9d11a",
+      "bytes": 613
+    },
+    {
+      "path": "generated.csv",
+      "sha256": "d0d639a30472afd022c7b45b4dec89c093cfbc76c820b62093e709f9eaf61715",
+      "bytes": 2404
+    },
+    {
+      "path": "generation/GENERATION.json",
+      "sha256": "8441f2d96200be1106dfe4ce4b060865b6a93f34cd0688ef9d443d9183a01713",
+      "bytes": 1656
+    },
+    {
+      "path": "generation/raw_sampling.pt",
+      "sha256": "185d2809bf24c376eadeeb5fb825b8d43bacac4a2617494306c6b2d8bbe4b951",
+      "bytes": 298555
+    },
+    {
+      "path": "generation/samples.csv",
+      "sha256": "75b2d2765fb7f0508dbcc4293c30abf72e5a12b9e65db4cc934b3f7a1c353b1d",
+      "bytes": 4739
+    },
+    {
+      "path": "generation/samples.jsonl",
+      "sha256": "5127d3b4c342a0eb81c99c773a4f2f066d8fd167157dce8675dbff7e80e3b702",
+      "bytes": 11758
+    },
+    {
+      "path": "status.json",
+      "sha256": "6b4002084ec3ec2b355fb40a372167f669f750ec473c94d695e8d057b631322a",
+      "bytes": 25951
+    },
+    {
+      "path": "train_nll.json",
+      "sha256": "866812f1b0fbc57133a320d441743b7cc78dda7bc35b5dfc3c489f8a2d296dd3",
+      "bytes": 613
+    },
+    {
+      "path": "training/BOUND_TRAINING_INPUT.json",
+      "sha256": "7dd976fb7d9ece68aced8f57f6c6a77093d43ba345a1b056f49a2458fe6e8121",
+      "bytes": 21740
+    },
+    {
+      "path": "training/MONITORS.json",
+      "sha256": "e520a3dd2c2fe7a50ed8bd0fce94c3f15b50c6f2c9d83a97a3229a8c6066a7c6",
+      "bytes": 14719
+    },
+    {
+      "path": "training/RUN.json",
+      "sha256": "6c0e23e5bc66fece7a8f665050b2439cb71758abb3f728844afc50c18d078df4",
+      "bytes": 23198
+    },
+    {
+      "path": "training/final.pt",
+      "sha256": "0b01c4beb3469ce6d7edb183480140f6f7b8def88bc4a8efa77a7c48d98c756c",
+      "bytes": 769620
+    },
+    {
+      "path": "training/initial.pt",
+      "sha256": "6e0c72dfec2d01bc0c8d8a14edcbc59179a27a58aa1a6f3b178e9b3def816c4d",
+      "bytes": 262188
+    },
+    {
+      "path": "training/steps.jsonl",
+      "sha256": "46fb33f1f95e24cbd15a91cca15f0c89024b077d45367a0c2fd401bf1de341b9",
+      "bytes": 447099
+    }
+  ]
+}

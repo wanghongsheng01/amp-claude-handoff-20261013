@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-11T19:20:13.249655+00:00",
+  "protocol_sha256": "c616a91f45f774fd1de47e7cd4675cea39f9bf3bee2abf39d6c597b24885b8f1",
+  "script_sha256": "cb4b37d440c40b04309ce8b6e5768ed4deccde687bd8cd3b09514bffe0884c6e",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/LATENT_MATCH_READOUT.json",
+      "sha256": "9f0a1fb765fd61770e0b15c9c4708951bd6e12fad137aa63b878f4df860c0a39"
+    }
+  ]
+}

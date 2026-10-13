@@ -1,0 +1,29 @@
+{
+  "window_sha256": "9096b796ebfeda6f578bd54d813aa018aab41f6a163382b3f0d8d175cf55c048",
+  "outer_seconds": 180,
+  "forward_max": 132,
+  "timeout_grace_seconds": 0,
+  "natural_execution_authorized": false,
+  "argv": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/independent_engineering_checks_v1.py",
+    "--window",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/ops/ROOT_SYNTHETIC_WINDOW_v1.json",
+    "--window-sha256",
+    "9096b796ebfeda6f578bd54d813aa018aab41f6a163382b3f0d8d175cf55c048",
+    "--out",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/review/synthetic_window_v1"
+  ],
+  "managed_clearance_sha256": "ab9a11117feccac14596544eacf7e851cef4f403ba559d3d65ec3a1c3ac5fcf6",
+  "status": "PASS",
+  "exit_code": 0,
+  "timed_out": false,
+  "error": null,
+  "binding_errors": [],
+  "worker_status": "PASS",
+  "wall_seconds": 75.97498020809144,
+  "wall_through_child_exit_seconds": 75.94788483297452,
+  "overrun_seconds": 0.0,
+  "wall_scope": "main entry through child exit and final bindings/report checks; final result serialization excluded; no compute grace",
+  "natural_admission": false
+}

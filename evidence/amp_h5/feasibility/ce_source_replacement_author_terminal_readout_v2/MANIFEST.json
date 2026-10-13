@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-11T20:30:13.786396+00:00",
+  "status": "AUTHOR_READONLY_ONLY",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_author_terminal_readout_v2/AUTHOR_ENGINEERING_READOUT.json",
+      "sha256": "b93f9b4dca5e846405346e6bf0769b92eaba0f45beee0797e8c24cdb7d82819a",
+      "bytes": 12953
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_author_terminal_readout_v2/READOUT.zh.md",
+      "sha256": "12e56a0e1eb639d657c6b9c2466ccf1217891ab3f94c2c92d558dc54315be96c",
+      "bytes": 2336
+    }
+  ],
+  "sources_unchanged_after_readout": true,
+  "additional_model_calls": 0,
+  "additional_natural_rng_draws": 0,
+  "original_run_manifest_sha256": "8ea430dc704326b0000fdb96566ac0e5b0d526e4c03ebbe3adf922d03ac58beb"
+}

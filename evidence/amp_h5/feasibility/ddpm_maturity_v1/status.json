@@ -1,0 +1,80 @@
+{
+  "state": "COMPLETE_WITH_NUMERICAL_FAILURES",
+  "train_vae_updates": 0,
+  "encoder_forwards": 0,
+  "decoder_forwards": 0,
+  "dev_test_reads": 0,
+  "scientific_scope": "DDPM maturity on frozen CE20 representation only",
+  "training": {
+    "updates": 1000,
+    "training_seconds": 558.6888052499853,
+    "seconds_cap": 1020,
+    "checkpoints": {
+      "20": {
+        "path": "ddpm_ema_update_0020.pt",
+        "sha256": "759afe2dac8acefc505a7866104198e57908e4444d549fd74b84d9b80d72bfe1",
+        "tensor_state_sha256": "608060bcf188f3c9de76ece4e0cc2f1ff0e636c947776ae37d9fc08d67a4e1b4",
+        "update": 20,
+        "fresh_total_OneCycle_horizon": 1000,
+        "EMA_semantics": "original copy-current branch below2000; no averaging yet"
+      },
+      "1000": {
+        "path": "ddpm_ema_update_1000.pt",
+        "sha256": "88ca21d0370cf736f1cb4ebcbca73b3dfb1eacf951a9a7f9add1cca2c8458b23",
+        "tensor_state_sha256": "2729a107c0a1f6b67993f91d90d648a0e0d48f914114703dd04cc50a077aa3fa",
+        "update": 1000,
+        "fresh_total_OneCycle_horizon": 1000,
+        "EMA_semantics": "original copy-current branch below2000; no averaging yet"
+      }
+    },
+    "fixed_endpoint_reached": true,
+    "no_sampling_during_training": true
+  },
+  "generation": {
+    "seconds": 91.69133349973708,
+    "global_rng_unchanged": true,
+    "attempts": [
+      {
+        "attempt_id": "UPDATE0020_FREE_000",
+        "checkpoint_update": 20,
+        "terminal": "FREE",
+        "seed": 422,
+        "status": "error:FloatingPointError",
+        "error": "FloatingPointError('nonfinite exp(logsigma); no clipping or retry')"
+      },
+      {
+        "attempt_id": "UPDATE0020_AMD_000",
+        "checkpoint_update": 20,
+        "terminal": "AMD",
+        "seed": 423,
+        "status": "error:FloatingPointError",
+        "error": "FloatingPointError('nonfinite exp(logsigma); no clipping or retry')"
+      },
+      {
+        "attempt_id": "UPDATE1000_FREE_000",
+        "checkpoint_update": 1000,
+        "terminal": "FREE",
+        "seed": 422,
+        "status": "finite_latent_no_decoder",
+        "error": ""
+      },
+      {
+        "attempt_id": "UPDATE1000_AMD_000",
+        "checkpoint_update": 1000,
+        "terminal": "AMD",
+        "seed": 423,
+        "status": "finite_latent_no_decoder",
+        "error": ""
+      }
+    ],
+    "decoder_forwards": 0,
+    "generated_sequence_strings": 0,
+    "numerical_success_count": 2,
+    "failed_count": 2,
+    "numerical_failure_count": 2,
+    "execution_failure_count": 0,
+    "not_executed_count": 0
+  },
+  "seconds": 651.2082062079571,
+  "frozen_posterior_unchanged": true
+}

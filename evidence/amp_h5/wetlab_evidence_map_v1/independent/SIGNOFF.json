@@ -1,0 +1,52 @@
+{
+  "schema": "AMP_WETLAB27_INDEPENDENT_EVIDENCE_MAP_SIGNOFF_V1",
+  "status": "PASS",
+  "created_utc": "2026-10-12T11:36:09.963028+00:00",
+  "reviewer": "/root/native_unit_scientific_review",
+  "independent_of_mapping_author": true,
+  "scope": "Accurate source-backed mapping and bounded interpretation; not biological validation or submission acceptance",
+  "checks": {
+    "mapping_passed": 10521,
+    "mapping_total": 10521,
+    "mapped_source_cells_checked": 4428,
+    "prior_independent_direct_summary_checks": 8,
+    "source_PDF_hashes_rechecked": 108,
+    "original_docx_paragraph_and_table_anchors_checked": true,
+    "COA_purity_range_recomputed": [
+      95.0,
+      99.1
+    ]
+  },
+  "scientific_decision": "Existing synthesis/QC/MIC evidence can support a retrospective report of candidate measurements with unresolved semantics; it does not prove model attribution, controllable spectrum, matched superiority, broad generalization or novelty. Missing source bindings do not establish that experiments did not occur.",
+  "preserved_material_issues": [
+    "Undefined N; no negative/right-censor/imputed conversion",
+    "pp2-3 screenshot N vs current workbook250 and five blank-to-filled differences",
+    "pp1-1 identical row endpoint values with different summaries; BLANK anomaly untouched",
+    "pp1-7 supplier purity80.3 meets its own80%spec; no automatic exclusion",
+    "All modification N/A and unknown termini; TFA salt does not define net peptide mass",
+    "pp3-1 screenshot F ambiguity; three extra candidates final disposition unknown",
+    "No recovered original run/screen to sample or lot to well chain in authorized materials; no retroactive H5 linkage"
+  ],
+  "correction_completed": "Ambiguous CSV field four_MIC_rows_per_organism renamed reported_worksheet_rows_per_organism; no data values changed",
+  "no_new_training_network_test_reads_or_manuscript_edits": true,
+  "reviewed_output_sha256": {
+    "EVIDENCE_MAP_27.json": "182468fc69d285ecd7465af3775225aac814e3291995f5cb9fff222d6e5ee4c2",
+    "EVIDENCE_MAP_27.jsonl": "1823a6db22bcea16bb211bae4ce1466fa08a2c31a7791f144a0e5139bb90c845",
+    "EVIDENCE_MAP_27.csv": "0ff850582c708c88bf72c9b51f1b16f5d366e9a9695e59ee0f8a17f03fc62ff6",
+    "MIC_RAW_ROWS.jsonl": "d8d2da2081dcf8d1ca26d3e2d64fe0745c8f97cae137fd83144c40b827a87227",
+    "COUNTS.json": "8d8ad2de77f7570756610e0e24834ea3cc7dba743b2bbd8cc93cce3fa9e01294",
+    "GENERATION_CHAIN.json": "718a5068313a09cb292341dd6e1cbf51b6d7636e519ea0efc79c978f83fc224e",
+    "ORIGINAL_MANUSCRIPT_LOCATORS.json": "4e3e908cc27f43cef44b044e2979e721d35f0981a5788dba8d4e679c9ce2600e",
+    "CLAIM_REGISTER.json": "c3957dd3166b609746c6e776209fd4208ae3bcc17d233ac12352110296623659",
+    "REPORT.zh.md": "cf9c77951046a212bdd5b3dea0ceb0746fb1904cc044c7a0c71a69fa40c17bab",
+    "MAP_INDEX.zh.md": "c287779a22f52c32d6957b6d7c2004f0b9971826124b52c1ff5aa6f5c4d306c9",
+    "SOURCE_INDEX.json": "84ade7605ab46f9a22f965ffaaeee7d053c1894580e0916d8408bd4cfe784b38",
+    "SOURCE_PRESERVATION.json": "814a8321345ad5823d56f726168fab070dcf8bd83deec678411b67ef2d1588c9",
+    "OUTSIDE_27_HISTORICAL_CANDIDATES.json": "7031399084dba10d1166074fd48c214a46b7cdb44dd45b4e344bd525ebf56ed3"
+  },
+  "independent_evidence_sha256": {
+    "EXISTING_SOURCE_AUDIT.json": "c038a1c988b27a01c59eabdb166194930c250f32b1328e7aee0da2ae3d1a1ee3",
+    "MAPPING_AUDIT.json": "c7886e32141176adb8029cbd814598f3d789654ca6e54245ff8c61c108071dec",
+    "SCIENCE_REVIEW.zh.md": "c471274a450b653fc9d47bc68332597da97cc9b39fce5e0cebca6a71da9abb63"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "checked_utc": "2026-10-11T16:28:21.238536+00:00",
+  "created": false,
+  "reason": "automation_update returned: Automations are only supported for local threads.",
+  "fallback": "Current active delegated execution continues; no cron or alternate automation created. Parent task may establish its own authorized local heartbeat after reading actual handoff.",
+  "active_diagnostic_supervisor_pid": 59058,
+  "active_diagnostic_process_pid": 59060
+}

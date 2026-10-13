@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-10-11T18:19:11.958567+00:00",
+  "status": "PREPARED_STATIC_SYNTHETIC_ONLY",
+  "audit_script": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/audit_mse_v2_terminal_v1.py",
+  "audit_script_sha256": "06a22de646bfa924b134582a87e5b02792e2ed54d17d945e71483c3d89aa1229",
+  "checks": [
+    {
+      "name": "stdlib_module_import_no_torch_numpy",
+      "pass": true
+    },
+    {
+      "name": "supervisor_running_refused",
+      "pass": true
+    },
+    {
+      "name": "job_running_refused",
+      "pass": true
+    },
+    {
+      "name": "model_running_refused",
+      "pass": true
+    },
+    {
+      "name": "no_output_on_live_guard",
+      "pass": true
+    },
+    {
+      "name": "existing_report_refused",
+      "pass": true
+    },
+    {
+      "name": "still_no_ML_import_after_guards",
+      "pass": true
+    },
+    {
+      "name": "all_saved_weights_loads_restricted",
+      "pass": true
+    },
+    {
+      "name": "no_model_optimizer_constructor_or_forward_calls",
+      "pass": true
+    }
+  ],
+  "source_plan_sha256": "a1c24efa2164c5cd9fcca2e46154fac8af44df2aec5f363226da168a374ae802",
+  "receipt_sha256": "29be127a09ac695f38d9fee442e7c998e1c6ab1a829e599fac0f4efc615e8768",
+  "natural_MSE_outputs_read": false,
+  "ML_imports": false,
+  "model_calls": 0,
+  "run_only_after": "Root confirms real terminal. Never use this normal terminal audit for absent processes plus stale running files; use separate interruption forensics.",
+  "numerical_rule": "Finite and positive sigma, fixed endpoints and source/cap/coupling integrity. Scale distributions described continuously; no posthoc quality thresholds.",
+  "current_outcome": "NO_MSE_RESULT_OR_POSTFLIGHT_YET"
+}

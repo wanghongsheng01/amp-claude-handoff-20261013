@@ -1,0 +1,2906 @@
+{
+  "assignments": [
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    2,
+    2,
+    2,
+    0,
+    1,
+    2,
+    2,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    2,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    1,
+    1,
+    0,
+    1,
+    2,
+    0,
+    2,
+    1,
+    2,
+    0,
+    0,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    1,
+    2,
+    0,
+    2,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    2,
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    2,
+    1,
+    2,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    0,
+    1,
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    2,
+    0,
+    2,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    2,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    2,
+    2,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    2,
+    2,
+    1,
+    0,
+    1,
+    2,
+    2,
+    2,
+    2,
+    0,
+    1,
+    0,
+    2,
+    1,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    0,
+    2,
+    1,
+    1,
+    0,
+    1,
+    0,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    2,
+    1,
+    2,
+    2,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    2,
+    0,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    2,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    1,
+    2,
+    0,
+    1,
+    2,
+    2,
+    1,
+    1,
+    2,
+    0,
+    0,
+    2
+  ],
+  "blockers": [],
+  "component_count": 227,
+  "components": [
+    {
+      "fold": 0,
+      "group_id": "71b6faec87826668c5e726f9c6a4757046b18b50293485f46c1d49166a43fc53",
+      "indices": [
+        30,
+        82,
+        114,
+        235,
+        252
+      ],
+      "terminals": {
+        "AMD": 2,
+        "FREE": 3
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "834f59feaeb7887a7334e9dca1b89efdca0427cf30930be53eca8b75d490264f",
+      "indices": [
+        64,
+        130,
+        202,
+        231
+      ],
+      "terminals": {
+        "FREE": 4
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "8f9399b5e828af3f2ea741079057b7e14598f87121c1970a44fb35f1d39260ea",
+      "indices": [
+        96,
+        157,
+        174,
+        211
+      ],
+      "terminals": {
+        "AMD": 3,
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "ac39dc8a2384aa3de8a53f259478dc51196afb4107599015c7df08455173646f",
+      "indices": [
+        98,
+        168,
+        214,
+        219
+      ],
+      "terminals": {
+        "AMD": 1,
+        "FREE": 3
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "d4064773e3e9eb22971d4382aead70cea5b45c1ff2fafe9a0745981e13e0061a",
+      "indices": [
+        0,
+        66,
+        253
+      ],
+      "terminals": {
+        "FREE": 3
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "e4810c04e40b7c89ce3ece1587e45bed0076a847514ea32241adf0a2313d6e16",
+      "indices": [
+        26,
+        154,
+        273
+      ],
+      "terminals": {
+        "AMD": 3
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "85cf7f659cb2feea45431b48f6755920449d0d9756ba66472c67f0b2ebf833e0",
+      "indices": [
+        43,
+        97,
+        161
+      ],
+      "terminals": {
+        "FREE": 3
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "c3fd0aac368ab628753321cd24d6943eb45727965b8072cd2f58ebd3c5c32b92",
+      "indices": [
+        48,
+        68,
+        146
+      ],
+      "terminals": {
+        "AMD": 1,
+        "FREE": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "2d698d7e68474b2f1fb5f1f6ffae311a5c475363cf14542ee3eb6777292d2859",
+      "indices": [
+        49,
+        133,
+        201
+      ],
+      "terminals": {
+        "AMD": 3
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "648f5a38ba477f37e207b92b2a0088e8d5ad0bc7da912dcd0206f973a06e7710",
+      "indices": [
+        55,
+        182,
+        206
+      ],
+      "terminals": {
+        "AMD": 3
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "28afee20e42bdeefcdbd8ee9ae0c67e817018d8bc096377310694ed57b539723",
+      "indices": [
+        119,
+        126,
+        205
+      ],
+      "terminals": {
+        "AMD": 2,
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "81c99af81195b7a986e1c80be5e0d56fb9be9239d1a17fb51573c94f99b60ded",
+      "indices": [
+        1,
+        78
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "35a51d92aa815d112bdbdbb3adc32f14c062ec5c80c226c6a1ccf41b8f0c99bb",
+      "indices": [
+        9,
+        132
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "a90c1ece5f3b2d419881a87f80e8c02e38abc3e6a964d0416260233fb71b74de",
+      "indices": [
+        14,
+        20
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "c75565e0278a0706f233c57c95c883eca533dbb665ebb1f8b6711cc99cab0934",
+      "indices": [
+        15,
+        67
+      ],
+      "terminals": {
+        "FREE": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "d42996e69e5ec85f28492cf7e9370f3761fb8f33581cab38f073fd488f59969e",
+      "indices": [
+        22,
+        244
+      ],
+      "terminals": {
+        "FREE": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "35c828b67b5b4a63dbe33ebddbfb663d1bda80b7e4e1d386baa842b94584eb1b",
+      "indices": [
+        23,
+        257
+      ],
+      "terminals": {
+        "FREE": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "9948532858ba9cba233f321bfb9c24b375356e21004f81c45a36e8257d0b6e82",
+      "indices": [
+        34,
+        86
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "d8adf80929df711f6b7f731d33f6b2a99204431b99c13bbb27888fee44635232",
+      "indices": [
+        40,
+        91
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "e885bf18f1006656a5fa88a12a9adeca32ac2c7b6cc880ba812ec285f27d5e09",
+      "indices": [
+        46,
+        52
+      ],
+      "terminals": {
+        "FREE": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "d3e6c980063c77775301480268226156bb23195522cf64770ff839b2492974ec",
+      "indices": [
+        50,
+        258
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "01a7c6d18dc3039349c43a3b5c2eea67f6f51d7a81818b60cf2982c19692cc3a",
+      "indices": [
+        54,
+        275
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "bb2aec7b116bccc05c22c5078e9067ea2a72298985917ac442732aa63e4a0380",
+      "indices": [
+        61,
+        254
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "7a436dcc971a95dd775a5880e6ae1a91456af4eaf74180b6dd66cf60a38d6c95",
+      "indices": [
+        87,
+        208
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "5a380ba38db388b7fccc8538d177ecc68cf98e983eee527699f624e203d3c357",
+      "indices": [
+        117,
+        137
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "2e3d02e13a87243298119b917def4934c3058cfb292edb174b06bca382d8f64a",
+      "indices": [
+        120,
+        163
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "4e1a27f51e7ec57e55db20e1b8aec468a053b9a8d99edb56ce72b17360467683",
+      "indices": [
+        121,
+        128
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "08fb495a62da42d01bfc0a987aef4ff82c45bee1ddf0e934008e89810fa92877",
+      "indices": [
+        123,
+        268
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "ec5689f89c2ba4daf680e03273614900ed8e1980fb6ba0f0b0b449cc700b1311",
+      "indices": [
+        124,
+        191
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "180e638dc9a5fd91d85ef173417c370be6c7ad5bb90f846d969e94efb08b93a5",
+      "indices": [
+        129,
+        277
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "258f6c80a0a36de5c7f3d185af9df2dc2440df149f4d71e419d00775e728e54f",
+      "indices": [
+        131,
+        169
+      ],
+      "terminals": {
+        "AMD": 1,
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "7d7e2a3547270302b46e10b1ae8037de9bf2fbbec26ac3a754cbc0a96bed7d47",
+      "indices": [
+        152,
+        175
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "713ea1b3751d6340274540b55e56ebcb63b8bac01c5604a49166971d3202ad15",
+      "indices": [
+        158,
+        190
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "5241e23511a133f3fada1d0eb33624f2f95bda9863dce5b8d03cc0cd3d1c18b9",
+      "indices": [
+        186,
+        209
+      ],
+      "terminals": {
+        "AMD": 1,
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "e06ffb96f3d36261374bb845ec555df9f551f4397e85528c69d8f6160ae14fcc",
+      "indices": [
+        204,
+        272
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "2be78e22059ff29c34238e4b27ddc071fb7de548c4cd5884b2c797813466300a",
+      "indices": [
+        238,
+        267
+      ],
+      "terminals": {
+        "AMD": 2
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "f511873850115a9157fb50ce096d6fecaa0f8ec9e994707d90af1747937ff0a0",
+      "indices": [
+        2
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "d1726075496c3938df29778960b68b427d21226153ab75e9be731bc551dbd3db",
+      "indices": [
+        3
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "9c5b2c9c0c907a1cc2a15e4e099f8141b59475124f698a4d40ff30dfe1ef511c",
+      "indices": [
+        4
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "bd8083a92961bbccae919a5307f105a6cbadef96d38e86928e941b9ad7819f09",
+      "indices": [
+        5
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "7f855f7d2e20564e190ebea843f6421853aa971bf7b69a1eb08684e06689201a",
+      "indices": [
+        6
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "62ef526fea827930e1b7f232b88965f1043825290fd5bdff249933574de293ac",
+      "indices": [
+        7
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "ed4101be7e40e404c86c753905cbb0959d968aafc173bd31ad9011807b118ae8",
+      "indices": [
+        8
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "f88931af9bd883b319f91fc765f39cd815bbb46af9206ae348826986363c20ce",
+      "indices": [
+        10
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "39eebe0a4b9462d8e229371968aadbadaa6368017c05ebf20b2f0d12c9bd07ed",
+      "indices": [
+        11
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "046533ce28ce4cbc1c04a8091714dd991f948b44c57f7d73abbac7102065d5a4",
+      "indices": [
+        12
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "9cae49efeae08b87f67b01caf7afc9f89cfd21ed98e3c710126f1bbc572fbd51",
+      "indices": [
+        13
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "7dc06152c1bc9112faa5e695e3f7cc3466d474af0ce5ff3cd845e0369c51ac83",
+      "indices": [
+        16
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "84032502895f6caf61ce0f975f6021063ca343f5f76a0a4dc7ca69bcc38e64d4",
+      "indices": [
+        17
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "6483037e041800ff1803421d6a2657f5e52cfac798439a586bec133e7d595b06",
+      "indices": [
+        18
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "60a5c0eddcd1a352574881f15eeae8bd3370d98476b001c47ec33ff84fd8dd2e",
+      "indices": [
+        19
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "bd8c6491cf508acb387a8b190395825883eae1b197ccf1126f82e9e510ef9dc6",
+      "indices": [
+        21
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "bca8ab0cdce38462fe6b223be3f9f653de524cac928dfc7279ed742d47376633",
+      "indices": [
+        24
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "31c3f23e2e01dbc4ec051ee77013f8e85921b28ccb089de11e954270c2ffdb65",
+      "indices": [
+        25
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "21175d56324daa1ba2df8f93c2acf899f1a11897c246b1f1569e8a61ca528106",
+      "indices": [
+        27
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "e3b87a87fd0a0658ec4038b5c3607d3af40e7eb83af5bea7efcd0d4d62780b2c",
+      "indices": [
+        28
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "bd962558c2fb2b6fe8e6a182961379d55eb981199ffae85d97dbdac5b8f59fdb",
+      "indices": [
+        29
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "9df1349b2e9e90888983b4ceae78a67d569164fa2960f1195350e9a8c15f4eea",
+      "indices": [
+        31
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "cd60c797e96b87e04f27d1e9f0dba55c16b7a3902b5f191eaef5d69a997ee920",
+      "indices": [
+        32
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "23614dbc64ddad3c584c18ebdae19406952d5317f0c060587e68193419c86b52",
+      "indices": [
+        33
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "3ed4c9cfcbccb6f054a94f605eb225741f7d36b56496daeadd55849630b03e74",
+      "indices": [
+        35
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "cee78b64eefd4ed4b4f527a5e98e354ce9e79bd240ddb370a0805bf78d864b9b",
+      "indices": [
+        36
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "739dda0d53ab9825931d6758ffccd01e211efd6350a55cd368a8b33299f512d7",
+      "indices": [
+        37
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "c0b426e29b88ad412faa610a2d64ce7699c79a85efd4ac293418dc2bdc22b742",
+      "indices": [
+        38
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "3a9d843004c45fcbf4067e2935c198c0f1a3c50ea3d71df29000f952d2f87206",
+      "indices": [
+        39
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "6dd2b8a7b2ecfae0312b40b46c0b7f0cd92625c5eaf9369cd7ef9ef4d9d1f7a7",
+      "indices": [
+        41
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "ea6aac2b1ebc6f9cc13ca64637fee4596e7dda1367ee93c4da04c6d20da459f8",
+      "indices": [
+        42
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "d220f0a1255ddea932d68573ea5a4fc5947d8f6f8fc30ebc359bab89a563da52",
+      "indices": [
+        44
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "07676e0ca4d4b67df27e1d4da3b46f47675cf6833351c2157f721db95c224200",
+      "indices": [
+        45
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "c28874140148a1d0155d0e55773a12815fec4d3e44206a43dcdc3658ff174100",
+      "indices": [
+        47
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "785af7a767823ac862bd76445d6ce39635840ddf85e4fa25299cd2ab4dc6524b",
+      "indices": [
+        51
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "059030f3e19621182e8344327130c9e7db936736642fd770372966160d8d227b",
+      "indices": [
+        53
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "73d67469006e58e3e1913e2a7577dad402c087302ee94d1862d3ffae59ec8267",
+      "indices": [
+        56
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "293c65656d30afb9cf10b946356241f592c98f31764753f79323e06f99d9e254",
+      "indices": [
+        57
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "5486eeb9127af935960bcb60e7a921187be55dd8b7bc7a08d02bbce27bbd03e0",
+      "indices": [
+        58
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "7e4d8c2ab5d51b050c9d4682f7b6a3d2e55fb4ccdc25514c34bc4946c2c06cf3",
+      "indices": [
+        59
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "48d9744b280fb9e291cba3b5c10cb62036d19d0c9b5109d80eaf61f2786da0c8",
+      "indices": [
+        60
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "1ca0a92b132e3fa068bcf5c259314ce4e5889f79c30796442a52ac098ad3af30",
+      "indices": [
+        62
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "cf0ca677214238f13d2035cc5beed332bbf7013647f346ad90cfb3cfd06bc818",
+      "indices": [
+        63
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "8427438cba55d30fe8c976f8d6cdbd51b9b0e0aa8d0e42ae8d5e7e788f7c7ad3",
+      "indices": [
+        65
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "bf5304c70320dba153edb507d473fcf8d5ad150d9f4f39cfb51c4ccd32774401",
+      "indices": [
+        69
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "ab38932121b08fd3deb939cc976de55e7f39f13b81e84a6c6f1e7852e65438f4",
+      "indices": [
+        70
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "3dde363b61c7bd9801dc1c252363d6cc410f92e5e50adad63cdfd1a2c6d06b55",
+      "indices": [
+        71
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "346d5f231da0310c858525c7e9ed0866f51dc13256895fbf448a8ee94c9cbf2f",
+      "indices": [
+        72
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "aabd51c57e0d3f75cbb43dd073f3d575286f9677df3e14d18c792bfb7ad74441",
+      "indices": [
+        73
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "2aa596904ae31d79b1adee5f98392e9d66b0b13084c65c917c8cf9531d0d65f6",
+      "indices": [
+        74
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "f535324f6308b0e35e0dd49ab59c961a260732f7d66eff36b51acc5dbf620ef1",
+      "indices": [
+        75
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "c3fdcbe59dbdac50bac6c0fbd0fe122e7af73ec5866b9fd10ffdeae42bdce377",
+      "indices": [
+        76
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "24a7235d58197cc9a9d754717f1110682600eb1137c7a14725e6aae1eb2dcb35",
+      "indices": [
+        77
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "b860e64a7fe087a10935431dd9768c1ea8f0ff3dc2b56b672324a0b129c88735",
+      "indices": [
+        79
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "a45367669773730eb23b7f33873a90401183b4d06cf0bc90e257222504be3f50",
+      "indices": [
+        80
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "1667304f19c37b5c4aeac05268718d0dc2c223258466487d8a2ec3dbf44b0013",
+      "indices": [
+        81
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "2e4482935332a8e548b61e0df428f686fef04d0cadf8b1b001ca6c9ad8aedafd",
+      "indices": [
+        83
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "0c00adc40bfd407b846d5199116cf944e87e5b92224b4f2ddb850cacfb8d5cab",
+      "indices": [
+        84
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "06873a60835e8e698bc03dc6b9c2fa200554149384531b04fe43c83f07cf0793",
+      "indices": [
+        85
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "cc716608d2e503db8b96496578d8686a07d8d0bf53d57c46159f38b3cacddb21",
+      "indices": [
+        88
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "920a2b90a012a9981c3dc48baf0e536d1f826708f6e04ab28999dae69a85e71f",
+      "indices": [
+        89
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "325f1a2cbe3874177c3e00ddbb05c5d233f655f73d8f10c4ffbfbd8b5e9b7c78",
+      "indices": [
+        90
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "7d39df01b0b494161601d9cdc1753d825be8f1152d0f8cf9f354a52fd762f44a",
+      "indices": [
+        92
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "4dd677b23b2aa8841c1be2e416716f7d5db8ce6b119694251076faeb982fa45f",
+      "indices": [
+        93
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "793d6348a891809ce17a388662322edfa3f07f5b5aa41aa2c62ac11b6df2b9a7",
+      "indices": [
+        94
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "98bbee2d405cf751164cf4248f2a1e0174c4d8b0538bf802e11a9d7698e42968",
+      "indices": [
+        95
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "e7fadb89d752645ac779caf5c051dafe3531292f4929afb5d9bc0692aae9e574",
+      "indices": [
+        99
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "dc4f99d560ff3f9be61a9a882317cebe156a8878f6cfa23ad7473fce94747d04",
+      "indices": [
+        100
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "2c641d2a1fd7b0dc6827d9e56fef8cd701865966530344933bfd37df6e460c19",
+      "indices": [
+        101
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "1b519e8f0a10ba61686de81f02a6da10bc73216ec3485700612d0e3c9ac2de01",
+      "indices": [
+        102
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "bf298c86ec8c14c1e687814748966f1f7c7a0e52f9044e9f862876cf1ce72a2b",
+      "indices": [
+        103
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "55e30e33d904e63b3cf5a0fce93dba042dd0acfb8fe355d22a821380ba007224",
+      "indices": [
+        104
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "6a06bd4fe4ce73e115f9c7f8ea0337175f13691b2814cf84b0a077a65f4339cb",
+      "indices": [
+        105
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "e3ae44ee8c1b0669cfde087612c9404f9bd7cd9f63611b3b5a7e6cae85a7e31f",
+      "indices": [
+        106
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "efa19183054adfe07363766a9f1f4dd1b92c07817560763fa03b0a6eefa554c0",
+      "indices": [
+        107
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "caf8c37a9ad3dfd14002a98d9bb8c806df2458ac5dcaa3d8e4a00a49c8ada278",
+      "indices": [
+        108
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "68bcd34ee7edb63172abdde17b38b304fbb7f2fdf27265f805c86af07cff4e37",
+      "indices": [
+        109
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "88c61211f0bc51da8527801313142c968883086a508ce0ec665575a6ceb4aae9",
+      "indices": [
+        110
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "1909fe8daef1577f3bfe5996c780b7c4cc459d857dd6a11181d4943af405ba4a",
+      "indices": [
+        111
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "006b62af82bd1dc652b1efda107e8fa84eb93e73bf322bf9382840e2e758448a",
+      "indices": [
+        112
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "d8954392a4bc90b80947f4aa817912b595beecb55ce7e3cdd045a57b02ae65f1",
+      "indices": [
+        113
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "2702172a54b28473589f81123d4bc2e5817ae7f3a5b5fec12105a5f870cffaa8",
+      "indices": [
+        115
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "c78adad9b244dddd5aceccf1c400534320548b0c0f19d7ab2e29f918ffe14d3e",
+      "indices": [
+        116
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "832a7df70cc151d5a64fb5b5111bf4ba14f1c471646c0c0dcc0292c69df02a27",
+      "indices": [
+        118
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "ed96f98dd038f5107e5a09b1d48c9c09c2a1148cd17ee62b97ba50b573d85825",
+      "indices": [
+        122
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "3d162d59b60e6de0cf4bea69a54b7da90701b1c6feab9699b990eebd81a885e1",
+      "indices": [
+        125
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "b5f6db9f6548e1ec6a9e3d7da3a82865074ec332b93ecd12bd5ac5902b937d64",
+      "indices": [
+        127
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "46c788d3f3d4955e3c3f972ab57c07e6f1b70cb7014167452db0fc06318de7e8",
+      "indices": [
+        134
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "6f56047138818b9e8efc6eae6d1a10f63e76dc011adea9be0d0ed4c484ee3186",
+      "indices": [
+        135
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "f9c182dba9d0a080346dd8084a4c0d2d8ae8c1108a7949527cc05cd1e5d54f08",
+      "indices": [
+        136
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "28073fd12702b9a68ee67a83915e2cd272f856d5d5d3b4f79eead71cedaa8066",
+      "indices": [
+        138
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "0d5113211e0b365399399f4959fbbe68a37b9dd5cb74994233fd031d66ba7907",
+      "indices": [
+        139
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "81e6366de03a9f7287aae9f3708836f6a8f03940c04a42ab950170e529f1e7ee",
+      "indices": [
+        140
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "51ed0c86c7c04d35155bf9794a5d7b1ed11bf009814e671c82c0785542d1d2a2",
+      "indices": [
+        141
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "1693a565f1af6c3f3aa2649bb7816617591ea67504ee2b59c0990fd425c5d857",
+      "indices": [
+        142
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "8128d51c65421b2218caac5789f31277400ec2de549261f6a7fea7b8c5064353",
+      "indices": [
+        143
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "e2128285f19cdc46d273e6aeb6b17d328ae6b0249ef1106d0ab8949738f52783",
+      "indices": [
+        144
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "2f8153ef8be4910e14f882561ada45e554755d92b3d7901c5f51cbc3734bfbc9",
+      "indices": [
+        145
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "46fe52abfc78480aaea1c5bf9a8bdf1bd3e24bdae0b062b93daddb556bab84e7",
+      "indices": [
+        147
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "6ca52f51d5c4aae5c4a6eb416172362e9dba9841324b61eb5575bb1f4366b66e",
+      "indices": [
+        148
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "ad8095039dae163c93eb1c833e95a65be7bb7d579788bd9b34fcc8cd9b9a9de8",
+      "indices": [
+        149
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "fa2a6bab8bb4393983549a2af5c026ad5a423b1887445c2875da7feaae07c436",
+      "indices": [
+        150
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "a90d3cdb6f237422bf2f83fcfe7dfadda0b497d5d0defb34b028fb83cdae495e",
+      "indices": [
+        151
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "26e35c168128375952699268363e4e833c332ce8080ae3594e010a3f91acf549",
+      "indices": [
+        153
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "607d6139d3d9c201be6d4939d2887e1ef2c7ae161c4be58ec0d3277a51a34d55",
+      "indices": [
+        155
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "92f450498ce5bcbb8267d907bfff0ec63b8a85d1c24d35c26b18500b973edd2d",
+      "indices": [
+        156
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "3d9867759a093d0df914bbc0b7ca77369f0bf95fda9a943291b4d169aabdd30c",
+      "indices": [
+        159
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "59a596bee8f335f42a9ecdb56f6e6747c50dad68d5f5ced84ea034be5955e6d7",
+      "indices": [
+        160
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "e24b03e545cb7fa9bf09caa9e1cceadc9eac53f42bc34007de889be65fddd244",
+      "indices": [
+        162
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "2376ee866b194537be53b07a9fdc75ea94684d8589d500ee183e1eb2da3171a3",
+      "indices": [
+        164
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "bdc1fc25ff82467cb3910d4933ecfd416434d59554d7c19e254bd5f17e522bd7",
+      "indices": [
+        165
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "081fc334ab55d247d32b1163eeee72820c2d650e3b0dbca8c9baab2207ea0d13",
+      "indices": [
+        166
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "9fe4761df2f6570ca7b432e9a9b9e4e336dbbe046701721400a0badc9fcc419a",
+      "indices": [
+        167
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "4e4477a110b6afb375eb354f1da65065d5e16156d3c6f365ccce30fcb396d516",
+      "indices": [
+        170
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "1637777ce9af11b12e759988961a2e789a9cf122a0bfd39125e33da0dc9f40e7",
+      "indices": [
+        171
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "272c85c1a82f2874b7c0ebd6c6baccd69b709a36584ed714fbe00609fbe0196e",
+      "indices": [
+        172
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "9e9bc57d26647ac224df65a1c33a7f2e6126be591bc113713c58734f7cd3f96b",
+      "indices": [
+        173
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "ad17807f7dbbe3267c31545ccdfb472b5dc8b61150e86b16d5090603ee1d3ed3",
+      "indices": [
+        176
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "716b8ed3f877204f9e6d3f21d24286488268fd41f1eaf3c4951f4a0f1bda69d7",
+      "indices": [
+        177
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "d6c435def5048ea66422573bdb32f1cf6d2134866ab2a20f2795f02b4d2eb5b1",
+      "indices": [
+        178
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "cff3637d6db2f64f45d10e0000a3abfacfe006534d86bb660aed4058cdda9319",
+      "indices": [
+        179
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "9e1b99fce153bbf92f8de72a4fd40373cad64d2ee14b6a79eddd27c1d6e3e91d",
+      "indices": [
+        180
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "d0f32f10d23b507d23b0297af698e615d05cb0573f544e59186ab5278f4d17c0",
+      "indices": [
+        181
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "b58b99a22b8160284e982b0e4b24ea9aed7e8038a1b228ea03a76d0707f2edf3",
+      "indices": [
+        183
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "feb0d9893cdd8dff146267f629a6fa2f168e56c60081d3aee6a60b6c032862e4",
+      "indices": [
+        184
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "337e4800ed9f28b4dce369d8de85594edd4d405d69c0e4f9f7714d4a3b5c6da0",
+      "indices": [
+        185
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "c08abb24aae34113757d8a2caf29f8d9347e1a2c84edaca8bdee3f2f7b3d8644",
+      "indices": [
+        187
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "8a98fc163ee0e16a046739c174298fbcc07c430418b3172153afd9cb8c063ef4",
+      "indices": [
+        188
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "ae239c44dbc232fd13d9fb2d1d22deea7d6141c16c14da22f85040ccdddfc621",
+      "indices": [
+        189
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "3cbcafb2972668050a00a282ef2f1a431560d861a46c16dbf4389c06f651cca3",
+      "indices": [
+        192
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "d17ead7964db49e43e07474b247871f4360fa71938ffdda7333c9bc78c90f33a",
+      "indices": [
+        193
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "21bffd2ba76f88bae42ff4c6f25b3ff0a57b8764bc2d94621d1ed177d629694e",
+      "indices": [
+        194
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "f13b3ae9ffcd2ffeee33fef5e0a934d298fce1d9bbe228ad30522702ff05075a",
+      "indices": [
+        195
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "34e7a09ad314d55614e1f0371383c74e2028edfb6ddef3e42225b5cdd0273a50",
+      "indices": [
+        196
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "0e60298e54e40f24629d3fdfd9f7c8fa810dea60dd10085046f3c37c9e70fd70",
+      "indices": [
+        197
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "7ee33d7f72113af770350198588dc5039b7cd5c61d31f1a33c19df8e0f8b15f3",
+      "indices": [
+        198
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "27fd9313327dc8f604f72937029df2e35893760719d177cd2f0c0547c6493cfc",
+      "indices": [
+        199
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "5ce9f75f2070c6b672d31038404c9427880fa1655026ce75a89a06373dbb77e5",
+      "indices": [
+        200
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "646474c063175fad8d334578544ec11feb0e46221e280af6094a9e960eb69b9a",
+      "indices": [
+        203
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "54cc7d5719b634785f8e35214d75290ca8c9ea2448bceadf3d882a1723b71ba4",
+      "indices": [
+        207
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "c430fe9e2373450b25deaf811c00aa28572b1a90d61d74bad4851de8188c8649",
+      "indices": [
+        210
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "27f2583e33253762c2a2fb4e7ce4c314a00e3008e40c30ac35ceab686f2827a8",
+      "indices": [
+        212
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "df7d847046c124c2fdf55b62bd44b9c465c204d65061f887b84724d9406b8d6f",
+      "indices": [
+        213
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "0c3fec13d3765dc14fc5864bd2d076c001b212fc87b78cda59c72abc31916d7d",
+      "indices": [
+        215
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "f14236c6d28f339c33212d60855cdd1b04f492c56d48717e14a5483a72e3cf9a",
+      "indices": [
+        216
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "b20f5167462a5029f7017e21df402850b5c3b2aff3a5617473ea7482c9f0c2ab",
+      "indices": [
+        217
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "821db6b1ea78e1e82e9349e875d3a60fe8294e3bc11e04ff0e1340653c5f9f26",
+      "indices": [
+        218
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "f52a33116d5685a1878893ec08a5d1415d152d4f4558adc17bea6b0f1fea078c",
+      "indices": [
+        220
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "93be7fdf733c5edddbd88954d4aeea2e13eae6e6e05db91105245a3edd825919",
+      "indices": [
+        221
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "348ea16225777ecb37df0a5f1473c79ecf6d1152a35f1731898953f006e82546",
+      "indices": [
+        222
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "00e2bab4272730a1448bec14864580352184dceab5b8e09d77644f4427f04c81",
+      "indices": [
+        223
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "a86ed2dca1e56598b90169831be4381382242925598d7862aa7a1905ba7e6d78",
+      "indices": [
+        224
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "e7b1a90ff12262ad1682dec9b8f3058dd5605e30a70c647499d6fc28fbe5c286",
+      "indices": [
+        225
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "104bbfe697a0ca625db062c5470251bcb2faa93425444fbc8fc40c643461c380",
+      "indices": [
+        226
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "df78474d1fe4ebeba016096436e4d63d9b48b6cf4f3fd5ad8677a8835d79cde2",
+      "indices": [
+        227
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "e68dbe6037fda9706b5534b593e42642050a083f1380fa0f58c2ff02d7c8fe6c",
+      "indices": [
+        228
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "ede9fcd465fff75a87de1f0a2b61a33b2512778e7a3573a5bf0a4a41a6b77b2e",
+      "indices": [
+        229
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "7b91faf8114be9019f995a8300c9d8e4cc1d5a0b82c812657864f4f66a421919",
+      "indices": [
+        230
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "b320ab7cbe0c546af7b074051a47d0c64851961b35cf3b7f28f3ee6061fe2dfb",
+      "indices": [
+        232
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "f2131285ff21b71b0f868dbc10f508ffeefc98cfced9263ffcd05a77368076d5",
+      "indices": [
+        233
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "4657eb876a36c377b17132e2d0ec5c2f31a18df2d5b18d82c0c229b3b9210a64",
+      "indices": [
+        234
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "c2955d4fe3387ac3c2061be5ce3ddcb9eac8657131265d822b065c504579de76",
+      "indices": [
+        236
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "73660f399dbe1640c9458764224bf8397730f643cb11c4a67682540bdd7b4def",
+      "indices": [
+        237
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "02d9fbe47d48a56f5b77c95744366e29e0fd868ea5721778b7a1a5ea5379a862",
+      "indices": [
+        239
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "bbe497a3f5a9f8d7ed47a274e6128e714c4b8b46d62c1f71cb91588d472b3a3b",
+      "indices": [
+        240
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "0836dfe75d958349429d5af697a1e6f99c4ef4a01cc3db08fe24de59ac515f36",
+      "indices": [
+        241
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "dbb24518ecc86bc47f7c80a5172bb08e9616459f294e05efc56c4b66e4d534e6",
+      "indices": [
+        242
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "eca9b79d68747ffd2484703a2568fac174c2c6c3f218c07cb7c13eeaf08134da",
+      "indices": [
+        243
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "07adde13ae324fb76e97d7f952d2c31977959f82af94d28b233dc86b62113db2",
+      "indices": [
+        245
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "8ac8963a264c961d3208aeae0e33eb37dbbff423f01084cb349811f6d627cc20",
+      "indices": [
+        246
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "46d9e251464916a2b13ac001aee3fa41a43910811253107831cec36df8ca52d6",
+      "indices": [
+        247
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "9e372a8944dd4454cc6ec19b8591f8da2296129f5aeb3e7752e4a5b4a3d6cb19",
+      "indices": [
+        248
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "e983d7ddb2e8789a93b11d2cfe86f95f2af40487ac1403a36c910261d4cc3c8c",
+      "indices": [
+        249
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "3739f6cc3ccf47e3603d435a5e7fc64c190abd0e4b64393c423cfb3214954cb9",
+      "indices": [
+        250
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "32712db98a1fddce44bc32ac9ab6e7e66e85169df0d35fd0af45e5f97c0f7d48",
+      "indices": [
+        251
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "7a7bf3dba0c7a41aa146ec3f187f5da2b6f016e0649a1f296d1333115a7c002c",
+      "indices": [
+        255
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "a206a879833ee3cca56ebcc284b27a5b8f640022f6443cb77f1af0ec0ea3a2bf",
+      "indices": [
+        256
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "bfd58f4967997a08b59cdbd9c3f2f2adb1bfcb0744ebfb1c6050301ea5546adc",
+      "indices": [
+        259
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "993fad8c06d428a2577b1eceded27f893ff03c0cc5e1a11d1416a2dea8b02ff9",
+      "indices": [
+        260
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "6d4038753a8f55c4c965ab07bdcb604333c6a98f9ea9203abda4a65b6fe967fc",
+      "indices": [
+        261
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "d14469189683a2e26a74b32be30e0271e2bea98a79b6d967c9e70f04fb28c8c5",
+      "indices": [
+        262
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "f7cb8ed2884fef50920f14b6266572f92c0abfd11d6b25822cfe48d617b468b4",
+      "indices": [
+        263
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "31520a2c4b216ddb528ab27d97d7df41b37a0990ace3bc37767b50047c793565",
+      "indices": [
+        264
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "a243b970209ed0d281ebdb87d81bd38e8fc3991073f997bc01263a3898194731",
+      "indices": [
+        265
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "ff2968a1378e202d0ca805d424464aed49644a5deca480fbc0b1a04e6a6155e0",
+      "indices": [
+        266
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "2e831cae0b40066dcee3a5f2d9189424ab130cb0d57089ed4f3a1ff1312a7ff7",
+      "indices": [
+        269
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "8bc470aa5c365f792191173f74ccb70373b05c4046b2e3feaafdfd3e03c0ae49",
+      "indices": [
+        270
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "008197bd9065410172ba9e594c4c88e891aab7f85c08085bc809792221e2db0d",
+      "indices": [
+        271
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 1,
+      "group_id": "8656d0fadc0d18bf36968ec696377c0690ee89bedd517a257ec12df4738f7a81",
+      "indices": [
+        274
+      ],
+      "terminals": {
+        "FREE": 1
+      }
+    },
+    {
+      "fold": 0,
+      "group_id": "d2192076cef02c367750e3b8fe04dfc0656f57f1eaa37a5fc92bc983c019a694",
+      "indices": [
+        276
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    },
+    {
+      "fold": 2,
+      "group_id": "6fa091465c46e1439cf971a5b2769a3d1c9da6f15213b7466c9c9d05de3b675a",
+      "indices": [
+        278
+      ],
+      "terminals": {
+        "AMD": 1
+      }
+    }
+  ],
+  "edges": [
+    [
+      14,
+      20
+    ],
+    [
+      46,
+      52
+    ],
+    [
+      0,
+      66
+    ],
+    [
+      15,
+      67
+    ],
+    [
+      48,
+      68
+    ],
+    [
+      1,
+      78
+    ],
+    [
+      34,
+      86
+    ],
+    [
+      40,
+      91
+    ],
+    [
+      43,
+      97
+    ],
+    [
+      82,
+      114
+    ],
+    [
+      119,
+      126
+    ],
+    [
+      121,
+      128
+    ],
+    [
+      64,
+      130
+    ],
+    [
+      9,
+      132
+    ],
+    [
+      117,
+      137
+    ],
+    [
+      48,
+      146
+    ],
+    [
+      26,
+      154
+    ],
+    [
+      96,
+      157
+    ],
+    [
+      43,
+      161
+    ],
+    [
+      120,
+      163
+    ],
+    [
+      98,
+      168
+    ],
+    [
+      131,
+      169
+    ],
+    [
+      96,
+      174
+    ],
+    [
+      157,
+      174
+    ],
+    [
+      152,
+      175
+    ],
+    [
+      55,
+      182
+    ],
+    [
+      158,
+      190
+    ],
+    [
+      124,
+      191
+    ],
+    [
+      49,
+      201
+    ],
+    [
+      133,
+      201
+    ],
+    [
+      64,
+      202
+    ],
+    [
+      130,
+      202
+    ],
+    [
+      119,
+      205
+    ],
+    [
+      126,
+      205
+    ],
+    [
+      55,
+      206
+    ],
+    [
+      182,
+      206
+    ],
+    [
+      87,
+      208
+    ],
+    [
+      186,
+      209
+    ],
+    [
+      96,
+      211
+    ],
+    [
+      157,
+      211
+    ],
+    [
+      174,
+      211
+    ],
+    [
+      98,
+      214
+    ],
+    [
+      168,
+      214
+    ],
+    [
+      98,
+      219
+    ],
+    [
+      168,
+      219
+    ],
+    [
+      214,
+      219
+    ],
+    [
+      64,
+      231
+    ],
+    [
+      130,
+      231
+    ],
+    [
+      202,
+      231
+    ],
+    [
+      30,
+      235
+    ],
+    [
+      82,
+      235
+    ],
+    [
+      114,
+      235
+    ],
+    [
+      22,
+      244
+    ],
+    [
+      30,
+      252
+    ],
+    [
+      114,
+      252
+    ],
+    [
+      235,
+      252
+    ],
+    [
+      0,
+      253
+    ],
+    [
+      66,
+      253
+    ],
+    [
+      61,
+      254
+    ],
+    [
+      23,
+      257
+    ],
+    [
+      50,
+      258
+    ],
+    [
+      238,
+      267
+    ],
+    [
+      123,
+      268
+    ],
+    [
+      204,
+      272
+    ],
+    [
+      26,
+      273
+    ],
+    [
+      154,
+      273
+    ],
+    [
+      54,
+      275
+    ],
+    [
+      129,
+      277
+    ]
+  ],
+  "folds": [
+    {
+      "AMD": 51,
+      "FREE": 42
+    },
+    {
+      "AMD": 51,
+      "FREE": 42
+    },
+    {
+      "AMD": 51,
+      "FREE": 42
+    }
+  ],
+  "source_component_ids_used": false,
+  "threshold": "normalized Levenshtein >= 0.70"
+}

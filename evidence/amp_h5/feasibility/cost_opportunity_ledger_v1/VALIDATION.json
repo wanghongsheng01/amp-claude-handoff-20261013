@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_bound_sources_unchanged": true,
+    "no_live_v2_source_bindings": true,
+    "eight_terminal_plus_one_pending": true,
+    "pending_not_zero": true,
+    "updates_match": true,
+    "distinct_attempts_and_slots": true,
+    "outer_total_finite": true,
+    "common_cap_not_equal_compute": true,
+    "hold_preserved": true
+  },
+  "no_model_imports_or_execution": true,
+  "source_files_read_for_hash_verification": 51,
+  "live_v2_files_read": 0,
+  "test_files_read": 0
+}

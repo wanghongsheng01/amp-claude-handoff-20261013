@@ -1,0 +1,45 @@
+{
+  "status": "PREAUDIT_PENDING_IMPLEMENTATIONS",
+  "time_utc": "2026-10-12T08:44:13.569925+00:00",
+  "source_snapshot_sha256": "2c298a405fa32173634b55907ec0920241ed1020a39aba60f5c03e23606283e9",
+  "reviewer_role": "independent; no authorship of implementation or chemistry conversion",
+  "restrictions": [
+    "No network",
+    "No natural data training",
+    "No train/dev/test read",
+    "No model execution until slot release"
+  ],
+  "witten_author_source": {
+    "shape_chain": [
+      100,
+      110,
+      106,
+      53,
+      49,
+      24
+    ],
+    "channels": 21,
+    "unused_channel": 20,
+    "input_padding": "zero rows after encoded sequence; ZeroPadding1D(5) both ends",
+    "flatten": "channels last: position then channel",
+    "layers": "Conv64k5/ReLU/Pool2/Conv64k5/ReLU/Pool2/Flatten1536/Dropout.5/Dense100ReLU/Dense20ReLU/Dense1",
+    "parameter_count": 183069,
+    "loss": "MSE",
+    "optimizer": "Keras Adam default; need epsilon-hat implementation or disclosed difference",
+    "encoder_behavior": "truncates first100 and raises on unsupported char",
+    "qmap_training_filter": "length<100; differs supported tensor inputlength100",
+    "token_order": "source set enumeration nondeterministic; fixed permutation is adaptation",
+    "runtime_parity": "TensorFlow absent; cannot claim empirical same-runtime parity"
+  },
+  "chemical_review_requirements": [
+    "single covalent entity; disallow unvalidated disconnected salts/mixtures/multimers",
+    "explicit source/derived distinction for molar mass",
+    "sequence, termini, modification/bond/stereo checks; equal mass is not identity proof",
+    "average molar mass for concentration units; 1000*ug_ml/MW_g_mol",
+    "positive scaling preserves < <= > >=, range ordering and raw values",
+    "auto-generated SMILES does not establish mass basis of assayed salt/hydrate/purity",
+    "ranges/plusminus retain unresolved observation semantics",
+    "new eligible peptide and family counts plus exclusions",
+    "chemical checks do not establish train/dev/test contamination isolation"
+  ]
+}

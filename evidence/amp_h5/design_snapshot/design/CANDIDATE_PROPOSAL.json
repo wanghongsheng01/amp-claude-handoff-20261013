@@ -1,0 +1,65 @@
+{
+  "state": "DRAFT_WAIT_ROOT_SMOKE_PROTOCOL_NO_EXECUTION_APPROVAL",
+  "arms": [
+    "raw_onehot_mse",
+    "categorical_ce"
+  ],
+  "common": {
+    "train_rows": 279,
+    "development_rows": 41,
+    "sealed_test_rows": 37,
+    "test_access": false,
+    "vae_head_shape": [
+      21,
+      16,
+      1
+    ],
+    "head_parameter_count": 357,
+    "fresh_shared_initialization": true,
+    "retain_encoder_sequence_descriptors_abs": true,
+    "retain_conditional_prior_flow": true,
+    "density_difference_definition": "sum over B*16*48 of sampled logq-logp",
+    "kl_denominator": "B*48",
+    "beta": 1.0,
+    "negative_mc_kl": "preserve",
+    "reconstruction_denominator": "B*48",
+    "decode": "shared J; MSE nearest legal onehot, CE restricted factorized MAP",
+    "ddpm": "each arm freshly re-encode train and freshly fit own DDPM; terminal-only at generation"
+  },
+  "only_arm_intervention": {
+    "raw_onehot_mse": ".5*sum over all classes and positions squared(rawscore-onehot)",
+    "categorical_ce": "sum categorical CE over all48 targets including PAD"
+  },
+  "historical_comparison": "not causal; old scalar differs in target, capacity, relative KL weight",
+  "proposed_generation": {
+    "methods": [
+      "raw_onehot_mse_DDPM",
+      "categorical_ce_DDPM",
+      "terminal_AR"
+    ],
+    "requests_per_terminal_per_method": 16,
+    "terminals": {
+      "0": "FREE",
+      "1": "AMD"
+    },
+    "total_requests": 96,
+    "retries": 0,
+    "filtering_or_replacement": false,
+    "seeds": "UNBOUND_PENDING_ROOT",
+    "same_VAE_pair_noise_streams": "proposed, not executed"
+  },
+  "budget": {
+    "real_h5_throughput": "NOT_MEASURED",
+    "training_steps": "UNBOUND_PENDING_ROOT",
+    "softcap": "UNBOUND_PENDING_ROOT",
+    "checkpoint_selection": "proposed one fixed final per arm, no dev search"
+  },
+  "current_counts": {
+    "torch_imports_by_author": 0,
+    "real_model_constructions": 0,
+    "real_data_fit": 0,
+    "real_sampling": 0,
+    "synthetic_stdlib_checks": 29
+  },
+  "backup": "BACKUP_BLOCKED"
+}

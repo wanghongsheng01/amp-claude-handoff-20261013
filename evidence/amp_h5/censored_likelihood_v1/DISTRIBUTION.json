@@ -1,0 +1,3355 @@
+[
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 102,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      50769
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12453,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      95703,
+      95704
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12529,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      161390
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 13726,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107126
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 13735,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107201,
+      107205
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 13736,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107203
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 17268,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133341,
+      133342
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 17269,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133347,
+      133348
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 17270,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133355,
+      133356
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 17271,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133362,
+      133363
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 17272,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133369,
+      133370
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 17273,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133375,
+      133376
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 1737,
+    "rows": 6,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      12526,
+      12527,
+      54742,
+      58515,
+      58517,
+      58519
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 1738,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      12601
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2425,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18691
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2426,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18696
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2427,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18699
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2428,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18702
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3086,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      23078
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3087,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      23089
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3088,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      23100
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3198,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      23905
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3224,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24672
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3225,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24676
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3226,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24680
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 37,
+    "rows": 5,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      36,
+      112057,
+      112058,
+      177211,
+      177212
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 4015,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28735
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 4021,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28747
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 4339,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      31234,
+      31238
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 4379,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      31244,
+      31248
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 4380,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      31254,
+      31258
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5545,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39663
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5546,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39673
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5547,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39683
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5548,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39693
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5549,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39703
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5556,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39782
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5557,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39795
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5558,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39808
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 5559,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39821
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 6669,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      57368
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 6743,
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      46970,
+      148350,
+      162194
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 6785,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      47335,
+      47337
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 8110,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      91533
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 8157,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      58729,
+      58730
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 873,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4796,
+      141543
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 874,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4807
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 875,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4818
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 876,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4829
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 877,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4840
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 878,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4851
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 879,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4862
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 881,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4884
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 882,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4895
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F102",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      50769
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F12453",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      95703,
+      95704
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F12529",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      161390
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F13726",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107126
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F13735",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107201,
+      107205
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F13736",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107203
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F17268",
+    "rows": 12,
+    "peptide_IDs": 6,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133341,
+      133342,
+      133347,
+      133348,
+      133355,
+      133356,
+      133362,
+      133363,
+      133369,
+      133370,
+      133375,
+      133376
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F1737",
+    "rows": 6,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      12526,
+      12527,
+      54742,
+      58515,
+      58517,
+      58519
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F1738",
+    "rows": 7,
+    "peptide_IDs": 4,
+    "exact_sequences": 4,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      12601,
+      31234,
+      31238,
+      31244,
+      31248,
+      31254,
+      31258
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F2425",
+    "rows": 4,
+    "peptide_IDs": 4,
+    "exact_sequences": 4,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18691,
+      18696,
+      18699,
+      18702
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F3086",
+    "rows": 3,
+    "peptide_IDs": 3,
+    "exact_sequences": 3,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      23078,
+      23089,
+      23100
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F3198",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      23905
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F3224",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24672
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F3225",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24676
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F3226",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24680
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F37",
+    "rows": 5,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      36,
+      112057,
+      112058,
+      177211,
+      177212
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F4015",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28735
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F4021",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28747
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F5545",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39663
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F5546",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39673
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F5547",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39683
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F5548",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39693
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F5549",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39703
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F5556",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39782
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F5557",
+    "rows": 2,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39795,
+      39808
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F5559",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      39821
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F6669",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      57368
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F6743",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      46970,
+      148350,
+      162194
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F6785",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      47335,
+      47337
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F8110",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      91533
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F8157",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      58729,
+      58730
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F873",
+    "rows": 10,
+    "peptide_IDs": 9,
+    "exact_sequences": 9,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4796,
+      141543,
+      4807,
+      4818,
+      4829,
+      4840,
+      4851,
+      4862,
+      4884,
+      4895
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G102",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      50769
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G12453",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      95703,
+      95704
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G12529",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      161390
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G13726",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107126
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G13735",
+    "rows": 3,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 2,
+    "source_groups": 1,
+    "activity_ids": [
+      107201,
+      107205,
+      107203
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G17268",
+    "rows": 12,
+    "peptide_IDs": 6,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133341,
+      133342,
+      133347,
+      133348,
+      133355,
+      133356,
+      133362,
+      133363,
+      133369,
+      133370,
+      133375,
+      133376
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G1737",
+    "rows": 13,
+    "peptide_IDs": 5,
+    "exact_sequences": 5,
+    "families": 2,
+    "source_groups": 1,
+    "activity_ids": [
+      12526,
+      12527,
+      54742,
+      58515,
+      58517,
+      58519,
+      12601,
+      31234,
+      31238,
+      31244,
+      31248,
+      31254,
+      31258
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G2425",
+    "rows": 4,
+    "peptide_IDs": 4,
+    "exact_sequences": 4,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18691,
+      18696,
+      18699,
+      18702
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G3086",
+    "rows": 3,
+    "peptide_IDs": 3,
+    "exact_sequences": 3,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      23078,
+      23089,
+      23100
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G3198",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      23905
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G3224",
+    "rows": 3,
+    "peptide_IDs": 3,
+    "exact_sequences": 3,
+    "families": 3,
+    "source_groups": 1,
+    "activity_ids": [
+      24672,
+      24676,
+      24680
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G37",
+    "rows": 5,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      36,
+      112057,
+      112058,
+      177211,
+      177212
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G4013",
+    "rows": 2,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 2,
+    "source_groups": 1,
+    "activity_ids": [
+      28735,
+      28747
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G5545",
+    "rows": 5,
+    "peptide_IDs": 5,
+    "exact_sequences": 5,
+    "families": 5,
+    "source_groups": 1,
+    "activity_ids": [
+      39663,
+      39673,
+      39683,
+      39693,
+      39703
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G5556",
+    "rows": 4,
+    "peptide_IDs": 4,
+    "exact_sequences": 4,
+    "families": 3,
+    "source_groups": 1,
+    "activity_ids": [
+      39782,
+      39795,
+      39808,
+      39821
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G6669",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      57368
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G6742",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      46970,
+      148350,
+      162194
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G6785",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      47335,
+      47337
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G8110",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      91533
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G8157",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      58729,
+      58730
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G873",
+    "rows": 10,
+    "peptide_IDs": 9,
+    "exact_sequences": 9,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4796,
+      141543,
+      4807,
+      4818,
+      4829,
+      4840,
+      4851,
+      4862,
+      4884,
+      4895
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 12529,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      161389
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 13736,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107207
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 4013,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28731
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 4014,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28733
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 4016,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28737
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 4017,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28739
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 4018,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28741
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 4019,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28743
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 4020,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28745
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 4022,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28749
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 6834,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      47665
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 874,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      141547
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 878,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      141551
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 880,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4873
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F12529",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      161389
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F13736",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107207
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F3086",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      47665
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F4013",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28731
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F4014",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28733
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F4016",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28737
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F4017",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28739
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F4018",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28741
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F4019",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28743
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F4020",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28745
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F4022",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      28749
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F873",
+    "rows": 2,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      141547,
+      141551
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F880",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      4873
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G12529",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      161389
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G13735",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107207
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G3086",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      47665
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G4013",
+    "rows": 8,
+    "peptide_IDs": 8,
+    "exact_sequences": 8,
+    "families": 8,
+    "source_groups": 1,
+    "activity_ids": [
+      28731,
+      28733,
+      28737,
+      28739,
+      28741,
+      28743,
+      28745,
+      28749
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G873",
+    "rows": 3,
+    "peptide_IDs": 3,
+    "exact_sequences": 3,
+    "families": 2,
+    "source_groups": 1,
+    "activity_ids": [
+      141547,
+      141551,
+      4873
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 107,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      51566
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 108,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      51569
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 110,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      340
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 111,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      343
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12531,
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96162,
+      96164,
+      96166
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12533,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96187,
+      96200
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12534,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96188,
+      96199
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12535,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96189,
+      96198
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12536,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96190,
+      96197
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12537,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96191,
+      96196
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12538,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96192,
+      96195
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 12539,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96193,
+      96194
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 13692,
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      106653,
+      106698,
+      106818
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 13693,
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      106652,
+      106699,
+      106817
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 13726,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133771
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2396,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18584
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2398,
+    "rows": 21,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18590,
+      18593,
+      18594,
+      18603,
+      18604,
+      18605,
+      18606,
+      18607,
+      18608,
+      18609,
+      18610,
+      18611,
+      18612,
+      18613,
+      18614,
+      18615,
+      18616,
+      18617,
+      18618,
+      18619,
+      18620
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2399,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18622
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2400,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18625
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 2401,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18628
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3232,
+    "rows": 5,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24714,
+      24716,
+      24717,
+      68607,
+      101190
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 3301,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      25117
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 37,
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18406,
+      59455,
+      105180
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 6568,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      46020
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 6669,
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      183419,
+      183420,
+      183421
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 8110,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      199969
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "peptide_id",
+    "value": 874,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      62980
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F103",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      340
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F107",
+    "rows": 2,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      51566,
+      51569
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F111",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      343
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F12531",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96162,
+      96164,
+      96166
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F12533",
+    "rows": 4,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96187,
+      96200,
+      96188,
+      96199
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F12535",
+    "rows": 4,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96189,
+      96198,
+      96190,
+      96197
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F12537",
+    "rows": 6,
+    "peptide_IDs": 3,
+    "exact_sequences": 3,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96191,
+      96196,
+      96192,
+      96195,
+      96193,
+      96194
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F13692",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      106653,
+      106698,
+      106818
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F13693",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      106652,
+      106699,
+      106817
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F13726",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133771
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F2396",
+    "rows": 25,
+    "peptide_IDs": 5,
+    "exact_sequences": 5,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18584,
+      18590,
+      18593,
+      18594,
+      18603,
+      18604,
+      18605,
+      18606,
+      18607,
+      18608,
+      18609,
+      18610,
+      18611,
+      18612,
+      18613,
+      18614,
+      18615,
+      18616,
+      18617,
+      18618,
+      18619,
+      18620,
+      18622,
+      18625,
+      18628
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F3232",
+    "rows": 5,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24714,
+      24716,
+      24717,
+      68607,
+      101190
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F3301",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      25117
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F37",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18406,
+      59455,
+      105180
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F6568",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      46020
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F6669",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      183419,
+      183420,
+      183421
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F8110",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      199969
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "sequence_family",
+    "value": "F873",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      62980
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G102",
+    "rows": 2,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      51566,
+      51569
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G103",
+    "rows": 2,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 2,
+    "source_groups": 1,
+    "activity_ids": [
+      340,
+      343
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G12531",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      96162,
+      96164,
+      96166
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G12533",
+    "rows": 14,
+    "peptide_IDs": 7,
+    "exact_sequences": 7,
+    "families": 3,
+    "source_groups": 1,
+    "activity_ids": [
+      96187,
+      96200,
+      96188,
+      96199,
+      96189,
+      96198,
+      96190,
+      96197,
+      96191,
+      96196,
+      96192,
+      96195,
+      96193,
+      96194
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G13692",
+    "rows": 6,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 2,
+    "source_groups": 1,
+    "activity_ids": [
+      106653,
+      106698,
+      106818,
+      106652,
+      106699,
+      106817
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G13726",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      133771
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G2396",
+    "rows": 25,
+    "peptide_IDs": 5,
+    "exact_sequences": 5,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18584,
+      18590,
+      18593,
+      18594,
+      18603,
+      18604,
+      18605,
+      18606,
+      18607,
+      18608,
+      18609,
+      18610,
+      18611,
+      18612,
+      18613,
+      18614,
+      18615,
+      18616,
+      18617,
+      18618,
+      18619,
+      18620,
+      18622,
+      18625,
+      18628
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G3232",
+    "rows": 6,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 2,
+    "source_groups": 1,
+    "activity_ids": [
+      24714,
+      24716,
+      24717,
+      68607,
+      101190,
+      46020
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G3301",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      25117
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G37",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18406,
+      59455,
+      105180
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G6669",
+    "rows": 3,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      183419,
+      183420,
+      183421
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G8110",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      199969
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "point",
+    "dimension": "source_family_group",
+    "value": "G873",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      62980
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 13803,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107784
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 13805,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107824
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 2397,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18587
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 3232,
+    "rows": 4,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24715,
+      68618,
+      171344,
+      171345
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 6701,
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      46723,
+      153842
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 8222,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      59377
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 8223,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      59381
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "peptide_id",
+    "value": 8225,
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      59389
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F13803",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107784
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F13805",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      107824
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F2397",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18587
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F3232",
+    "rows": 4,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24715,
+      68618,
+      171344,
+      171345
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F6701",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      46723,
+      153842
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F8222",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      59377
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F8223",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      59381
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "sequence_family",
+    "value": "F8225",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      59389
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G13803",
+    "rows": 2,
+    "peptide_IDs": 2,
+    "exact_sequences": 2,
+    "families": 2,
+    "source_groups": 1,
+    "activity_ids": [
+      107784,
+      107824
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G2396",
+    "rows": 1,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      18587
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G3232",
+    "rows": 4,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      24715,
+      68618,
+      171344,
+      171345
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G6701",
+    "rows": 2,
+    "peptide_IDs": 1,
+    "exact_sequences": 1,
+    "families": 1,
+    "source_groups": 1,
+    "activity_ids": [
+      46723,
+      153842
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "label_kind": "right",
+    "dimension": "source_family_group",
+    "value": "G8221",
+    "rows": 3,
+    "peptide_IDs": 3,
+    "exact_sequences": 3,
+    "families": 3,
+    "source_groups": 1,
+    "activity_ids": [
+      59377,
+      59381,
+      59389
+    ]
+  }
+]

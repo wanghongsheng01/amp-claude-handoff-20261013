@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    "neutral_guanidine_tautomers_equal",
+    "normalization_idempotent",
+    "non_guanidine",
+    "stereochemistry",
+    "histidine_unchanged",
+    "isotope_motif_rejected",
+    "charged_motif_rejected",
+    "standard_graph_formula_match",
+    "amide_graph_formula_match",
+    "D_isoleucine_graph_formula_match",
+    "disulfide_graph_formula_match",
+    "cyclic_graph_formula_match",
+    "mixture_refused",
+    "D_mismatch_not_erased",
+    "right_censor_preserved",
+    "unknown_material_not_admitted"
+  ],
+  "count": 16,
+  "code_sha256": "1f1ec396f17c0f1910dd70f59eeccfe2671365ae97c834a922bc84321716a9a2",
+  "synthetic_only": true
+}

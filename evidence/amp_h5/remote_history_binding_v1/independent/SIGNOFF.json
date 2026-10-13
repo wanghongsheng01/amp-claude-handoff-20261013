@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "signed_at_utc": "2026-10-12T11:57:33.843684+00:00",
+  "scope": "Independent review of persisted authorized remote-history receipts and local file identity; no new network requests",
+  "checks": {
+    "passed": 365,
+    "total": 365,
+    "tree_metadata_entries": 219,
+    "tree_blob_metadata": 179,
+    "path_histories": 6,
+    "content_versions": 2,
+    "content_bytes": 105336,
+    "primary_local_byte_rehashes": 5,
+    "independent_local_byte_rehashes": 6,
+    "independent_local_blob_matches": 6,
+    "target_sequence_ID_or_strict_normalization_hits": 0
+  },
+  "adjudication": {
+    "branch_SHA_from_direct_branch_response": true,
+    "AMP_404_not_nonexistence": true,
+    "one_commit_return_not_exhaustive_all_history": true,
+    "commit_date_not_experiment_date": true,
+    "blob_identity_not_execution_provenance": true,
+    "new_complete_binding_chains": 0,
+    "existing27_wetlab_identity_records_preserved": true,
+    "REPORT_approved_with_scope_boundaries": true
+  },
+  "audit_only_local_DOCX_note": "The primary workflow used prior-index metadata for the 2,275,625-byte DOCX; independent review separately computed the existing local bytes Git blob, without remote download or document parsing. Counts are kept separate.",
+  "independent_actions": {
+    "network_requests": 0,
+    "training": false,
+    "test37_opened": false,
+    "old_source_or_manuscript_modified": false
+  },
+  "epistemic_limit": "Verified persisted receipts and byte identity without re-querying GitHub; no guarantee about unrecorded remote activity.",
+  "remaining_blockers": [
+    "3DHumanRehab/AMP remote history unavailable through the current connector after its recorded 404; no retry.",
+    "No execution-level generation/selection/original-submission chain recovered within the authorized accessible scope.",
+    "BACKUP_BLOCKED"
+  ],
+  "parent_artifact_sha256": {
+    "ACCESS_CHECKS.json": "a493ed5bd467d5d8094408719efc00f51ddf325d006e148973180cca83cc8879",
+    "AMP_SUBTREE_HISTORY.json": "ef6c523ce7a131ca5a36f6888fd38ffa34d5044ca15e14947de45657b2e57ca3",
+    "BRANCH_METADATA.json": "92bca7d8a4d4e7dd537347d7179104621bb6f3ec6338aa84a2467da3692e695e",
+    "BRANCH_SCOPE.json": "9a7ce8879823dc1fd8d6e548fb8a9e0c1235266d5bf94fb8575a79540b08cc87",
+    "FETCHED_FILES.json": "af6744a6230b852df09a91c59f22b1d408593397b7a00363bb62bfd1607d0089",
+    "FETCHED_FILE_VERIFICATION.json": "670794736c62d68dbd22d1140f0910c92eae9cd51840576a4f3fbeb335fb05fd",
+    "FILENAME_ARTIFACT_CHECK.json": "a8bd7c9a63e4cf57ae72a3acdf30719e63b5d1f3982031c9cae6e972733f14be",
+    "FILE_HISTORIES.json": "87ce6c785a0aa5c10c2c246833c9b271c77c728044cb1b4418364bc5a4edfdec",
+    "LOCAL_REMOTE_BLOB_CHECKS.json": "f3779c356d2346974f714a34c4a5f671b369c6a40a604bac8b72907b0c787dcf",
+    "MANUSCRIPT_NARRATIVE_LOCATORS.json": "0902a16a21bf76e58dbef3caf50617b7b48ed596d474f9cbbb29eaa52856fdaf",
+    "PROTOCOL.json": "21cb341855cd433ce4f3ac41bb4e0622457c204a420d211c1ca0bb52c62af808",
+    "REMOTE_TREES.json": "d4c2565c24436d90a65d5d43a79bdb1656e16d1f7da11c909e5f86d7f57d4c47",
+    "REPORT.zh.md": "2a607b280be48b3d7730d797c575edac0b5ac7cb492e6c09a2ac140a8421ea93",
+    "REQUEST_LEDGER.json": "5d41bd71b7503be3e8dde114e3d82191f0bc99d59f77a0c0de9b16d036c9ee92",
+    "SOURCE_PRESERVATION.json": "3cc063e26936d145a852d05344bad36b5f4687054ef8aaae0f41c0ed5cf889e9",
+    "SUMMARY.json": "ce36ca2be1a7e91dd44410879ace85393111bbf26ea5cf729af3072c495ca658",
+    "TARGET_MATCHES.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "package.py": "6d5be66be7cdef9586ff9f7d6ea807a8b618f6ef453c6f3fbb9807ac903813a3",
+    "remote_main_v1.0.0.tex": "8dd8e44e7c6003c295f1bfccc7f9499d216c61080827b67258e83ca516afbf22",
+    "remote_main_v1.1.0.tex": "a3db9b3671bbfc3a1afefa885946ca9e4ac56a697d37dcd0b1b40dd216d1c0ee",
+    "verify_and_report.py": "5328faf4a6be7c484b6f3bafcbf119f55ec2533ac2594faeb6ad0290b5bf6d7a"
+  },
+  "independent_artifact_sha256": {
+    "audit.py": "5cf5a63f73516bfcfab494ae83d55768a03fdafc74d3dc1f544ada74d0a47cbd",
+    "AUDIT.json": "2cea16f8c399f26472f7625484916fea78555b4f4a7ff4a3a53dfb1279f3568b",
+    "SCIENCE_REVIEW.zh.md": "f8e772c73a40815f4283e59b0b2968e768a057aa2c735f1b3956516e2fc68718"
+  }
+}

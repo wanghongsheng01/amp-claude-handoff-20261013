@@ -1,0 +1,5 @@
+{
+  "attempt1": "KeyError files: bounded-v3 manifest uses sha256 map; no outputs or scientific files were changed before failure",
+  "repair": "Accept both existing manifest schemas; original packaging script retained",
+  "scientific_changes": false
+}

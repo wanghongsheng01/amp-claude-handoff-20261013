@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/native_baseline_engineering_audit",
+  "utc": "2026-10-12T11:25:34.596676+00:00",
+  "checks": {
+    "implementation349_pass": true,
+    "reporting_only_metadata_bug_confirmed": true,
+    "diagnostics582_pass": true,
+    "encoding418_pass": true,
+    "no_causal_confounding_claim": true,
+    "diagnostic_source_bindings_current": true,
+    "encoding_source_bindings_current": true
+  },
+  "verification_counts": {
+    "implementation": 349,
+    "diagnostic_arithmetic": 582,
+    "encoding_assay_strata": 418
+  },
+  "finding": "No recoverable fitting/prediction implementation bug found. Whitespace-only medium missingness reporting bug confirmed:14/68uMpoints, no model impact. New diagnostics correct and document it without altering frozen data/predictions.",
+  "report_review": "Checked report tables, group mean spans/variance/MSE decomposition, adjustment energy and alignment, repeat/support counts, same-input floor, normalized metadata missingness, and largest exact-text assay strata. Scope distinguishes descriptive decomposition from causal identification, fixed-model failure from absence of feature signal, and cached retrospective label diagnostics from AMP generation or biological efficacy evidence.",
+  "additional_raw_counts": {
+    "ug_ml_native": {
+      "distinct_target_texts": 16,
+      "nonempty_trimmed_media": 7,
+      "target_unspecified_Ecoli_rows": 45,
+      "largest_target_medium_point_rows": 10,
+      "largest_target_medium_point_IDs": 9,
+      "largest_target_medium_families": 7,
+      "largest_target_medium_groups": 6
+    },
+    "uM_native": {
+      "distinct_target_texts": 31,
+      "nonempty_trimmed_media": 3,
+      "target_unspecified_Ecoli_rows": 19,
+      "largest_target_medium_point_rows": 8,
+      "largest_target_medium_point_IDs": 8,
+      "largest_target_medium_families": 8,
+      "largest_target_medium_groups": 7
+    }
+  },
+  "sha256": {
+    "independent/IMPLEMENTATION_RECHECK.json": "9c5259caa065dc803f6ff54c8db80dc3057bd0169a0b62b35322a8bcfb30bb9c",
+    "independent/MISSINGNESS_RECHECK.json": "4a55c5326bcc5cc8ebbe687a7a329b14027734693de1932d74fe1d71298f57d7",
+    "independent/DIAGNOSTIC_AUDIT.json": "c456aa3bd1c68fce5d6ecd2726399f78eebe96b6d7cdb891c912623c4c69326c",
+    "independent/ENCODING_STRATA_AUDIT.json": "622752f9bbc34a373c2fae15b1bab1984aa9389be14ce3fcc85289948e05149f",
+    "REPORT.zh.md": "cdb5f3e9b2e0df1e1bb52e996501177db106b2610383c47db095d0c072259f91",
+    "write_report.py": "b72c023ffae4b8012236a511d64896cef14947061ad96443953039258f9c7c5d",
+    "independent/AUDIT_SUMMARY.zh.md": "705f4deec98175a86f562d8626d6041d10572174db8216adb1cfb063a3fd4c26"
+  },
+  "no_training": true,
+  "no_network": true,
+  "no_protected_data_access": true,
+  "output_closed": true
+}

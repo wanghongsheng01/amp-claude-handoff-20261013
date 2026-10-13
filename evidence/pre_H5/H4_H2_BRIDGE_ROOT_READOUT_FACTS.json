@@ -1,0 +1,1085 @@
+{
+  "created_utc": "2026-10-11T15:08:26.050572+00:00",
+  "kind": "root_transcription_of_frozen_author_metrics_not_independent_recomputation",
+  "source_hashes": [
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/run/status.json",
+      "sha256": "0b1993a6492e454fad2c5ac52400be52eeb74f7d5e14af1b8c129276b140c014"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/run/MANIFEST.json",
+      "sha256": "305e1c7c47efadf85a92ce150c8d04b4d10a5387c685549a731b41db2cf711b9"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/status.json",
+      "sha256": "2f44519bbe4cf414e4b3af861833beef60e7c048d1bf874888d2352e2a7ace7b"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/MANIFEST.json",
+      "sha256": "46aa18fae1f16e6069e66d05cc1af8f756df4a1db99f669a6fe0e13f6c53f0cc"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/original_scalar/metrics.json",
+      "sha256": "9f39b489516a1d917ce6cf081e7906481df8bf8e12f0fbaea5f417b0760a1916"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/H2_CE_J/metrics.json",
+      "sha256": "993353340336e3439465fbd312c5a5532be99df75365dd670d1a8fcab2ebae3f"
+    }
+  ],
+  "run_status": {
+    "status": "COMPLETE",
+    "failure": null,
+    "elapsed_seconds": 1126.1977994996123,
+    "prelock_manifest_sha256": "f317c5f01ecfc399013097afc4184b0e19f8d0f82c8c98130dcf9110c8c635d7",
+    "model_calls": {
+      "inverse_flow_attempted": 2,
+      "inverse_flow_completed": 2,
+      "ddpm_attempted": 1996,
+      "ddpm_completed": 1996,
+      "WN_attempted": 6,
+      "WN_completed": 6,
+      "scalar_projection_attempted": 6,
+      "scalar_projection_completed": 6,
+      "H2_affine_attempted": 6,
+      "H2_affine_completed": 6,
+      "H2_J_completed": 6,
+      "encoder_forwards": 0,
+      "training_updates": 0
+    },
+    "completed_head_rows": 192,
+    "requested_head_rows": 192,
+    "replay_groups_pass": 6,
+    "preservation_pass": true,
+    "H2_certification": {
+      "certified": true,
+      "gap_upper": 8.74820512883942e-07,
+      "run_manifest_sha256": "88ed82f9a6dbd7a73abe51169c2a8fac4a0872a93185ad243d77b129289541f8",
+      "scientific_scope": "frozen H2 CE+J reconstruction result, not generation success"
+    },
+    "paired_interpretation_valid": true,
+    "no_activity_or_generator_winner_claim": true,
+    "H3_heads_used": false,
+    "backup": "BACKUP_BLOCKED"
+  },
+  "evaluation_status": {
+    "status": "COMPLETE",
+    "prelock_manifest_sha256": "f317c5f01ecfc399013097afc4184b0e19f8d0f82c8c98130dcf9110c8c635d7",
+    "generation_manifest_sha256": "305e1c7c47efadf85a92ce150c8d04b4d10a5387c685549a731b41db2cf711b9",
+    "evaluation_elapsed_seconds": 12.28806187491864,
+    "generation_elapsed_seconds": 1126.1977994996123,
+    "combined_compute_seconds": 1138.485861374531,
+    "preservation_pass": true,
+    "failure": null,
+    "new_generator_latents": 0,
+    "paired_output_rows": 192,
+    "original_latents": 96,
+    "new_statistical_controls": 0,
+    "test_reads": 0,
+    "interpretation": "within-source paired readout descriptions; no ground truth accuracy, activity or equal-information generator winner claim",
+    "backup": "BACKUP_BLOCKED"
+  },
+  "aggregate": {
+    "original_scalar": {
+      "requested": 96,
+      "valid_1to48": 96,
+      "valid_5to48": 96,
+      "empty": 0,
+      "full48": 10,
+      "exact_any_train_copy": 0
+    },
+    "H2_CE_J": {
+      "requested": 96,
+      "valid_1to48": 95,
+      "valid_5to48": 91,
+      "empty": 1,
+      "full48": 7,
+      "exact_any_train_copy": 0
+    }
+  },
+  "direction_counts": {
+    "train/aa_jensen_shannon_bits": {
+      "lower": 2,
+      "higher": 4,
+      "equal": 0
+    },
+    "train/aa_l1_distance": {
+      "lower": 3,
+      "higher": 3,
+      "equal": 0
+    },
+    "train/dipeptide_jensen_shannon_bits": {
+      "lower": 4,
+      "higher": 2,
+      "equal": 0
+    },
+    "train/dipeptide_l1_distance": {
+      "lower": 4,
+      "higher": 2,
+      "equal": 0
+    },
+    "train/mmd2_linear_biased_fixed_features": {
+      "lower": 1,
+      "higher": 5,
+      "equal": 0
+    },
+    "train/length_ks_statistic_no_pvalue": {
+      "lower": 6,
+      "higher": 0,
+      "equal": 0
+    },
+    "validation/aa_jensen_shannon_bits": {
+      "lower": 1,
+      "higher": 5,
+      "equal": 0
+    },
+    "validation/aa_l1_distance": {
+      "lower": 2,
+      "higher": 4,
+      "equal": 0
+    },
+    "validation/dipeptide_jensen_shannon_bits": {
+      "lower": 6,
+      "higher": 0,
+      "equal": 0
+    },
+    "validation/dipeptide_l1_distance": {
+      "lower": 6,
+      "higher": 0,
+      "equal": 0
+    },
+    "validation/mmd2_linear_biased_fixed_features": {
+      "lower": 1,
+      "higher": 5,
+      "equal": 0
+    },
+    "validation/length_ks_statistic_no_pvalue": {
+      "lower": 4,
+      "higher": 2,
+      "equal": 0
+    }
+  },
+  "paired_groups": [
+    {
+      "method": "empirical_condition_flow_prior",
+      "terminal": "FREE",
+      "original_scalar": {
+        "requests": 16,
+        "status_counts": {
+          "ok": 16
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 25.1875,
+          "min": 14,
+          "max": 42,
+          "median": 23.5
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 16,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.29380392157976837,
+          "min": 0.25,
+          "max": 0.375,
+          "median": 0.2792207792207792
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.10079163213256874,
+          "aa_l1_distance": 0.6124057820069138,
+          "dipeptide_jensen_shannon_bits": 0.4315638641610162,
+          "dipeptide_l1_distance": 1.2126142463677425,
+          "mmd2_linear_biased_fixed_features": 0.018028456849657683,
+          "length_ks_statistic_no_pvalue": 0.363095238095238
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.12800768362397277,
+          "aa_l1_distance": 0.6869839837581774,
+          "dipeptide_jensen_shannon_bits": 0.547462854655392,
+          "dipeptide_l1_distance": 1.3336811767044325,
+          "mmd2_linear_biased_fixed_features": 0.02359310173405433,
+          "length_ks_statistic_no_pvalue": 0.4027777777777778
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.1952345822598796,
+            "pooled_dipeptide_entropy_bits": 7.461759726403198
+          },
+          "valid_5_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.1952345822598796,
+            "pooled_dipeptide_entropy_bits": 7.461759726403198
+          }
+        }
+      },
+      "H2_CE_J": {
+        "requests": 16,
+        "status_counts": {
+          "ok": 16
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 22.8125,
+          "min": 11,
+          "max": 39,
+          "median": 22.0
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 16,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.44162445092734354,
+          "min": 0.358974358974359,
+          "max": 0.6428571428571429,
+          "median": 0.43478260869565216
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.20207556378417701,
+          "aa_l1_distance": 0.7518220143529891,
+          "dipeptide_jensen_shannon_bits": 0.43229849011254406,
+          "dipeptide_l1_distance": 1.2355754025386725,
+          "mmd2_linear_biased_fixed_features": 0.028313867302171725,
+          "length_ks_statistic_no_pvalue": 0.22916666666666663
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.21334089065703152,
+          "aa_l1_distance": 0.8088833540888335,
+          "dipeptide_jensen_shannon_bits": 0.4668737942763573,
+          "dipeptide_l1_distance": 1.2946697524061421,
+          "mmd2_linear_biased_fixed_features": 0.036678044577003334,
+          "length_ks_statistic_no_pvalue": 0.3402777777777778
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 2.641699223414811,
+            "pooled_dipeptide_entropy_bits": 4.996236762381684
+          },
+          "valid_5_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 2.641699223414811,
+            "pooled_dipeptide_entropy_bits": 4.996236762381684
+          }
+        }
+      }
+    },
+    {
+      "method": "posterior_aggregate",
+      "terminal": "FREE",
+      "original_scalar": {
+        "requests": 16,
+        "status_counts": {
+          "ok": 16
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 21.9375,
+          "min": 14,
+          "max": 46,
+          "median": 18.5
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 16,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.31724315014687293,
+          "min": 0.21739130434782608,
+          "max": 0.4375,
+          "median": 0.31534090909090906
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.11709127186312573,
+          "aa_l1_distance": 0.6267426995696377,
+          "dipeptide_jensen_shannon_bits": 0.46950728280890236,
+          "dipeptide_l1_distance": 1.2558730236789692,
+          "mmd2_linear_biased_fixed_features": 0.017201993601993846,
+          "length_ks_statistic_no_pvalue": 0.2152777777777778
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.1495120259999599,
+          "aa_l1_distance": 0.7013209013209013,
+          "dipeptide_jensen_shannon_bits": 0.6029761642610513,
+          "dipeptide_l1_distance": 1.423593570608496,
+          "mmd2_linear_biased_fixed_features": 0.021455271473945745,
+          "length_ks_statistic_no_pvalue": 0.3263888888888889
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.066995873480194,
+            "pooled_dipeptide_entropy_bits": 7.244971345266714
+          },
+          "valid_5_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.066995873480194,
+            "pooled_dipeptide_entropy_bits": 7.244971345266714
+          }
+        }
+      },
+      "H2_CE_J": {
+        "requests": 16,
+        "status_counts": {
+          "ok": 16
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 20.0625,
+          "min": 12,
+          "max": 44,
+          "median": 17.5
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 16,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.48582015307492554,
+          "min": 0.3409090909090909,
+          "max": 0.6666666666666666,
+          "median": 0.5
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.20554849785377716,
+          "aa_l1_distance": 0.7186430423719924,
+          "dipeptide_jensen_shannon_bits": 0.47323984131895636,
+          "dipeptide_l1_distance": 1.2979150349744781,
+          "mmd2_linear_biased_fixed_features": 0.049970638974548315,
+          "length_ks_statistic_no_pvalue": 0.16369047619047616
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.21128672448879857,
+          "aa_l1_distance": 0.7972245822713112,
+          "dipeptide_jensen_shannon_bits": 0.5083169252824267,
+          "dipeptide_l1_distance": 1.3497688104245482,
+          "mmd2_linear_biased_fixed_features": 0.054878167960085704,
+          "length_ks_statistic_no_pvalue": 0.2013888888888889
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 2.511770651841531,
+            "pooled_dipeptide_entropy_bits": 4.600633699967102
+          },
+          "valid_5_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 2.511770651841531,
+            "pooled_dipeptide_entropy_bits": 4.600633699967102
+          }
+        }
+      }
+    },
+    {
+      "method": "posterior_parameter_ddpm",
+      "terminal": "FREE",
+      "original_scalar": {
+        "requests": 16,
+        "status_counts": {
+          "no_eos_at_limit": 7,
+          "ok": 9
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 34.4375,
+          "min": 16,
+          "max": 48,
+          "median": 36.0
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 16,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.2680892434798459,
+          "min": 0.16666666666666666,
+          "max": 0.3333333333333333,
+          "median": 0.2658514492753623
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.17485398508457817,
+          "aa_l1_distance": 0.7286204196257392,
+          "dipeptide_jensen_shannon_bits": 0.5316533467275786,
+          "dipeptide_l1_distance": 1.352119355186377,
+          "mmd2_linear_biased_fixed_features": 0.048451205771969416,
+          "length_ks_statistic_no_pvalue": 0.5009920634920635
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.19799700866066605,
+          "aa_l1_distance": 0.8096793708408954,
+          "dipeptide_jensen_shannon_bits": 0.6334958076126933,
+          "dipeptide_l1_distance": 1.4883297387970285,
+          "mmd2_linear_biased_fixed_features": 0.05808517510665126,
+          "length_ks_statistic_no_pvalue": 0.6597222222222222
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 3.909279311863812,
+            "pooled_dipeptide_entropy_bits": 6.7765160364417865
+          },
+          "valid_5_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 3.909279311863812,
+            "pooled_dipeptide_entropy_bits": 6.7765160364417865
+          }
+        }
+      },
+      "H2_CE_J": {
+        "requests": 16,
+        "status_counts": {
+          "empty_sequence": 1,
+          "no_eos_at_limit": 5,
+          "ok": 10
+        },
+        "empty_count": 1,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 27.1875,
+          "min": 0,
+          "max": 48,
+          "median": 21.0
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 15,
+        "valid_5_48_count": 14,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 15,
+          "mean": 0.37824125552386423,
+          "min": 0.1111111111111111,
+          "max": 0.5,
+          "median": 0.4230769230769231
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.26077057689091704,
+          "aa_l1_distance": 0.9512560869134735,
+          "dipeptide_jensen_shannon_bits": 0.4892792653439261,
+          "dipeptide_l1_distance": 1.3164509296305014,
+          "mmd2_linear_biased_fixed_features": 0.0895144466063438,
+          "length_ks_statistic_no_pvalue": 0.3920634920634919
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.24638854058299747,
+          "aa_l1_distance": 0.9174503657262277,
+          "dipeptide_jensen_shannon_bits": 0.510428898578219,
+          "dipeptide_l1_distance": 1.3531135531135532,
+          "mmd2_linear_biased_fixed_features": 0.09432747997777757,
+          "length_ks_statistic_no_pvalue": 0.4
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 15,
+            "unique_count": 15,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.06666666666666667,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 3.906890595608519,
+            "pooled_aa_entropy_bits": 2.2148584879353055,
+            "pooled_dipeptide_entropy_bits": 4.122452352530381
+          },
+          "valid_5_48": {
+            "n": 14,
+            "unique_count": 14,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.07142857142857142,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 3.807354922057604,
+            "pooled_aa_entropy_bits": 2.211905475086023,
+            "pooled_dipeptide_entropy_bits": 4.122452352530381
+          }
+        }
+      }
+    },
+    {
+      "method": "empirical_condition_flow_prior",
+      "terminal": "AMD",
+      "original_scalar": {
+        "requests": 16,
+        "status_counts": {
+          "ok": 16
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 17.1875,
+          "min": 9,
+          "max": 34,
+          "median": 16.0
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 16,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.3149221405755133,
+          "min": 0.23529411764705882,
+          "max": 0.38461538461538464,
+          "median": 0.3169642857142857
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.15301609429415294,
+          "aa_l1_distance": 0.7905303685078966,
+          "dipeptide_jensen_shannon_bits": 0.5303028279149014,
+          "dipeptide_l1_distance": 1.3622500665536297,
+          "mmd2_linear_biased_fixed_features": 0.022461755527679997,
+          "length_ks_statistic_no_pvalue": 0.21405228758169942
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.1553424827795336,
+          "aa_l1_distance": 0.7420338152413625,
+          "dipeptide_jensen_shannon_bits": 0.6216734940743388,
+          "dipeptide_l1_distance": 1.4457906182044113,
+          "mmd2_linear_biased_fixed_features": 0.022854834422063507,
+          "length_ks_statistic_no_pvalue": 0.15217391304347816
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.191802393741418,
+            "pooled_dipeptide_entropy_bits": 7.217068195226676
+          },
+          "valid_5_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.191802393741418,
+            "pooled_dipeptide_entropy_bits": 7.217068195226676
+          }
+        }
+      },
+      "H2_CE_J": {
+        "requests": 16,
+        "status_counts": {
+          "ok": 16
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 14.9375,
+          "min": 2,
+          "max": 30,
+          "median": 13.5
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 15,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.46800829787043025,
+          "min": 0.2,
+          "max": 0.5789473684210527,
+          "median": 0.47368421052631576
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.14581296655290005,
+          "aa_l1_distance": 0.6246460511422196,
+          "dipeptide_jensen_shannon_bits": 0.3650936364686263,
+          "dipeptide_l1_distance": 1.1044463304855956,
+          "mmd2_linear_biased_fixed_features": 0.036773437042709065,
+          "length_ks_statistic_no_pvalue": 0.10947712418300659
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.16355700621806862,
+          "aa_l1_distance": 0.6995003890875052,
+          "dipeptide_jensen_shannon_bits": 0.42779674761209124,
+          "dipeptide_l1_distance": 1.201329828359363,
+          "mmd2_linear_biased_fixed_features": 0.03207307864757852,
+          "length_ks_statistic_no_pvalue": 0.17119565217391308
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 2.581575348874845,
+            "pooled_dipeptide_entropy_bits": 4.781504154336794
+          },
+          "valid_5_48": {
+            "n": 15,
+            "unique_count": 15,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.06666666666666667,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 3.906890595608519,
+            "pooled_aa_entropy_bits": 2.5768149891607326,
+            "pooled_dipeptide_entropy_bits": 4.778987412587797
+          }
+        }
+      }
+    },
+    {
+      "method": "posterior_aggregate",
+      "terminal": "AMD",
+      "original_scalar": {
+        "requests": 16,
+        "status_counts": {
+          "ok": 16
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 15.375,
+          "min": 8,
+          "max": 23,
+          "median": 15.0
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 16,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.32725205773468913,
+          "min": 0.26666666666666666,
+          "max": 0.4375,
+          "median": 0.32575757575757575
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.1550052446124107,
+          "aa_l1_distance": 0.7670243340289928,
+          "dipeptide_jensen_shannon_bits": 0.5664607034905578,
+          "dipeptide_l1_distance": 1.4153592338490635,
+          "mmd2_linear_biased_fixed_features": 0.024079616265162886,
+          "length_ks_statistic_no_pvalue": 0.1719771241830066
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.16796714324145948,
+          "aa_l1_distance": 0.7239059452589135,
+          "dipeptide_jensen_shannon_bits": 0.68748755110916,
+          "dipeptide_l1_distance": 1.5612693653173413,
+          "mmd2_linear_biased_fixed_features": 0.026115136791083435,
+          "length_ks_statistic_no_pvalue": 0.1304347826086958
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.138137044633062,
+            "pooled_dipeptide_entropy_bits": 7.000803394532047
+          },
+          "valid_5_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.138137044633062,
+            "pooled_dipeptide_entropy_bits": 7.000803394532047
+          }
+        }
+      },
+      "H2_CE_J": {
+        "requests": 16,
+        "status_counts": {
+          "ok": 16
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 13.125,
+          "min": 1,
+          "max": 20,
+          "median": 13.0
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 15,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.49023962827631307,
+          "min": 0.2,
+          "max": 0.6363636363636364,
+          "median": 0.5
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.17388223543906922,
+          "aa_l1_distance": 0.7182944396427543,
+          "dipeptide_jensen_shannon_bits": 0.4046148360855775,
+          "dipeptide_l1_distance": 1.1641946979491167,
+          "mmd2_linear_biased_fixed_features": 0.042844533835330094,
+          "length_ks_statistic_no_pvalue": 0.1568627450980392
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.1880871242139163,
+          "aa_l1_distance": 0.7651392632524708,
+          "dipeptide_jensen_shannon_bits": 0.47817491694446457,
+          "dipeptide_l1_distance": 1.2997393056049296,
+          "mmd2_linear_biased_fixed_features": 0.03862928188160283,
+          "length_ks_statistic_no_pvalue": 0.3070652173913043
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 2.4459052865056043,
+            "pooled_dipeptide_entropy_bits": 4.560742458015795
+          },
+          "valid_5_48": {
+            "n": 15,
+            "unique_count": 15,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.06666666666666667,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 3.906890595608519,
+            "pooled_aa_entropy_bits": 2.4293383854499147,
+            "pooled_dipeptide_entropy_bits": 4.560742458015795
+          }
+        }
+      }
+    },
+    {
+      "method": "posterior_parameter_ddpm",
+      "terminal": "AMD",
+      "original_scalar": {
+        "requests": 16,
+        "status_counts": {
+          "no_eos_at_limit": 3,
+          "ok": 13
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 25.6875,
+          "min": 5,
+          "max": 48,
+          "median": 23.0
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 16,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.27865464190198613,
+          "min": 0.2222222222222222,
+          "max": 0.34782608695652173,
+          "median": 0.26619433198380565
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.20250689631276741,
+          "aa_l1_distance": 0.8357191074323855,
+          "dipeptide_jensen_shannon_bits": 0.5569426440232219,
+          "dipeptide_l1_distance": 1.421931946649172,
+          "mmd2_linear_biased_fixed_features": 0.046350525444558845,
+          "length_ks_statistic_no_pvalue": 0.5204248366013072
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.20036614777435083,
+          "aa_l1_distance": 0.8097533463185578,
+          "dipeptide_jensen_shannon_bits": 0.660634266265334,
+          "dipeptide_l1_distance": 1.5133857122071876,
+          "mmd2_linear_biased_fixed_features": 0.04383626716919611,
+          "length_ks_statistic_no_pvalue": 0.513586956521739
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.013500897890341,
+            "pooled_dipeptide_entropy_bits": 7.007567148934206
+          },
+          "valid_5_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 4.013500897890341,
+            "pooled_dipeptide_entropy_bits": 7.007567148934206
+          }
+        }
+      },
+      "H2_CE_J": {
+        "requests": 16,
+        "status_counts": {
+          "no_eos_at_limit": 2,
+          "ok": 14
+        },
+        "empty_count": 0,
+        "invalid_alphabet_count": 0,
+        "length_over_48_count": 0,
+        "all_output_length": {
+          "n": 16,
+          "mean": 18.6875,
+          "min": 1,
+          "max": 48,
+          "median": 16.0
+        },
+        "all_output_unique_count_including_empty_and_failed": 16,
+        "valid_1_48_count": 16,
+        "valid_5_48_count": 15,
+        "exact_copy_train_count_all_requests": 0,
+        "exact_sequence_copy_any_train_terminal_count": 0,
+        "nearest_train_identity_valid_1_48": {
+          "n": 16,
+          "mean": 0.41554845967146997,
+          "min": 0.2,
+          "max": 0.5384615384615384,
+          "median": 0.43167701863354035
+        },
+        "nearest_train_at_least_70_percent_count_valid_1_48": 0,
+        "valid_1_48_vs_train": {
+          "aa_jensen_shannon_bits": 0.15467314216141415,
+          "aa_l1_distance": 0.7000488519785051,
+          "dipeptide_jensen_shannon_bits": 0.378838786070289,
+          "dipeptide_l1_distance": 1.1085072183896016,
+          "mmd2_linear_biased_fixed_features": 0.04417541429645056,
+          "length_ks_statistic_no_pvalue": 0.23039215686274506
+        },
+        "valid_1_48_vs_validation": {
+          "aa_jensen_shannon_bits": 0.13163625654245747,
+          "aa_l1_distance": 0.6138340740473636,
+          "dipeptide_jensen_shannon_bits": 0.40497680328647206,
+          "dipeptide_l1_distance": 1.1683116039153567,
+          "mmd2_linear_biased_fixed_features": 0.03525871879393016,
+          "length_ks_statistic_no_pvalue": 0.28804347826086957
+        },
+        "valid_diversity": {
+          "valid_1_48": {
+            "n": 16,
+            "unique_count": 16,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.0625,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 4.0,
+            "pooled_aa_entropy_bits": 2.711161539961393,
+            "pooled_dipeptide_entropy_bits": 4.903273264229316
+          },
+          "valid_5_48": {
+            "n": 15,
+            "unique_count": 15,
+            "duplicate_fraction": 0.0,
+            "top_mode_fraction": 0.06666666666666667,
+            "pair_collision_probability": 0.0,
+            "sequence_entropy_bits": 3.906890595608519,
+            "pooled_aa_entropy_bits": 2.707050194977404,
+            "pooled_dipeptide_entropy_bits": 4.903273264229316
+          }
+        }
+      }
+    }
+  ],
+  "eligibility": [
+    {
+      "terminal": "FREE",
+      "method": "empirical_condition_flow_prior",
+      "requested": 16,
+      "scalar_valid_1to48": 16,
+      "scalar_valid_5to48": 16,
+      "H2_valid_1to48": 16,
+      "H2_valid_5to48": 16,
+      "both_valid_1to48": 16,
+      "scalar_only_1to48": 0,
+      "H2_only_1to48": 0,
+      "neither_1to48": 0,
+      "note": "scalar eligibility may differ; keep all16 in each arm and report valid denominators separately"
+    },
+    {
+      "terminal": "FREE",
+      "method": "posterior_aggregate",
+      "requested": 16,
+      "scalar_valid_1to48": 16,
+      "scalar_valid_5to48": 16,
+      "H2_valid_1to48": 16,
+      "H2_valid_5to48": 16,
+      "both_valid_1to48": 16,
+      "scalar_only_1to48": 0,
+      "H2_only_1to48": 0,
+      "neither_1to48": 0,
+      "note": "scalar eligibility may differ; keep all16 in each arm and report valid denominators separately"
+    },
+    {
+      "terminal": "FREE",
+      "method": "posterior_parameter_ddpm",
+      "requested": 16,
+      "scalar_valid_1to48": 16,
+      "scalar_valid_5to48": 16,
+      "H2_valid_1to48": 15,
+      "H2_valid_5to48": 14,
+      "both_valid_1to48": 15,
+      "scalar_only_1to48": 1,
+      "H2_only_1to48": 0,
+      "neither_1to48": 0,
+      "note": "scalar eligibility may differ; keep all16 in each arm and report valid denominators separately"
+    },
+    {
+      "terminal": "AMD",
+      "method": "empirical_condition_flow_prior",
+      "requested": 16,
+      "scalar_valid_1to48": 16,
+      "scalar_valid_5to48": 16,
+      "H2_valid_1to48": 16,
+      "H2_valid_5to48": 15,
+      "both_valid_1to48": 16,
+      "scalar_only_1to48": 0,
+      "H2_only_1to48": 0,
+      "neither_1to48": 0,
+      "note": "scalar eligibility may differ; keep all16 in each arm and report valid denominators separately"
+    },
+    {
+      "terminal": "AMD",
+      "method": "posterior_aggregate",
+      "requested": 16,
+      "scalar_valid_1to48": 16,
+      "scalar_valid_5to48": 16,
+      "H2_valid_1to48": 16,
+      "H2_valid_5to48": 15,
+      "both_valid_1to48": 16,
+      "scalar_only_1to48": 0,
+      "H2_only_1to48": 0,
+      "neither_1to48": 0,
+      "note": "scalar eligibility may differ; keep all16 in each arm and report valid denominators separately"
+    },
+    {
+      "terminal": "AMD",
+      "method": "posterior_parameter_ddpm",
+      "requested": 16,
+      "scalar_valid_1to48": 16,
+      "scalar_valid_5to48": 16,
+      "H2_valid_1to48": 16,
+      "H2_valid_5to48": 15,
+      "both_valid_1to48": 16,
+      "scalar_only_1to48": 0,
+      "H2_only_1to48": 0,
+      "neither_1to48": 0,
+      "note": "scalar eligibility may differ; keep all16 in each arm and report valid denominators separately"
+    }
+  ],
+  "limits": "All-request length includes empty. Distribution/NN use valid1–48; FREE DDPM changes16to15 members. No composite success gate, no CI/generalization/activity claim. These are transcription facts; independent numerical audit is separate.",
+  "backup_status": "BACKUP_BLOCKED"
+}

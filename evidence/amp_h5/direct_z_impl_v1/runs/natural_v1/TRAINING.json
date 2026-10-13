@@ -1,0 +1,24 @@
+{
+  "R": {
+    "status": "COMPLETE",
+    "completed_updates": 1000,
+    "logged_complete_steps": 1000,
+    "failure": null,
+    "elapsed_seconds": 550.6503029158339,
+    "parameters": 18611970,
+    "final_state_sha256": "a14731fccec0668039505820e3c6a7eb47c3604b19a5b05e5a08661fc05e57aa",
+    "checkpoint_selection": "final1000_only",
+    "no_retry": true
+  },
+  "Z": {
+    "status": "COMPLETE",
+    "completed_updates": 1000,
+    "logged_complete_steps": 1000,
+    "failure": null,
+    "elapsed_seconds": 546.4136138749309,
+    "parameters": 18611329,
+    "final_state_sha256": "60a977ace1d24efc3d9d58fd84535566d1765c41f74af7800d92f2c5b4fad5b0",
+    "checkpoint_selection": "final1000_only",
+    "no_retry": true
+  }
+}

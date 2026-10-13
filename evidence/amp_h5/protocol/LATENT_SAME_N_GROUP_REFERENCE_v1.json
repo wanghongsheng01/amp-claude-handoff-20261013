@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-10-11T19:45:29.871352+00:00",
+  "scope_id": "AMP_H5_LATENT_SAME_N_GROUP_REFERENCE_V1",
+  "status": "FROZEN_BEFORE_SAME_N_COMPUTATION_PENDING_INDEPENDENT_STATIC_REVIEW",
+  "posthoc_status": "Exploratory analysis initiated after known negative generation results and earlier latent-scale/structure findings. This freeze constrains changes/selection only; not original preregistration or confirmatory evidence.",
+  "implementation_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/latent_same_n_reference_v1.py",
+  "implementation_sha256": "4f8e18e287b1f81a9103db1140f3ffb2d30ae4f182173fa26b63b156abc1861a",
+  "output_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1",
+  "input_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/GROUP_BINDING_AVAILABILITY.json",
+      "sha256": "94487523cd76ad184f6c091988df6c47f6214c36632373cd0f28a730942d9b16"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/LATENT_AVAILABILITY.json",
+      "sha256": "c4ace7de7df6912f18939f963caf1f9c33e925982b3a089659829f9ef5bb16a7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/MANIFEST.json",
+      "sha256": "bd1666a2bc17abc073d9ae98d54d2dfc9f9e548f6a65c7a6266182316b2563ab"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/LATENT_MATCH_READOUT.json",
+      "sha256": "9f0a1fb765fd61770e0b15c9c4708951bd6e12fad137aa63b878f4df860c0a39"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_METRIC_CLARIFICATION.json",
+      "sha256": "42766c205908dd2d9bd0a97d1c52c720f4f1ce022555241f949272b01d505c7f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+      "sha256": "f7899543f330e1fed829e592269c09c9b747e45abbffe2ec251f3e69c37fae0d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz",
+      "sha256": "fd987de8fec498386f414b3c64db0512f916253d4f294152c97a095eb6d30722"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_posterior_parameters.npz",
+      "sha256": "803241f2a112a732b69d607fb8922d93f9828824dc4e0f44d1f932ea02249617"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_FREE.npz",
+      "sha256": "79b4282b306cb92a7a77220be22bd897b5a70855a49981daecbe97a34192c68e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_AMD.npz",
+      "sha256": "49cc4057e28afc4cd035b133773406ea4bc513f5a8aadde958d36202f14729b9"
+    }
+  ],
+  "row_binding_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+  "methods": [
+    {
+      "name": "categorical_ce",
+      "train_posterior": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "generated_posterior": {
+        "FREE": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+        "AMD": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz"
+      }
+    },
+    {
+      "name": "raw_onehot_mse",
+      "train_posterior": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_posterior_parameters.npz",
+      "generated_posterior": {
+        "FREE": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_FREE.npz",
+        "AMD": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_AMD.npz"
+      }
+    }
+  ],
+  "sampler": {
+    "repetitions": 256,
+    "seed": 20261011,
+    "engine": "NumPy1.26.4.PCG64 raw_uint64, single shared generator; exact integer rejection randbelow; no float probabilities",
+    "unit": "Whole frozen component across both terminal labels jointly",
+    "component_order": "Lexicographically sorted exact component_id; all rows of each component retained together",
+    "target": {
+      "FREE": 16,
+      "AMD": 16
+    },
+    "reference": {
+      "FREE": 110,
+      "AMD": 137
+    },
+    "feasible_component_subset_count": "488466986509709352862250309225896922",
+    "algorithm": "Integer suffix dynamic programming DP[i,f,a] counts exact feasible subsets of components i..end with remaining FREE=f,AMD=a. At each component, include with take_count/(take_count+skip_count), selected by exact raw-bit randbelow(total)<take_count; deterministic if either count is0. Stop only at(0,0). Thus every feasible complete-component subset has exact probability1/DP[0,16,16]. No rejection based on latent/sequence/quality outcome.",
+    "arbitrary_integer_draw": "k=(total−1).bit_length(); concatenate ceil(k/64) PCG64 raw64 values in draw order, mask to k low bits, reject values>=total. Record full PCG64 state before/after each complete subset.",
+    "population_scope": "224 frozen training components, max total size5; none individually exceeds target16 per terminal. All components participate in the DP, no prefilter. Uniform feasible component subsets is NOT uniform sequence sampling or equal component-inclusion probability.",
+    "shared_indices": "The same256 joint subsets used for CE and MSE; each repetition gen16 and training statistical-holdout16 use the identical remaining reference.",
+    "seal": "Save every selected component/row id, remaining row id, exact subset probability, RNG states, duplicate subsets and empirical inclusion count for all224 groups before loading natural latent arrays or computing metrics. Inclusion counts describe this run, not expected probabilities or inverse-probability weights."
+  },
+  "comparison_design": {
+    "generated_rows_per_terminal": 16,
+    "statistical_holdout_rows_per_terminal": 16,
+    "training_reference_per_terminal": {
+      "FREE": 110,
+      "AMD": 137
+    },
+    "holdout_meaning": "Statistical-reference split only. All279 rows participated in VAE/DDPM fitting; none becomes model-unseen/dev or a generalization test.",
+    "disjointness": "No frozen component crosses chosen32 vs remaining247; mixed-terminal components selected jointly, never independent terminal draws followed by union.",
+    "frozen_group_semantics": "Global NW +2/−1/gap−2 including terminal gaps; edge alignment matches/all columns>=0.70, then transitive connected components. Not biological family proof, not all-pairs70%, and residual relatedness remains.",
+    "covariance_boundary": "Each generated16-row1536-dimensional [mu,logsigma] matrix has centered covariance rank<=15. Do not compare raw high-dimensional covariance ranks against fulltrain as error evidence. No covariance matrix, projection, whitening, W2 or shrinkage computed here."
+  },
+  "frozen_statistics": {
+    "fields": [
+      "mu",
+      "log_sigma",
+      "sigma=exp(log_sigma)"
+    ],
+    "per_field": [
+      "signed mean shift",
+      "absolute mean shift / reference std",
+      "std ratio and absolute log ratio",
+      "RMS ratio and absolute log ratio",
+      "channel16/position48/map768 mean-profile correlation,1−correlation and RMSE/reference RMS",
+      "fraction and16 per-peptide fractions outside reference pooled minmax, matched-coordinate minmax and matched-coordinate1%-99% quantiles"
+    ],
+    "dependency": [
+      "mu-logsigma pooled aligned-coordinate Pearson",
+      "within-peptide-centered Pearson",
+      "channel-mean Pearson",
+      "position-mean Pearson",
+      "absolute differences of each correlation vs the shared reference"
+    ],
+    "analytic_q": [
+      "Empirical posterior mixture mean and RMS from mu and sigma; generated-parameter mixture vs reference and statistical-holdout mixture vs same reference. No new q(z) draws, no pretending to have saved train z."
+    ],
+    "summaries": "Store all1024 method×terminal×repetition records. For each scalar metric, summarize generated/ref, holdout/ref, and paired delta with mean/std/min/max,2.5/25/50/75/97.5% empirical quantiles, defined/undefined counts. Fraction(delta>0) is descriptive only, not a p value. For raw correlations and signed statistics its sign is not automatically worse; distance metrics are labelled.",
+    "dependencies": "Coordinates are fixed coupled features, not observational samples.256 resamples re-use the same training rows and generated16; they do not add independent biological experiments. Empirical quantile bands are not confidence intervals or a null distribution."
+  },
+  "old_results_boundary": "Earlier gen-vs-fulltrain126/153 results, including CE AMD32.51%mu and29.18%logsigma outside matched-coordinate training minmax, remain unchanged and descriptive only. New references have110/137 rows, so no direct backfill or universal threshold. Do not compare a train subset to containing fulltrain as a meaningful zero-tail null.",
+  "dev_latent": {
+    "availability": "MISSING in the current CE/MSE/checkpoint output sets",
+    "consequence": "Real-dev per-sequence latent outside-range comparison is NOT_EVALUABLE. Existing mean-reconstruction CSV/monitor is not dev mu/logsigma/z.",
+    "new_forward_to_fill_gap": false
+  },
+  "execution_contract": {
+    "numpy_stdlib_only": true,
+    "cpu_threads": 1,
+    "model_constructions": 0,
+    "forwards": 0,
+    "training": 0,
+    "new_latent_or_sequence_sampling": 0,
+    "only_new_randomness": "Prelocked component subset indices",
+    "no_test_reads": true,
+    "no_live_scalar_reads": true,
+    "read_train_binding_metadata_only": true,
+    "no_new_native_prior_or_decoder_controls": true
+  },
+  "failure_policy": "Stop on changed input hashes, unexpected units/shapes/labels, infeasible exact target, nonfinite arrays or inconsistent DP. Do not select other seed/repetitions/groups/metrics or compute dev forward. Undefined correlation is recorded rather than filtered.",
+  "required_before_computation": "Independent static review of this exact protocol and script plus deterministic synthetic DP checks.",
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD"
+}

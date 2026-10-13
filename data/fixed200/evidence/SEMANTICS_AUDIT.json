@@ -1,0 +1,69 @@
+{
+  "all_MIC_formats": {
+    "range_unresolved": 215,
+    "point": 1203,
+    "right_bound": 336,
+    "plusminus_unresolved": 33,
+    "unresolved": 1
+  },
+  "Ecoli_formats": {
+    "range_unresolved": 44,
+    "point": 226,
+    "plusminus_unresolved": 5,
+    "right_bound": 43
+  },
+  "Ecoli_raw_units_formats": {
+    "µM": {
+      "range_unresolved": 23,
+      "point": 96,
+      "plusminus_unresolved": 5,
+      "right_bound": 24
+    },
+    "µg/ml": {
+      "point": 130,
+      "range_unresolved": 21,
+      "right_bound": 19
+    }
+  },
+  "eligible_native_unit_formats": {
+    "ug_ml_native": {
+      "point": {
+        "point": 103
+      },
+      "censor": {
+        "right_bound": 15
+      }
+    },
+    "uM_native": {
+      "point": {
+        "point": 88
+      },
+      "censor": {
+        "right_bound": 24
+      }
+    }
+  },
+  "one_sided_operators": {
+    ">": 334,
+    ">=": 2
+  },
+  "native_point_missing_covariates": {
+    "ug_ml_native": {
+      "medium": 3,
+      "cfu": 19,
+      "ph": 103,
+      "ionic_strength": 99,
+      "salt": 99,
+      "both_termini_observed": 103
+    },
+    "uM_native": {
+      "medium": 14,
+      "cfu": 19,
+      "ph": 88,
+      "ionic_strength": 86,
+      "salt": 86,
+      "both_termini_observed": 86
+    }
+  },
+  "interpretation": "Keep raw strings/operators; no range midpoint, interval-censor inference, plus/minus SD/SE guess, log transformation, or mass-to-molar conversion."
+}

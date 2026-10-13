@@ -1,0 +1,5 @@
+attempt_id,checkpoint_update,terminal,seed,status,error
+UPDATE0020_FREE_000,20,FREE,422,error:FloatingPointError,FloatingPointError('nonfinite exp(logsigma); no clipping or retry')
+UPDATE0020_AMD_000,20,AMD,423,error:FloatingPointError,FloatingPointError('nonfinite exp(logsigma); no clipping or retry')
+UPDATE1000_FREE_000,1000,FREE,422,finite_latent_no_decoder,
+UPDATE1000_AMD_000,1000,AMD,423,finite_latent_no_decoder,

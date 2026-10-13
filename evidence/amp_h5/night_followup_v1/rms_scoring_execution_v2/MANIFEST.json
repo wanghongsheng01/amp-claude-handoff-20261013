@@ -1,0 +1,30 @@
+{
+  "scope_id": "AMP_H5_CE_RMS_SCORING_V2",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/COMMAND.json",
+      "sha256": "f33d2ff4e57f5e7451af4f40ef21b9b1f3b738323f089dd7710793e11a120547",
+      "bytes": 1977
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RESULT.json",
+      "sha256": "7b827a09b1724b23e2744a5750d1fba108702c69388a064b83a9f8b057733285",
+      "bytes": 3112
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RUNNING.json",
+      "sha256": "120f594402cc7f2de807e3d59f3ef775c6213ec28ab4ea2d5cd34c41e3b5298a",
+      "bytes": 2015
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/stdout.log",
+      "sha256": "c277005a89b726294027a95812045dc83b36609181d8606e424ae96ef2f14b8a",
+      "bytes": 215
+    }
+  ]
+}

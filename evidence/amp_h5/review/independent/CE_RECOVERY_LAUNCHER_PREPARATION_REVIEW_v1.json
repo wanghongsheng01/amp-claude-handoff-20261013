@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-10-11T17:42:50.527792+00:00",
+  "status": "STATIC_PREPARATION_REVIEW_NO_EXECUTION_AUTHORIZATION",
+  "launcher": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+    "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21"
+  },
+  "amendment_snapshot": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+    "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06"
+  },
+  "checks": {
+    "launcher_hash_matches_announced": true,
+    "checks_independent_authorized_receipt": true,
+    "checks_plan_and_supervisor_hash": true,
+    "launcher_itself_must_be_plan_bound": true,
+    "all_plan_bindings_checked": true,
+    "existing_supervisor_root_refused": true,
+    "existing_launch_record_and_stdout_refused": true,
+    "supervisor_subprocess_argv_fixed": true,
+    "both_subprocesses_use_separate_session": true,
+    "no_shell_true": true,
+    "cpu_threads_one": true,
+    "keep_awake_bound_to_supervisor_pid": true,
+    "no_automatic_retry_loop": true,
+    "no_model_or_training_imports": true,
+    "no_system_settings_mutation": true
+  },
+  "all_static_checks_pass": true,
+  "judgment": "No execution-level blocker identified in the currently reviewed launcher flow. Full recovery implementation, contract, final plan and binding receipt remain absent from this review.",
+  "recommendations": [
+    "Clarify new training instance wording to original training artifacts; new optimizer/training updates remain zero.",
+    "If launch succeeds but the record is not written, inspect existing stdout/supervisor/PID before any action; never retry blindly.",
+    "Independent session plus temporary caffeinate is not proof of original failure cause or a guarantee against future interruption."
+  ],
+  "inherited_supervisor_scope": "Original supervise.py per-task fcntl lock and per-job timeout remain the controlling mechanisms; this launcher does not replace them.",
+  "review_actions": {
+    "AST_only": true,
+    "launches": 0,
+    "model_calls": 0,
+    "test37_reads": 0
+  },
+  "authorized": false,
+  "recovery_POSTFLIGHT_PASS": false,
+  "MSE_scalar_authorized": false,
+  "PROMOTE": "HOLD"
+}

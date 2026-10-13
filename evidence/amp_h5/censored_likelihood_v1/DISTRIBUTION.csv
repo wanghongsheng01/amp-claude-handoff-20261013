@@ -1,0 +1,219 @@
+unit,label_kind,dimension,value,rows,peptide_IDs,exact_sequences,families,source_groups,activity_ids
+ug_ml_native,point,peptide_id,102,1,1,1,1,1,[50769]
+ug_ml_native,point,peptide_id,12453,2,1,1,1,1,"[95703, 95704]"
+ug_ml_native,point,peptide_id,12529,1,1,1,1,1,[161390]
+ug_ml_native,point,peptide_id,13726,1,1,1,1,1,[107126]
+ug_ml_native,point,peptide_id,13735,2,1,1,1,1,"[107201, 107205]"
+ug_ml_native,point,peptide_id,13736,1,1,1,1,1,[107203]
+ug_ml_native,point,peptide_id,17268,2,1,1,1,1,"[133341, 133342]"
+ug_ml_native,point,peptide_id,17269,2,1,1,1,1,"[133347, 133348]"
+ug_ml_native,point,peptide_id,17270,2,1,1,1,1,"[133355, 133356]"
+ug_ml_native,point,peptide_id,17271,2,1,1,1,1,"[133362, 133363]"
+ug_ml_native,point,peptide_id,17272,2,1,1,1,1,"[133369, 133370]"
+ug_ml_native,point,peptide_id,17273,2,1,1,1,1,"[133375, 133376]"
+ug_ml_native,point,peptide_id,1737,6,1,1,1,1,"[12526, 12527, 54742, 58515, 58517, 58519]"
+ug_ml_native,point,peptide_id,1738,1,1,1,1,1,[12601]
+ug_ml_native,point,peptide_id,2425,1,1,1,1,1,[18691]
+ug_ml_native,point,peptide_id,2426,1,1,1,1,1,[18696]
+ug_ml_native,point,peptide_id,2427,1,1,1,1,1,[18699]
+ug_ml_native,point,peptide_id,2428,1,1,1,1,1,[18702]
+ug_ml_native,point,peptide_id,3086,1,1,1,1,1,[23078]
+ug_ml_native,point,peptide_id,3087,1,1,1,1,1,[23089]
+ug_ml_native,point,peptide_id,3088,1,1,1,1,1,[23100]
+ug_ml_native,point,peptide_id,3198,1,1,1,1,1,[23905]
+ug_ml_native,point,peptide_id,3224,1,1,1,1,1,[24672]
+ug_ml_native,point,peptide_id,3225,1,1,1,1,1,[24676]
+ug_ml_native,point,peptide_id,3226,1,1,1,1,1,[24680]
+ug_ml_native,point,peptide_id,37,5,1,1,1,1,"[36, 112057, 112058, 177211, 177212]"
+ug_ml_native,point,peptide_id,4015,1,1,1,1,1,[28735]
+ug_ml_native,point,peptide_id,4021,1,1,1,1,1,[28747]
+ug_ml_native,point,peptide_id,4339,2,1,1,1,1,"[31234, 31238]"
+ug_ml_native,point,peptide_id,4379,2,1,1,1,1,"[31244, 31248]"
+ug_ml_native,point,peptide_id,4380,2,1,1,1,1,"[31254, 31258]"
+ug_ml_native,point,peptide_id,5545,1,1,1,1,1,[39663]
+ug_ml_native,point,peptide_id,5546,1,1,1,1,1,[39673]
+ug_ml_native,point,peptide_id,5547,1,1,1,1,1,[39683]
+ug_ml_native,point,peptide_id,5548,1,1,1,1,1,[39693]
+ug_ml_native,point,peptide_id,5549,1,1,1,1,1,[39703]
+ug_ml_native,point,peptide_id,5556,1,1,1,1,1,[39782]
+ug_ml_native,point,peptide_id,5557,1,1,1,1,1,[39795]
+ug_ml_native,point,peptide_id,5558,1,1,1,1,1,[39808]
+ug_ml_native,point,peptide_id,5559,1,1,1,1,1,[39821]
+ug_ml_native,point,peptide_id,6669,1,1,1,1,1,[57368]
+ug_ml_native,point,peptide_id,6743,3,1,1,1,1,"[46970, 148350, 162194]"
+ug_ml_native,point,peptide_id,6785,2,1,1,1,1,"[47335, 47337]"
+ug_ml_native,point,peptide_id,8110,1,1,1,1,1,[91533]
+ug_ml_native,point,peptide_id,8157,2,1,1,1,1,"[58729, 58730]"
+ug_ml_native,point,peptide_id,873,2,1,1,1,1,"[4796, 141543]"
+ug_ml_native,point,peptide_id,874,1,1,1,1,1,[4807]
+ug_ml_native,point,peptide_id,875,1,1,1,1,1,[4818]
+ug_ml_native,point,peptide_id,876,1,1,1,1,1,[4829]
+ug_ml_native,point,peptide_id,877,1,1,1,1,1,[4840]
+ug_ml_native,point,peptide_id,878,1,1,1,1,1,[4851]
+ug_ml_native,point,peptide_id,879,1,1,1,1,1,[4862]
+ug_ml_native,point,peptide_id,881,1,1,1,1,1,[4884]
+ug_ml_native,point,peptide_id,882,1,1,1,1,1,[4895]
+ug_ml_native,point,sequence_family,F102,1,1,1,1,1,[50769]
+ug_ml_native,point,sequence_family,F12453,2,1,1,1,1,"[95703, 95704]"
+ug_ml_native,point,sequence_family,F12529,1,1,1,1,1,[161390]
+ug_ml_native,point,sequence_family,F13726,1,1,1,1,1,[107126]
+ug_ml_native,point,sequence_family,F13735,2,1,1,1,1,"[107201, 107205]"
+ug_ml_native,point,sequence_family,F13736,1,1,1,1,1,[107203]
+ug_ml_native,point,sequence_family,F17268,12,6,1,1,1,"[133341, 133342, 133347, 133348, 133355, 133356, 133362, 133363, 133369, 133370, 133375, 133376]"
+ug_ml_native,point,sequence_family,F1737,6,1,1,1,1,"[12526, 12527, 54742, 58515, 58517, 58519]"
+ug_ml_native,point,sequence_family,F1738,7,4,4,1,1,"[12601, 31234, 31238, 31244, 31248, 31254, 31258]"
+ug_ml_native,point,sequence_family,F2425,4,4,4,1,1,"[18691, 18696, 18699, 18702]"
+ug_ml_native,point,sequence_family,F3086,3,3,3,1,1,"[23078, 23089, 23100]"
+ug_ml_native,point,sequence_family,F3198,1,1,1,1,1,[23905]
+ug_ml_native,point,sequence_family,F3224,1,1,1,1,1,[24672]
+ug_ml_native,point,sequence_family,F3225,1,1,1,1,1,[24676]
+ug_ml_native,point,sequence_family,F3226,1,1,1,1,1,[24680]
+ug_ml_native,point,sequence_family,F37,5,1,1,1,1,"[36, 112057, 112058, 177211, 177212]"
+ug_ml_native,point,sequence_family,F4015,1,1,1,1,1,[28735]
+ug_ml_native,point,sequence_family,F4021,1,1,1,1,1,[28747]
+ug_ml_native,point,sequence_family,F5545,1,1,1,1,1,[39663]
+ug_ml_native,point,sequence_family,F5546,1,1,1,1,1,[39673]
+ug_ml_native,point,sequence_family,F5547,1,1,1,1,1,[39683]
+ug_ml_native,point,sequence_family,F5548,1,1,1,1,1,[39693]
+ug_ml_native,point,sequence_family,F5549,1,1,1,1,1,[39703]
+ug_ml_native,point,sequence_family,F5556,1,1,1,1,1,[39782]
+ug_ml_native,point,sequence_family,F5557,2,2,2,1,1,"[39795, 39808]"
+ug_ml_native,point,sequence_family,F5559,1,1,1,1,1,[39821]
+ug_ml_native,point,sequence_family,F6669,1,1,1,1,1,[57368]
+ug_ml_native,point,sequence_family,F6743,3,1,1,1,1,"[46970, 148350, 162194]"
+ug_ml_native,point,sequence_family,F6785,2,1,1,1,1,"[47335, 47337]"
+ug_ml_native,point,sequence_family,F8110,1,1,1,1,1,[91533]
+ug_ml_native,point,sequence_family,F8157,2,1,1,1,1,"[58729, 58730]"
+ug_ml_native,point,sequence_family,F873,10,9,9,1,1,"[4796, 141543, 4807, 4818, 4829, 4840, 4851, 4862, 4884, 4895]"
+ug_ml_native,point,source_family_group,G102,1,1,1,1,1,[50769]
+ug_ml_native,point,source_family_group,G12453,2,1,1,1,1,"[95703, 95704]"
+ug_ml_native,point,source_family_group,G12529,1,1,1,1,1,[161390]
+ug_ml_native,point,source_family_group,G13726,1,1,1,1,1,[107126]
+ug_ml_native,point,source_family_group,G13735,3,2,2,2,1,"[107201, 107205, 107203]"
+ug_ml_native,point,source_family_group,G17268,12,6,1,1,1,"[133341, 133342, 133347, 133348, 133355, 133356, 133362, 133363, 133369, 133370, 133375, 133376]"
+ug_ml_native,point,source_family_group,G1737,13,5,5,2,1,"[12526, 12527, 54742, 58515, 58517, 58519, 12601, 31234, 31238, 31244, 31248, 31254, 31258]"
+ug_ml_native,point,source_family_group,G2425,4,4,4,1,1,"[18691, 18696, 18699, 18702]"
+ug_ml_native,point,source_family_group,G3086,3,3,3,1,1,"[23078, 23089, 23100]"
+ug_ml_native,point,source_family_group,G3198,1,1,1,1,1,[23905]
+ug_ml_native,point,source_family_group,G3224,3,3,3,3,1,"[24672, 24676, 24680]"
+ug_ml_native,point,source_family_group,G37,5,1,1,1,1,"[36, 112057, 112058, 177211, 177212]"
+ug_ml_native,point,source_family_group,G4013,2,2,2,2,1,"[28735, 28747]"
+ug_ml_native,point,source_family_group,G5545,5,5,5,5,1,"[39663, 39673, 39683, 39693, 39703]"
+ug_ml_native,point,source_family_group,G5556,4,4,4,3,1,"[39782, 39795, 39808, 39821]"
+ug_ml_native,point,source_family_group,G6669,1,1,1,1,1,[57368]
+ug_ml_native,point,source_family_group,G6742,3,1,1,1,1,"[46970, 148350, 162194]"
+ug_ml_native,point,source_family_group,G6785,2,1,1,1,1,"[47335, 47337]"
+ug_ml_native,point,source_family_group,G8110,1,1,1,1,1,[91533]
+ug_ml_native,point,source_family_group,G8157,2,1,1,1,1,"[58729, 58730]"
+ug_ml_native,point,source_family_group,G873,10,9,9,1,1,"[4796, 141543, 4807, 4818, 4829, 4840, 4851, 4862, 4884, 4895]"
+ug_ml_native,right,peptide_id,12529,1,1,1,1,1,[161389]
+ug_ml_native,right,peptide_id,13736,1,1,1,1,1,[107207]
+ug_ml_native,right,peptide_id,4013,1,1,1,1,1,[28731]
+ug_ml_native,right,peptide_id,4014,1,1,1,1,1,[28733]
+ug_ml_native,right,peptide_id,4016,1,1,1,1,1,[28737]
+ug_ml_native,right,peptide_id,4017,1,1,1,1,1,[28739]
+ug_ml_native,right,peptide_id,4018,1,1,1,1,1,[28741]
+ug_ml_native,right,peptide_id,4019,1,1,1,1,1,[28743]
+ug_ml_native,right,peptide_id,4020,1,1,1,1,1,[28745]
+ug_ml_native,right,peptide_id,4022,1,1,1,1,1,[28749]
+ug_ml_native,right,peptide_id,6834,1,1,1,1,1,[47665]
+ug_ml_native,right,peptide_id,874,1,1,1,1,1,[141547]
+ug_ml_native,right,peptide_id,878,1,1,1,1,1,[141551]
+ug_ml_native,right,peptide_id,880,1,1,1,1,1,[4873]
+ug_ml_native,right,sequence_family,F12529,1,1,1,1,1,[161389]
+ug_ml_native,right,sequence_family,F13736,1,1,1,1,1,[107207]
+ug_ml_native,right,sequence_family,F3086,1,1,1,1,1,[47665]
+ug_ml_native,right,sequence_family,F4013,1,1,1,1,1,[28731]
+ug_ml_native,right,sequence_family,F4014,1,1,1,1,1,[28733]
+ug_ml_native,right,sequence_family,F4016,1,1,1,1,1,[28737]
+ug_ml_native,right,sequence_family,F4017,1,1,1,1,1,[28739]
+ug_ml_native,right,sequence_family,F4018,1,1,1,1,1,[28741]
+ug_ml_native,right,sequence_family,F4019,1,1,1,1,1,[28743]
+ug_ml_native,right,sequence_family,F4020,1,1,1,1,1,[28745]
+ug_ml_native,right,sequence_family,F4022,1,1,1,1,1,[28749]
+ug_ml_native,right,sequence_family,F873,2,2,2,1,1,"[141547, 141551]"
+ug_ml_native,right,sequence_family,F880,1,1,1,1,1,[4873]
+ug_ml_native,right,source_family_group,G12529,1,1,1,1,1,[161389]
+ug_ml_native,right,source_family_group,G13735,1,1,1,1,1,[107207]
+ug_ml_native,right,source_family_group,G3086,1,1,1,1,1,[47665]
+ug_ml_native,right,source_family_group,G4013,8,8,8,8,1,"[28731, 28733, 28737, 28739, 28741, 28743, 28745, 28749]"
+ug_ml_native,right,source_family_group,G873,3,3,3,2,1,"[141547, 141551, 4873]"
+uM_native,point,peptide_id,107,1,1,1,1,1,[51566]
+uM_native,point,peptide_id,108,1,1,1,1,1,[51569]
+uM_native,point,peptide_id,110,1,1,1,1,1,[340]
+uM_native,point,peptide_id,111,1,1,1,1,1,[343]
+uM_native,point,peptide_id,12531,3,1,1,1,1,"[96162, 96164, 96166]"
+uM_native,point,peptide_id,12533,2,1,1,1,1,"[96187, 96200]"
+uM_native,point,peptide_id,12534,2,1,1,1,1,"[96188, 96199]"
+uM_native,point,peptide_id,12535,2,1,1,1,1,"[96189, 96198]"
+uM_native,point,peptide_id,12536,2,1,1,1,1,"[96190, 96197]"
+uM_native,point,peptide_id,12537,2,1,1,1,1,"[96191, 96196]"
+uM_native,point,peptide_id,12538,2,1,1,1,1,"[96192, 96195]"
+uM_native,point,peptide_id,12539,2,1,1,1,1,"[96193, 96194]"
+uM_native,point,peptide_id,13692,3,1,1,1,1,"[106653, 106698, 106818]"
+uM_native,point,peptide_id,13693,3,1,1,1,1,"[106652, 106699, 106817]"
+uM_native,point,peptide_id,13726,1,1,1,1,1,[133771]
+uM_native,point,peptide_id,2396,1,1,1,1,1,[18584]
+uM_native,point,peptide_id,2398,21,1,1,1,1,"[18590, 18593, 18594, 18603, 18604, 18605, 18606, 18607, 18608, 18609, 18610, 18611, 18612, 18613, 18614, 18615, 18616, 18617, 18618, 18619, 18620]"
+uM_native,point,peptide_id,2399,1,1,1,1,1,[18622]
+uM_native,point,peptide_id,2400,1,1,1,1,1,[18625]
+uM_native,point,peptide_id,2401,1,1,1,1,1,[18628]
+uM_native,point,peptide_id,3232,5,1,1,1,1,"[24714, 24716, 24717, 68607, 101190]"
+uM_native,point,peptide_id,3301,1,1,1,1,1,[25117]
+uM_native,point,peptide_id,37,3,1,1,1,1,"[18406, 59455, 105180]"
+uM_native,point,peptide_id,6568,1,1,1,1,1,[46020]
+uM_native,point,peptide_id,6669,3,1,1,1,1,"[183419, 183420, 183421]"
+uM_native,point,peptide_id,8110,1,1,1,1,1,[199969]
+uM_native,point,peptide_id,874,1,1,1,1,1,[62980]
+uM_native,point,sequence_family,F103,1,1,1,1,1,[340]
+uM_native,point,sequence_family,F107,2,2,2,1,1,"[51566, 51569]"
+uM_native,point,sequence_family,F111,1,1,1,1,1,[343]
+uM_native,point,sequence_family,F12531,3,1,1,1,1,"[96162, 96164, 96166]"
+uM_native,point,sequence_family,F12533,4,2,2,1,1,"[96187, 96200, 96188, 96199]"
+uM_native,point,sequence_family,F12535,4,2,2,1,1,"[96189, 96198, 96190, 96197]"
+uM_native,point,sequence_family,F12537,6,3,3,1,1,"[96191, 96196, 96192, 96195, 96193, 96194]"
+uM_native,point,sequence_family,F13692,3,1,1,1,1,"[106653, 106698, 106818]"
+uM_native,point,sequence_family,F13693,3,1,1,1,1,"[106652, 106699, 106817]"
+uM_native,point,sequence_family,F13726,1,1,1,1,1,[133771]
+uM_native,point,sequence_family,F2396,25,5,5,1,1,"[18584, 18590, 18593, 18594, 18603, 18604, 18605, 18606, 18607, 18608, 18609, 18610, 18611, 18612, 18613, 18614, 18615, 18616, 18617, 18618, 18619, 18620, 18622, 18625, 18628]"
+uM_native,point,sequence_family,F3232,5,1,1,1,1,"[24714, 24716, 24717, 68607, 101190]"
+uM_native,point,sequence_family,F3301,1,1,1,1,1,[25117]
+uM_native,point,sequence_family,F37,3,1,1,1,1,"[18406, 59455, 105180]"
+uM_native,point,sequence_family,F6568,1,1,1,1,1,[46020]
+uM_native,point,sequence_family,F6669,3,1,1,1,1,"[183419, 183420, 183421]"
+uM_native,point,sequence_family,F8110,1,1,1,1,1,[199969]
+uM_native,point,sequence_family,F873,1,1,1,1,1,[62980]
+uM_native,point,source_family_group,G102,2,2,2,1,1,"[51566, 51569]"
+uM_native,point,source_family_group,G103,2,2,2,2,1,"[340, 343]"
+uM_native,point,source_family_group,G12531,3,1,1,1,1,"[96162, 96164, 96166]"
+uM_native,point,source_family_group,G12533,14,7,7,3,1,"[96187, 96200, 96188, 96199, 96189, 96198, 96190, 96197, 96191, 96196, 96192, 96195, 96193, 96194]"
+uM_native,point,source_family_group,G13692,6,2,2,2,1,"[106653, 106698, 106818, 106652, 106699, 106817]"
+uM_native,point,source_family_group,G13726,1,1,1,1,1,[133771]
+uM_native,point,source_family_group,G2396,25,5,5,1,1,"[18584, 18590, 18593, 18594, 18603, 18604, 18605, 18606, 18607, 18608, 18609, 18610, 18611, 18612, 18613, 18614, 18615, 18616, 18617, 18618, 18619, 18620, 18622, 18625, 18628]"
+uM_native,point,source_family_group,G3232,6,2,2,2,1,"[24714, 24716, 24717, 68607, 101190, 46020]"
+uM_native,point,source_family_group,G3301,1,1,1,1,1,[25117]
+uM_native,point,source_family_group,G37,3,1,1,1,1,"[18406, 59455, 105180]"
+uM_native,point,source_family_group,G6669,3,1,1,1,1,"[183419, 183420, 183421]"
+uM_native,point,source_family_group,G8110,1,1,1,1,1,[199969]
+uM_native,point,source_family_group,G873,1,1,1,1,1,[62980]
+uM_native,right,peptide_id,13803,1,1,1,1,1,[107784]
+uM_native,right,peptide_id,13805,1,1,1,1,1,[107824]
+uM_native,right,peptide_id,2397,1,1,1,1,1,[18587]
+uM_native,right,peptide_id,3232,4,1,1,1,1,"[24715, 68618, 171344, 171345]"
+uM_native,right,peptide_id,6701,2,1,1,1,1,"[46723, 153842]"
+uM_native,right,peptide_id,8222,1,1,1,1,1,[59377]
+uM_native,right,peptide_id,8223,1,1,1,1,1,[59381]
+uM_native,right,peptide_id,8225,1,1,1,1,1,[59389]
+uM_native,right,sequence_family,F13803,1,1,1,1,1,[107784]
+uM_native,right,sequence_family,F13805,1,1,1,1,1,[107824]
+uM_native,right,sequence_family,F2397,1,1,1,1,1,[18587]
+uM_native,right,sequence_family,F3232,4,1,1,1,1,"[24715, 68618, 171344, 171345]"
+uM_native,right,sequence_family,F6701,2,1,1,1,1,"[46723, 153842]"
+uM_native,right,sequence_family,F8222,1,1,1,1,1,[59377]
+uM_native,right,sequence_family,F8223,1,1,1,1,1,[59381]
+uM_native,right,sequence_family,F8225,1,1,1,1,1,[59389]
+uM_native,right,source_family_group,G13803,2,2,2,2,1,"[107784, 107824]"
+uM_native,right,source_family_group,G2396,1,1,1,1,1,[18587]
+uM_native,right,source_family_group,G3232,4,1,1,1,1,"[24715, 68618, 171344, 171345]"
+uM_native,right,source_family_group,G6701,2,1,1,1,1,"[46723, 153842]"
+uM_native,right,source_family_group,G8221,3,3,3,3,1,"[59377, 59381, 59389]"

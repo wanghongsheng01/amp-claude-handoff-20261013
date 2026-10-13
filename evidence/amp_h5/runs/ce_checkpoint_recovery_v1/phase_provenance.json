@@ -1,0 +1,46 @@
+{
+  "attempt_id": "ce_checkpoint_recovery_v1",
+  "original_attempt_id": "formal_v2/categorical_ce",
+  "new_training_updates": 0,
+  "training": {
+    "source_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+    "VAE_updates": 1000,
+    "DDPM_updates": 1000,
+    "files_referenced_only": [
+      "vae_train.jsonl",
+      "ddpm_train.jsonl",
+      "dev_monitor.jsonl",
+      "vae_training_summary.json",
+      "ddpm_training_summary.json",
+      "train_posterior_parameters.npz"
+    ],
+    "copied_or_linked": false
+  },
+  "models": {
+    "source_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+    "VAE": "vae_state.pt",
+    "DDPM": "ddpm_ema_state.pt",
+    "strict_state_load": true,
+    "optimizer_state_load": false
+  },
+  "scaler": {
+    "source_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+    "fit_in_this_attempt": false,
+    "copied": false
+  },
+  "generation_and_reconstruction": {
+    "source_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1",
+    "function_source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+    "same_request_ids_separate_attempt_namespace": true
+  },
+  "original_outcome": {
+    "E": "NOT_EVALUABLE_INTERRUPTION",
+    "L": "NOT_EVALUABLE_INTERRUPTION",
+    "G": "NOT_EVALUABLE_INTERRUPTION",
+    "original_csv_placeholder_status": "32 not_executed, kept unchanged",
+    "FREE_partial_requests": 16,
+    "FREE_minimum_completed_reverse_steps_each": 799,
+    "AMD_start_evidence": false,
+    "final_sequences": 0
+  }
+}

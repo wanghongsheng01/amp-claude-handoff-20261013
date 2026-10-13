@@ -1,0 +1,96 @@
+{
+  "returncode": 0,
+  "wall_seconds": 3.905673625,
+  "input_preservation": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+      "bytes": 24404,
+      "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "bytes": 25377,
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "bytes": 64083,
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "bytes": 9489,
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SAMPLING_SEEDS.json",
+      "bytes": 226,
+      "sha256": "a510ca518166b56325b91f4a4df666726ae5f447ca98d8afad340447c7ef5580",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "bytes": 2135,
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+      "bytes": 128631,
+      "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+      "bytes": 19017,
+      "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv",
+      "bytes": 2404,
+      "sha256": "d0d639a30472afd022c7b45b4dec89c093cfbc76c820b62093e709f9eaf61715",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/train_nll.json",
+      "bytes": 613,
+      "sha256": "866812f1b0fbc57133a320d441743b7cc78dda7bc35b5dfc3c489f8a2d296dd3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/dev_nll.json",
+      "bytes": 613,
+      "sha256": "6b3d2647cbeceb1f1e62db988b3ba2787bc68bf18891922861ab80ba56e9d11a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/status.json",
+      "bytes": 1972,
+      "sha256": "41d71b8d183cc2869cdd8c77dbdd9d5d5d864340b6246a63647ac5d79455dbc5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/status.json",
+      "bytes": 25951,
+      "sha256": "6b4002084ec3ec2b355fb40a372167f669f750ec473c94d695e8d057b631322a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "bytes": 14870,
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484",
+      "unchanged": true
+    }
+  ],
+  "all_inputs_unchanged": true,
+  "stdout": "{\"output\": \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1\", \"rows_retained\": 64, \"groups\": 4, \"model_calls\": 0, \"test_accessed\": false}\n",
+  "stderr": "",
+  "evaluation_output": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1",
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD"
+}

@@ -1,0 +1,27 @@
+{
+  "state": "PREPARATION_SUPERSEDED_NO_NATURAL_EXECUTION",
+  "reason": "Frozen init_runtime hashes91 manifest entries including legacy dataset CSV. New code-only bootstrap required before any natural RMS execution.",
+  "natural_model_calls": 0,
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_rms_reconstruction_v1.py",
+      "sha256": "7d0db69dea657b6540deae24e1917fd2552ef6903c5df72b2c260ce399e34d55"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_CONTRACT_v1.json",
+      "sha256": "f4f9ad1853c5a61fd968dd2177456637ab3fda6739577119e24843306fde433b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_REQUEST_SLOTS_v1.json",
+      "sha256": "9b3c9e2a169f2dbcfb75eec9c28725dc69d28a4f2132fe2b7cd035cf9f803fba"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_export_candidate/check_candidate_v1.py",
+      "sha256": "e1c91c5dfa1149535b5f0b50dc920c94a19b0c8c5907f46018f52a53e5a66039"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_export_candidate/SYNTHETIC_CHECKS.json",
+      "sha256": "ac8c29ccd732036cce095e186fe3b09499b1ed3c688f4b8daf05f8287ae16eb4"
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "created_utc": "2026-10-11T20:30:13.786396+00:00",
+  "status": "AUTHOR_READONLY_ENGINEERING_LOG_READOUT_COMPLETE",
+  "not_independent_postflight": true,
+  "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+  "attempt_id": "ce_source_replacement_v2",
+  "author_read_scope": "existing JSON/CSV records and byte hashes only; no model imports, RNG reconstruction, natural npz parsing, quality metrics, dataset/dev/test reads or forward calls",
+  "engineering_summary": {
+    "completed_new_inputs": 96,
+    "failed_new_inputs": 0,
+    "not_executed_new_inputs": 0,
+    "new_decoder_batch_calls": 6,
+    "new_inverse_flow_batch_calls": 2,
+    "new_roundtrip_forward_flow_batch_calls": 2,
+    "new_encoder_calls": 0,
+    "new_DDPM_calls": 0,
+    "new_training_updates": 0,
+    "reused_DDPM_records": 32,
+    "inputs_models_unchanged": true
+  },
+  "costs_seconds": {
+    "process_before_final_IO": 2.4913654173724353,
+    "process_after_manifest_before_closing_ledger": 2.4944359590299428,
+    "supervisor_total_process_wall": 2.679257582873106,
+    "phase_logged": {
+      "base_input_preparation": 0.6174157080240548,
+      "model_load": 0.045956708025187254,
+      "D_inverse_and_roundtrip": 0.7632719166576862,
+      "decoder_and_export": 0.05761279119178653
+    },
+    "inner_cap": 120,
+    "outer_cap": 180,
+    "old_DDPM32_costs_not_repeated_or_erased": "These32 rows were generated in the separate CE recovery attempt; this report only measures new source-diagnostic cost."
+  },
+  "row_status_and_length_cap_audit": [
+    {
+      "method": "COORDINATE_PERMUTATION_C",
+      "terminal": "FREE",
+      "provenance": "new_diagnostic",
+      "requested": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_sequence_count": 0,
+      "length48_count": 0,
+      "length_min": 17,
+      "length_max": 23
+    },
+    {
+      "method": "COORDINATE_PERMUTATION_C",
+      "terminal": "AMD",
+      "provenance": "new_diagnostic",
+      "requested": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_sequence_count": 0,
+      "length48_count": 0,
+      "length_min": 10,
+      "length_max": 18
+    },
+    {
+      "method": "EMPIRICAL_POSTERIOR_B",
+      "terminal": "FREE",
+      "provenance": "new_diagnostic",
+      "requested": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_sequence_count": 0,
+      "length48_count": 0,
+      "length_min": 9,
+      "length_max": 35
+    },
+    {
+      "method": "EMPIRICAL_POSTERIOR_B",
+      "terminal": "AMD",
+      "provenance": "new_diagnostic",
+      "requested": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_sequence_count": 0,
+      "length48_count": 0,
+      "length_min": 8,
+      "length_max": 26
+    },
+    {
+      "method": "REFERENCE_G_PRIOR_D",
+      "terminal": "FREE",
+      "provenance": "new_diagnostic",
+      "requested": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_sequence_count": 0,
+      "length48_count": 0,
+      "length_min": 9,
+      "length_max": 35
+    },
+    {
+      "method": "REFERENCE_G_PRIOR_D",
+      "terminal": "AMD",
+      "provenance": "new_diagnostic",
+      "requested": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_sequence_count": 0,
+      "length48_count": 0,
+      "length_min": 8,
+      "length_max": 26
+    },
+    {
+      "method": "CE_DDPM_REUSED",
+      "terminal": "FREE",
+      "provenance": "existing_DDPM_reused",
+      "requested": 16,
+      "status_counts": {
+        "no_eos_at_limit": 1,
+        "ok": 15
+      },
+      "empty_sequence_count": 0,
+      "length48_count": 1,
+      "length_min": 2,
+      "length_max": 48
+    },
+    {
+      "method": "CE_DDPM_REUSED",
+      "terminal": "AMD",
+      "provenance": "existing_DDPM_reused",
+      "requested": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "empty_sequence_count": 0,
+      "length48_count": 0,
+      "length_min": 4,
+      "length_max": 30
+    }
+  ],
+  "reference_information": {
+    "FREE": {
+      "selected_train_row_ids": [
+        68,
+        4,
+        193,
+        271,
+        23,
+        85,
+        97,
+        164,
+        64,
+        187,
+        96,
+        52,
+        249,
+        75,
+        202,
+        226
+      ],
+      "retained_repeated_draw_count": 0,
+      "reference_lengths": [
+        17,
+        22,
+        12,
+        20,
+        9,
+        17,
+        16,
+        10,
+        22,
+        22,
+        22,
+        18,
+        18,
+        18,
+        22,
+        35
+      ],
+      "B_and_D_indices_identical": true,
+      "g_source_rows_equal_selected": true,
+      "g_independent_formula_bytes_equal_reported": true,
+      "g_padding_positive_zero_reported": true,
+      "normalized_g_digest": "25b40087efb0a91b31855f84b6eca733e35be6247eb081c014f37118aa0c9896",
+      "scaler_sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "reconstructed_epsilon_digest": "448a0d48c977800be7b5e363e5edf4d2391a6c977ada88eaa8279c755e880bc9",
+      "C_coordinate_multiset_checks_reported": 768
+    },
+    "AMD": {
+      "selected_train_row_ids": [
+        27,
+        33,
+        53,
+        145,
+        205,
+        117,
+        117,
+        77,
+        268,
+        203,
+        217,
+        155,
+        270,
+        214,
+        141,
+        194
+      ],
+      "retained_repeated_draw_count": 1,
+      "reference_lengths": [
+        13,
+        14,
+        12,
+        16,
+        12,
+        9,
+        9,
+        11,
+        25,
+        8,
+        10,
+        9,
+        20,
+        19,
+        10,
+        16
+      ],
+      "B_and_D_indices_identical": true,
+      "g_source_rows_equal_selected": true,
+      "g_independent_formula_bytes_equal_reported": true,
+      "g_padding_positive_zero_reported": true,
+      "normalized_g_digest": "2998962b13b93601fabe9c1e5a9cdbfbe26a6bbe3e39fb08a42682d2fd2386b3",
+      "scaler_sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "reconstructed_epsilon_digest": "d431c9e90f425c9c9e718e193f98465713f2d9ced9a0a2ae1d6f1f278434d6cf",
+      "C_coordinate_multiset_checks_reported": 768
+    }
+  },
+  "D_roundtrip_reported_summary": {
+    "FREE": {
+      "pass": true,
+      "atol": 1e-05,
+      "rtol": 1e-05,
+      "max_absolute_error": 7.152557373046875e-07,
+      "max_normalized_error": 0.05925924330949783,
+      "failed_coordinates": 0
+    },
+    "AMD": {
+      "pass": true,
+      "atol": 1e-05,
+      "rtol": 1e-05,
+      "max_absolute_error": 6.556510925292969e-07,
+      "max_normalized_error": 0.04066087678074837,
+      "failed_coordinates": 0
+    }
+  },
+  "interpretation_limits": [
+    "B is empirical train-posterior resampling/memorization reference, not independent novel generation.",
+    "C permutes B sampled decoder-z within each terminal and coordinate; no single donor sequence/g can be assigned to each C row. This does not establish a unique DDPM cause.",
+    "D is the frozen CE VAE conditional native-prior under training reference g, carrying extra residue and length-template information. It is not terminal-only or a primary ranked candidate.",
+    "Roundtrip finite-precision success is an engineering check, not prior quality or proof of the correct g by itself.",
+    "Shared epsilon and selected donors create paired common random numbers, not independent model/biological repeats. AMD donor row117 was selected twice and retained.",
+    "All96 new slots, original DDPM cap-at48 row and failures/status meanings remain visible; no resampling or filtering.",
+    "No quality comparison is computed here; the frozen evaluator and independent review provide separate outputs.",
+    "Original CE E/L/G remain NOT_EVALUABLE_INTERRUPTION; diagnostic gates NOT_APPLICABLE_SOURCE_DIAGNOSTIC; PROMOTE HOLD."
+  ],
+  "author_checks": {
+    "joint_terminal_status_closing_supervisor_exit0": true,
+    "closing_binds_exact_manifest": true,
+    "all_run_manifest_file_hashes_unchanged": true,
+    "new96_rows_once_full_denominator": true,
+    "static_request_identity_retained": true,
+    "new96_statuses_complete_length_consistent": true,
+    "reused32_distinct_from_new96": true,
+    "fixed_call_counts_6_2_2_zero_train_encoder_DDPM": true,
+    "weights_inputs_report_unchanged": true,
+    "three_cost_clocks_within_caps": true,
+    "both_eps_report_raw_byte_equal_and_rng_restored": true,
+    "base_and_decoder_seal_order_flags": true,
+    "B_D_donor_rows_match_same_sealed_indices": true,
+    "C_does_not_claim_single_donor": true,
+    "D_g_reference_metadata_and_no_fit": true,
+    "roundtrip_report_guard_both_pass": true,
+    "C_all_coordinate_bit_multisets_report_checked": true,
+    "original_boundaries_remain": true
+  },
+  "author_check_count": 18,
+  "independent_postflight": "Separate review; this author extraction does not grant engineering/scientific permission.",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/status.json",
+      "sha256": "92e20fa49d35271f68790ce209e77c14c88cdf6cca62c04b60d2dae7165a4332",
+      "bytes": 1762
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/CLOSING_LEDGER.json",
+      "sha256": "7843eb0035c0468c5cb093bff4cea6a3c09956647864a192bca4c918ed287d4e",
+      "bytes": 350
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generation_summary.json",
+      "sha256": "49e840723d2e3d6c004662a9bdc794f119bc1360995851a729428776d522c8f0",
+      "bytes": 204
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/BASE_INPUTS_SEAL.json",
+      "sha256": "64ef940ab02b79a7ea59a4422c4c56c4cbfa10a1a6da641609e615063a25f9a8",
+      "bytes": 9782
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/DECODER_INPUTS_SEAL.json",
+      "sha256": "068cc2778458604b9541f977e06c2ac3a56dded20ade2377b468c4acc9db886d",
+      "bytes": 1611
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/D_ROUNDTRIP.json",
+      "sha256": "a887d2688c4b7bf45c2e925e78161b8982f795b44ba27fa84cb29161a14213b4",
+      "bytes": 3379
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/model_identity_before.json",
+      "sha256": "c800c6472ee7cf3eb61751ce9b4375ec92475d2e0be904c83c6b1b71aab41e38",
+      "bytes": 181
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/model_identity_after.json",
+      "sha256": "1890ed045456db5afc5dfee944cec8b2095ea48cc14463fc70390ddf2bd9f8c6",
+      "bytes": 183
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/input_integrity_after.json",
+      "sha256": "339acc3b09add3c3d0e689adf17878a1bd264d3a3f00fccce7db538630e20066",
+      "bytes": 19
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+      "sha256": "9b37d8469978e5b529acffde790c55fd0478da9766511e9ca61cde89a64bc7d7",
+      "bytes": 15580
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/reused_ddpm.csv",
+      "sha256": "95ba85cbc217f09eb9d40d073816c9be811f9376654148bbf7fc48370f0f36c8",
+      "bytes": 9651
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REQUEST_SLOTS.json",
+      "sha256": "8a4ec99b4781c746109d780fc312b85315f508ce13bdfef91c75362127249f2d",
+      "bytes": 51164
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REUSED_DDPM_SLOTS.json",
+      "sha256": "750198d74967cb4f0cc8ee74b9c2aaf8a58fe272bb79e614248b512b775842c3",
+      "bytes": 18820
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/manifest.json",
+      "sha256": "8ea430dc704326b0000fdb96566ac0e5b0d526e4c03ebbe3adf922d03ac58beb",
+      "bytes": 6486
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_execution_v2/SUPERVISOR_STATUS.json",
+      "sha256": "fa2e287cdff5eb39089f9926122d5b8eda56ae7aa0c66d28b84da04bbd9a5c02",
+      "bytes": 1279
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_REQUEST_SLOTS_v2.json",
+      "sha256": "6857bdbd06e7bad7325cc23c06524862030f8bff492aa943813e77d3c744699c",
+      "bytes": 51556
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+      "sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8",
+      "bytes": 29507
+    }
+  ],
+  "additional_author_model_calls": 0
+}

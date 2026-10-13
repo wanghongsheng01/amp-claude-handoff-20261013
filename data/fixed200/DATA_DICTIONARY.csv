@@ -1,0 +1,90 @@
+table,field,json_value_types,meaning,missing_rule
+peptide_inputs.jsonl,peptide_id,int,DBAASP peptide record identifier; not a certified independent biological replicate,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+peptide_inputs.jsonl,sequence,str,Exact reported case preserved; lowercase not silently converted for primary eligibility,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+peptide_inputs.jsonl,annotation_fingerprint,str,Frozen SHA256 of identity-related chemical annotations,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+peptide_inputs.jsonl,chemistry,dict,Reported termini/unusual residues/bonds; absent means unknown,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+peptide_inputs.jsonl,note_reference,str,Peptide-level annotation; not an activity-level source mapping,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+peptide_inputs.jsonl,articles,list,Ordered reported citation metadata; reference1 maps to first article only when explicitly present,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+peptide_inputs.jsonl,raw_sha256,str,SHA256 of exact locally cached raw detail response,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+peptide_inputs.jsonl,frozen_structure_status,str,Frozen represented-chemistry audit verdict; PENDING is not an efficacy or molarity claim,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,peptide_id,int,DBAASP peptide record identifier; not a certified independent biological replicate,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,activity_id,int,DBAASP target activity identifier; pair with peptide_id,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,target_raw,str,Reported target species/strain text,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,concentration_raw,str,Exact reported concentration string,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,unit_raw,str,Exact reported unit; no mass/molar conversion,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,medium,str,Raw culture medium; whitespace-only means missing,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,cfu,"NoneType,str","Raw inoculum value, no inferred unit or conversion",Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,cfu_group,"NoneType,dict",Reported inoculum category object,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,ph,"NoneType,str",Reported pH; blank means missing,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,ionic_strength,"NoneType,str",Raw ionic strength; blank means missing,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,salt,"NoneType,str",Raw salt annotation; blank means missing,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,note,"NoneType,str",Reported activity note; no inference beyond frozen admission rules,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,reference_raw,str,Reported 1-based comma-separated citation indices; blank stays unresolved,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+measurement_inputs.jsonl,raw_sha256,str,SHA256 of exact locally cached raw detail response,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,peptide_id,int,DBAASP peptide record identifier; not a certified independent biological replicate,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,activity_id,int,DBAASP target activity identifier; pair with peptide_id,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,target_raw,str,Reported target species/strain text,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,concentration_raw,str,Exact reported concentration string,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,unit_raw,str,Exact reported unit; no mass/molar conversion,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,medium,str,Raw culture medium; whitespace-only means missing,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,cfu,"NoneType,str","Raw inoculum value, no inferred unit or conversion",Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,cfu_group,"NoneType,dict",Reported inoculum category object,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,ph,"NoneType,str",Reported pH; blank means missing,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,ionic_strength,"NoneType,str",Raw ionic strength; blank means missing,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,salt,"NoneType,str",Raw salt annotation; blank means missing,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,note,"NoneType,str",Reported activity note; no inference beyond frozen admission rules,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,reference_raw,str,Reported 1-based comma-separated citation indices; blank stays unresolved,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,raw_sha256,str,SHA256 of exact locally cached raw detail response,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,measurement_row_id,int,Local row index; never an independent peptide count,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,sequence,str,Exact reported case preserved; lowercase not silently converted for primary eligibility,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,format,str,point/right_bound/left_bound/range_unresolved/plusminus_unresolved/unresolved,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,lower_raw_unit,"NoneType,float",Parsed lower endpoint in original unit; range endpoint is not validated interval censoring,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,upper_raw_unit,"NoneType,float",Parsed upper endpoint in original unit,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,operator_or_semantics,str,Original strict/non-strict operator retained; range/plusminus uncertainty explicit,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,ecoli_target,bool,Regex ^Escherichia coli followed by whitespace/end,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,native_unit_group,str,ug_ml_native only µg/ml; uM_native only µM/μM/uM; otherwise unsupported,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,reference_index_valid,bool,Explicit nonempty indices all within this peptide article array,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,source_keys,list,PMID or year+normalized title for explicitly mapped references; no guessed source,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,sequence_family,str,Connected component of >=80% normalized edit identity on uppercased backbones,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,source_family_group,str,Family component further linked by peptide-level publication identities,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,structure_status,str,Copied frozen molecular-audit status,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,core_reasons,list,"Reasons that bar native label eligibility, in frozen rule order",Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,plain_Witten_encoding_compatible,bool,"Exact uppercase canonical20AA and length1..99, not biological validity",Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,plain_Witten_primary_point_eligible,bool,Ecoli + recognized unit + source/chemistry/core rules + compatible point; not formal training admission,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,plain_Witten_censor_eligible,bool,Same rules for one-sided bounds; bounds not exact labels,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+all_MIC.csv,formal_training_admitted,bool,Always false: no new split/leakage/biological validation established,Preserve raw null/blank; whitespace-only is missing for covariate counts; never impute
+SOURCE_INDEX.csv,source_index_key,CSV scalar or JSON-array/object cell,Unique source-row key used by measurement index,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,source_key,CSV scalar or JSON-array/object cell,Normalized PMID or year+title source identifier; unresolved remains blank,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,title,CSV scalar or JSON-array/object cell,"Reported bibliographic title, not a claim of verified measurement support",Blank/null preserved; not guessed
+SOURCE_INDEX.csv,year,CSV scalar or JSON-array/object cell,Reported publication year,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,journal,CSV scalar or JSON-array/object cell,Reported journal metadata object,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,authors,CSV scalar or JSON-array/object cell,Reported bibliographic authors as database objects; not task participants,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,pubmed_id,CSV scalar or JSON-array/object cell,Reported PubMed identifier; no independent article-content verification,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,pubmed_url,CSV scalar or JSON-array/object cell,"Reported PubMed URL; included as text only, not fetched",Blank/null preserved; not guessed
+SOURCE_INDEX.csv,article_ids,CSV scalar or JSON-array/object cell,All DBAASP article record IDs merged into this normalized source entry,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,peptide_ids,CSV scalar or JSON-array/object cell,Distinct DBAASP peptide record IDs associated with this publication,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,measurement_row_ids,CSV scalar or JSON-array/object cell,Explicit row IDs in MEASUREMENT_SOURCE_INDEX.csv linked to this source,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,families,CSV scalar or JSON-array/object cell,Distinct descriptive sequence-family IDs linked to this source,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,source_family_components,CSV scalar or JSON-array/object cell,Distinct family-plus-publication component IDs for this source,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,unique_peptide_ids,CSV scalar or JSON-array/object cell,Distinct DBAASP record count associated with source,Blank/null preserved; not guessed
+SOURCE_INDEX.csv,MIC_rows,CSV scalar or JSON-array/object cell,Count of measurement rows associated with source; not independent peptide count,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,measurement_row_id,CSV scalar or JSON-array/object cell,Local row index; never an independent peptide count,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,activity_id,CSV scalar or JSON-array/object cell,DBAASP target activity identifier; pair with peptide_id,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,peptide_id,CSV scalar or JSON-array/object cell,DBAASP peptide record identifier; not a certified independent biological replicate,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,dbaasp_detail_url,CSV scalar or JSON-array/object cell,Public record URL; no request is performed by this package,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,raw_path,CSV scalar or JSON-array/object cell,"Relative local raw-cache path, bytes not bundled",Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,raw_sha256,CSV scalar or JSON-array/object cell,SHA256 of exact locally cached raw detail response,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,sequence_family,CSV scalar or JSON-array/object cell,Connected component of >=80% normalized edit identity on uppercased backbones,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,source_family_component,CSV scalar or JSON-array/object cell,Frozen family-plus-publication connected-component ID for this measurement,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,reference_raw,CSV scalar or JSON-array/object cell,Reported 1-based comma-separated citation indices; blank stays unresolved,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,reference_index_valid,CSV scalar or JSON-array/object cell,Explicit nonempty indices all within this peptide article array,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,source_index_keys,CSV scalar or JSON-array/object cell,Zero or more source-row keys; empty unresolved references remain empty,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,target_raw,CSV scalar or JSON-array/object cell,Reported target species/strain text,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,concentration_raw,CSV scalar or JSON-array/object cell,Exact reported concentration string,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,unit_raw,CSV scalar or JSON-array/object cell,Exact reported unit; no mass/molar conversion,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,format,CSV scalar or JSON-array/object cell,point/right_bound/left_bound/range_unresolved/plusminus_unresolved/unresolved,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,medium,CSV scalar or JSON-array/object cell,Raw culture medium; whitespace-only means missing,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,native_primary_point_eligible,CSV scalar or JSON-array/object cell,Ecoli-only frozen point label eligibility; not formal training admission,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,native_censor_eligible,CSV scalar or JSON-array/object cell,Ecoli-only frozen one-sided-bound label eligibility; not formal training admission,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,native_exclusions,CSV scalar or JSON-array/object cell,Frozen core exclusion reasons; non-Ecoli rows marked NOT_E_COLI,Blank/null preserved; not guessed
+MEASUREMENT_SOURCE_INDEX.csv,independent_peptide_observation,CSV scalar or JSON-array/object cell,Always False; repeated MIC rows are not independent peptides,Blank/null preserved; not guessed

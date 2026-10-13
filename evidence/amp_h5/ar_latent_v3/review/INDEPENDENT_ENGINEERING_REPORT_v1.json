@@ -1,0 +1,188 @@
+{
+  "schema": "AMP_H5_AR_LATENT_V3_INDEPENDENT_ENGINEERING_REPORT_V1",
+  "created_utc": "2026-10-12T02:07:18.971979+00:00",
+  "independent_author": "/root/ar_admission_independent",
+  "candidate_author": "/root/ar_v3_implementation",
+  "status": "PASS",
+  "scope": "Engineering implementation and fixed synthetic throughput only; no second scientific review",
+  "natural_execution_authorized": false,
+  "pending": "Exact ROOT_PLAN hash binding and final combined receipt before unique natural launch",
+  "code_sha256": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/core.py": "18b8fe1589bb3bda66a3eaa091a9a59dc1420db8da255ee1373ae369ea7cac2a",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/contracts.py": "ef4f3e5d8e04de091ec5524d81f7e8369deb12c9277ab2916327eb574e8780d0",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runner.py": "bb4de35f06976d63530ad7304cf9200aee4896535d9eb6287204ea6551c64fe0",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/scoring.py": "e0e0563bb8c17f5aa272f44b32daec0a2e467b9bd3f3a0e6e075c63b4d2295af"
+  },
+  "config_sha256": "419b283b8b08b745be0e5aad21b1ca2e164255489403c7a96ca85fdb255e4d5c",
+  "synthetic_checks": "PASS",
+  "throughput_checks": "PASS",
+  "deterministic_preparation": {
+    "initial_state_sha256": {
+      "A": "bc6bcb084f5f1f6360399db66f869a12ff49c39742853d916c913fbf9c020373",
+      "B": "bc6bcb084f5f1f6360399db66f869a12ff49c39742853d916c913fbf9c020373",
+      "C": "7f9cc39b1a9729ed83aaf184191bdb130779fbf7fc2debb1c9a35932eaecfae1"
+    },
+    "batch_indices_sha256": "cb6a18e909568b7596c46891dda9c26f3237bec0b49125c8db969fe68ece7d62",
+    "train_mappings_digest": "a4394ba643fff9968e81b1e68994c62d2808feff3e4bb5579f0ac38ad9408571",
+    "dev_mappings_digest": "69cc152c36a8802aae60f89762f0fa2c8ca642c02b0c3e6a274cf58ab6692499",
+    "uniforms_digest": "e0c67f434b1f36142dd738ad80344d0c72b2b79eb76366daf006832426b23a3b"
+  },
+  "empirical_checks": [
+    {
+      "check": "parameter_counts_and_exact_shared_initialization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "deterministic_pre_forward_receipt_seal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "cached_shapes_dtypes_finite_rows_and_preparation_parity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "EOS49_PAD_mask_and_independent_loss_denominator",
+      "passed": true,
+      "details": {
+        "observed": 99,
+        "AA": 96,
+        "EOS": 3
+      }
+    },
+    {
+      "check": "actual_LSTM_z_boundary_and_no_length_mask",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "full_group_derangement_and_singleton_rejection",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inverseCDF_edges_absorption_EOS49_cap_and_timeout",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "metrics_exact_thresholds_strict_ties_and_failure_denominators",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "100_step_AB_same_complete_sampled_bank_digest",
+      "passed": true,
+      "details": {
+        "steps": 100
+      }
+    }
+  ],
+  "synthetic_measured": {
+    "outer_wall_seconds": 20.321034709,
+    "counts": {
+      "actual_AR_forward": 1848,
+      "optimizer_updates": 300
+    },
+    "training": {
+      "A": {
+        "100_update_seconds_including_trace": 1.8054968332871795,
+        "setup_seconds": 1.4452420831657946,
+        "checkpoint_seconds": 0.0007423749193549156,
+        "projected1000_seconds_2x_plus_IO_and5": 42.55592112382874
+      },
+      "B": {
+        "100_update_seconds_including_trace": 1.4976139580830932,
+        "setup_seconds": 0.0009860843420028687,
+        "checkpoint_seconds": 0.0007701250724494457,
+        "projected1000_seconds_2x_plus_IO_and5": 34.954035371076316
+      },
+      "C": {
+        "100_update_seconds_including_trace": 1.224652792327106,
+        "setup_seconds": 0.0007863747887313366,
+        "checkpoint_seconds": 0.0007612076587975025,
+        "projected1000_seconds_2x_plus_IO_and5": 29.49460342898965
+      }
+    },
+    "evaluation_and_scoring_projection": 35.28436758648604
+  },
+  "static_checks": {
+    "natural_forward_cap": 4547,
+    "update_cap": 3000,
+    "dev_conditions_and_rows": [
+      28,
+      41
+    ],
+    "new_generation_requests": 96,
+    "q_DDPM_D_new_forward": 0,
+    "single_cpu_thread": true,
+    "whole_bank_before_mismatch": true,
+    "fixed_EOS49_boundary": true,
+    "fixed_metric_and_all_slot_gates": true,
+    "exact_fraction_005_threshold": true,
+    "pre_forward_cache_and_initialization_seal_enforced": true,
+    "existing_global_lock_and_exclusive_launch_reservation": true,
+    "supervisor660_killpg_no_grace": true,
+    "final_binding_read_errors_preserved": true,
+    "inner120_and_outer150_overrun_reported_failed": true,
+    "no_automatic_retry_or_new_natural_seed": true
+  },
+  "test_scope_limitations": [
+    "Supervisor660 killpg behavior statically inspected, not tested by burning660 seconds.",
+    "Decode timeout callback was dynamically injected in scripted fake logits; actual natural timeouts are not induced.",
+    "Synthetic throughput projection uses prelocked2x allowance and fixed I/O margins; it is not a runtime guarantee."
+  ],
+  "model_execution_after_synthetic_end": 0,
+  "natural_model_forward": 0,
+  "forbidden_actions": {
+    "test37_reads": 0,
+    "uploads": 0,
+    "source_writes": 0,
+    "credentials_read": 0,
+    "paid_calls": 0
+  },
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/AUTHOR_STATIC_CHECK.json",
+      "sha256": "6806caf433ab1bc95741e8faac67aa73a7b7dba8307f26da6698c17f842731dc"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/CANDIDATE_CONFIG.json",
+      "sha256": "419b283b8b08b745be0e5aad21b1ca2e164255489403c7a96ca85fdb255e4d5c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_ENGINEERING_CHECK_PLAN_v1.json",
+      "sha256": "3196cc63d7ce61d7a49fc8dc01e1b43a7088b8cf7856480fde33347f45db4bfa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/SYNTHETIC_WINDOW_PLAN_v1.json",
+      "sha256": "5b88da2c5408e16b21494095d309aa16b9f444dcd8424e7340a4897bbb957615"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/independent_core_checks_v1.py",
+      "sha256": "5e4dd2793cdc50230990ea50d1ad77ba06228d3d23699f2c41b1a45689543692"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/SYNTHETIC_WINDOW_LAUNCH_v1.json",
+      "sha256": "d3ff6f31f6dbb89b795ff0fed2f3d7a528df695a4a779cba99ac9df9ac2135c4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/SYNTHETIC_WINDOW_PROCESS_RESULT_v1.json",
+      "sha256": "f13ba849b12fb719b5fd47d40b79d56031fd207baab643c0a1734e4252907f6f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/synthetic_window_v1/RESULT.json",
+      "sha256": "f869d180e62b7ed21471551a77ab6b00d1a20401aa6ad3c92b8c25620930f41d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/orchestration/supervise_once.py",
+      "sha256": "2fa7a6842730cf6090aaf19366d4331de6a673a27f2d2097943539aa2ff60a62"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/orchestration/launch_once.py",
+      "sha256": "460e8643bc6a2787f88ced039939fb9c7e693c36bb246f943aa07699d63cba3d"
+    }
+  ]
+}

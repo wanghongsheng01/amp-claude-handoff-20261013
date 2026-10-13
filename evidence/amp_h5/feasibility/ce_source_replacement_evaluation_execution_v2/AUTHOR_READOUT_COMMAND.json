@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-11T20:37:30.201501+00:00",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_source_replacement_author_readout_v2.py",
+    "--postflight",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+    "--postflight-sha256",
+    "01fe09cbce4c4d4d8cf6c04d617408de40162b02f4583cb2a0c095418535cac3"
+  ],
+  "shell_command": "/Library/Developer/CommandLineTools/usr/bin/python3 -B /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_source_replacement_author_readout_v2.py --postflight /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json --postflight-sha256 01fe09cbce4c4d4d8cf6c04d617408de40162b02f4583cb2a0c095418535cac3",
+  "source_sha256": "3e2c1b2733f29a077759758f3257c98537e67e676fef5acc9c68eeba9402c1b3",
+  "model_calls": 0,
+  "metric_recomputations": 0,
+  "test_access": false
+}

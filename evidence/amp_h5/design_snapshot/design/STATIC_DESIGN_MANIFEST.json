@@ -1,0 +1,47 @@
+{
+  "kind": "AUTHOR_H5_STATIC_DESIGN_MANIFEST",
+  "state": "DRAFT_NO_REAL_MODEL_EXECUTION_NO_APPROVAL",
+  "files": [
+    {
+      "path": "candidate/fvae21_adapter.py",
+      "sha256": "e43e51ba9812524672840e66d431c6d1d702ef844c2a4462de41e47a7bf28142"
+    },
+    {
+      "path": "candidate/objective_oracle.py",
+      "sha256": "7741cc4b409a127825143bb37f5eaf60569b2239e2cd8491b635304c786c2d9d"
+    },
+    {
+      "path": "candidate/synthetic_contract_test.py",
+      "sha256": "87609c25c73e7ab26bf8a294bf7a6e313fd9dfb69dbb06c8ecee7dfaf5ae4312"
+    },
+    {
+      "path": "design/CANDIDATE_PROPOSAL.json",
+      "sha256": "f33b813202c7fc4b74fbe9e9aa9619757d4c2ee6586d49bbcc16b9055d6a0501"
+    },
+    {
+      "path": "design/CLAIM_MATRIX.json",
+      "sha256": "80f2a9c53df241b2e653b3177d3162fe6a919cacab84d23854449f92707346e2"
+    },
+    {
+      "path": "design/EXISTING_EVIDENCE.json",
+      "sha256": "3f8bf67b606a74c8efc663bd444e4e108bd27599b7f49db76cc6996e68590618"
+    },
+    {
+      "path": "design/MINIMAL_DESIGN.zh.md",
+      "sha256": "d362c40a1c2413400b861c39884382da1dacb304b064a4fc6107ff6541a5ed3f"
+    },
+    {
+      "path": "design/SYNTHETIC_CONTRACT_RESULT.json",
+      "sha256": "bdd3642c4896244f5b4d9b5b5618fb02c1c75c8cf5f57e46f92ed2a8c2428257"
+    },
+    {
+      "path": "design/build_design_evidence.py",
+      "sha256": "13f5fe74cc5165d9f46d060eda87c694b57c154638dcf573fb72427e93f1f559"
+    }
+  ],
+  "source_evidence_sha256": "3f8bf67b606a74c8efc663bd444e4e108bd27599b7f49db76cc6996e68590618",
+  "synthetic_checks": 29,
+  "real_model_calls": 0,
+  "scope": "only candidate and design; originals/H0-H4/test unchanged",
+  "backup": "BACKUP_BLOCKED"
+}

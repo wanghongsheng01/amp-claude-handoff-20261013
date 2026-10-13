@@ -1,0 +1,20 @@
+{
+  "method": "terminal_LSTM",
+  "role": "train",
+  "objects": 279,
+  "nll_sum": 8457.158264160156,
+  "aa_nll_sum": 8253.072631835938,
+  "eos_nll_sum": 204.08562660217285,
+  "observed_tokens": 5147,
+  "aa_tokens": 4868,
+  "eos_tokens": 279,
+  "correct_tokens": 2530,
+  "token_count": 5147,
+  "mean_nll": 1.6431238127375474,
+  "teacher_forced_token_accuracy": 0.4915484748397125,
+  "wall_seconds": 0.04955129185691476,
+  "tensor_state_sha256": "259990050729a3e0179ea02f50ac860d3478b918930f2e61619e3e4d1d8ce969",
+  "test_accessed": false,
+  "is_generation_metric": false,
+  "objective_comparable_with_VAE": false
+}

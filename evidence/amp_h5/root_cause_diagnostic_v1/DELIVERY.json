@@ -1,0 +1,170 @@
+{
+  "schema": "AMP_H5_READ_ONLY_ROOT_CAUSE_DIAGNOSTIC",
+  "utc": "2026-10-12T11:25:48.974760+00:00",
+  "status": "COMPLETE_NO_MODEL_RECOMPUTATION_REQUIRED",
+  "training_or_optimization_calls": 0,
+  "prior_frozen_files_unchanged": 72,
+  "implementation_finding": "No recoverable training/prediction bug identified; saved predictions reconstructed",
+  "metadata_erratum": {
+    "scope": "metadata missingness report only",
+    "independent_confirmation": "independent/MISSINGNESS_RECHECK.json",
+    "issue": "Whitespace-only medium values were treated as observed",
+    "uM_point_medium_missing_before": 0,
+    "uM_point_medium_missing_corrected": 14,
+    "denominator": 68,
+    "effect_on_model_results": "None: medium not used for admission, features, weights, grouping or fitting in this experiment",
+    "action": "Correct only new diagnostic counts; keep original frozen v5 and censored-likelihood packages unchanged; preserve pre-correction diagnostics in history",
+    "recompute_training_required": false
+  },
+  "key_findings": {
+    "ug_ml_native": {
+      "point_rows": 79,
+      "peptide_IDs": 54,
+      "exact_sequences": 49,
+      "families": 32,
+      "source_groups": 21,
+      "variance_decomposition": {
+        "total_label_variance": 0.6034757616182534,
+        "between_source_group_mean_variance": 0.548142319415673,
+        "within_source_group_variance": 0.05533344220257993,
+        "between_fraction": 0.9083087578294765
+      },
+      "model_error_decomposition": {
+        "point_mean": {
+          "MSE": 0.6596603493583594,
+          "MAE": 0.6608711830510042,
+          "mean_group_bias_squared": 0.6043269071557795,
+          "mean_centered_error_MSE": 0.05533344220257993,
+          "bias_squared_fraction_of_MSE": 0.9161182838162066,
+          "versus_mean_adjustment_energy": 0.0,
+          "versus_mean_adjustment_label_alignment": 0.0,
+          "versus_mean_delta_MSE": 0.0,
+          "identity": "delta_MSE = E[(prediction-constant)^2] - 2 E[(prediction-constant)*(label-constant)]"
+        },
+        "point_ridge": {
+          "MSE": 0.9223698065124191,
+          "MAE": 0.7876524867735218,
+          "mean_group_bias_squared": 0.8541731993165635,
+          "mean_centered_error_MSE": 0.06819660719585496,
+          "bias_squared_fraction_of_MSE": 0.9260637038264355,
+          "versus_mean_adjustment_energy": 0.2208780324153298,
+          "versus_mean_adjustment_label_alignment": -0.020915712369364722,
+          "versus_mean_delta_MSE": 0.2627094571540597,
+          "identity": "delta_MSE = E[(prediction-constant)^2] - 2 E[(prediction-constant)*(label-constant)]"
+        },
+        "endpoint_ridge": {
+          "MSE": 1.0196425475365882,
+          "MAE": 0.8210338249537429,
+          "mean_group_bias_squared": 0.9467998516032866,
+          "mean_centered_error_MSE": 0.0728426959333018,
+          "bias_squared_fraction_of_MSE": 0.9285605567271723,
+          "versus_mean_adjustment_energy": 0.3315656065675717,
+          "versus_mean_adjustment_label_alignment": -0.014208295805328668,
+          "versus_mean_delta_MSE": 0.35998219817822885,
+          "identity": "delta_MSE = E[(prediction-constant)^2] - 2 E[(prediction-constant)*(label-constant)]"
+        },
+        "tail_ridge": {
+          "MSE": 1.1139745674809767,
+          "MAE": 0.8441279627974684,
+          "mean_group_bias_squared": 1.0352429769888973,
+          "mean_centered_error_MSE": 0.07873159049207883,
+          "bias_squared_fraction_of_MSE": 0.9293237091847486,
+          "versus_mean_adjustment_energy": 0.44362478163428226,
+          "versus_mean_adjustment_label_alignment": -0.0053447182441672125,
+          "versus_mean_delta_MSE": 0.4543142181226173,
+          "identity": "delta_MSE = E[(prediction-constant)^2] - 2 E[(prediction-constant)*(label-constant)]"
+        }
+      },
+      "feature_box_support": {
+        "rows_outside_any_training_feature_range": 29,
+        "IDs_outside": 19,
+        "groups_outside": 12,
+        "max_abs_z": 18.53647514365952,
+        "warning": "Coordinatewise range is a descriptive support diagnostic, not a joint support/power test or proof of extrapolation causality"
+      }
+    },
+    "uM_native": {
+      "point_rows": 68,
+      "peptide_IDs": 27,
+      "exact_sequences": 27,
+      "families": 18,
+      "source_groups": 13,
+      "variance_decomposition": {
+        "total_label_variance": 0.37711008323559014,
+        "between_source_group_mean_variance": 0.2691547992247815,
+        "within_source_group_variance": 0.10795528401080826,
+        "between_fraction": 0.7137300517542348
+      },
+      "model_error_decomposition": {
+        "point_mean": {
+          "MSE": 0.42383834698989226,
+          "MAE": 0.5495844097732038,
+          "mean_group_bias_squared": 0.31588306297908386,
+          "mean_centered_error_MSE": 0.1079552840108083,
+          "bias_squared_fraction_of_MSE": 0.7452913716337637,
+          "versus_mean_adjustment_energy": 0.0,
+          "versus_mean_adjustment_label_alignment": 0.0,
+          "versus_mean_delta_MSE": 0.0,
+          "identity": "delta_MSE = E[(prediction-constant)^2] - 2 E[(prediction-constant)*(label-constant)]"
+        },
+        "point_ridge": {
+          "MSE": 0.47507365873181984,
+          "MAE": 0.5963027394105804,
+          "mean_group_bias_squared": 0.39588555876502435,
+          "mean_centered_error_MSE": 0.07918809996679554,
+          "bias_squared_fraction_of_MSE": 0.8333140587542082,
+          "versus_mean_adjustment_energy": 0.1076851261995487,
+          "versus_mean_adjustment_label_alignment": 0.02822490722881048,
+          "versus_mean_delta_MSE": 0.05123531174192758,
+          "identity": "delta_MSE = E[(prediction-constant)^2] - 2 E[(prediction-constant)*(label-constant)]"
+        },
+        "endpoint_ridge": {
+          "MSE": 0.5236852685452799,
+          "MAE": 0.5895160709857722,
+          "mean_group_bias_squared": 0.42880521481537553,
+          "mean_centered_error_MSE": 0.09488005372990438,
+          "bias_squared_fraction_of_MSE": 0.8188223739929384,
+          "versus_mean_adjustment_energy": 0.16890226114323864,
+          "versus_mean_adjustment_label_alignment": 0.03452766979392553,
+          "versus_mean_delta_MSE": 0.0998469215553876,
+          "identity": "delta_MSE = E[(prediction-constant)^2] - 2 E[(prediction-constant)*(label-constant)]"
+        },
+        "tail_ridge": {
+          "MSE": 0.8139772815044013,
+          "MAE": 0.7268968826504572,
+          "mean_group_bias_squared": 0.6908192445679866,
+          "mean_centered_error_MSE": 0.12315803693641492,
+          "bias_squared_fraction_of_MSE": 0.8486959774739747,
+          "versus_mean_adjustment_energy": 0.446050954352584,
+          "versus_mean_adjustment_label_alignment": 0.0279560099190374,
+          "versus_mean_delta_MSE": 0.39013893451450904,
+          "identity": "delta_MSE = E[(prediction-constant)^2] - 2 E[(prediction-constant)*(label-constant)]"
+        }
+      },
+      "feature_box_support": {
+        "rows_outside_any_training_feature_range": 32,
+        "IDs_outside": 16,
+        "groups_outside": 7,
+        "max_abs_z": 15.686196856088285,
+        "warning": "Coordinatewise range is a descriptive support diagnostic, not a joint support/power test or proof of extrapolation causality"
+      }
+    }
+  },
+  "next_step": "Define and audit strain/medium/native-unit MIC task and detection/reporting conditions using existing records; sparse observed strata are not a new benchmark and no further models/seeds are authorized by this diagnostic",
+  "entrypoints": [
+    "REPORT.zh.md",
+    "GROUP_ERRORS.csv",
+    "SUMMARY.json",
+    "OBSERVED_ASSAY_STRATA.json",
+    "ERRATUM.json",
+    "independent/IMPLEMENTATION_RECHECK.json",
+    "independent/DIAGNOSTIC_AUDIT.json",
+    "independent/ENCODING_STRATA_AUDIT.json",
+    "independent/SIGNOFF.json"
+  ],
+  "no_causal_claims": true,
+  "no_network": true,
+  "no_test37": true,
+  "no_H0_H4_or_manuscript_edits": true,
+  "backup": "BACKUP_BLOCKED"
+}

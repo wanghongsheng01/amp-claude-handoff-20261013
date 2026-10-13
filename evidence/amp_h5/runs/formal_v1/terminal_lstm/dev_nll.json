@@ -1,0 +1,20 @@
+{
+  "method": "terminal_LSTM",
+  "role": "development",
+  "objects": 41,
+  "nll_sum": 2351.9861450195312,
+  "aa_nll_sum": 2224.57470703125,
+  "eos_nll_sum": 127.41137504577637,
+  "observed_tokens": 742,
+  "aa_tokens": 701,
+  "eos_tokens": 41,
+  "correct_tokens": 151,
+  "token_count": 742,
+  "mean_nll": 3.169792648274301,
+  "teacher_forced_token_accuracy": 0.20350404312668463,
+  "wall_seconds": 0.00812591565772891,
+  "tensor_state_sha256": "259990050729a3e0179ea02f50ac860d3478b918930f2e61619e3e4d1d8ce969",
+  "test_accessed": false,
+  "is_generation_metric": false,
+  "objective_comparable_with_VAE": false
+}

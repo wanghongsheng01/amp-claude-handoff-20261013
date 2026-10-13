@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-11T18:24:45.505930+00:00",
+  "prior_unchanged_delivery": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_AR_PARTIAL_DELIVERY_v1.json",
+    "bytes": 7992,
+    "sha256": "2d896527331eed302e83afaa051137b68579e5430e0395df1c4e9db7769eff3e"
+  },
+  "addendum": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_addendum_v1/CAP_HIT_AND_FULL_METRICS_ADDENDUM_v1.json",
+      "bytes": 29716,
+      "sha256": "d83f606a3d8a37fecbbf2c4a328680aad5cb5143df2be0b3b6fe787b3d57dcb8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_addendum_v1/CAP_HIT_AND_FULL_METRICS_ADDENDUM_v1.zh.md",
+      "bytes": 5954,
+      "sha256": "6f14ba9dc79e35480ba7bcb68b8cbc157a0483f7e2ffdcf45a14ac5c5c8c9487"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_addendum_v1/MANIFEST.json",
+      "bytes": 4752,
+      "sha256": "ed182fb5ff997b0cc50e6c0c77b2306884d6528768fdb562aa9d1723ae1c840b"
+    }
+  ],
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_cap_full_metrics_addendum_v1.py",
+    "bytes": 16248,
+    "sha256": "24871c6bc08b25f412400c1974606afa50f46fa9aadb60a97936e1408e091f7b"
+  },
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "recovery_G": "FAIL",
+  "recovery_L": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD",
+  "MSE_authorization_affected": false
+}

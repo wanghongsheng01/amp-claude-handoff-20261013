@@ -1,0 +1,9 @@
+{
+  "raw_inputs_sha256": "ca716a3e5e8b169396aea4ca7fe12c6196fd25e5ce6bbbcd6077f7a0c464d442",
+  "posterior_parameters_sha256": "8d13fbc8da1143cfba63da5b3eb2a3ee6964c5af412041ce1685107290abbd7a",
+  "dev_q_sha256": "421f3299b675f887ed203581c011bf9f6648cf1d9c55773b48a288bd53dba1c1",
+  "work_rng_sha256": "706f37bf841aca3e79263a90c349aeb9c413512b793d98850be9f2a29d400af7",
+  "global_work_rng_restored": true,
+  "no_posterior_flow": true,
+  "before_any_decoder": true
+}

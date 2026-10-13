@@ -1,0 +1,24 @@
+{
+  "identity": "AMP_H5_LITERATURE_REVIEW_DELIVERY",
+  "scope": "literature_and_prelock_advice_only",
+  "files": [
+    {
+      "path": "AR_BUDGET_ADVICE.zh.md",
+      "bytes": 2959,
+      "sha256": "cf1be13764549b5cb217cd8f0e6e55c7078fb060ba7304b22215c3a7903f3f6e"
+    },
+    {
+      "path": "H5_LITERATURE_CHALLENGE.zh.md",
+      "bytes": 10218,
+      "sha256": "6000bb6adb0188f0d9344e13acc24706d1a7b911b31c3a67df59645b69b1c4ab"
+    },
+    {
+      "path": "SOURCE_LEDGER.json",
+      "bytes": 4244,
+      "sha256": "164913e9ecd44a8eb01aae7805bfd8f6b2b8389848153fc894c2e0c7dadf4b86"
+    }
+  ],
+  "test_reads": false,
+  "training": false,
+  "old_files_modified": false
+}

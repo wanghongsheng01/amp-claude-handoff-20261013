@@ -1,0 +1,94 @@
+{
+  "status": "COMPLETE",
+  "failure": null,
+  "training": {
+    "A": {
+      "status": "COMPLETE",
+      "inner120_exceeded": false,
+      "outer150_exceeded": false,
+      "completed_updates": 1000,
+      "attempted_updates": 1000,
+      "failure": null,
+      "seconds": 17.110556584317237,
+      "final_state_sha256": "5d9fe06ca9f48f3751737dc2ffe0e6247191e1b1789bd264e1fa2e0e3bec0638",
+      "checkpoint_selection": "final_only"
+    },
+    "B": {
+      "status": "COMPLETE",
+      "inner120_exceeded": false,
+      "outer150_exceeded": false,
+      "completed_updates": 1000,
+      "attempted_updates": 1000,
+      "failure": null,
+      "seconds": 16.18255487503484,
+      "final_state_sha256": "ce7dc529d4046784283d1408bd3b3757ba7f7f6b835320e302b51c9c24ffca4b",
+      "checkpoint_selection": "final_only"
+    },
+    "C": {
+      "status": "COMPLETE",
+      "inner120_exceeded": false,
+      "outer150_exceeded": false,
+      "completed_updates": 1000,
+      "attempted_updates": 1000,
+      "failure": null,
+      "seconds": 12.991648375056684,
+      "final_state_sha256": "d4bdc1d3b700e9b51457a2770dbd9296c5289f6a8a07504d5345a728a8e891be",
+      "checkpoint_selection": "final_only"
+    }
+  },
+  "information_gate": {
+    "A_S8": 0.6908023670646612,
+    "B_S8": 0.09195780008237533,
+    "A_mismatch_S8": 0.09753266616727502,
+    "C": 0.12043600260488427,
+    "A_minus_B": 0.5988445669822859,
+    "A_minus_mismatch": 0.5932697008973863,
+    "A_minus_C_descriptive_capacity_unmatched": 0.570366364459777,
+    "exact_rational": {
+      "A": {
+        "numerator": 3252724123997,
+        "denominator": 4708617513600
+      },
+      "B": {
+        "numerator": 3092815057,
+        "denominator": 33632982240
+      },
+      "A_mismatch": {
+        "numerator": 137773206019,
+        "denominator": 1412585254080
+      },
+      "A_minus_B": {
+        "numerator": 939910005339,
+        "denominator": 1569539171200
+      },
+      "A_minus_mismatch": {
+        "numerator": 8380440311801,
+        "denominator": 14125852540800
+      },
+      "threshold": {
+        "numerator": 1,
+        "denominator": 20
+      }
+    },
+    "status": "PASS"
+  },
+  "generation_gate": "FAIL",
+  "equal_update_comparison": true,
+  "counts": {
+    "updates": 3000,
+    "training_forward": 3000,
+    "dev_teacher_forced_forward": 28,
+    "dev_one_token_forward": 1033,
+    "generation_forward": 111,
+    "encoder_forward": 0,
+    "DDPM_forward": 0,
+    "D_forward": 0,
+    "new_generation_requests": 96
+  },
+  "elapsed_seconds": 48.66174920927733,
+  "no_retry": true,
+  "PROMOTE": "HOLD",
+  "BACKUP": "BACKUP_BLOCKED",
+  "test_reads": 0,
+  "interpretation": "One train seed, fixed dev41, 32 cached z; no biological efficacy or submission readiness."
+}

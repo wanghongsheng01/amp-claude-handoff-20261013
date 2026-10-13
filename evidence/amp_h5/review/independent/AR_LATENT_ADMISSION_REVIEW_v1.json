@@ -1,0 +1,133 @@
+{
+  "schema": "AMP_H5_AR_LATENT_ADMISSION_REVIEW_v1",
+  "created_utc": "2026-10-12T01:47:44.017570+00:00",
+  "reviewer": "independent delegated agent /root/ar_admission_independent; no candidate authorship",
+  "review_rounds": 1,
+  "implementation_admission": "CONDITIONAL_YES_FOR_FROZEN_IMPLEMENTATION",
+  "natural_execution_admission": "NO_CURRENTLY_UNFROZEN",
+  "next_required_gate": "Different agent verifies frozen code, input/config/cache hashes, corresponding initialization, maps/uniforms, exact call counts, full request denominator and budgets; no new scientific wording round required.",
+  "selected_revisions": {
+    "C": "hidden64, 62501 parameters; shared compatible blocks copied bytewise",
+    "A_B": "hidden64, 66597 parameters; same entire initial state; only complete sampled-z row pairing differs",
+    "EOS": "49 predictions, at most48 emitted AA, z49=0; cap_nonEOS if prediction49 is AA",
+    "singleton_group": "preflight failure; no identity, cross-terminal or omission fallback",
+    "generation_completeness": "All compared arms require32 completed canonical nonempty slots for primary gate; A empty/failure fails upgrade; comparator empty/missing/timeout -> NOT_EVALUABLE; retain all slots.",
+    "kernel": "Existing421-dimensional biased linear MMD2, fixed1/3 block weights; no bandwidth or metric selection",
+    "D": "Historical convolution/J only; no matched causal interpretation",
+    "interpretation": "Mechanism/investment pilot, not novelty, generalization, efficacy or submission claim"
+  },
+  "cohort_count_check": {
+    "train": {
+      "FREE": 126,
+      "AMD": 153,
+      "length48": 0
+    },
+    "development": {
+      "FREE": 18,
+      "AMD": 23,
+      "length48": 0
+    }
+  },
+  "recommended_future_budget_seconds": {
+    "preparation": 60,
+    "training_each_inner": 120,
+    "training_each_outer": 150,
+    "training_arms": 3,
+    "all_decoding_and_scoring": 120,
+    "closure": 30,
+    "overall_outer": 660
+  },
+  "historical_evidence": {
+    "AR1000_updates_total_seconds": 14.292998417280614,
+    "AR1000_update_seconds": 12.268115932121873,
+    "new_architecture_throughput_measured": false
+  },
+  "review_execution": {
+    "model_calls": 0,
+    "training_updates": 0,
+    "new_random_draws": 0,
+    "new_generations": 0,
+    "external_research": 0,
+    "test_files_read": 0,
+    "uploads": 0,
+    "credentials_read": 0,
+    "subagents_spawned": 0,
+    "tensor_arrays_loaded": false,
+    "cache_array_hashes_revalidated": false,
+    "billing_observation": null,
+    "money_reported": false,
+    "BACKUP": "BLOCKED_EXPECTED"
+  },
+  "review_document": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/AR_LATENT_ADMISSION_REVIEW_v1.zh.md",
+    "sha256": "30ee0d5d1ab060d26b638c372d8f18eadae10eb7ecaa4a29782c69fa72e225e8"
+  },
+  "read_file_sha256": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/AGENTS.md",
+      "sha256": "b6003f701e903ec934eb33d8db92cef62fa346955ea77682d8c3a428dfbdee06"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/AR_LATENT_MECHANISM_ONEPAGE_v2.zh.md",
+      "sha256": "e6486aff5bd7108c0e1a5723c7757a2b028bf8f79ab25e283bcaeb6dca9b58bb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_pipeline.py",
+      "sha256": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/training/RUN.json",
+      "sha256": "6c0e23e5bc66fece7a8f665050b2439cb71758abb3f728844afc50c18d078df4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/config.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_summary_FREE.json",
+      "sha256": "2d3f9848d0dc6f9b0b2c2ad030db3ae04df79e5a6ce34b5610f5b0040d162be0"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/SAVED_ARRAY_SCHEMAS.json",
+      "sha256": "b0208748d625850b61cbdb4c63cc4a2ac27e141968bca9048a7a7d1b48d18043"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PREPARATION_MANIFEST_v2.json",
+      "sha256": "bb570316f21f5c5c318887d2d1829acd7d05d310ab6ee5dd875f39188caf808f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/distribution_diagnostic_v2.py",
+      "sha256": "7df021783b1f06a54b207ffb6b6117262badcb77e80ec43bac182084c984e7a5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v2.json",
+      "sha256": "027611e8a8c3e1fee211c60c7f4ae6be2ba9c59ff8cc9af201efa5ef969c0c3a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/contract.json",
+      "sha256": "6829e2d4787f92fc46a4950f64ac72df847ab9c29384b32bd0a800d767d3ee0f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/EPSILON_BANKS_SEAL.json",
+      "sha256": "6b402b9744f292d88ecb39d4e3a7ededfff0ef72c8ef323f2dd0b985647371da"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "read_scope": "CSV parsed only for terminal counts and length48 count"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "read_scope": "CSV parsed only for terminal counts and length48 count"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schema": "AMP_H5_NATIVE_BASELINE_DELIVERY_V1",
+  "created_utc": "2026-10-12T09:22:00.573336+00:00",
+  "status": "COMPLETE_INDEPENDENTLY_AUDITED_DEVELOPMENT_RUN",
+  "scientific_outcome": "No robust superiority signal from this fixed finite baseline; CNN worse than constant in both primary metrics; mass ridge small primary improvement reverses under row/peptide weighting",
+  "units": {
+    "ug_ml_native": {
+      "training_weighted_mean": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 0.9999999999999998,
+        "group_peptide_macro_MAE": 0.8110355942603993,
+        "group_peptide_macro_RMSE": 1.0085876245136844,
+        "peptide_macro_MAE": 0.6052026530736768,
+        "peptide_macro_RMSE": 0.762861705660805,
+        "row_MAE": 0.5743158937893202,
+        "row_RMSE": 0.7155505579916573
+      },
+      "composition_ridge": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 0.9999999999999998,
+        "group_peptide_macro_MAE": 0.7753732981840886,
+        "group_peptide_macro_RMSE": 0.947523339900512,
+        "peptide_macro_MAE": 0.6300308213327745,
+        "peptide_macro_RMSE": 0.7848611063123938,
+        "row_MAE": 0.6024726459169949,
+        "row_RMSE": 0.7597834322932459
+      },
+      "witten_CNN": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 0.9999999999999998,
+        "group_peptide_macro_MAE": 0.8197583713174594,
+        "group_peptide_macro_RMSE": 1.0109207477984545,
+        "peptide_macro_MAE": 0.627156654593535,
+        "peptide_macro_RMSE": 0.7822611083530658,
+        "row_MAE": 0.5730275472649641,
+        "row_RMSE": 0.7203676908146062
+      }
+    },
+    "uM_native": {
+      "training_weighted_mean": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5169933521404465,
+        "group_peptide_macro_RMSE": 0.6127581968389358,
+        "peptide_macro_MAE": 0.41272739648446227,
+        "peptide_macro_RMSE": 0.5202752601297629,
+        "row_MAE": 0.44092157044860103,
+        "row_RMSE": 0.5124748813593717
+      },
+      "composition_ridge": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5822474808622815,
+        "group_peptide_macro_RMSE": 0.6923631539267225,
+        "peptide_macro_MAE": 0.44357559791994494,
+        "peptide_macro_RMSE": 0.5729913030009435,
+        "row_MAE": 0.4528673039354625,
+        "row_RMSE": 0.5845730278523328
+      },
+      "witten_CNN": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5762617169562861,
+        "group_peptide_macro_RMSE": 0.7114546107579819,
+        "peptide_macro_MAE": 0.4636150505471094,
+        "peptide_macro_RMSE": 0.6118679229041465,
+        "row_MAE": 0.5071623866585437,
+        "row_RMSE": 0.5920234029065735
+      }
+    }
+  },
+  "run": {
+    "folds": 17,
+    "prediction_rows": 255,
+    "CNN_updates": 1700,
+    "wall_seconds": 43.882442666683346,
+    "peak_rss_bytes": 310018048,
+    "seed": 1729,
+    "CPU_threads": 1,
+    "nice": 10,
+    "model_slot": "RELEASED",
+    "process_exit_code": 0,
+    "stderr_bytes": 0
+  },
+  "independent_audit": {
+    "input_checks": 82,
+    "engineering_checks": 67,
+    "result_checks": 378,
+    "status": "PASS",
+    "result_audit_sha256": "7e8aedf92dc4995faebbfa13573187d866d1e72b858a82ab17fdc18a01e343a1"
+  },
+  "evidence": {
+    "freeze_sha256": "cde69c299c9dd06f46f69dbe800c43c58e16b14016b64fa3bed150b9e11f2161",
+    "predictions_jsonl_sha256": "2f375ce444e5465eab28a1a15823f9dda1c1b800fe0c61b680dfb6d8eb378556",
+    "predictions_csv_sha256": "86ffc244a5b7b67a0931478d7ea8ea31412b1f598398341b0b730b1000c440be",
+    "result_sha256": "f11a098bd47067464866dd8a6a9ffe54ec6c08d1ecf8fbe1d96cb693ed352657"
+  },
+  "failure_preservation": "attempt1_startup_failed: sandbox os.nice pre-model failure; independent environment-repair PASS, scientific config unchanged",
+  "remaining_limits": [
+    "Already exposed development labels,17operational groups; not independent confirmation",
+    "Unknown assay conditions/chemical forms/purity remain limits on meaning of label",
+    "No global novel-peptide or external/protected H5/test37 contamination clearance claim",
+    "Single seed/fixed100updates; no hyperparameter robustness assessment",
+    "No new collection, intervention or censored model added"
+  ],
+  "protected_assets": {
+    "test37_opened": false,
+    "old_train_dev_read": false,
+    "old_wetlab27_touched": false,
+    "H0_H4_manuscripts_modified": false,
+    "Caliber_project_access": false
+  },
+  "backup": "BACKUP_BLOCKED"
+}

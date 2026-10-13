@@ -1,0 +1,17 @@
+{
+  "included_in_formal_M_rows": [
+    0,
+    31
+  ],
+  "additional_requests": 0,
+  "batch_seconds": 0.03384750010445714,
+  "elapsed_seconds": 8.102427625097334,
+  "remaining_batches": 98,
+  "safety_multiplier": 8,
+  "reserve_seconds": 10,
+  "estimated_total_seconds": 44.63886674772948,
+  "inner_cap": 120,
+  "continue_by_time_and_finite_only": true,
+  "quality_scores_computed": false,
+  "repeated_pilot": false
+}

@@ -1,0 +1,82 @@
+{
+  "scope": "One fixed developmental working-observation-likelihood screen on existing136-ID cache, no acquisition or original H5 train/dev/test access",
+  "model_selection": "Previously executable composition ridge, not previous winner: old gains were not robust. 20 canonical AA fractions plus natural log length;22 linear coefficients including intercept. No CNN, no tuning, no conditional inputs in any arm; known and unknown assay conditions retained only as limitations, never fabricated.",
+  "units": [
+    "ug_ml_native",
+    "uM_native"
+  ],
+  "admission": "Same prior native point/censor encoding+chemistry/reporting admission, except12605 explicitly multiple isolates pending single-observation semantics. All unresolved ranges/plusminus and noncanonical incompatible encodings remain excluded.161390 retained reportedpoint with clinical-isolares wording warning, no inferred equal assay conditions.",
+  "counts": {
+    "ug_ml_native": {
+      "point": 79,
+      "right": 14,
+      "left": 0
+    },
+    "uM_native": {
+      "point": 68,
+      "right": 12,
+      "left": 0
+    }
+  },
+  "old_baseline_comparability": "Point ridge shares all-training-X scaling in this experiment; it is not an exact rerun of the previous points-only-scaling baseline. Old scores are not paired causal comparisons.",
+  "encoder": "20AA composition in ACDEFGHIKLMNPQRSTVWY order plus log length; training ALL admitted rows weighted mean/std shared across all regression arms; constant features scale1. No validation features used in scaling.",
+  "conditions": "No assay condition input across any arm, as prior simple baseline. Conditional exchangeability/independent censoring is unverified; this limits interpretation.",
+  "likelihood": {
+    "working_distribution": "log10 reported native MIC Normal(mu, sigma=1); fixed sigma is a working scale of one decade, not a validated biological noise estimate",
+    "point_loss": "0.5*(mu-y)^2, omit shared Gaussian constant",
+    "right_loss": "-logPhi(mu-bound)",
+    "left_loss": "-logPhi(bound-mu); supported in code but natural left-censored N=0",
+    "penalty": "0.5*sum(beta_j^2), intercept unpenalized; alpha1 exactly equivalent to previous ridge on point squared errors",
+    "point_metric_only": "Do not compare training NLL values across endpoint versus tail encodings, different likelihood event types, or units"
+  },
+  "arms": {
+    "point_mean": "Group-peptide-record weighted mean of training points only",
+    "point_ridge": "Points only, same linear model/scaling/penalty/optimizer",
+    "endpoint_ridge": "All same training points and censors, each bound knowingly treated as endpoint for control only",
+    "tail_ridge": "Exactly same training rows/weights/features/capacity as endpoint, change only censor observation loss to tail probability"
+  },
+  "weights": "For each training subset separately, source group equal, peptide within group equal, records within peptide equal. Endpoint and tail identical full-data weights; points-only controls renormalize point subset. Point-to-endpoint comparison includes extra data and their weighting, not pure sample-count causal effect.",
+  "folds": "Leave entire expanded source-family group out. Validation genuine points only:21 mass+13 molar folds. Three molar censor-only groups stay in training and never count as validation groups. No overlap IDs/exactsequence/fingerprint/family/source keys.",
+  "screen_gate": "At least3 censor sourcegroups overall, minimum2 per training fold; at least5 point validationgroups, minimum3 point traininggroups. Coverage floor only, not statistical power guarantee.",
+  "optimizer": {
+    "algorithm": "scipy L-BFGS-B serial deterministic",
+    "seed": 1729,
+    "initialization": "same22-vector for all arms: intercept=point-training weighted mean, coefficients0",
+    "maxiter": 500,
+    "maxfun": 10000,
+    "maxls": 40,
+    "gtol": 1e-08,
+    "ftol": 1e-14,
+    "success_requirement": "optimizer.success true and maxabsgradient<=1e-5; finite parameters/predictions",
+    "budget": "Same ceilings, convergence ending permitted by training objective only; no heldout-based stopping"
+  },
+  "metrics": {
+    "primary": "Separate units: group→peptide→record macro MAE on heldout log10 points; main delta tail minus endpoint, negative better",
+    "secondary": "same weighted RMSE; row and peptide macro MAE/RMSE; all fold deltas and win/tie/loss",
+    "reference_contrasts": "endpoint vs points-only; tail vs points-only and mean. No incompatible NLL score ranking",
+    "decision": "Descriptive directional screening only. If primary tail<endpoint but either row or peptide MAE reverses, report fragile. Never claim confirmed mechanism/population benefit; all data already exposed. No p-value, new seeds or posthoc tuning."
+  },
+  "limits": {
+    "cpu_threads": 1,
+    "BLAS_threads": 1,
+    "wall_seconds_total": 600,
+    "peak_rss_bytes": 1500000000,
+    "maximum_regression_fits": 102,
+    "natural_runs": 1
+  },
+  "failure_rules": [
+    "Hash/independentreview/fold disjointness mismatch stops before fit",
+    "Any nonconverged/nonfinite fit aborts whole run; preserve completed folds, no aggregate success or retry",
+    "600seconds or memory cap stops all, preserve failure; no changed budget/seed/config retries",
+    "Never turn censored validation bounds into exact labels or complete hidden test evaluation"
+  ],
+  "limitations": [
+    "No left-tail empirical test",
+    "Point-label availability is selected by assay/reporting thresholds, so point OOF metrics are selection-biased and cannot measure latent censored outcomes",
+    "Censor-only molar groups never independently evaluated; source groups are operational not proven biological independence",
+    "Unrecorded/omitted assay conditions and fixed Gaussian sigma may be misspecified; threshold heterogeneity may be informative",
+    "No original-paper semantic re-verification; raw reported comparisons are explicit but censoring mechanism unverified",
+    "No biological efficacy, novelty, generation quality or submission readiness claim"
+  ],
+  "backup": "BACKUP_BLOCKED"
+}

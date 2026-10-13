@@ -1,0 +1,11 @@
+{
+  "elapsed_seconds": 1116.6571687501855,
+  "requested": 32,
+  "successful_execution": 32,
+  "failed_execution": 0,
+  "not_executed": 0,
+  "condition_inputs": [
+    "terminal class only"
+  ],
+  "no_retry_or_filter": true
+}

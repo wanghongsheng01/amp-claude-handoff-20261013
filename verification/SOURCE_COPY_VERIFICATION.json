@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "copied_files_checked": 1699,
+  "method": "SHA256 of exact inventoried source and staged copy; no glob reading of sealed data",
+  "mismatches": []
+}

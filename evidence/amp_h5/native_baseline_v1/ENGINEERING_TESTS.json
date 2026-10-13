@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": [
+    "manual_hierarchical_weights",
+    "sum_one",
+    "manual_weighted_constant",
+    "manual_group_peptide_MAE",
+    "manual_group_peptide_RMSE",
+    "manual_row_MAE",
+    "weights_not_row_or_peptide_macro",
+    "ridge_closed_form",
+    "ridge_train_only_scaling",
+    "ridge_target_shift",
+    "ridge_constant_feature",
+    "features_exact_composition",
+    "fixed17folds",
+    "steps1700",
+    "limit600s"
+  ],
+  "count": 15,
+  "no_model_constructed_or_trained": true,
+  "runner_sha256": "43f22d9376203f94a089f7ac6a8e11b4a6f82f0d524461f92811902b43f28d72"
+}

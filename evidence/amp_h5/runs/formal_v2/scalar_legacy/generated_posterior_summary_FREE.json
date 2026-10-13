@@ -1,0 +1,53 @@
+{
+  "terminal": "FREE",
+  "mu": {
+    "shape": [
+      16,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 12288,
+    "finite_elements": 12288,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -4.3971099853515625,
+    "finite_max": 7.561000347137451
+  },
+  "logsigma": {
+    "shape": [
+      16,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 12288,
+    "finite_elements": 12288,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -0.753311276435852,
+    "finite_max": 0.9082884788513184
+  },
+  "posterior_parameters": {
+    "shape": [
+      16,
+      2,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 24576,
+    "finite_elements": 24576,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -4.3971099853515625,
+    "finite_max": 7.561000347137451
+  },
+  "recorded_before_exp": true
+}

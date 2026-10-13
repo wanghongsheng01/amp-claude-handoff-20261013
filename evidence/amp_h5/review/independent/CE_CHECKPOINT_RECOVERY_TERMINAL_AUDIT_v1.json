@@ -1,0 +1,802 @@
+{
+  "created_utc": "2026-10-11T18:08:37.439443+00:00",
+  "status": "PASS_CHECKS_PENDING_INDEPENDENT_SCALE_ASSESSMENT",
+  "checks": [
+    {
+      "name": "exact_frozen_plan_contract_receipt",
+      "pass": true
+    },
+    {
+      "name": "all_preflight_plan_core_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "new_recorded_bindings_exact",
+      "pass": true
+    },
+    {
+      "name": "new_config_and_provenance_exact",
+      "pass": true
+    },
+    {
+      "name": "exact_supervisor_job_completed",
+      "pass": true
+    },
+    {
+      "name": "new_recovery_completed_zero_training_original_NE",
+      "pass": true
+    },
+    {
+      "name": "manifest_inventory_and_hashes",
+      "pass": true
+    },
+    {
+      "name": "no_fabricated_training_or_new_checkpoint_files",
+      "pass": true
+    },
+    {
+      "name": "original25_membership_and_hashes_unchanged",
+      "pass": true
+    },
+    {
+      "name": "bound_original_training_forensic41_pass",
+      "pass": true
+    },
+    {
+      "name": "strict_loaded_and_final_tensor_identity",
+      "pass": true
+    },
+    {
+      "name": "original_checkpoint_sha_and_digest_link",
+      "pass": true
+    },
+    {
+      "name": "final_input_integrity_record_clean",
+      "pass": true
+    },
+    {
+      "name": "same_runtime_singlethread_cpu_and_source_manifest",
+      "pass": true
+    },
+    {
+      "name": "original_scaler_restored_no_fit",
+      "pass": true
+    },
+    {
+      "name": "new_generation_and_outer_caps",
+      "pass": true
+    },
+    {
+      "name": "only_bound_train_dev_validated_no_test",
+      "pass": true
+    },
+    {
+      "name": "all_four_export_input_hashes_unchanged",
+      "pass": true
+    },
+    {
+      "name": "train_export_exact_identity_and_rendering",
+      "pass": true
+    },
+    {
+      "name": "dev_export_exact_identity_and_rendering",
+      "pass": true
+    },
+    {
+      "name": "train_dev_sequence_disjoint",
+      "pass": true
+    },
+    {
+      "name": "32_exact_ids_terminal_seeds",
+      "pass": true
+    },
+    {
+      "name": "32_actual_completed_requests",
+      "pass": true
+    },
+    {
+      "name": "terminal_only_no_retry_generation",
+      "pass": true
+    },
+    {
+      "name": "both_reverse_chains_complete_to_t1",
+      "pass": true
+    },
+    {
+      "name": "fixed_train_cache_finite279",
+      "pass": true
+    },
+    {
+      "name": "train_sigma_finite_positive",
+      "pass": true
+    },
+    {
+      "name": "FREE_finite_generated_arrays",
+      "pass": true
+    },
+    {
+      "name": "FREE_saved_shapes_and_posterior_exact",
+      "pass": true
+    },
+    {
+      "name": "FREE_sigma_strict_positive_finite",
+      "pass": true
+    },
+    {
+      "name": "FREE_same_seed_reparameterization_bitwise",
+      "pass": true
+    },
+    {
+      "name": "FREE_raw_J_decode_exact",
+      "pass": true
+    },
+    {
+      "name": "FREE_slot_rendering_and_status_exact",
+      "pass": true
+    },
+    {
+      "name": "AMD_finite_generated_arrays",
+      "pass": true
+    },
+    {
+      "name": "AMD_saved_shapes_and_posterior_exact",
+      "pass": true
+    },
+    {
+      "name": "AMD_sigma_strict_positive_finite",
+      "pass": true
+    },
+    {
+      "name": "AMD_same_seed_reparameterization_bitwise",
+      "pass": true
+    },
+    {
+      "name": "AMD_raw_J_decode_exact",
+      "pass": true
+    },
+    {
+      "name": "AMD_slot_rendering_and_status_exact",
+      "pass": true
+    },
+    {
+      "name": "new_artifacts_stable_during_readonly_audit",
+      "pass": true
+    },
+    {
+      "name": "original25_still_unchanged_after_audit",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "section_errors": [],
+  "facts": {
+    "raw_status": {
+      "state": "recovery_completed",
+      "scope_id": "AMP_H5_CE_CHECKPOINT_RECOVERY_V1",
+      "attempt_id": "ce_checkpoint_recovery_v1",
+      "training_updates_this_attempt": 0,
+      "original_v2_outcome": "INCOMPLETE_EXIT_CAUSE_UNKNOWN",
+      "original_v2_engineering_gate": "NOT_EVALUABLE_INTERRUPTION",
+      "PROMOTE": "HOLD",
+      "recovery_contract_sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00",
+      "recovery_plan_sha256": "3e66ffa415dc759e396d25d4ff9c445c7c855fb0e48aaf96b834d6da1b1ae1e4",
+      "independent_receipt_sha256": "0e9e4d79e34a7e56dee012a0716c240fc63e6b6dcb7492a5c28ad4274b1f3e56",
+      "script_sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+      "protocol_deviation": "One separately approved generation restart after an unclassified execution interruption. This departs from original v2 no-retry rule; original E/L/G remain NOT_EVALUABLE_INTERRUPTION. Not a t200 continuation and not proof of infrastructure cause.",
+      "generation_restart": "complete original seed422/423 chains; not t200 continuation",
+      "source_train_read_attempted": true,
+      "source_train_read_validated": true,
+      "source_dev_read_attempted": true,
+      "source_dev_read_validated": true,
+      "test_read": false,
+      "budget_seconds": {
+        "training_updates": 0,
+        "generation": 1800,
+        "outer_total": 1980
+      },
+      "phase": "closed",
+      "model_calls_authorized_only_by_new_receipt": true,
+      "setup_seconds": 1.3591534583829343,
+      "generation": {
+        "elapsed_seconds": 1115.4961699172854,
+        "requested": 32,
+        "successful_execution": 32,
+        "failed_execution": 0,
+        "not_executed": 0,
+        "condition_inputs": [
+          "terminal class only"
+        ],
+        "no_retry_or_filter": true
+      },
+      "generation_cap_exceeded": false,
+      "export_seconds": 6.814929542131722,
+      "original_inputs_unchanged": true,
+      "model_states_unchanged": true,
+      "process_seconds_before_final_status_io": 1123.995185916312,
+      "outer_cap_exceeded": false,
+      "finalization_errors": []
+    },
+    "raw_supervisor": {
+      "pid": 64952,
+      "created_utc": "2026-10-11T17:49:09.717897+00:00",
+      "state": "completed",
+      "plan_sha256": "3e66ffa415dc759e396d25d4ff9c445c7c855fb0e48aaf96b834d6da1b1ae1e4",
+      "jobs": [
+        {
+          "id": "ce_checkpoint_recovery_v1",
+          "argv": [
+            "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+            "-u",
+            "-B",
+            "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+            "--contract",
+            "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_CONTRACT_v1.json",
+            "--plan",
+            "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_PLAN_v1.json",
+            "--receipt",
+            "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_PREFLIGHT_RECEIPT_v1.json",
+            "--output",
+            "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1"
+          ],
+          "started_utc": "2026-10-11T17:49:09.718544+00:00",
+          "state": "completed",
+          "pid": 64954,
+          "exit_code": 0,
+          "seconds": 1124.2520439173095
+        }
+      ],
+      "completed_utc": "2026-10-11T18:07:54.040095+00:00"
+    },
+    "manifest_files": 20,
+    "manifest_sha256": "c9dc68bb44d0677d92f1d7aca6a8b88d8ac971b6e7c5d177221f7ad35e60f6cc",
+    "output_snapshot_start": [
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/config.json",
+        "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+        "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+        "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+        "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+        "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz",
+        "sha256": "fd987de8fec498386f414b3c64db0512f916253d4f294152c97a095eb6d30722"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+        "sha256": "f7899543f330e1fed829e592269c09c9b747e45abbffe2ec251f3e69c37fae0d"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_summary_AMD.json",
+        "sha256": "08c90bf0b384b549fcb5fb369eda64b551252a78a2bc62133518dac1daa5d380"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_summary_FREE.json",
+        "sha256": "2d3f9848d0dc6f9b0b2c2ad030db3ae04df79e5a6ce34b5610f5b0040d162be0"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generation_progress.jsonl",
+        "sha256": "a484e49899fbd0eba8af9147c122d5c2e9175158e9258fd17e0d8becbcf3fbb8"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generation_summary.json",
+        "sha256": "bc5c1919ec5868462cd1195e7f5a74071d57db6f46b4f5fd3e2a9094ad6b6128"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/input_integrity_after.json",
+        "sha256": "055fc2bef3746a6f39b9c6061c205a62f770f00ada113dc170793af1f79c34fc"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/loaded_state_identity.json",
+        "sha256": "fa6c248213a8b1bf1ad2bead2a03e791491d2f70d25be9d2913392619fbf2123"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/model_identity_after.json",
+        "sha256": "bc476d433aaed0ae3870317c14cd9f2bbd6e238ff9a81cb1a8eb0e8a99806f2c"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/phase_provenance.json",
+        "sha256": "f62780024a12709c5b872a6c0d52039c86a2eb9d2d6981e2b1b767a760faa676"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/recovery_contract.json",
+        "sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/restored_scaler_identity.json",
+        "sha256": "4bb093dc1ea42adf1d08a18d36ee162ddef6422de8eee6e3733b8b88405ebca0"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/runtime_and_source.json",
+        "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/status.json",
+        "sha256": "41d71b8d183cc2869cdd8c77dbdd9d5d5d864340b6246a63647ac5d79455dbc5"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+        "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/manifest.json",
+        "sha256": "c9dc68bb44d0677d92f1d7aca6a8b88d8ac971b6e7c5d177221f7ad35e60f6cc"
+      }
+    ],
+    "training_provenance": {
+      "directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+      "forensic_sha256": "af7ded6832371e2365801f7c5adfb9e3bc978bd151c822087a05480ab4f7fcfa",
+      "updates": {
+        "VAE": 1000,
+        "DDPM": 1000
+      },
+      "new_training_updates": 0,
+      "original_status_preserved": "running"
+    },
+    "costs": {
+      "original_training_stage_subtotal": 1743.3780911662616,
+      "original_generation_lower_bound": 451.9357427917421,
+      "original_exact_total": null,
+      "recovery_setup": 1.3591534583829343,
+      "recovery_generation": 1115.4961699172854,
+      "recovery_export": 6.814929542131722,
+      "recovery_process_before_final_io": 1123.995185916312,
+      "recovery_supervisor_outer": 1124.2520439173095,
+      "additional_cost_separate": true
+    },
+    "scales": {
+      "pooled_train": {
+        "records": 279,
+        "mu": {
+          "shape": [
+            279,
+            16,
+            48
+          ],
+          "elements": 214272,
+          "finite_elements": 214272,
+          "nan": 0,
+          "positive_inf": 0,
+          "negative_inf": 0,
+          "min": -4.517267227172852,
+          "max": 5.389507293701172,
+          "mean": 0.01368275461642464,
+          "std": 1.2358883058881487,
+          "rms": 1.235964045757388
+        },
+        "logsigma": {
+          "shape": [
+            279,
+            16,
+            48
+          ],
+          "elements": 214272,
+          "finite_elements": 214272,
+          "nan": 0,
+          "positive_inf": 0,
+          "negative_inf": 0,
+          "min": -0.2593546509742737,
+          "max": 0.22645030915737152,
+          "mean": -0.013993807936512519,
+          "std": 0.037680225554925034,
+          "rms": 0.040194851143324634
+        },
+        "sigma": {
+          "shape": [
+            279,
+            16,
+            48
+          ],
+          "elements": 214272,
+          "finite_elements": 214272,
+          "nan": 0,
+          "positive_inf": 0,
+          "negative_inf": 0,
+          "min": 0.7715493440628052,
+          "max": 1.2541402578353882,
+          "mean": 0.9868027245878435,
+          "std": 0.03712422081370874,
+          "rms": 0.9875007974806987
+        },
+        "analytic_qz_mean": 0.01368275461642464,
+        "analytic_qz_rms": 1.5820129416126743,
+        "analytic_qz_std": 1.581953769759437
+      },
+      "terminal_train": {
+        "FREE": {
+          "records": 126,
+          "mu": {
+            "shape": [
+              126,
+              16,
+              48
+            ],
+            "elements": 96768,
+            "finite_elements": 96768,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -4.517267227172852,
+            "max": 5.377812385559082,
+            "mean": -0.005883578442172192,
+            "std": 1.2554146085068314,
+            "rms": 1.2554283953088068
+          },
+          "logsigma": {
+            "shape": [
+              126,
+              16,
+              48
+            ],
+            "elements": 96768,
+            "finite_elements": 96768,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -0.2593546509742737,
+            "max": 0.22645030915737152,
+            "mean": -0.015730436206383043,
+            "std": 0.040081160007311246,
+            "rms": 0.0430574733440639
+          },
+          "sigma": {
+            "shape": [
+              126,
+              16,
+              48
+            ],
+            "elements": 96768,
+            "finite_elements": 96768,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.7715493440628052,
+            "max": 1.2541402578353882,
+            "mean": 0.9851828650318865,
+            "std": 0.03946915955954169,
+            "rms": 0.9859731700755213
+          },
+          "analytic_qz_mean": -0.005883578442172192,
+          "analytic_qz_rms": 1.596321881030395,
+          "analytic_qz_std": 1.5963110384136086
+        },
+        "AMD": {
+          "records": 153,
+          "mu": {
+            "shape": [
+              153,
+              16,
+              48
+            ],
+            "elements": 117504,
+            "finite_elements": 117504,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -4.4912109375,
+            "max": 5.389507293701172,
+            "mean": 0.029796205370563208,
+            "std": 1.2193373701598271,
+            "rms": 1.2197013716983218
+          },
+          "logsigma": {
+            "shape": [
+              153,
+              16,
+              48
+            ],
+            "elements": 117504,
+            "finite_elements": 117504,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -0.24300900101661682,
+            "max": 0.22155611217021942,
+            "mean": -0.012563643478972089,
+            "std": 0.03551784665213167,
+            "rms": 0.03767442857258831
+          },
+          "sigma": {
+            "shape": [
+              153,
+              16,
+              48
+            ],
+            "elements": 117504,
+            "finite_elements": 117504,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.7842644453048706,
+            "max": 1.2480173110961914,
+            "mean": 0.9881367265751021,
+            "std": 0.03501936383773545,
+            "rms": 0.9887570714033644
+          },
+          "analytic_qz_mean": 0.029796205370563208,
+          "analytic_qz_rms": 1.5701311990954532,
+          "analytic_qz_std": 1.569848453997532
+        }
+      },
+      "generated": {
+        "FREE": {
+          "mu": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -6.724516868591309,
+            "max": 6.2989325523376465,
+            "mean": 0.042291869454317066,
+            "std": 1.120713738379338,
+            "rms": 1.1215114291054427
+          },
+          "logsigma": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -0.47368448972702026,
+            "max": 0.47518107295036316,
+            "mean": -0.013584629013634435,
+            "std": 0.06435434500109374,
+            "rms": 0.0657725160379157
+          },
+          "sigma": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.6227036714553833,
+            "max": 1.6083053350448608,
+            "mean": 0.9885493201921539,
+            "std": 0.06374214977430318,
+            "rms": 0.9906022512139872
+          },
+          "z": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -6.888665676116943,
+            "max": 6.751852035522461,
+            "mean": 0.03672767211567892,
+            "std": 1.4991173335022923,
+            "rms": 1.4995671713884842
+          },
+          "decoder_raw": {
+            "shape": [
+              16,
+              21,
+              48
+            ],
+            "elements": 16128,
+            "finite_elements": 16128,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -8.16792106628418,
+            "max": 12.288658142089844,
+            "mean": -0.22062211249061556,
+            "std": 3.1312115516369645,
+            "rms": 3.1389743384781896
+          },
+          "z_rms_ratio_to_pooled_train": 0.9478855273205626,
+          "z_rms_ratio_to_terminal_train": 0.9393889723672412,
+          "per_request_z_rms": [
+            1.6515139258259035,
+            1.3702275262958556,
+            2.026810469005359,
+            1.2877145651018127,
+            1.8704132918332177,
+            1.5307429755607027,
+            1.3429545103139588,
+            1.3521376527161468,
+            1.2988856776966715,
+            1.5821218737265885,
+            1.3857300413620242,
+            1.3351253191456525,
+            1.363331292068413,
+            1.4136515043887903,
+            1.5245420551488715,
+            1.4353678198838704
+          ]
+        },
+        "AMD": {
+          "mu": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -10.114991188049316,
+            "max": 6.258078098297119,
+            "mean": -0.19142439386832066,
+            "std": 1.3817766363110149,
+            "rms": 1.3949731077059644
+          },
+          "logsigma": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -2.1997923851013184,
+            "max": 1.693267583847046,
+            "mean": -0.019403318961696597,
+            "std": 0.19482828538695718,
+            "rms": 0.19579210804716046
+          },
+          "sigma": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.11082616448402405,
+            "max": 5.437218189239502,
+            "mean": 0.9989182354293007,
+            "std": 0.2086868933248089,
+            "rms": 1.0204841304590424
+          },
+          "z": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -10.081106185913086,
+            "max": 6.679760932922363,
+            "mean": -0.18275766721721234,
+            "std": 1.6953785587428756,
+            "rms": 1.7052005226282765
+          },
+          "decoder_raw": {
+            "shape": [
+              16,
+              21,
+              48
+            ],
+            "elements": 16128,
+            "finite_elements": 16128,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -8.349140167236328,
+            "max": 12.497480392456055,
+            "mean": -0.22321691580503875,
+            "std": 3.2152433122788966,
+            "rms": 3.222982368654176
+          },
+          "z_rms_ratio_to_pooled_train": 1.0778676190158263,
+          "z_rms_ratio_to_terminal_train": 1.0860242275362952,
+          "per_request_z_rms": [
+            1.2833187562195814,
+            1.4652646462726164,
+            1.9823477960767153,
+            1.6266621030636395,
+            1.4964874417044947,
+            1.6784459470364905,
+            1.968707019055905,
+            2.052545144023489,
+            1.4023727197360647,
+            1.3767075775123394,
+            1.4032683756099018,
+            3.1458233919571894,
+            1.3530180549828035,
+            1.4476210909146965,
+            1.3118107177386364,
+            1.278219433868802
+          ]
+        }
+      }
+    },
+    "slot_status_counts": {
+      "ok": 31,
+      "no_eos_at_limit": 1
+    },
+    "requested_slots": 32,
+    "failure_evidence": {},
+    "raw_slot_status_inventory": {
+      "ok": 31,
+      "no_eos_at_limit": 1
+    }
+  },
+  "scope": "RECOVERY_ENGINEERING_ONLY",
+  "generation_attempt_id": "ce_checkpoint_recovery_v1",
+  "generation_attempt_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1",
+  "training_source_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+  "original_v2_engineering_gate": "NOT_EVALUABLE_INTERRUPTION",
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD",
+  "further_arms_authorized": false,
+  "audit_script_sha256": "9e1acf1cbfaeafe1182acec125a3186bfbf71470f2d2d528dde392e5ee9bc727",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/status.json",
+      "sha256": "41d71b8d183cc2869cdd8c77dbdd9d5d5d864340b6246a63647ac5d79455dbc5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.pt",
+      "sha256": "e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1"
+    }
+  ],
+  "reviewer_actions": {
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "new_generation_requests": 0,
+    "test37_reads": 0,
+    "scope": "Saved tensors and reports; two hash-bound cohort CSVs for export identity; local RNG/arithmetic only; no model or optimizer deserialization"
+  },
+  "limitations": [
+    "Original interruption and protocol deviation remain; no retroactive original E/L/G success.",
+    "Numeric scale comparisons are descriptive and not independent-draw distributional tests; no posthoc quality threshold.",
+    "No-test evidence is input/config/source/output audit, not OS file-access tracing.",
+    "This automated audit requires separate reviewer scale judgment and does not authorize further arms."
+  ]
+}

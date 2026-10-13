@@ -1,0 +1,431 @@
+{
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/A/TRAIN_RESULT.json",
+      "sha256": "e2999d9c644449c42c7c1dbbaaeaa172328685266c5d12cc820cb00f6de894e3",
+      "bytes": 329
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/A/final.pt",
+      "sha256": "b1e360887374c6a0d5daf3a1ae1695b42ceab4a6483c8a3872bed4f9adf0e4f9",
+      "bytes": 821396
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/A/initial.pt",
+      "sha256": "35034134b657d5ad76115cf222d72999ea8a74b9598a9823f6a4c27b59442751",
+      "bytes": 275823
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/A/steps.jsonl",
+      "sha256": "3f47ae67a25c0f50ebbab4f0fb0910e62f200ed0cb7fad300ab9d31638e89a14",
+      "bytes": 842310
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/ADMISSION.json",
+      "sha256": "4a1f9b95bda2b32f51498ff750e826bade5dfbe8fc95b1ad9d6e32019dc7784b",
+      "bytes": 1343
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/B/TRAIN_RESULT.json",
+      "sha256": "c9425792d21877ff7706e5a0628b970db8858c484d370a44a958f6e226aece98",
+      "bytes": 328
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/B/final.pt",
+      "sha256": "f22a7f4e084063c6fa905901e9740496007ad17c5f970efa992c9e4888f8d188",
+      "bytes": 821396
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/B/initial.pt",
+      "sha256": "35034134b657d5ad76115cf222d72999ea8a74b9598a9823f6a4c27b59442751",
+      "bytes": 275823
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/B/steps.jsonl",
+      "sha256": "077318671d0faad296e69d2ffdb57744e3d91c03801825aa253b43ea39609094",
+      "bytes": 903421
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/BATCHES.json",
+      "sha256": "7cdb79099d1c705019f7934fab0926494bc471c609e973f48cd48619bab53064",
+      "bytes": 274790
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/C/TRAIN_RESULT.json",
+      "sha256": "d49341e2214a84f26e5a9e5da5a49d05bb9f5a77f4b1c012067ca3ed7e63b1ef",
+      "bytes": 329
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/C/final.pt",
+      "sha256": "da3d364a295161e31320d3a4b4f9bc9ab8dc11a160aa0ec9696abe8f0f2f9114",
+      "bytes": 772244
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/C/initial.pt",
+      "sha256": "e0f3ea2883526175691e6462d6bbbbc5a5ca2df6258dade047d76009e24c1119",
+      "bytes": 259439
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/C/steps.jsonl",
+      "sha256": "42d4a4eaedfbd5e15822e3fc2caa50519b34c2ebab3b8169be5f329ca0dc0720",
+      "bytes": 655387
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/COUNTS.json",
+      "sha256": "f1f2b971446ae15f3a216c3dc43798c915af1baf2adccc04d79a9bbf4644e0d8",
+      "bytes": 342
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/DEVELOPMENT.json",
+      "sha256": "69d9ea41acea8d59756a0e35fadff34576f5294fe853f066a8a3ea1864e0f845",
+      "bytes": 417183
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/GENERATION_METRICS.json",
+      "sha256": "bbea5acdfc795c0d55679755d28f00d544adffb05b2da4391980badf04c53ad5",
+      "bytes": 315954
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/GENERATION_SLOTS.json",
+      "sha256": "5c647c49e8b7702ac87cfc082f3aea97d4b76fc3dd96bf8b5fb26f5ab7ffcf5a",
+      "bytes": 51835
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/INDEPENDENT_PREPARATION_PARITY.json",
+      "sha256": "9792b34332fbb08e1e8474bcb521f6f9540162a802693710d5ff8ebc23e34ebe",
+      "bytes": 637
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/INITIAL_IDENTITY.pt",
+      "sha256": "74416baa1da1d4dd4e07f92322a5d1cb824c0490b75e17ee447933f681c9f21a",
+      "bytes": 11854
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/INITIAL_MODELS.pt",
+      "sha256": "2c7c38397dc24b4e61b5af6301c945afc43e3c286df3a1fb2cd0b52507cdd0df",
+      "bytes": 794242
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/INITIAL_SEAL.json",
+      "sha256": "9cd6748e4df8d8a678ddd7cec10e5e9f1291a72ad7c7c8237046f02533b9beb7",
+      "bytes": 657
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/PREPARATION_SEAL.json",
+      "sha256": "7e694f255efd3e144799b3bbdfd9d4cbd63278e196d3f830550f76312be0278c",
+      "bytes": 7836
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/RANDOM_BANKS.npz",
+      "sha256": "41203d7edd79ba04c88f908aba9921c218706d3ea9b28ddd72bef797db66bcac",
+      "bytes": 2289580
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/SUMMARY.json",
+      "sha256": "5292afb125c31c85c5734f1bc5bd6cd528b0f535a6bb4916cdfa40157394300a",
+      "bytes": 2732
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/TRAINING.json",
+      "sha256": "ce6de13b2978c16c9bf2506310abda33a7144570b2ed4e1794c56856c1b34e47",
+      "bytes": 1073
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1422_free.npz",
+      "sha256": "a755abda99d34796d63c3d9919a9cc2f5798069ce17715bf3c2325e44eca5546",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1422_teacher.npz",
+      "sha256": "9d7a8c7ebc40a6f43198eec99d9c66923dc9fa0a61b812d6633bfdd35041800c",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1423_free.npz",
+      "sha256": "b2d15854661c2f004dbe3fa24b314225382e38e801b164696b78781b0f467aa0",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1423_teacher.npz",
+      "sha256": "5c7afc0c288713f778a41f7cfcb348ca15a80dd6a142621576e4c79b9475e6ae",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1424_free.npz",
+      "sha256": "5940180ff16028fe82001f8374032e650d10d78188a2f5d97631ddf276030a01",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1424_teacher.npz",
+      "sha256": "39a375a5438f8e7eabff87dd760ea21f19cdaa838b659e003963a813aedffd09",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1425_free.npz",
+      "sha256": "8bdacdeafbfc413764635cce07a3fc4413ae2dc83e36adbcf1550f2fa6cbba27",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1425_teacher.npz",
+      "sha256": "2d84f0c3a06cc694835fbf1f587663432f3f519431315676de4c4936973e0901",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1426_free.npz",
+      "sha256": "271a0682bdd872651ce6c5af85c2c7701e043ea79ee369e0cf9182e59795dd51",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1426_teacher.npz",
+      "sha256": "02fc485749f52d9f600159106edad05af1688ca55d6351ce9c217f6baaf67d9c",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1427_free.npz",
+      "sha256": "5c07a89ffb46f892f4ed42bd850ac38b72fd3de73b1159384d18be5c00e827a5",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1427_teacher.npz",
+      "sha256": "00634f2daf8e496cd43f5c5a16cd69e1ecafeade5f187d1616db99ff69af4aff",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1428_free.npz",
+      "sha256": "2804e7e1af88960262356c2931e1a7fa3e43093677be9a40a10aa7cc351a2675",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1428_teacher.npz",
+      "sha256": "2ef593dae0f59239aa62b250223361ac9c5422201eba0430c2cf5ef6c6fe568e",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1429_free.npz",
+      "sha256": "ad98333d1e523155545be2d91d6d9582c13a4332611ba1a3a242607177572497",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_S1429_teacher.npz",
+      "sha256": "50862249383308a0c2948cc9229e058a39c143d4c5d9b9a4e7b1163732b233a8",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_generation.npz",
+      "sha256": "8d1eff3e7a38da6933989b6ae198b2cb00e628e9fedcf73af015a6b115f77e75",
+      "bytes": 298479
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1422_free.npz",
+      "sha256": "8325347c8f2d73a71a5720429ffd78e88cfb5e5eb086d00d1a7ff0dad62c3bd6",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1422_teacher.npz",
+      "sha256": "28a0fb321c261d3873a7405d3d9121b4ffa7de6e71a87470b078641f08b23cfc",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1423_free.npz",
+      "sha256": "58bbbeced0071c269a33695cf6d80a74730c28e561b901e14a8a1bc779096984",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1423_teacher.npz",
+      "sha256": "7892e43d170315120a0187319415bf8a606b933f2b84373fb1b3e98e7ba48af6",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1424_free.npz",
+      "sha256": "486683910ad71c5396dd08c6aa2d5772012a2244f817f58e536d5df1a8d6ea30",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1424_teacher.npz",
+      "sha256": "b29209997b6f1a7b7a3b136ffac0650088baedf68f0fb94b8a66d4a08536eba1",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1425_free.npz",
+      "sha256": "a92dbb22ac4025a6ff3ce35179c19efd2196fc6b3bdf6ddeb9f3ba235fe6c44f",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1425_teacher.npz",
+      "sha256": "65f9de58260d1de5e037c6de98da1cee5202e8e759e0903699455ca641773848",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1426_free.npz",
+      "sha256": "3539a4955a42ff6f61c04902f305ff4e254a760b623f17c94fe1af52ab9039b3",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1426_teacher.npz",
+      "sha256": "337908d95380d32947df17a676b474e2bbf6725127b60b2786964b94998ee04e",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1427_free.npz",
+      "sha256": "4be6b475a46a26d784d72af5f20b71f0e512dbb222906a17c305ebebd0ba4ce0",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1427_teacher.npz",
+      "sha256": "53c2addb4c5acd2fe98e0fd130d5a82449afed70983bc86de318aabd5ec200ce",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1428_free.npz",
+      "sha256": "1a198a1390e1423ac6909399f3fdd45d8143b73411dd4352417aec8538d87bbf",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1428_teacher.npz",
+      "sha256": "398ba7e439ae2173fe777b57a3cb76687a3bc33c95e70db2d95c248fb59a9840",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1429_free.npz",
+      "sha256": "b8a9f8b506e71ae1ccd34d203ddebfbda3962e1f49256e14d9d7160fbd5f89be",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mismatch_S1429_teacher.npz",
+      "sha256": "81a9c62ee2868aabc842159ba159a5fed09e00e974a0371a75b559eade16c98a",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mu_free.npz",
+      "sha256": "c943e2875d54a2b007f75dd286dd442256483e90d8d55fafb023b44b45f14240",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_mu_teacher.npz",
+      "sha256": "51fc19d0328952aa32091e265348af57c7b56aa09cfb7d8d37cf2dd21e8a7dab",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_zero_free.npz",
+      "sha256": "085f646df72a7e28626b4b5c8a01b79e1cb1574b58d13c988b6544542e61643f",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/A_zero_teacher.npz",
+      "sha256": "d9f8b813f1d73ef8d5e9ec94fe67185c8d45ab5aa0e39f7a691e6d60428252bb",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1422_free.npz",
+      "sha256": "28eb85af63099082f730c623d0d10c2f224d143080508014528917c287f3c7a8",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1422_teacher.npz",
+      "sha256": "b36aa2ff4fe69bcc01c9a558bd848f4267ef0efbad58b28fc0d1c9aae492143e",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1423_free.npz",
+      "sha256": "f026809e6fb2ebb641fc97a59b0938c697bc8af6bfb61c6f07034f100e750cf3",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1423_teacher.npz",
+      "sha256": "714d92d2675f487d1bf0a388e9b7a81106978e9d94fc1c8b871ce9aa77d299a1",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1424_free.npz",
+      "sha256": "e989d8cfd3e0ecb42896f2c7b76808bb7a2f7b043daa163d559ad2265a9da8f8",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1424_teacher.npz",
+      "sha256": "bd84de1531eb1df7e3e0b6972eed0aa15234ee9f171bdd3e72063b97e7dbfcb1",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1425_free.npz",
+      "sha256": "9263b3c51e8ff2501faa6d1a6444d0dc2037093a072c86b6e18d9a866f209740",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1425_teacher.npz",
+      "sha256": "4d3951ea2b8dc1ec48fc6278f1c8df7d3681c3cda435ae3df52bb8b309523f38",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1426_free.npz",
+      "sha256": "a95db3bccf52d31c439f8ed51489c1418c82c5a3360ee336c24ce046f81c8f21",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1426_teacher.npz",
+      "sha256": "251e70ad60fa9c05e2588c97b6dbf5be516b4e411bc5b2dd419354888c950271",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1427_free.npz",
+      "sha256": "e91faa7a8c52ba7cc4916ff06e140cc179bf162a84926329428b409cdd0ee49c",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1427_teacher.npz",
+      "sha256": "bdd3d2f4effabaf3ea2ad6b8d7bcab0c113805120d5724decf4a0f41eed91d42",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1428_free.npz",
+      "sha256": "52569c7db87cf8de284c68e0e4ff882f1f212e083a2f64e3d2456c571b0d5a1f",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1428_teacher.npz",
+      "sha256": "8b2a526a2969f8eec6f310ed64c6c36c1d811cb386c4ebc327470cda39ebba91",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1429_free.npz",
+      "sha256": "9b71dd0a6054b5b7d5434684074ce2a1da8efa5f719dca97ab62d6d87c298963",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_S1429_teacher.npz",
+      "sha256": "af93c34a164eb9942468e862808db52856c8026861f0a90a2cc023f62ea33be2",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_generation.npz",
+      "sha256": "fe016250823d2035a4e6bda5e95dcef8f3e322a3823474467556d9dc30b056a9",
+      "bytes": 298479
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_mu_free.npz",
+      "sha256": "5e31f152d6b0973be2f46a6b5bf61410ac6bd5cf09916083e525cc4a5b0b8bb0",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/B_mu_teacher.npz",
+      "sha256": "16503017d45d1ddd9452742178bee9c238c36690b3303a875b4b892fbdec7521",
+      "bytes": 381805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/C_generation.npz",
+      "sha256": "4c740ad782292d6d2ab42b2a98b67a39ad4409ba5ca4d0eefee24ed6e4208b11",
+      "bytes": 298479
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/C_plain_free.npz",
+      "sha256": "85c74cf5572076bddc16bd489b9a4510f6a1b4dbf79365ef855dcd4b9a68a945",
+      "bytes": 373553
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/C_plain_teacher.npz",
+      "sha256": "5a150d0e55cb86fb54a8d5c8e282deb1fae0f2befd6b7fd52f72e40cae3a2e6a",
+      "bytes": 381805
+    }
+  ],
+  "input_hashes_verified_at_closure": true,
+  "receipt_sha256": "1dfacf437109edb517133c3b0a638d12e80a6a31e478546adc31fbf1c7a941f9"
+}

@@ -1,0 +1,35 @@
+{
+  "identity": "AMP_H5_COORDINATE_AUDIT",
+  "files": [
+    {
+      "path": "COORDINATE_AUDIT.zh.md",
+      "bytes": 7897,
+      "sha256": "0e1f7c1f9cf90bff6a2e40bc2eaaa4fb6646453bf10f66c37724948bde20c571"
+    },
+    {
+      "path": "SAVED_NUMERIC_AUDIT.json",
+      "bytes": 29252,
+      "sha256": "bebf491465f43bcde6739a121698b682d7ac05ed60614dcb7876d225116c8bf9"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 2162,
+      "sha256": "0c72159e70e391f3d2e5ad9c429271fac873d6747cbca40ee0436f1e1ecc8e81"
+    },
+    {
+      "path": "audit_saved_numbers.py",
+      "bytes": 5178,
+      "sha256": "df8d0f1b56d59da893fe3cab28eaaad5a4bae236f6cd70be31839f81d2ca25f3"
+    },
+    {
+      "path": "numeric_console.json",
+      "bytes": 23304,
+      "sha256": "924f36057a5fc72e54fc572a11da373a20412a100caa112d0812f0a35a863f93"
+    }
+  ],
+  "no_model_loads": true,
+  "no_generation": true,
+  "no_training": true,
+  "no_test_reads": true,
+  "scope": "static source and saved-tensor algebra only"
+}

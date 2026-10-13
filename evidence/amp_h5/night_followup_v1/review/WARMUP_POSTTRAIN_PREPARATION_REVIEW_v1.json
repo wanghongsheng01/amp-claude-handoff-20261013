@@ -1,0 +1,215 @@
+{
+  "status": "STATIC_PREPARATION_PASS_NOT_EXECUTION_AUTHORIZATION",
+  "scope_id": "AMP_H5_WARMUP_POSTTRAIN_PREPARATION_REVIEW_V1",
+  "authorized": false,
+  "blocked": false,
+  "created_utc": "2026-10-11T21:29:38.978633+00:00",
+  "checks": [
+    {
+      "check": "Both sealed candidate manifests and all16 referenced members SHA/bytes verified",
+      "pass": true
+    },
+    {
+      "check": "Exact model/scorer/paired-guard contracts bind each other and same reference CSV",
+      "pass": true
+    },
+    {
+      "check": "Unchanged slot/reference/code-only-bootstrap functions proved by AST comparison",
+      "pass": true
+    },
+    {
+      "check": "Decode/J algorithm unchanged after explicitly removing old mean prediction parity and legacy parameter",
+      "pass": true
+    },
+    {
+      "check": "New final1000 checkpoint strict load with tensor digest; fresh train279/dev41 q in11batches",
+      "pass": true
+    },
+    {
+      "check": "Original eight epsilon files/seal/tensor+saved generator states checked; no S-bank redraw",
+      "pass": true
+    },
+    {
+      "check": "Work encoder internal320 z discarded under restored RNG;99 fixed M/S decoder batches",
+      "pass": true
+    },
+    {
+      "check": "2880 slots retained including empty/cap/failed; first M32 retained finite/time pilot only",
+      "pass": true
+    },
+    {
+      "check": "Inner120 closing after manifest plus external180; failure/timeout no retry",
+      "pass": true
+    },
+    {
+      "check": "Late training requires fixed1000, VAE1920, supervisor actual2100 and independent bound PASS",
+      "pass": true
+    },
+    {
+      "check": "Scorer byte-identical to audited baseline except SCOPE; same300/360/missingness semantics",
+      "pass": true
+    },
+    {
+      "check": "Paired guard integer statistics validate all320x9 and exact41sequence/8draw weights",
+      "pass": true
+    },
+    {
+      "check": "Only four prelocked success guards; scorer old M-minus-S screen explicitly descriptive",
+      "pass": true
+    },
+    {
+      "check": "Paired guard requires both independent postflights and same reference;30/60 caps",
+      "pass": true
+    },
+    {
+      "check": "Future exact plan, late binding, execution receipt and all output roots absent",
+      "pass": true
+    }
+  ],
+  "blocking_findings": [],
+  "proof_scope": {
+    "same_export_functions": [
+      "allocated_rows",
+      "bits_equal",
+      "build_reference",
+      "canonical",
+      "csv_write",
+      "dump",
+      "init_runtime_code_only",
+      "interrupt",
+      "main",
+      "read",
+      "sha",
+      "slot_id",
+      "slot_intent",
+      "tensor_digest",
+      "verify",
+      "write_rows"
+    ],
+    "changed_export_functions": [
+      "decode_batch",
+      "epsilon_banks",
+      "execute",
+      "validate_request"
+    ],
+    "new_export_functions": [
+      "nested_bindings",
+      "validate_late"
+    ],
+    "decode_AST_proof": "Exact after removal of legacy argument and mode-M historical prediction equality block; expected because new weights are evaluated.",
+    "scorer_only_change": "SCOPE constant; exact text equality after one replacement",
+    "author_tests": "49 model preparation and22 guard checks inspected as bound reports, not rerun."
+  },
+  "review_attempt_disclosure": {
+    "initial_static_check": "Direct decode_batch AST equality stopped before any report was written, because it included the documented removal of historical M parity. Diff inspected; narrowed proof now compares intended unchanged decode/J body.",
+    "model_failure": false,
+    "candidate_files_modified": false,
+    "first_check_wall_seconds": "not measured; unknown, not zero",
+    "no_tests_or_natural_execution": true
+  },
+  "future_training_postflight_interface": {
+    "status": "PASS",
+    "blocked": false,
+    "source_bindings": "Absolute path+sha256 for final checkpoint, checkpoint metadata, vae_training_summary, training status, final supervisor status and warmup execution CONTRACT; late payload separately binds postflight itself.",
+    "required_facts": [
+      "1000 updates/fixed endpoint",
+      "all paired trace guards and first unweighted forward pass",
+      "single prelocked beta schedule only",
+      "stage<=1920 and actual completed supervisor exit0 wall<=2100",
+      "initial/scaler/runtime/source integrity; no DDPM/generation/evaluation"
+    ],
+    "not_read_now": "No live warmup outputs/checkpoints opened"
+  },
+  "saved_output_audit_template": {
+    "training": [
+      "Final supervisor/manifest actual wall/no timeout; early completed status is insufficient",
+      "1000 update logs,beta min(1,(step-1)/200),batch/RNG/LR pairing,initial/scaler identity,10monitor events",
+      "Hash-bind finalpt/meta without extra model forward; preserve failures/unknown timings"
+    ],
+    "RMS": [
+      "Exact late payload/newplan/receipt bind successful training and newcheckpoint",
+      "11encoders/320discarded internalz/99decoders/2880slots/reference320 identical bytes",
+      "Saved q320 dtype/shape/finite positive sigma; originalepsilon; Mz=mu and Sz=mu+eps*sigma byte equality; all99raw/J/token/length arrays with no forward",
+      "Original bankfile/tensor/state identity; global RNG restoration evidence; no newdraws",
+      "Final input/model integrity; innerclosing<=120/supervisor<=180 exit0; no oldMprediction equality"
+    ],
+    "score_and_guard": [
+      "Model postflight exactcontract/manifest; scorer300/360 final evidence",
+      "Recount full320x9 core and41dev equal-sequence fractions, report pooledmicro separately; empties/caps/property missingness retained",
+      "Exact Sgain>=1/20,M nondecrease,MlengthMAE<=0,SAA macro nondecrease;gap only descriptive",
+      "Same referencesupport/rows/seeds; guard30/60 plusclosing; no incomplete denominator filtering",
+      "Freeze outcome without autoDDPM/generation/retry or schedule/seedsearch"
+    ]
+  },
+  "interpretation": "One known-method reconstruction robustness falsification with reused dev and fixed computational draws; no causal identification, innovation, terminal-only generation or AMP activity evidence. Original E/L/G remain NE; PROMOTE HOLD.",
+  "nonblocking_precision_notes": [
+    "Budget included text says dev encoding; actual code/model_calls/reconstruction_semantics include all320/11encoders under totalcap.",
+    "Old scorer INVESTMENT_SCREEN is descriptive; paired four-guard reader alone defines warmup resource success.",
+    "Path-name tests are not full sandboxes; exact bindings and read evidence establish no-test scope."
+  ],
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/MANIFEST.json",
+      "sha256": "3bd8d72445c0d45b9b2aa84eb6d4e4b4ce589357da43573ce60db64bc92329f0",
+      "bytes": 2333
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/CONTRACT.json",
+      "sha256": "47d69cf0d895e5dc960c6043a09e22e48f1aba126347e46945f7f03222c6d9b1",
+      "bytes": 18974
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/export_postwarmup_rms_v1.py",
+      "sha256": "808ba5f7a4a6c735ecab0b2745403c29bbf49ec9efe669900b09e3e579fccf86",
+      "bytes": 31719
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/SYNTHETIC_CHECKS.json",
+      "sha256": "f5dd0f30b9dcf6680f37bca309d476ea7dcb902b53c8eb0098520dbaa762eb5e",
+      "bytes": 577
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/MANIFEST.json",
+      "sha256": "349a898ada91ba972e83cc5a7674db1f382050f73340339ca253f4a57893d4f0",
+      "bytes": 2915
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/SCORING_CONTRACT.json",
+      "sha256": "e9c9b8a782b6c67ee732dc983e6a01692f94b574d520fbcb9231e9a2a9360fed",
+      "bytes": 7225
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/PAIRED_GUARD_CONTRACT.json",
+      "sha256": "5b1b2b6e63d62384b3dda7ce313cd6674d59865fdfcfde071e138415a5ca0f37",
+      "bytes": 7136
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+      "sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+      "bytes": 27857
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/paired_guard_v1.py",
+      "sha256": "3bb4d3a3cd2b8247de8540ce5e5a8cabeb6992d51c0dd6b011f61ac6b396c2e2",
+      "bytes": 15404
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "sha256": "67254873fcff4dfb660bca8f729798dfdd0873b7f9d6012f0f36b0320dacf036",
+      "bytes": 15962
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+      "sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194",
+      "bytes": 4360
+    }
+  ],
+  "model_calls": 0,
+  "new_RNG_calls": 0,
+  "synthetic_test_executions": 0,
+  "natural_scoring_executions": 0,
+  "cohort_or_tensor_array_reads": 0,
+  "test_reads": 0,
+  "final_hash_AST_verification_seconds_before_report_io": 0.027273082999999997,
+  "total_human_and_tool_review_wall_seconds": null
+}

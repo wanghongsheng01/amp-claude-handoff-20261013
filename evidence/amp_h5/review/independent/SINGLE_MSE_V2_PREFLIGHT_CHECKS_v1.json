@@ -1,0 +1,135 @@
+{
+  "created_utc": "2026-10-11T18:15:38.201328+00:00",
+  "status": "HOLD",
+  "checks": [
+    {
+      "name": "exact_final_plan",
+      "pass": true
+    },
+    {
+      "name": "all19_binding_hashes",
+      "pass": true
+    },
+    {
+      "name": "unique_canonical_bindings",
+      "pass": true
+    },
+    {
+      "name": "unchanged_runner",
+      "pass": true
+    },
+    {
+      "name": "unchanged_frozen_MSE_config",
+      "pass": true
+    },
+    {
+      "name": "CE_MSE_configs_only_arm_diff",
+      "pass": true
+    },
+    {
+      "name": "same_reviewed_supervisor_launcher",
+      "pass": true
+    },
+    {
+      "name": "eligible_scoped_engineering_only",
+      "pass": true
+    },
+    {
+      "name": "postflight35_source_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "one_exact_fresh_MSE_job",
+      "pass": true
+    },
+    {
+      "name": "exact_workspace_fresh_output_paths",
+      "pass": true
+    },
+    {
+      "name": "fixed1000_1000_32_requests",
+      "pass": true
+    },
+    {
+      "name": "unchanged_seeds",
+      "pass": true
+    },
+    {
+      "name": "unchanged_caps",
+      "pass": true
+    },
+    {
+      "name": "fixed_batch_schedule_objective_contract",
+      "pass": true
+    },
+    {
+      "name": "exact_train_dev_input_hashes_only",
+      "pass": true
+    },
+    {
+      "name": "fixed_descriptive_dev_monitor",
+      "pass": true
+    },
+    {
+      "name": "CPU_serial_one_thread_contract",
+      "pass": true
+    },
+    {
+      "name": "fresh_21head_and_MSE_half_raw_objective",
+      "pass": true
+    },
+    {
+      "name": "terminal_only_same_generator_no_quality_invocation",
+      "pass": false
+    },
+    {
+      "name": "no_resume_checkpoint_input_and_no_output_overwrite",
+      "pass": true
+    },
+    {
+      "name": "scope_preserves_original_NE_and_deviation",
+      "pass": true
+    },
+    {
+      "name": "no_scalar_no_quality_permission_no_submission",
+      "pass": true
+    },
+    {
+      "name": "single_attempt_and_unknown_transport_not_retry",
+      "pass": true
+    },
+    {
+      "name": "known_adaptive_extra_costs_disclosed",
+      "pass": true
+    },
+    {
+      "name": "early_draft_job_retained",
+      "pass": true
+    },
+    {
+      "name": "plan_stable_at_end",
+      "pass": true
+    }
+  ],
+  "failed_checks": [
+    {
+      "name": "terminal_only_same_generator_no_quality_invocation",
+      "pass": false
+    }
+  ],
+  "plan_sha256": "a1c24efa2164c5cd9fcca2e46154fac8af44df2aec5f363226da168a374ae802",
+  "audit_script_sha256": "ad6fc86607c4710aa8da9774a3ff82735f53ea714c5518a5b70751abe761429a",
+  "reviewer_actions": {
+    "stdlib_only": true,
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "natural_CSV_parsing": 0,
+    "test37_reads": 0
+  },
+  "limitations": [
+    "Root must perform fresh process/load check before launching.",
+    "Hash-based source review is not a filesystem-access sandbox.",
+    "No scientific advantage, original CE protocol restoration, scalar authorization or future retry follows from these checks."
+  ]
+}

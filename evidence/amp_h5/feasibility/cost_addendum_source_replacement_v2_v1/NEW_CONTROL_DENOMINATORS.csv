@@ -1,0 +1,7 @@
+method,terminal,allocated_new_requests,started_requests,completed_requests,failed_requests,not_executed_requests
+COORDINATE_PERMUTATION_C,AMD,16,16,16,0,0
+COORDINATE_PERMUTATION_C,FREE,16,16,16,0,0
+EMPIRICAL_POSTERIOR_B,AMD,16,16,16,0,0
+EMPIRICAL_POSTERIOR_B,FREE,16,16,16,0,0
+REFERENCE_G_PRIOR_D,AMD,16,16,16,0,0
+REFERENCE_G_PRIOR_D,FREE,16,16,16,0,0

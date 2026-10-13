@@ -1,0 +1,41 @@
+{
+  "schema": "AMP_H5_WARMUP_CANDIDATE_MANIFEST_V1",
+  "status": "FROZEN_FOR_INDEPENDENT_PREAUDIT_NOT_AUTHORIZED",
+  "files": [
+    {
+      "path": "ARGV.json",
+      "bytes": 990,
+      "sha256": "76532eafb0a14ba7e1b4fec5311f1b861ed3e4ca76b63656711162007083b15d"
+    },
+    {
+      "path": "CONTRACT.json",
+      "bytes": 38678,
+      "sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a"
+    },
+    {
+      "path": "READOUT.zh.md",
+      "bytes": 2880,
+      "sha256": "46418ddbfcc4e4d2343b846a3db8afc4936eb7ab91d1e89cc5a364d2e422e68e"
+    },
+    {
+      "path": "ROOT_LAUNCH_RECEIPT_TEMPLATE.json",
+      "bytes": 1061,
+      "sha256": "84895ab46049aa1170849484014adba8468a0edff4648ad7876ae4fd78054638"
+    },
+    {
+      "path": "STATIC_AND_SYNTHETIC_VALIDATION.json",
+      "bytes": 1113,
+      "sha256": "0b3bb9d3541b14be56ce4a40a2c020cdb7b9dd7d3785c2e9d4a9cdea4226fdce"
+    },
+    {
+      "path": "synthetic_warmup_checks.py",
+      "bytes": 5066,
+      "sha256": "92bd672684b8bd79d4674ef8c0ac91203ee49ea8f8d36ab0ceaac0a57b4be59d"
+    },
+    {
+      "path": "warmup_vae_only.py",
+      "bytes": 16801,
+      "sha256": "ece1de1b5153ff1f14b02b37a4ebfd067e679f9f13f25efb1ec2fedbbc4ae2b2"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "seed": 422,
+  "initial_sha256": "bebc58a406db73d73057a94f0c098caa87a140e18c51ee93a9f23d329bde8f1f",
+  "reverse_noise_sha256": "52e1d2e285f719a2ba2f298c99f698537bed5c08f39e242d29aa1bbb7b47be47",
+  "epsilon_sha256": "54660fe0cb71bbe8d42f568708c66e3d4fc7b216bc2c81592c5ffbf243af7fe0",
+  "file_sha256": "c36d88c9cb132e199f6561f133b28256bb7d692465cbd62a5db49d489ea552f4",
+  "random_order": "initial x; reverse t998..2 noises; t1 zeros; posterior epsilon",
+  "paired_checkpoints": [
+    20,
+    1000
+  ]
+}

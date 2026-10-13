@@ -1,0 +1,25 @@
+{
+  "launched_utc": "2026-10-11T17:49:09.643765+00:00",
+  "supervisor_pid": 64952,
+  "argv": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-u",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+    "--plan",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_PLAN_v1.json",
+    "--receipt",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_PREFLIGHT_RECEIPT_v1.json"
+  ],
+  "plan_sha256": "3e66ffa415dc759e396d25d4ff9c445c7c855fb0e48aaf96b834d6da1b1ae1e4",
+  "receipt_sha256": "0e9e4d79e34a7e56dee012a0716c240fc63e6b6dcb7492a5c28ad4274b1f3e56",
+  "launcher_sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+  "separate_process_session": true,
+  "stdout": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_launch_v1/LAUNCH.stdout.log",
+  "lifetime_bound": "supervise.py per-job outer timeout and global H5_PROCESS.lock",
+  "system_settings_changed": false,
+  "temporary_keep_awake": {
+    "pid": 64953,
+    "until_supervisor_pid_exits": 64952
+  }
+}

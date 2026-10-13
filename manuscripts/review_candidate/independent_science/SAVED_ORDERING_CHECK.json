@@ -1,0 +1,229 @@
+{
+  "source": "evidence/generation_all_distances.csv",
+  "scope": "saved-number ordering only, no natural execution",
+  "comparisons": 24,
+  "CE_lower_than_MSE_all": true,
+  "LSTM_lower_than_CE_all": true,
+  "PDF_text_pages": {
+    "main": 16,
+    "supplement": 11
+  },
+  "items": [
+    {
+      "key": [
+        "AMD",
+        "train",
+        "aa_jensen_shannon_bits"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "train",
+        "aa_l1_distance"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "train",
+        "dipeptide_jensen_shannon_bits"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "train",
+        "dipeptide_l1_distance"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "train",
+        "mmd2_linear_biased_fixed_features"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "train",
+        "length_ks_statistic_no_pvalue"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "development",
+        "aa_jensen_shannon_bits"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "development",
+        "aa_l1_distance"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "development",
+        "dipeptide_jensen_shannon_bits"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "development",
+        "dipeptide_l1_distance"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "development",
+        "mmd2_linear_biased_fixed_features"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "AMD",
+        "development",
+        "length_ks_statistic_no_pvalue"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "train",
+        "aa_jensen_shannon_bits"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "train",
+        "aa_l1_distance"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "train",
+        "dipeptide_jensen_shannon_bits"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "train",
+        "dipeptide_l1_distance"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "train",
+        "mmd2_linear_biased_fixed_features"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "train",
+        "length_ks_statistic_no_pvalue"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "development",
+        "aa_jensen_shannon_bits"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "development",
+        "aa_l1_distance"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "development",
+        "dipeptide_jensen_shannon_bits"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "development",
+        "dipeptide_l1_distance"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "development",
+        "mmd2_linear_biased_fixed_features"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    },
+    {
+      "key": [
+        "FREE",
+        "development",
+        "length_ks_statistic_no_pvalue"
+      ],
+      "CE_lower_than_MSE": true,
+      "LSTM_lower_than_CE": true
+    }
+  ]
+}

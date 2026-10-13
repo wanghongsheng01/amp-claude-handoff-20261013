@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 0.1422801250591874,
+  "outer_cap_seconds": 30,
+  "overrun_seconds": 0.0,
+  "plan_sha256": "4b0169c777796cb703d340dea30c2cbd0feb58483f64b0e58aaa71d7229e4dff",
+  "audit_script_sha256": "6f5d376210ebba873f84c599d0407f3ab4cb2eeb52d32197e86bf83edad314f7",
+  "model_forward": 0,
+  "new_rng": 0,
+  "checkpoint_reads": 0,
+  "test_reads": 0,
+  "wall_scope": "Main entry through child exit; final receipt serialization excluded, no computation grace."
+}

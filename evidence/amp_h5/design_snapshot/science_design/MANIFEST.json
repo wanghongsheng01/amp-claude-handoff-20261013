@@ -1,0 +1,16 @@
+{
+  "identity": "H5_SCIENCE_DESIGN_OPINION_MANIFEST_V1",
+  "files": [
+    {
+      "path": "H5_SCIENTIFIC_DESIGN_OPINION.zh.md",
+      "sha256": "ea3e3aa0ae977a3557d8c6da572bc1627183cbea9f41bded9f76acdcd9d8c124"
+    },
+    {
+      "path": "H5_SCIENTIFIC_DESIGN_OPINION.json",
+      "sha256": "379d635c78000f34b95a005becb062233d6c2973f556648441dba96edf6388c9"
+    }
+  ],
+  "source_files_unchanged": true,
+  "source_count": 12,
+  "backup_status": "BACKUP_BLOCKED"
+}

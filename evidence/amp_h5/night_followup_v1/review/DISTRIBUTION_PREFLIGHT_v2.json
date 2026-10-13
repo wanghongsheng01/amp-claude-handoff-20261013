@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "scope_id": "AMP_H5_NIGHT_DISTRIBUTION_V2",
+  "protocol_sha256": "027611e8a8c3e1fee211c60c7f4ae6be2ba9c59ff8cc9af201efa5ef969c0c3a",
+  "implementation_sha256": "7df021783b1f06a54b207ffb6b6117262badcb77e80ec43bac182084c984e7a5",
+  "natural_statistics_authorized": true,
+  "review_role": "independent",
+  "author_changes_by_reviewer": false,
+  "execution_authority": "Root authorized one read-only natural statistics attempt after this independent preaudit. This receipt does not authorize any model execution.",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v2.json",
+      "bytes": 11616,
+      "sha256": "027611e8a8c3e1fee211c60c7f4ae6be2ba9c59ff8cc9af201efa5ef969c0c3a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/distribution_diagnostic_v2.py",
+      "bytes": 19129,
+      "sha256": "7df021783b1f06a54b207ffb6b6117262badcb77e80ec43bac182084c984e7a5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/execute_once_v2.py",
+      "bytes": 2640,
+      "sha256": "478e41959473950832c8bf978baba51e0f31d16e46352c53de2c811dec1a724f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PREPARATION_MANIFEST_v2.json",
+      "bytes": 2008,
+      "sha256": "bb570316f21f5c5c318887d2d1829acd7d05d310ab6ee5dd875f39188caf808f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/check_synthetic_v2.py",
+      "bytes": 5927,
+      "sha256": "13bc90b81f9414ac35a60d936f38f74337f7144a439d04e2fb5327553abbb328"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/SYNTHETIC_RESULT_v2.json",
+      "bytes": 1870,
+      "sha256": "16eb8614de9d5a094fe800f0a4974ffc2a5cec10c171f45819cece22f7aa06d4"
+    }
+  ],
+  "natural_inputs": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "bytes": 64083,
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "bytes": 9489,
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "bytes": 141151,
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "bytes": 25377,
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/latent_same_n_reference_v1.py",
+      "bytes": 13073,
+      "sha256": "4f8e18e287b1f81a9103db1140f3ffb2d30ae4f182173fa26b63b156abc1861a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "bytes": 2135,
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated.csv",
+      "bytes": 1970,
+      "sha256": "948653f3adac79b256a328f9cadb100aed1d835a7213cdb006f50a6ab81a264e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated.csv",
+      "bytes": 2580,
+      "sha256": "97ae42b13738644494ffd5954ad80142b13ab526bf99bfef09e99385592c2e7f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv",
+      "bytes": 2404,
+      "sha256": "d0d639a30472afd022c7b45b4dec89c093cfbc76c820b62093e709f9eaf61715"
+    }
+  ],
+  "checks": [
+    {
+      "check": "SRSWOR_expectation_all_6_subsets_3_blocks",
+      "passed": true
+    },
+    {
+      "check": "SRSWOR_n_equals_N_variance_term_zero",
+      "passed": true
+    },
+    {
+      "check": "421_frozen_metric_and_additive_blocks_identical",
+      "passed": true
+    },
+    {
+      "check": "component_DP_enumeration_and_exact_uniform_conditional_probability",
+      "passed": true
+    },
+    {
+      "check": "reviewed_choose_subset_returns_only_complete_feasible_groups",
+      "passed": true
+    },
+    {
+      "check": "whole_dev_cross_terminal_group_shared_multiplicity",
+      "passed": true
+    },
+    {
+      "check": "empty_terminal_null_without_fill_reject_or_macro",
+      "passed": true
+    },
+    {
+      "check": "shared_dev_draw_CE_AR_difference_zero_when_generated_features_equal",
+      "passed": true
+    },
+    {
+      "check": "slot_is_sampling_unit_invalid_slot_not_erased_from_denominator",
+      "passed": true
+    },
+    {
+      "check": "fixed_streams_replay_indices_exactly",
+      "passed": true
+    },
+    {
+      "check": "exact_tie_position_is_not_tail_probability",
+      "passed": true
+    },
+    {
+      "check": "closing_within_budget_completes",
+      "passed": true
+    },
+    {
+      "check": "closing_over_budget_fails",
+      "passed": true
+    },
+    {
+      "check": "budget_guard_raises",
+      "passed": true
+    },
+    {
+      "check": "all_16_existing_nonrun_helpers_AST_unchanged",
+      "passed": true,
+      "names": [
+        "sha",
+        "record",
+        "dump",
+        "load_module",
+        "mmd_blocks",
+        "summary",
+        "empirical_position",
+        "analytic_srs",
+        "component_rows",
+        "partition",
+        "selected_features",
+        "bootstrap_panel",
+        "component_schema",
+        "generate_indices",
+        "lengths_and_features",
+        "check_protocol"
+      ]
+    },
+    {
+      "check": "protocol_science_inputs_seed_repetitions_unchanged",
+      "passed": true
+    }
+  ],
+  "check_count": 16,
+  "all_input_and_preparation_hashes_and_bytes_verified": true,
+  "review_operations": {
+    "natural_feature_statistics": 0,
+    "natural_index_generation": 0,
+    "model_calls": 0,
+    "test_reads": 0,
+    "natural_input_hash_reads_only": 9,
+    "toy_checks": 16
+  },
+  "allowed_scope": {
+    "natural_attempts": 1,
+    "repetitions": 2048,
+    "seed": 20571,
+    "threads": 1,
+    "inner_budget_seconds": 120,
+    "outer_watchdog_seconds": 180,
+    "launch_only_via_bound_execute_once_v2": true,
+    "automatic_retry": false,
+    "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2"
+  },
+  "terminal_acceptance": [
+    "execution RESULT exit_code=0, outer_timeout=false and measured wall within 180 seconds",
+    "CLOSING_LEDGER state=completed, measured after-manifest elapsed within 120 seconds and exact MANIFEST SHA",
+    "All saved indices, result membership, source hashes and counts must be checked in the later joint terminal review; preaudit is not terminal PASS",
+    "Closing/error bookkeeping and Python startup are covered by outer watchdog; inner decision excludes closing ledger IO"
+  ],
+  "interpretation_boundaries": [
+    "All quantities are descriptive diagnostics conditional on the frozen features, current train/dev split, four saved single-seed fitted pipelines and 16-request batches.",
+    "Train-resampling reference comprises sequences the models were trained on and complete repeatedly reused dev; it is not model-unseen validation, a null distribution, a superiority gate, or an adequacy threshold.",
+    "Bootstrap quantiles are finite empirical sensitivity ranges conditional on the fixed fit; not population confidence intervals, pvalues, formal significance, or training-seed uncertainty.",
+    "Each generated sequence request is a resampling unit; neither residues nor 421 coordinates are independent replicate units. At n16, centered sample covariance rank is at most15. Mean-feature MMD does not identify full sequence-distribution equality.",
+    "Dev component resampling preserves the two cross-terminal components by shared whole-component multiplicities; terminal sample sizes vary and missing terminals stay null.",
+    "Single seed and repeated dev use remain limitations. AR adequacy remains NOT_ESTABLISHED; original CE protocol E/L/G permanently NOT_EVALUABLE; recovery descriptive gates are not recomputed or changed; PROMOTE remains HOLD.",
+    "Source-replacement C was coordinate permutation of B decoder-z, not a mu/log-sigma pairing experiment; B/C/D are outside this diagnostic input scope."
+  ],
+  "specific_review": [
+    "Fixed 421 features and additive length/AA/dipeptide mean-distance retain frozen definition; no fitted kernel or sample filtering changes",
+    "SRS finite population variance uses population denominator N and is not applied to conditional component sampling",
+    "Whole dev components share multiplicity across terminals and methods; variable terminal sample counts and missing-terminal nulls are retained",
+    "Request slots are generation units; CE and AR slot samples are independent and same saved seed is not sample pairing",
+    "All indices precede feature statistics; references and sensitivity ranges are descriptive conditional on fitted models, not population CI, p-values or training-seed uncertainty",
+    "v1 finalization-budget gap repaired without scientific function changes; v1 remains preserved and unexecuted"
+  ],
+  "original_CE_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+  "AR_adequacy": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "blocking_issues": [],
+  "independent_review_seconds_until_receipt_io": 0.14846354071050882
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "byte_identical": {
+    "all_MIC.csv": true,
+    "Ecoli_native.csv": true,
+    "peptide_groups.csv": true
+  },
+  "network": 0,
+  "models": 0
+}

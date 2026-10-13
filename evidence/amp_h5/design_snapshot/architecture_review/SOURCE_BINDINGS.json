@@ -1,0 +1,44 @@
+{
+  "state": "STATIC_ONLY_NOT_PREFLIGHT_APPROVED",
+  "created_utc": "2026-10-11T15:36:04.826669+00:00",
+  "files": [
+    {
+      "path": "runner/run_rebuild_v3r2.py",
+      "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8"
+    },
+    {
+      "path": "corrected_code/AMP_VAEflow/modules/vae.py",
+      "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09"
+    },
+    {
+      "path": "corrected_code/AMP_VAEflow/modules/diff.py",
+      "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13"
+    },
+    {
+      "path": "h3_failure_analysis_readonly/END_TO_END_21HEAD_FEASIBILITY.zh.md",
+      "sha256": "52937235b0326301e13cf09bc60080b702a2a0aaed15578ffffb4d1fbe61958c"
+    },
+    {
+      "path": "h4_followup_baseline_design/FAIR_BASELINE_REQUIREMENTS.zh.md",
+      "sha256": "043f55d9cfd07243c33a4d10ab6b9eec270164db2960a8fd975b6cc07f03dd80"
+    },
+    {
+      "path": "runner/dbaasp_v4_cpu_pilot_001/vae_throughput.json",
+      "sha256": "b7574d6543bbd2f8059dad6cc0b30643a3b1f54406bf3956adc13ba8de703012"
+    },
+    {
+      "path": "runner/dbaasp_v4_cpu_pilot_001/ddpm_throughput.json",
+      "sha256": "b9c9ff5ed79bd1b8c3e6c5c338c0d85a15a8d7afc81486cfac7f798a12d6768e"
+    },
+    {
+      "path": "diagnostics_h4_h2_generation_bridge_v1/run/status.json",
+      "sha256": "0b1993a6492e454fad2c5ac52400be52eeb74f7d5e14af1b8c129276b140c014"
+    }
+  ],
+  "models_loaded": 0,
+  "neural_forwards": 0,
+  "training": 0,
+  "test_reads": 0,
+  "network": false,
+  "backup": "BACKUP_BLOCKED"
+}

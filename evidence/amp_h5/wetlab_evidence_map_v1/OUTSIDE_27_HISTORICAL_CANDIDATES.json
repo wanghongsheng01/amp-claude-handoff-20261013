@@ -1,0 +1,77 @@
+[
+  {
+    "sample_id_normalized": "pp1-6",
+    "visible_id": "PP-1−6",
+    "visible_sequence": "CGKILTSFWNGFLFSYY",
+    "sequence_transcription_status": "visually_transcribed; compared against COA when available; not a blind independent sequence determination",
+    "sequence_uncertain_residues": [],
+    "visible_ecoli_mic_raw": null,
+    "visible_ecoli_cell_state": "blank",
+    "visible_note": null,
+    "visible_left_empty_square": false,
+    "square_meaning": "unknown",
+    "coa_present": false,
+    "coa_sequence": null,
+    "sequence_equals_coa": null,
+    "coa_water_solubility": null,
+    "current_summary_present": false,
+    "current_ecoli_mic_raw": null,
+    "current_comparison": "absent_from_current_27",
+    "independent_visual_recheck": {
+      "reviewer": "/root/amp_v5_mic_evidence",
+      "mode": "second AI actual view_image inspection of original pixels",
+      "result": "same sequence reading; MIC and note blank; no date or N legend",
+      "not_human_gold_standard": true
+    }
+  },
+  {
+    "sample_id_normalized": "pp3-8",
+    "visible_id": "PP-3−8",
+    "visible_sequence": "MFLLRLNFGGLICKPL",
+    "sequence_transcription_status": "visually_transcribed; compared against COA when available; not a blind independent sequence determination",
+    "sequence_uncertain_residues": [],
+    "visible_ecoli_mic_raw": null,
+    "visible_ecoli_cell_state": "blank",
+    "visible_note": null,
+    "visible_left_empty_square": false,
+    "square_meaning": "unknown",
+    "coa_present": false,
+    "coa_sequence": null,
+    "sequence_equals_coa": null,
+    "coa_water_solubility": null,
+    "current_summary_present": false,
+    "current_ecoli_mic_raw": null,
+    "current_comparison": "absent_from_current_27",
+    "independent_visual_recheck": {
+      "reviewer": "/root/amp_v5_mic_evidence",
+      "mode": "second AI actual view_image inspection of original pixels",
+      "result": "same sequence reading; MIC and note blank; no date or N legend",
+      "not_human_gold_standard": true
+    }
+  },
+  {
+    "sample_id_normalized": "pp3-10",
+    "visible_id": "PP-3−10",
+    "visible_sequence": "MAGLLLFYGYLLSGLKIWSW",
+    "sequence_transcription_status": "visually_transcribed; compared against COA when available; not a blind independent sequence determination",
+    "sequence_uncertain_residues": [],
+    "visible_ecoli_mic_raw": null,
+    "visible_ecoli_cell_state": "blank",
+    "visible_note": null,
+    "visible_left_empty_square": false,
+    "square_meaning": "unknown",
+    "coa_present": false,
+    "coa_sequence": null,
+    "sequence_equals_coa": null,
+    "coa_water_solubility": null,
+    "current_summary_present": false,
+    "current_ecoli_mic_raw": null,
+    "current_comparison": "absent_from_current_27",
+    "independent_visual_recheck": {
+      "reviewer": "/root/amp_v5_mic_evidence",
+      "mode": "second AI actual view_image inspection of original pixels",
+      "result": "same sequence reading; MIC and note blank; no date or N legend",
+      "not_human_gold_standard": true
+    }
+  }
+]

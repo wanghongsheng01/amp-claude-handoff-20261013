@@ -1,0 +1,92 @@
+[
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_evaluation_v1/reconstruction_metrics.json",
+    "sha256": "8b8abe6483bf4af805793f6a6d1b9932ab67292cb47700edd935da3c4e228630",
+    "bytes": 11861
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_evaluation_v1/generation_metrics.json",
+    "sha256": "7cd655ed623cd2d4d0751e1f06ab2e534361704e4c3fc755c7586ce9ee9eeac1",
+    "bytes": 605874
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/research_stage_delivery_v1/payload/AMP_H5_RESEARCH_STAGE/derived_predictions/dev_reconstruction_CE.json",
+    "sha256": "71de8f2b36ad08ebd813d16f094a5e66bbb415fa500d172c8691d23627ee3160",
+    "bytes": 7790
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/research_stage_delivery_v1/payload/AMP_H5_RESEARCH_STAGE/derived_predictions/dev_reconstruction_MSE.json",
+    "sha256": "e3f7fa29f9236445c9294bd69d5dad2a1e75647362f9a01b47bccb2fa7496315",
+    "bytes": 7751
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/research_stage_delivery_v1/payload/AMP_H5_RESEARCH_STAGE/derived_predictions/dev_reconstruction_scalar.json",
+    "sha256": "f0e024d7ca9330202243a4359161d71b53e42ec58a179a7dc185c1fa0b09fa61",
+    "bytes": 7767
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/native_baseline_v1/run/RESULT.json",
+    "sha256": "f11a098bd47067464866dd8a6a9ffe54ec6c08d1ecf8fbe1d96cb693ed352657",
+    "bytes": 29081
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/censored_likelihood_v1/run/RESULT.json",
+    "sha256": "d38f2ceef44b5c80f066bb8fa703a0e29362f96e438251a6914adec9f63472b9",
+    "bytes": 61930
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/dbaasp_checkpoint_v6/RESULT_SUMMARY.json",
+    "sha256": "a03d9423e328322857bedccfcdd201e0b9c715625c577bca0b2f0390e0380e91",
+    "bytes": 9238
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/SUMMARY.json",
+    "sha256": "5292afb125c31c85c5734f1bc5bd6cd528b0f535a6bb4916cdfa40157394300a",
+    "bytes": 2732
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runs/natural_v1/SUMMARY.json",
+    "sha256": "c1a1c0236d0d6ed8f380e45e132db4b35697c6daa508483e40c1df5f0eff96ed",
+    "bytes": 1424
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/native_baseline_v1/PROTOCOL.json",
+    "sha256": "4e81c46c58af3f0468ae4e746d8f762803495a9d2fae8e49499d3042d21ed6f4",
+    "bytes": 4946
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/censored_likelihood_v1/PROTOCOL.json",
+    "sha256": "8d4965444bf635aefef19a5b67f41688a829381266fe46e378e7093c37a47769",
+    "bytes": 6090
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/config.json",
+    "sha256": "861d530bce7529826ed481697083a4efee016cce24878d85dced240b28d9d004",
+    "bytes": 2541
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/config.json",
+    "sha256": "4e30c3dd010ae43e247912a131f49d620bdefcdf34585f2eb28c935bc01800ec",
+    "bytes": 910
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/editorial_corrections/candidate_v6r3/source/main.tex",
+    "sha256": "a09f20468a3daa5f8a149eb93c294e8ddcb863358c69dd27e0a21bf836147d33",
+    "bytes": 50861
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/editorial_corrections/candidate_v6r3/build/main.pdf",
+    "sha256": "83cc43957e078f4379e2a1029519b6df0a87ade1a61f5c3f37bf397096f904d8",
+    "bytes": 473642
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/wetlab_evidence_map_v1/EVIDENCE_MAP_27.jsonl",
+    "sha256": "1823a6db22bcea16bb211bae4ce1466fa08a2c31a7791f144a0e5139bb90c845",
+    "bytes": 411797
+  },
+  {
+    "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/HANDOFF_H5_FOUR_ARM_AND_SOURCE_DIAGNOSTIC_FINAL.zh.md",
+    "sha256": "b0def020ccee9245cab117816c22865f319c4553c4365c26a291322e72b59142",
+    "bytes": 10899
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "created_utc": "2026-10-11T15:14:33.965257+00:00",
+  "stage": "H4_H2_ONLY_REAL_GENERATION_BRIDGE",
+  "status": "COMPLETED_AND_INDEPENDENTLY_AUDITED_DESCRIPTIVE_BRIDGE",
+  "claims": [
+    {
+      "id": "G1",
+      "type": "systems",
+      "claim": "Original96 scalar outputs,conditions,seeds and sample IDs replay exactly under frozen inputs.",
+      "status": "VERIFIED",
+      "decisive_evidence": "Prelocked bitwise raw and exact string/token/ID checks; any failure saves evidence and prevents claiming paired replay.",
+      "evidence": [
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/run/REPLAY_GATES.json",
+          "sha256": "e75fe54291d8bf18460e6f2c8dabaf023caa8dd695fef1df120ddbb14bfd0add"
+        },
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/architecture_review/FINAL_RECEIPT.json",
+          "sha256": "acbbd480d78535f6527870d636fce9a2ac8b49d4723520561c4eedbaa9bd2660"
+        }
+      ],
+      "scope_limit": "Historical bitwise comparison exists for raw48/tokens/CSV, not for nonexistent historical latent/hidden files. Current96 shared latent/hidden saved."
+    },
+    {
+      "id": "G2",
+      "type": "theoretical",
+      "claim": "FrozenH2 scores and legal J prefix decoder apply to each newly generated hidden without true length.",
+      "status": "VERIFIED",
+      "decisive_evidence": "DirectPhi@original_weight vs frozenQR mapping; independent49-length enumeration and AA tie rule on every score; no per-object reconstruction lengths.",
+      "evidence": [
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/POST_AUDIT_RESULTS.json",
+          "sha256": "e3677f3476cb7783b12026149b4420984ec6c44ef113a709262025e73ad8198a"
+        },
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/FINAL_RECEIPT.json",
+          "sha256": "5193e0ea81cd743e144ab7549c4469dbeb5ca16e635e68b7843c71f7b2315ec3"
+        }
+      ],
+      "scope_limit": "Numerical application audited over all96 generated hidden:96768 scores and every J decision. Not an independent symbolic proof for arbitrary inputs or an end-to-end repair."
+    },
+    {
+      "id": "G3",
+      "type": "empirical",
+      "claim": "All original and H2 attempts are retained under the same upstream samples and generation budget.",
+      "status": "VERIFIED",
+      "decisive_evidence": "96latentattempt ledger ×2readouts,192outputslots; failed/unexecuted vs completed distinguished; no selection/extra samples.",
+      "evidence": [
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/run/SLOTS.json",
+          "sha256": "048a7d071f089727ad54a607dfcfeb511b0c6da37edb1910029a3bc4e9de3b3c"
+        },
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/run/status.json",
+          "sha256": "0b1993a6492e454fad2c5ac52400be52eeb74f7d5e14af1b8c129276b140c014"
+        },
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/evaluation/status.json",
+          "sha256": "2f44519bbe4cf414e4b3af861833beef60e7c048d1bf874888d2352e2a7ace7b"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "type": "empirical",
+      "claim": "The paired generated-output changes from original scalar to frozen H2 CE+J are measured and reported for every prespecified source and terminal stratum.",
+      "status": "VERIFIED",
+      "decisive_evidence": "Report every source×terminal pair for length,validity1–48/5–48,duplicates/diversity,traincopy/nearest and predeclared421-featureMMD, with denominators and changed eligibility. VERIFIED can mean complete audited descriptive coverage only; it cannot mean consistent improvement, activity, or composite scientific success. Mixed directions remain mixed.",
+      "interpretation_limit": "No aggregate transfer-improvement threshold is specified. Technical replay PASS and a favorable metric never establish full method improvement.",
+      "evidence": [
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_READOUT.zh.md",
+          "sha256": "74e8cb973f6b691ba91d9a25a1f7e47c5e56c8486c086958d8396a8f11dac6cc"
+        },
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/AUTHOR_DISTRIBUTION_FULL.csv",
+          "sha256": "4040c60134027f1281f1f3e81e9c2efe1ad14135d1156cf0b18ddf9911405f48"
+        },
+        {
+          "path": "diagnostics_h4_h2_generation_bridge_v1/independent_review/FINAL_RECEIPT.json",
+          "sha256": "5193e0ea81cd743e144ab7549c4469dbeb5ca16e635e68b7843c71f7b2315ec3"
+        },
+        {
+          "path": "H4_H2_BRIDGE_ROOT_READOUT_FACTS.json",
+          "sha256": "127a7248b60d5eac52d0eba802b082c68b271c75a475a4f7c74a7a8d40a209f7"
+        }
+      ],
+      "scope_limit": "VERIFIED means audited complete descriptive coverage only. MMD train/val5higher1lower;val dipeptideJS/L1 all6lower;valKS4lower2higher;all6AA/dipeptideentropy lower;H2 valid1–48=95/96,valid5–48=91/96. No composite improvement gate or general quality verdict."
+    },
+    {
+      "id": "G5",
+      "type": "benchmark",
+      "claim": "This bridge proves fair superiority of the full method over competitive baselines.",
+      "status": "MISSING",
+      "decisive_evidence": "Not answered by this design: differingflow/aggregate/DDPM conditioning and compute persist, and simple frozen statistical controls are descriptive context only."
+    },
+    {
+      "id": "G6",
+      "type": "generalization",
+      "claim": "H2 is an end-to-end trained repair with independent generalization confirmation.",
+      "status": "MISSING",
+      "decisive_evidence": "This stage freezes all upstream weights. Development41 previously seen,one trainingseed, sealedtest37; future end-to-end/fair multiple-seed evaluation required."
+    },
+    {
+      "id": "G7",
+      "type": "responsible-research",
+      "claim": "New generated candidates have independently supported activity or safety.",
+      "status": "MISSING",
+      "decisive_evidence": "No new biological outcomes in this bridge. MMD,alphabetvalidity,terminalrequest and novelty are not activity/safety truth."
+    },
+    {
+      "id": "G8",
+      "type": "systems",
+      "claim": "H3 and all predecessors remain frozen with scientific failures intact.",
+      "status": "VERIFIED",
+      "decisive_evidence": "Before/after completeH3 plus inherited protected checks; H3 dependent quad bridge remainsBLOCKED and separate fromthisstage.",
+      "evidence": [
+        {
+          "path": "H4_H2_BRIDGE_PREDECESSOR_PRESERVATION_AFTER.json",
+          "sha256": "9efd8c47d3b62645724d0d9a46247fd9b853ed54e4206d249b1896477cac9781"
+        },
+        {
+          "path": "DELIVERY_H3_FINAL_INDEX.json",
+          "sha256": "8580a59558198db0a7dfed899f7e569af7dc5214ce668d74e2d3e1e19b60b6ac"
+        }
+      ]
+    }
+  ],
+  "decision_boundary": "No presumption of improvement; report all prespecified metrics and strata. Engineering replay/decoding PASS is separate from transfer evidence. Do not posthoc choose a favorable source,metric orsample subset.",
+  "backup_status": "BACKUP_BLOCKED",
+  "revised_utc": "2026-10-11T14:38:37.951323+00:00",
+  "prior_sha256": "5a2804ab207d8ef3e9f7753e539bc2f5773d71323843ea2d488a6dd0daac5069",
+  "revision_reason": "Independent preflight before any real computation: make descriptive G4 identifiable; no composite success threshold was preregistered.",
+  "prior_prelock_matrix_sha256": "389e8e76522178c89ccb73cabf1a36cfcf3d4b032e2fc0ba59a99e3fa5f4a81b",
+  "scientific_conclusion": "MIXED_DESCRIPTIVE_OBSERVATION_WITHOUT_COMPOSITE_IMPROVEMENT_GATE",
+  "scientific_success_or_submission_readiness": false,
+  "numerical_and_transcription_audit": {
+    "core_checks": 1558,
+    "core_compared_fields": 43330,
+    "core_numeric_values": 35259,
+    "main_tables_facts_checks": 2611,
+    "full_distribution_and_prose_checks": 289,
+    "source_hashes_unchanged": 695
+  },
+  "architecture_audit": {
+    "primary": 1037,
+    "support": 64,
+    "reviewer_neural_forwards": 0
+  },
+  "remaining_author_dependencies": "No new author file was needed for this local bridge. Genuine independent activity/safety evidence remains absent; no invented positives or negatives. Complete fair baselines and prospective/end-to-end confirmation require further separately frozen work, not a claim of current completion."
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "AMP_H5_FIXED200_CHECKPOINT_V6",
+  "created_utc": "2026-10-12T12:51:35.035503+00:00",
+  "authorization": "User explicitly authorizes exactly one new checkpoint batch of the missing64 after >1hour cooldown; previous3 were ordinary timeouts, not denied authorization.",
+  "selection": "Exact original200 minus136 successes in original order; prior timeout IDs17375/17376/17389 each may be revisited once this batch; no other retry or scope expansion.",
+  "max_detail_requests": 64,
+  "total_request_timeout_seconds": 30,
+  "minimum_completion_to_next_start_seconds": 5.1,
+  "max_response_bytes": 1048576,
+  "consecutive_transfer_failures_stop": 3,
+  "immediate_stop": [
+    "401/403/429",
+    "all redirects (no follow)",
+    "Retry-After at any status",
+    "remaining quota <=0 or unparsable",
+    "new RateLimit policy requiring interpretation",
+    "explicit access/rate/challenge denial message",
+    "other unexpected 4xx except404/410",
+    "ID or frozenMonomer schema mismatch",
+    "response exceeds1MiB",
+    "local execution errors"
+  ],
+  "continue_once_next_id": [
+    "ordinary transport timeout/error",
+    "5xx without denial/rate signal",
+    "empty200 or non-JSON/non-object response counted in conservative transfer failure streak",
+    "404/410 record missing (break transferfailure streak)"
+  ],
+  "consecutive_rule": "Only failure outcome increments. Valid success or definite404/410 resets. All failed/negative/partial responses remain. Third consecutive failure terminates before next request.",
+  "official_rule_status": "Public terms allow data access with attribution. API endpoint documented. No numeric rate limit found; local robots GET200empty, no directives. Observed runtime restriction supersedes this plan.",
+  "resources": "single serial CPU process, one request active, no models, no credential/cookie reads, no proxy/host rotation, no CAPTCHA/export retry",
+  "data_scope": "Merge successful original200 members with preserved previous136. Same native-unit parser, sequence/source grouping and chemistry. No model fitting or new hypotheses.",
+  "bias": "Failures may be nonrandom. Report all success/failure/unattempted IDs and full200 denominator, no prevalence/efficacy claims.",
+  "backup": "BACKUP_BLOCKED; previous delivered snapshots immutable",
+  "prior_ended_utc": "2026-10-12T11:00:17.305946+00:00",
+  "hours_since_prior_end_at_freeze": 1.8549248769444444,
+  "prior_api_attempts": 162
+}

@@ -1,0 +1,13 @@
+{
+  "total": 59,
+  "formats": {
+    "range_unresolved": 28,
+    "plusminus_unresolved": 3,
+    "point": 23,
+    "right_bound": 5
+  },
+  "multiple_isolates_activity_ids": [
+    12605
+  ],
+  "no_imputation": true
+}

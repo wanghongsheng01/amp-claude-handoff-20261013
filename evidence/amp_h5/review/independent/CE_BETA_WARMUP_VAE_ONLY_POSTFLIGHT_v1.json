@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "blocked": false,
+  "scope_id": "AMP_H5_CE_BETA_WARMUP_VAE_ONLY_V1",
+  "created_utc": "2026-10-12T00:50:14.899137+00:00",
+  "checks": [
+    {
+      "check": "Single exact supervisor job completed exit0 under actual2100s cap",
+      "pass": true
+    },
+    {
+      "check": "Final1000 VAE stage under1920s including checkpoint IO",
+      "pass": true
+    },
+    {
+      "check": "All16 manifest members hashes/bytes and no extra run files",
+      "pass": true
+    },
+    {
+      "check": "Frozen metadata/code/weights unchanged; run receipt/config/scaler/runtime match",
+      "pass": true
+    },
+    {
+      "check": "All1000 baseline batch indices/rows/LR/preforward RNG hashes equal",
+      "pass": true
+    },
+    {
+      "check": "All1000 stored full RNG states hash correctly; postforward-to-next-step chain preserved",
+      "pass": true
+    },
+    {
+      "check": "All1000 beta schedule and float32 weighted objective/KL normalization recomputed",
+      "pass": true
+    },
+    {
+      "check": "First unweighted reconstruction/KL/density exactly match baseline",
+      "pass": true
+    },
+    {
+      "check": "All10 fixed100step dev monitors preserve RNG/no selection/41rows701targets",
+      "pass": true
+    },
+    {
+      "check": "Initial checkpoint byte-identical and actual tensor digest verified",
+      "pass": true
+    },
+    {
+      "check": "Final saved tensors finite with metadata digest/hash and shape identity verified",
+      "pass": true
+    },
+    {
+      "check": "Optimizer saved1000 counters and finite state; saved final RNG matches trace",
+      "pass": true
+    },
+    {
+      "check": "Before/after consumed file hashes unchanged; no extra model or data access",
+      "pass": true
+    }
+  ],
+  "independent_paired_trace_pass": true,
+  "single_beta_schedule_only": true,
+  "vae_updates": 1000,
+  "checkpoint_tensor_digest": "85f650713eadc074b126c7082903fa4153cc07d1ab2b20d53e5a94913d97a89a",
+  "initial_tensor_digest": "9a6ad5d1c90f1da55bc02310ef77adc6425f6fb419099859159149d361ec478d",
+  "actual_vae_stage_seconds": 1179.9433321659453,
+  "actual_supervisor_seconds": 1181.1842636661604,
+  "monitor_calls": 10,
+  "model_forward_calls_by_audit": 0,
+  "model_constructions_by_audit": 0,
+  "new_random_draws_by_audit": 0,
+  "cohort_reads_by_audit": 0,
+  "test_reads": 0,
+  "checkpoint_loads": "weights_only=True CPU for own hash-bound saved initial/final/optimizer artifacts; no model instantiated",
+  "historical_pairing_limit": "Historical baseline lacks raw epsilon/full preforward states and input tensor hashes. Verified baseline indices/RNG hashes/LR and initial weights/first unweighted components; new stored state bytes validate their own hashes. No claim of independent historical raw epsilon replay or rematerialized batch tensors.",
+  "scope_boundary": "Training engineering PASS only. Original CE E/L/G remain NE and PROMOTE HOLD. Same-eight-epsilon endpoint requires its own late-bound exact plan; no retraining, DDPM or generation authorized.",
+  "last_existing_monitor_descriptive_only": {
+    "step": 1000,
+    "correct_nonpad": 456,
+    "nonpad": 701,
+    "nonpad_token_accuracy": 0.6504992867332382,
+    "absolute_length_error": 2,
+    "length_mae": 0.04878048780487805,
+    "exact_sequences": 3
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_state.pt",
+      "sha256": "05b9497ec78697dafdbceaae0cac5ef54e8b157b3b3f9cf417053b6d7e9e96d6",
+      "bytes": 6800314
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_state.json",
+      "sha256": "57318bb04fdf6b92d44b87f9996947623a10879f7235460080a6c0fae6908c25",
+      "bytes": 421
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_training_summary.json",
+      "sha256": "284d4916224b1f564a0cbe3f1ef76b94c607ecd696427b57186f44cf90d10c69",
+      "bytes": 289
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/status.json",
+      "sha256": "394a1674f23ec2de5754b499f3e77186ad348391c3200d53ff214b21c8134975",
+      "bytes": 627
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_execution_v1/SUPERVISOR_STATUS.json",
+      "sha256": "e770303d23968d3d7696f917167ae927c83abbf80a6401337b2c94b20983c329",
+      "bytes": 1176
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/CONTRACT.json",
+      "sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a",
+      "bytes": 38678
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/manifest.json",
+      "sha256": "506306b62cf87474bcf3066a69633e856f5cfb502a90b00d40e53669d80ed23d",
+      "bytes": 2519
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_BETA_WARMUP_VAE_ONLY_PLAN_v1.json",
+      "sha256": "575bab69d2de163c92aee20f52a64a02faf158d2355850a6e0b83bee94a702d6",
+      "bytes": 46477
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/warmup_vae_only.py",
+      "sha256": "ece1de1b5153ff1f14b02b37a4ebfd067e679f9f13f25efb1ec2fedbbc4ae2b2",
+      "bytes": 16801
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_initial_state.pt",
+      "sha256": "9c1972402bdfcfc56fa58656858a110fa7fd7ca58a438e8a4b6b43dd2669429c",
+      "bytes": 6802066
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_initialization.json",
+      "sha256": "8ea13f7d4d425c37d53a1f2dfce797f56b900b489bf3ed07a8a97fa3e1ac094c",
+      "bytes": 170
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_train.jsonl",
+      "sha256": "a95dce4a9dfe1732f2c11eead098ad21861a5791b8eec937b923f4d808bb50ef",
+      "bytes": 557114
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/beta_loss_split.jsonl",
+      "sha256": "bcf9626560e7295958397a35b2034e71b47f571574d1b820cbc4d138452786f9",
+      "bytes": 384003
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/paired_forward_attempts.jsonl",
+      "sha256": "f50f8d9562865391be3647cf38c08e400abf73644123327a30fb2aa07f5b097b",
+      "bytes": 10619751
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/dev_monitor.jsonl",
+      "sha256": "844f7393de766b9dbc6da6a83cd9506d39ad0c3bcd09efd2d67d5eed464b11b3",
+      "bytes": 4108
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_training_state.pt",
+      "sha256": "b9c59d94d0eb558cb4d2850da7c2e876baedc357adce20b47f31712b60e2533b",
+      "bytes": 13627459
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "bytes": 3279
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/runtime_and_source.json",
+      "sha256": "eaf6dea3d26eaa837481b46ae0505a7e4dc770f59864bad9576054e8edaa72e1",
+      "bytes": 268
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/effective_vae_config.json",
+      "sha256": "2d764e8e5f6ddfa03ca6b1b0bea985b79629f119efae8ee99b318c5c54e1e584",
+      "bytes": 2541
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_train.jsonl",
+      "sha256": "d88e9fff8e1aad92071eb12440d8c0604857c41b6725b6d3c4c2dbfa7d89ceae",
+      "bytes": 557312
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/dev_monitor.jsonl",
+      "sha256": "779afe8b424c4331a835d0f4c8e362fa02d8484a0273cf72c3fa4de8ac441afa",
+      "bytes": 4114
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_PREFLIGHT_v1.json",
+      "sha256": "2528bf539ead9ad729e33a7bd25e611eda8c6d6cc25dce2004b18ffdeacabdc3",
+      "bytes": 6817
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/WARMUP_POSTTRAIN_PREPARATION_REVIEW_v1.json",
+      "sha256": "327a5463f3c35c88dca1126643f853351b11082eaf076d508a1cb352be84d133",
+      "bytes": 9714
+    }
+  ],
+  "audit_seconds_before_receipt_io": 1.430729249957949
+}

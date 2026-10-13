@@ -1,0 +1,2278 @@
+{
+  "rdkit_version": "2023.09.5",
+  "records": 75,
+  "raw_smiles": 152,
+  "rows": [
+    {
+      "peptide_id": 102,
+      "raw_sha256": "7ffdfbdb87aba100f5218f93c30c9ca61e8c77c6457daa2dc2372c6b1ddb45fd",
+      "sequence_formula_hypothesis": "C135H238N36O31",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047523,
+          "parsed": true,
+          "formula": "C135H238N36O31",
+          "average_mass": 2861.609999999992,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 103,
+      "raw_sha256": "add97b4245cfd34143dafb71fa8dccc326f206d5a947bd97a8c2c0b3daa80906",
+      "sequence_formula_hypothesis": "C95H169N25O18",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047524,
+          "parsed": true,
+          "formula": "C95H169N25O18",
+          "average_mass": 1949.554,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 107,
+      "raw_sha256": "54fee80453c8bb461b717222fcd9b796b740f29cdb2a0d9fbda0cec320c07a31",
+      "sequence_formula_hypothesis": "C86H153N23O17",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047529,
+          "parsed": true,
+          "formula": "C86H153N23O17",
+          "average_mass": 1781.3139999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 108,
+      "raw_sha256": "468d74e4b91f33d6d79bf54d3d93ec08c2fc1c03ce26a80cb7302eb925cad4b2",
+      "sequence_formula_hypothesis": "C74H131N19O14",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047530,
+          "parsed": true,
+          "formula": "C74H131N19O14",
+          "average_mass": 1510.9809999999993,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 109,
+      "raw_sha256": "4dea53e35792ece6c48677dc25ba3b79eb752d2e408b20eb4017b488b6e4dbc9",
+      "sequence_formula_hypothesis": "C89H157N25O18",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047531,
+          "parsed": true,
+          "formula": "C89H157N25O18",
+          "average_mass": 1865.3920000000003,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 110,
+      "raw_sha256": "2f3ee1ce4eff2f0381a9f301d3735aa58477242b0d3364f3f4332461c53c0026",
+      "sequence_formula_hypothesis": "C83H145N25O18",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047532,
+          "parsed": true,
+          "formula": "C83H145N25O18",
+          "average_mass": 1781.2300000000005,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 111,
+      "raw_sha256": "08597799c16ba49e6af6f29549a89670fe5f454ff54f106d472ca6a998456898",
+      "sequence_formula_hypothesis": "C95H169N25O20",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047533,
+          "parsed": true,
+          "formula": "C95H169N25O20",
+          "average_mass": 1981.5519999999992,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 16,
+      "raw_sha256": "db5704a2c5616da5b331cb387f543437f459c9b9e14f9f6cd31b05250c3826b7",
+      "sequence_formula_hypothesis": "C114H196N32O30S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047468,
+          "parsed": true,
+          "formula": "C114H196N32O30S",
+          "average_mass": 2527.082999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7047469,
+          "parsed": true,
+          "formula": "C114H196N32O30S",
+          "average_mass": 2527.082999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 1666,
+      "raw_sha256": "f42446eb48fbb6e9b5502135b59e3ebb59d38d20e9942baf82e114118ac6a0de",
+      "sequence_formula_hypothesis": "C71H107N19O22S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050486,
+          "parsed": true,
+          "formula": "C71H107N19O22S",
+          "average_mass": 1610.8150000000003,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 1681,
+      "raw_sha256": "6ba0d714aae3d4250c372674bb60bf8bba4505c27a4b6ef6088b355bdeb291eb",
+      "sequence_formula_hypothesis": "C42H64N10O15S2",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050515,
+          "parsed": true,
+          "formula": "C42H64N10O15S2",
+          "average_mass": 1013.1629999999999,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 1688,
+      "raw_sha256": "7529178c23f93646a4ad8086c810fa6ba4f8c3b34bdcf1488b20254126637334",
+      "sequence_formula_hypothesis": null,
+      "caveats": [
+        "unusual_residues_not_independently_reconstructed"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050526,
+          "parsed": true,
+          "formula": "C60H92N12O10",
+          "average_mass": 1141.4699999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": null
+        }
+      ]
+    },
+    {
+      "peptide_id": 1689,
+      "raw_sha256": "1d34148331e08ed3ca6cfa9c9a514f0f513f20a9db352e557361a851d3db2ef0",
+      "sequence_formula_hypothesis": "C85H140N18O16",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050527,
+          "parsed": true,
+          "formula": "C85H140N18O16",
+          "average_mass": 1670.165,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 1716,
+      "raw_sha256": "6a2022658881743068b1ddaadb01f4cbda6d162f2e141ab3f05ee3daa239db32",
+      "sequence_formula_hypothesis": "C231H357N71O61S6",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050554,
+          "parsed": true,
+          "formula": "C231H357N71O61S6",
+          "average_mass": 5297.23499999999,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7050555,
+          "parsed": true,
+          "formula": "C231H357N71O61S6",
+          "average_mass": 5297.234999999991,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7050556,
+          "parsed": true,
+          "formula": "C231H357N71O61S6",
+          "average_mass": 5297.23499999999,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7050557,
+          "parsed": true,
+          "formula": "C231H357N71O61S6",
+          "average_mass": 5297.234999999991,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 1737,
+      "raw_sha256": "2e57734923d61ed091bc41378077e5516e3d1caf543b7f4c061a626081f8574d",
+      "sequence_formula_hypothesis": "C176H290N48O35",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050606,
+          "parsed": true,
+          "formula": "C176H290N48O35",
+          "average_mass": 3638.5569999999902,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7050607,
+          "parsed": true,
+          "formula": "C176H290N48O35",
+          "average_mass": 3638.5569999999907,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 1738,
+      "raw_sha256": "6985e1f20dc8b34e794a895f450fd0aecb3e33924d663c52337f8845544d0a3a",
+      "sequence_formula_hypothesis": "C94H159N27O17",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050608,
+          "parsed": true,
+          "formula": "C94H159N27O17",
+          "average_mass": 1939.4780000000012,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7050609,
+          "parsed": true,
+          "formula": "C94H159N27O17",
+          "average_mass": 1939.4780000000012,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 1773,
+      "raw_sha256": "0e09ed0784a052c6931fef10c35f6c592abf2513b42c5dec74b797bde1a18ab6",
+      "sequence_formula_hypothesis": null,
+      "caveats": [
+        "unusual_residues_not_independently_reconstructed"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050678,
+          "parsed": true,
+          "formula": "C140H215N35O45S7",
+          "average_mass": 3332.928999999991,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 1,
+          "formula_matches_sequence_hypothesis": null
+        }
+      ]
+    },
+    {
+      "peptide_id": 1783,
+      "raw_sha256": "87d5cbc147b0221a1e1950150c7b7ee2b2ace635786d06cca242cf31784a9b28",
+      "sequence_formula_hypothesis": "C116H185N31O27S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050699,
+          "parsed": true,
+          "formula": "C116H185N31O27S",
+          "average_mass": 2478.012999999998,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7050700,
+          "parsed": true,
+          "formula": "C116H185N31O27S",
+          "average_mass": 2478.012999999998,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 1821,
+      "raw_sha256": "36960a9154aff86cb36fbdda53edc23088babd1729f478d916d0040ab8e87a52",
+      "sequence_formula_hypothesis": null,
+      "caveats": [
+        "unusual_residues_not_independently_reconstructed"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7050768,
+          "parsed": true,
+          "formula": "C287H458N108O85S10",
+          "average_mass": 7102.161999999987,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": null
+        },
+        {
+          "smiles_id": 7050769,
+          "parsed": true,
+          "formula": "C287H458N108O85S10",
+          "average_mass": 7102.1619999999875,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": null
+        },
+        {
+          "smiles_id": 7050770,
+          "parsed": true,
+          "formula": "C287H458N108O85S10",
+          "average_mass": 7102.161999999987,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": null
+        },
+        {
+          "smiles_id": 7050771,
+          "parsed": true,
+          "formula": "C287H458N108O85S10",
+          "average_mass": 7102.1619999999875,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": null
+        }
+      ]
+    },
+    {
+      "peptide_id": 2396,
+      "raw_sha256": "872c4f99e591a8a1e7bddf96ad4a1f6563b1889ec5538d8772c0532632e90a97",
+      "sequence_formula_hypothesis": "C116H203N31O30S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051820,
+          "parsed": true,
+          "formula": "C116H203N31O30S",
+          "average_mass": 2544.1539999999964,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2397,
+      "raw_sha256": "1e5a6bb52183b1a1c182a37706d71365898fe2a21487adc965a59206d2429b7f",
+      "sequence_formula_hypothesis": "C84H145N21O22S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051821,
+          "parsed": true,
+          "formula": "C84H145N21O22S",
+          "average_mass": 1833.2759999999994,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2398,
+      "raw_sha256": "e96004d2184f75dbbe808a67510f32a4a42a6767199da044646734c367e54d9c",
+      "sequence_formula_hypothesis": "C119H210N32O30S3",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051822,
+          "parsed": true,
+          "formula": "C119H210N32O30S3",
+          "average_mass": 2665.3839999999964,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2399,
+      "raw_sha256": "cf3c092ccc44e1c365ff2418aaa47990d2da5c8b11cec923ea532ac471ebef82",
+      "sequence_formula_hypothesis": "C120H211N33O31S3",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051823,
+          "parsed": true,
+          "formula": "C120H211N33O31S3",
+          "average_mass": 2708.408999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2400,
+      "raw_sha256": "0bbdc2b8fa3bfee61f8db7c26c1d30a0fb01493c604d8175c9e5baf8a3b61ea1",
+      "sequence_formula_hypothesis": "C119H210N32O30S3",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051824,
+          "parsed": true,
+          "formula": "C119H210N32O30S3",
+          "average_mass": 2665.383999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2401,
+      "raw_sha256": "95f2e0a72c4431f24704f5ec2e02c18e9907c629993a04244599970fc91b189f",
+      "sequence_formula_hypothesis": "C118H208N32O30S3",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051825,
+          "parsed": true,
+          "formula": "C118H208N32O30S3",
+          "average_mass": 2651.356999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2425,
+      "raw_sha256": "d86fe51a758aff1940caef7e5b469a67c1a8a03f0d01c028efac033ef0c66636",
+      "sequence_formula_hypothesis": "C76H131N25O16",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051851,
+          "parsed": true,
+          "formula": "C76H131N25O16",
+          "average_mass": 1651.0430000000013,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7051852,
+          "parsed": true,
+          "formula": "C76H131N25O16",
+          "average_mass": 1651.0430000000013,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2426,
+      "raw_sha256": "4d72c6deefa8abfd27594b5bb7eaf17f017e9ee40f8680e3bf10ce579da34772",
+      "sequence_formula_hypothesis": "C77H133N25O16",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051853,
+          "parsed": true,
+          "formula": "C77H133N25O16",
+          "average_mass": 1665.0700000000013,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7051854,
+          "parsed": true,
+          "formula": "C77H133N25O16",
+          "average_mass": 1665.0700000000013,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2427,
+      "raw_sha256": "cf108d795e0fadbd55c7020e67a97e5e0422c9fc886ab4ad74539e191caf4f1e",
+      "sequence_formula_hypothesis": "C78H136N24O15",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051855,
+          "parsed": true,
+          "formula": "C78H136N24O15",
+          "average_mass": 1650.0990000000008,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7051856,
+          "parsed": true,
+          "formula": "C78H136N24O15",
+          "average_mass": 1650.0990000000008,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 2428,
+      "raw_sha256": "bee510baa37c2751edec7a6920ed6accadbc47816e6f6d1eaa47293bb649a3c6",
+      "sequence_formula_hypothesis": "C72H125N23O14",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7051857,
+          "parsed": true,
+          "formula": "C72H125N23O14",
+          "average_mass": 1536.939000000001,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7051858,
+          "parsed": true,
+          "formula": "C72H125N23O14",
+          "average_mass": 1536.939000000001,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3086,
+      "raw_sha256": "3319f433d88435aa32f6ffb5d06c785ba885b3683b365be7e5fb8b7b5ec81094",
+      "sequence_formula_hypothesis": "C119H204N32O34",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053202,
+          "parsed": true,
+          "formula": "C119H204N32O34",
+          "average_mass": 2627.1309999999958,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3087,
+      "raw_sha256": "bc82ea90e13c7f042f98425a073e07ac5f54c8922111e9dd2a563f7ef5cc0d19",
+      "sequence_formula_hypothesis": "C113H193N31O33",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053203,
+          "parsed": true,
+          "formula": "C113H193N31O33",
+          "average_mass": 2513.970999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3088,
+      "raw_sha256": "d279d912fec38eeffe322878f42455192b7b0d865566d0fb230a59764d41551c",
+      "sequence_formula_hypothesis": "C108H184N30O32",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053204,
+          "parsed": true,
+          "formula": "C108H184N30O32",
+          "average_mass": 2414.837999999998,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3198,
+      "raw_sha256": "5c396d9e3fa2bbf3177258d5c8914904704bac0fe126dbfbe61e582448c4db3a",
+      "sequence_formula_hypothesis": "C210H359N57O71",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053429,
+          "parsed": true,
+          "formula": "C210H359N57O71",
+          "average_mass": 4818.510000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7053430,
+          "parsed": true,
+          "formula": "C210H359N57O71",
+          "average_mass": 4818.510000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3199,
+      "raw_sha256": "18292d7ae29bf23df2e4b7c8e681f2401d36477c5e5c53356376bd3201a0540e",
+      "sequence_formula_hypothesis": "C121H180N36O50S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053431,
+          "parsed": true,
+          "formula": "C121H180N36O50S",
+          "average_mass": 2971.039999999995,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7053432,
+          "parsed": true,
+          "formula": "C121H180N36O50S",
+          "average_mass": 2971.039999999995,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3224,
+      "raw_sha256": "44b81674e8a695ac774bdaee04441225201fe7235e9881f6d1d75788d1a18a83",
+      "sequence_formula_hypothesis": "C41H58N8O15S2",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053470,
+          "parsed": true,
+          "formula": "C41H58N8O15S2",
+          "average_mass": 967.09,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3225,
+      "raw_sha256": "7360a5cedcdbe2c62af50ffc2ec4afe9e4bcd1d8a391e9c3625add932e22958e",
+      "sequence_formula_hypothesis": "C34H61N13O12S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053471,
+          "parsed": true,
+          "formula": "C34H61N13O12S",
+          "average_mass": 876.008,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7053472,
+          "parsed": true,
+          "formula": "C34H61N13O12S",
+          "average_mass": 876.008,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3226,
+      "raw_sha256": "3e4638d5f257d9d402a7ed422230eb15888e4a9f6366652e9619079a952a6c8f",
+      "sequence_formula_hypothesis": "C59H83N11O18S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053473,
+          "parsed": true,
+          "formula": "C59H83N11O18S",
+          "average_mass": 1266.4389999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3232,
+      "raw_sha256": "50a2b0a3a2e2f5a128e701fd69692f1ede8b2d3f312dbf44e8a918ed29b470b2",
+      "sequence_formula_hypothesis": "C57H78N12O9",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053484,
+          "parsed": true,
+          "formula": "C57H78N12O9",
+          "average_mass": 1075.3260000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7053485,
+          "parsed": true,
+          "formula": "C57H78N12O9",
+          "average_mass": 1075.326,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 3301,
+      "raw_sha256": "b617204afac1406670041260f5fa3f43da50efe1df6253b869c5b0593abb5faa",
+      "sequence_formula_hypothesis": "C75H118N20O13",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7053639,
+          "parsed": true,
+          "formula": "C75H118N20O13",
+          "average_mass": 1507.8960000000009,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7053640,
+          "parsed": true,
+          "formula": "C75H118N20O13",
+          "average_mass": 1507.8960000000009,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 36,
+      "raw_sha256": "3f7316621c2f3c8a865837d7907a09c93b5a8cb19fd91cc83ff9761d0654d741",
+      "sequence_formula_hypothesis": "C131H226N40O35S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047470,
+          "parsed": true,
+          "formula": "C131H226N40O35S",
+          "average_mass": 2953.5609999999956,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7047471,
+          "parsed": true,
+          "formula": "C131H226N40O35S",
+          "average_mass": 2953.560999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7047472,
+          "parsed": true,
+          "formula": "C131H226N40O35S",
+          "average_mass": 2953.5609999999956,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7047473,
+          "parsed": true,
+          "formula": "C131H226N40O35S",
+          "average_mass": 2953.560999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 37,
+      "raw_sha256": "f2c18c1426fc4171f0f18f52d736b841248f07582a0094f961ed9eff33a144d5",
+      "sequence_formula_hypothesis": "C88H162N26O22S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7047474,
+          "parsed": true,
+          "formula": "C88H162N26O22S",
+          "average_mass": 1968.4909999999995,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4013,
+      "raw_sha256": "59fbfb410c4364e0544fc770dcffae0f5a2f93f331311da8e1e230e726504f5b",
+      "sequence_formula_hypothesis": "C100H167N23O26S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054621,
+          "parsed": true,
+          "formula": "C100H167N23O26S",
+          "average_mass": 2139.637999999998,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4014,
+      "raw_sha256": "bea65473b5293bed7abd7be342d6ba843c351374caf4896edca64679d885d6ac",
+      "sequence_formula_hypothesis": "C100H167N23O26S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054622,
+          "parsed": true,
+          "formula": "C100H167N23O26S",
+          "average_mass": 2139.6379999999986,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4015,
+      "raw_sha256": "e90fa6534876fc92ad4210112048ee99463705cf868656628cff5265fc321d15",
+      "sequence_formula_hypothesis": "C105H170N26O25S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054623,
+          "parsed": true,
+          "formula": "C105H170N26O25S",
+          "average_mass": 2228.7389999999987,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7054624,
+          "parsed": true,
+          "formula": "C105H170N26O25S",
+          "average_mass": 2228.7389999999987,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4016,
+      "raw_sha256": "e898b3412d9f9e4c2ea194ce373d0f4a88de88e68e34849b2f48e14432aaedc4",
+      "sequence_formula_hypothesis": "C105H170N26O25S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054625,
+          "parsed": true,
+          "formula": "C105H170N26O25S",
+          "average_mass": 2228.739,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7054626,
+          "parsed": true,
+          "formula": "C105H170N26O25S",
+          "average_mass": 2228.739,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4017,
+      "raw_sha256": "5cb86f2d8713556795aa044bb4f3f9db7ebccc3197078e27d0cd9b21652e8d0c",
+      "sequence_formula_hypothesis": "C92H159N23O24",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054627,
+          "parsed": true,
+          "formula": "C92H159N23O24",
+          "average_mass": 1971.4209999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4018,
+      "raw_sha256": "824f559055163c41dc36dd12ada42f07224dc23e774fb9140bbb40c20c0bdd61",
+      "sequence_formula_hypothesis": "C92H159N23O24",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054628,
+          "parsed": true,
+          "formula": "C92H159N23O24",
+          "average_mass": 1971.4209999999991,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4019,
+      "raw_sha256": "c52439bfb8aa95795f989639ed23efec997481e728f78b503d345756d9a50bfa",
+      "sequence_formula_hypothesis": "C100H174N26O24S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054629,
+          "parsed": true,
+          "formula": "C100H174N26O24S",
+          "average_mass": 2156.7169999999987,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7054630,
+          "parsed": true,
+          "formula": "C100H174N26O24S",
+          "average_mass": 2156.716999999999,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4020,
+      "raw_sha256": "288540b3ee87da1ed5332263e0dfe63be186522a6bbfda5daa9d78cd49f1f48a",
+      "sequence_formula_hypothesis": "C100H174N26O24S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054631,
+          "parsed": true,
+          "formula": "C100H174N26O24S",
+          "average_mass": 2156.7169999999983,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7054632,
+          "parsed": true,
+          "formula": "C100H174N26O24S",
+          "average_mass": 2156.7169999999983,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4021,
+      "raw_sha256": "f40f85341fc99acec28b5cff7c8f58840d3b7f4e4dc91c386d5c5bf1e3827661",
+      "sequence_formula_hypothesis": "C91H164N26O26S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054633,
+          "parsed": true,
+          "formula": "C91H164N26O26S",
+          "average_mass": 2070.536000000001,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4022,
+      "raw_sha256": "c5fcf5652e49e5911a95e67100c0a0cb201b7d24094665e49f95d3811548e1f2",
+      "sequence_formula_hypothesis": "C91H164N26O26S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7054634,
+          "parsed": true,
+          "formula": "C91H164N26O26S",
+          "average_mass": 2070.536,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4339,
+      "raw_sha256": "56725285c44ab3b828d5a18e550022a8394b98f03c5a1960021ed60696622539",
+      "sequence_formula_hypothesis": "C89H151N27O15",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055163,
+          "parsed": true,
+          "formula": "C89H151N27O15",
+          "average_mass": 1839.3610000000015,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055164,
+          "parsed": true,
+          "formula": "C89H151N27O15",
+          "average_mass": 1839.3610000000015,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4340,
+      "raw_sha256": "d1d5c0281fe2ab4c7b484e1f9cb62fdc9e5833651884296d40c1f894720f36f5",
+      "sequence_formula_hypothesis": "C369H626N104O104S4",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055165,
+          "parsed": true,
+          "formula": "C369H626N104O104S4",
+          "average_mass": 8311.958999999993,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055166,
+          "parsed": true,
+          "formula": "C369H626N104O104S4",
+          "average_mass": 8311.958999999993,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4341,
+      "raw_sha256": "3d611b728f48e4a2b9422b2507ed7cec5371916cd68a0fe3e2a25e55619cca08",
+      "sequence_formula_hypothesis": "C232H397N67O66S3",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055167,
+          "parsed": true,
+          "formula": "C232H397N67O66S3",
+          "average_mass": 5277.331999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055168,
+          "parsed": true,
+          "formula": "C232H397N67O66S3",
+          "average_mass": 5277.331999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4342,
+      "raw_sha256": "ce1ffc3aaa1fe883f37b1eb32583319e1638d05a557c62b6a9b536e050da7826",
+      "sequence_formula_hypothesis": "C98H169N27O26",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055169,
+          "parsed": true,
+          "formula": "C98H169N27O26",
+          "average_mass": 2141.593,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4347,
+      "raw_sha256": "e9f3ab11530760388c9ceff2d9a2b371d919e4e87bdc7bacd67077700aca2ee3",
+      "sequence_formula_hypothesis": "C372H600N106O106S4",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055179,
+          "parsed": true,
+          "formula": "C372H600N106O106S4",
+          "average_mass": 8381.795999999995,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055180,
+          "parsed": true,
+          "formula": "C372H600N106O106S4",
+          "average_mass": 8381.795999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055181,
+          "parsed": true,
+          "formula": "C372H600N106O106S4",
+          "average_mass": 8381.795999999995,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055182,
+          "parsed": true,
+          "formula": "C372H600N106O106S4",
+          "average_mass": 8381.795999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4352,
+      "raw_sha256": "704ec82773cd43d96f17b8a583f5dc0df944a33ae8c3777dfc2bf7598ae4eedd",
+      "sequence_formula_hypothesis": "C211H340N66O62S10",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055193,
+          "parsed": true,
+          "formula": "C211H340N66O62S10",
+          "average_mass": 5114.110999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055194,
+          "parsed": true,
+          "formula": "C211H340N66O62S10",
+          "average_mass": 5114.110999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055195,
+          "parsed": true,
+          "formula": "C211H340N66O62S10",
+          "average_mass": 5114.110999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055196,
+          "parsed": true,
+          "formula": "C211H340N66O62S10",
+          "average_mass": 5114.110999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4379,
+      "raw_sha256": "74eeae41ea35e650a5c6b690e120b2d28196c9ed3ea3eebe8ec03e30d595d0f7",
+      "sequence_formula_hypothesis": "C95H162N28O16",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055232,
+          "parsed": true,
+          "formula": "C95H162N28O16",
+          "average_mass": 1952.5210000000013,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055233,
+          "parsed": true,
+          "formula": "C95H162N28O16",
+          "average_mass": 1952.5210000000013,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4380,
+      "raw_sha256": "c0c6da4bede79a286596d7904a8c03d147ec23e5cb95bcdc08aab7f57ab4dd4f",
+      "sequence_formula_hypothesis": "C101H174N30O17",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055234,
+          "parsed": true,
+          "formula": "C101H174N30O17",
+          "average_mass": 2080.6960000000017,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055235,
+          "parsed": true,
+          "formula": "C101H174N30O17",
+          "average_mass": 2080.6960000000017,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4407,
+      "raw_sha256": "ef71cca4d1dd280aff768b87e3f5d953c1d198eae41a0ff4629bb1f6065c6bd1",
+      "sequence_formula_hypothesis": "C142H264N40O32S",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055271,
+          "parsed": true,
+          "formula": "C142H264N40O32S",
+          "average_mass": 3075.9889999999923,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 4476,
+      "raw_sha256": "8d122fc93f333dae38b691e63156ef973840d20760158b7ae82c2f213c124e7e",
+      "sequence_formula_hypothesis": "C124H188N38O37S7",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7055407,
+          "parsed": true,
+          "formula": "C124H188N38O37S7",
+          "average_mass": 3027.5659999999957,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7055408,
+          "parsed": true,
+          "formula": "C124H188N38O37S7",
+          "average_mass": 3027.5659999999957,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 5518,
+      "raw_sha256": "6436abc41781cb015b4f13c35febb9a5221047fef73c0450d0bee27b3fe81fba",
+      "sequence_formula_hypothesis": null,
+      "caveats": [
+        "unusual_residues_not_independently_reconstructed"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7057367,
+          "parsed": true,
+          "formula": "C165H251N59O56S8",
+          "average_mass": 4213.715999999984,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": null
+        },
+        {
+          "smiles_id": 7057368,
+          "parsed": true,
+          "formula": "C165H251N59O56S8",
+          "average_mass": 4213.715999999984,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": null
+        }
+      ]
+    },
+    {
+      "peptide_id": 5545,
+      "raw_sha256": "d3675d9dcf7a4b4028ba8b3b95d8d697de7d57bb5f3c00a173d8c4bef173754c",
+      "sequence_formula_hypothesis": "C81H150N28O22",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7057421,
+          "parsed": true,
+          "formula": "C81H150N28O22",
+          "average_mass": 1868.265,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7057422,
+          "parsed": true,
+          "formula": "C81H150N28O22",
+          "average_mass": 1868.265,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 5546,
+      "raw_sha256": "f0fdd039c6511f1a923a673cc586cf2b78811de067e20be5ba4949b2d30015a8",
+      "sequence_formula_hypothesis": "C169H284N46O42S2",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7057423,
+          "parsed": true,
+          "formula": "C169H284N46O42S2",
+          "average_mass": 3696.544999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7057424,
+          "parsed": true,
+          "formula": "C169H284N46O42S2",
+          "average_mass": 3696.544999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7057425,
+          "parsed": true,
+          "formula": "C169H284N46O42S2",
+          "average_mass": 3696.544999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7057426,
+          "parsed": true,
+          "formula": "C169H284N46O42S2",
+          "average_mass": 3696.544999999988,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 5547,
+      "raw_sha256": "7f6ec0f6f835f28166bf8c11179e67ab54a48358f61bbb3252974cb7673724e4",
+      "sequence_formula_hypothesis": "C184H318N70O48",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7057427,
+          "parsed": true,
+          "formula": "C184H318N70O48",
+          "average_mass": 4279.009999999992,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7057428,
+          "parsed": true,
+          "formula": "C184H318N70O48",
+          "average_mass": 4279.009999999994,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7057429,
+          "parsed": true,
+          "formula": "C184H318N70O48",
+          "average_mass": 4279.009999999992,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7057430,
+          "parsed": true,
+          "formula": "C184H318N70O48",
+          "average_mass": 4279.009999999994,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 5548,
+      "raw_sha256": "a33cb84318be6f42a733ae3accfeddc7869d51aaf00f09519bc9573922853d78",
+      "sequence_formula_hypothesis": "C82H144N22O19",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7057431,
+          "parsed": true,
+          "formula": "C82H144N22O19",
+          "average_mass": 1742.1889999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7057432,
+          "parsed": true,
+          "formula": "C82H144N22O19",
+          "average_mass": 1742.1889999999996,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 873,
+      "raw_sha256": "26f5c4a870300ccb3ef8e3b9cfbdba6b5c992ea9993f4b861067fbfc51da34d0",
+      "sequence_formula_hypothesis": "C90H155N33O19",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048959,
+          "parsed": true,
+          "formula": "C90H155N33O19",
+          "average_mass": 2003.4420000000007,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048960,
+          "parsed": true,
+          "formula": "C90H155N33O19",
+          "average_mass": 2003.4420000000007,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048961,
+          "parsed": true,
+          "formula": "C90H155N33O19",
+          "average_mass": 2003.4420000000007,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048962,
+          "parsed": true,
+          "formula": "C90H155N33O19",
+          "average_mass": 2003.4420000000007,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 874,
+      "raw_sha256": "61e752097c7c4c686a50566172014996c71ed0165fad27d44c3a4557b6dd96ae",
+      "sequence_formula_hypothesis": "C84H143N29O18",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048963,
+          "parsed": true,
+          "formula": "C84H143N29O18",
+          "average_mass": 1847.2530000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048964,
+          "parsed": true,
+          "formula": "C84H143N29O18",
+          "average_mass": 1847.2530000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048965,
+          "parsed": true,
+          "formula": "C84H143N29O18",
+          "average_mass": 1847.2530000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048966,
+          "parsed": true,
+          "formula": "C84H143N29O18",
+          "average_mass": 1847.2530000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 875,
+      "raw_sha256": "90ba69df1a488fd49d183a2fbba8931ea6fc9311fbb06131f45117d159924c49",
+      "sequence_formula_hypothesis": "C81H138N28O17",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048967,
+          "parsed": true,
+          "formula": "C81H138N28O17",
+          "average_mass": 1776.1740000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048968,
+          "parsed": true,
+          "formula": "C81H138N28O17",
+          "average_mass": 1776.1740000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048969,
+          "parsed": true,
+          "formula": "C81H138N28O17",
+          "average_mass": 1776.1740000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048970,
+          "parsed": true,
+          "formula": "C81H138N28O17",
+          "average_mass": 1776.1740000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 876,
+      "raw_sha256": "aa33e1acbc925eb81b0d590ea1a2b571a481fc3b808a35db12d9782aeb79ed5b",
+      "sequence_formula_hypothesis": "C79H135N27O16",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048971,
+          "parsed": true,
+          "formula": "C79H135N27O16",
+          "average_mass": 1719.122,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048972,
+          "parsed": true,
+          "formula": "C79H135N27O16",
+          "average_mass": 1719.122,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048973,
+          "parsed": true,
+          "formula": "C79H135N27O16",
+          "average_mass": 1719.122,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048974,
+          "parsed": true,
+          "formula": "C79H135N27O16",
+          "average_mass": 1719.122,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 877,
+      "raw_sha256": "f5052570beaf944d385a1c7c44696a0246e074ba5ffdc45eaf1fb7ad4f9312d6",
+      "sequence_formula_hypothesis": "C73H124N26O15",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048975,
+          "parsed": true,
+          "formula": "C73H124N26O15",
+          "average_mass": 1605.9620000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048976,
+          "parsed": true,
+          "formula": "C73H124N26O15",
+          "average_mass": 1605.9620000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048977,
+          "parsed": true,
+          "formula": "C73H124N26O15",
+          "average_mass": 1605.9620000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048978,
+          "parsed": true,
+          "formula": "C73H124N26O15",
+          "average_mass": 1605.9620000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 878,
+      "raw_sha256": "cf2173fde25c85bb6e0dee03cecba87e3119860d5db8757c02281e77e3fdc225",
+      "sequence_formula_hypothesis": "C68H116N24O13",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048979,
+          "parsed": true,
+          "formula": "C68H116N24O13",
+          "average_mass": 1477.8309999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048980,
+          "parsed": true,
+          "formula": "C68H116N24O13",
+          "average_mass": 1477.8309999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048981,
+          "parsed": true,
+          "formula": "C68H116N24O13",
+          "average_mass": 1477.8309999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048982,
+          "parsed": true,
+          "formula": "C68H116N24O13",
+          "average_mass": 1477.8309999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 879,
+      "raw_sha256": "b084cec26b24ce9fbd893e8151674e6dbb2a96f71cf013bee711f40f68e64564",
+      "sequence_formula_hypothesis": "C59H107N23O12",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048983,
+          "parsed": true,
+          "formula": "C59H107N23O12",
+          "average_mass": 1330.6540000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048984,
+          "parsed": true,
+          "formula": "C59H107N23O12",
+          "average_mass": 1330.6540000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048985,
+          "parsed": true,
+          "formula": "C59H107N23O12",
+          "average_mass": 1330.6540000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048986,
+          "parsed": true,
+          "formula": "C59H107N23O12",
+          "average_mass": 1330.6540000000002,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 880,
+      "raw_sha256": "fea2efadcddaf33929136f673d1490544f7eb8a34462496df5fa0e170494d0aa",
+      "sequence_formula_hypothesis": "C82H138N32O22",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048987,
+          "parsed": true,
+          "formula": "C82H138N32O22",
+          "average_mass": 1924.208000000001,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048988,
+          "parsed": true,
+          "formula": "C82H138N32O22",
+          "average_mass": 1924.208000000001,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048989,
+          "parsed": true,
+          "formula": "C82H138N32O22",
+          "average_mass": 1924.208000000001,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048990,
+          "parsed": true,
+          "formula": "C82H138N32O22",
+          "average_mass": 1924.208000000001,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 881,
+      "raw_sha256": "44455d28e84f156999eedcb4d7f5a0b1d6e1d8f3d771bfd4173e0763742ba7e9",
+      "sequence_formula_hypothesis": "C84H143N31O18",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048991,
+          "parsed": true,
+          "formula": "C84H143N31O18",
+          "average_mass": 1875.2670000000003,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048992,
+          "parsed": true,
+          "formula": "C84H143N31O18",
+          "average_mass": 1875.2670000000003,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048993,
+          "parsed": true,
+          "formula": "C84H143N31O18",
+          "average_mass": 1875.2670000000003,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048994,
+          "parsed": true,
+          "formula": "C84H143N31O18",
+          "average_mass": 1875.2670000000003,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    },
+    {
+      "peptide_id": 882,
+      "raw_sha256": "ba6181aa2d10eccde2858eeaf1be7a484117a2ef399fd5d10c5809eb75dfab70",
+      "sequence_formula_hypothesis": "C78H131N27O17",
+      "caveats": [
+        "null_termini_evaluated_as_structure_hypothesis_not_observed_free"
+      ],
+      "smiles": [
+        {
+          "smiles_id": 7048995,
+          "parsed": true,
+          "formula": "C78H131N27O17",
+          "average_mass": 1719.0779999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048996,
+          "parsed": true,
+          "formula": "C78H131N27O17",
+          "average_mass": 1719.0779999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048997,
+          "parsed": true,
+          "formula": "C78H131N27O17",
+          "average_mass": 1719.0779999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        },
+        {
+          "smiles_id": 7048998,
+          "parsed": true,
+          "formula": "C78H131N27O17",
+          "average_mass": 1719.0779999999997,
+          "fragments": 1,
+          "formal_charge": 0,
+          "undefined_atom_stereocenters": 0,
+          "formula_matches_sequence_hypothesis": true
+        }
+      ]
+    }
+  ],
+  "interpretation": "Formula agreement is not chemical identity or assayed mass-basis verification; all source raw unchanged."
+}

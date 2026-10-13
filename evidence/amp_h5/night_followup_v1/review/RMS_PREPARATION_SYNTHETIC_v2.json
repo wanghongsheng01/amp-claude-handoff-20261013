@@ -1,0 +1,221 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "model_candidate_checks": [
+    {
+      "name": "2880_unique_fixed_slots",
+      "pass": true
+    },
+    {
+      "name": "320M_2560S_fixed8",
+      "pass": true
+    },
+    {
+      "name": "split_and_source_identity",
+      "pass": true
+    },
+    {
+      "name": "all_pending_rows_retained",
+      "pass": true
+    },
+    {
+      "name": "exact_frozen_slot_ledger",
+      "pass": true
+    },
+    {
+      "name": "contract_binding_script",
+      "pass": true
+    },
+    {
+      "name": "99decoder_2encoder_fixed",
+      "pass": true
+    },
+    {
+      "name": "all_bound_input_hashes",
+      "pass": true
+    },
+    {
+      "name": "private_full320_epsilon_streams",
+      "pass": true
+    },
+    {
+      "name": "frozen_encoder_route_once",
+      "pass": true
+    },
+    {
+      "name": "no_forbidden_call_names",
+      "pass": true
+    },
+    {
+      "name": "no_teacherforcing_or_inverse_call",
+      "pass": true
+    },
+    {
+      "name": "post_manifest_clock_gate",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_epsilon_banks",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_decode_batch",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_build_reference",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_bits_equal",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_allocated_rows",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_slot_intent",
+      "pass": true
+    },
+    {
+      "name": "bootstrap_no_frozen_whole_manifest_call",
+      "pass": true
+    },
+    {
+      "name": "bootstrap_skip_before_content_sha",
+      "pass": true
+    },
+    {
+      "name": "bootstrap_synthetic_never_hashes_legacy_dataset",
+      "pass": true
+    },
+    {
+      "name": "toy_empty_and_cap_retained",
+      "pass": true
+    },
+    {
+      "name": "toy_tokens_finite_output",
+      "pass": true
+    },
+    {
+      "name": "failure_observations_shared_reference",
+      "pass": true
+    },
+    {
+      "name": "synthetic_M_exact_parity",
+      "pass": true
+    },
+    {
+      "name": "synthetic_M_parity_mismatch_fails",
+      "pass": true
+    },
+    {
+      "name": "exception_AdmissionFailure",
+      "pass": true
+    },
+    {
+      "name": "exception_RuntimeError",
+      "pass": true
+    },
+    {
+      "name": "exception_ExportInterrupt",
+      "pass": true
+    }
+  ],
+  "model_candidate_check_count": 30,
+  "core_result": {
+    "status": "PASS",
+    "n_checks": 73,
+    "checks": {
+      "canonical_AA_order": true,
+      "extra_not_penalized_in_target_accuracy": true,
+      "extra_target_denominator": true,
+      "extra_edit_and_normalization": true,
+      "extra_length_and_not_exact": true,
+      "missing_residue_in_denominator": true,
+      "missing_length_sign": true,
+      "missing_edit": true,
+      "position_accuracy_is_not_alignment": true,
+      "edit_can_differ_from_position_errors": true,
+      "substitution_unit_cost": true,
+      "transposition_is_two_edits": true,
+      "both_empty_accuracy_missing": true,
+      "both_empty_exact_and_zero_distance": true,
+      "empty_reference_nonempty_prediction": true,
+      "empty_prediction_all_target_positions_wrong": true,
+      "pair_text_is_not_normalized": true,
+      "pair_rejects_nonstring": true,
+      "edit_symmetry_('A', 'CCCC')": true,
+      "edit_symmetry_('ACD', 'DCA')": true,
+      "edit_symmetry_('', 'AC')": true,
+      "edit_symmetry_('AC', 'AC')": true,
+      "feature_called_once_per_valid_string": true,
+      "feature_valid_and421": true,
+      "delta_is_prediction_minus_reference": true,
+      "length_block": true,
+      "aa_block": true,
+      "dipeptide_cancellation_not_zero_distance": true,
+      "three_blocks_partition_signed_sum": true,
+      "three_blocks_partition_L1": true,
+      "three_blocks_partition_squared_L2": true,
+      "feature_direction_reversal": true,
+      "legitimate_equal_features_are_zero_and_valid": true,
+      "invalid_null_0": true,
+      "invalid_no_feature_calls_0": true,
+      "invalid_reason_retained_0": true,
+      "invalid_null_1": true,
+      "invalid_no_feature_calls_1": true,
+      "invalid_reason_retained_1": true,
+      "invalid_null_2": true,
+      "invalid_no_feature_calls_2": true,
+      "invalid_reason_retained_2": true,
+      "invalid_null_3": true,
+      "invalid_no_feature_calls_3": true,
+      "invalid_reason_retained_3": true,
+      "invalid_null_4": true,
+      "invalid_no_feature_calls_4": true,
+      "invalid_reason_retained_4": true,
+      "invalid_null_5": true,
+      "invalid_no_feature_calls_5": true,
+      "invalid_reason_retained_5": true,
+      "invalid_null_6": true,
+      "invalid_no_feature_calls_6": true,
+      "invalid_reason_retained_6": true,
+      "wrong_dimension_is_missing": true,
+      "nonfinite_feature_is_missing": true,
+      "numeric_string_feature_rejected": true,
+      "feature_exception_status_retained": true,
+      "delta_overflow_missing": true,
+      "summary_valid_mean": true,
+      "summary_explicit_missing_denominator": true,
+      "summary_unobserved_expected_slots": true,
+      "summary_all_missing": true,
+      "summary_no_slots": true,
+      "summary_expected_but_unobserved": true,
+      "summary_zero_is_valid": true,
+      "summary_Decimal_values": true,
+      "summary_finite_large_mean": true,
+      "summary_cannot_shrink_denominator": true,
+      "summary_rejects_negative_expected": true,
+      "summary_rejects_boolean_expected": true,
+      "summary_rejects_fractional_expected": true,
+      "outputs_JSON_without_NaN": true
+    },
+    "scope": "Synthetic literals only; no RNG, model, RDKit, natural cohort or test access",
+    "files": [
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/synthetic_core_checks.py",
+        "sha256": "75395bf3ec28a22ef7b04aaf43670e0343c12ff7166fe33f9b0762cd981112d7"
+      },
+      {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/rms_metric_core.py",
+        "sha256": "2e55dd45da964367ca24555b7e42e4d82d8c9be226c9816b714ab283b70ad31a"
+      }
+    ]
+  },
+  "model_calls": 0,
+  "torch_imported": false,
+  "natural_RNG_or_arrays": false,
+  "legacy_dataset_content_reads": false,
+  "elapsed_seconds_before_result_io": 0.08555995766073465
+}

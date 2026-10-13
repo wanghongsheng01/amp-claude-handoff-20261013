@@ -1,0 +1,23 @@
+{
+  "raw200_integrity": "PASS",
+  "raw_sha256_verified": 200,
+  "raw_complete_JSON_ID_monomer_verified": 200,
+  "all_MIC_rows": 1788,
+  "native_rows": 318,
+  "standalone_cleaner_matches_frozen_preparation_and_native_eligibility": true,
+  "training": 0,
+  "new_data_requests": 0,
+  "test37_reads": 0,
+  "NO_GO": "UNCHANGED",
+  "original27_origin_and_selection": "AUTHOR_RESPONSE_PENDING_EVIDENCE_GRADE_UNCHANGED",
+  "source_hashes": {
+    "dbaasp_checkpoint_v7/prepared/peptides.jsonl": "068acc503c4b5b078b33ea1fc01847001d8ca5b82fe3b386270d06ff2a79c7b7",
+    "dbaasp_checkpoint_v7/prepared/mic_measurements.jsonl": "1a1969c23f908623a6487c43659ba8a5b21994c7b81bb2f88bc6260f068e5052",
+    "dbaasp_checkpoint_v7/analysis/NATIVE_ROWS.jsonl": "0ea0d163a7117e771201a68a81dcfd8fc940bb38eab6f326d822961c5c98301d",
+    "dbaasp_checkpoint_v7/analysis/CHEMISTRY.jsonl": "c473e7d8d7bdf00f3f81d9cb1264905d0840a16a53f6f221035f9b839213e5bd",
+    "dbaasp_checkpoint_v7/FINAL_MANIFEST.json": "6f7b28cb467ce5d49cf064190ff25792f7aec1d3d87e19ec051e2f07ad74baa2",
+    "dbaasp_coverage_v5/analysis/COUNTS.json": "d9961e2edbfbaef312012e4ad36e645cd2b95a11986970ced05b79116bb11623",
+    "dbaasp_checkpoint_v6/analysis/COUNTS.json": "3cf3976d454d84bc3fe2787a26f52ea64c5df9d679082ce295eb7cdc22c5bb4b",
+    "dbaasp_feasibility_v1/OFFICIAL_DOCS_TOOL_RESPONSE.txt": "2f4e74c0aa17d8de28dcb5c9377ea53dfdcf48c070bf407cd22a1783c5bc94f1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "Static AST and entirely synthetic temporary file contract validation. No natural checkpoint load, model calls, source CSV reads or recovery execution.",
+  "checks_passed": 19,
+  "checks": [
+    "no training or optimizer calls in AST",
+    "one unchanged generate, two frozen exports, two state loads",
+    "FeatureScaler constructor never called",
+    "outer deadline bypasses inherited catch Exception",
+    "outer signal raises designated interruption without model work",
+    "complete synthetic request validates without output or model import",
+    "unauthorized receipt rejected",
+    "unbound receipt rejected",
+    "absent root authorization rejected",
+    "seed drift rejected",
+    "budget drift rejected",
+    "supervisor output scope drift rejected",
+    "parent supervisor lock identity rejected",
+    "existing empty output rejected",
+    "original input content drift rejected",
+    "original file membership drift rejected",
+    "missing independent receipt rejected before output",
+    "relative CLI path rejected",
+    "no torch, numpy or natural model import during validation"
+  ],
+  "script_sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+  "contract_sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00",
+  "natural_model_calls": 0,
+  "natural_weight_deserializations": 0
+}

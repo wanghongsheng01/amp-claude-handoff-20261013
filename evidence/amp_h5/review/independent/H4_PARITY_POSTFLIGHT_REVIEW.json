@@ -1,0 +1,99 @@
+{
+  "created_utc": "2026-10-11T16:20:50.109317+00:00",
+  "status": "PASS_SCOPED_H4_SAVED_T1_POSTFLIGHT",
+  "checks": [
+    {
+      "name": "output_manifest_hashes",
+      "pass": true
+    },
+    {
+      "name": "config_frozen",
+      "pass": true
+    },
+    {
+      "name": "inputs_unchanged",
+      "pass": true
+    },
+    {
+      "name": "execution_scope",
+      "pass": true
+    },
+    {
+      "name": "reported20_bitwise_finite_checks",
+      "pass": true
+    },
+    {
+      "name": "reported_schedule_and_state_rng_match",
+      "pass": true
+    },
+    {
+      "name": "FREE_prediction_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "FREE_old_reverse_parameters_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "FREE_h5_reverse_parameters_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "FREE_posterior_scale_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "FREE_latent_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "FREE_decoder_raw_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "AMD_prediction_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "AMD_old_reverse_parameters_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "AMD_h5_reverse_parameters_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "AMD_posterior_scale_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "AMD_latent_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "AMD_decoder_raw_independent_saved_array_match",
+      "pass": true
+    },
+    {
+      "name": "supervisor_plan_exit0_cap",
+      "pass": true
+    }
+  ],
+  "model_calls_performed_by_this_review": 0,
+  "new_generation": 0,
+  "test_reads": 0,
+  "independently_recompared_saved_numeric_arrays": 12,
+  "reported_bitwise_checks": 20,
+  "status_sha256": "e66755d220ceb99d91001c9e4e7ea253e49255a6b3aa151596ab0585b430315e",
+  "manifest_sha256": "fbb92e1da91dd9ab3967d892c90c53c358dbc04af2abfd67f1c3faa59bf6f2ad",
+  "scope": "Two archived successful16-row final-timestep batches. Prediction, H5/old reverse state, exp(logsigma), fixed-epsilon latent and decoder raw exactly match archives. State/RNG unchanged and zero gradients additionally recorded by reviewed script.",
+  "limits": [
+    "Not a full998-step replay.",
+    "No dynamic encoder or descriptor-scaling validation.",
+    "No test of new H5 weights or guarantee that more training fixes smoke overflow.",
+    "No generation-quality or peptide-activity evidence."
+  ],
+  "VAE_FORMAL": "HOLD",
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD"
+}

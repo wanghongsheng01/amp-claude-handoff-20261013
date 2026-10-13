@@ -1,0 +1,46 @@
+{
+  "scope": "AMP H5 new B/C/D source diagnostic interpretation preaudit only",
+  "created_utc": "2026-10-11T20:10:27.926988+00:00",
+  "status": "CONCEPTUAL_BOUNDARIES_READY_EXACT_CONTRACT_REVIEW_PENDING",
+  "basis": "Root explicit new A32 reused/B32 posterior/C32 sampled-z column permutations/D32 reference-g native prior task; not old AB64 plan.",
+  "four_arm_scientific_closeout": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+    "bytes": 52866,
+    "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a"
+  },
+  "exact_new_contract_bound": false,
+  "execution_authorized": false,
+  "expected_counts": {
+    "historical_A_reused": 32,
+    "new_B": 32,
+    "new_C": 32,
+    "new_D": 32,
+    "new_requests": 96
+  },
+  "information_scope": {
+    "A": "saved terminal-only DDPM CE recovery source",
+    "B": "same-terminal train donor posterior sampled z; empirical training-distribution diagnostic",
+    "C": "within-terminal per-column permutation of fixed B sampled decoder z",
+    "D": "base-prior z_p -> inverse flow using paired train reference-g -> same CE decoder; extra residue/length condition; exclude from c-only ranking"
+  },
+  "required_interpretation_limits": [
+    "Source effect at fixed decoder is not a diagnosis of a unique DDPM mismatch component.",
+    "C preserves finite per-coordinate empirical marginals and perturbs joint dependence; no single paired target sequence; not independent replicas.",
+    "D reference-g information privilege must be explicit; native conditional prior distinct from direct decoder-space standardnormal.",
+    "Same train donor indices/g/scaler pairing, all denominators, seeds/permutations/stop rules/costs must be frozen before execution.",
+    "Original gates and four-arm failed generation conclusion are immutable; no innovation/activity/safety/promotion claim."
+  ],
+  "actions": {
+    "models": 0,
+    "forward": 0,
+    "training": 0,
+    "generation": 0,
+    "test_reads": 0,
+    "new_diagnostic_outputs_read": 0
+  },
+  "markdown": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_BCD_INTERPRETATION_BOUNDARIES_PREAUDIT_v1.zh.md",
+    "bytes": 4748,
+    "sha256": "4631b2ad99a28636ad626674a8432c15899841af2227c8a1702c24a475fa2b0c"
+  }
+}

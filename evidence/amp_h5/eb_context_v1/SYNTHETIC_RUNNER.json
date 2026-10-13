@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "natural_data_read": false,
+  "grouping": {
+    "status": "PASS",
+    "tests": [
+      "edit boundaries",
+      "70pct components",
+      "cross-terminal duplicate",
+      "every row once",
+      "no edge crosses folds",
+      "deterministic packing"
+    ]
+  },
+  "runner": [
+    "full boundary score",
+    "AR synthetic two-step fit",
+    "AR and EB generation complete",
+    "equal-terminal aggregation"
+  ]
+}

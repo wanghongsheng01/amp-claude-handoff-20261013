@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "path": "CLAIM_REGISTER.json",
+      "bytes": 4509,
+      "sha256": "c3957dd3166b609746c6e776209fd4208ae3bcc17d233ac12352110296623659"
+    },
+    {
+      "path": "COUNTS.json",
+      "bytes": 1765,
+      "sha256": "8d8ad2de77f7570756610e0e24834ea3cc7dba743b2bbd8cc93cce3fa9e01294"
+    },
+    {
+      "path": "DELIVERY.json",
+      "bytes": 3154,
+      "sha256": "04eb3140fba8fcd521e2451859c8a7497d0cd2adb27bc4104736d8869a603b65"
+    },
+    {
+      "path": "EVIDENCE_MAP_27.csv",
+      "bytes": 9900,
+      "sha256": "0ff850582c708c88bf72c9b51f1b16f5d366e9a9695e59ee0f8a17f03fc62ff6"
+    },
+    {
+      "path": "EVIDENCE_MAP_27.json",
+      "bytes": 519609,
+      "sha256": "182468fc69d285ecd7465af3775225aac814e3291995f5cb9fff222d6e5ee4c2"
+    },
+    {
+      "path": "EVIDENCE_MAP_27.jsonl",
+      "bytes": 411797,
+      "sha256": "1823a6db22bcea16bb211bae4ce1466fa08a2c31a7791f144a0e5139bb90c845"
+    },
+    {
+      "path": "GENERATION_CHAIN.json",
+      "bytes": 2197,
+      "sha256": "718a5068313a09cb292341dd6e1cbf51b6d7636e519ea0efc79c978f83fc224e"
+    },
+    {
+      "path": "MAP_INDEX.zh.md",
+      "bytes": 1590,
+      "sha256": "c287779a22f52c32d6957b6d7c2004f0b9971826124b52c1ff5aa6f5c4d306c9"
+    },
+    {
+      "path": "MIC_RAW_ROWS.jsonl",
+      "bytes": 2137225,
+      "sha256": "d8d2da2081dcf8d1ca26d3e2d64fe0745c8f97cae137fd83144c40b827a87227"
+    },
+    {
+      "path": "ORIGINAL_MANUSCRIPT_LOCATORS.json",
+      "bytes": 3344,
+      "sha256": "4e3e908cc27f43cef44b044e2979e721d35f0981a5788dba8d4e679c9ce2600e"
+    },
+    {
+      "path": "OUTSIDE_27_HISTORICAL_CANDIDATES.json",
+      "bytes": 3034,
+      "sha256": "7031399084dba10d1166074fd48c214a46b7cdb44dd45b4e344bd525ebf56ed3"
+    },
+    {
+      "path": "QC_CHECKS.json",
+      "bytes": 13114,
+      "sha256": "13aecb70ec3971316854f4b3d6e0ae5c23383b259785917706d38f7500aa10e8"
+    },
+    {
+      "path": "REPORT.zh.md",
+      "bytes": 5659,
+      "sha256": "cf9c77951046a212bdd5b3dea0ceb0746fb1904cc044c7a0c71a69fa40c17bab"
+    },
+    {
+      "path": "SOURCE_INDEX.json",
+      "bytes": 150021,
+      "sha256": "84ade7605ab46f9a22f965ffaaeee7d053c1894580e0916d8408bd4cfe784b38"
+    },
+    {
+      "path": "SOURCE_PRESERVATION.json",
+      "bytes": 127,
+      "sha256": "814a8321345ad5823d56f726168fab070dcf8bd83deec678411b67ef2d1588c9"
+    },
+    {
+      "path": "build.stdout.log",
+      "bytes": 1227,
+      "sha256": "77e69b7f15165c4ea120e105c7c422cecbbb5f05202175ac505845abe12c84fe"
+    },
+    {
+      "path": "build_mapping.py",
+      "bytes": 17981,
+      "sha256": "972d0252f701695de652ef730e548d859d7b92325c9c0a62729cc194c977d348"
+    },
+    {
+      "path": "independent/EXISTING_SOURCE_AUDIT.json",
+      "bytes": 13767,
+      "sha256": "c038a1c988b27a01c59eabdb166194930c250f32b1328e7aee0da2ae3d1a1ee3"
+    },
+    {
+      "path": "independent/MAPPING_AUDIT.json",
+      "bytes": 920094,
+      "sha256": "c7886e32141176adb8029cbd814598f3d789654ca6e54245ff8c61c108071dec"
+    },
+    {
+      "path": "independent/SCIENCE_REVIEW.zh.md",
+      "bytes": 6467,
+      "sha256": "c471274a450b653fc9d47bc68332597da97cc9b39fce5e0cebca6a71da9abb63"
+    },
+    {
+      "path": "independent/SIGNOFF.json",
+      "bytes": 3520,
+      "sha256": "db315a3cf3fb648dc9cf3599df798376866802dd72945337006267f02472d4d9"
+    },
+    {
+      "path": "independent/audit_existing_sources.py",
+      "bytes": 6258,
+      "sha256": "433d0e9125fef21162f8d6df00f49492e90c3cc437d20755377ac3fd0fa7a5d8"
+    },
+    {
+      "path": "independent/audit_mapping.py",
+      "bytes": 9082,
+      "sha256": "a128be9174c4f6bff8837ebdb75b86946234941145eff2dba906e47844b14713"
+    },
+    {
+      "path": "package_delivery.py",
+      "bytes": 2235,
+      "sha256": "2da1cc340e56f73e616331af1cabcb3382faa6daa0569e2507855a267d5ed3ae"
+    },
+    {
+      "path": "write_delivery.py",
+      "bytes": 10549,
+      "sha256": "f13205cf311cf91f233e0e45a4e6b0014a159a1695401dd3f9e62c561c355302"
+    }
+  ],
+  "exclusions": [
+    "FINAL_MANIFEST.json(self)",
+    "__pycache__(derived)"
+  ],
+  "backup": "BACKUP_BLOCKED"
+}

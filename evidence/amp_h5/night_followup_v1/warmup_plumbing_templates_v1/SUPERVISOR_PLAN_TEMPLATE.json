@@ -1,0 +1,692 @@
+{
+  "scope_id": "AMP_H5_CE_BETA_WARMUP_VAE_ONLY_V1",
+  "status": "TEMPLATE_NOT_AUTHORIZED",
+  "root_execution_authorized": false,
+  "workspace": "/Users/loctek/Documents/Codex/2026-10-11/task-4",
+  "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_execution_v1",
+  "supervisor_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+  "launcher_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+  "candidate_manifest_sha256": "888c0c022e136e9ae72d616c5217ca0378e745080ec1d5bfeb3f0aec646a1bc4",
+  "contract_sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a",
+  "root_receipt_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ROOT_LAUNCH_AUTHORIZATION.json",
+  "jobs": [
+    {
+      "id": "ce_beta_warmup_vae_only_v1",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/warmup_vae_only.py",
+        "--contract",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/CONTRACT.json",
+        "--root-receipt",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ROOT_LAUNCH_AUTHORIZATION.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1"
+      ],
+      "outer_timeout_seconds": 2100
+    }
+  ],
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "role": "Frozen candidate runner"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/config.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "role": "Frozen candidate baseline_config"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_initial_state.pt",
+      "sha256": "9c1972402bdfcfc56fa58656858a110fa7fd7ca58a438e8a4b6b43dd2669429c",
+      "role": "Frozen candidate baseline_initial_weights"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+      "role": "Frozen candidate baseline_final_weights"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_initial_state.json",
+      "sha256": "c7513b462362422ed3d7e117faf9f972839ae231b972f5db76c3b226accf888a",
+      "role": "Frozen candidate baseline_initial_metadata"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490",
+      "role": "Frozen candidate baseline_final_metadata"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "role": "Frozen candidate baseline_scaler"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1",
+      "role": "Frozen candidate baseline_runtime"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_train.jsonl",
+      "sha256": "d88e9fff8e1aad92071eb12440d8c0604857c41b6725b6d3c4c2dbfa7d89ceae",
+      "role": "Frozen candidate baseline_train_trace"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_training_summary.json",
+      "sha256": "d9c10cda3fdbc3f070414f89a9bccc727627dd1bdbaaeb3daf7f4b41ba662ce2",
+      "role": "Frozen candidate baseline_train_summary"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/dev_monitor.jsonl",
+      "sha256": "779afe8b424c4331a835d0f4c8e362fa02d8484a0273cf72c3fa4de8ac441afa",
+      "role": "Frozen candidate baseline_monitor_trace"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/BETA_WARMUP_CONDITIONAL_PROTOCOL_v2.json",
+      "sha256": "86f102de2e2e7140a2963ed200fd6668d77c090d1481d17db73f99cc48a4a9ec",
+      "role": "Frozen candidate literature_protocol"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+      "sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194",
+      "role": "Frozen candidate root_guards"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/source_copy_manifest.json",
+      "sha256": "019f4d1a6c6fd882c71849ae3c2920556020cee043ea084b31def1a89e980f48",
+      "role": "Frozen candidate source_manifest"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/bin/python3.12",
+      "sha256": "d67ff65d8cbe8e6f40d5e7bcf8d9978e935d571907316c5ce6670181951db324",
+      "role": "Frozen candidate python_executable"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/configs/datasets/flow_vae.yaml",
+      "sha256": "6d9115beb1532ed140aac46d0c2549a22665058a8540b4d8a0dd194ae0a3ec7e",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/configs/egs_bases/flow_vae/base.yaml",
+      "sha256": "e634b49f7d2065bc5d658c524e77da10f442f128ccf4257b04942e5600d13cf9",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/configs/egs_bases/flow_vae/flow_vae.yaml",
+      "sha256": "4510267a58bc3698a7fc61043adef3a4f65fb701287d68160a1f97cbbdf179ea",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/configs/train_vae.yaml",
+      "sha256": "b9ef1d24c50482674127b191494b314b68a7a24e15814dc61d248413471fb489",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/datasets/concract.py",
+      "sha256": "d6578f6431c8ddd98b9cca702a7062283f7b3a4525ca2557345ae6c95775604a",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/datasets/dataprocess.py",
+      "sha256": "76927c81d2b56ab0db1410e3272dffbf82dfb43bb28c28a3336bb4bb5d4791fd",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/datasets/dataprocess2.py",
+      "sha256": "6fc068c8062f5ebae8281fe594b303411c163b5f25f81ffbcacff44ce4707727",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/datasets/del.py",
+      "sha256": "d8470faad7d6d50af6264dce6481f6b079d4def9663e16921920c09135ae7bbd",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/datasets/useing_rdkit.py",
+      "sha256": "947b2c44f0ce4cc31b19ce997ce4c800559941a175f4f5803da4f733de8c12cc",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/Beam.py",
+      "sha256": "61998bcb6320f742eabb821fe6b9e2ad89aa1dbaa95406614d3506b3913bd01d",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/__pycache__/Beam.cpython-38.pyc",
+      "sha256": "82034ef623e89256ea9560a7f81b5dbfbc067d789ee90a0a8ee2d8d17d86221e",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/__pycache__/attention_model.cpython-38.pyc",
+      "sha256": "3c3519372fc634d4ff64f425c217ec87942f0242f3e85728d096f885c44fffa0",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/__pycache__/diff.cpython-38.pyc",
+      "sha256": "827f820e5784bccbc544c662dc4a17c5c6d4d1884536a5bf71033445e494a1a0",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/__pycache__/flow_base.cpython-38.pyc",
+      "sha256": "ec909ebd5e5d1e27548584561e03477dcd1188a3fda0488668643bcaaf73a326",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/__pycache__/transformer_base.cpython-38.pyc",
+      "sha256": "8b694914f375b850db1d943799d2d0db82ba893855168fe3c651c04c0128c960",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/__pycache__/vae.cpython-38.pyc",
+      "sha256": "100f91e514f07a4358568963ad4cc01756219d9c5b46040148092bc584bc627b",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/attention_model.py",
+      "sha256": "87b160a350037bf5bbf0bb4daff50ec5b57cd8f1eab39911ee7352d961a42382",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/cnn_models.py",
+      "sha256": "7ef8fc82fa89e655788def7da2dadb81fb1e19b1c44b3e8c7c8ed89edf2dcda7",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/diff.py",
+      "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+      "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/multi_length_disc.py",
+      "sha256": "90b14ce695f5c007af41cbfc5fce8de4671a599e005710c0173cb96d7c5e84f1",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/transformer_base.py",
+      "sha256": "3e37748c26dcfe1c1819e445a718b93648e8ccd5cb53656b4d29ab39d366548d",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/transformer_models.py",
+      "sha256": "a5edd1a7d6f621b0860902d2a2f0a026ef6658969f8d280fd42df3d71fc8e3a4",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/utils.py",
+      "sha256": "31fdb3644b071dac7786d11f60c3965c19f7b117e8a3bd04a8d7e20df69ea978",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+      "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/__pycache__/train VAE+flow.cpython-38.pyc",
+      "sha256": "d62337a96430b4e8d916cf9dd605de2c3c6835e93c380ea64398bbf6a38b2fb2",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/__pycache__/train_VAE+flow.cpython-38.pyc",
+      "sha256": "66458e99185cb402c30c7f64dca0a9c977e93f469e3c537e6cb93d734d897816",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/__pycache__/train_diffusion.cpython-38.pyc",
+      "sha256": "b6824db65bfbfa626002be6f73deae2679472c5e72d15ddc2fa7a54a00a290da",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/dataset_loader/dataset_utils/AMP_dataset.py",
+      "sha256": "42b14d4a4df6bfbde26fb91123ba976022ca625f3776a0b235f1874651d557f1",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/dataset_loader/dataset_utils/__pycache__/csv_dataset.cpython-38.pyc",
+      "sha256": "c3c3d3039abad6b21eeda3574492fb25e2bfca12a55048062785d2f7d75f5699",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/dataset_loader/dataset_utils/amp_input_contract.py",
+      "sha256": "e716513472b05e28735663790ab23af1e4e8dfe4b24724cf178c0c9132bd80b0",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/dataset_loader/dataset_utils/csv_dataset.py",
+      "sha256": "2c6ff082a309750f88d110dd21e8b3529dc4f1951f387b3c214c4fcbf49643f3",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/dataset_loader/dataset_utils/euler2quaterion.py",
+      "sha256": "f9e1a1073c96fdee4c94dcf3505202e0f7b901b0ebbab18e35101fde8a9d7e45",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/run.py",
+      "sha256": "900911c966d8e0a2dec351d11a23f779f426fb118f0988b6773be12d0a4e5279",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/train_QSAR.py",
+      "sha256": "89629a82bf05d0978c89df9fbbf5930390b1873ddcc15688159fd9c75fe9f022",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/train_VAE+flow.py",
+      "sha256": "03e7a30527243cb516b00e1291b69f3fd72b9d2751b2da5e9ee3946854751fe6",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/train_diffusion.py",
+      "sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/useing_rdkit.py",
+      "sha256": "850a25e789902364f106c3de20624b574d5f1267abb6b01dad3d2cedeee23269",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/__pycache__/__init__.cpython-312.pyc",
+      "sha256": "d5e3d06aa0c9010266ff582ba4e856e51c22ef0a8eeb260edf9bc11954818e01",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/__pycache__/__init__.cpython-38.pyc",
+      "sha256": "579ae3ec7c3783c704f5b237d05e63c63bb37c209e0f4b4bf96c4bf48c76b031",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/base_task.cpython-38.pyc",
+      "sha256": "0f3de3f345f99aadc013c882933d728f7c6250d18ee43c780a907ee43dce32ea",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/ckpt_utils.cpython-38.pyc",
+      "sha256": "b5edbc33e7a175dc4fa94e4f7f555872d8a67ce9d2cdc0a69f60b9e116383cdc",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/dataset_utils.cpython-38.pyc",
+      "sha256": "bc6e480755d2021687d2daa2ef084f14b02a70a9adcf991ef88713845b874ef3",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/ddp_utils.cpython-38.pyc",
+      "sha256": "efb0ed6e570cc672415cc9bed09f55f319f30d6074277f12344a8bec8f9033ca",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/hparams.cpython-312.pyc",
+      "sha256": "0228c386bf931cae68851323dce1b5bb01916c7e56f89a4407df6f6415c0d2ef",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/hparams.cpython-38.pyc",
+      "sha256": "f62d6628a3600aac97310d0e82be3b4c7742f227ebc2c7e55cc4be0ea07bb0b0",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/indexed_datasets.cpython-38.pyc",
+      "sha256": "549903b85661ff7226fcd8a5b75adf47fbc23f07f7be29b1d451dbcc2a9a295c",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/meters.cpython-38.pyc",
+      "sha256": "5ca166e4c1d20d2bf72274fa3f55729d262d726b9d891fb6e6537c84d5b29321",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/os_utils.cpython-38.pyc",
+      "sha256": "d1654f38bc8db475ffc6a86fbfd52a8e128f19b807fdd31ca5107388cb2dac73",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/tensor_utils.cpython-38.pyc",
+      "sha256": "a0a697e6826ab0eefb1e40f5b948e3272e584e7959ee8c2840f6884504f9f6eb",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/__pycache__/trainer.cpython-38.pyc",
+      "sha256": "eb82b47e34f6f888e0f8a7c21472edd821238f1ac4e03ce1cf473db9a47d5a47",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/base_task.py",
+      "sha256": "903ea010d5e44c8c467bf452ee23e6df141908ee394c2818b6b38be127615183",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/ckpt_utils.py",
+      "sha256": "f85c04dec78e39ef1f75a7c8ed5567d9b4beb7239b20af585d2e4a10f386ab1a",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/crop_head.py",
+      "sha256": "5c549584e89afc51f9f6c0a9f5961f1979c3ddfe71ba9a6271ed2dde63f0f65b",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/dataset_utils.py",
+      "sha256": "9c0470e506335816c9b7e1817d5282639a5a5f4784d4635ea29797beb505cbb3",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/ddp_utils.py",
+      "sha256": "cc9f0bf3dd57867114dc7a5c793966a2588304081098a064bae373cffe7af6c6",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/euler2rot.py",
+      "sha256": "4882234cc59b334411227690bd526e4aec0c88bcc6b9304b97a49864e477ebee",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/face_alignment_utils.py",
+      "sha256": "34b74787f6a0901a68d99c8e55016b563a9b50b01fcbefc9e784c13648f68dec",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/hparams.py",
+      "sha256": "10fd6a6049a90235328df98a495467cb40f9a674a31239ed1cab131f9e7f81d7",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/image_utils.py",
+      "sha256": "253bc49a7ad0b8e2662c23a9122ca248ddea1e106fbdb725abc3dc92ce64f47f",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/indexed_datasets.py",
+      "sha256": "a29593713161133ffc9ec82d5b3f05f072cd233922b13a9cf81d8bd64c807acf",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/meters.py",
+      "sha256": "e51962e055dc2b91458996c6a69f709e9b583350497e24ea31257f65a1f001e9",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/multiprocess_utils.py",
+      "sha256": "20534fe8aba9c051945a1c4e0545e03426d335c9ca24fa1ab311ab1d36f55e83",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/os_utils.py",
+      "sha256": "1f5974fd2d0909529ae7a8eae79e84b8d4580ab15ca124234da46eea0d4e82cc",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/pitch_utils.py",
+      "sha256": "eeb3cd2b9510ea72068478d8f0e328071da5681ef3f3ffda8011c6014199277c",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/tensor_utils.py",
+      "sha256": "830e43a90b72f11aec94232dd60129d83713acb737462a17dac2f9c6452d0b8e",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/commons/trainer.py",
+      "sha256": "bb8cfc512d1024bfbd6890994db9da65ba22c4d043d084b4df07793cb667d631",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/nn/__pycache__/grad.cpython-38.pyc",
+      "sha256": "ef678bbd8533fd103969e1abbaf9cdd4d481799f40e2375b4fcd83f00690cdc7",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/nn/__pycache__/model_utils.cpython-38.pyc",
+      "sha256": "3c81154861977671c33ffaef0913328943004a394ce20831430890c07373a72d",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/nn/__pycache__/schedulers.cpython-38.pyc",
+      "sha256": "7f5be61f352d3196eeaeceab819486ba10150b9707a55e8df32f8653c43a153c",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/nn/grad.py",
+      "sha256": "42c5d1217281e4ec3bdb9f0df0650c28b61ec5b1b8f06d7293c0dd89dea4c05c",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/nn/model_utils.py",
+      "sha256": "a47019ae9fb3413ee4290a1d80ae923ccdf45cfe2e7496b1a6d5417269ff1f7b",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/nn/schedulers.py",
+      "sha256": "b03086160b520a696845b6421235be049eda02402f4b56d01573359531dbc25a",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/nn/seq_utils.py",
+      "sha256": "672174bd3b5ab96a883c5d714e9a47be36fa519f678a9d28caaec0bfe226a062",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/visualization/draw_3d_landmark.py",
+      "sha256": "81ec9d2b19d7414a76a0793908a85bc7bcecddb5de527ddbed9450cc74875f7d",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/visualization/ffmpeg_utils.py",
+      "sha256": "aa59febfb0c69f9dcd3064e4e3eb1554aacaf7e84a721c338b0ac4e79ec74101",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/visualization/lm_visualizer.py",
+      "sha256": "526cb3582e178e22ec6727fb7c0169d4b77a3e8e4072db9e97fb7d7d9719459b",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/utils/visualization/t-sne.py",
+      "sha256": "0b0384cc5d3d89a82ff9f93df655547da92e98c6b3d16076b8a8bd54ba0de6ab",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/amp_env.yml",
+      "sha256": "2d10aa8886d266a5c3765ecb70fadbaa031e07cffb6bcb7d6cfaf6607ffa5f5b",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+      "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/run.py",
+      "sha256": "5d86b4efec95c07022dc85413b0ea83a38519a5acdd626cf491d215016da4c18",
+      "role": "Frozen actual code/config/bytecode allowlist; no excluded noncode data"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/train.csv",
+      "sha256": "f71de05d3a2086c37b082716781397f7bb6db65322b807366f4f19ebf3058e03",
+      "role": "Frozen allowed train input copied from candidate contract; runtime true hash"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "role": "Frozen allowed train_cohort input copied from candidate contract; runtime true hash"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/val.csv",
+      "sha256": "2ff05eb06f2216e45dbfa5b1202d49e78a7692ba761307326fd386f1423dc7e7",
+      "role": "Frozen allowed dev input copied from candidate contract; runtime true hash"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "role": "Frozen allowed dev_cohort input copied from candidate contract; runtime true hash"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/MANIFEST.json",
+      "sha256": "888c0c022e136e9ae72d616c5217ca0378e745080ec1d5bfeb3f0aec646a1bc4",
+      "role": "Sealed candidate manifest"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ARGV.json",
+      "sha256": "76532eafb0a14ba7e1b4fec5311f1b861ed3e4ca76b63656711162007083b15d",
+      "role": "Sealed candidate member"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/CONTRACT.json",
+      "sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a",
+      "role": "Sealed candidate member"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/READOUT.zh.md",
+      "sha256": "46418ddbfcc4e4d2343b846a3db8afc4936eb7ab91d1e89cc5a364d2e422e68e",
+      "role": "Sealed candidate member"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ROOT_LAUNCH_RECEIPT_TEMPLATE.json",
+      "sha256": "84895ab46049aa1170849484014adba8468a0edff4648ad7876ae4fd78054638",
+      "role": "Sealed candidate member"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/STATIC_AND_SYNTHETIC_VALIDATION.json",
+      "sha256": "0b3bb9d3541b14be56ce4a40a2c020cdb7b9dd7d3785c2e9d4a9cdea4226fdce",
+      "role": "Sealed candidate member"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/synthetic_warmup_checks.py",
+      "sha256": "92bd672684b8bd79d4674ef8c0ac91203ee49ea8f8d36ab0ceaac0a57b4be59d",
+      "role": "Sealed candidate member"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/warmup_vae_only.py",
+      "sha256": "ece1de1b5153ff1f14b02b37a4ebfd067e679f9f13f25efb1ec2fedbbc4ae2b2",
+      "role": "Sealed candidate member"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/INVESTMENT_SCREEN.json",
+      "sha256": "1290fa554b55d9e6ecc6c5251ec52966529bb1dc44cb423ced795fedf7d1f9ff",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/CLOSING_LEDGER.json",
+      "sha256": "041c836602d3ba77a30bd523522405d8e3ed2c48707fe2036c1f53af40896eaa",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RESULT.json",
+      "sha256": "7b827a09b1724b23e2744a5750d1fba108702c69388a064b83a9f8b057733285",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/MANIFEST.json",
+      "sha256": "c2cc1fba99f43c84b1d191bfd6f2daee41eebc67f53c148b4ae2a47c27af3ef0",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/EPSILON_BANKS_SEAL.json",
+      "sha256": "6b402b9744f292d88ecb39d4e3a7ededfff0ef72c8ef323f2dd0b985647371da",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/manifest.json",
+      "sha256": "4fd0d9e25101aa304c9ed76b4a86c22ce067f930e4e0b6f814c0c32ee4799531",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/CLOSING_LEDGER.json",
+      "sha256": "c736b746aaf2dc98569b1e54fe0062a0d3c9e80586128130f96af104c83a61bc",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RMS_RECONSTRUCTION_POSTFLIGHT_v2.json",
+      "sha256": "9786d0be1c9d1fa345f598c626cb6d9b284f63aa41e60b8a706bc6772d5e5666",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_SCORING_CONTRACT_v2.json",
+      "sha256": "ca3db6d0f70d9205d90f80f8c0ac000f88db4dd18800f41af964b0fcc4d0e3d1",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+      "role": "Admission/evidence/operational binding"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+      "role": "Admission/evidence/operational binding"
+    }
+  ],
+  "required_pending_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "sha256": null,
+      "reason": "Actual joint postflight PASS: score independent rational gate + candidate static preaudit"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/ops/WARMUP_PRELAUNCH_LOAD_v1.json",
+      "sha256": null,
+      "reason": "Fresh real process/load check directly preceding one launch"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ROOT_LAUNCH_AUTHORIZATION.json",
+      "sha256": null,
+      "reason": "Root exact receipt created after the above evidence"
+    }
+  ],
+  "scope_limits": {
+    "vae_updates": 1000,
+    "beta": "min(1,(step-1)/200) for one-basedstep1..1000",
+    "same_training_seed": 222,
+    "CPU_threads": 1,
+    "DDPM_updates": 0,
+    "generation_requests": 0,
+    "posttraining_RMS_calls": 0,
+    "retry_allowed": false,
+    "natural_model_calls_by_templates": 0
+  },
+  "baseline_entry_gate": {
+    "difference_exact_fraction": {
+      "numerator": 435643512761,
+      "denominator": 7062926270400
+    },
+    "threshold_exact_fraction": {
+      "numerator": 1,
+      "denominator": 20
+    },
+    "comparison": "20*numerator >= denominator with positive denominator; no rounded floats/tolerance",
+    "integer_left": 8712870255220,
+    "integer_right": 7062926270400,
+    "at_or_above_1_over_20": true,
+    "independently_recomputed": false,
+    "source_investment_screen": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/INVESTMENT_SCREEN.json",
+      "sha256": "1290fa554b55d9e6ecc6c5251ec52966529bb1dc44cb423ced795fedf7d1f9ff"
+    },
+    "independent_exact_rational_review": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "sha256": null,
+      "required_section": "scoring_postflight exact RMS gate; must independently recompute counts/lengths"
+    }
+  },
+  "completion_requirements": {
+    "vae_stage_seconds": 1920,
+    "actual_supervisor_outer_seconds": 2100,
+    "note": "Wrapper status.outer_elapsed_seconds is captured before status/manifest final writes, so it is not authoritative complete-process time. Require final supervisor job exit0, no outer_timeout, job.seconds<=2100 and final status/manifest valid together. Record any shutdown/partial-checkpoint spill beyond2100; never call under-cap from wrapper alone. Supervisor terminate grace may add up to30sec; any timeout/failure/overrun is NOT_EVALUABLE, no retry.",
+    "scientific_success": "Not decided by training completion. Separate posttraining exact RMS scope/score and all four root guards required."
+  },
+  "missing_result_policy": "A partial, failed, timed-out, over-budget or lost-connection attempt stays NOT_EVALUABLE with all artifacts preserved. After Popen/transport loss inspect PID/stdout/status first; never blindly relaunch.",
+  "scientific_limits": "One-seed, posthoc falsification with reused baseline; no matched actual cumulative compute, no unique causal attribution to variance or KL, no superiority/AMP-activity/novelty/submission claim. HOLD; original CE E/L/G untouched.",
+  "instantiation_order": "Root fill pending evidence and rootreceipt; append their hashes to bindings and remove null placeholders; save actual plan; independent exactplan receipt authorizes generic launcher. No hash cycle: candidate static joint report does not bind future plan/rootreceipt."
+}

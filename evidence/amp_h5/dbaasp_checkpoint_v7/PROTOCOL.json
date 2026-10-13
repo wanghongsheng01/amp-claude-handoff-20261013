@@ -1,0 +1,38 @@
+{
+  "schema": "AMP_H5_FIXED200_CHECKPOINT_V7",
+  "created_utc": "2026-10-12T15:25:10.960368+00:00",
+  "authorization": "One user-authorized checkpoint for remaining54 after >2h; ordinary failed IDs only after all never-attempted IDs, each at most once in this batch.",
+  "selection": "47 never-attempted IDs in frozen order followed by 7 previously failed IDs in frozen order; no label-dependent selection.",
+  "max_detail_requests": 54,
+  "total_request_timeout_seconds": 30,
+  "minimum_completion_to_next_start_seconds": 5.1,
+  "max_response_bytes": 1048576,
+  "consecutive_transfer_failures_stop": 3,
+  "immediate_stop": [
+    "401/403/429",
+    "all redirects (no follow)",
+    "Retry-After at any status",
+    "remaining quota <=0 or unparsable",
+    "new RateLimit policy requiring interpretation",
+    "explicit access/rate/challenge denial message",
+    "other unexpected 4xx except404/410",
+    "ID or frozenMonomer schema mismatch",
+    "response exceeds1MiB",
+    "local execution errors"
+  ],
+  "continue_once_next_id": [
+    "ordinary transport timeout/error",
+    "5xx without denial/rate signal",
+    "empty200 or non-JSON/non-object response counted in conservative transfer failure streak",
+    "404/410 record missing (break transferfailure streak)"
+  ],
+  "consecutive_rule": "Only failure outcome increments. Valid success or definite404/410 resets. All failed/negative/partial responses remain. Third consecutive failure terminates before next request.",
+  "official_rule_status": "Public terms allow data access with attribution. API endpoint documented. No numeric rate limit found; local robots GET200empty, no directives. Observed runtime restriction supersedes this plan.",
+  "resources": "single serial CPU process, one request active, no models, no credential/cookie reads, no proxy/host rotation, no CAPTCHA/export retry",
+  "data_scope": "Preserve previous146 and merge successful fixed200 details using unchanged native-unit/chemical semantics. Measurement-source index; no models or manuscript changes.",
+  "bias": "Failures may be nonrandom. Report all success/failure/unattempted IDs and full200 denominator, no prevalence/efficacy claims.",
+  "backup": "BACKUP_BLOCKED; previous delivered snapshots immutable",
+  "prior_ended_utc": "2026-10-12T13:00:03.410975+00:00",
+  "hours_since_prior_end_at_freeze": 2.4187637202777776,
+  "prior_api_attempts": 179
+}

@@ -1,0 +1,7 @@
+{
+  "initial_failure": "JSON serialization of numpy.int64 in gradient-check index; output log failure; no failed numerical assertion observed before failure",
+  "repair": "Cast gradient coordinate integers to Python int for JSON only",
+  "scientific_config_change": false,
+  "preserved": "attempt1/",
+  "natural_data": "none"
+}

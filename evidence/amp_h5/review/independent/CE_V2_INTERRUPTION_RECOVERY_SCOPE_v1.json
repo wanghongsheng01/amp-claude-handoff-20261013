@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-10-11T17:39:02.285970+00:00",
+  "status": "ELIGIBLE_TO_PREPARE_ONE_EXPLICIT_CHECKPOINT_ONLY_RECOVERY_ATTEMPT_NOT_EXECUTION_AUTHORIZATION",
+  "forensic_report": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_FORENSIC_v2.json",
+    "sha256": "af7ded6832371e2365801f7c5adfb9e3bc978bd151c822087a05480ab4f7fcfa",
+    "checks": 41
+  },
+  "original_attempt": {
+    "outcome": "INCOMPLETE_EXIT_CAUSE_UNKNOWN",
+    "raw_state": "running, preserved unchanged",
+    "original_v2_engineering_gate": "NOT_EVALUABLE_INTERRUPTION",
+    "original_v2_PASS": false,
+    "VAE_updates": 1000,
+    "DDPM_updates": 1000,
+    "FREE_requests": {
+      "count": 16,
+      "state": "partial/interrupted",
+      "minimum_completed_reverse_steps_each": 799
+    },
+    "AMD_requests": {
+      "count": 16,
+      "state": "no-start evidence"
+    },
+    "final_sequences": 0,
+    "generation_seconds_lower_bound": 451.9357427917421,
+    "exact_generation_and_process_time": "unknown"
+  },
+  "judgment": "Verified finite hash-bound final VAE and DDPM/EMA endpoints are adequate inputs for a separately approved zero-training recovery attempt. The interruption has no established cause; call it recovery after an unclassified execution interruption, not proven infrastructure-caused failure. Lack of intermediate x/RNG requires restarting both complete prespecified terminal generation chains, not resuming at t200.",
+  "allowed_design_scope": [
+    "Exactly one new version, protocol, plan, output directory and independent receipt; preserve every original run file and stale status, both forensic reports, and initial failed entry.",
+    "Load only the exact saved final VAE state and DDPM EMA state with strict names/shapes and both file SHA256 and canonical tensor digest verified; verify state digests unchanged after evaluation.",
+    "No optimizer construction/step, training updates, VAE posterior refit, checkpoint selection or model/parameter/scaler/data changes. Restore existing train_feature_scaler.stats without calling its fit constructor.",
+    "Reuse frozen formal_v2 generation and reconstruction-export code, terminal-only conditions, batch16/terminal, noise999, seeds422/423, all32 same request IDs with separate attempt namespace/provenance. No new seed, clipping, retry within recovery, filtering or replacement.",
+    "Only the four known train/dev files may be read for frozen export contract; use train idx0 and dev idx279 and all original row/hash guards. test37 remains sealed.",
+    "Generation cap remains1800 seconds for this new attempt; outer setup/export budget must be explicitly fixed before execution. This is additional permitted compute, not a claim that the original aggregate cap is unchanged.",
+    "A bounded supervisor may use start_new_session=True, disk stdout/status, the original task fcntl lock and single-thread CPU. This transport-lifecycle change has no demonstrated causal explanation for the original interruption and is not guaranteed prevention."
+  ],
+  "cost_and_evaluation_rules": [
+    "Original no-retry constraint was not met if recovery is executed: record it as a prospective protocol deviation/additional execution attempt, never reinterpret the original interrupted attempt as a PASS.",
+    "Account original training1743.378091 recorded stage subtotal, generation at least451.935743 seconds with unknown end time, and every new recovery setup/generation/export cost separately. Do not claim equal actual compute or known original total time.",
+    "Keep original CSV32 not_executed unchanged; the external audit distinguishes FREE16 partial from AMD16 with no start evidence. Do not add them to unique final sample counts or pretend no generation was attempted.",
+    "Any future mixed-path evaluation must bind original training/checkpoint provenance and new recovery generation/export provenance explicitly; do not copy results into original v2 or fabricate its manifest.",
+    "Original E stays NOT_EVALUABLE_INTERRUPTION. A separately named RECOVERY_ENGINEERING gate may be assessed if the new attempt finishes; any scientific screen must disclose the deviation. PROMOTE stays HOLD."
+  ],
+  "future_MSE_scalar_rule": "Remain HOLD now. Only after recovery completes all32 fixed requests, unchanged frozen states/seeds, strict finite positive sigma/z/decoder values, valid execution/cap/provenance records, and independent descriptive scale review against this CE1000 train cache may another exact serial plan/receipt be considered. No reconstruction, length success rate, uniqueness, MMD, JS or other quality outcome may determine that permission or change any parameters. An engineering failure ends this proposed path without automatic repeat.",
+  "remaining_blockers": [
+    "No recovery code/config/plan hashes reviewed or executable receipt issued.",
+    "No generation final arrays exist, so CE1000 generation finite/scale feasibility remains unestablished.",
+    "Original exit cause and exact consumed generation time remain unknown."
+  ],
+  "recovery_authorized": false,
+  "MSE_scalar_authorized": false,
+  "PROMOTE": "HOLD"
+}

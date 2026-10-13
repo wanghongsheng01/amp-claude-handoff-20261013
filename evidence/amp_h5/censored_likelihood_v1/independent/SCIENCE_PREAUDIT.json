@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "schema": "AMP_H5_CENSORED_LIKELIHOOD_SCIENCE_PREAUDIT_V1",
+  "reviewer": "/root/native_unit_scientific_review",
+  "independent_of_implementation_author": true,
+  "created_utc": "2026-10-12T11:12:12.566822+00:00",
+  "freeze_sha256": "8b723893076b8c2faab939905d5cf055537188329cee65b738c0b8d6cc93cc67",
+  "source_data_code_protocol_hash_checks": [
+    {
+      "file": "prepare.py",
+      "pass": true
+    },
+    {
+      "file": "model.py",
+      "pass": true
+    },
+    {
+      "file": "run.py",
+      "pass": true
+    },
+    {
+      "file": "validate.py",
+      "pass": true
+    },
+    {
+      "file": "freeze.py",
+      "pass": true
+    },
+    {
+      "file": "PROTOCOL.json",
+      "pass": true
+    },
+    {
+      "file": "DATA.jsonl",
+      "pass": true
+    },
+    {
+      "file": "EXCLUSIONS.json",
+      "pass": true
+    },
+    {
+      "file": "INVENTORY.json",
+      "pass": true
+    },
+    {
+      "file": "FOLDS.json",
+      "pass": true
+    },
+    {
+      "file": "ENGINEERING_TESTS.json",
+      "pass": true
+    },
+    {
+      "file": "dbaasp_coverage_v5/analysis/NATIVE_ROWS.jsonl",
+      "pass": true
+    },
+    {
+      "file": "dbaasp_coverage_v5/analysis/GROUP_RELATIONSHIPS.json",
+      "pass": true
+    },
+    {
+      "file": "dbaasp_coverage_v5/FINAL_MANIFEST.json",
+      "pass": true
+    },
+    {
+      "file": "dbaasp_coverage_v5/independent/SIGNOFF.json",
+      "pass": true
+    },
+    {
+      "file": "native_baseline_v1/PROTOCOL.json",
+      "pass": true
+    },
+    {
+      "file": "native_baseline_v1/run.py",
+      "pass": true
+    }
+  ],
+  "independent_input_checks": {
+    "passed": 683,
+    "total": 683,
+    "artifact_sha256": "c1f3ff6b14e6e6e770f2624ca4caaf68f95ea3693ccba25585e4ba5add6c170f"
+  },
+  "independent_counts": {
+    "ug_ml_native": {
+      "point_rows": 79,
+      "right_rows": 14,
+      "point_source_groups": 21,
+      "censored_source_groups": 5,
+      "censor_only_source_groups": [],
+      "minimum_train_censor_groups": 4,
+      "minimum_train_point_groups": 20
+    },
+    "uM_native": {
+      "point_rows": 68,
+      "right_rows": 12,
+      "point_source_groups": 13,
+      "censored_source_groups": 5,
+      "censor_only_source_groups": [
+        "G13803",
+        "G6701",
+        "G8221"
+      ],
+      "minimum_train_censor_groups": 4,
+      "minimum_train_point_groups": 12
+    }
+  },
+  "science_review_sha256": "2f91a979afe78e24ab9d8d13c50499c2d3ddae3f6fbe65a93f1eccf2f30f7dc5",
+  "decision": "PASS_FOR_ONE_BOUNDED_DEVELOPMENTAL_SCREEN_NOT_STRONG_EVIDENCE",
+  "reason": "Same rows/features/scaling/weights/capacity/penalty between main arms; only bound observation loss changes. Fixed working sigma, point-only heldout score, source-family grouping and coverage adequate for narrow screen.",
+  "mandatory_interpretation_limits": [
+    "Gaussian sigma1 and conditionally ignorable censor mechanism unverified",
+    "Point-only OOF evaluates reported-point subset, not unobserved censored outcomes or population-unbiased MIC",
+    "Pure-censor molar groups are training-only, not validation evidence",
+    "Compare heldout point errors, never incompatible training objectives",
+    "No independent biological efficacy/generalization/novelty claims; all data development-exposed",
+    "No test37 or original train/dev access; no labels fabricated or converted"
+  ],
+  "scope_of_this_agent": "Read-only scientific review and stdlib input counting; zero model imports, optimization, training, network requests or protected split reads",
+  "engineering_preaudit_still_required": true
+}

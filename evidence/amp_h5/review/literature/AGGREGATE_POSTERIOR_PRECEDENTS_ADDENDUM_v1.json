@@ -1,0 +1,95 @@
+{
+  "identity": "AMP_H5_AGGREGATE_POSTERIOR_PRECEDENTS_ADDENDUM_V1",
+  "scope": "User-requested primary text verification and diagnostic interpretation boundaries only",
+  "sources": [
+    {
+      "name": "VAE with a VampPrior",
+      "authors": "Tomczak and Welling",
+      "year": 2018,
+      "entry_url": "https://proceedings.mlr.press/v84/tomczak18a.html",
+      "full_text_url": "https://proceedings.mlr.press/v84/tomczak18a/tomczak18a.pdf",
+      "verified_locations": [
+        "Section3 equations6-9"
+      ],
+      "core": "Aggregated-posterior optimum for the free prior subproblem; actual VampPrior uses trainable pseudo-input posterior mixture.",
+      "boundary": "Not a frozen-train donor sampler or an AMP causal diagnosis."
+    },
+    {
+      "name": "Diagnosing and Enhancing VAE Models / Two-stage VAE",
+      "authors": "Dai and Wipf",
+      "year": 2019,
+      "entry_url": "https://arxiv.org/abs/1903.05789",
+      "full_text_url": "https://arxiv.org/pdf/1903.05789",
+      "verified_locations": [
+        "Section4 equation10 and numbered three-step method"
+      ],
+      "core": "Separate second VAE learns sampled first-stage latent distribution; ancestral u-to-z-to-x generation.",
+      "boundary": "Continuous-manifold/Gaussian assumptions and separate-training claims do not automatically transfer to AMP."
+    },
+    {
+      "name": "Score-based Generative Modeling in Latent Space",
+      "authors": "Vahdat,Kreis,Kautz",
+      "year": 2021,
+      "entry_url": "https://papers.nips.cc/paper_files/paper/2021/hash/5dca4c6b9e244d24a30b4c45601d9720-Abstract.html",
+      "full_text_url": "https://papers.nips.cc/paper_files/paper/2021/file/5dca4c6b9e244d24a30b4c45601d9720-Paper.pdf",
+      "verified_locations": [
+        "Figure1",
+        "Section3 equations5-6 and Section3.1"
+      ],
+      "core": "SGM prior learns encoder z samples; special objective enables learning encoder,decoder,and score prior.",
+      "boundary": "Direct z modeling is established; not equivalent to the present raw(mu,logsigma) DDPM or proof of novelty."
+    }
+  ],
+  "diagnostic_boundaries": {
+    "coordinates": [
+      "r=(mu,logsigma)",
+      "decoder z=mu+exp(logsigma)*epsilon",
+      "base prior zp=F_g(z)"
+    ],
+    "train_pairing": "Keep record identities,terminal,mu,logsigma,noise instance and g aligned; no posthoc nearest-neighbor truth for independent generated samples.",
+    "shuffle": "Within-terminal independent column permutations of fixed same-n decoder Z preserve each empirical coordinate marginal while perturbing joint structure; whole-row permutation does not.",
+    "shuffle_limits": [
+      "finite random permutations do not guarantee all dependence vanishes",
+      "mixing terminals changes conditional marginals",
+      "shuffling parameter r does not generally preserve resulting z marginals"
+    ],
+    "native_prior": "Sample standard normal zp then inverse conditional flow with specified available g; train-g-conditioned diagnostic is not c-only independent generation.",
+    "standard_normal_decoder_control": "z~N(0,I) directly in decoder coordinates is separately named control,not native conditional prior.",
+    "same_n_reference": "Require matched n,terminal,coordinates and predeclared indexing/sampling contract before interpreting high-dimensional distances or proposing whitening/W2 claims.",
+    "fair_AR": "Direct-z methods still need equal information and fair budget/selection opportunity against full AR."
+  },
+  "claims_not_established": [
+    "AMP mismatch root cause",
+    "latent source intervention executed",
+    "whitening benefit or W2 innovation",
+    "direct-z method novelty",
+    "AR superiority or submission readiness"
+  ],
+  "operations": {
+    "model_calls": 0,
+    "new_forwards": 0,
+    "training_updates": 0,
+    "generation_calls": 0,
+    "live_scalar_reads": 0,
+    "test_reads": 0,
+    "existing_artifact_edits": 0,
+    "threshold_or_execution_permission_changes": 0
+  },
+  "local_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/LATENT_SCALE_PRIOR_PRIMARY_BRIEF_v1.zh.md",
+      "bytes": 5462,
+      "sha256": "89754d84b661be28d7b87f4fb02187d49488c8e61ab44f0acf5913c0e38b9fa7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/coordinate_audit/COORDINATE_AUDIT.zh.md",
+      "bytes": 7897,
+      "sha256": "0e1f7c1f9cf90bff6a2e40bc2eaaa4fb6646453bf10f66c37724948bde20c571"
+    }
+  ],
+  "markdown": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/AGGREGATE_POSTERIOR_PRECEDENTS_ADDENDUM_v1.zh.md",
+    "bytes": 5011,
+    "sha256": "61ea62e0f337da04ece41f5911df9fd43f76178398efda976b56cc3ea212128a"
+  }
+}

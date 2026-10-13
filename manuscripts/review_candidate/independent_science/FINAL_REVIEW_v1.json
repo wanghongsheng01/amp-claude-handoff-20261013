@@ -1,0 +1,173 @@
+{
+  "reviewer_role": "independent_science_not_writer",
+  "status": "PASS_REPAIRED_SCIENTIFIC_REPORTING_ONLY",
+  "submission_decision": "NO_GO",
+  "no_new_training": true,
+  "no_test37_access": true,
+  "scope": [
+    "four manuscript sources and main/supplement PDF text",
+    "legal-prefix/loss/metric implementation inspection",
+    "saved-number ordering verification only",
+    "primary-source check of two closest cited studies"
+  ],
+  "findings": [
+    {
+      "id": "SCI-01",
+      "severity": "major",
+      "type": "repairable_claim_logic",
+      "problem": "Initial text presented CE reconstruction improvement as a counterexample to improved generation, although CE also improves every matched MSE21 generation distance; LSTM lacks the reconstruction task.",
+      "evidence": "evidence/generation_all_distances.csv; SAVED_ORDERING_CHECK.json: 24/24 CE<MSE and 24/24 LSTM<CE",
+      "requested_change": "Separate matched CE/MSE improvement from failure to surpass external LSTM comparator; remove ranking-reversal and concrete-counterexample claims.",
+      "repair_status": "CLOSED_AFTER_SOURCE_AND_PDF_TEXT_REVIEW",
+      "verified_locations": [
+        "main abstract",
+        "main Introduction final paragraph",
+        "main Results 3.2",
+        "Figure 1 caption",
+        "main Discussion first paragraph",
+        "main Conclusion",
+        "decision strongest claim",
+        "cover letter opening"
+      ]
+    },
+    {
+      "id": "SCI-02",
+      "severity": "moderate",
+      "type": "repairable_methods",
+      "problem": "Initial main text supplies cohort counts/hashes but not database provenance, admission/group split and descriptor scale-fitting rules; supplement omits operational family/source union thresholds.",
+      "requested_change": "Add concise actual source/filter/split/scaler and grouping definitions already available in frozen evidence, without accessing held-out data.",
+      "repair_status": "CLOSED_AFTER_SOURCE_AND_PDF_TEXT_REVIEW",
+      "verified_locations": [
+        "main Methods evidence sources paragraphs 2-3",
+        "supplement S4.1"
+      ]
+    },
+    {
+      "id": "SCI-03",
+      "severity": "minor",
+      "type": "repairable_metric_definition",
+      "problem": "Initial prose leaves pooled-count JS/L1/entropy versus sequence-averaged feature-MMD unclear; decoder tie and length-one dipeptide behavior omitted.",
+      "requested_change": "State pooled count normalization, zero pair feature for length one, and smallest-prefix tie resolution.",
+      "repair_status": "CLOSED_AFTER_SOURCE_AND_PDF_TEXT_REVIEW",
+      "verified_locations": [
+        "main Methods legal-prefix decoding",
+        "main Methods metrics and interpretation"
+      ]
+    },
+    {
+      "id": "SCI-04",
+      "severity": "minor",
+      "type": "repairable_related_work_scope",
+      "problem": "QMAP described only as an AMP benchmark next to generation study can obscure that it is MIC/hemolytic regression, not a generation benchmark.",
+      "requested_change": "Explicitly name MIC/hemolytic regression in main Introduction.",
+      "repair_status": "CLOSED_AFTER_SOURCE_AND_PDF_TEXT_REVIEW",
+      "verified_locations": [
+        "main Introduction paragraph 3"
+      ]
+    }
+  ],
+  "verified_core": [
+    "CE/MSE loss denominators and raw squared-error prefactor agree with implementation",
+    "legal-prefix maximization and raw/logsoftmax invariance are faithful",
+    "fixed-beta scale caveat and scalar multi-change caveat present",
+    "terminal-only generation versus descriptor-informed reconstruction separated",
+    "old E/L/G not evaluable and recovery extra attempt retained",
+    "single seed, repeated dev, small generation groups, unknown AR adequacy explicit",
+    "27 historical records not attributed to H5; N/replicate semantics not imputed",
+    "native-unit point/MIC and censor experiments separate with negative results preserved",
+    "direct-z failed checkpoint load and restricted metric audit disclosed",
+    "nearby prior generation evaluation acknowledged rather than claiming a new principle"
+  ],
+  "not_repaired_by_writing": [
+    "single-seed repeated-dev design and limited baseline adequacy do not support broader generalization or a general method recommendation",
+    "distinct scientific contribution relative to existing AMP evaluations remains unestablished",
+    "historical biology cannot validate H5 without provenance and assay semantics; this is conditional on any future biological application claim",
+    "human author responsibility, disclosure, overlap and public reproducibility arrangements remain unconfirmed"
+  ],
+  "primary_literature_checks": [
+    {
+      "url": "https://link.springer.com/article/10.1186/s13040-026-00558-w",
+      "finding": "Explicitly separates reconstruction proxy from generation comparison across multiple model families; novelty caveat warranted."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-026-56004-8",
+      "finding": "QMAP scope is MIC and hemolytic activity regression; task qualifier needed."
+    }
+  ],
+  "completed_utc": "2026-10-12T13:37:36.196534+00:00",
+  "signoff_limits": "Not independent natural-run reproduction, not journal acceptance prediction, not human author approval, not full surface/policy gate signoff.",
+  "repair_summary": {
+    "major_closed": 1,
+    "moderate_closed": 1,
+    "minor_closed": 2,
+    "remaining_identified_repairable_scientific_errors": 0
+  },
+  "formula_findings": {
+    "legal_prefix": "PASS: sums highest nonPAD raw score on positions1..l and PAD score on l+1..48; l=0..48 retained; earliest maximizing length matches argmax; logsoftmax subtracts same all-position constant for every l",
+    "objectives": "PASS: CE/(48B), onehot squared error/(2*48B), flow density/(48B), beta1; fixed-beta scale caveat explicit",
+    "metrics": "PASS: 421-dimensional sequence-level features/three blocks sqrt3; length1 pairblock0; pooled JS/L1/entropy separately defined",
+    "censor": "PASS: sigma1 right-bound negative logPhi(mu-b), evaluated only on observed point subset; cannot infer censored truth risk"
+  },
+  "information_fairness": "PASS_REPORTING: sequence/descriptors during reconstruction versus terminal-only generation stated; matched CE/MSE compared separately from multi-change scalar and capacity/compute-unmatched LSTM; template-informed followup D excluded from fair ranking; Free/Amide not a paired causal contrast.",
+  "historical_wetlab": "PASS_REPORTING: 27 peptides,30 numeric/78 undefined N,unknown repeat/aggregation/provenance retained; no H5 validation or efficacy attribution.",
+  "scope_of_saved_recalculation": "24 saved-number distance orderings only; no new metric generation/model execution or full historical repeat audit.",
+  "reviewed_snapshot": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/main.tex",
+      "bytes": 30196,
+      "sha256": "320d3387627756bc7bbabff367cb36fb1574b482a88ad7868fc0512b679bbf91"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/supplement.tex",
+      "bytes": 23974,
+      "sha256": "1b9488da873e3d6f18a9bc01babfb346cc1b5e12ee347f2c940e024051ccea50"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/decision.tex",
+      "bytes": 2896,
+      "sha256": "1f602761e088bbc6b78424af7b5a094b87527a7fd6cbebe6a283f86878eefcb8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/cover_letter.tex",
+      "bytes": 3080,
+      "sha256": "71ca6aafaf04de4156fdc76a7662d1e3c0f32f79387a1f88020246e2375b4cec"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/main.pdf",
+      "bytes": 360732,
+      "sha256": "a5e484e1b81d5d82051b36b9759d0782d0375ed1ff4b05b5f8d2355210e1b788"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/supplement.pdf",
+      "bytes": 251774,
+      "sha256": "c082d5f2d403ce9d0069721c2a62a4f953411103b88912eb01fcf9a48a2424fb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/decision.pdf",
+      "bytes": 86308,
+      "sha256": "76b08bb60c56e29f24e24bcf824650fbce0b6622acb8640b76828469ca36fb56"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/cover_letter.pdf",
+      "bytes": 95637,
+      "sha256": "a0fb6d3785558c15f3c5835b811ad97a8cf591a4a8a66698a2d18c42738534d7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/references.bib",
+      "bytes": 3767,
+      "sha256": "e01e3fb5c835d811c2b945cd30d39614b5fbebda1f52aab33f681ad76478ba37"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/evidence/generation_all_distances.csv",
+      "bytes": 6892,
+      "sha256": "359e4e0e0066c1050737494020c7f59a2f7e445f47bfbb27c4cec42999875f88"
+    }
+  ],
+  "PDF_text_pages": {
+    "main": 16,
+    "supplement": 12,
+    "decision": 1,
+    "cover_letter": 1
+  },
+  "surface_gate_boundary": "Parent reports Poppler bbox fallback and mechanical AI-disclosure gate still blocked. This reviewer does not sign surface tooling and endorses retaining truthful lack of human verification, not fabricating an author-verification statement."
+}

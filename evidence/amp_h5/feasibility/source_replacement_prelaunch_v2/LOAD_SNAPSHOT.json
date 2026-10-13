@@ -1,0 +1,32 @@
+{
+  "observed_utc": "2026-10-11 20:27:27 UTC",
+  "scope": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+  "process_snapshot": {
+    "chunk_id": "6d16b9",
+    "wall_time_seconds": 0.000027631,
+    "exit_code": 0,
+    "original_token_count": 177,
+    "output": " 1937     1  82.7  0.4 30-20:51:20 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python\n54264 54263   0.0  0.0    04:57:05 .venv/bin/python\n62630     1  10.4  0.6 28-12:12:59 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python\n78259     1   0.0  0.0 19-11:30:13 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python\n79113     1   0.0  0.0 18-09:03:12 /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python\n"
+  },
+  "logical_cpus": 10,
+  "loadavg": [
+    2.63232421875,
+    3.19287109375,
+    3.2861328125
+  ],
+  "prior_H5_pids_absent": [
+    60744,
+    60747,
+    67345,
+    67347,
+    71163,
+    71165
+  ],
+  "unrelated_parallel_process_54264_cpu": 0,
+  "decision": "Single-thread bounded diagnostic is eligible; known H5 jobs absent, unrelated processes not touched, global H5 lock additionally enforced by supervisor",
+  "plan_sha256": "91e64d4ca473c1a56b2c66b285f0f5b8fd0ccba3884fe15ba465e574108bb46f",
+  "receipt_sha256": "6ba801685fbaa57ce575b86265691fee22e3d74a29823a548f11f60f133f46cc",
+  "scientific_preflight_sha256": "36489ec862ca52048a796525a0d3a7228f26b2db49f8938fe3dee8da62693bfb",
+  "all_plan_hashes_match": true,
+  "outputs_fresh": true
+}

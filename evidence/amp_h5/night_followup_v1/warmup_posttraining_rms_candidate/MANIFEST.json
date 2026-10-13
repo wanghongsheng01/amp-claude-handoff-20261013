@@ -1,0 +1,48 @@
+{
+  "scope_id": "AMP_H5_WARMUP_POSTTRAIN_RMS_V1",
+  "status": "FROZEN_CONDITIONAL_PREPARATION_NOT_EXECUTED",
+  "model_calls": 0,
+  "new_random_draws": 0,
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/BASELINE_EXPORT_TO_POSTWARMUP.diff",
+      "sha256": "888a969f88c05aff27c713b9729c42bf353db1c37e1ad493de4e6ed748b81887",
+      "bytes": 33482
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/CONTRACT.json",
+      "sha256": "47d69cf0d895e5dc960c6043a09e22e48f1aba126347e46945f7f03222c6d9b1",
+      "bytes": 18974
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/LATE_BOUND_TRAINING_TEMPLATE_NOT_EXECUTABLE.json",
+      "sha256": "8538bb07d90809bb1c80e0a2bc8fe3a0f2bfb39e18b97f0ec9825bc71d58abd1",
+      "bytes": 888
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/READOUT.zh.md",
+      "sha256": "92d2320291323560248bc68c1c37e36198eb59bac50b1b13e2a0271923ac4b9a",
+      "bytes": 2782
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/ROOT_PLAN_TEMPLATE_NOT_AUTHORIZED.json",
+      "sha256": "2d4f8445dc763b9eb2be0dcf7b055adee18d856338ece656c955ef44cc322564",
+      "bytes": 9638
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/SYNTHETIC_CHECKS.json",
+      "sha256": "f5dd0f30b9dcf6680f37bca309d476ea7dcb902b53c8eb0098520dbaa762eb5e",
+      "bytes": 577
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/export_postwarmup_rms_v1.py",
+      "sha256": "808ba5f7a4a6c735ecab0b2745403c29bbf49ec9efe669900b09e3e579fccf86",
+      "bytes": 31719
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/synthetic_postwarmup_checks.py",
+      "sha256": "34f762298eb5e974a4a826fd0e1f5a15515fd378df009d38cc20ffdcccd54c73",
+      "bytes": 6428
+    }
+  ]
+}

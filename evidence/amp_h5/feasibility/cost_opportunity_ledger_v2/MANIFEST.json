@@ -1,0 +1,35 @@
+{
+  "scope": "AMP H5 cost/opportunity v2; interrupted original CE plus distinct zero-training recovery; all-accounted cost is lower bound",
+  "files": [
+    {
+      "path": "COSTS_V2.csv",
+      "bytes": 1427,
+      "sha256": "9e0a5c92dd5afd5c13bab4fed0dcdb109618fe727d3201de83db7563a509e628"
+    },
+    {
+      "path": "COST_OPPORTUNITY_LEDGER_V2.json",
+      "bytes": 27109,
+      "sha256": "0184daf682e83b87e71ad133e2501592148d3f03ebbd5c7064b0d707422d29e8"
+    },
+    {
+      "path": "READOUT.zh.md",
+      "bytes": 5019,
+      "sha256": "2aa72afdac163ae3a5c5699fde96f5d9b52ed42f2b20da468c4d170cf49f4be2"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 4376,
+      "sha256": "90b858271638810251f7185abc0562a1fccec7b7e59c42b58824616aaf91ca04"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 738,
+      "sha256": "c574999ddc4c44cee7846ac9df52b4c3132b828a9696eb4f0fb6768bfc04921a"
+    },
+    {
+      "path": "build_ledger_v2.py",
+      "bytes": 13362,
+      "sha256": "d88472161c8307ef9db3637b4a81328bea01eb55f9df0f8def3675486d771e4b"
+    }
+  ]
+}

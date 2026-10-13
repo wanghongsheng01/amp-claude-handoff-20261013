@@ -1,0 +1,196 @@
+{
+  "identity": "AMP_H5_CE_AR_PARTIAL_SCIENTIFIC_REVIEW_CLOSEOUT_V1",
+  "verdict": "PRESENTATION_FINDINGS_CLOSED_SCIENTIFIC_HOLDS_UNCHANGED",
+  "reviewer": "/root/h5_literature",
+  "scope": "Read-only scientific closeout of additive presentation correction; no model or engineering authorization",
+  "index_expected_sha256": "bb0a2ec8a18742702d57f20fe559ece92fe9a0a81ec0734c7af0d084e58f0714",
+  "index_verified": true,
+  "index_direct_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_addendum_v1/CAP_HIT_AND_FULL_METRICS_ADDENDUM_v1.json",
+      "binding_matches": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_addendum_v1/CAP_HIT_AND_FULL_METRICS_ADDENDUM_v1.zh.md",
+      "binding_matches": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_addendum_v1/MANIFEST.json",
+      "binding_matches": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_AR_PARTIAL_DELIVERY_v1.json",
+      "binding_matches": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_cap_full_metrics_addendum_v1.py",
+      "binding_matches": true
+    }
+  ],
+  "prior_review_json_and_markdown_unchanged": true,
+  "findings": [
+    {
+      "prior_id": "W1",
+      "status": "CLOSED_BY_ADDENDUM",
+      "resolution": "Full bilateral train/dev distances, entropy gaps, AR curves and distinct nested costs are explicit."
+    },
+    {
+      "prior_id": "W2",
+      "status": "CLOSED_BY_ADDENDUM",
+      "resolution": "Native AR flags disclosed; J/PAD versus sampled EOS semantics distinguished; length cap versus time cap and status_ok ambiguity explicit."
+    },
+    {
+      "prior_id": "W3",
+      "status": "REMAINS_SCIENTIFIC_LIMITATION",
+      "resolution": "Missing MSE/scalar is acknowledged, not fabricated; not a presentation defect to close with invented observations."
+    }
+  ],
+  "metric_transcription_checks": [
+    {
+      "method": "CE21_DDPM",
+      "terminal": "AMD",
+      "six_distances_both_references_exact_match": true,
+      "two_entropy_gaps_exact_match": true,
+      "denominators_exact_match": true
+    },
+    {
+      "method": "CE21_DDPM",
+      "terminal": "FREE",
+      "six_distances_both_references_exact_match": true,
+      "two_entropy_gaps_exact_match": true,
+      "denominators_exact_match": true
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "AMD",
+      "six_distances_both_references_exact_match": true,
+      "two_entropy_gaps_exact_match": true,
+      "denominators_exact_match": true
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "FREE",
+      "six_distances_both_references_exact_match": true,
+      "two_entropy_gaps_exact_match": true,
+      "denominators_exact_match": true
+    }
+  ],
+  "AR_monitor_points_exact_match": 10,
+  "AR_cost_fields_exact_match": [
+    "train_updates_seconds",
+    "monitoring_seconds",
+    "training_pipeline_wall_before_manifest_seconds",
+    "generation_wall_before_manifest_seconds",
+    "entry_process_seconds"
+  ],
+  "all_eight_failed_G_checks_exact_match": true,
+  "cap_counts": [
+    {
+      "method": "CE21_DDPM",
+      "terminal": "FREE",
+      "requests": 16,
+      "ended_below_length_limit_count": 15,
+      "length_cap_hit_count": 1,
+      "status_counts": {
+        "ok": 15,
+        "no_eos_at_limit": 1
+      },
+      "termination_semantics": "J-selected length below48 / PAD suffix; not an autoregressive sampled EOS event",
+      "cap_hit_sample_ids": [
+        "CE21_DDPM_FREE_009"
+      ]
+    },
+    {
+      "method": "CE21_DDPM",
+      "terminal": "AMD",
+      "requests": 16,
+      "ended_below_length_limit_count": 16,
+      "length_cap_hit_count": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "termination_semantics": "J-selected length below48 / PAD suffix; not an autoregressive sampled EOS event",
+      "cap_hit_sample_ids": []
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "FREE",
+      "requests": 16,
+      "ended_below_length_limit_count": 15,
+      "length_cap_hit_count": 1,
+      "status_counts": {
+        "ok": 16
+      },
+      "termination_semantics": "native sampled EOS; terminated=true",
+      "cap_hit_sample_ids": [
+        "terminal_LSTM_FREE_001"
+      ]
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "AMD",
+      "requests": 16,
+      "ended_below_length_limit_count": 16,
+      "length_cap_hit_count": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "termination_semantics": "native sampled EOS; terminated=true",
+      "cap_hit_sample_ids": []
+    }
+  ],
+  "cost_note": "AR outer supervisor15.3623446659185 is omitted in addendum table, but15.10993174975738 is correctly named entry process. Prior review retains outer value; no scope mislabel remains.",
+  "unchanged_status": {
+    "original_protocol_E_L_G": "NOT_EVALUABLE",
+    "recovery_L": "NOT_EVALUABLE",
+    "recovery_G": "FAIL",
+    "PROMOTE": "HOLD",
+    "AR_ADEQUACY": "NOT_ESTABLISHED"
+  },
+  "scientific_limits_retained": [
+    "partial CE recovery plus original AR only",
+    "missing matched MSE/scalar does not establish CE loss attribution",
+    "fixed single fit,16 requests per terminal,reused development41",
+    "AR overfitting and adequacy not established",
+    "no significance,activity,safety,novelty or submission claim",
+    "unknown wetlab N remains unknown"
+  ],
+  "operations": {
+    "model_calls": 0,
+    "training_calls": 0,
+    "generation_calls": 0,
+    "metric_recomputations": 0,
+    "test_reads": 0,
+    "MSE_quality_reads": 0,
+    "original_file_edits": 0,
+    "threshold_changes": 0,
+    "future_plan_changes": 0
+  },
+  "inputs": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_AR_PARTIAL_WITH_ADDENDUM_INDEX_v1.json",
+      "bytes": 1525,
+      "sha256": "bb0a2ec8a18742702d57f20fe559ece92fe9a0a81ec0734c7af0d084e58f0714"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_addendum_v1/CAP_HIT_AND_FULL_METRICS_ADDENDUM_v1.json",
+      "bytes": 29716,
+      "sha256": "d83f606a3d8a37fecbbf2c4a328680aad5cb5143df2be0b3b6fe787b3d57dcb8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_addendum_v1/CAP_HIT_AND_FULL_METRICS_ADDENDUM_v1.zh.md",
+      "bytes": 5954,
+      "sha256": "6f14ba9dc79e35480ba7bcb68b8cbc157a0483f7e2ffdcf45a14ac5c5c8c9487"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/CE_AR_PARTIAL_SCIENTIFIC_REVIEW_v1.json",
+      "bytes": 22964,
+      "sha256": "2a6e8ff85e84cf04d3132f046dcaf3a6dbae962df0639d2e3a3cfcabad0706de"
+    }
+  ],
+  "markdown": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/CE_AR_PARTIAL_SCIENTIFIC_REVIEW_CLOSEOUT_v1.zh.md",
+    "bytes": 2625,
+    "sha256": "1ee7ba5dd30f1d4344699bc1adceecc4137a67496899ebd3a88efc9f0b0406ef"
+  }
+}

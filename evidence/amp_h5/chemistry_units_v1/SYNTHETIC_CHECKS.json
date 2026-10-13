@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "AGNone",
+    "AG{'name': 'AMD'}",
+    "iTNone",
+    "disulfide_stoichiometry",
+    "cyclic_water_loss",
+    "salt_no_fragment_stripping",
+    "right_bound_conditional_only"
+  ],
+  "code_sha256": "2902497a80db26067dbaad34b7b8bf171a0afa977fda2c0089108157877fc188",
+  "synthetic_only": true
+}

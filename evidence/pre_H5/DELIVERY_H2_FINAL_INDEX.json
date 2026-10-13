@@ -1,0 +1,169 @@
+{
+  "created_utc": "2026-10-11T13:46:53.467530+00:00",
+  "scope": "Explicit local delivery index, not a full workspace snapshot or scientific acceptance gate",
+  "n_files": 32,
+  "files": [
+    {
+      "path": "HANDOFF_H2_20261011.zh.md",
+      "bytes": 7778,
+      "sha256": "8e7665a7b67305587472496f3ec6263da8ed21dc2f31765cc6316bb27b56256b"
+    },
+    {
+      "path": "H2_AUTHORIZATION_RECEIPT.json",
+      "bytes": 1840,
+      "sha256": "d782f70520367a7bce05979a4811633c0827daeec46a0d1e6e6ecc2edaf623f7"
+    },
+    {
+      "path": "H2_CLAIM_MATRIX_PRELOCK.json",
+      "bytes": 2833,
+      "sha256": "02ee3b623655b98672e1f845eedca33b61227e7e4333e0e0de3a3b598613a23f"
+    },
+    {
+      "path": "H2_CLAIM_STATUS_FINAL.json",
+      "bytes": 3492,
+      "sha256": "df5ef080340fbdc05a7c066e8700ff5236df1b9fdb9efb7e069cc5f2dedc9770"
+    },
+    {
+      "path": "H2_PREDECESSOR_PRESERVATION_BEFORE.json",
+      "bytes": 27792,
+      "sha256": "74bb124c7f05705ddc6ebe0862c8e1816fd362a111460d7a69c3c7e6ad9246b5"
+    },
+    {
+      "path": "H2_PREDECESSOR_PRESERVATION_AFTER.json",
+      "bytes": 27543,
+      "sha256": "76266a4b8e6cb58ab3f6d73a8c5246a92c8cfc84e08f2facbaa1bf7b926f880d"
+    },
+    {
+      "path": "DELIVERY_H1_FINAL_INDEX.json",
+      "bytes": 4100,
+      "sha256": "8c26d76d0b8405642852fc5a451ecddc997d1f1bdae89a1b2673663edc5b7adb"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/PRELOCK_MANIFEST.json",
+      "bytes": 1187,
+      "sha256": "8c97e6d8121a2b4680de00b4d8ccb5fd65d5eec89033e993157077ec6dd7e05e"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/START.json",
+      "bytes": 708,
+      "sha256": "6987a8548c872aa4679cc6ac9f43caabfe94aed4ca7a66b704f561f7945a52ee"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/ROOT_ADOPTION_BASIS.zh.md",
+      "bytes": 4596,
+      "sha256": "b9c9a4ec0f372d58812919825858dc0c21e7d7a1b07f03ddaca4fd63340ce910"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/literature/SOURCE_LEDGER.json",
+      "bytes": 6238,
+      "sha256": "d513363e3d42e6aef8f38324c2586800a8cb33443d92a7f355efcb15c9268b1a"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/literature/NOTES.zh.md",
+      "bytes": 6149,
+      "sha256": "a7524434102c816b88ac34647672ad7c17a959a792a861eeda3b05e449fab3b2"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/NEXT_DIAGNOSTIC_READONLY.zh.md",
+      "bytes": 9435,
+      "sha256": "9052713546a48d111f7032d1063eb3c3032d6a4ada4457a367afc97e18541014"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/H3_SOURCE_PREREAD.json",
+      "bytes": 1526,
+      "sha256": "429c463ef000020c6bf2da3ca78daea376c0c883d34cd2592cee6b533f442339"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/AUTHOR_READOUT_r2.zh.md",
+      "bytes": 11943,
+      "sha256": "a41485fdfe12c04a92d03428ca88cd16624b00a9bfa31e3e6e965587097636a7"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/AUTHOR_DELIVERY_r2_MANIFEST.json",
+      "bytes": 933,
+      "sha256": "c10e101da3d5bf0291105deba9cabbcae5093134ea6c6b1ee07f1d90df08f874"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/METRICS_LONG.csv",
+      "bytes": 61113,
+      "sha256": "b78f4ac18bec5da6f0637cfb5c1a2d576179e2f880a5f0c04b0717f6484d9668"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/run/MANIFEST.json",
+      "bytes": 18761,
+      "sha256": "88ed82f9a6dbd7a73abe51169c2a8fac4a0872a93185ad243d77b129289541f8"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/run/status.json",
+      "bytes": 830,
+      "sha256": "f27502b4079130c59ab78fe79721242ed4a24333a4eb228832343026162ec8c0"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/run/CE_FIT.json",
+      "bytes": 345,
+      "sha256": "510fc384401d6d76a45113f0728111646df8967533df37262724ad3a3bdd6ac6"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/run/DECISIONS.json",
+      "bytes": 3048,
+      "sha256": "b7bb24e4a751ea0e36f4cdecd2fdf9acca8865b022c5e2a0298ac2423434b7f6"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/independent_review/PREFLIGHT_MANIFEST.json",
+      "bytes": 3827,
+      "sha256": "6efc04f78c7206571182a083d3fb5c6d041c8f1e5ba6f65bb9359813eef3c529"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/independent_review/POST_AUDIT_RULES.json",
+      "bytes": 4440,
+      "sha256": "6ba1c79776b15e936ea4c54c28b620d34d84b9a590cff33e18706efb51b1c0a6"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/independent_review/POST_AUDIT_RESULTS.json",
+      "bytes": 1798120,
+      "sha256": "397459971de5d50b7d061a0bd4893cd8caad6e477e3da4e3fd04549b73f26b91"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/independent_review/POST_REVIEW.zh.md",
+      "bytes": 5935,
+      "sha256": "ae3d0a9135990a370b662c9e27f5edabc4e8948cfb5e3585bb9f9b91f22335c3"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/independent_review/FINAL_RECEIPT.json",
+      "bytes": 2017,
+      "sha256": "440506a3db445de3a1042f608e838ba73a6f143fb0bb4d89c162b82c0cf9866e"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/independent_review/FINAL_MANIFEST.json",
+      "bytes": 5126,
+      "sha256": "4e38a2a4eb1e66e5f22bec09f2581234bf70aba160a07bf116a5c77779160b35"
+    },
+    {
+      "path": "diagnostics_h2_readout_length_v1/independent_review/AUTHOR_TEXT_REVIEW.json",
+      "bytes": 634301,
+      "sha256": "4d7824f137f28e1b7977616cb91f3b1e695276d1cceb390d6081148af7ea909d"
+    },
+    {
+      "path": "diagnostics_h2_readout_v1/mechanism_design/MANIFEST.json",
+      "bytes": 1151,
+      "sha256": "a63a7bc4bc2a4ca590ed6a430fab3b17899d09f97b2e42a00a2dc34f7baaa422"
+    },
+    {
+      "path": "diagnostics_h2_readout_v1/mechanism_design/MECHANISM_DESIGN.zh.md",
+      "bytes": 13351,
+      "sha256": "c4d626d2579f3e06b0e09e6f86a48a0c6df2f3ca71fab9d1759ace3b3258a218"
+    },
+    {
+      "path": "final_science_review/H2_PRELOCK_CLAIM_REVIEW.json",
+      "bytes": 15232,
+      "sha256": "73acea075e52221099f77d5ddf3373a259b0c68d6ff04cc44765839bb3167810"
+    },
+    {
+      "path": "final_science_review/H2_INCREMENT_CLAIM_REVIEW.json",
+      "bytes": 17821,
+      "sha256": "55083a8a6b6d82ea7de33a18655e5cf18b0cadb26e134bb0e26d8333059db382"
+    }
+  ],
+  "backup_status": "BACKUP_BLOCKED",
+  "no_cloud_backup_claim": true
+}

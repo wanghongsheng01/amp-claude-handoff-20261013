@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "check_count": 17,
+  "wall_seconds": 0.632828459,
+  "script_sha256": "28ca9f8c94eede044bcd193adb5f75fa52e254325d0ad33fe85db42d32dca8ae",
+  "source": "Captured successful tool stdout from first synthetic_scorer_checks.py run; superseded code receives a separately recorded check, this cost is retained.",
+  "model_calls": 0,
+  "natural_data_reads": 0,
+  "RDKit_calls": 0,
+  "random_draws": 0
+}

@@ -1,0 +1,16 @@
+{
+  "status": "AUDIT_BLOCKED",
+  "no_training": true,
+  "no_sampling": true,
+  "original_split_reads": false,
+  "checks": [
+    "freeze and independent preflight bindings unchanged",
+    "snapshot identities, split isolation, grouping coverage and edge isolation"
+  ],
+  "elapsed_seconds": 1.546080750413239,
+  "error": {
+    "type": "AssertionError",
+    "message": "(3.5534420013427734, 2.877091884613037)",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 185, in main\n    compare_records(scores,[r for r in saved_cv[method][i] if r['fold']==fold])\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 139, in compare_records\n    for k,v in r.items(): recursive_compare(v,previous[k])\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 38, in recursive_compare\n    for x,y in zip(a,b): recursive_compare(x,y)\n                         ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 39, in recursive_compare\n    elif isinstance(a,float): close(a,b)\n                              ^^^^^^^^^^\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 31, in close\n    assert math.isfinite(a) and math.isfinite(b) and abs(a-b)<=atol,(a,b)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: (3.5534420013427734, 2.877091884613037)\n"
+  }
+}

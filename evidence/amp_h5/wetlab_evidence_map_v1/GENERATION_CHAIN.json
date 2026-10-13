@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/3DHumanRehab/AMP",
+  "fixed_commit": "e7486fb714cbf5c663cc01052e42fb63d4ba3a40",
+  "verified_static_text_files": [
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/datasets/flow_vae.yaml",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/egs_bases/flow_vae/base.yaml",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/egs_bases/flow_vae/flow_vae.yaml",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/train_vae.yaml",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/concract.py",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/create_datasets.sh",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/dataprocess2.py",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/tasks/train_VAE+flow.py",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/tasks/train_diffusion.py",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/base_task.py",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/hparams.py",
+    "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/trainer.py",
+    "code_source/historical_e7486fb/AMP-main/README.md",
+    "code_source/historical_e7486fb/AMP-main/diffusion.py",
+    "code_source/historical_e7486fb/AMP-main/run.py",
+    "code_source/historical_e7486fb/AMP-main/train_vae_flow.sh"
+  ],
+  "historical_run_binding": "NOT_RECOVERED_IN_AUTHORIZED_SCOPED_MATERIALS",
+  "basis": "Prior bounded run/selection search reused; code defaults and save-path strings are not an executed run. No weight loading, training, test access, or fresh repository scan.",
+  "historical_claimed_pool": 1000,
+  "claimed_selection_rules": [
+    "positive charge pH7.4",
+    "AMP Scanner>0.9",
+    "instability10-40",
+    "reported training similarity<=70%"
+  ],
+  "missing_links": [
+    "run/checkpoint/config/seed to sequence pool",
+    "stable generated IDs and condition labels",
+    "per-candidate stage scores/rejections",
+    "30 selected IDs to actual generation run",
+    "lot-to-assay-well custody"
+  ],
+  "new_H0_H5_outputs_are_historical_wetlab_provenance": false
+}

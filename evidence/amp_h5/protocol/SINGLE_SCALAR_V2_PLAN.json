@@ -1,0 +1,225 @@
+{
+  "scope_id": "AMP_H5_SINGLE_SCALAR_V2",
+  "scope": "One already frozen fresh scalar_legacy VAE/DDPM whole-pipeline adaptation comparator after actual MSE engineering postflight; descriptive future comparisons only, not a single-factor ablation",
+  "created_utc": "2026-10-11T19:07:44.732870+00:00",
+  "workspace": "/Users/loctek/Documents/Codex/2026-10-11/task-4",
+  "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_scalar_legacy_execution_v2",
+  "supervisor_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+  "launcher_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/INPUT_INDEX_REPAIR_V2.zh.md",
+      "sha256": "9e2326423be0842fa3cc1f814ae06a2c38c2b8d703a2ccc8c367c7f3af5338fd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SINGLE_CE_STAGED_RULE.zh.md",
+      "sha256": "063f51f66879a439a33ef302ea1f3db1b51f97aa3725979fe5368764d3cca02a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.json",
+      "sha256": "113146eba8d1b7f1ce1efce64bf5ca989f975f570b39a158555ac326ad7d755a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.zh.md",
+      "sha256": "2ff3079574d6e1658adb650ef7ff7600d06199a9abe40b67e7604b2474bc1e35"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_POSTFLIGHT_REVIEW.json",
+      "sha256": "9104676486dcbf8c3c6622c17b8f1ca709c43cb311f5c5b2e1dec6ebd08eab56"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_SCALE_ASSESSMENT.json",
+      "sha256": "9db57db802a21bfd7e94ddc80df00ca548ae45a94db72ee1ce2a23964c42ad98"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_SCALE_DETAIL_v1.json",
+      "sha256": "80b38d9b692be1807e1506c0637c0319b7d9c5d0ccabbfbfe38b87f63ab84ff8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_TERMINAL_AUDIT_v1.json",
+      "sha256": "40086bfd2624a18340a4eb6b8a1a6e817ae9769076be79a9f7fbf5d9eba437fa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+      "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RECOVERY_LAUNCHER_PREPARATION_REVIEW_v1.json",
+      "sha256": "543454154da728faf6b85238643deb8c95b2014bc85fe80e1a868037612d1345"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/staged_remaining_vae_drafts_v1/SCALAR_V2_PLAN_DRAFT.json",
+      "sha256": "044ffb38d3417de582b43877c840e8376bcbf447b77d0f15ffccea2a5931c45d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_RECOVERY_SCOPE_v1.json",
+      "sha256": "09993ebfd1ff908c88b6364fc9c69ada8ce3cfad52ef70d39c7cc976c364bd22"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_FORENSIC_v2.json",
+      "sha256": "af7ded6832371e2365801f7c5adfb9e3bc978bd151c822087a05480ab4f7fcfa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_PREFLIGHT_RECEIPT_v1.json",
+      "sha256": "0e9e4d79e34a7e56dee012a0716c240fc63e6b6dcb7492a5c28ad4274b1f3e56"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_POSTFLIGHT_v1.json",
+      "sha256": "a0a410526b6a252ba1f73fd3957dea5ee20413bb6e5c264fca5d34a4eec97b71"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_SCALE_ASSESSMENT_v1.json",
+      "sha256": "d8f252723f4d32b74193520c3da9c1c701a51de2d9189cf714dd34902a85250c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_TERMINAL_AUDIT_v1.json",
+      "sha256": "4273578a85d2e9b9d1a9aafa3bcb63fc403d9f0084ecc346b76a1ec8972a95ec"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SINGLE_MSE_V2_PLAN.json",
+      "sha256": "a1c24efa2164c5cd9fcca2e46154fac8af44df2aec5f363226da168a374ae802"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SINGLE_MSE_V2_PREFLIGHT_RECEIPT.json",
+      "sha256": "29be127a09ac695f38d9fee442e7c998e1c6ab1a829e599fac0f4efc615e8768"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "scalar_legacy",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy"
+      ],
+      "outer_timeout_seconds": 4920
+    }
+  ],
+  "budgets_seconds": {
+    "vae_seconds_cap": 1920,
+    "ddpm_seconds_cap": 1020,
+    "training_seconds_cap": 2940,
+    "generation_seconds_cap": 1800
+  },
+  "outer_timeout_seconds": 4920,
+  "execution_environment": {
+    "device": "cpu",
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "serial_task_lock": "H5_PROCESS.lock"
+  },
+  "draft_derivation": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/staged_remaining_vae_drafts_v1/SCALAR_V2_PLAN_DRAFT.json",
+    "sha256": "044ffb38d3417de582b43877c840e8376bcbf447b77d0f15ffccea2a5931c45d",
+    "proposed_job_copied_without_change": true,
+    "proposed_output_root_copied_without_change": true,
+    "all_original_frozen_bindings_preserved": true,
+    "config_or_code_modified": false
+  },
+  "engineering_eligibility": {
+    "postflight_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_POSTFLIGHT_v1.json",
+    "postflight_sha256": "a0a410526b6a252ba1f73fd3957dea5ee20413bb6e5c264fca5d34a4eec97b71",
+    "status": "PASS",
+    "scope": "SINGLE_MSE_ENGINEERING_ONLY",
+    "next_frozen_scalar_plan_eligible_on_engineering_only": true,
+    "not_an_execution_receipt": true,
+    "basis_excludes": [
+      "reconstruction accuracy",
+      "length validity rates",
+      "uniqueness",
+      "MMD",
+      "JS",
+      "copy rate",
+      "biological activity"
+    ]
+  },
+  "fixed_method_contract": {
+    "vae_updates": 1000,
+    "ddpm_updates": 1000,
+    "fixed_endpoint_no_checkpoint_selection": true,
+    "initialization_seed": 222,
+    "shuffle_seed": 222,
+    "vae_noise_seed": 222,
+    "ddpm_seed": 322,
+    "sampling_seeds": [
+      422,
+      423
+    ],
+    "samples_per_terminal": 16,
+    "total_requests": 32,
+    "conditions": "terminal class only",
+    "noise_steps": 999,
+    "train_rows": 279,
+    "dev_rows": 41,
+    "test_access": false,
+    "KL_beta": 1.0,
+    "fresh_model_and_own_train_encoding_and_DDPM": true,
+    "arm": "scalar_legacy",
+    "comparison_scope": "Whole-pipeline legacy adaptation comparator with different scalar head, reconstruction objective, loss normalization and readout; cannot isolate a single component relative to CE21/MSE21.",
+    "loss_contract": "Exactly the frozen scalar_legacy branch in vae_pipeline_formal_v2.py: scalar reconstruction squared error / non-PAD count and density sum / 16; no objective rescaling.",
+    "same_frozen_seed_and_budget_opportunity": true
+  },
+  "frozen_scientific_contract": [
+    "VAE1000/DDPM1000 fixed endpoint, init222/shuffle222/VAEeps222/DDPM322/FREE422/AMD423.",
+    "Use exactly frozen formal_configs_v2 and vae_pipeline_formal_v2.py; no warm start, fitting extra scalers, architecture/loss/KL/schedule/seed changes or budget increase.",
+    "All32 terminal-only requests retained; no clipping, resampling, replacement or quality-based stopping/selection.",
+    "CE/MSE pair shares capacity/initialization/batch and forward RNG; scalar is whole-pipeline legacy comparator only.",
+    "No test37 access; dev monitors are descriptive only; no checkpoint selection.",
+    "Keep prior engineering costs and failures visible; actual compute frontier is not equal-compute evidence."
+  ],
+  "scope_boundaries": {
+    "original_CE_E": "NOT_EVALUABLE_INTERRUPTION",
+    "original_CE_L": "NOT_EVALUABLE_INTERRUPTION",
+    "original_CE_G": "NOT_EVALUABLE_INTERRUPTION",
+    "CE_recovery": "separate additional zero-training generation attempt with disclosed no-retry deviation and extra cost",
+    "quality_based_changes_or_permission": false,
+    "AR_ADEQUACY": "NOT_ESTABLISHED",
+    "submission_in_this_plan": false,
+    "scalar_results": "Only future separately labelled descriptive screens after independent terminal audit; whole-pipeline legacy adaptation comparison only, not a single-factor loss/head attribution. Do not backfill original CE protocol outcomes or infer confirmatory advantage.",
+    "MSE_postflight": "SINGLE_MSE_ENGINEERING_ONLY; eligibility to prepare this plan is not an execution receipt or quality superiority evidence.",
+    "other_model_arms_in_this_plan": false
+  },
+  "launch_requirements": [
+    "Independent reviewer must issue a new receipt binding this exact plan, unchanged supervise.py and reviewed launcher before execution; this plan is not a receipt.",
+    "Root alone performs immediate load/process check, then launches exactly once through the bound generic detached launcher under the existing serial H5 lock.",
+    "Require fresh model and supervisor output paths and a fresh launch record. Do not overwrite or resume any old attempt.",
+    "No quality result, reconstruction, length success, uniqueness, MMD, JS, copy rate or biological sequence property may change any setting or determine launch permission."
+  ],
+  "failure_policy": "One fresh scalar_legacy attempt only. No model-phase retry, sampler clipping, resampling, replacement, extra seed or budget extension. Retain all32 statuses and failures. No automatic subsequent model run.",
+  "transport_uncertainty_policy": "After Popen, timeout or connection loss is not authorization to launch again. First inspect existing launch stdout, status and supervisor/model PIDs; preserve unknown outcome and all costs.",
+  "future_stage_rule": "This single scalar attempt concludes the current frozen VAE-arm queue. Any further model work requires a separate justified scope and independent assessment; no automatic expansion or retry.",
+  "cost_disclosure": "Retain CE original training and interrupted generation, additional CE recovery, MSE execution, smoke/maturity/input-failure costs separately. Same fixed update/cap opportunity is not equal actual compute. The original CE no-retry deviation is not repeated or hidden.",
+  "execution_receipt_status": "REQUIRED_NOT_ISSUED_BY_AUTHOR",
+  "PROMOTE": "HOLD"
+}

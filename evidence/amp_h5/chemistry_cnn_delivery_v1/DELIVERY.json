@@ -1,0 +1,144 @@
+{
+  "schema": "AMP_H5_CHEMISTRY_AND_CNN_DELIVERY_V1",
+  "created_utc": "2026-10-12T09:00:24.157940+00:00",
+  "status": "PASS_REVIEWED_PREPARATION_AND_SYNTHETIC_BASELINE_ONLY",
+  "subject": "Antimicrobial peptide AMP H5 only",
+  "chemistry": {
+    "schema": "AMP_H5_CHEMICAL_UNIT_AUDIT_V2",
+    "rdkit_version": "2023.09.5",
+    "created_utc": "2026-10-12T08:57:12.205231+00:00",
+    "records": 75,
+    "SMILES_variants": 152,
+    "structure_status_counts": {
+      "PASS_REPRESENTED_STRUCTURE": 51,
+      "PENDING": 24
+    },
+    "structure_reasons": {
+      "ASSAY_MATERIAL_MASS_BASIS_NOT_ESTABLISHED": 51,
+      "PENDING_SEQUENCE_SMILES_STEREO_OR_GRAPH_MISMATCH": 20,
+      "PENDING_NONCANONICAL_SEQUENCE": 3,
+      "PENDING_UNSPECIFIED_STEREOCHEMISTRY": 1
+    },
+    "mass_MIC_rows": {
+      "rows": 86,
+      "peptide_ids": 47,
+      "backbones": 47,
+      "sequence_families": 30,
+      "source_family_groups": 10
+    },
+    "assay_conversion_status": {
+      "PASS": {
+        "rows": 0,
+        "peptide_ids": 0,
+        "backbones": 0,
+        "sequence_families": 0,
+        "source_family_groups": 0
+      },
+      "REFUSE": {
+        "rows": 0,
+        "peptide_ids": 0,
+        "backbones": 0,
+        "sequence_families": 0,
+        "source_family_groups": 0
+      },
+      "PENDING": {
+        "rows": 86,
+        "peptide_ids": 47,
+        "backbones": 47,
+        "sequence_families": 30,
+        "source_family_groups": 10
+      }
+    },
+    "conditional_parent_equivalent_computable": {
+      "rows": 54,
+      "peptide_ids": 32,
+      "backbones": 32,
+      "sequence_families": 23,
+      "source_family_groups": 8
+    },
+    "conditional_screen_candidates_before_massbasis_chemistry_isolation": {
+      "rows": 18,
+      "peptide_ids": 8,
+      "backbones": 8,
+      "sequence_families": 5,
+      "source_family_groups": 3
+    },
+    "potential_new_candidate_ids_relative_to_old_screen": [
+      102,
+      1689,
+      1737,
+      1738,
+      4339,
+      4379,
+      4380
+    ],
+    "potential_new_candidate_families_relative_to_old_screen": [
+      "F102",
+      "F1689",
+      "F1737",
+      "F1738"
+    ],
+    "potential_new_candidate_source_groups_relative_to_old_screen": [
+      "G1737"
+    ],
+    "plain_CNN_compatible_conditional_candidates": {
+      "rows": 5,
+      "peptide_ids": 3,
+      "backbones": 3,
+      "sequence_families": 3,
+      "source_family_groups": 2
+    },
+    "plain_CNN_compatible_potential_new_ids": [
+      102,
+      1737,
+      1738
+    ],
+    "plain_CNN_compatible_potential_new_families": [
+      "F102",
+      "F1737",
+      "F1738"
+    ],
+    "actual_new_assay_verified_peptides": 0,
+    "actual_new_assay_verified_families": 0,
+    "actual_new_training_admitted_peptides": 0,
+    "isolation_status": "NOT_IMPLEMENTED; no train/dev/test files opened",
+    "elapsed_seconds": 7.987552290782332,
+    "decision": "Structural conversion feasibility assessed; retain conditional values as audit fields, not verified assay labels. Resolve material mass basis before any admission. No natural training."
+  },
+  "cnn": {
+    "architecture": "PASS_SOURCE_MATCH_WITH_DOCUMENTED_ADAPTATIONS",
+    "parameters": 183069,
+    "independent_numeric_assertions": "PASS fixedweight padding/pool/flatten; scalarMSE/gradient; epsilonhatAdam",
+    "author_synthetic_evidence": "13checks PASS;105syntheticoptimizersteps; source/tests inspected; no originalperformance or TensorFlowruntime parity claim",
+    "final_manifest_sha256": "c41d0769f2f79d801fb38b11a97d5de5615d90903cb9c607a1eb64bdb64882ae",
+    "all_manifest_files_pass": 17
+  },
+  "natural_training": "NOT_RUN_NOT_ADMITTED",
+  "model_slots": "Implementation and independent audit agents released their serial CPU slots",
+  "negative_results_preserved": [
+    "chemistry_units_v1:41generic-tautomer enumeration cap outcomes",
+    "chemistry_units_v2:24structural PENDING and86assay PENDING",
+    "witten_cpu_v1/attempt1:JSON serialization failure"
+  ],
+  "independent_signoff_sha256": "4471e461f1fafdc64f0cdfddd9b55644b6d7c9b17beffd98204a885b0380bb19",
+  "package_manifest_sha256": {
+    "dbaasp_bounded_v3": "81dd8772f706bfbe2f8398f81f2fa63cebe38ea508689ca5c7309b42293e3df7",
+    "chemistry_units_v1": "263f8a93fd2e69dedec72285fe51578658a04ff5a90ba009d210516119b65785",
+    "chemistry_units_v2": "dfc3b6ee33ba296a85af6921cf540b9a362d5da4de77879966bd78e9a9555865",
+    "witten_cpu_v1": "c41d0769f2f79d801fb38b11a97d5de5615d90903cb9c607a1eb64bdb64882ae",
+    "chem_cnn_audit_v1": "6dd812a834f1e847745432bfac42f6d2494590d5f680fbf754e0bb08910300ef"
+  },
+  "prior_delivery_status_note": "witten_cpu_v1/DELIVERY.json was frozen before independent audit and is retained. SIGNOFF.json and this index provide subsequent reviewed status.",
+  "protection": {
+    "new_HTTP_requests": 0,
+    "natural_model_training": false,
+    "train_dev_test_opened_this_package": false,
+    "test37_opened": false,
+    "H0_H4_or_manuscript_edits": false,
+    "uploads": false,
+    "credential_use": false,
+    "new_dependencies": false,
+    "pretrained_weights": false
+  },
+  "backup": "BACKUP_BLOCKED"
+}

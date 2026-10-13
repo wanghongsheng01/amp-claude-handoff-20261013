@@ -1,0 +1,134 @@
+{
+  "document_type": "NON_EXECUTABLE_RECOVERY_CONTRACT_DRAFT",
+  "authorized": false,
+  "finalized": false,
+  "original_run_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+  "frozen_runner_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+  "proposed_new_attempt_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_v2_generation_recovery_attempt1",
+  "proposed_supervisor_output_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_v2_generation_recovery_execution_attempt1",
+  "training_updates": 0,
+  "reuse_final_checkpoint_updates": {
+    "VAE": 1000,
+    "DDPM_EMA": 1000
+  },
+  "generation_requests": {
+    "FREE": 16,
+    "AMD": 16,
+    "total": 32
+  },
+  "frozen_sampling_seeds": [
+    422,
+    423
+  ],
+  "batch_size_per_terminal": 16,
+  "noise_steps": 999,
+  "reverse_timesteps": "998..1",
+  "generation_function": "unchanged frozen formal_v2.generate",
+  "reconstruction_function": "unchanged frozen formal_v2.reconstruction_export",
+  "scaler": "restore exact saved train_feature_scaler.json stats using __new__, no fit",
+  "no_optimization": true,
+  "no_optimizer_state_load": true,
+  "no_checkpoint_selection": true,
+  "no_clip_resample_replacement": true,
+  "proposed_caps_seconds": {
+    "new_generation_attempt": 1800,
+    "new_outer_total": 1980,
+    "new_training": 0
+  },
+  "budget_disclosure": "New separately authorized cost, not remaining original budget: original VAE1179.031922s + DDPM564.346170s + partial generation at least451.935743s stay counted. Exact original termination and final total are unknown.",
+  "explicit_deviation": "Original v2 no-retry rule is not satisfied by this new generation restart. Must disclose infrastructure-recovery amendment before execution; original v2 remains interrupted/not complete regardless of recovery outcome.",
+  "not_a_continuation": "No saved t200 x/RNG; restart both terminal chains from original seeds, never claim t200 resumption. Original32 placeholder statuses remain unchanged and partial FREE execution remains recorded.",
+  "required_frozen_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/config.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.pt",
+      "sha256": "e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.json",
+      "sha256": "97f3db5bf0286af52f05cf46291cc3b1f2ce290cfda451d0e0fe77dbe980e0ac"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_training_summary.json",
+      "sha256": "d9c10cda3fdbc3f070414f89a9bccc727627dd1bdbaaeb3daf7f4b41ba662ce2"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_training_summary.json",
+      "sha256": "74755fd716e27fd37f4cb13334689df3cff80f17c75d4d7d2bc0dc9e083c09d9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_train.jsonl",
+      "sha256": "d88e9fff8e1aad92071eb12440d8c0604857c41b6725b6d3c4c2dbfa7d89ceae"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_train.jsonl",
+      "sha256": "36a18c5204ccc829e84f619b8cc8089f2f6448b553c9e890987a0724ee088aa6"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/dev_monitor.jsonl",
+      "sha256": "779afe8b424c4331a835d0f4c8e362fa02d8484a0273cf72c3fa4de8ac441afa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/status.json",
+      "sha256": "cb567d110d39209ee2248106d5d8fb74fdcb9ab31ab0cb02e75c92ea47d8ab92"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/generation_progress.jsonl",
+      "sha256": "55a0673706bb588faea5275c7c37209dd3daf446ae1671719c8babc2e1d0fae4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/generated.csv",
+      "sha256": "776950caeecda5b6541321b7965d303abca50cd2486ea913c0c2b73cd8b9eecb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_ce_execution_v2/SUPERVISOR_STATUS.json",
+      "sha256": "168f658c1a849436cc8773a12c87ab97e01d187bdc2bbd61c7a7ce30da96e970"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_author_v1/EVIDENCE.json",
+      "sha256": "608b6ad973f960bad648a36667807405b5e9e3c491ed6b5a5b0b20884b7a5c22"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_author_v1/RECOVERY_ENTRY.py.draft",
+      "sha256": "1a4085beb4974675fa1e8465d17773018bf1b4e9c55eea50faa5a606abc47735"
+    }
+  ],
+  "required_before_execution": [
+    "Independent review of interruption evidence, exact checkpoint identity and static recovery flow.",
+    "Root explicitly authorizes this new generation-restart attempt and the additional cap; no inherited v2 no-retry waiver is assumed.",
+    "Create NEW executable recovery code/version and concrete final supervisor plan, with exact hashes and an independent preflight receipt. This draft has an unconditional RuntimeError and no runnable jobs.",
+    "Verify original PIDs/jobs are absent and no other AMP model is active, then acquire existing serial process lock.",
+    "Keep all original artifacts and statuses immutable; write new attempt only. Do not overwrite or backfill original manifest/status.",
+    "One attempt only; all32 success/failure/not-executed outcomes retained; no training, new seeds, clipping, tuning or output selection.",
+    "Independent recovery postflight before any MSE/scalar or sequence-quality comparison."
+  ],
+  "future_authorization_and_receipt": null,
+  "PROMOTE": "HOLD"
+}

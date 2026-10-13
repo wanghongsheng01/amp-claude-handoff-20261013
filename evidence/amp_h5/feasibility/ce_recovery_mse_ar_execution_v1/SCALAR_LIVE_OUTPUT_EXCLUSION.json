@@ -1,0 +1,14 @@
+{
+  "scope": "Intentionally exclude live scalar outputs from this completed-three-arm readout",
+  "authority": "Root delegation: scalar engineering approval fixed and started 19:10:17; no reading of running scalar model outputs",
+  "reported_state": "RUNNING_REPORTED_BY_ROOT_NOT_INDEPENDENTLY_INSPECTED",
+  "actual_scalar_root_metadata_only": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy",
+  "readout_unavailable_source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/withheld_live_scalar_v2_outputs_not_read",
+  "unavailable_source_is_not_a_run": true,
+  "placeholder_directory_created": false,
+  "scalar_file_stat_or_read_calls": 0,
+  "synthetic_scalar_observations": 0,
+  "quality_affects_scalar_authorization": false,
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD"
+}

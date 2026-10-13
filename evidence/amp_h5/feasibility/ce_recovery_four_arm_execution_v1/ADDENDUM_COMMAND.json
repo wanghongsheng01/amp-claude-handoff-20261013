@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-11T20:03:44.125825+00:00",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_four_arm_full_metrics_addendum_v1.py"
+  ],
+  "shell_command": "/Library/Developer/CommandLineTools/usr/bin/python3 -B /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_four_arm_full_metrics_addendum_v1.py",
+  "source_sha256": "4e8e2c79bd9f6d0265554646030e5c6996c737bf5a9cce640e83c4a551ec338d",
+  "model_calls": 0,
+  "metric_recomputations": 0,
+  "test_access": false
+}

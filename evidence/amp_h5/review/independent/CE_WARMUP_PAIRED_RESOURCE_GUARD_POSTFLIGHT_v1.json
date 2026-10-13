@@ -1,0 +1,215 @@
+{
+  "status": "PASS",
+  "blocked": false,
+  "scope_id": "AMP_H5_WARMUP_PAIRED_RESOURCE_GUARD_V1",
+  "created_utc": "2026-10-12T01:34:01.582982+00:00",
+  "scientific_resource_outcome": "FAIL_ALL_FOUR_PRELOCKED_GUARDS",
+  "resource_success": false,
+  "guards_independently_recomputed": {
+    "S8_sequence_equal_gain_at_least_1_over_20": false,
+    "M_sequence_equal_nondecrease": false,
+    "M_length_MAE_no_greater_than_baseline_zero": false,
+    "S8_supported_AA_macro_nondecrease": false
+  },
+  "exact_values": {
+    "baseline": {
+      "M": {
+        "numerator": 7782097033,
+        "denominator": 10766655900,
+        "value": 0.7227961128580324
+      },
+      "S8": {
+        "numerator": 119728516433,
+        "denominator": 181100673600,
+        "value": 0.6611157984837004
+      },
+      "M_length_MAE": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "S8_supported_AA_macro": {
+        "numerator": 80728129338071,
+        "denominator": 212859392054400,
+        "value": 0.37925566055097765
+      },
+      "M_minus_S8": {
+        "numerator": 435643512761,
+        "denominator": 7062926270400,
+        "value": 0.06168031437433197
+      }
+    },
+    "candidate": {
+      "M": {
+        "numerator": 129065631077,
+        "denominator": 196192396400,
+        "value": 0.6578523604648727
+      },
+      "S8": {
+        "numerator": 1188790078747,
+        "denominator": 2017978934400,
+        "value": 0.5890993500883396
+      },
+      "M_length_MAE": {
+        "numerator": 2,
+        "denominator": 41,
+        "value": 0.04878048780487805
+      },
+      "S8_supported_AA_macro": {
+        "numerator": 8821298524301,
+        "denominator": 28381252273920,
+        "value": 0.3108142811727528
+      },
+      "M_minus_S8": {
+        "numerator": 194238977263,
+        "denominator": 2825170508160,
+        "value": 0.06875301037653318
+      }
+    }
+  },
+  "changes_exact": {
+    "S8_gain_exact": {
+      "numerator": -203458746109,
+      "denominator": 2825170508160,
+      "value": -0.07201644839536084
+    },
+    "M_change_exact": {
+      "numerator": -281752417,
+      "denominator": 4338406800,
+      "value": -0.06494375239315962
+    },
+    "S8_macro_change_exact": {
+      "numerator": -29136780811627,
+      "denominator": 425718784108800,
+      "value": -0.06844137937822489
+    },
+    "gap_change_exact": {
+      "numerator": 7685220061,
+      "denominator": 1086604041600,
+      "value": 0.007072696002201212
+    }
+  },
+  "completeness": {
+    "baseline_rows": 2880,
+    "candidate_rows": 2880,
+    "dev_sequences": 41,
+    "S_draws": 8,
+    "same_reference_row_seed_identity": true
+  },
+  "actual_guard_outer_seconds": 0.6585932089947164,
+  "actual_guard_inner_closing_seconds": 0.5496440827846527,
+  "decision": "Stop this fixed beta-warmup route. No schedule variant, repeated training, seed search, DDPM or generation follows this failed resource screen. A separately proposed mechanism experiment remains unapproved.",
+  "interpretation": "S8 equal-sequence accuracy declined7.20164484 percentage points; M declined6.49437524points; M lengthMAE increased0 to2/41; S8 supported-AA macro declined6.84413794points. Gap grew0.70726960points descriptively and is not a fifth guard. This is one reused-dev fixed-seed falsification, not universal evidence against all KL schedules.",
+  "preparation_note": {
+    "static_template_first_attempt": "Assertion rejected broad numeric substitution before writing a file or launching any process; corrected to word-boundary substitution and verified all hashes.",
+    "model_calls": 0,
+    "natural_guard_attempts_before_this_launch": 0,
+    "preparation_wall_seconds": null
+  },
+  "preparation_note_boundary": "First wrapper string-replacement assertion was a preparation failure with no natural guard invocation; preserved note is separate from this single completed guard process.",
+  "review_execution_note": "Initial reviewer inline command had a Python syntax error (missing whitespace at else1422) before any statement/file read/write executed; corrected once. This is reviewer preparation, not another natural guard run. Unmeasured preparation wall remains unknown.",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v3/PAIRED_GUARD_CONTRACT.json",
+      "sha256": "8b1e0740da6691381e88cee1d0462ec924d60faee3f4aec6e180340ff31e6b6c",
+      "bytes": 7625
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_run_v1/PAIRED_RESOURCE_GUARD.json",
+      "sha256": "a879cf42952903758c814e7b1a001099f31f65978a0576d8a8f4a77ab6b2aea2",
+      "bytes": 8250
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_run_v1/MANIFEST.json",
+      "sha256": "144cf103866871a1209f6668e0f00c05a1e65ad4293c9b6b0508b9ba6131f360",
+      "bytes": 337
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_run_v1/CLOSING_LEDGER.json",
+      "sha256": "37b548167e2f58536ec886a8f6fe7112bf4efab584aeb1a38ab38b59c349bc93",
+      "bytes": 322
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_execution_v1/RESULT.json",
+      "sha256": "247d97d3dfb4d13fee9af38b700c29a0c0e00ca2d0464b15064615e93a916d31",
+      "bytes": 3402
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_watchdog_v1/PREPARATION_NOTE.json",
+      "sha256": "d2bd770c8532cf8318dc99ecbdc2bc5ac6865ce887a2b94b991ac3fdff285cfa",
+      "bytes": 305
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+      "sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194",
+      "bytes": 4360
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/ROW_METRICS.jsonl",
+      "sha256": "83e99f21ca2aff9cf9ba7b5debca5b3d72116a4e1da2e9763bfa7bcc9ff36d37",
+      "bytes": 18266466
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/STRATIFIED_CORE_SUMMARIES.json",
+      "sha256": "4934ef758b3302b081123d97b5402fe4eef34f4abaa70173fe04fd069fb922ed",
+      "bytes": 199243
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/MANIFEST.json",
+      "sha256": "c2cc1fba99f43c84b1d191bfd6f2daee41eebc67f53c148b4ae2a47c27af3ef0",
+      "bytes": 2408
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/CLOSING_LEDGER.json",
+      "sha256": "041c836602d3ba77a30bd523522405d8e3ed2c48707fe2036c1f53af40896eaa",
+      "bytes": 515
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "sha256": "67254873fcff4dfb660bca8f729798dfdd0873b7f9d6012f0f36b0320dacf036",
+      "bytes": 15962
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RESULT.json",
+      "sha256": "7b827a09b1724b23e2744a5750d1fba108702c69388a064b83a9f8b057733285",
+      "bytes": 3112
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/ROW_METRICS.jsonl",
+      "sha256": "3eb8e3384235919113d17603efdec0a05bcb74afffefa2ccc4a6b78934cceccd",
+      "bytes": 18447847
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/STRATIFIED_CORE_SUMMARIES.json",
+      "sha256": "777c36092272b6abf9fb51b8ec70c8e59d81aefe333c51c4f00d7e5a429273d1",
+      "bytes": 198289
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/MANIFEST.json",
+      "sha256": "8e6dee3134502f08c33e4d5dd12a09dfd6afd3864397d3ce5c50493473305d96",
+      "bytes": 2439
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/CLOSING_LEDGER.json",
+      "sha256": "fbd9220e170c92e2e6885db5d8466c842432cc9abc6e92262d133501e1d9cef4",
+      "bytes": 521
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_RMS_SCORING_POSTFLIGHT_v1.json",
+      "sha256": "b2bde7132a6879982313e50f662fe683a649fedf169d5b7a19f360c703b276cf",
+      "bytes": 6284
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_execution_v1/RESULT.json",
+      "sha256": "baf2e3295220735ff2ec36e1fe5c076252f0928ce471973ba9d007d3df8b36b5",
+      "bytes": 3233
+    }
+  ],
+  "model_calls": 0,
+  "new_RNG_calls": 0,
+  "new_RDKit_calls": 0,
+  "test_reads": 0,
+  "original_CE_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD",
+  "audit_seconds_before_receipt_io": 0.530308583
+}

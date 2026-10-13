@@ -1,0 +1,245 @@
+{
+  "created_utc": "2026-10-11T20:18:31.490516+00:00",
+  "state": "PREPARED_NOT_EXECUTED_NOT_AUTHORIZATION",
+  "scope": "AMP H5 posthoc CE source-replacement diagnostic V2 descriptive evaluation only",
+  "argv_not_executed": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+    "--train",
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "--development",
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+    "--train-sha256",
+    "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+    "--development-sha256",
+    "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+    "--train-rows",
+    "279",
+    "--development-rows",
+    "41",
+    "--methods",
+    "CE_DDPM_REUSED,EMPIRICAL_POSTERIOR_B,COORDINATE_PERMUTATION_C,REFERENCE_G_PRIOR_D",
+    "--requests",
+    "16",
+    "--sampling-seeds-json",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+    "--samples",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/reused_ddpm.csv",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+    "--output",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2"
+  ],
+  "shell_command_not_executed": "/Library/Developer/CommandLineTools/usr/bin/python3 -B /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py --train /Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv --development /Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv --train-sha256 a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660 --development-sha256 65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1 --train-rows 279 --development-rows 41 --methods CE_DDPM_REUSED,EMPIRICAL_POSTERIOR_B,COORDINATE_PERMUTATION_C,REFERENCE_G_PRIOR_D --requests 16 --sampling-seeds-json /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json --samples /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/reused_ddpm.csv /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv --output /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2",
+  "frozen_sources": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+      "bytes": 24404,
+      "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "bytes": 25377,
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    }
+  ],
+  "cohort_reference_bindings_not_opened_in_preparation": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "bytes": 64083,
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "bytes": 9489,
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1"
+    }
+  ],
+  "future_run_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2",
+  "future_evaluation_output": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2",
+  "future_input_paths_not_opened": [
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/reused_ddpm.csv",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REQUEST_SLOTS.json",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REUSED_DDPM_SLOTS.json"
+  ],
+  "sampling_seed_metadata": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+    "binding_state": "VERIFIED_REAL_FILE_SHA_AND_CONTENT",
+    "expected": {
+      "CE_DDPM_REUSED": {
+        "FREE": 422,
+        "AMD": 423
+      },
+      "EMPIRICAL_POSTERIOR_B": {
+        "FREE": 422,
+        "AMD": 423
+      },
+      "COORDINATE_PERMUTATION_C": {
+        "FREE": 422,
+        "AMD": 423
+      },
+      "REFERENCE_G_PRIOR_D": {
+        "FREE": 422,
+        "AMD": 423
+      }
+    },
+    "meaning": "seed field identifies inherited epsilon RNG tape; B selection523/524 and C permutations625/626 remain separate metadata, not additional model replicates",
+    "binding": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+      "bytes": 261,
+      "sha256": "f191f8412a5382b7e11ad3af4a1bbb1a45895df0c3491693a7ab14b986c83aa6"
+    }
+  },
+  "method_ids": [
+    "CE_DDPM_REUSED",
+    "EMPIRICAL_POSTERIOR_B",
+    "COORDINATE_PERMUTATION_C",
+    "REFERENCE_G_PRIOR_D"
+  ],
+  "historical_draft_name_mapping": {
+    "CEdiag_existing_DDPM": "CE_DDPM_REUSED",
+    "CEdiag_train_posterior": "EMPIRICAL_POSTERIOR_B",
+    "CEdiag_permuted_posterior_z": "COORDINATE_PERMUTATION_C",
+    "CEdiag_reference_g_native_prior": "REFERENCE_G_PRIOR_D"
+  },
+  "slots": {
+    "terminals": [
+      "FREE",
+      "AMD"
+    ],
+    "per_method_per_terminal": 16,
+    "identity": "{method}_{terminal}_{000..015}",
+    "total_observations": 128,
+    "reused_DDPM": 32,
+    "new_B": 32,
+    "new_C": 32,
+    "new_D": 32,
+    "new_decode_observations": 96,
+    "failed_empty_duplicate_cap_records_retained": true
+  },
+  "method_interpretations": {
+    "CE_DDPM_REUSED": "Byte-bound remapping of existing CE recovery32; preserve original source ID/method/path/SHA; no new DDPM or decoder calls.",
+    "EMPIRICAL_POSTERIOR_B": "Training empirical posterior replay with replacement; posterior contains seen sequence and conditioning information. Not novelty or new model success.",
+    "COORDINATE_PERMUTATION_C": "Within-terminal coordinate permutations of actual sampled B decoder-z; diagnostic of joint combination sensitivity, not a new generative method.",
+    "REFERENCE_G_PRIOR_D": "Frozen CE reference-g conditional native prior with same B TRAIN row indices; extra residue and length-template conditioning. Not terminal-only; excluded from c-only ranking."
+  },
+  "CSV_required_fields": [
+    "sample_id",
+    "method",
+    "terminal",
+    "sequence",
+    "status",
+    "seed"
+  ],
+  "CSV_metadata_to_preserve": [
+    "terminal_sample_id",
+    "length",
+    "source_method",
+    "source_sample_id",
+    "source_csv",
+    "source_csv_sha256",
+    "condition_scope",
+    "ranking_eligible",
+    "reference_train_row_id",
+    "selection_seed",
+    "permutation_seed"
+  ],
+  "denominator_policy": {
+    "request_denominator": "all16 fixed requests per method/terminal; no filtering or resampling",
+    "distribution_eligibility": "unchanged frozen canonical AA sequences of length1..48; report actual eligible n, unique n and failures alongside metrics",
+    "engineering_failure": "Retain raw frozen metrics, but do not interpret incomplete/failed source output as completed source quality. No synthetic replacement sequence.",
+    "effective_unique": "absolute unique legal count; never replaces16 request denominator",
+    "copy_scope": "same-terminal train and any-terminal train both retained",
+    "ranking": "no new win/loss gate or PROMOTE decision; D/B/C labeled diagnostic references"
+  },
+  "metrics": [
+    "421-feature biased linear MMD squared vs same-terminal train and development",
+    "legal1..48 and5..48 counts/fractions",
+    "full empty/failure/status/duplicate/cap counts",
+    "valid unique absolute count and fraction",
+    "same-terminal and any-train exact copy counts",
+    "same-terminal and any-train nearest identity n/mean/min/max/median and >=70%counts",
+    "AA and dipeptide JS/L1/pooled entropy and absolute entropy gap to train",
+    "length distribution and KS",
+    "all other frozen evaluator generation fields retained"
+  ],
+  "legacy_gate_artifact_interpretation": "NOT_APPLICABLE_SOURCE_DIAGNOSTIC: unchanged CLI emits exploratory_gates.json for original CE/MSE/AR names; missing-operand false values are not diagnostic FAIL. Do not map IDs to old gates or report new winner gates.",
+  "reconstruction_and_AR_NLL": "No new reconstruction/encoder/NLL arguments; empty arrays from fixed CLI are NOT_APPLICABLE, not failed observations.",
+  "prerequisites_before_natural_evaluation": [
+    "Root explicit authorization for new scope and completed new supervised execution.",
+    "Independent engineering postflight for exact new scope/root and actual requested B/C/D; not a design/eligibility/preflight receipt.",
+    "Exact run/source/slot/seed hashes verified; all selected128 rows accounted, original reused32 mapping verified.",
+    "Four-arm delivery and original CE interruption remain unchanged; new diagnostic costs and96 new versus32 reused counts separate.",
+    "Fresh output directory; frozen sources and train/dev exact hashes reconfirmed.",
+    "Final status, independent closing ledger and supervisor final exit must agree; a mid-finalization status alone is not completion."
+  ],
+  "prohibited_operations": [
+    "model forward calls",
+    "encoder",
+    "DDPM",
+    "training",
+    "test37 reads",
+    "editing old four-arm artifacts",
+    "new significance tests or winner thresholds"
+  ],
+  "original_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+  "PROMOTE": "HOLD",
+  "preparation_operations": {
+    "model_calls": 0,
+    "new_random_draws": 0,
+    "natural_metric_computations": 0,
+    "cohort_files_read": 0,
+    "checkpoint_or_posterior_arrays_read": 0
+  },
+  "upstream_design_only": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_DIAGNOSTIC_DRAFT_v1.json",
+    "bytes": 27522,
+    "sha256": "a5f12518b8b677c44f1b48a7da0b6ebe8a7626d9f7a6c4769c4ce12e3f7ce700"
+  },
+  "unchanged_four_arm_delivery": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_FOUR_ARM_DELIVERY_v1.json",
+    "bytes": 12365,
+    "sha256": "72dc82556c3b0bcfe8f959724002bba614ff53871dd48c1f731b00009b84ad38"
+  },
+  "prelocked_new_request_slots": {
+    "binding": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_REQUEST_SLOTS_v2.json",
+      "bytes": 51556,
+      "sha256": "6857bdbd06e7bad7325cc23c06524862030f8bff492aa943813e77d3c744699c"
+    },
+    "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+    "requested": 96,
+    "rows_identical_to_v1": true,
+    "all_six_method_terminal_groups_exact16": true,
+    "row_ids_and_epsilon_seeds_verified": true,
+    "natural_outputs_created": false
+  },
+  "reference_id_metadata_note": "Actual runner column reference_train_row_id is preserved. selected_train_row_id in v1 preparation was only a proposed alias; no donor provenance is dropped.",
+  "completion_evidence_rule": {
+    "state": "AWAIT_ACTUAL_EXECUTION_AND_INDEPENDENT_ENGINEERING_POSTFLIGHT",
+    "must_jointly_agree": [
+      "terminal new-scope status.json",
+      "independent closing ledger of actual calls and finalization",
+      "supervisor final exit/status"
+    ],
+    "intermediate_status_alone_sufficient": false,
+    "admission_failure_without_run_CSV": "NE_ADMISSION_FAILURE, preserve prelocked96 intent and supervisor stderr; no fake rows or natural quality computation",
+    "after_forward_finalization_failure": "Never label as zero-model admission failure; preserve actual nonzero call counters and failed/finalization artifacts; incomplete source interpretation NOT_EVALUABLE",
+    "old_receipts_not_authorization": true
+  },
+  "preparation_parent": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/PREPARATION_MANIFEST.json",
+    "bytes": 2541,
+    "sha256": "74914ea7c9dd91f92b661e886755a63e89e3b5c748cecfb4ae31196c8b58dada"
+  },
+  "derivation_boundaries": {
+    "metrics_unchanged": true,
+    "method_ids_unchanged": true,
+    "seeds_unchanged": true,
+    "four_arm_index_unchanged": true,
+    "v1_preparation_unchanged": true,
+    "new_observations_created": false,
+    "reason": "V2 upstream exception-classification repair; this preparation changes paths/bindings plus explicit finalization evidence and actual donor-column preservation, not metrics or model design."
+  }
+}

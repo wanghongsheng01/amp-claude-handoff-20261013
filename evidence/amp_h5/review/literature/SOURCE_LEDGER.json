@@ -1,0 +1,26 @@
+{
+  "identity": "AMP_H5_INDEPENDENT_LITERATURE_CHALLENGE_20261011",
+  "reviewer": "/root/h5_literature",
+  "scope": "Bounded primary-source verification and scientific challenge; not exhaustive novelty review or execution receipt",
+  "date_utc": "2026-10-11",
+  "model_training": false,
+  "generation": false,
+  "test_reads": false,
+  "external_code_execution": false,
+  "old_artifact_edits": false,
+  "sources": [
+    {"id":"bowman2016","url":"https://aclanthology.org/K16-1002.pdf","title":"Generating Sentences from a Continuous Space","doi":"10.18653/v1/K16-1002","read_scope":"Formal paper pp11-13, equation1, figure1, section3.1","verified":"LSTM sequence VAE, categorical cross entropy, EOS, optimization risk of latent neglect","not_supported":"AMP collapse diagnosis or H5 default beta schedule"},
+    {"id":"pepvae2021","url":"https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.725727/full","doi":"10.3389/fmicb.2021.725727","read_scope":"Methods Dataset, VAE, New Sequence Generation","verified":"19 amino acids plus end and padding, C excluded, length below40, LSTM VAE and reference-neighborhood generation","missing":"Verified public generator commit and exact CE/mask/KL implementation"},
+    {"id":"mueller2018","url":"https://github.com/alexarnimueller/LSTM_peptides","doi":"10.1021/acs.jcim.7b00414","read_scope":"Author README and LSTM_peptides.py one_hot_encode, initialize_model, train, sample","raw_urls":["https://raw.githubusercontent.com/alexarnimueller/LSTM_peptides/master/README.md","https://raw.githubusercontent.com/alexarnimueller/LSTM_peptides/master/LSTM_peptides.py"],"verified":"Shifted categorical next-token AR; LSTM/GRU options; README2x64 example; sample removes minlen failures","source_pin":"MUTABLE_WEB_VIEW_NO_COMMIT_OR_BYTE_HASH","not_supported":"Exact H5 reproduction, measured throughput or strong current-cohort performance"},
+    {"id":"proldm2025","url":"https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202502723","doi":"10.1002/advs.202502723","repository":"https://github.com/AzusaXuan/PRO-LDM","read_scope":"Publisher sections2.1,2.1.1,2.1.2 and Network Training; author README","verified":"Joint autoencoder and fitness regressor; latent-z conditional diffusion; unsupervised option","not_supported":"Same-budget279-AMP reproduction, local speed, AMP efficacy ranking"},
+    {"id":"ampdiffusion","url":"https://github.com/programmablebio/amp-diffusion","note_url":"https://raw.githubusercontent.com/programmablebio/amp-diffusion/main/note/README.md","read_scope":"Author repository abstract/citation and public checkpoint benchmark note","verified":"ESM2 latent diffusion; note says16.54M parameter checkpoint trained on19670AMP samples and explicit generation length","source_pin":"MUTABLE_WEB_VIEW_NO_COMMIT_OR_BYTE_HASH","not_supported":"Public predicted MIC equals experimental MIC, exact paper-method reproduction, H5information matching","failed_fulltext":"https://www.cell.com/cell-biomaterials/fulltext/S3050-5623%2825%2900174-6"},
+    {"id":"ampgen2025","url":"https://pubmed.ncbi.nlm.nih.gov/40447738/","doi":"10.1038/s42003-025-08282-7","read_scope":"Original-author abstract and figure1-3 captions reproduced on PubMed","verified":"MSA-conditioned order-agnostic autoregressive diffusion plus physicochemical/XGBoost/LSTM scoring stages","not_supported":"Full Methods or same-information competition withH5","failed_fulltext":"https://www.nature.com/articles/s42003-025-08282-7"}
+  ],
+  "corrections_to_snapshot": [
+    {"file":"amp_h5/design_snapshot/literature/PRECEDENTS.zh.md","item":"EOS49 universal requirement","correction":"Required for explicit natural-stop likelihood but not for a declared normalized48-capped AR distribution; own mathematical derivation"},
+    {"file":"amp_h5/design_snapshot/baseline_ar/CONFIG_DRAFT.json","item":"AR identity","finding":"Snapshot is GRU128 with68709parameters; requested new LSTM must be frozen and correctly named"}
+  ],
+  "search_boundary":"Six named precedents and direct references; irrelevant search results excluded; no systematic-review completeness claim",
+  "restrictions":"No authentication, uploads, author contact, new credentials or installations",
+  "backup_status":"LOCAL_ONLY"
+}

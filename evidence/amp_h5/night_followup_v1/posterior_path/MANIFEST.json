@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-11T20:54:31.436519+00:00",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/INPUTS_AND_FORMULAS_PRELOCK.json",
+      "sha256": "a30d096805ce8caff5f83c66ff6249f21c11dfb40999b4215aef9a1e2f8f03cf",
+      "bytes": 10738
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/compare_saved_posterior.py",
+      "sha256": "4bb0d45e10e5143fb3561b64c37409e995c114c67d15e61ca95e093817819fab",
+      "bytes": 11173
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/RESULTS.json",
+      "sha256": "086868e492b7ad6a1af39040bcc7952d166ec9ba09ca6d8e8ce402907d1f7c84",
+      "bytes": 36268
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/READOUT.zh.md",
+      "sha256": "1d1bc004e4624a6c0335f4528acf2a1f9ec6574dc39b57baaf03b3b99f47eef4",
+      "bytes": 1992
+    }
+  ],
+  "analysis_seconds_after_result_exports_before_manifest": 0.022973624999999998,
+  "actual_scoring_only_python_run": true,
+  "agent_design_time_not_included": true,
+  "model_calls": 0,
+  "new_random_draws": 0,
+  "source_inputs_unchanged": true
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "class": "0",
+    "component_id": "fbd5a43c8fe9dbb3866b8762f71aaf98439744bea8b91ec39721eef1249ca5ec",
+    "length": "11",
+    "molecule_sha256": "04dc468c0e3c6f099e87ba20825bd48dcbeecd5962b1502a5116cafb8e93ceed",
+    "sequence": "FGIKLRKVWKD",
+    "sequence_sha256": "fbd5a43c8fe9dbb3866b8762f71aaf98439744bea8b91ec39721eef1249ca5ec",
+    "source_ids": "24336",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "6ae02c1b5965e5375dc9f48c7bf846dd19b150b56a3780ed42427d945d3ee404",
+    "length": "17",
+    "molecule_sha256": "04f577476426aa06bcb6a516ba786a3450bb694ea126582afe38c629bc44bd38",
+    "sequence": "TVGGLVKWILDTVKKFA",
+    "sequence_sha256": "c9986539b08182fe3eeae64b62f6515fb93efceab3631d340917c610f7e2cbd8",
+    "source_ids": "23108",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "1efdcd2d90e7d61a9b2d3f70aeef90f936879952bba25ced9be0f618bca509d9",
+    "length": "25",
+    "molecule_sha256": "183395ddcd2583eab2b78a5bb735ad2d475b847f20017726ddd96c8f0f5ddebd",
+    "sequence": "GFSSLFKAGAKYLRKQVGKAGAQQL",
+    "sequence_sha256": "1efdcd2d90e7d61a9b2d3f70aeef90f936879952bba25ced9be0f618bca509d9",
+    "source_ids": "14876",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "c5f09832ed9f69a5b7e8d637d4a0c7a5480e5489912b4304bf0e4a92ec91ffe2",
+    "length": "15",
+    "molecule_sha256": "19f009e90d5ec8644bd2aac0da4040d0ca5f53d09138b32ca1610a51ce8e515b",
+    "sequence": "VNWKKVLPKIIKVAK",
+    "sequence_sha256": "8c8cfddee2ea81c6f04f59003e9f225eedf39a93596d0cd8f362456afadd2b09",
+    "source_ids": "3408",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "6ae02c1b5965e5375dc9f48c7bf846dd19b150b56a3780ed42427d945d3ee404",
+    "length": "17",
+    "molecule_sha256": "1f9a946201c88cbc8b64888f16627eac8d324aece807366ddb2afcc0ecda244a",
+    "sequence": "TVGGLVKAILDTVKKFA",
+    "sequence_sha256": "688204893d22fc08f25929855a0d6534c48d7eeb59e18039b5e11e911ad474ea",
+    "source_ids": "23123",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "0",
+    "component_id": "a48a9eb8fc9c9d488e9181897fc970db936fdb6dacad4eaf495d735e02ff975c",
+    "length": "14",
+    "molecule_sha256": "253b164d360f4681507c30759bc20860065f3e9df984c4e1254dd2ae88535309",
+    "sequence": "VQNQHGQVVKIFHH",
+    "sequence_sha256": "a48a9eb8fc9c9d488e9181897fc970db936fdb6dacad4eaf495d735e02ff975c",
+    "source_ids": "3757",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "0",
+    "component_id": "c5f09832ed9f69a5b7e8d637d4a0c7a5480e5489912b4304bf0e4a92ec91ffe2",
+    "length": "15",
+    "molecule_sha256": "28af41ba7894192967e45265a7d4c06d01f3ff8f7b7bbabb52e7e00b4230e055",
+    "sequence": "LKWKKILGKIIKVVK",
+    "sequence_sha256": "4ad416f4a63888376dd6121669a03ed0e676b470641c4132d0d98364e2054373",
+    "source_ids": "25338",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "0",
+    "component_id": "1e54e4c19dfc07abf9b16bf91fc2871fa532ffa2c644f37c9d577ee043444ac1",
+    "length": "12",
+    "molecule_sha256": "2a8dc86a61a326feeef5f31154aba6ab6fffc75467f529ec1d5cfa17194df2c5",
+    "sequence": "KRKIFLRTKILV",
+    "sequence_sha256": "1e54e4c19dfc07abf9b16bf91fc2871fa532ffa2c644f37c9d577ee043444ac1",
+    "source_ids": "10304",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "0",
+    "component_id": "c85da182a1cd3298fc9ec5a7aacdaa634386de0b7c1bdde26ca0e6f80bdf86f5",
+    "length": "18",
+    "molecule_sha256": "2c72e8579d075b3f95ed4e76f9681ddbbced619e6babaff847f52c390be86b99",
+    "sequence": "RGLRALGRKIAHGVKAYG",
+    "sequence_sha256": "c85da182a1cd3298fc9ec5a7aacdaa634386de0b7c1bdde26ca0e6f80bdf86f5",
+    "source_ids": "1489",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "e2b1a3b038c2430b703767fe06f485ce5382f8a560de879c2b1e43475c90b5af",
+    "length": "19",
+    "molecule_sha256": "31c222dac6b50caf48f7bdc64381c128763588dc4219710de947c3c2f6c00c36",
+    "sequence": "LFKVIFGIVKKKKLLPKFF",
+    "sequence_sha256": "e2b1a3b038c2430b703767fe06f485ce5382f8a560de879c2b1e43475c90b5af",
+    "source_ids": "23579",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "6f04b4aeda248da6cc9ba9afb28ff5d0ba4225329c6be7685ff8c5ff2b4ff074",
+    "length": "12",
+    "molecule_sha256": "452e47abfae2f09e0435e98037606a1addddd99be9374ed039504eb17ca17f8f",
+    "sequence": "FRKKWNKWALSR",
+    "sequence_sha256": "6f04b4aeda248da6cc9ba9afb28ff5d0ba4225329c6be7685ff8c5ff2b4ff074",
+    "source_ids": "17317",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "af245a2ae6b31b1fcb673743299fc2891e5d3e881ea16d7f4c13811b78aea38d",
+    "length": "9",
+    "molecule_sha256": "4739d7f4cc53ade49cab7d91c946b237182da9b41124b1d3550a9577e959c762",
+    "sequence": "VWWRRRWWV",
+    "sequence_sha256": "af245a2ae6b31b1fcb673743299fc2891e5d3e881ea16d7f4c13811b78aea38d",
+    "source_ids": "20060",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "74767ad062367681aa0911926d25cfd9dba6df6d8f3e3e7aae03a8a0e86c15cb",
+    "length": "19",
+    "molecule_sha256": "493b546d032ef36b5708f96a4ee158784b0cf1c8475504f26edacbf213f732e5",
+    "sequence": "MGRFKRFRKKFKKLFKKLS",
+    "sequence_sha256": "74767ad062367681aa0911926d25cfd9dba6df6d8f3e3e7aae03a8a0e86c15cb",
+    "source_ids": "19366",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "17e91a472f7d316a63e3bf1fb6fa13b3ca37b51a6c654d9bbe3a0d9854503c7c",
+    "length": "16",
+    "molecule_sha256": "50b1d9ab6b4c4199d740b3ef8ee79a72a55bbbc2fa664d9601a8f5d9213306e2",
+    "sequence": "AGAKRYKYLRRLFRFR",
+    "sequence_sha256": "17e91a472f7d316a63e3bf1fb6fa13b3ca37b51a6c654d9bbe3a0d9854503c7c",
+    "source_ids": "22374",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "16961447c4a6012be83385f96dc3ccb205f7b56ca71ce06136ef7793daf76618",
+    "length": "24",
+    "molecule_sha256": "61ef4ed3b358d08d7ac5a7d7943f3af8e2a54fa3c594ccdbd338fc57c913b2df",
+    "sequence": "GLKALKKVFKGIHKAIKLINKHVQ",
+    "sequence_sha256": "16961447c4a6012be83385f96dc3ccb205f7b56ca71ce06136ef7793daf76618",
+    "source_ids": "6931",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "2b9760e16637dbb57a0124a47ed6b0734909e8847ade0bd16806f0f1bda74e60",
+    "length": "13",
+    "molecule_sha256": "6432a43c6fb4fcd46633d52abd353488eb7c21e5109e0d475ada00bd173188f7",
+    "sequence": "ILGKLWEGLKSLF",
+    "sequence_sha256": "f4cf100608524d597c0282368615a91d321b4bd760be75f2a731e28e9f0d29f8",
+    "source_ids": "10464",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "3d0ec5bfa65d27b6e7301225ec064af368da85065cac3f4011cf7b278a800818",
+    "length": "5",
+    "molecule_sha256": "64717d78ffc3afda0cd2af1d6807647784c1553f29abbb1eb21fe88b1dc03806",
+    "sequence": "WRWWR",
+    "sequence_sha256": "3d0ec5bfa65d27b6e7301225ec064af368da85065cac3f4011cf7b278a800818",
+    "source_ids": "17911",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "c5f09832ed9f69a5b7e8d637d4a0c7a5480e5489912b4304bf0e4a92ec91ffe2",
+    "length": "15",
+    "molecule_sha256": "6b181bd61d30dea5adef5d066b4a220073fed4f3ee4603c25fafe4aa188f99ea",
+    "sequence": "VNWKKVLGKIIKVAK",
+    "sequence_sha256": "83ee187d0d71209c195eef3936b2a0da729172ef5b9e61867a84897e47e1983d",
+    "source_ids": "3404",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "6ae02c1b5965e5375dc9f48c7bf846dd19b150b56a3780ed42427d945d3ee404",
+    "length": "17",
+    "molecule_sha256": "6d5f9b4b96ca7f82cf3d1ab872177ca111f5f4ae7035358e78f6d90e05060fd9",
+    "sequence": "TVGGLVKWIADTVKKFA",
+    "sequence_sha256": "516e3f9385c425054cf94776681fd6490d04ab89e2bf519397068f972efbe39b",
+    "source_ids": "23125",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "6ae02c1b5965e5375dc9f48c7bf846dd19b150b56a3780ed42427d945d3ee404",
+    "length": "17",
+    "molecule_sha256": "7c567971388c9e139b28443bb32df12164976d7524b47662672076f379ab0875",
+    "sequence": "TVGGLVKWILATVKKFA",
+    "sequence_sha256": "752863cd5a95797d8d733c8212811dac12b5ac4946f693bd19b066b36f2583c7",
+    "source_ids": "23109",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "fb6ab04722296b15a4bd38afee19c875bab73568fb2a51e1c530b02904bcdb06",
+    "length": "37",
+    "molecule_sha256": "97eb4086d103e9c5064e160de1890fcced55b9f588c9b82507b5978c0ff6c8cc",
+    "sequence": "RLGNFFRKVKEKIGGGLKKVGQKIKDFLGNLVPRTAS",
+    "sequence_sha256": "fb6ab04722296b15a4bd38afee19c875bab73568fb2a51e1c530b02904bcdb06",
+    "source_ids": "1778",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "35cca6da11824f61934c409a1461ac8ce418b68336463a94b9f4833f284ca240",
+    "length": "18",
+    "molecule_sha256": "a1508b1ad8c0c0cefc6811bf5290e7d34ab921bea1102a424be5ff0af5d2a9ba",
+    "sequence": "KSQIKSFTQFFSMLVCSF",
+    "sequence_sha256": "35cca6da11824f61934c409a1461ac8ce418b68336463a94b9f4833f284ca240",
+    "source_ids": "25773",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "c5f09832ed9f69a5b7e8d637d4a0c7a5480e5489912b4304bf0e4a92ec91ffe2",
+    "length": "15",
+    "molecule_sha256": "a9999ac0d132243dc1bfcc331b44daeeb69fc99eda0bc4854baadc2606b226fc",
+    "sequence": "VNWKKILPKIIKVAK",
+    "sequence_sha256": "ec1f191cf6777e097facf12924f60b0fe5b6e4aaa60762add62509f581d89721",
+    "source_ids": "3413",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "27fcd94fd1e5e75ed089d6d1fc5e6d1628a409f5a463f0efcfeea8601812c4e1",
+    "length": "15",
+    "molecule_sha256": "ab0b33a88226dadaf4f271a8da3faf1a9e4f85cc0ad177302957b182fed7e394",
+    "sequence": "RKEKIKKRIGKIDRL",
+    "sequence_sha256": "27fcd94fd1e5e75ed089d6d1fc5e6d1628a409f5a463f0efcfeea8601812c4e1",
+    "source_ids": "16886",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "4b895d91bd96777f8fdcf46b3e2fae4c0b2ccd576c64082e3337c53bcc468256",
+    "length": "13",
+    "molecule_sha256": "ab49492fb7f33e7ded987c4930c9638dce79c5442597872e732d2b716ca367d0",
+    "sequence": "LLPIVGNLLKALL",
+    "sequence_sha256": "4b895d91bd96777f8fdcf46b3e2fae4c0b2ccd576c64082e3337c53bcc468256",
+    "source_ids": "5737",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "0",
+    "component_id": "a5c98af419e7ecb4362daaa380e6957e5868af6b023d0a454c59c21f36111ac6",
+    "length": "13",
+    "molecule_sha256": "aed6d6d12185156c7ca68fd41f5ce72bc59b2f96dc0e2a2f8fff0a060622c777",
+    "sequence": "IFKAIWSGINRLF",
+    "sequence_sha256": "a5c98af419e7ecb4362daaa380e6957e5868af6b023d0a454c59c21f36111ac6",
+    "source_ids": "21142",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "71c31ce9017ef1139c2da2d595be9f7e4d10cc43db57c5747f1265c929fd27e6",
+    "length": "13",
+    "molecule_sha256": "b5176139a36d84ef7681e71438b27f782bf1ea8890927450c3d2406152ccc3e1",
+    "sequence": "GRKKRRQRRRPPQ",
+    "sequence_sha256": "71c31ce9017ef1139c2da2d595be9f7e4d10cc43db57c5747f1265c929fd27e6",
+    "source_ids": "8813",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "212ce896c0ac867c41cfaba0c851d6b9aefaec94a0d16a3551e4466aa25da962",
+    "length": "33",
+    "molecule_sha256": "b7d00de67bd4c721c0fa9cf7c3d904b66186ccf1aa7711cfae53aa4885d60dac",
+    "sequence": "LLRRGGEKLAEKFEKIGQKIKNFFRKLLPETES",
+    "sequence_sha256": "212ce896c0ac867c41cfaba0c851d6b9aefaec94a0d16a3551e4466aa25da962",
+    "source_ids": "22442",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "64fe9f668c4accf403316e91d4da48ad59e9260a36cf4c1249ae725116a65237",
+    "length": "7",
+    "molecule_sha256": "be64217f764ac9ac91742a716101669eb1019ce3766f4c7af203d2b498b5cb4c",
+    "sequence": "SRWRWKS",
+    "sequence_sha256": "64fe9f668c4accf403316e91d4da48ad59e9260a36cf4c1249ae725116a65237",
+    "source_ids": "18611",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "0",
+    "component_id": "37ce42d182474aa70e52a6b128e57bb8c4cfe77c4f5056295187069cb3941287",
+    "length": "36",
+    "molecule_sha256": "c24144f8cf2d90d355ff5e1f8606a5d9be61bfa1f0428a1df6225efacf8b3d43",
+    "sequence": "GKFSIFGKILSSIAKVFKGVGKVRKSFQNASDLDKP",
+    "sequence_sha256": "37ce42d182474aa70e52a6b128e57bb8c4cfe77c4f5056295187069cb3941287",
+    "source_ids": "23147",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "2e765f1cb60309b9aae3887b4758d626527dcbc771182463568411994db037c2",
+    "length": "26",
+    "molecule_sha256": "c301264c9e5a6e69450f22f4c5c3af2131c41f4b48167b40f08b876923f4d990",
+    "sequence": "KLKLKLKLKLKLKLKLKLKLKLKLKL",
+    "sequence_sha256": "2e765f1cb60309b9aae3887b4758d626527dcbc771182463568411994db037c2",
+    "source_ids": "19700",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "2b9760e16637dbb57a0124a47ed6b0734909e8847ade0bd16806f0f1bda74e60",
+    "length": "13",
+    "molecule_sha256": "c4fad6a3345904d6a80e8a7df2fe1acfa642b73373b79ac0b937e4112f598aaa",
+    "sequence": "ILGKFWEGIKSLF",
+    "sequence_sha256": "0a9adf0cff1a546ff78f2226bb3337264327f5238b8a55db3d9c5af49de0d63a",
+    "source_ids": "14229",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "ebce92d2ea00c8d37f41714a99438aff3388fb3ae5fea29e3d5237a9c1d8581b",
+    "length": "13",
+    "molecule_sha256": "ca13b10ce5b1db6e9365844321be6f41ac9d378999826741050bc8d0142f8c8f",
+    "sequence": "GLSLLLSLLLGKL",
+    "sequence_sha256": "ebce92d2ea00c8d37f41714a99438aff3388fb3ae5fea29e3d5237a9c1d8581b",
+    "source_ids": "13840",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "07d13dbc37d19249cca23503c25f8c5cb547d77766fd7a95972cc4239d947736",
+    "length": "15",
+    "molecule_sha256": "d2e6b358af5febb669a105959dcb65cd1d1b70ec7cba0e4ae9d0a86b0e7d9590",
+    "sequence": "WFQVKTRVRTKVQFW",
+    "sequence_sha256": "07d13dbc37d19249cca23503c25f8c5cb547d77766fd7a95972cc4239d947736",
+    "source_ids": "19071",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "0603d8cdf5e01ae76e2067131c6a7b0dfb2eae4066bd0306ad5048f9f383ff7e",
+    "length": "13",
+    "molecule_sha256": "de54d80681c12424cfae7dd9b917dd57a07b927e1421577d5400ca29f58b2231",
+    "sequence": "IKKIVSKIKKLLK",
+    "sequence_sha256": "0603d8cdf5e01ae76e2067131c6a7b0dfb2eae4066bd0306ad5048f9f383ff7e",
+    "source_ids": "7245",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "56ef37b60db49b337b0d092e36446edffbbf144d3a90ddc73bf85a7e8c1e8c33",
+    "length": "26",
+    "molecule_sha256": "f02f6846996782561edebb3436449e2596beb15e100057bb47d043b0f1497030",
+    "sequence": "AKAWGIPPHVIPQIVPVRIRPLCGNV",
+    "sequence_sha256": "56ef37b60db49b337b0d092e36446edffbbf144d3a90ddc73bf85a7e8c1e8c33",
+    "source_ids": "1596",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "0",
+    "component_id": "b5a1d9806701dd589c1ed8ab29b988c702e8e881f8e68f2b6cc99259037b0ba7",
+    "length": "14",
+    "molecule_sha256": "f1b65503e498203aa6af29a945a44c1a67f2d243f71040f1dce554925b4ff77a",
+    "sequence": "SRWPSPGRPRPFPG",
+    "sequence_sha256": "b5a1d9806701dd589c1ed8ab29b988c702e8e881f8e68f2b6cc99259037b0ba7",
+    "source_ids": "7021",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "0",
+    "component_id": "6ae02c1b5965e5375dc9f48c7bf846dd19b150b56a3780ed42427d945d3ee404",
+    "length": "17",
+    "molecule_sha256": "f1e3aadb3edb702cc3f3783e81b6cd9d1919ec560cb1ec0fd3f32a50ddd1fd45",
+    "sequence": "TVGGLVKWILAAVKKFA",
+    "sequence_sha256": "3f73e8051fd485840281805e56955169dd538e8883141db88e9e5b50ff87953e",
+    "source_ids": "23093",
+    "terminal_state": "FREE"
+  },
+  {
+    "class": "1",
+    "component_id": "5a94c751439da460a9cacff2bb26f08921bc2413bb7520f0b4b69ff40742447b",
+    "length": "14",
+    "molecule_sha256": "f26a76c2a7f4a02154e895e7c376813ddacc6f320346420512682bc0c2ee0571",
+    "sequence": "INWLKIAKKVKGML",
+    "sequence_sha256": "5a94c751439da460a9cacff2bb26f08921bc2413bb7520f0b4b69ff40742447b",
+    "source_ids": "12838",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "1",
+    "component_id": "9627529735c1b25ff02d77519957f36315350c7349448974ec6e1dfdb2d9462d",
+    "length": "20",
+    "molecule_sha256": "f3a8c372b8cdf869ae40bbaa21b329b29208334c9baeaad5d586712789faff7b",
+    "sequence": "IVNHLVKLFDKGLNSIVNLR",
+    "sequence_sha256": "9627529735c1b25ff02d77519957f36315350c7349448974ec6e1dfdb2d9462d",
+    "source_ids": "11251",
+    "terminal_state": "AMD"
+  },
+  {
+    "class": "0",
+    "component_id": "b0783885be82b4cd76afd7bbdfc5772922f77d99cbc8ce5e50b3ee4c691d1b95",
+    "length": "20",
+    "molecule_sha256": "f43d879a65939825b0a00bcb346e35e0bca7c1b9d79ee2d191bdf2b0ac79c5b9",
+    "sequence": "PSLLYKAKAVFCKPSAVAVF",
+    "sequence_sha256": "b0783885be82b4cd76afd7bbdfc5772922f77d99cbc8ce5e50b3ee4c691d1b95",
+    "source_ids": "4056",
+    "terminal_state": "FREE"
+  }
+]

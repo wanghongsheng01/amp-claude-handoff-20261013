@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "task": "H5 terminal-only end-to-end pilot: primary precedents, static only",
+  "access_date_utc": "2026-10-11",
+  "status": "LITERATURE_COMPLETE_EXPERIMENTS_NOT_EXECUTED",
+  "output_scope": "h5_terminal_endtoend_pilot_v1/literature only",
+  "source_count": 3,
+  "restrictions": ["no model execution or fitting", "no test reads", "no H0-H4 edits", "no external-code execution", "no credentials/authentication", "no uploads or author contact", "BACKUP_BLOCKED"],
+  "source_scope_note": "Only the following three precedents are interpreted. PepVAE's 2020 reference is mentioned only to disambiguate paper identity. All H5 adaptations and controls are proposals, not source results.",
+  "sources": [
+    {
+      "id": "pepvae_2021",
+      "title": "PepVAE: Variational Autoencoder Framework for Antimicrobial Peptide Generation and Activity Prediction",
+      "authors": ["Scott N. Dean", "Jerome Anthony E. Alvarez", "Dan Zabetakis", "Scott A. Walper", "Anthony P. Malanoski"],
+      "publication": "Frontiers in Microbiology 12:725727",
+      "published": "2021-09-30",
+      "doi": "10.3389/fmicb.2021.725727",
+      "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.725727/full",
+      "version_note": "Published 2021 PepVAE article, distinct from Dean and Walper 2020 ACS Omega 10.1021/acsomega.0c00442.",
+      "read_status": "VERIFIED: relevant published full-text sections read",
+      "locators": [
+        {"section": "Materials and Methods / Dataset and Analysis of Sequence Characteristics", "web_lines": "343-350", "purpose": "token meaning and cohort constraints"},
+        {"section": "Materials and Methods / Variational Autoencoder", "web_lines": "352-356", "purpose": "architecture and availability"},
+        {"section": "Materials and Methods / New Sequence Generation", "web_lines": "357-369", "purpose": "sampling information requirements"},
+        {"section": "Discussion", "web_lines": "573-591", "purpose": "model family and limitations"},
+        {"section": "Data availability / Supplementary material", "web_lines": "601-614", "purpose": "check official implementation access"}
+      ],
+      "official_implementation": {
+        "status": "MISSING_NOT_VERIFIED",
+        "checked": "Published article and supplementary landing link, plus bounded PepVAE/Dean/GitHub public search",
+        "finding": "No verified public PepVAE generator code or immutable version obtained; paper states binary models available upon request.",
+        "do_not_mislabel_as_generator": "https://github.com/zswitten/Antimicrobial-Peptides",
+        "missing_details": ["generator source or binary version", "exact CE reduction", "EOS/PAD mask", "KL normalization"]
+      },
+      "transfer_and_control": "PRECEDENTS.zh.md section 1; inference only",
+      "not_supported": ["terminal-only CVAE claimed as original PepVAE", "H5 biological activity", "exact PepVAE reproduction", "20-AA-plus-PAD interpretation of original 21-token vocabulary"]
+    },
+    {
+      "id": "bowman_2016",
+      "title": "Generating Sentences from a Continuous Space",
+      "authors": ["Samuel R. Bowman", "Luke Vilnis", "Oriol Vinyals", "Andrew M. Dai", "Rafal Jozefowicz", "Samy Bengio"],
+      "publication": "CoNLL 2016, pages 10-21",
+      "doi": "10.18653/v1/K16-1002",
+      "url": "https://aclanthology.org/K16-1002/",
+      "pdf_url": "https://aclanthology.org/K16-1002.pdf",
+      "version_note": "Published 2016 version read; PepVAE references the 2015 preprint.",
+      "read_status": "VERIFIED: formal PDF relevant methods read",
+      "locators": [
+        {"printed_page": 11, "section": "2.2", "item": "Equation (1): sequence ELBO"},
+        {"printed_page": 12, "section": "3", "item": "Figure 1 EOS; LSTM encoder/decoder"},
+        {"printed_pages": [12, 13], "section": "3.1", "item": "cross entropy, latent-variable optimization behavior"},
+        {"printed_page": 13, "section": "Word dropout and historyless decoding", "item": "ground-truth preceding token at training"}
+      ],
+      "official_implementation": {"status": "NOT_CHECKED", "note": "Paper evidence only; no code provenance or execution claim"},
+      "transfer_and_control": "PRECEDENTS.zh.md section 2; adaptation in section 4 is our derivation",
+      "not_supported": ["AMP efficacy", "H5 collapse diagnosis from posterior-mean versus sample gap alone", "H5 KL schedule or hyperparameter default"]
+    },
+    {
+      "id": "mueller_2018_ar",
+      "title": "Recurrent Neural Network Model for Constructive Peptide Design",
+      "authors": ["A. T. Müller", "J. A. Hiss", "G. Schneider"],
+      "publication": "Journal of Chemical Information and Modeling 58(2):472-479 (2018)",
+      "doi": "10.1021/acs.jcim.7b00414",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29355319/",
+      "read_status": "PARTIAL paper (metadata and abstract); VERIFIED author repository relevant code and README",
+      "official_implementation": {
+        "repository": "https://github.com/alexarnimueller/LSTM_peptides",
+        "official_link_basis": "Repository README cites Müller, Hiss and Schneider 2018 and identifies accompanying peptide generation code",
+        "ref": "master",
+        "immutable_commit": null,
+        "byte_sha256": null,
+        "pin_status": "UNPINNED_MUTABLE_WEB_VIEW",
+        "pin_limitation": "Web text was read; attempted public byte fetch for hashing returned local DNS failure. No authentication retry or escalation was attempted. No downloaded code was executed.",
+        "artifacts": [
+          {
+            "url": "https://raw.githubusercontent.com/alexarnimueller/LSTM_peptides/master/README.md",
+            "locators": ["lines 42-47 configurable recurrent layers/units/cell", "lines 83-85 small configuration example", "lines 96-100 associated publication"]
+          },
+          {
+            "url": "https://raw.githubusercontent.com/alexarnimueller/LSTM_peptides/master/LSTM_peptides.py",
+            "locators": ["SequenceHandler.pad_sequences lines 195-220", "SequenceHandler.one_hot_encode lines 222-249", "Model.initialize_model lines 444-489", "Model.train lines 511-526", "Model.sample lines 613-658", "main lines 675-697"]
+          }
+        ],
+        "static_findings_not_runtime_failures": ["native internal validation split requires frozen-split adapter", "native short-output filtering requires all-attempt evaluation adapter", "terminal-only conditioning is our adaptation"]
+      },
+      "transfer_and_control": "PRECEDENTS.zh.md section 3",
+      "comparison_status": "NOT_YET_COMPARABLE_UNTIL_H5_PROTOCOL_AND_IMPLEMENTATION_VERIFIED",
+      "not_supported": ["current environment runtime verified", "full paper reproduction", "equal compute already achieved", "strong performance in present cohort"]
+    }
+  ],
+  "local_context_provenance": {
+    "status": "parent-provided frozen metadata and earlier static handoff; sequences/test not reread in this task",
+    "train_n": 279,
+    "val_n": 41,
+    "condition_counts": {"train": {"FREE": 126, "AMD": 153}, "val": {"FREE": 18, "AMD": 23}},
+    "authoritative_metadata": "expanded_cohort/release_v2/runner_train_val/COHORT_FREEZE.json",
+    "prior_metadata_sha256": "993cd4b9872ba20c1ba4842d51b93d1fac7bcbec7def8e49c5e5229ecc576cb8",
+    "current_method_results_used": false
+  },
+  "acceptance_and_open_items": {
+    "verified": ["three primary precedent identities and relevant mechanisms", "PepVAE token/conditioning mismatch identified", "official small AR mechanism located"],
+    "planned": ["root freezes H5 architecture/objective/budget", "local independent implementation and review", "authorized train/val fit and all-attempt generation"],
+    "missing": ["PepVAE generator source exact version and full loss details", "immutable hash of LSTM author source", "H5 runtime/resource and scientific evidence"],
+    "scientific_limits": ["borrowing mature categorical/EOS/AR/VAE mechanisms is not method novelty", "no activity labels inferred from terminal labels", "no H4 result presumed", "old DDPM distribution not presumed compatible after encoder changes"]
+  }
+}

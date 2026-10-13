@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-10-11T16:13:16.764324+00:00",
+  "reviewer": "independent H5 reviewer",
+  "status": "PASS_SCOPED_AR_ONLY_EXECUTION_PREFLIGHT",
+  "authorized": true,
+  "plan_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/AR_ONLY_FORMAL_PLAN.json",
+  "plan_sha256": "f873246b1e3c434dbd64058e85e49d62adba691fc9785ad58a9ee92f65c946c6",
+  "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+  "bindings_verified": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.json",
+      "sha256": "113146eba8d1b7f1ce1efce64bf5ca989f975f570b39a158555ac326ad7d755a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.zh.md",
+      "sha256": "2ff3079574d6e1658adb650ef7ff7600d06199a9abe40b67e7604b2474bc1e35"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs/terminal_lstm.json",
+      "sha256": "4e30c3dd010ae43e247912a131f49d620bdefcdf34585f2eb28c935bc01800ec"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_pipeline.py",
+      "sha256": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_entry.py",
+      "sha256": "c3cb73cfce6753af982a71c6e4eec6ede7deaa914ea9ffc12e1412b8d6c26807"
+    }
+  ],
+  "scope": "Exactly one unchanged terminal LSTM fixed-1000-update formal run, terminal-only generation of 16 FREE plus16 AMD requests, endpoint and fixed interval development NLL. Parent alone launches the reviewed supervisor.",
+  "budget": {
+    "training_cap_seconds": 2940,
+    "generation_cap_seconds": 1800,
+    "outer_timeout_seconds": 4920,
+    "seeds": {
+      "initialization": 222,
+      "shuffle": 222,
+      "FREE": 422,
+      "AMD": 423
+    }
+  },
+  "explicit_exclusions": [
+    "No VAE training",
+    "No new VAE sampling",
+    "No authorization for FORMAL_PLAN.json",
+    "No test37 access",
+    "No checkpoint selection, seed retry, filtering or resampling",
+    "No scientific superiority or submission claim"
+  ],
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "evidence": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/AR_SYNTHETIC_RESULT.json",
+      "sha256": "360e0c81ec54013d6bcdca805b6e7650f2fd27fd8ef8e3c599e992c92dd90a3c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SMOKE_EXECUTION_REVIEW.json",
+      "sha256": "519f3336cd0d312d01ea8255f19d5561374953be4eb1480b8ad6e527e4f9c2f8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SMOKE_PREFLIGHT_RECEIPT.json",
+      "sha256": "4d30502c88af4b1e55b17f89e1b9706f3765777e6f521d152b54db6758f9682a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/VAE_FEASIBILITY_HOLD.json",
+      "sha256": "7188c2dc526d4e741bdab0ce5d3295e9e096c25cfc73a3b64c2963ae8e60c1b2"
+    }
+  ],
+  "limits": [
+    "Approval is preflight only. Runtime completion and output identity need postflight review.",
+    "AR is the declared finite pilot reference, not a fully tuned or strongest modern baseline.",
+    "Root reports smoke has exited and no other H5 instance; this reviewer did not independently inspect system processes. Supervisor has per-task fcntl exclusion."
+  ],
+  "reviewer_actions": {
+    "production_implementation_changes": 0,
+    "natural_training": 0,
+    "natural_generation": 0,
+    "test_reads": 0
+  }
+}

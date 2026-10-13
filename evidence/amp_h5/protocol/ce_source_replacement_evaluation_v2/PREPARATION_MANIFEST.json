@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-10-11T20:18:31.490516+00:00",
+  "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+  "state": "PREPARED_NOT_EXECUTED",
+  "authorization": false,
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v2/BINDING_CHECKS.json",
+      "bytes": 1275,
+      "sha256": "3ff7bf8bc9f7eb15e26dc4a6c3a38beee496779ed7afc0283cdedd6bc64c1063"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v2/EVALUATION_PREPARATION.json",
+      "bytes": 13307,
+      "sha256": "ced34988fc92145f1c6dd71dd2999b617527108864302644ed9ee0f47e1560c4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v2/FUTURE_COMMAND.sh.NOT_EXECUTED",
+      "bytes": 1328,
+      "sha256": "823ecc4c9be050e3158cc0e6c6aee36cdca2d6424bd61037145cbd0cb185576a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v2/README.zh.md",
+      "bytes": 1507,
+      "sha256": "6631c1e73d4ec2adb6dc6221ec195d192dcada766ccbcb5660dbba0c38d4008e"
+    }
+  ],
+  "seed_binding": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+    "bytes": 261,
+    "sha256": "f191f8412a5382b7e11ad3af4a1bbb1a45895df0c3491693a7ab14b986c83aa6"
+  },
+  "slot_binding": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_REQUEST_SLOTS_v2.json",
+    "bytes": 51556,
+    "sha256": "6857bdbd06e7bad7325cc23c06524862030f8bff492aa943813e77d3c744699c"
+  },
+  "frozen_sources": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+      "bytes": 24404,
+      "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "bytes": 25377,
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    }
+  ],
+  "v1_preparation_unchanged": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/PREPARATION_MANIFEST.json",
+    "bytes": 2541,
+    "sha256": "74914ea7c9dd91f92b661e886755a63e89e3b5c748cecfb4ae31196c8b58dada"
+  },
+  "unchanged_four_arm_index": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_FOUR_ARM_DELIVERY_v1.json",
+    "bytes": 12365,
+    "sha256": "72dc82556c3b0bcfe8f959724002bba614ff53871dd48c1f731b00009b84ad38"
+  },
+  "synthetic_interface_evidence": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/SYNTHETIC_INTERFACE_RESULT.json",
+    "bytes": 1237,
+    "sha256": "3470a84049fde67babdbde4c9c9ab0d89f6a1e602ccad2ed7714161c36ff2deb"
+  },
+  "no_reverse_contract_hash_cycle": "Final runner contract may bind this preparation. Exact new contract/plan/receipt will be bound at actual postflight evaluation; preparation does not hash the future contract.",
+  "pending": [
+    "New exact contract/plan/independent preflight and root authorization",
+    "Actual V2 execution with matching final status + independent closing ledger + supervisor final exit",
+    "Independent engineering postflight before natural evaluation"
+  ],
+  "natural_results_created": false,
+  "model_calls": 0,
+  "natural_metric_evaluations": 0,
+  "test_access": false
+}

@@ -1,0 +1,125 @@
+{
+  "status": "PASS_STATIC_SYNTHETIC_READOUT_V4_REVIEW",
+  "scope": "Static and synthetic readout only; not a model or recovery-result review",
+  "limitations": [
+    "Manifest verification establishes internal integrity of consumed JSON only, not external authenticity or correctness of frozen metric formulas.",
+    "The reader deliberately does not open checkpoint/NPZ/split files; their scientific engineering assessment remains the separate postflight task.",
+    "Future natural readout still requires an explicit bound contract and actual independent recovery postflight; template has no such receipt."
+  ],
+  "checks": [
+    {
+      "name": "frozen_code_and_schema_identity",
+      "pass": true
+    },
+    {
+      "name": "checkpoint_file_hash_mismatch_blocks_recovery",
+      "pass": true
+    },
+    {
+      "name": "missing_status_binding_blocks_recovery",
+      "pass": true
+    },
+    {
+      "name": "generation_hash_drift_blocks_postflight_and_metrics",
+      "pass": true
+    },
+    {
+      "name": "phase_training_root_mismatch_blocks_recovery",
+      "pass": true
+    },
+    {
+      "name": "no_cross_package_G_splicing",
+      "pass": true
+    },
+    {
+      "name": "duplicate_observations_rejected",
+      "pass": true
+    },
+    {
+      "name": "recorded_outer_overrun_blocks_recovery",
+      "pass": true
+    },
+    {
+      "name": "original_gates_always_NE_and_unknown_total_kept",
+      "pass": true
+    },
+    {
+      "name": "R3_1_manifest_drift_blocks_effective_gates_preserves_raw",
+      "pass": true
+    },
+    {
+      "name": "R3_1_manifest_field_distinct_from_snapshot",
+      "pass": true
+    },
+    {
+      "name": "R3_2_runtime_rejects_schema_mismatch",
+      "pass": true
+    },
+    {
+      "name": "no_torch_numpy_loaded",
+      "pass": true
+    },
+    {
+      "name": "actual_template_shape_only_valid_null_postflight_empty_evaluations",
+      "pass": true
+    },
+    {
+      "name": "frozen_v3_remains_unchanged",
+      "pass": true
+    }
+  ],
+  "checks_passed": 15,
+  "author17tests_rerun": "PASS; READOUT_V4_AUTHOR_TEST_RERUN_v1.json",
+  "resolved_findings": [
+    {
+      "id": "R3-1",
+      "resolution": "CLOSED_IN_V4",
+      "before_mutation_G": "PASS",
+      "after_mutation_G": "NOT_EVALUABLE",
+      "raw_valid1_preserved": 0,
+      "snapshot_stable": true,
+      "manifest_state": "NOT_EVALUABLE"
+    },
+    {
+      "id": "R3-2",
+      "resolution": "CLOSED_IN_V4",
+      "evidence": "Missing required context_evidence plus unexpected extra key rejected by runtime."
+    }
+  ],
+  "remaining_blockers": [],
+  "accepted_behaviors": [
+    "Phase-specific source/reconstruction bindings",
+    "Independent postflight scope/id/root/source hashes match planned interface",
+    "Original E/L/G hardcoded NOT_EVALUABLE, PROMOTE HOLD",
+    "No fake absent method groups or zero observations",
+    "No gate splicing across separate metric packages",
+    "Known original stages and partial-generation lower bound kept separately from unknown original wall time",
+    "No checkpoint,posterior,data-split file opened by readout"
+  ],
+  "future_postflight_interface": {
+    "status": "PASS only if confirmed",
+    "scope": "RECOVERY_ENGINEERING_ONLY",
+    "generation_attempt_id": "ce_checkpoint_recovery_v1",
+    "generation_attempt_root": "absolute recovery root",
+    "training_source_root": "absolute original training root",
+    "source_bindings": "absolute path + sha256 for recovery status/generated and original vae_state.pt/ddpm_ema_state.pt; extra evidence permitted",
+    "original_v2_engineering_gate": "NOT_EVALUABLE_INTERRUPTION",
+    "original_protocol_E_L_G": "NOT_EVALUABLE",
+    "PROMOTE": "HOLD"
+  },
+  "frozen_source_hashes": {
+    "build_readout_v4.py": "8a762d82e9527c4cc4a8367a031f7c9a62a6ac8b150e579c286512cedfa94dc2",
+    "build_readout_v4.contract.schema.json": "3ce9e26c0e4798d0a38e186ff7772781de7bab64d1e3a51c4fe208a2f574383e",
+    "build_readout_v2.py": "ee585532c76a6be3adfd38480bdd304b3fbd316704362c69d4064dd18d181bca",
+    "build_readout.py": "75012cfc99e73f7d08c5b69cb0e9cf2d0f74acc28b98f6db8203e4b8536486dd"
+  },
+  "reviewer_actions": {
+    "natural_run_reads": 0,
+    "model_calls": 0,
+    "weight_loads": 0,
+    "natural_metric_recomputation": 0,
+    "test37_reads": 0,
+    "frozen_files_changed": 0
+  },
+  "PROMOTE": "HOLD"
+}

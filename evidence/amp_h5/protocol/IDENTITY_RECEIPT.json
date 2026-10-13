@@ -1,0 +1,152 @@
+{
+  "created_utc": "2026-10-11T15:48:52.616748+00:00",
+  "scope": "AMP H5 isolated continuation; source read only",
+  "source_root": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011",
+  "source_manifests": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/DELIVERY_H4_H2_BRIDGE_FINAL_INDEX.json",
+      "sha256": "c5a20a9d56f28370029d8cd39310db0e3064a8061d2b0e31e819f971ab18e395"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/DELIVERY_H3_FINAL_INDEX.json",
+      "sha256": "8580a59558198db0a7dfed899f7e569af7dc5214ce668d74e2d3e1e19b60b6ac"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/DELIVERY_H2_FINAL_INDEX.json",
+      "sha256": "6e12e3aef75054eed8237dd5816fda4638143935a7205710a8c4e04625ff6f8c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/H4_H2_BRIDGE_PREDECESSOR_PRESERVATION_AFTER.json",
+      "sha256": "9efd8c47d3b62645724d0d9a46247fd9b853ed54e4206d249b1896477cac9781"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/../HANDOFF.zh.md",
+      "sha256": "a4617de225561f95718a90707b6cb6bd519a33518a51672b054267ad6dc8ed21"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/HANDOFF_H4_H2_BRIDGE_20261011.zh.md",
+      "sha256": "1c80f7ece329d851f4fc907f288723e4cc5e97913b9e56ae05fa1affb22ca6e2"
+    }
+  ],
+  "design_snapshot": [
+    {
+      "path": "amp_h5/design_snapshot/architecture_review/DESIGN_ADVICE.zh.md",
+      "sha256": "e257dec79e52f207fa94bde2b6fa02ac33487b7bf4440fe0641bff5d5bd23714"
+    },
+    {
+      "path": "amp_h5/design_snapshot/architecture_review/DESIGN_MANIFEST.json",
+      "sha256": "e1ec520706af3ea5a25801b351d322480feec370300cd4be4fcbe368b10cd37c"
+    },
+    {
+      "path": "amp_h5/design_snapshot/architecture_review/SOURCE_BINDINGS.json",
+      "sha256": "782db437ad09647ef8675b0c7f01ab3401ae6daf0a677eebfcc9852e67bd76b3"
+    },
+    {
+      "path": "amp_h5/design_snapshot/baseline_ar/CONFIG_DRAFT.json",
+      "sha256": "2269881ff4a5bcd6e405dfd1fd9ee70c4480b577dc41db48b3da1258b318f344"
+    },
+    {
+      "path": "amp_h5/design_snapshot/baseline_ar/STATIC_DESIGN.zh.md",
+      "sha256": "aa7a6479fc7fb6f3c6f63fd0128c827deb4081adc417a1ed5675018f6d49dc67"
+    },
+    {
+      "path": "amp_h5/design_snapshot/baseline_ar/SYNTHETIC_UNIT_RESULT.json",
+      "sha256": "bc895e66d9bab1cdf4cbede8ccbd5c42d77ae0e7cf435a3fb12686bfb0867fcd"
+    },
+    {
+      "path": "amp_h5/design_snapshot/baseline_ar/ar_model.py",
+      "sha256": "4607250e0b9a5cc547d061656230e11f4d3fd4a7ed064edd94bde20f8410b678"
+    },
+    {
+      "path": "amp_h5/design_snapshot/baseline_ar/ar_training.py",
+      "sha256": "42e6179f56dc8c777d3366b82dc666f3222d276be7198adf89c45b814607c51d"
+    },
+    {
+      "path": "amp_h5/design_snapshot/baseline_ar/data_contract.py",
+      "sha256": "ab354b5ccc5928f5fe5e7ba56971b6c5c123485909584b57d1602634a077a96a"
+    },
+    {
+      "path": "amp_h5/design_snapshot/baseline_ar/synthetic_unit_tests.py",
+      "sha256": "6efae060c240c697eee804e3612ed4efb54078d7327438be3d34d26936f77355"
+    },
+    {
+      "path": "amp_h5/design_snapshot/candidate/fvae21_adapter.py",
+      "sha256": "e43e51ba9812524672840e66d431c6d1d702ef844c2a4462de41e47a7bf28142"
+    },
+    {
+      "path": "amp_h5/design_snapshot/candidate/objective_oracle.py",
+      "sha256": "7741cc4b409a127825143bb37f5eaf60569b2239e2cd8491b635304c786c2d9d"
+    },
+    {
+      "path": "amp_h5/design_snapshot/candidate/synthetic_contract_test.py",
+      "sha256": "87609c25c73e7ab26bf8a294bf7a6e313fd9dfb69dbb06c8ecee7dfaf5ae4312"
+    },
+    {
+      "path": "amp_h5/design_snapshot/design/CANDIDATE_PROPOSAL.json",
+      "sha256": "f33b813202c7fc4b74fbe9e9aa9619757d4c2ee6586d49bbcc16b9055d6a0501"
+    },
+    {
+      "path": "amp_h5/design_snapshot/design/CLAIM_MATRIX.json",
+      "sha256": "80f2a9c53df241b2e653b3177d3162fe6a919cacab84d23854449f92707346e2"
+    },
+    {
+      "path": "amp_h5/design_snapshot/design/EXISTING_EVIDENCE.json",
+      "sha256": "3f8bf67b606a74c8efc663bd444e4e108bd27599b7f49db76cc6996e68590618"
+    },
+    {
+      "path": "amp_h5/design_snapshot/design/MINIMAL_DESIGN.zh.md",
+      "sha256": "d362c40a1c2413400b861c39884382da1dacb304b064a4fc6107ff6541a5ed3f"
+    },
+    {
+      "path": "amp_h5/design_snapshot/design/STATIC_DESIGN_MANIFEST.json",
+      "sha256": "c6073572f8e30ca2f39e8777da0d7497bcf3f4a78529cb3fcb133d52272fffae"
+    },
+    {
+      "path": "amp_h5/design_snapshot/design/SYNTHETIC_CONTRACT_RESULT.json",
+      "sha256": "bdd3642c4896244f5b4d9b5b5618fb02c1c75c8cf5f57e46f92ed2a8c2428257"
+    },
+    {
+      "path": "amp_h5/design_snapshot/design/build_design_evidence.py",
+      "sha256": "13f5fe74cc5165d9f46d060eda87c694b57c154638dcf573fb72427e93f1f559"
+    },
+    {
+      "path": "amp_h5/design_snapshot/independent_review_design/DESIGN_RECEIPT.json",
+      "sha256": "31bd032a9bc83e1ae52f6e931fce8f567dd25ea9ade0f6fd1bc93f4050f5e776"
+    },
+    {
+      "path": "amp_h5/design_snapshot/independent_review_design/DESIGN_REVIEW.zh.md",
+      "sha256": "7259c257ea1e8a624078377ddbafaced9635db8bf4bc1b0fc0a1d51e31b2ad43"
+    },
+    {
+      "path": "amp_h5/design_snapshot/independent_review_design/MANIFEST.json",
+      "sha256": "c669f88ec6d4a8bd4bbad02e520de0d58c488f1cc1fc1f750279869932d94eb0"
+    },
+    {
+      "path": "amp_h5/design_snapshot/independent_review_design/SOURCE_BINDINGS.json",
+      "sha256": "4f6221d18448d4573844737ee92e0084c46e2466da5bdb306843a7ec3e1676b9"
+    },
+    {
+      "path": "amp_h5/design_snapshot/literature/PRECEDENTS.zh.md",
+      "sha256": "297b41045bf95a7451f3bc7f94344dca00f58309107b973fa7ed69a722452211"
+    },
+    {
+      "path": "amp_h5/design_snapshot/literature/SOURCE_LEDGER.json",
+      "sha256": "d21133c66313eff3b76bc12e2d100f210c8f86b0782a1dd3a043ccd01ba5bc50"
+    },
+    {
+      "path": "amp_h5/design_snapshot/science_design/H5_SCIENTIFIC_DESIGN_OPINION.json",
+      "sha256": "379d635c78000f34b95a005becb062233d6c2973f556648441dba96edf6388c9"
+    },
+    {
+      "path": "amp_h5/design_snapshot/science_design/H5_SCIENTIFIC_DESIGN_OPINION.zh.md",
+      "sha256": "ea3e3aa0ae977a3557d8c6da572bc1627183cbea9f41bded9f76acdcd9d8c124"
+    },
+    {
+      "path": "amp_h5/design_snapshot/science_design/MANIFEST.json",
+      "sha256": "79a526633bf03e6b18af3ce5d2fd63361b4dadd95310019706550bdabc560150"
+    }
+  ],
+  "process_check": "No AMP/H5 model process observed via approved ps; other nightly cwd is /Users/loctek/TopPaperOS/claudecode",
+  "device": "CPU single thread",
+  "backup": "BACKUP_BLOCKED"
+}

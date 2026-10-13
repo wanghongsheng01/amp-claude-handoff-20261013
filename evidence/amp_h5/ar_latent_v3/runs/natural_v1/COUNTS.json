@@ -1,0 +1,15 @@
+{
+  "phase": "closure",
+  "counts": {
+    "updates": 3000,
+    "training_forward": 3000,
+    "dev_teacher_forced_forward": 28,
+    "dev_one_token_forward": 1033,
+    "generation_forward": 111,
+    "encoder_forward": 0,
+    "DDPM_forward": 0,
+    "D_forward": 0,
+    "new_generation_requests": 96
+  },
+  "elapsed_seconds": 48.67154841683805
+}

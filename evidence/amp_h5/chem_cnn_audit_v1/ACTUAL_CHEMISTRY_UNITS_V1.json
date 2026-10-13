@@ -1,0 +1,27 @@
+{
+  "status": "PASS_ACCOUNTING_UNIT_ARITHMETIC_NO_TRAINING_ADMISSION",
+  "package": "chemistry_units_v1",
+  "checks_passed": 488,
+  "new_ids": [
+    102,
+    1689
+  ],
+  "new_families": [
+    "F102",
+    "F1689"
+  ],
+  "new_sourcegroups": [],
+  "assay_pass_rows": 0,
+  "results_sha256": {
+    "chemical_identity_audit.jsonl": "8520cabc0eb64c08bce6192c11e0e7bb5efd6d4b4583b5653e0a905285e4e2c9",
+    "SUMMARY.json": "ff6dfd8d1f449226e94e4909fe054c46ec3a0c5fbf90547f522fc20844d5b12f",
+    "mass_MIC_conversion_draft.csv": "ac03ff71d22d1fd725f5788323caef86cc77b6554805b575cd497982a2e19a86",
+    "mass_MIC_conversion_draft.jsonl": "439825be424ac7e79e254fc14bf31cbce28c46914b2e3d1f907d2c6d572eded6"
+  },
+  "limitations": [
+    "Structuralgraph audit not sourcepaper assayed material verification",
+    "Conditional unit-scaled values do not resolve censor/range observation semantics",
+    "FamilyIDs andsourcegroups are inherited provisionalgroups, not independence guarantee or completed contamination isolation",
+    "StandardsequenceCNNcannotrepresentDresidues/cyclization/terminalchemistry; potentialdata IDs are not automaticallybaselineadmissible"
+  ]
+}

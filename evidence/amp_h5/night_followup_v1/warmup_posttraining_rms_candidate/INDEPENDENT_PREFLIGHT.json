@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "authorized": true,
+  "scope_id": "AMP_H5_WARMUP_POSTTRAIN_RMS_V1",
+  "scoring_and_model_scope_checked": true,
+  "plan_sha256": "7f26d743dc41cd72ab3d1ceb4279ef34bce71f6456fec4461a72be4f828fb08e",
+  "contract_sha256": "47d69cf0d895e5dc960c6043a09e22e48f1aba126347e46945f7f03222c6d9b1",
+  "export_script_sha256": "808ba5f7a4a6c735ecab0b2745403c29bbf49ec9efe669900b09e3e579fccf86",
+  "late_bound_training_sha256": "837849c1640d15fcfac2c69470225e9d8ccd93afef26a13d267351f1bc0e0ffe",
+  "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+  "launcher_sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+  "created_utc": "2026-10-12T00:51:38.042142+00:00",
+  "authorization_scope": "One exact frozen endpoint RMS run: new warmup q for train279/dev41,11encoder+99decoder,all2880 slots,same eight existing epsilon banks,inner120/outer180. No retraining, new epsilon, prior-flow, DDPM or generation; no retry. Root fresh process check before launch.",
+  "checks": {
+    "all43_bindings_match": true,
+    "exact_single_job_argv": true,
+    "late_six_sources_covered_by_training_postflight": true,
+    "training_actual_caps_and_endpoint_pass": true,
+    "fixed_sameepsilon_calls_slots_budget": true,
+    "candidate_static_review_reused": true,
+    "new_output_roots_absent": true
+  },
+  "downstream": "Read-only scoring and paired guard remain conditional on their actual upstream independent postflight PASS, using sealed separate receipts. Endpoint observations do not alter fixed full evaluation.",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/ROOT_PLAN.json",
+      "sha256": "7f26d743dc41cd72ab3d1ceb4279ef34bce71f6456fec4461a72be4f828fb08e",
+      "bytes": 12711
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/LATE_BOUND_TRAINING.json",
+      "sha256": "837849c1640d15fcfac2c69470225e9d8ccd93afef26a13d267351f1bc0e0ffe",
+      "bytes": 4075
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/CONTRACT.json",
+      "sha256": "47d69cf0d895e5dc960c6043a09e22e48f1aba126347e46945f7f03222c6d9b1",
+      "bytes": 18974
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/export_postwarmup_rms_v1.py",
+      "sha256": "808ba5f7a4a6c735ecab0b2745403c29bbf49ec9efe669900b09e3e579fccf86",
+      "bytes": 31719
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/WARMUP_POSTTRAIN_PREPARATION_REVIEW_v1.json",
+      "sha256": "327a5463f3c35c88dca1126643f853351b11082eaf076d508a1cb352be84d133",
+      "bytes": 9714
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_POSTFLIGHT_v1.json",
+      "sha256": "98ec7bd6937f05816493905c9ec5d77a2a09b673660c010cc4b8838657b6eb23",
+      "bytes": 9098
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+      "bytes": 3194
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+      "bytes": 3703
+    }
+  ],
+  "new_model_calls_by_review": 0,
+  "new_rng_calls": 0,
+  "repeat_synthetic_tests": 0,
+  "test_reads": 0,
+  "audit_seconds_before_receipt_io": 0.029200208000000002
+}

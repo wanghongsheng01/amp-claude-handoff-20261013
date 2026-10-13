@@ -1,0 +1,17 @@
+import json,hashlib
+from pathlib import Path
+root=Path(__file__).resolve().parents[1];rp=root/'chemistry_units_v2/results'
+read=lambda p:[json.loads(s)for s in p.read_text().splitlines()]
+ps={p['peptide_id']:p for p in read(root/'dbaasp_bounded_v3/prepared/peptides.jsonl')};cs=read(rp/'chemical_identity_audit.jsonl');rows=read(rp/'mass_MIC_conversion_draft.jsonl');reps=json.loads((rp/'CNN_REPRESENTATION_AUDIT.json').read_text());summary=json.loads((rp/'SUMMARY.json').read_text());checks=[]
+for row in reps:
+ p=ps[row['peptide_id']];c=p['chemistry'];s=p['sequence']; compatible=bool(s) and set(s)<=set('ACDEFGHIKLMNPQRSTVWY') and len(s)<=100 and not any(c.get(k)for k in ['intrachainBonds','interchainBonds','coordinationBonds','unusualAminoAcids','nTerminus','cTerminus']);assert row['plain_CNN_representation_compatible']==compatible;checks.append(row['peptide_id'])
+ids={r['peptide_id']for r in reps if r['plain_CNN_representation_compatible']};assert ids=={102,1737,1738};assert summary['plain_CNN_compatible_potential_new_ids']==sorted(ids)
+cs1=read(root/'chemistry_units_v1/results/chemical_identity_audit.jsonl');pass1={x['peptide_id']for x in cs1 if x['structure_status']=='PASS_REPRESENTED_STRUCTURE'};pass2={x['peptide_id']for x in cs if x['structure_status']=='PASS_REPRESENTED_STRUCTURE'};assert pass1<=pass2
+pending=[]
+for x in cs:
+ if 'PENDING_SEQUENCE_SMILES_STEREO_OR_GRAPH_MISMATCH' in x['reasons']:
+  ds=[v['metadata'].get('description','')for v in x['variants']];pending.append({'peptide_id':x['peptide_id'],'histidine_count':x['sequence'].upper().count('H'),'source_HID_variant':any('Histidine: HID' in d for d in ds),'source_HIE_variant':any('Histidine: HIE' in d for d in ds),'observed_variant_matches_before_first_failure':[v.get('identity_match')for v in x['variants']if v.get('identity_match')]})
+assert len(pending)==20 and all(x['histidine_count']and x['source_HID_variant']and x['source_HIE_variant']for x in pending)
+freeze=json.loads((root/'chemistry_units_v2/FREEZE.json').read_text());freezechecks={f:hashlib.sha256((root/'chemistry_units_v2'/f).read_bytes()).hexdigest()==h for f,h in freeze['local_sha256'].items()};assert all(freezechecks.values())
+r={'status':'PASS_REPRESENTATION_ACCOUNTING_AND_PENDING_CLASSIFICATION','representation_records_checked':len(checks),'compatible_potential_new_ids':sorted(ids),'compatible_rows':summary['plain_CNN_compatible_conditional_candidates']['rows'],'compatible_potential_new_families':summary['plain_CNN_compatible_potential_new_families'],'v1_passes_retained':len(pass1),'v2_additional_structural_passes':len(pass2-pass1),'frozen_local_hashes':freezechecks,'pending_histidine_observation':pending,'pending_interpretation':'All20remaining graph/stereo mismatch records have histidine and source-described HID/HIE variant pairs. Narrow v2 deliberately does not normalize histidine. This supports an unhandled-tautomer hypothesis, does not certify other graph/stereo features correct or identify invalid chemistry. No further transformation executed.','training_admission':'NO_GO_NOW: assay massbasis for all86massrows remainsunknown, nullterminalannotations remainunknown, plainCNNeligiblecandidatecounts small and clustered, contamination isolation notimplemented, natural training protocol notfrozen. Continue source-curation and exactcandidate admissibility; no naturaltraining claim.'}
+(root/'chem_cnn_audit_v1/REPRESENTATION_AND_PENDING_AUDIT.json').write_text(json.dumps(r,indent=2)+'\n');print({k:v for k,v in r.items()if k!='pending_histidine_observation'})

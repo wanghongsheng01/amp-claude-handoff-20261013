@@ -1,0 +1,27 @@
+{
+  "scope": "predeclared exploratory development screen; never a significance/activity/novelty/publication gate",
+  "engineering_prerequisite": "upstream fixed-step training, common budget and final checkpoint identity must independently pass; this file only checks output execution",
+  "all_generation_requests_completed": true,
+  "reconstruction_ce_vs_matched_mse": {
+    "checks": {},
+    "pass": false,
+    "status": "NOT_EVALUATED_MISSING_RECONSTRUCTION"
+  },
+  "generation_ce_vs_terminal_ar": {
+    "checks": {
+      "FREE": {
+        "missing": {
+          "pass": false
+        }
+      },
+      "AMD": {
+        "missing": {
+          "pass": false
+        }
+      }
+    },
+    "pass": false,
+    "status": "EVALUATED"
+  },
+  "both_exploratory_screens_pass": false
+}

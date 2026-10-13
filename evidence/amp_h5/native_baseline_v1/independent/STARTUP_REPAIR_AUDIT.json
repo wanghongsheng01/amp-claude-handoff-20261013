@@ -1,0 +1,15 @@
+{
+  "status": "PASS_PRE_MODEL_ENVIRONMENT_REPAIR",
+  "utc": "2026-10-12T09:18:03.673703+00:00",
+  "checks": {
+    "stderr_pre_model_os_nice_failure": true,
+    "only_started_artifact": true,
+    "stdout_empty": true,
+    "frozen_local_files_unchanged": true
+  },
+  "scientific_updates_before_failure": 0,
+  "fold_predictions_before_failure": 0,
+  "allowed_scope": "Request normal tool-policy sandbox escalation for identical frozen command to lower only own process priority; not permission to override automatic rejection. No data/model/config changes or additional scientific run. Preserve failure artifacts.",
+  "freeze_sha256": "cde69c299c9dd06f46f69dbe800c43c58e16b14016b64fa3bed150b9e11f2161",
+  "stderr_sha256": "38c39f67c5977d63cf684f49e82d7382525d44797fc892204fefa5ff6d154b11"
+}

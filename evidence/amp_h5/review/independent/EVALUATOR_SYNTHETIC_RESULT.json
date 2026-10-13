@@ -1,0 +1,27 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_PATH_GUARD_LIMIT",
+  "check_count": 12,
+  "checks": [
+    "missing rendered residues retained in micro denominator",
+    "macro is AA recall not sequence mean",
+    "length/exact independent oracle",
+    "all eight synthetic outputs retained",
+    "cross-terminal copies distinguished",
+    "same/any nearest differentiated",
+    "full fixed421 metric dimension retained",
+    "exact synthetic slots/seed interface accepted",
+    "replaced slot rejected even equal row count",
+    "test path rejected before absent file access",
+    "failure with legal sequence cannot pass generation gate",
+    "equal MMD is not strict improvement"
+  ],
+  "source": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+  "source_sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417",
+  "natural_records_read": 0,
+  "test_reads": 0,
+  "model_calls": 0,
+  "known_limit": {
+    "test_numeric_suffix_path_rejected": false,
+    "description": "Frozen dependency rejects delimited test token, not test37. Only a nonexistent synthetic path was attempted. Exact source SHA and role binding remain necessary. Initial independent check expected the stronger guard and failed with FileNotFoundError; this limit is not silently presented as fixed."
+  }
+}

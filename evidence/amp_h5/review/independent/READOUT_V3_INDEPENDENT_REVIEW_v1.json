@@ -1,0 +1,116 @@
+{
+  "status": "HOLD_FOR_NEW_READOUT_CANDIDATE",
+  "scope": "Static and synthetic readout only; not a model or recovery-result review",
+  "checks": [
+    {
+      "name": "frozen_code_and_schema_identity",
+      "pass": true
+    },
+    {
+      "name": "checkpoint_file_hash_mismatch_blocks_recovery",
+      "pass": true
+    },
+    {
+      "name": "missing_status_binding_blocks_recovery",
+      "pass": true
+    },
+    {
+      "name": "generation_hash_drift_blocks_postflight_and_metrics",
+      "pass": true
+    },
+    {
+      "name": "phase_training_root_mismatch_blocks_recovery",
+      "pass": true
+    },
+    {
+      "name": "no_cross_package_G_splicing",
+      "pass": true
+    },
+    {
+      "name": "duplicate_observations_rejected",
+      "pass": true
+    },
+    {
+      "name": "recorded_outer_overrun_blocks_recovery",
+      "pass": true
+    },
+    {
+      "name": "original_gates_always_NE_and_unknown_total_kept",
+      "pass": true
+    },
+    {
+      "name": "manifest_drift_bug_reproduced",
+      "pass": true
+    },
+    {
+      "name": "schema_runtime_validation_gap_reproduced",
+      "pass": true
+    },
+    {
+      "name": "no_torch_numpy_loaded",
+      "pass": true
+    }
+  ],
+  "checks_passed": 12,
+  "author10tests_rerun": "PASS; READOUT_V3_AUTHOR_TEST_RERUN_v1.json",
+  "findings": [
+    {
+      "id": "R3-1",
+      "severity": "blocking_for_effective_descriptive_gate_transcription",
+      "location": "build_readout_v3.py build -> frozen v2.evaluate_artifacts; evaluation MANIFEST consumed but not verified",
+      "evidence": {
+        "baseline_G": "PASS",
+        "after_stale_manifest_G": "PASS",
+        "after_valid1_count": 0,
+        "input_snapshot_stable": true,
+        "recorded_metric_sha256": "6ceb5c4bf488b0412534912e939745228044a658872c1cdc842e884f1954b2d4",
+        "actual_metric_sha256": "c6c4ebdc3e29d619709f5cb649546a8ebaa6abc6b84e847c8e358772f9c1717c"
+      },
+      "impact": "A result JSON drifted from its existing evaluation package manifest can still be transcribed as an eligible PASS; same-read stability does not establish the saved package integrity. Raw input CSV binding remains correct but does not bind the metric/gate outputs.",
+      "minimal_fix": "New candidate wrapper must validate existing MANIFEST against every evaluation JSON it actually consumes: exact local member, SHA256 and optional bytes, reject missing/duplicate/mismatch entries. Preserve raw data but package/group interpretation and effective screens become NOT_EVALUABLE. Do not follow external/source/pt/npz/split entries and do not modify frozen evaluator/v1/v2/v3."
+    },
+    {
+      "id": "R3-2",
+      "severity": "nonblocking_for_current_valid_template",
+      "location": "build_readout_v3.py load_contract vs contract schema required/additionalProperties",
+      "evidence": "Missing context_evidence plus unexpected_extra is accepted by runtime loader despite schema required context_evidence and additionalProperties=false.",
+      "impact": "The supplied schema is a declaration, not fully enforced by this CLI. Actual template includes required fields, so this does not invalidate its scope.",
+      "minimal_fix": "In the next candidate either enforce required/top-level/method/binding keys with standard library checks or label schema validation as a separate required step."
+    }
+  ],
+  "accepted_behaviors": [
+    "Phase-specific source/reconstruction bindings",
+    "Independent postflight scope/id/root/source hashes match planned interface",
+    "Original E/L/G hardcoded NOT_EVALUABLE, PROMOTE HOLD",
+    "No fake absent method groups or zero observations",
+    "No gate splicing across separate metric packages",
+    "Known original stages and partial-generation lower bound kept separately from unknown original wall time",
+    "No checkpoint,posterior,data-split file opened by readout"
+  ],
+  "future_postflight_interface": {
+    "status": "PASS only if confirmed",
+    "scope": "RECOVERY_ENGINEERING_ONLY",
+    "generation_attempt_id": "ce_checkpoint_recovery_v1",
+    "generation_attempt_root": "absolute recovery root",
+    "training_source_root": "absolute original training root",
+    "source_bindings": "absolute path + sha256 for recovery status/generated and original vae_state.pt/ddpm_ema_state.pt; extra evidence permitted",
+    "original_v2_engineering_gate": "NOT_EVALUABLE_INTERRUPTION",
+    "original_protocol_E_L_G": "NOT_EVALUABLE",
+    "PROMOTE": "HOLD"
+  },
+  "frozen_source_hashes": {
+    "build_readout_v3.py": "7905f92e2a62a3f3e47295177842a9c5f667d83d6c932ea240257c85c69aa19d",
+    "build_readout_v3.contract.schema.json": "564557f6b3a25ca0215576174a4e5ff43fa3b7e1a635095016e40d4bab5acbaa",
+    "build_readout_v2.py": "ee585532c76a6be3adfd38480bdd304b3fbd316704362c69d4064dd18d181bca",
+    "build_readout.py": "75012cfc99e73f7d08c5b69cb0e9cf2d0f74acc28b98f6db8203e4b8536486dd"
+  },
+  "reviewer_actions": {
+    "natural_run_reads": 0,
+    "model_calls": 0,
+    "weight_loads": 0,
+    "natural_metric_recomputation": 0,
+    "test37_reads": 0,
+    "frozen_files_changed": 0
+  },
+  "PROMOTE": "HOLD"
+}

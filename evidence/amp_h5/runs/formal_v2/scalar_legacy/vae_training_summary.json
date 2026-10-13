@@ -1,0 +1,8 @@
+{
+  "updates": 1000,
+  "requested_updates": 1000,
+  "fixed_endpoint_reached": true,
+  "initial_tensor_state_sha256": "025e0f9e49523eea9124511e7ae0bc5dc3d3b3b66f468630717bbc2b7f25e9e4",
+  "elapsed_seconds_before_checkpoint_io": 1179.3944424591027,
+  "elapsed_seconds": 1179.4492224999703
+}

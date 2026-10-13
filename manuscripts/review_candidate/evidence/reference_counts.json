@@ -1,0 +1,10 @@
+{
+  "FREE": {
+    "train": 126,
+    "development": 18
+  },
+  "AMD": {
+    "train": 153,
+    "development": 23
+  }
+}

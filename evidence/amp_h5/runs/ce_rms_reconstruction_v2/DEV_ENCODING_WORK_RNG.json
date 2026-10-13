@@ -1,0 +1,51 @@
+{
+  "work_seed": 0,
+  "frozen_routine": "posterior_parameters uses fork_rng and manual_seed0",
+  "batches": [
+    {
+      "batch": 1,
+      "rows": 32,
+      "rng_before": "1ccf17250133dec5e96478acd63e13d728d0dbbabb30389415a302c6f872f81f",
+      "rng_after": "8910300e1476bfbc52ff370cf7d8dfcad643b569195fd962fc37c45b61750494",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "3ba445124a9585a59cd82438473ec79959128c6cc570a42577f1a43016035f5c",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 2,
+      "rows": 9,
+      "rng_before": "8910300e1476bfbc52ff370cf7d8dfcad643b569195fd962fc37c45b61750494",
+      "rng_after": "fcaacf33c6854a94f38c25bce0485ff7c96a3024a4cba0f6ad1ab3a7b2747b84",
+      "discarded_internal_z_shape": [
+        9,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "bf9c47cd35c30a54f9b6862215c1f103c5d2b7e6e7c7b6c9401589aed54700e4",
+      "mu_shape": [
+        9,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        9,
+        16,
+        48
+      ]
+    }
+  ],
+  "internal_sample_is_not_an_S_seed": true
+}

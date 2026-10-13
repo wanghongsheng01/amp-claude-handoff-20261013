@@ -1,0 +1,14 @@
+{
+  "ar_cv": [
+    {
+      "step": 250,
+      "tensor_sha": "5782caed9a20d7cd6d9fd9b24317cf17d2e8d8d84dd1141c89d88f39b961e7bf",
+      "train_batch_token_nll": 2.611538887023926
+    },
+    {
+      "step": 500,
+      "tensor_sha": "15ca4f5da898469b4ab825aebdc1c3d870b9c07d32921bb9611b47080ff8e481",
+      "train_batch_token_nll": 2.507858991622925
+    }
+  ]
+}

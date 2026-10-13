@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-11T19:15:47.928603+00:00",
+  "authority": "Updated root delegation: only frozen three-arm evaluation plus ordinary author readout now; defer v4 until scalar terminal with real roots",
+  "supersedes_presentation_proposal": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_execution_v1/SCALAR_LIVE_OUTPUT_EXCLUSION.json",
+    "bytes": 853,
+    "sha256": "9d4ac29bbd662607e56b970dfdd6fdbd85151d858f7b0e5a1a5025cde07d31a6"
+  },
+  "withheld_mapping_adopted": false,
+  "withheld_directory_created": false,
+  "three_arm_v4_contract_created": false,
+  "three_arm_v4_executed": false,
+  "scalar_output_reads": 0,
+  "scalar_state": "RUNNING_REPORTED_BY_ROOT_NOT_INSPECTED",
+  "reported_start": "19:10:17",
+  "evaluation_metrics_changed": false,
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD"
+}

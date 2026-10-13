@@ -1,0 +1,12 @@
+{
+  "state": "running",
+  "purpose": "formal_pilot",
+  "config_sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+  "runner_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+  "test_read": false,
+  "development_read": true,
+  "train_read_attempted": true,
+  "train_read_validated": true,
+  "development_read_attempted": true,
+  "development_read_validated": true
+}

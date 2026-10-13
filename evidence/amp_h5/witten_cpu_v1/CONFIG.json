@@ -1,0 +1,16 @@
+{
+ "scope":"SYNTHETIC_ONLY_NO_NATURAL_DATA", "seed":1729,
+ "cpu_threads":1,"cpu_interop_threads":1,"blas_threads":1,
+ "input":[100,21],"alphabet":"ACDEFGHIKLMNPQRSTVWY",
+ "expected_parameters":183069,"dropout":0.5,
+ "optimizer":{"name":"KerasStyleAdam","lr":0.001,"beta1":0.9,"beta2":0.999,"epsilon_hat":1e-7},
+ "loss":"mean squared error across scalar predictions; target shape (batch,1)",
+ "synthetic":{"batch_size":32,"length_min":5,"length_max":99,"target":"0.5 + 2 * fraction K/R minus fraction D/E; no biological interpretation"},
+ "steps":{"optimizer_test":4,"synthetic_training":80,"warmup":5,"timed_training":20,"timed_inference":20},
+ "limits":{"wall_seconds":120,"peak_rss_bytes":1500000000},
+ "failure_rules":{"forward_max_abs_error":1e-9,"finite_difference_scaled_error":0.00002,"adam_max_abs_error":1e-12,"loss_final_over_initial_max":0.9,"all_values_finite":true,"cpu_only":true,"no_competing_h5_model":true},
+ "reference":"Independent NumPy channels-last valid cross-correlation/pooling/flatten/dense; central finite difference on selected nonzero gradients",
+ "prohibited":"No natural sequences/labels, no train/dev/test37, no model weights download, no dependency installation, no network",
+ "author_fit_defaults":"Keras fit defaults batch_size32, shuffleTrue; QMAP CLI default5epochs (rnd20), negatives0. Synthetic fixed-batch smoke test is not author training schedule.",
+ "admission_note":"Encoder truncates100 as author; QMAP natural trainer filters length<100. No natural training authorized."
+}

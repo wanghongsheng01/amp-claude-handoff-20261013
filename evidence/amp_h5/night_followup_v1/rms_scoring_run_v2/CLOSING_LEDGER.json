@@ -1,0 +1,13 @@
+{
+  "scope_id": "AMP_H5_CE_RMS_SCORING_V2",
+  "state": "completed",
+  "manifest_sha256": "c2cc1fba99f43c84b1d191bfd6f2daee41eebc67f53c148b4ae2a47c27af3ef0",
+  "wall_seconds_after_manifest_before_closing": 9.99174058297649,
+  "cap_seconds": 300,
+  "budget_applies_through_manifest_and_closing_write": true,
+  "model_calls": 0,
+  "primary_gate_status": "EVALUABLE",
+  "descriptor_or_feature_missing_does_not_change_core_gate": true,
+  "not_self_included_in_manifest": true,
+  "outer_watchdog_required_seconds": 360
+}

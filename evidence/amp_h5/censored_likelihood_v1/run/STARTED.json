@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-12T11:12:51.431437+00:00",
+  "pid": 67003,
+  "freeze_sha256": "8b723893076b8c2faab939905d5cf055537188329cee65b738c0b8d6cc93cc67",
+  "seed": 1729,
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  }
+}

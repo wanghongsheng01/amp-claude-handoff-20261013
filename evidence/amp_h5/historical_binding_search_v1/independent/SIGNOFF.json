@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "signed_at_utc": "2026-10-12T11:49:04.930419+00:00",
+  "reviewer_role": "independent scientific reviewer; not parent search implementation author",
+  "scope": "bounded historical AMP 27 candidate identity and provenance search; scientific interpretation and enumerated-source verification",
+  "mechanical_checks": {
+    "passed": 9121,
+    "total": 9121,
+    "source_hashes": 208,
+    "reconstructed_text_units": 229,
+    "text_bytes": 1818747,
+    "original_sequence_or_ID_hits": 1818,
+    "explicit_typographic_normalization_hits": 4,
+    "total_hits": 1822
+  },
+  "scientific_adjudication": {
+    "complete_historical_generation_selection_submission_links_recovered_in_scope": 0,
+    "targets_with_sequence_or_ID_match": 27,
+    "targets_with_supplier_and_MIC_identity_evidence": 27,
+    "classification_is_manual_evidence_adjudication_not_string_detector": true,
+    "equivalent_unique_execution_provenance_would_be_admissible": true,
+    "does_not_negate_existing_wetlab_records": true,
+    "pp3_1_visual_uncertainty_retained": true,
+    "dates_not_promoted_to_experiment_dates": true,
+    "duplicate_hits_not_independent_experiments": true,
+    "REPORT_and_SAFE_MANUSCRIPT_STATEMENTS_approved_with_stated_boundaries": true
+  },
+  "remaining_limits": [
+    "Limited to explicitly enumerated local sources; no commit traversal, remote or undownloaded content coverage.",
+    "Historical run-to-candidate and screening-to-original-submission bindings not recovered.",
+    "Lot-to-well, experimental date and independent biological N remain unconfirmed; N symbol and pp2-3 conflict preserved.",
+    "No fair method superiority, biological efficacy beyond reported observations, novelty or submission-readiness conclusion.",
+    "BACKUP_BLOCKED"
+  ],
+  "prohibited_actions_performed": {
+    "network": false,
+    "training": false,
+    "test37_opened": false,
+    "manuscript_or_old_frozen_source_modified": false
+  },
+  "parent_artifact_sha256": {
+    "BACKUP_INDEX_COVERAGE.json": "e24f8e2f1c6d105ad9e5400a33b3823e86e63ba8c4e4e96853aa230be7e3ee47",
+    "CATEGORY_COUNTS.json": "5016b337206e51857559ebd01be757db996e2fd7c85e613e9db345be8f7ea8fa",
+    "CONTAINER_INVENTORIES.json": "7f4ce3c9c1ec8d64c3aea61cd413758fa9b661edbd19889c4c0a5911a230112b",
+    "EXCLUSIONS.json": "c1f17857d5371574a2cff6d8b9362d736fee16c587e6c83b188624649a8f1ff9",
+    "HITS.json": "a4a9f22f5bb65f9baaf6977dea8c20c3aae521c3195d1be394e35bdb28315bd2",
+    "INTERPRETATION_REVIEW.json": "2336048f5d041433b1bec336e2db4e54df3b01d57156bb90b56eac243873e64b",
+    "PARTIAL_EDGE_EVIDENCE_27.json": "924b2f51943de47ff2f5e3ed8b06471a23ba9625af9106e6e88a069f0147a4d7",
+    "REPORT.zh.md": "33e48ec8922c4d306a4156fd91ad9df96a190bd5653357aa67644fe1fd610c99",
+    "RESULTS_27.csv": "7cab0cbb78df521bf17d206b3dd2825297d6d8b9c3c728b5675ecd71eca7dd58",
+    "RESULTS_27.json": "bfb071b50a84c514805dbee380bb446af509fc1c0cf56feb4f5ceb2e2e4df570",
+    "SAFE_MANUSCRIPT_STATEMENTS.zh.md": "6aec9da645f6d3bc4c0b6f7c4475d6961e9254a4a28c887911c2051a940d5752",
+    "SEARCH_PROTOCOL.json": "cc464025e336bcfa2254bc9c09a2d438fa80ee0af7deca3935c65f66dc195d87",
+    "SEARCH_UNITS.json": "0eaaef4f5fd422fbbc22feb576c0cb84c868bd5aa522026672e10ed247c7585c",
+    "SOURCE_MANIFEST.json": "36f47f8927a6c416d62f3f2f7c77726ad0d9b5ec789e43de337c57dc1e777b67",
+    "SOURCE_PRESERVATION.json": "5c50dc952558f5b937a1f5d2d359416df0dcdee0f1824b7f40b6a586d2a76778",
+    "SUMMARY.json": "3c3f285a029307954f6e38438095bb92134bcd9e1140c9b5cd43787b64313949",
+    "TARGETS_27.json": "c3964612168ee040af51e11e1f1d3da7d0a7dcbb03bb444a786e7e5f3f2dba50",
+    "TIMESTAMP_FIELDS.json": "6224b862cca39a983f1f349852babaf76dbdddc1a8991bdeb52d0c52c0818428",
+    "package.py": "967c3067aad99e79ba0ada79e8f3336fa1d4053446bce0dc0d7dff4fb23ec5bd",
+    "search.py": "f510851e0fb42f518b95f6108d94bf7cf49ebf4c9badc1af411cf40048d70a29",
+    "write_report.py": "ae62a6b0f474b665b77800fc37c3afc2b33e30a0e6e8038a5dcfaba4eedd3fc5"
+  },
+  "independent_artifact_sha256": {
+    "audit.py": "300b6d635c17c3594cbe2947896d981528b1cfe252133bab0e28e36b29c3f103",
+    "AUDIT.json": "e5ce053fafc853c52e7f9f906365ec6357db2be63d8ecc9d90cd531112535d03",
+    "SCIENCE_REVIEW.zh.md": "18557c323aa8b797246e3706c9cf7c120b94853dd3c250f6d60173de8ccb743e"
+  }
+}

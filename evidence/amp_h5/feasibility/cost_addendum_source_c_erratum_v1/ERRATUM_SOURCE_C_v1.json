@@ -1,0 +1,110 @@
+{
+  "schema": "AMP_H5_COST_SOURCE_C_WORDING_ERRATUM_V1",
+  "created_utc": "2026-10-11T20:41:38.266848+00:00",
+  "status": "SEALED_WORDING_ONLY_ERRATUM",
+  "target_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_replacement_v2_v1",
+  "original_readout_sha256": "85c5bceae49bc503c36c16d97ca5de9464c691e431b15d4c5a2e9c9ecf2fa967",
+  "original_manifest_sha256": "771045ffd8deb4490eeaafee4fa72b562d76d64cac608799c6e94da58b3c4f3b",
+  "reason": "Cost author mislabeled the input provenance of C. Frozen implementation and contract define C from actually sampled B empirical train-posterior decoder-z; existing DDPM-z is not the array being permuted.",
+  "correct_source_C": {
+    "input": "Actually sampled B empirical train-posterior decoder-z",
+    "operation": "For each terminal and each channel/position coordinate, permute values across the 16 B slots independently; each output coordinate takes its value from one of those B slots.",
+    "mapping": "C_z[i,ch,pos] = B_z[permutation[ch,pos,i],ch,pos]",
+    "existing_DDPM_z_is_permuted": false,
+    "source_evidence": [
+      {
+        "file": "implementation/ce_source_replacement_v2.py",
+        "lines": [
+          134,
+          141,
+          182,
+          184,
+          185
+        ]
+      },
+      {
+        "file": "protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+        "lines": [
+          99,
+          134,
+          136
+        ]
+      }
+    ]
+  },
+  "corrections": [
+    {
+      "file": "READOUT.zh.md",
+      "line": 29,
+      "location": "Final scientific-boundary paragraph",
+      "old_text": "打乱已有DDPM潜变量坐标",
+      "correct_text": "在每个末端组内，对实际采样的B经验训练后验decoder-z逐坐标跨16个样本slot置换"
+    },
+    {
+      "file": "COST_ADDENDUM.json",
+      "line": 129,
+      "json_pointer": "/new_model_diagnostic/method_boundary",
+      "old_text": "B empirical train posterior; C coordinate-permuted existing DDPM z; D reference-g conditional flow prior. Reused DDPM32 supplies context, not32 additional executions. All diagnostic groups excluded from formal quality ranking.",
+      "correct_text": "B empirical train posterior; C coordinate-wise cross-slot permutation of the actually sampled B empirical train-posterior decoder z, within each terminal; D reference-g conditional flow prior. Reused DDPM32 supplies context, not32 additional executions. All diagnostic groups excluded from formal quality ranking."
+    },
+    {
+      "file": "build_addendum.py",
+      "line": 180,
+      "location": "control.method_boundary source literal",
+      "old_text": "C coordinate-permuted existing DDPM z",
+      "correct_text": "C coordinate-wise cross-slot permutation of the actually sampled B empirical train-posterior decoder z, within each terminal"
+    },
+    {
+      "file": "build_addendum.py",
+      "line": 257,
+      "location": "READOUT template scientific-boundary paragraph",
+      "old_text": "打乱已有DDPM潜变量坐标",
+      "correct_text": "在每个末端组内，对实际采样的B经验训练后验decoder-z逐坐标跨16个样本slot置换"
+    }
+  ],
+  "structured_fields_with_error": [
+    "/new_model_diagnostic/method_boundary"
+  ],
+  "numeric_or_execution_fields_changed": false,
+  "original_sealed_package_changed": false,
+  "all_original_manifest_members_verified": 7,
+  "model_or_quality_or_cost_recomputation": false,
+  "new_model_calls": 0,
+  "new_requests": 0,
+  "training_updates": 0,
+  "test_or_cohort_reads": 0,
+  "cost_counts_and_all_original_gate_decisions_unchanged": true,
+  "instructions_for_readers": "Read the original package together with this erratum. Do not rerun or edit its sealed builder solely to apply this wording correction.",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_replacement_v2_v1/READOUT.zh.md",
+      "sha256": "85c5bceae49bc503c36c16d97ca5de9464c691e431b15d4c5a2e9c9ecf2fa967",
+      "bytes": 3222
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_replacement_v2_v1/MANIFEST.json",
+      "sha256": "771045ffd8deb4490eeaafee4fa72b562d76d64cac608799c6e94da58b3c4f3b",
+      "bytes": 1179
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_replacement_v2_v1/COST_ADDENDUM.json",
+      "sha256": "8132da75896f07623f5389a56274bee82db4611d664288a2df1d53f3986a4a52",
+      "bytes": 12087
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_replacement_v2_v1/build_addendum.py",
+      "sha256": "b25d2c8423e7bccfbe601cf87c20da6e58b52272d4ecd11fe20d4fb87c2edb8d",
+      "bytes": 20618
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+      "sha256": "e915f23cbf6157b20bd1d9a94fe831d326b0ab6a20b4013824224921a2bbf444",
+      "bytes": 34554
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+      "sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8",
+      "bytes": 29507
+    }
+  ]
+}

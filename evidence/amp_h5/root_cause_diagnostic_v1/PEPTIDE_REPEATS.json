@@ -1,0 +1,1121 @@
+[
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 37,
+    "point_rows": 5,
+    "distinct_reported_point_values": 4,
+    "log10_range": 0.9030899869919436,
+    "ratio_max_min": 8.000000000000002,
+    "distinct_observed_condition_tuples": 5,
+    "group": "G37",
+    "activity_ids": [
+      36,
+      112057,
+      112058,
+      177211,
+      177212
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 102,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G102",
+    "activity_ids": [
+      50769
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 873,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.39794000867203766,
+    "ratio_max_min": 2.5000000000000004,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G873",
+    "activity_ids": [
+      4796,
+      141543
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 874,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      4807
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 875,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      4818
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 876,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      4829
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 877,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      4840
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 878,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      4851
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 879,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      4862
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 881,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      4884
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 882,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      4895
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 1737,
+    "point_rows": 6,
+    "distinct_reported_point_values": 5,
+    "log10_range": 1.2041199826559248,
+    "ratio_max_min": 16.0,
+    "distinct_observed_condition_tuples": 6,
+    "group": "G1737",
+    "activity_ids": [
+      12526,
+      12527,
+      54742,
+      58515,
+      58517,
+      58519
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 1738,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G1737",
+    "activity_ids": [
+      12601
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 2425,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G2425",
+    "activity_ids": [
+      18691
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 2426,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G2425",
+    "activity_ids": [
+      18696
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 2427,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G2425",
+    "activity_ids": [
+      18699
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 2428,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G2425",
+    "activity_ids": [
+      18702
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 3086,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3086",
+    "activity_ids": [
+      23078
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 3087,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3086",
+    "activity_ids": [
+      23089
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 3088,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3086",
+    "activity_ids": [
+      23100
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 3198,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3198",
+    "activity_ids": [
+      23905
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 3224,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3224",
+    "activity_ids": [
+      24672
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 3225,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3224",
+    "activity_ids": [
+      24676
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 3226,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3224",
+    "activity_ids": [
+      24680
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 4015,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G4013",
+    "activity_ids": [
+      28735
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 4021,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G4013",
+    "activity_ids": [
+      28747
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 4339,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.6020599913279623,
+    "ratio_max_min": 3.999999999999999,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G1737",
+    "activity_ids": [
+      31234,
+      31238
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 4379,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.30102999566398103,
+    "ratio_max_min": 1.9999999999999993,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G1737",
+    "activity_ids": [
+      31244,
+      31248
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 4380,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.30102999566398103,
+    "ratio_max_min": 1.9999999999999993,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G1737",
+    "activity_ids": [
+      31254,
+      31258
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5545,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5545",
+    "activity_ids": [
+      39663
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5546,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5545",
+    "activity_ids": [
+      39673
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5547,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5545",
+    "activity_ids": [
+      39683
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5548,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5545",
+    "activity_ids": [
+      39693
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5549,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5545",
+    "activity_ids": [
+      39703
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5556,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5556",
+    "activity_ids": [
+      39782
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5557,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5556",
+    "activity_ids": [
+      39795
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5558,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5556",
+    "activity_ids": [
+      39808
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 5559,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G5556",
+    "activity_ids": [
+      39821
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 6669,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G6669",
+    "activity_ids": [
+      57368
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 6743,
+    "point_rows": 3,
+    "distinct_reported_point_values": 3,
+    "log10_range": 0.15645578805436489,
+    "ratio_max_min": 1.4336917562724016,
+    "distinct_observed_condition_tuples": 3,
+    "group": "G6742",
+    "activity_ids": [
+      46970,
+      148350,
+      162194
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 6785,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.3010299956639812,
+    "ratio_max_min": 2.0,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G6785",
+    "activity_ids": [
+      47335,
+      47337
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 8110,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G8110",
+    "activity_ids": [
+      91533
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 8157,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.3019569853049405,
+    "ratio_max_min": 2.0042735042735047,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G8157",
+    "activity_ids": [
+      58729,
+      58730
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 12453,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.30102999566398125,
+    "ratio_max_min": 2.0000000000000004,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G12453",
+    "activity_ids": [
+      95703,
+      95704
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 12529,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G12529",
+    "activity_ids": [
+      161390
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 13726,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G13726",
+    "activity_ids": [
+      107126
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 13735,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.30102999566398103,
+    "ratio_max_min": 1.9999999999999993,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G13735",
+    "activity_ids": [
+      107201,
+      107205
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 13736,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G13735",
+    "activity_ids": [
+      107203
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 17268,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.6020599913279625,
+    "ratio_max_min": 4.000000000000001,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G17268",
+    "activity_ids": [
+      133341,
+      133342
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 17269,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.6020599913279625,
+    "ratio_max_min": 4.000000000000001,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G17268",
+    "activity_ids": [
+      133347,
+      133348
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 17270,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.30102999566398125,
+    "ratio_max_min": 2.0000000000000004,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G17268",
+    "activity_ids": [
+      133355,
+      133356
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 17271,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.6020599913279625,
+    "ratio_max_min": 4.000000000000001,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G17268",
+    "activity_ids": [
+      133362,
+      133363
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 17272,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.6020599913279624,
+    "ratio_max_min": 4.0,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G17268",
+    "activity_ids": [
+      133369,
+      133370
+    ]
+  },
+  {
+    "unit": "ug_ml_native",
+    "peptide_id": 17273,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.30102999566398114,
+    "ratio_max_min": 1.9999999999999998,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G17268",
+    "activity_ids": [
+      133375,
+      133376
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 37,
+    "point_rows": 3,
+    "distinct_reported_point_values": 3,
+    "log10_range": 0.3802112417116059,
+    "ratio_max_min": 2.3999999999999995,
+    "distinct_observed_condition_tuples": 3,
+    "group": "G37",
+    "activity_ids": [
+      18406,
+      59455,
+      105180
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 107,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G102",
+    "activity_ids": [
+      51566
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 108,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G102",
+    "activity_ids": [
+      51569
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 110,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G103",
+    "activity_ids": [
+      340
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 111,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G103",
+    "activity_ids": [
+      343
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 874,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G873",
+    "activity_ids": [
+      62980
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 2396,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G2396",
+    "activity_ids": [
+      18584
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 2398,
+    "point_rows": 21,
+    "distinct_reported_point_values": 3,
+    "log10_range": 0.6020599913279624,
+    "ratio_max_min": 4.0,
+    "distinct_observed_condition_tuples": 21,
+    "group": "G2396",
+    "activity_ids": [
+      18590,
+      18593,
+      18594,
+      18603,
+      18604,
+      18605,
+      18606,
+      18607,
+      18608,
+      18609,
+      18610,
+      18611,
+      18612,
+      18613,
+      18614,
+      18615,
+      18616,
+      18617,
+      18618,
+      18619,
+      18620
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 2399,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G2396",
+    "activity_ids": [
+      18622
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 2400,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G2396",
+    "activity_ids": [
+      18625
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 2401,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G2396",
+    "activity_ids": [
+      18628
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 3232,
+    "point_rows": 5,
+    "distinct_reported_point_values": 5,
+    "log10_range": 0.6665179805548809,
+    "ratio_max_min": 4.64,
+    "distinct_observed_condition_tuples": 5,
+    "group": "G3232",
+    "activity_ids": [
+      24714,
+      24716,
+      24717,
+      68607,
+      101190
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 3301,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3301",
+    "activity_ids": [
+      25117
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 6568,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G3232",
+    "activity_ids": [
+      46020
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 6669,
+    "point_rows": 3,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 3,
+    "group": "G6669",
+    "activity_ids": [
+      183419,
+      183420,
+      183421
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 8110,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G8110",
+    "activity_ids": [
+      199969
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 12531,
+    "point_rows": 3,
+    "distinct_reported_point_values": 2,
+    "log10_range": 1.2041199826559248,
+    "ratio_max_min": 16.0,
+    "distinct_observed_condition_tuples": 3,
+    "group": "G12531",
+    "activity_ids": [
+      96162,
+      96164,
+      96166
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 12533,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.08092190762392612,
+    "ratio_max_min": 1.2048192771084338,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G12533",
+    "activity_ids": [
+      96187,
+      96200
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 12534,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.11394335230683679,
+    "ratio_max_min": 1.3,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G12533",
+    "activity_ids": [
+      96188,
+      96199
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 12535,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.08092190762392612,
+    "ratio_max_min": 1.2048192771084338,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G12533",
+    "activity_ids": [
+      96189,
+      96198
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 12536,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.3010299956639812,
+    "ratio_max_min": 2.0,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G12533",
+    "activity_ids": [
+      96190,
+      96197
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 12537,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.08092190762392612,
+    "ratio_max_min": 1.2048192771084338,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G12533",
+    "activity_ids": [
+      96191,
+      96196
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 12538,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.692439137177061,
+    "ratio_max_min": 4.925373134328357,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G12533",
+    "activity_ids": [
+      96192,
+      96195
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 12539,
+    "point_rows": 2,
+    "distinct_reported_point_values": 2,
+    "log10_range": 0.3174204118521506,
+    "ratio_max_min": 2.076923076923077,
+    "distinct_observed_condition_tuples": 2,
+    "group": "G12533",
+    "activity_ids": [
+      96193,
+      96194
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 13692,
+    "point_rows": 3,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 3,
+    "group": "G13692",
+    "activity_ids": [
+      106653,
+      106698,
+      106818
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 13693,
+    "point_rows": 3,
+    "distinct_reported_point_values": 3,
+    "log10_range": 0.6020599913279624,
+    "ratio_max_min": 4.0,
+    "distinct_observed_condition_tuples": 3,
+    "group": "G13692",
+    "activity_ids": [
+      106652,
+      106699,
+      106817
+    ]
+  },
+  {
+    "unit": "uM_native",
+    "peptide_id": 13726,
+    "point_rows": 1,
+    "distinct_reported_point_values": 1,
+    "log10_range": 0.0,
+    "ratio_max_min": 1.0,
+    "distinct_observed_condition_tuples": 1,
+    "group": "G13726",
+    "activity_ids": [
+      133771
+    ]
+  }
+]

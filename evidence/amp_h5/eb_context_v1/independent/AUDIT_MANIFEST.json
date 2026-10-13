@@ -1,0 +1,67 @@
+{
+  "utc": "2026-10-12T14:52:10.803753+00:00",
+  "files": {
+    "independent/FINAL_AUDIT.md": {
+      "bytes": 3056,
+      "sha256": "7f758ead53f8876fa1f199d5668725e86bd5e773ed3eca3337413d724cb4449b"
+    },
+    "independent/INITIAL_AUDITOR_VOCAB_FAILURE.json": {
+      "bytes": 1766,
+      "sha256": "9725064a97d0f382110d9a74b8bf19aa77cce2398945a23853216fa90ffff1af"
+    },
+    "independent/MODEL_SYNTHETIC_AUDIT.json": {
+      "bytes": 924,
+      "sha256": "360710a6ae682f7c6b122df8c9b03063b13181f779496d942cb25d26e7d27e8b"
+    },
+    "independent/MODEL_SYNTHETIC_AUDIT_FINAL.json": {
+      "bytes": 924,
+      "sha256": "1f93478ff3ce902c5f91f24d4006cc16ff2f4bc74d9431d520f570109f6e594d"
+    },
+    "independent/PREFLIGHT.json": {
+      "bytes": 2531,
+      "sha256": "7cd02d0c39761658c14cd61ab4fa6ea94988ee393f8a5ab660e80db216e5deff"
+    },
+    "independent/RESULT_AUDIT.json": {
+      "bytes": 6511,
+      "sha256": "42614975d848058e5f3d7fed10abf046cfeb851fe7974778d4b08f5bb998479c"
+    },
+    "independent/REVIEW_CRITERIA.md": {
+      "bytes": 2876,
+      "sha256": "a0bed9655a8d35b7a6897de410b63d90d8a3717b1a082e74baee1b47708609d0"
+    },
+    "independent/SCIENCE_SCOPE_REVIEW.md": {
+      "bytes": 2307,
+      "sha256": "001f6102e97b46b4a40cc52dcdc5fbb3eada1ac2bd46f905f75e0715d3d48b91"
+    },
+    "independent/SECOND_AUDITOR_JSON_KEY_FAILURE.json": {
+      "bytes": 7800,
+      "sha256": "a33dfe396869a5254cc70d86c30c404f47f2a92dfab591c270c7705712838937"
+    },
+    "independent/audit_saved_outputs.py": {
+      "bytes": 16013,
+      "sha256": "d11bade9330e8832d06851b8479c10b74fcb8553262232df8c1da5de28b73820"
+    },
+    "independent/audit_saved_outputs_initial_ar_vocab_bug.py": {
+      "bytes": 15381,
+      "sha256": "9baceb5567446adbea4abc8684d2cc552d52130a3089da90352bace853f5cf61"
+    },
+    "independent/audit_saved_outputs_json_key_bug.py": {
+      "bytes": 15644,
+      "sha256": "041adbc57338754be0c3baf5d8d2c4ebd286c67af14615b2b66117ae7a19ad6c"
+    },
+    "independent/test_grouping_independent.py": {
+      "bytes": 2295,
+      "sha256": "06a70baf07bdb3d2243695a5153790f8211bc830b42fad0e2d837f0ae0852d10"
+    },
+    "independent/test_model_independent.py": {
+      "bytes": 5334,
+      "sha256": "46a90154699b8456a3ec80df4b6f2442b7767334d4604de03a625681532a1282"
+    },
+    "independent/test_runner_independent.py": {
+      "bytes": 3191,
+      "sha256": "ca70f41913506c4e2d334a1e0c5789901a3614c0afc2e6eb030012c4a09a15b8"
+    }
+  },
+  "natural_result_sha256": "2365d92ff7bec6e23b1b413a0f1250c3dbe27c54a267a16e94202b896ebea7c7",
+  "freeze_sha256": "540c3552ef14b997f318fd200d03854194304439ccd51b87d3da1172c550b296"
+}

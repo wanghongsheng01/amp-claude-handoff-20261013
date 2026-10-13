@@ -1,0 +1,160 @@
+{
+  "scope_id": "AMP_H5_WARMUP_SCORING_PREPARATION_V1",
+  "created_utc": "2026-10-11T21:22:45.381041+00:00",
+  "status": "FROZEN_CANDIDATE_PENDING_INDEPENDENT_PREAUDIT",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/ARGV.json",
+      "sha256": "c9de388113c933e5fdcca0bc92b4fa26de315d4e542471dbb8d14cd13baa36e4",
+      "bytes": 1587
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/PAIRED_GUARD_CONTRACT.json",
+      "sha256": "67fc0c6529655f45c1f40865eda84d36cc9791086495bb5f074ca1c64c648044",
+      "bytes": 6849
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/README.zh.md",
+      "sha256": "61d418ce6145715ec7819353ce2b613fd06d780c6174414118be384dae291b9f",
+      "bytes": 2159
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/SCORING_CONTRACT.json",
+      "sha256": "4b254f25211de24f0dfce05cf282b3306d83edce14d7e02457a1335d1d0bca7f",
+      "bytes": 6943
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/SYNTHETIC_RESULT_v1.json",
+      "sha256": "0decdc02afd48ab0b43d50de1d22be1e6e00ca35a39144b38ad4d7e8df535ea1",
+      "bytes": 1741
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/SYNTHETIC_RESULT_v2.json",
+      "sha256": "bd202140cdba8d702b670843e37b4f812c7209b536805df59f06ff2e5f1c528a",
+      "bytes": 1742
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/paired_guard_v1.py",
+      "sha256": "3bb4d3a3cd2b8247de8540ce5e5a8cabeb6992d51c0dd6b011f61ac6b396c2e2",
+      "bytes": 15404
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+      "sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+      "bytes": 27857
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/synthetic_guard_checks.py",
+      "sha256": "6bb27b0333b2c204992ab0b2d37a844ef118e87f2b5224668a51e7c1cb7b1381",
+      "bytes": 5784
+    }
+  ],
+  "natural_executions": 0,
+  "model_calls": 0,
+  "training_updates": 0,
+  "random_draws": 0,
+  "test_access": false,
+  "mathematics_reuse": "scorer byte-identical to frozen v2 except SCOPE constant",
+  "synthetic_latest": {
+    "status": "PASS",
+    "checks": [
+      {
+        "name": "exact 1/20 boundary passes",
+        "status": "PASS"
+      },
+      {
+        "name": "wider gap is descriptive and not fifth guard",
+        "status": "PASS"
+      },
+      {
+        "name": "M decline fails",
+        "status": "PASS"
+      },
+      {
+        "name": "M length1 fails baselinezero guard",
+        "status": "PASS"
+      },
+      {
+        "name": "gap shrink with no S gain fails",
+        "status": "PASS"
+      },
+      {
+        "name": "one count below exact boundary fails without tolerance",
+        "status": "PASS"
+      },
+      {
+        "name": "missing train slot invalidates all",
+        "status": "PASS"
+      },
+      {
+        "name": "duplicate slot invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "nonfinite train slot invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "failed status invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "seed mismatch invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "row key mismatch invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "terminal mismatch invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "target length mismatch invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "float count invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "boolean count invalidates",
+        "status": "PASS"
+      },
+      {
+        "name": "macro exposure mismatch",
+        "status": "PASS"
+      },
+      {
+        "name": "macro counts must sum to row counts",
+        "status": "PASS"
+      },
+      {
+        "name": "AA macro can fail despite sequence accuracy gain",
+        "status": "PASS"
+      },
+      {
+        "name": "fixed baseline zero length must hold",
+        "status": "PASS"
+      },
+      {
+        "name": "completed empty retained as data not incomplete",
+        "status": "PASS"
+      },
+      {
+        "name": "scorer exactly identical except scope constant",
+        "status": "PASS"
+      }
+    ],
+    "check_count": 22,
+    "elapsed_seconds": 0.396630167,
+    "scope": "pure deterministic synthetic statistics and code identity; no natural scoring",
+    "model_calls": 0,
+    "natural_data_reads": 0,
+    "random_draws": 0,
+    "guard_sha256": "3bb4d3a3cd2b8247de8540ce5e5a8cabeb6992d51c0dd6b011f61ac6b396c2e2"
+  },
+  "prior_preparation_run_preserved": "SYNTHETIC_RESULT_v1.json",
+  "late_bound_candidate_outputs": "No fabricated weight/output/postflight hashes; require model and scorer independent postflight plus root single-run authorization."
+}

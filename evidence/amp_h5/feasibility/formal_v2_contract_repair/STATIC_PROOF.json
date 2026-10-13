@@ -1,0 +1,131 @@
+{
+  "scope": "Static AST and train/dev input-contract validation only; no torch/numpy/model import, no training or generation, no test read.",
+  "old_runner_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal.py",
+  "old_runner_sha256": "9580bf84e2ffc2d2d357f77eaca04c338b6608abe0f6a30c17c578cf6e3606b5",
+  "new_runner_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+  "new_runner_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+  "changed_top_level_units": [
+    "read_records",
+    "validate_config",
+    "run"
+  ],
+  "identical_top_level_units": [
+    "sha",
+    "dump",
+    "log",
+    "write_csv",
+    "init_runtime",
+    "finite",
+    "state_hash",
+    "batch_hash",
+    "check_parameters",
+    "FeatureScaler",
+    "make_model",
+    "objective",
+    "joint_decode",
+    "decode",
+    "cycling_indices",
+    "inherited_vae_lr",
+    "Budget",
+    "save_model",
+    "train_vae",
+    "posterior_parameters",
+    "noise_schedule",
+    "train_ddpm",
+    "allocated_requests",
+    "tensor_observation_summary",
+    "save_generation_observations",
+    "generate",
+    "monitor_mean",
+    "reconstruction_export",
+    "benchmark",
+    "main"
+  ],
+  "config_bindings": {
+    "categorical_ce": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "prior_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs/categorical_ce.json",
+      "prior_sha256": "1d3cca4cea9c5c90dfa3f9934e6a9bef399501566171536a6549b31fdfda65bb",
+      "changed_keys": [
+        "implementation_sha256",
+        "train_idx_start",
+        "dev_idx_start"
+      ]
+    },
+    "raw_onehot_mse": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/raw_onehot_mse.json",
+      "sha256": "861d530bce7529826ed481697083a4efee016cce24878d85dced240b28d9d004",
+      "prior_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs/raw_onehot_mse.json",
+      "prior_sha256": "233789a8b337494784c9b19c7449e5892a361d39e510ca2e3d9b8f714f0ccdb2",
+      "changed_keys": [
+        "implementation_sha256",
+        "train_idx_start",
+        "dev_idx_start"
+      ]
+    },
+    "scalar_legacy": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0",
+      "prior_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs/scalar_legacy.json",
+      "prior_sha256": "dc9f2e9f459cd5b52f429a0047ba09e15148878b0364f58a4f9afaca348aa20f",
+      "changed_keys": [
+        "implementation_sha256",
+        "train_idx_start",
+        "dev_idx_start"
+      ]
+    }
+  },
+  "checks": {
+    "categorical_ce_config_valid": true,
+    "raw_onehot_mse_config_valid": true,
+    "scalar_legacy_config_valid": true,
+    "train_bound_loader_pass": {
+      "records": 279,
+      "first_idx": 0,
+      "last_idx": 278
+    },
+    "train_wrong_offset_rejected": "cohort/descriptor row identity differs at 0",
+    "dev_bound_loader_pass": {
+      "records": 41,
+      "first_idx": 279,
+      "last_idx": 319
+    },
+    "dev_wrong_offset_rejected": "cohort/descriptor row identity differs at 0",
+    "train_idx_start_reject_279": "frozen train source indices must start at 0",
+    "dev_idx_start_reject_0": "frozen development source indices must start at 279",
+    "dev_idx_start_reject_True": "frozen development source indices must start at 279"
+  },
+  "no_model_import": true,
+  "no_data_reorder_or_source_write": true,
+  "original_failed_run_files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/categorical_ce/config.json",
+      "sha256": "1d3cca4cea9c5c90dfa3f9934e6a9bef399501566171536a6549b31fdfda65bb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/categorical_ce/generated.csv",
+      "sha256": "776950caeecda5b6541321b7965d303abca50cd2486ea913c0c2b73cd8b9eecb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/categorical_ce/manifest.json",
+      "sha256": "8fafa2eb3f2c839b502030b5702bd29c5503395435392e732dd27d2204a7478d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/categorical_ce/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/categorical_ce/status.json",
+      "sha256": "213d495b3dabd9391641987ec641534defafe8d3fbe7601ed8fea629f8c3f5c1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_ce_execution_v1/SUPERVISOR_STATUS.json",
+      "sha256": "486fc5e48dc52f35d34fecb9d20061f99dab59760c3781f492405615abac3a66"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_ce_execution_v1/categorical_ce.console.log",
+      "sha256": "7313fec56f317fe45ab8bb4239e4599db1b202f612498d58b334bad3be69e866"
+    }
+  ]
+}

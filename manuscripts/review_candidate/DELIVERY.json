@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETE_FOR_REVIEW",
+  "submission": "NO_GO",
+  "candidate_venue": "Bioinformatics Original Paper",
+  "delivery_files": [
+    {
+      "path": "build/main.pdf",
+      "bytes": 360732,
+      "sha256": "a5e484e1b81d5d82051b36b9759d0782d0375ed1ff4b05b5f8d2355210e1b788"
+    },
+    {
+      "path": "build/supplement.pdf",
+      "bytes": 251774,
+      "sha256": "c082d5f2d403ce9d0069721c2a62a4f953411103b88912eb01fcf9a48a2424fb"
+    },
+    {
+      "path": "build/cover_letter.pdf",
+      "bytes": 95637,
+      "sha256": "a0fb6d3785558c15f3c5835b811ad97a8cf591a4a8a66698a2d18c42738534d7"
+    },
+    {
+      "path": "build/decision.pdf",
+      "bytes": 86308,
+      "sha256": "76b08bb60c56e29f24e24bcf824650fbce0b6622acb8640b76828469ca36fb56"
+    },
+    {
+      "path": "AMP_H5_Overleaf_review_candidate.zip",
+      "bytes": 82990,
+      "sha256": "d91e31d96357a2f4975b7ba6bcf5bd77e7cc08216212e05827066589196a971e"
+    },
+    {
+      "path": "AMP_H5_complete_review_bundle.zip",
+      "bytes": 1121595,
+      "sha256": "946ff176f36da9c63008e396faf2605dc07baf23b5ce2ae89b9cc6856a8d9112"
+    }
+  ],
+  "source_files_in_overleaf_zip": 13,
+  "bundle_members": 73,
+  "bundle_CRC_and_member_hashes": "PASS",
+  "clean_extracted_source_build": "PASS_LOCAL_NOT_OVERLEAF_CLOUD",
+  "scientific_review": "PASS_REPAIRED_SCIENTIFIC_REPORTING_ONLY",
+  "guideline_review": "PASS_FOR_REVIEW_CANDIDATE",
+  "surface_layout": "PASS_WITH_DOCUMENTED_EXTRACTION_FALLBACK",
+  "full_submission_gate": "NOT_PASSED",
+  "human_author_verification": "PENDING",
+  "no_new_training": true,
+  "no_test_access": true,
+  "no_external_upload": true,
+  "backup": "BACKUP_BLOCKED"
+}

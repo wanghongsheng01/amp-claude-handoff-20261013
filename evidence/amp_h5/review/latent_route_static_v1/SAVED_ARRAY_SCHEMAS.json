@@ -1,0 +1,419 @@
+{
+  "npz": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a",
+      "arrays": {
+        "values": {
+          "shape": [
+            279,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "labels": {
+          "shape": [
+            279
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "row_ids": {
+          "shape": [
+            279
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_posterior_parameters.npz",
+      "sha256": "803241f2a112a732b69d607fb8922d93f9828824dc4e0f44d1f932ea02249617",
+      "arrays": {
+        "values": {
+          "shape": [
+            279,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "labels": {
+          "shape": [
+            279
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "row_ids": {
+          "shape": [
+            279
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+      "sha256": "f7899543f330e1fed829e592269c09c9b747e45abbffe2ec251f3e69c37fae0d",
+      "arrays": {
+        "values": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4",
+      "arrays": {
+        "posterior_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "z": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "raw": {
+          "shape": [
+            16,
+            21,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "tokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "lengths": {
+          "shape": [
+            16
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "length_scores": {
+          "shape": [
+            16,
+            49
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz",
+      "sha256": "fd987de8fec498386f414b3c64db0512f916253d4f294152c97a095eb6d30722",
+      "arrays": {
+        "values": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a",
+      "arrays": {
+        "posterior_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "z": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "raw": {
+          "shape": [
+            16,
+            21,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "tokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "lengths": {
+          "shape": [
+            16
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "length_scores": {
+          "shape": [
+            16,
+            49
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_FREE.npz",
+      "sha256": "79b4282b306cb92a7a77220be22bd897b5a70855a49981daecbe97a34192c68e",
+      "arrays": {
+        "values": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_FREE.npz",
+      "sha256": "189f4a97ee509c1c61569be4c42ba98fd7b8ef4712077bc43a99de0763e8810d",
+      "arrays": {
+        "posterior_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "z": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "raw": {
+          "shape": [
+            16,
+            21,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "tokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "lengths": {
+          "shape": [
+            16
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "length_scores": {
+          "shape": [
+            16,
+            49
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_AMD.npz",
+      "sha256": "49cc4057e28afc4cd035b133773406ea4bc513f5a8aadde958d36202f14729b9",
+      "arrays": {
+        "values": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_AMD.npz",
+      "sha256": "7c489cc1a2b04f041ca5357572cd6c67662253cd368a3c7c11ef333fa9e641c9",
+      "arrays": {
+        "posterior_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "z": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "raw": {
+          "shape": [
+            16,
+            21,
+            48
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        },
+        "tokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "lengths": {
+          "shape": [
+            16
+          ],
+          "dtype": "<i8",
+          "fortran_order": false
+        },
+        "length_scores": {
+          "shape": [
+            16,
+            49
+          ],
+          "dtype": "<f4",
+          "fortran_order": false
+        }
+      }
+    }
+  ],
+  "reconstruction_csv_headers": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+      "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020",
+      "header": [
+        "row_id",
+        "terminal",
+        "truth_sequence",
+        "prediction_sequence",
+        "prediction_tokens48",
+        "raw_prediction_tokens48",
+        "token_encoding",
+        "status"
+      ],
+      "row_values_parsed": false
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+      "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49",
+      "header": [
+        "row_id",
+        "terminal",
+        "truth_sequence",
+        "prediction_sequence",
+        "prediction_tokens48",
+        "raw_prediction_tokens48",
+        "token_encoding",
+        "status"
+      ],
+      "row_values_parsed": false
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_reconstruction.csv",
+      "sha256": "c51ef3d43c43e1ea37ec06fc89945115ed7bcc1cf7a453608d73788f64d1e0a0",
+      "header": [
+        "row_id",
+        "terminal",
+        "truth_sequence",
+        "prediction_sequence",
+        "prediction_tokens48",
+        "raw_prediction_tokens48",
+        "token_encoding",
+        "status"
+      ],
+      "row_values_parsed": false
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/dev_reconstruction.csv",
+      "sha256": "1b0b6836e6129e1e924fb5ceb3329295e4681b643163ac1b2cf2781a636953ec",
+      "header": [
+        "row_id",
+        "terminal",
+        "truth_sequence",
+        "prediction_sequence",
+        "prediction_tokens48",
+        "raw_prediction_tokens48",
+        "token_encoding",
+        "status"
+      ],
+      "row_values_parsed": false
+    }
+  ],
+  "inspection": "NPY headers only; no tensor values loaded or numerical quality calculated. SHA256 is byte-level I/O only."
+}

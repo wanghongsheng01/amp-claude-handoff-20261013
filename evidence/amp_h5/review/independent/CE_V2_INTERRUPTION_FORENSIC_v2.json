@@ -1,0 +1,508 @@
+{
+  "created_utc": "2026-10-11T17:38:02.588125+00:00",
+  "status": "TRAINING_CHECKPOINTS_VERIFIED_ORIGINAL_ATTEMPT_INCOMPLETE",
+  "checks": [
+    {
+      "name": "plan_and_command_bound",
+      "pass": true
+    },
+    {
+      "name": "plan_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "config_identical_to_frozen",
+      "pass": true
+    },
+    {
+      "name": "runner_hash_unchanged",
+      "pass": true
+    },
+    {
+      "name": "recorded_CPU_singlethread_sources_bound",
+      "pass": true
+    },
+    {
+      "name": "exact_four_train_dev_input_hashes",
+      "pass": true
+    },
+    {
+      "name": "recorded_train_dev_contract_validated_no_test",
+      "pass": true
+    },
+    {
+      "name": "train_only_scaler_finite",
+      "pass": true
+    },
+    {
+      "name": "vae_exact1000_finite_updates",
+      "pass": true
+    },
+    {
+      "name": "vae_stage_cap_met",
+      "pass": true
+    },
+    {
+      "name": "ddpm_exact1000_finite_updates",
+      "pass": true
+    },
+    {
+      "name": "ddpm_stage_cap_met",
+      "pass": true
+    },
+    {
+      "name": "summed_stage_training_times_within_shared_cap",
+      "pass": true,
+      "detail": {
+        "scope": "Sum of stage measurements; top-level training_seconds was not flushed. Not a recovered exact total."
+      }
+    },
+    {
+      "name": "vae_all_seed222_batch_order",
+      "pass": true
+    },
+    {
+      "name": "vae_original_lr",
+      "pass": true
+    },
+    {
+      "name": "vae_objective_accounting",
+      "pass": true
+    },
+    {
+      "name": "vae_first20_rng_batch_match_smoke",
+      "pass": true
+    },
+    {
+      "name": "ddpm1000_same_batch_noise_drop_lr_as_frozen_maturity",
+      "pass": true
+    },
+    {
+      "name": "ten_fixed_rng_preserving_dev_monitors",
+      "pass": true
+    },
+    {
+      "name": "vae_initial_state_sha_digest_all_finite",
+      "pass": true
+    },
+    {
+      "name": "vae_state_sha_digest_all_finite",
+      "pass": true
+    },
+    {
+      "name": "vae_state_1000_endpoint_metadata",
+      "pass": true
+    },
+    {
+      "name": "ddpm_state_sha_digest_all_finite",
+      "pass": true
+    },
+    {
+      "name": "ddpm_state_1000_endpoint_metadata",
+      "pass": true
+    },
+    {
+      "name": "ddpm_ema_state_sha_digest_all_finite",
+      "pass": true
+    },
+    {
+      "name": "ddpm_ema_state_1000_endpoint_metadata",
+      "pass": true
+    },
+    {
+      "name": "vae_fresh_init_and_changed_final",
+      "pass": true
+    },
+    {
+      "name": "ddpm_original_ema_copy_semantics",
+      "pass": true
+    },
+    {
+      "name": "ddpm_seed322_init_matches_fixed_diagnostic",
+      "pass": true
+    },
+    {
+      "name": "saved_optimizers_finite_and_completed1000",
+      "pass": true
+    },
+    {
+      "name": "vae_existing_optimizer_steps1000",
+      "pass": true
+    },
+    {
+      "name": "ddpm_optimizer_steps_match_actual_conditional_usage",
+      "pass": true
+    },
+    {
+      "name": "ddpm_scheduler_1000",
+      "pass": true
+    },
+    {
+      "name": "last_monitor_rng_equals_saved_vae_rng",
+      "pass": true
+    },
+    {
+      "name": "posterior_train279_finite_schema",
+      "pass": true
+    },
+    {
+      "name": "train_posterior_sigma_finite_positive",
+      "pass": true
+    },
+    {
+      "name": "all32_original_preallocated_slots_retained",
+      "pass": true
+    },
+    {
+      "name": "observed_incomplete_FREE_chain_only",
+      "pass": true
+    },
+    {
+      "name": "no_generated_final_or_failure_artifacts",
+      "pass": true
+    },
+    {
+      "name": "original_unclosed_status_retained",
+      "pass": true
+    },
+    {
+      "name": "all_original_run_files_unchanged_during_audit",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "original_attempt_outcome": "PROCESS_ABSENT_PER_SEPARATE_READONLY_PS; STALE_RUNNING_RECORDS; NO_FINAL_GENERATION_OR_EXIT_STATUS; CAUSE_UNKNOWN",
+  "process_evidence": {
+    "tool": "exec_command ps -p 60744,60747,60887 -o pid,ppid,etime,%cpu,stat,command",
+    "reviewer_observation": "Approved read-only ps returned exit1 and only column header, no rows for these three PIDs. No signals sent. First unprivileged ps was blocked by sandbox.",
+    "parent_also_reported_absence": true
+  },
+  "audit_correction": {
+    "preserved_previous_report": "CE_V2_INTERRUPTION_FORENSIC_v1.json",
+    "correction": "v1 wrongly required every Adam state step=1000. Conditional label_emb.weight receives gradients only on nondropped label steps; observed894 matches894 nondropped updates. This is an audit-assumption correction, not a model or protocol repair.",
+    "nondropped_condition_updates": 894,
+    "ddpm_step_distribution": {
+      "1000.0": 176,
+      "894.0": 1
+    },
+    "less_than1000_states": [
+      {
+        "parameter_id": 176,
+        "parameter_name": "label_emb.weight",
+        "step": 894.0,
+        "expected_step": 894,
+        "shape_matches": true
+      }
+    ]
+  },
+  "training_summary": {
+    "vae": {
+      "updates": 1000,
+      "requested_updates": 1000,
+      "fixed_endpoint_reached": true,
+      "initial_tensor_state_sha256": "9a6ad5d1c90f1da55bc02310ef77adc6425f6fb419099859159149d361ec478d",
+      "elapsed_seconds_before_checkpoint_io": 1178.9785047080368,
+      "elapsed_seconds": 1179.0319216251373
+    },
+    "ddpm": {
+      "updates": 1000,
+      "requested_updates": 1000,
+      "fixed_endpoint_reached": true,
+      "initial_tensor_state_sha256": "bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f",
+      "posterior_encoding_and_setup_seconds": 6.299964915961027,
+      "elapsed_seconds_before_checkpoint_io": 563.7486409158446,
+      "parameters": 18612994,
+      "ema_step": 1000,
+      "ema_semantics": "inherited reset/copy until 2000 updates; beta=.995 thereafter",
+      "elapsed_seconds": 564.3461695411243
+    }
+  },
+  "training_stage_sum_seconds": 1743.3780911662616,
+  "state_digests": {
+    "vae_initial_state": "9a6ad5d1c90f1da55bc02310ef77adc6425f6fb419099859159149d361ec478d",
+    "vae_state": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+    "ddpm_state": "a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c",
+    "ddpm_ema_state": "a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c"
+  },
+  "train_posterior_scales": {
+    "pooled": {
+      "records": 279,
+      "mu_min": -4.517267227172852,
+      "mu_max": 5.389507293701172,
+      "logsigma_min": -0.2593546509742737,
+      "logsigma_max": 0.22645030915737152,
+      "sigma_min": 0.7715493440628052,
+      "sigma_max": 1.2541402578353882,
+      "analytic_qz_rms": 1.5820129416126743
+    },
+    "FREE": {
+      "records": 126,
+      "mu_min": -4.517267227172852,
+      "mu_max": 5.377812385559082,
+      "logsigma_min": -0.2593546509742737,
+      "logsigma_max": 0.22645030915737152,
+      "sigma_min": 0.7715493440628052,
+      "sigma_max": 1.2541402578353882,
+      "analytic_qz_rms": 1.596321881030395
+    },
+    "AMD": {
+      "records": 153,
+      "mu_min": -4.4912109375,
+      "mu_max": 5.389507293701172,
+      "logsigma_min": -0.24300900101661682,
+      "logsigma_max": 0.22155611217021942,
+      "sigma_min": 0.7842644453048706,
+      "sigma_max": 1.2480173110961914,
+      "analytic_qz_rms": 1.5701311990954532
+    }
+  },
+  "generation_observation": {
+    "progress": [
+      {
+        "terminal": "FREE",
+        "timestep": 900,
+        "elapsed_seconds": 55.64839508384466
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 800,
+        "elapsed_seconds": 112.29065087484196
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 700,
+        "elapsed_seconds": 168.65210954193026
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 600,
+        "elapsed_seconds": 225.78185599995777
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 500,
+        "elapsed_seconds": 283.17470291676
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 400,
+        "elapsed_seconds": 339.6782282497734
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 300,
+        "elapsed_seconds": 395.79329941701144
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 200,
+        "elapsed_seconds": 451.9357427917421
+      }
+    ],
+    "last_recorded_elapsed_seconds": 451.9357427917421,
+    "recorded_completed_sequences": 0,
+    "external_attempt_accounting": {
+      "FREE": {
+        "requests": 16,
+        "state": "partial_interrupted",
+        "minimum_reverse_steps_per_request": 799
+      },
+      "AMD": {
+        "requests": 16,
+        "state": "no_start_evidence"
+      }
+    },
+    "retained_slots": 32,
+    "all_slots_status": "not_executed",
+    "interpretation": "CSV is preallocated and updated only after a terminal batch; it is not evidence that no generation computation occurred. FREE chain reached at least t200; unknown additional work after last flushed log.",
+    "absent_final_artifacts": [
+      "manifest.json",
+      "generation_summary.json",
+      "train_reconstruction.csv",
+      "dev_reconstruction.csv",
+      "generated_FREE.npz",
+      "generated_AMD.npz",
+      "generated_posterior_FREE.npz",
+      "generated_posterior_AMD.npz",
+      "generation_failure_FREE.npz",
+      "generation_failure_AMD.npz",
+      "generation_errors.jsonl"
+    ]
+  },
+  "original_status": {
+    "state": "running",
+    "purpose": "formal_pilot",
+    "config_sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+    "runner_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+    "test_read": false,
+    "development_read": true,
+    "train_read_attempted": true,
+    "train_read_validated": true,
+    "development_read_attempted": true,
+    "development_read_validated": true
+  },
+  "original_supervisor": {
+    "pid": 60744,
+    "created_utc": "2026-10-11T16:48:18.257064+00:00",
+    "state": "running",
+    "plan_sha256": "ce193e133e86d995c21e4596412ce08ee61bb2be3cb47b2549d4f11f5c86f2d6",
+    "jobs": [
+      {
+        "id": "categorical_ce",
+        "argv": [
+          "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+          "-u",
+          "-B",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "run",
+          "--config",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+          "--output",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce"
+        ],
+        "started_utc": "2026-10-11T16:48:18.257378+00:00",
+        "state": "running",
+        "pid": 60747
+      }
+    ]
+  },
+  "frozen_run_files": [
+    {
+      "path": "config.json",
+      "bytes": 2541,
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "ddpm_ema_state.json",
+      "bytes": 611,
+      "sha256": "97f3db5bf0286af52f05cf46291cc3b1f2ce290cfda451d0e0fe77dbe980e0ac"
+    },
+    {
+      "path": "ddpm_ema_state.pt",
+      "bytes": 74515981,
+      "sha256": "e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1"
+    },
+    {
+      "path": "ddpm_state.json",
+      "bytes": 611,
+      "sha256": "77e0999541e9ffb5c6eca8188b4037d1d5dcf5835e7a60ad032f4a6f26b336af"
+    },
+    {
+      "path": "ddpm_state.pt",
+      "bytes": 74515249,
+      "sha256": "c3e29c13282a602e0ac15bb69430d36f1a8e4651a9c2d88a2a32833553f7c56c"
+    },
+    {
+      "path": "ddpm_train.jsonl",
+      "bytes": 339421,
+      "sha256": "36a18c5204ccc829e84f619b8cc8089f2f6448b553c9e890987a0724ee088aa6"
+    },
+    {
+      "path": "ddpm_training_state.pt",
+      "bytes": 149054122,
+      "sha256": "3be0ecad2d82aac7f16ba60d1d885c2d5a5cc5b5b6ad958b9dff36d160913fbd"
+    },
+    {
+      "path": "ddpm_training_summary.json",
+      "bytes": 478,
+      "sha256": "74755fd716e27fd37f4cb13334689df3cff80f17c75d4d7d2bc0dc9e083c09d9"
+    },
+    {
+      "path": "dev_monitor.jsonl",
+      "bytes": 4114,
+      "sha256": "779afe8b424c4331a835d0f4c8e362fa02d8484a0273cf72c3fa4de8ac441afa"
+    },
+    {
+      "path": "generated.csv",
+      "bytes": 1878,
+      "sha256": "776950caeecda5b6541321b7965d303abca50cd2486ea913c0c2b73cd8b9eecb"
+    },
+    {
+      "path": "generation_progress.jsonl",
+      "bytes": 610,
+      "sha256": "55a0673706bb588faea5275c7c37209dd3daf446ae1671719c8babc2e1d0fae4"
+    },
+    {
+      "path": "runtime_and_source.json",
+      "bytes": 24995,
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "path": "status.json",
+      "bytes": 418,
+      "sha256": "cb567d110d39209ee2248106d5d8fb74fdcb9ab31ab0cb02e75c92ea47d8ab92"
+    },
+    {
+      "path": "train_feature_scaler.json",
+      "bytes": 3279,
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d"
+    },
+    {
+      "path": "train_posterior_parameters.npz",
+      "bytes": 1315674,
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "vae_initial_state.json",
+      "bytes": 208,
+      "sha256": "c7513b462362422ed3d7e117faf9f972839ae231b972f5db76c3b226accf888a"
+    },
+    {
+      "path": "vae_initial_state.pt",
+      "bytes": 6802066,
+      "sha256": "9c1972402bdfcfc56fa58656858a110fa7fd7ca58a438e8a4b6b43dd2669429c"
+    },
+    {
+      "path": "vae_initialization.json",
+      "bytes": 170,
+      "sha256": "8ea13f7d4d425c37d53a1f2dfce797f56b900b489bf3ed07a8a97fa3e1ac094c"
+    },
+    {
+      "path": "vae_state.json",
+      "bytes": 421,
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490"
+    },
+    {
+      "path": "vae_state.pt",
+      "bytes": 6800314,
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475"
+    },
+    {
+      "path": "vae_train.jsonl",
+      "bytes": 557312,
+      "sha256": "d88e9fff8e1aad92071eb12440d8c0604857c41b6725b6d3c4c2dbfa7d89ceae"
+    },
+    {
+      "path": "vae_training_state.pt",
+      "bytes": 13627459,
+      "sha256": "562bb39de972ea2c9578a0ff2955e4e104d143374a4d4890d6b40e2c0f058be8"
+    },
+    {
+      "path": "vae_training_summary.json",
+      "bytes": 289,
+      "sha256": "d9c10cda3fdbc3f070414f89a9bccc727627dd1bdbaaeb3daf7f4b41ba662ce2"
+    }
+  ],
+  "frozen_supervisor_sha256": "168f658c1a849436cc8773a12c87ab97e01d187bdc2bbd61c7a7ce30da96e970",
+  "audit_script_sha256": "0c2a7040fcaac44d0f4ec068aab05ef16422239eba92f13ff7ff6ef87a47291c",
+  "reviewer_actions": {
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "new_generation_requests": 0,
+    "natural_CSV_parsing": 0,
+    "sealed_test37_reads": 0,
+    "saved_tensor_loading": "weights_only model/Adam or strict OneCycle metadata allowlist with inert callable; no unrestricted pickle",
+    "original_files_written": 0
+  },
+  "limitations": [
+    "No terminal exit code, traceback, crash report or final sampler state exists here; transport disconnection is temporally associated, not proven causal.",
+    "Stage durations sum to a recorded training subtotal; exact top-level process and generation duration were not flushed.",
+    "No generation finite/scale claim and no original v2 engineering PASS.",
+    "No OS file-access tracing; no-test evidence is exact input hashes/path/source and recorded read flags."
+  ],
+  "recovery_authorized": false,
+  "original_v2_PASS": false,
+  "MSE_scalar_authorized": false,
+  "PROMOTE": "HOLD"
+}

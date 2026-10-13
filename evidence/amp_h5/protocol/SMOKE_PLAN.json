@@ -1,0 +1,99 @@
+{
+  "scope": "AMP H5 train-only smoke",
+  "workspace": "/Users/loctek/Documents/Codex/2026-10-11/task-4",
+  "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1",
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SMOKE_PROTOCOL.json",
+      "sha256": "a806424b497ae7831cef9d958f2728c443e4830e252c5057a9d3262d9b5d9fa1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/AR_SMOKE_CONFIG.json",
+      "sha256": "ad9d1af692c8c12caa15469f123d08737f05fa608aaade3c9601ed71a77d26ee"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+      "sha256": "9fabbd28171a7b1f98118161ca399dbc1fa81a3448cdb42668cddbf0468a492b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_pipeline.py",
+      "sha256": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_entry.py",
+      "sha256": "c3cb73cfce6753af982a71c6e4eec6ede7deaa914ea9ffc12e1412b8d6c26807"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/categorical_ce.json",
+      "sha256": "dabd8378a478d282da46053ff6c9d60b09574409ffd956ca7ecf98fe57f8618f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/raw_onehot_mse.json",
+      "sha256": "301fe404e7d90abd7ed48718f0ebd7c19312401756ee4ac776dedb22bbad92a7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/scalar_legacy.json",
+      "sha256": "f46c560fd2da9da68f76490e284f65e0aa5723270c24e703552815aaf2a3c3c9"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "terminal_lstm",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_entry.py",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/AR_SMOKE_CONFIG.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/terminal_lstm"
+      ],
+      "outer_timeout_seconds": 750
+    },
+    {
+      "id": "categorical_ce",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/categorical_ce.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/categorical_ce"
+      ],
+      "outer_timeout_seconds": 750
+    },
+    {
+      "id": "raw_onehot_mse",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/raw_onehot_mse.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/raw_onehot_mse"
+      ],
+      "outer_timeout_seconds": 750
+    },
+    {
+      "id": "scalar_legacy",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/scalar_legacy.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/scalar_legacy"
+      ],
+      "outer_timeout_seconds": 750
+    }
+  ],
+  "run_order": "AR then CE then MSE then scalar; no quality-adaptive changes",
+  "maximum_child_total_seconds": 3000,
+  "failure_policy": "preserve and continue remaining arms once; no retries"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "amp_h5.direct_z.independent_design_review.v1",
+  "status": "MUST_FIX_DESIGN",
+  "independent_author": "/root/ar_admission_independent",
+  "review_scope": "一次静态方案审核；非工程验收，非执行准入。",
+  "plan_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/MINIMAL_PLAN_v1.json",
+  "plan_sha256": "84fd728e708aba93367aa0fe86d4b2e212ba6540193ef7417ef689c55f7d1509",
+  "natural_execution_authorized": false,
+  "required_revisions": [
+    {
+      "id": "R1",
+      "field": "evaluation.metrics",
+      "requirement": "明确仅复用冻结指标公式与 frozen_metrics_v1.py，另设 R/Z/C 薄包装；旧 scoring.py 硬编码 A/B/C/D，不可直接作为新执行入口。固定总分母96槽，R/Z/C各32、各端16；禁止伪造D或重复凑四臂。"
+    },
+    {
+      "id": "R2",
+      "field": "diffusion.failures",
+      "requirement": "R生成后除非有限检查外，显式要求 exp(logsigma)>0；任一零值（浮点下溢）或非有限值按原流程保留全部请求槽并失败，不得静默变成mu-only、clamp或重采样。旧 vae_pipeline_formal_v2.py 已有该正sigma边界。"
+    }
+  ],
+  "accepted_boundaries": [
+    "原UNet有效通道2→1；共同删除1024个未用embedding参数，641个有效参数差异须如实报告，不宣称容量严格相同。共同形状块及首层fan-in缩放规则可作为冻结实现合同。",
+    "train-only全局R标准化、Z解析聚合矩、每曝光新q样本与固定R目标、私有随机流及元素mean loss的比较定义可接受；不将所得差异单独归因为来源匹配。",
+    "1000×2更新、998逆步、64条新生成及C32复用、同一A解码器；自然forward上限6090。累计计算4800秒、自然4560秒与1.2倍吞吐门仅为未来有条件准入，不是速度保证。",
+    "对R机制筛查及对C价值筛查分开；两端固定MMD/JS/长度/合法性/复制重复门保留。单seed每臂32仅操作筛查，失败不重试、不扩预算、不声称总体或生物收益。"
+  ],
+  "read_file_sha256": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/MINIMAL_PLAN_v1.json": "84fd728e708aba93367aa0fe86d4b2e212ba6540193ef7417ef689c55f7d1509",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/scoring.py": "e0e0563bb8c17f5aa272f44b32daec0a2e467b9bd3f3a0e6e075c63b4d2295af"
+  },
+  "activity": {
+    "model_forward": 0,
+    "training": false,
+    "new_rng": false,
+    "test_access": false,
+    "external_research": false,
+    "upload_or_backup": false
+  },
+  "next_step": "作者仅在一版修订中处理R1/R2；随后仅核差量。工程实现、吞吐和自然执行仍需独立准入。"
+}

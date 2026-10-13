@@ -1,0 +1,19 @@
+{
+  "kind": "H5_independent_design_review",
+  "files": [
+    {
+      "path": "DESIGN_REVIEW.zh.md",
+      "sha256": "7259c257ea1e8a624078377ddbafaced9635db8bf4bc1b0fc0a1d51e31b2ad43"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "sha256": "4f6221d18448d4573844737ee92e0084c46e2466da5bdb306843a7ec3e1676b9"
+    },
+    {
+      "path": "DESIGN_RECEIPT.json",
+      "sha256": "31bd032a9bc83e1ae52f6e931fce8f567dd25ea9ade0f6fd1bc93f4050f5e776"
+    }
+  ],
+  "file_count": 3,
+  "backup_status": "BACKUP_BLOCKED"
+}

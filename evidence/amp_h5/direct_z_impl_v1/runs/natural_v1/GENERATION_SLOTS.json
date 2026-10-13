@@ -1,0 +1,1538 @@
+[
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 0,
+    "sequence": "KCPATCCVATTVSSASTVM",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7368421052631579,
+      "train_row": 36,
+      "train_sequence": "FLGALWRVAKSVF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 1,
+    "sequence": "KIKGDQSTCTI",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7142857142857143,
+      "train_row": 55,
+      "train_sequence": "KWMIKWRVKWRTML"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 2,
+    "sequence": "TVKLKSLAEKSIPIPNM",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6,
+      "train_row": 17,
+      "train_sequence": "STVKVASKLAVVVSPISKGS"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 3,
+    "sequence": "RWK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6666666666666666,
+      "train_row": 39,
+      "train_sequence": "RWKRWWRWI"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 4,
+    "sequence": "WKKIKECKKFLHSECLEFPRQF",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6363636363636364,
+      "train_row": 24,
+      "train_sequence": "KWKLFKKISKFLHLAKKF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 5,
+    "sequence": "GVWIFKK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.625,
+      "train_row": 32,
+      "train_sequence": "KLVKWIIKTVNKFTKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 6,
+    "sequence": "RKVCCQQVVSS",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6363636363636364,
+      "train_row": 6,
+      "train_sequence": "RCVCRRGVC"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 7,
+    "sequence": "KRHIHR",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6,
+      "train_row": 164,
+      "train_sequence": "WRHWRRFWHR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 8,
+    "sequence": "KISYVGVKFVHKCEKTMC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6538461538461539,
+      "train_row": 210,
+      "train_sequence": "MAQKIISTIGKLVKWIIKTVNKFTKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 9,
+    "sequence": "KKICKLCEKIQKM",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6111111111111112,
+      "train_row": 225,
+      "train_sequence": "KKVKKAIKEGIKKGIKKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 10,
+    "sequence": "VSPTGVSPASRF",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6842105263157895,
+      "train_row": 74,
+      "train_sequence": "FLSLLPSIVSGAVSLAKKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 11,
+    "sequence": "TWTIKWLCALNS",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6666666666666666,
+      "train_row": 7,
+      "train_sequence": "RRLCLWLCLRR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 12,
+    "sequence": "TVKSAVTGVV",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6666666666666666,
+      "train_row": 160,
+      "train_sequence": "LNWGAVLKHVVK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 13,
+    "sequence": "KKVKKCVVYTVFVTP",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.625,
+      "train_row": 156,
+      "train_sequence": "VKKWVKKAVKKWVKKA"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 14,
+    "sequence": "FKTKVLACKE",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5714285714285714,
+      "train_row": 213,
+      "train_sequence": "HFLGTLVNLAKKIL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "FREE",
+    "slot": 15,
+    "sequence": "KTYKGVTR",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7058823529411765,
+      "train_row": 85,
+      "train_sequence": "KPYLKRFQVYYKGRMWC"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 0,
+    "sequence": "KIHCC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.75,
+      "train_row": 203,
+      "train_sequence": "KIWVIRWR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 1,
+    "sequence": "HWL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7142857142857143,
+      "train_row": 90,
+      "train_sequence": "WWPFLRR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 2,
+    "sequence": "VVLVFPVGVKMTKHKR",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6,
+      "train_row": 170,
+      "train_sequence": "CVLLFSQLPAVKARGTKHRIKWNRK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 3,
+    "sequence": "FFFKIP",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5,
+      "train_row": 70,
+      "train_sequence": "FFFFF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 4,
+    "sequence": "AYPKTVKVEG",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5833333333333334,
+      "train_row": 28,
+      "train_sequence": "GAWRRTVAKVRK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 5,
+    "sequence": "SGMMKGVPRATK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5555555555555556,
+      "train_row": 149,
+      "train_sequence": "SLGSFLKGVGKGLATVGK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 6,
+    "sequence": "KKFKPFVLDC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6,
+      "train_row": 79,
+      "train_sequence": "KWKLFKKIWWPFLRR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 7,
+    "sequence": "TVSLLDCCNVHSSTCSCVTKTCM",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6956521739130435,
+      "train_row": 74,
+      "train_sequence": "FLSLLPSIVSGAVSLAKKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 8,
+    "sequence": "IAWIVMKKCSTL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5714285714285714,
+      "train_row": 12,
+      "train_sequence": "INWLKLGKKMMSAL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 9,
+    "sequence": "HFMMKPFL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6428571428571429,
+      "train_row": 182,
+      "train_sequence": "KWMIKWPSNWFTML"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 10,
+    "sequence": "DKIDLFFIIWRGFK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6428571428571429,
+      "train_row": 203,
+      "train_sequence": "KIWVIRWR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 11,
+    "sequence": "DTHVLGVSMKVSKK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.631578947368421,
+      "train_row": 74,
+      "train_sequence": "FLSLLPSIVSGAVSLAKKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 12,
+    "sequence": "CKKKWPVKKSATCL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.625,
+      "train_row": 61,
+      "train_sequence": "LKLKLKEGNKKLKLKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 13,
+    "sequence": "LCPS",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.75,
+      "train_row": 220,
+      "train_sequence": "AIHDILKYGKPS"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 14,
+    "sequence": "YKDHKKEKKKKKC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.55,
+      "train_row": 270,
+      "train_sequence": "KKRYKKKYKAYKPYKKKKKF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "R",
+    "terminal": "AMD",
+    "slot": 15,
+    "sequence": "LMKLYWVKVCLSVTLKA",
+    "status": "eos",
+    "terminated": true,
+    "steps": 24,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6470588235294118,
+      "train_row": 53,
+      "train_sequence": "KLLLKLKLKLLK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 0,
+    "sequence": "KCCVKIKVATTVVATCSTF",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6842105263157895,
+      "train_row": 154,
+      "train_sequence": "GLFDIIKAIAESF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 1,
+    "sequence": "KIKTEESTCKC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6666666666666666,
+      "train_row": 262,
+      "train_sequence": "KIKIGLKLATKLSLNNKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 2,
+    "sequence": "SPTFKNLADKSPPIIDFK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6666666666666666,
+      "train_row": 54,
+      "train_sequence": "FLALAGKQEAIAKLK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 3,
+    "sequence": "KYY",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7777777777777778,
+      "train_row": 10,
+      "train_sequence": "WALRLYLVY"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 4,
+    "sequence": "FKLIHRCHKIPHTEMVQFVDQL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7272727272727273,
+      "train_row": 14,
+      "train_sequence": "FLSLIPKIATGIAALAKHL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 5,
+    "sequence": "GVWIFKDKC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6666666666666666,
+      "train_row": 143,
+      "train_sequence": "KRIVQRKKDKKR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 6,
+    "sequence": "KPVIIQCVVDP",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6875,
+      "train_row": 32,
+      "train_sequence": "KLVKWIIKTVNKFTKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 7,
+    "sequence": "KHLIKRWVYFLTQ",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6,
+      "train_row": 79,
+      "train_sequence": "KWKLFKKIWWPFLRR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 8,
+    "sequence": "KISKVSVKFGE",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6363636363636364,
+      "train_row": 217,
+      "train_sequence": "KKVVPKVKFK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 9,
+    "sequence": "KLKRTCVMKCEQM",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6470588235294118,
+      "train_row": 85,
+      "train_sequence": "KPYLKRFQVYYKGRMWC"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 10,
+    "sequence": "PTPSSVSPPPRM",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6,
+      "train_row": 51,
+      "train_sequence": "PLPFPRPGPRPIPRP"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 11,
+    "sequence": "SYSIKYPDAPTA",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7142857142857143,
+      "train_row": 182,
+      "train_sequence": "KWMIKWPSNWFTML"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 12,
+    "sequence": "SIHSALSSTV",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6842105263157895,
+      "train_row": 40,
+      "train_sequence": "FLSLIPHAINAVSTLVHHF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 13,
+    "sequence": "HKFYKDLTKETFLHVMKK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6086956521739131,
+      "train_row": 76,
+      "train_sequence": "GAHKEVFKRDTALTKEAAKKAKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 14,
+    "sequence": "FKTIVIVLK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5384615384615384,
+      "train_row": 30,
+      "train_sequence": "FKRIVQRIKDNLR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "FREE",
+    "slot": 15,
+    "sequence": "KSKWGVQNVAWYPIYYY",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7058823529411765,
+      "train_row": 127,
+      "train_sequence": "KKWLRVALKKG"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 0,
+    "sequence": "CKCVCKAC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6363636363636364,
+      "train_row": 77,
+      "train_sequence": "TLLKKVLKAAA"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 1,
+    "sequence": "SFVKTCY",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7,
+      "train_row": 141,
+      "train_sequence": "GFFKRWKTFF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 2,
+    "sequence": "VVIVWAVAVKKSKK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5625,
+      "train_row": 156,
+      "train_sequence": "VKKWVKKAVKKWVKKA"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 3,
+    "sequence": "KMWCPPFTA",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6428571428571429,
+      "train_row": 182,
+      "train_sequence": "KWMIKWPSNWFTML"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 4,
+    "sequence": "GWPKTLKVLGYKC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6153846153846154,
+      "train_row": 60,
+      "train_sequence": "FFRKVLKLIRKI"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 5,
+    "sequence": "STKWKGVSRASK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6,
+      "train_row": 17,
+      "train_sequence": "STVKVASKLAVVVSPISKGS"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 6,
+    "sequence": "RKCRVFVVRTFF",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5833333333333334,
+      "train_row": 126,
+      "train_sequence": "RLRRIVVIRVFR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 7,
+    "sequence": "VLGMLHCPTPHAQMISCPTK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7,
+      "train_row": 48,
+      "train_sequence": "FLFSLIPHAIGGLISAFK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 8,
+    "sequence": "IPYDTM",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7142857142857143,
+      "train_row": 182,
+      "train_sequence": "KWMIKWPSNWFTML"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 9,
+    "sequence": "QKKLMPF",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6428571428571429,
+      "train_row": 38,
+      "train_sequence": "LQLLKQLLKLLKQF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 10,
+    "sequence": "CKCKLMMLC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.625,
+      "train_row": 134,
+      "train_sequence": "CKKLLKLLKKLCKLAG"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 11,
+    "sequence": "DTITMSTQMKTAVKCC",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.75,
+      "train_row": 8,
+      "train_sequence": "GKIMYILTKKS"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 12,
+    "sequence": "KHKKKLWKKDLVCM",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5714285714285714,
+      "train_row": 82,
+      "train_sequence": "KRKVKRIKKFLR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 13,
+    "sequence": "IIIE",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6923076923076923,
+      "train_row": 26,
+      "train_sequence": "GLFAIIKKIAESF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 14,
+    "sequence": "KKIEKFWYYYYYWYWWWWY",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6666666666666666,
+      "train_row": 200,
+      "train_sequence": "KKIAKKFWKKFWKFWPKFWKIFKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "Z",
+    "terminal": "AMD",
+    "slot": 15,
+    "sequence": "VMKLKCSITMMS",
+    "status": "eos",
+    "terminated": true,
+    "steps": 23,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6428571428571429,
+      "train_row": 12,
+      "train_sequence": "INWLKLGKKMMSAL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 0,
+    "sequence": "LGILLRLTRTFKKFKKF",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5882352941176471,
+      "train_row": 148,
+      "train_sequence": "RGLFKKLLRKIKKGFKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 1,
+    "sequence": "KRWPRMWWRFR",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.36363636363636365,
+      "train_row": 209,
+      "train_sequence": "KRWWRKWWR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 2,
+    "sequence": "HKWWKKIGAWKSIAGALLPKPLLARE",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5769230769230769,
+      "train_row": 158,
+      "train_sequence": "NIWKKIASIAKEVLKAL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 3,
+    "sequence": "IFKVILQTIFQKLATA",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.625,
+      "train_row": 30,
+      "train_sequence": "FKRIVQRIKDNLR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 4,
+    "sequence": "RWLRWRLKYLR",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.4166666666666667,
+      "train_row": 242,
+      "train_sequence": "RWLRKWTRKRLK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 5,
+    "sequence": "SMIGSLIKEKALAGAKEKLGAGGLT",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6,
+      "train_row": 233,
+      "train_sequence": "KIGAIKKWGAIKKIGAIK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 6,
+    "sequence": "TRTRLFRKVRK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5454545454545454,
+      "train_row": 35,
+      "train_sequence": "RLRLRIGRR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 7,
+    "sequence": "GNRKKFWFKHNKLKHKKFGG",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.625,
+      "train_row": 200,
+      "train_sequence": "KKIAKKFWKKFWKFWPKFWKIFKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 8,
+    "sequence": "GRFWPHLKRFNGRIKH",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6111111111111112,
+      "train_row": 52,
+      "train_sequence": "SAVWRHWRRFWLRKHRKH"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 9,
+    "sequence": "IFGAFLKLVEKFFKGRIGKAIKV",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.6086956521739131,
+      "train_row": 2,
+      "train_sequence": "GIGKFLKKAKKFGKAFVKMKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 10,
+    "sequence": "KRFKFWQKIIKNKVFRFKPF",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.55,
+      "train_row": 116,
+      "train_sequence": "KRLKKIFKKMIKIF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 11,
+    "sequence": "LVSRLLKASLYACKALVSK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5833333333333334,
+      "train_row": 13,
+      "train_sequence": "ALWMTLLKKVLKAAAKAALNAVLV"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 12,
+    "sequence": "KLKMNKWISKVKENFKGQLIVKLGSRTISSENHQTINHQS",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.7,
+      "train_row": 1,
+      "train_sequence": "GIKKWPHKPKKFGKKFVKKIKNS"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 13,
+    "sequence": "RIVKRRWFFK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.46153846153846156,
+      "train_row": 250,
+      "train_sequence": "RRVKRFKKFFMKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 14,
+    "sequence": "KHWGKIFKKHKEFGKWATGLHVRTKL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5769230769230769,
+      "train_row": 2,
+      "train_sequence": "GIGKFLKKAKKFGKAFVKMKK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "FREE",
+    "slot": 15,
+    "sequence": "FLPILTSAVKLLSNTL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.4117647058823529,
+      "train_row": 189,
+      "train_sequence": "FLPVILPVIGKLLSGIL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 0,
+    "sequence": "RINRRLRIRWWLRRI",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.4666666666666667,
+      "train_row": 155,
+      "train_sequence": "RIRWRIRWL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 1,
+    "sequence": "HLWPLARLKLLKK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5384615384615384,
+      "train_row": 53,
+      "train_sequence": "KLLLKLKLKLLK"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 2,
+    "sequence": "VSRVPPPRYPLYRRPLPYYPRRP",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5217391304347826,
+      "train_row": 102,
+      "train_sequence": "RFRPPIRRPPIRPPFYPPFRP"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 3,
+    "sequence": "FFSRILPKAFAGSHL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5789473684210527,
+      "train_row": 14,
+      "train_sequence": "FLSLIPKIATGIAALAKHL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 4,
+    "sequence": "LKLLKFKVLKLKL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.3125,
+      "train_row": 61,
+      "train_sequence": "LKLKLKEGNKKLKLKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 5,
+    "sequence": "KWKIRVWKIARRT",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5384615384615384,
+      "train_row": 152,
+      "train_sequence": "KWRRWIRWL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 6,
+    "sequence": "FLGLIGVLGLSSILH",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.4,
+      "train_row": 258,
+      "train_sequence": "FLPLIGAVLSGIL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 7,
+    "sequence": "FPFLFGAILSAKFLH",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5294117647058824,
+      "train_row": 133,
+      "train_sequence": "FFPLLFGALSSMMPKLF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 8,
+    "sequence": "RTIRWRWFR",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.4444444444444444,
+      "train_row": 186,
+      "train_sequence": "RRWWRWWR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 9,
+    "sequence": "GLIALGALTLSKIPFL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5625,
+      "train_row": 132,
+      "train_sequence": "ILGTILGLLKFL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 10,
+    "sequence": "RRRRPVIRPYR",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.4166666666666667,
+      "train_row": 119,
+      "train_sequence": "RWRRIVVIRVRR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 11,
+    "sequence": "AWALKKWSWWHLWK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5555555555555556,
+      "train_row": 24,
+      "train_sequence": "KWKLFKKISKFLHLAKKF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 12,
+    "sequence": "RRWIRWKIRRV",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.45454545454545453,
+      "train_row": 86,
+      "train_sequence": "RRWRWWWRWRR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 13,
+    "sequence": "GIHDFIPGGKALSKL",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5555555555555556,
+      "train_row": 221,
+      "train_sequence": "LLGMIPLAISAISALSKL"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 14,
+    "sequence": "VFRRFIRRYR",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.5,
+      "train_row": 139,
+      "train_sequence": "KLVFFRRRRRRRRR"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  },
+  {
+    "arm": "C",
+    "terminal": "AMD",
+    "slot": 15,
+    "sequence": "FLSLIPVISAVSVFSAK",
+    "status": "eos",
+    "terminated": true,
+    "steps": 41,
+    "nearest_train_edit": {
+      "normalized_Levenshtein": 0.42105263157894735,
+      "train_row": 91,
+      "train_sequence": "FLSLIPAAISAVSALANHF"
+    },
+    "exact_copy_train": false,
+    "exact_copy_train_same_terminal": false
+  }
+]

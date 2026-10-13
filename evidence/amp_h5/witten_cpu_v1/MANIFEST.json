@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-12T08:47:30.592200+00:00",
+  "files": {
+    "AUTHOR_BINDING.json": {
+      "sha256": "0f113581e79d6dd6edc04d8e324eedfadeedf39806fe17f1f40c7f752958db4f",
+      "bytes": 1876
+    },
+    "CONFIG.json": {
+      "sha256": "15d5af361d66e9eb3ecd152e493ba256f3a5b25391cd01b77c6b908290e62d8e",
+      "bytes": 1519
+    },
+    "DELIVERY.json": {
+      "sha256": "358297dedc2f795f72d37c1a9b64eda3425008a7382c257e36a8eb45486f0cbb",
+      "bytes": 1164
+    },
+    "FREEZE.json": {
+      "sha256": "f559752de93f9b25a354ec27145248747d64aec4730c504cdfae3770c1a7f218",
+      "bytes": 674
+    },
+    "PREFLIGHT.json": {
+      "sha256": "98982c3a1fe34034f041d7c1d0f61aef49ef0b5e7dfeca69a4812b61cade558e",
+      "bytes": 437
+    },
+    "README.md": {
+      "sha256": "f44a0a0b251fa7dc8d2ee46e6d02f48b912accf612646235ab1ea43ad569f6eb",
+      "bytes": 5732
+    },
+    "REPAIR.json": {
+      "sha256": "93e988055d2b13841cb17ac0851fa5697565857d235b3cf6ba9c4933a87d25e7",
+      "bytes": 327
+    },
+    "RESULT.json": {
+      "sha256": "89b96b41ad040f729066634365e20222d8c400b9242acd4b4abc2dc1c234e7aa",
+      "bytes": 8028
+    },
+    "attempt1/FREEZE.json": {
+      "sha256": "6659a79194ace51cc3064b4ebec63fa91a7b150047902a52ad83e6554426ef9b",
+      "bytes": 587
+    },
+    "attempt1/RESULT.json": {
+      "sha256": "192af47b308896d544c42fc13b4f845eb8f058c97eac9c53d7e31605b1247c24",
+      "bytes": 1311
+    },
+    "attempt1/stderr.txt": {
+      "sha256": "eca348ae5afae73364f0b57cc5e7793e9531b34b749d52225d94a4ad934a2a1a",
+      "bytes": 2706
+    },
+    "attempt1/stdout.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "attempt1/validate_synthetic.py": {
+      "sha256": "6af5725ac44e9757b4fca798561d390127a5128ba5dd9e96cd86897aadd782d9",
+      "bytes": 7587
+    },
+    "model.py": {
+      "sha256": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+      "bytes": 2604
+    },
+    "stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "stdout.txt": {
+      "sha256": "8bbd1427b6f5fb7c613daccdb8bf9a075e6380518b104b7e286fa2853426be96",
+      "bytes": 114
+    },
+    "validate_synthetic.py": {
+      "sha256": "c381374708d7f2d5922f32ef062da5770e1e1f7f25a5ecca1a9e08c3de5612c5",
+      "bytes": 7599
+    }
+  }
+}

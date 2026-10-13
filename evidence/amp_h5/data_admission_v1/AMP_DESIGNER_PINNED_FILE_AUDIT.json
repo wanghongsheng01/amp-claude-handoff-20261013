@@ -1,0 +1,31 @@
+{
+  "source_url": "https://raw.githubusercontent.com/jkwang93/AMP-Designer/07d455dd6eb7ef61fe03b85732966caa32bf3dc4/data/DBAASP/dbaasp_active_sequence.csv",
+  "commit": "07d455dd6eb7ef61fe03b85732966caa32bf3dc4",
+  "git_blob_expected": "907056d79cad578155141d930e3f17c8d7016882",
+  "git_blob_computed": "907056d79cad578155141d930e3f17c8d7016882",
+  "sha256": "36c70fbbd45d0df10cb375e55621bbb6c6bec7683ef37afc94cf941066f7aee8",
+  "bytes": 197834,
+  "rows_including_no_header": 10752,
+  "column_widths": [
+    1
+  ],
+  "unique_sequences": 10752,
+  "duplicate_rows": 0,
+  "label_columns": [],
+  "sequence_exact_overlaps": {
+    "train": {
+      "local_n": 279,
+      "local_sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "overlapping_local_rows": 197
+    },
+    "development": {
+      "local_n": 41,
+      "local_sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "overlapping_local_rows": 27
+    }
+  },
+  "test_read": false,
+  "homology_check_performed": false,
+  "raw_external_file_saved": false,
+  "training_import": false
+}

@@ -1,0 +1,32 @@
+{
+  "source_snapshot_sha256": "2c298a405fa32173634b55907ec0920241ed1020a39aba60f5c03e23606283e9",
+  "files": [
+    {
+      "path": "eval_prev_works/Antimicrobial-Peptides/pyproject.toml",
+      "url": "https://github.com/anthol42/QMAP/blob/main/eval_prev_works/Antimicrobial-Peptides/pyproject.toml",
+      "content_sha256": "4a6f4d489871090883d68b1f9461640e660e56f065eec5a1e49b0c6f92901338"
+    },
+    {
+      "path": "eval_prev_works/Antimicrobial-Peptides/main.py",
+      "url": "https://github.com/anthol42/QMAP/blob/main/eval_prev_works/Antimicrobial-Peptides/main.py",
+      "content_sha256": "02935d0a321fd13ea27f7c60c969518a39f07f8d27361725856465392edb7ff7"
+    },
+    {
+      "path": "eval_prev_works/Antimicrobial-Peptides/src/nn.py",
+      "url": "https://github.com/anthol42/QMAP/blob/main/eval_prev_works/Antimicrobial-Peptides/src/nn.py",
+      "content_sha256": "049931f1b0aab2e29c1e54407821339e85c1875941c99fc70a46c47470079fdb"
+    },
+    {
+      "path": "eval_prev_works/Antimicrobial-Peptides/src/settings.py",
+      "url": "https://github.com/anthol42/QMAP/blob/main/eval_prev_works/Antimicrobial-Peptides/src/settings.py",
+      "content_sha256": "d926994d90ce7eeafa2038500f8adbaf4c6cba31b9f431600fcc0c1f91939127"
+    },
+    {
+      "path": "eval_prev_works/Antimicrobial-Peptides/src/train_model.py",
+      "url": "https://github.com/anthol42/QMAP/blob/main/eval_prev_works/Antimicrobial-Peptides/src/train_model.py",
+      "content_sha256": "e56ec8eb96c63062db418bd18e2cf7645305afa273b3c3246145f35dd785acd0"
+    }
+  ],
+  "scope": "Cached QMAP adaptation of Witten source, not independently retrieved original repository",
+  "defaults_note": "Adam lr0.001/beta0.9,0.999/epsilon1e-7 and Glorot are Keras2.x defaults inferred from compile optimizer=adam, not explicitly set by author. TensorFlow unavailable; numerical comparison is NumPy not TensorFlow."
+}

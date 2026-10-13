@@ -1,0 +1,1003 @@
+{
+  "ug_ml_native": {
+    "all": {
+      "rows": 93,
+      "peptide_IDs": 64,
+      "exact_sequences": 59,
+      "families": 41,
+      "source_groups": 21,
+      "by_group": {
+        "G102": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            50769
+          ]
+        },
+        "G12453": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            95703,
+            95704
+          ]
+        },
+        "G12529": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            161389,
+            161390
+          ]
+        },
+        "G13726": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            107126
+          ]
+        },
+        "G13735": {
+          "rows": 4,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            107201,
+            107205,
+            107203,
+            107207
+          ]
+        },
+        "G17268": {
+          "rows": 12,
+          "peptide_IDs": 6,
+          "families": 1,
+          "activity_ids": [
+            133341,
+            133342,
+            133347,
+            133348,
+            133355,
+            133356,
+            133362,
+            133363,
+            133369,
+            133370,
+            133375,
+            133376
+          ]
+        },
+        "G1737": {
+          "rows": 13,
+          "peptide_IDs": 5,
+          "families": 2,
+          "activity_ids": [
+            12526,
+            12527,
+            54742,
+            58515,
+            58517,
+            58519,
+            12601,
+            31234,
+            31238,
+            31244,
+            31248,
+            31254,
+            31258
+          ]
+        },
+        "G2425": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 1,
+          "activity_ids": [
+            18691,
+            18696,
+            18699,
+            18702
+          ]
+        },
+        "G3086": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 1,
+          "activity_ids": [
+            23078,
+            23089,
+            23100,
+            47665
+          ]
+        },
+        "G3198": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            23905
+          ]
+        },
+        "G3224": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 3,
+          "activity_ids": [
+            24672,
+            24676,
+            24680
+          ]
+        },
+        "G37": {
+          "rows": 5,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            36,
+            112057,
+            112058,
+            177211,
+            177212
+          ]
+        },
+        "G4013": {
+          "rows": 10,
+          "peptide_IDs": 10,
+          "families": 10,
+          "activity_ids": [
+            28731,
+            28733,
+            28735,
+            28737,
+            28739,
+            28741,
+            28743,
+            28745,
+            28747,
+            28749
+          ]
+        },
+        "G5545": {
+          "rows": 5,
+          "peptide_IDs": 5,
+          "families": 5,
+          "activity_ids": [
+            39663,
+            39673,
+            39683,
+            39693,
+            39703
+          ]
+        },
+        "G5556": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 3,
+          "activity_ids": [
+            39782,
+            39795,
+            39808,
+            39821
+          ]
+        },
+        "G6669": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            57368
+          ]
+        },
+        "G6742": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            46970,
+            148350,
+            162194
+          ]
+        },
+        "G6785": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            47335,
+            47337
+          ]
+        },
+        "G8110": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            91533
+          ]
+        },
+        "G8157": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            58729,
+            58730
+          ]
+        },
+        "G873": {
+          "rows": 13,
+          "peptide_IDs": 10,
+          "families": 2,
+          "activity_ids": [
+            4796,
+            141543,
+            4807,
+            141547,
+            4818,
+            4829,
+            4840,
+            4851,
+            141551,
+            4862,
+            4873,
+            4884,
+            4895
+          ]
+        }
+      }
+    },
+    "point": {
+      "rows": 79,
+      "peptide_IDs": 54,
+      "exact_sequences": 49,
+      "families": 32,
+      "source_groups": 21,
+      "by_group": {
+        "G102": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            50769
+          ]
+        },
+        "G12453": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            95703,
+            95704
+          ]
+        },
+        "G12529": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            161390
+          ]
+        },
+        "G13726": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            107126
+          ]
+        },
+        "G13735": {
+          "rows": 3,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            107201,
+            107205,
+            107203
+          ]
+        },
+        "G17268": {
+          "rows": 12,
+          "peptide_IDs": 6,
+          "families": 1,
+          "activity_ids": [
+            133341,
+            133342,
+            133347,
+            133348,
+            133355,
+            133356,
+            133362,
+            133363,
+            133369,
+            133370,
+            133375,
+            133376
+          ]
+        },
+        "G1737": {
+          "rows": 13,
+          "peptide_IDs": 5,
+          "families": 2,
+          "activity_ids": [
+            12526,
+            12527,
+            54742,
+            58515,
+            58517,
+            58519,
+            12601,
+            31234,
+            31238,
+            31244,
+            31248,
+            31254,
+            31258
+          ]
+        },
+        "G2425": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 1,
+          "activity_ids": [
+            18691,
+            18696,
+            18699,
+            18702
+          ]
+        },
+        "G3086": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 1,
+          "activity_ids": [
+            23078,
+            23089,
+            23100
+          ]
+        },
+        "G3198": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            23905
+          ]
+        },
+        "G3224": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 3,
+          "activity_ids": [
+            24672,
+            24676,
+            24680
+          ]
+        },
+        "G37": {
+          "rows": 5,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            36,
+            112057,
+            112058,
+            177211,
+            177212
+          ]
+        },
+        "G4013": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            28735,
+            28747
+          ]
+        },
+        "G5545": {
+          "rows": 5,
+          "peptide_IDs": 5,
+          "families": 5,
+          "activity_ids": [
+            39663,
+            39673,
+            39683,
+            39693,
+            39703
+          ]
+        },
+        "G5556": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 3,
+          "activity_ids": [
+            39782,
+            39795,
+            39808,
+            39821
+          ]
+        },
+        "G6669": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            57368
+          ]
+        },
+        "G6742": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            46970,
+            148350,
+            162194
+          ]
+        },
+        "G6785": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            47335,
+            47337
+          ]
+        },
+        "G8110": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            91533
+          ]
+        },
+        "G8157": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            58729,
+            58730
+          ]
+        },
+        "G873": {
+          "rows": 10,
+          "peptide_IDs": 9,
+          "families": 1,
+          "activity_ids": [
+            4796,
+            141543,
+            4807,
+            4818,
+            4829,
+            4840,
+            4851,
+            4862,
+            4884,
+            4895
+          ]
+        }
+      }
+    },
+    "right": {
+      "rows": 14,
+      "peptide_IDs": 14,
+      "exact_sequences": 14,
+      "families": 13,
+      "source_groups": 5,
+      "by_group": {
+        "G12529": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            161389
+          ]
+        },
+        "G13735": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            107207
+          ]
+        },
+        "G3086": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            47665
+          ]
+        },
+        "G4013": {
+          "rows": 8,
+          "peptide_IDs": 8,
+          "families": 8,
+          "activity_ids": [
+            28731,
+            28733,
+            28737,
+            28739,
+            28741,
+            28743,
+            28745,
+            28749
+          ]
+        },
+        "G873": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 2,
+          "activity_ids": [
+            141547,
+            141551,
+            4873
+          ]
+        }
+      }
+    },
+    "left": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "exact_sequences": 0,
+      "families": 0,
+      "source_groups": 0,
+      "by_group": {}
+    },
+    "censor_only_groups": [],
+    "minimum_training_censor_groups": 4,
+    "minimum_training_point_groups": 20,
+    "screening_gate": true,
+    "point_selection_bias": "Validation observes exact reported points only, selected by assay ranges/reporting. Censored-only groups have no point validation; no estimate of latent censored outcomes or full population generalization."
+  },
+  "uM_native": {
+    "all": {
+      "rows": 80,
+      "peptide_IDs": 34,
+      "exact_sequences": 34,
+      "families": 25,
+      "source_groups": 16,
+      "by_group": {
+        "G102": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 1,
+          "activity_ids": [
+            51566,
+            51569
+          ]
+        },
+        "G103": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            340,
+            343
+          ]
+        },
+        "G12531": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            96162,
+            96164,
+            96166
+          ]
+        },
+        "G12533": {
+          "rows": 14,
+          "peptide_IDs": 7,
+          "families": 3,
+          "activity_ids": [
+            96187,
+            96200,
+            96188,
+            96199,
+            96189,
+            96198,
+            96190,
+            96197,
+            96191,
+            96196,
+            96192,
+            96195,
+            96193,
+            96194
+          ]
+        },
+        "G13692": {
+          "rows": 6,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            106653,
+            106698,
+            106818,
+            106652,
+            106699,
+            106817
+          ]
+        },
+        "G13726": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            133771
+          ]
+        },
+        "G13803": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            107784,
+            107824
+          ]
+        },
+        "G2396": {
+          "rows": 26,
+          "peptide_IDs": 6,
+          "families": 2,
+          "activity_ids": [
+            18584,
+            18587,
+            18590,
+            18593,
+            18594,
+            18603,
+            18604,
+            18605,
+            18606,
+            18607,
+            18608,
+            18609,
+            18610,
+            18611,
+            18612,
+            18613,
+            18614,
+            18615,
+            18616,
+            18617,
+            18618,
+            18619,
+            18620,
+            18622,
+            18625,
+            18628
+          ]
+        },
+        "G3232": {
+          "rows": 10,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            24714,
+            24715,
+            24716,
+            24717,
+            68607,
+            68618,
+            101190,
+            171344,
+            171345,
+            46020
+          ]
+        },
+        "G3301": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            25117
+          ]
+        },
+        "G37": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            18406,
+            59455,
+            105180
+          ]
+        },
+        "G6669": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            183419,
+            183420,
+            183421
+          ]
+        },
+        "G6701": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            46723,
+            153842
+          ]
+        },
+        "G8110": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            199969
+          ]
+        },
+        "G8221": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 3,
+          "activity_ids": [
+            59377,
+            59381,
+            59389
+          ]
+        },
+        "G873": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            62980
+          ]
+        }
+      }
+    },
+    "point": {
+      "rows": 68,
+      "peptide_IDs": 27,
+      "exact_sequences": 27,
+      "families": 18,
+      "source_groups": 13,
+      "by_group": {
+        "G102": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 1,
+          "activity_ids": [
+            51566,
+            51569
+          ]
+        },
+        "G103": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            340,
+            343
+          ]
+        },
+        "G12531": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            96162,
+            96164,
+            96166
+          ]
+        },
+        "G12533": {
+          "rows": 14,
+          "peptide_IDs": 7,
+          "families": 3,
+          "activity_ids": [
+            96187,
+            96200,
+            96188,
+            96199,
+            96189,
+            96198,
+            96190,
+            96197,
+            96191,
+            96196,
+            96192,
+            96195,
+            96193,
+            96194
+          ]
+        },
+        "G13692": {
+          "rows": 6,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            106653,
+            106698,
+            106818,
+            106652,
+            106699,
+            106817
+          ]
+        },
+        "G13726": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            133771
+          ]
+        },
+        "G2396": {
+          "rows": 25,
+          "peptide_IDs": 5,
+          "families": 1,
+          "activity_ids": [
+            18584,
+            18590,
+            18593,
+            18594,
+            18603,
+            18604,
+            18605,
+            18606,
+            18607,
+            18608,
+            18609,
+            18610,
+            18611,
+            18612,
+            18613,
+            18614,
+            18615,
+            18616,
+            18617,
+            18618,
+            18619,
+            18620,
+            18622,
+            18625,
+            18628
+          ]
+        },
+        "G3232": {
+          "rows": 6,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            24714,
+            24716,
+            24717,
+            68607,
+            101190,
+            46020
+          ]
+        },
+        "G3301": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            25117
+          ]
+        },
+        "G37": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            18406,
+            59455,
+            105180
+          ]
+        },
+        "G6669": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            183419,
+            183420,
+            183421
+          ]
+        },
+        "G8110": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            199969
+          ]
+        },
+        "G873": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            62980
+          ]
+        }
+      }
+    },
+    "right": {
+      "rows": 12,
+      "peptide_IDs": 8,
+      "exact_sequences": 8,
+      "families": 8,
+      "source_groups": 5,
+      "by_group": {
+        "G13803": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "activity_ids": [
+            107784,
+            107824
+          ]
+        },
+        "G2396": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            18587
+          ]
+        },
+        "G3232": {
+          "rows": 4,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            24715,
+            68618,
+            171344,
+            171345
+          ]
+        },
+        "G6701": {
+          "rows": 2,
+          "peptide_IDs": 1,
+          "families": 1,
+          "activity_ids": [
+            46723,
+            153842
+          ]
+        },
+        "G8221": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 3,
+          "activity_ids": [
+            59377,
+            59381,
+            59389
+          ]
+        }
+      }
+    },
+    "left": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "exact_sequences": 0,
+      "families": 0,
+      "source_groups": 0,
+      "by_group": {}
+    },
+    "censor_only_groups": [
+      "G13803",
+      "G6701",
+      "G8221"
+    ],
+    "minimum_training_censor_groups": 4,
+    "minimum_training_point_groups": 12,
+    "screening_gate": true,
+    "point_selection_bias": "Validation observes exact reported points only, selected by assay ranges/reporting. Censored-only groups have no point validation; no estimate of latent censored outcomes or full population generalization."
+  }
+}

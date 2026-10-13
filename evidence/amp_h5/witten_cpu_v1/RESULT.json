@@ -1,0 +1,285 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "checks": {
+    "encoding_padding": {
+      "pass": true,
+      "detail": "Zero padding; channel21 unused"
+    },
+    "truncation": {
+      "pass": true,
+      "detail": "Author encoder truncates at100; natural admission must separately enforce <100"
+    },
+    "reject_X": {
+      "pass": true,
+      "detail": "Source raises KeyError for unknown/noncanonical/lowercase"
+    },
+    "reject_a": {
+      "pass": true,
+      "detail": "Source raises KeyError for unknown/noncanonical/lowercase"
+    },
+    "parameters": {
+      "pass": true,
+      "detail": {
+        "conv1.weight": 6720,
+        "conv1.bias": 64,
+        "conv2.weight": 20480,
+        "conv2.bias": 64,
+        "dense1.weight": 153600,
+        "dense1.bias": 100,
+        "dense2.weight": 2000,
+        "dense2.bias": 20,
+        "output.weight": 20,
+        "output.bias": 1
+      }
+    },
+    "numpy_forward": {
+      "pass": true,
+      "detail": {
+        "max_abs_error": 1.3322676295501878e-15,
+        "tolerance": 1e-09
+      }
+    },
+    "numpy_gradient": {
+      "pass": true,
+      "detail": [
+        {
+          "parameter": "conv1.weight",
+          "index": [
+            62,
+            14,
+            1
+          ],
+          "autograd": 0.5737823733159757,
+          "numpy_finite_difference": 0.5737823737250736,
+          "scaled_error": 4.090978666937417e-10
+        },
+        {
+          "parameter": "conv1.bias",
+          "index": [
+            38
+          ],
+          "autograd": -0.6033984049502232,
+          "numpy_finite_difference": -0.6033984042419505,
+          "scaled_error": 7.082727737639516e-10
+        },
+        {
+          "parameter": "conv2.weight",
+          "index": [
+            7,
+            53,
+            4
+          ],
+          "autograd": -0.6528794297915766,
+          "numpy_finite_difference": -0.6528794299631713,
+          "scaled_error": 1.7159462739613218e-10
+        },
+        {
+          "parameter": "conv2.bias",
+          "index": [
+            40
+          ],
+          "autograd": 0.6422923329482708,
+          "numpy_finite_difference": 0.6422923330973163,
+          "scaled_error": 1.4904544265448294e-10
+        },
+        {
+          "parameter": "dense1.weight",
+          "index": [
+            49,
+            939
+          ],
+          "autograd": -1.0950384024832045,
+          "numpy_finite_difference": -1.0950384026209292,
+          "scaled_error": 1.2577158955096616e-10
+        },
+        {
+          "parameter": "dense1.bias",
+          "index": [
+            49
+          ],
+          "autograd": -0.5321455595793954,
+          "numpy_finite_difference": -0.5321455596174474,
+          "scaled_error": 3.805200599060754e-11
+        },
+        {
+          "parameter": "dense2.weight",
+          "index": [
+            4,
+            91
+          ],
+          "autograd": -1.4002632943647253,
+          "numpy_finite_difference": -1.4002632944265514,
+          "scaled_error": 4.4153196074917684e-11
+        },
+        {
+          "parameter": "dense2.bias",
+          "index": [
+            4
+          ],
+          "autograd": -1.0158684253692627,
+          "numpy_finite_difference": -1.0158684252692396,
+          "scaled_error": 9.846068488307572e-11
+        },
+        {
+          "parameter": "output.weight",
+          "index": [
+            0,
+            16
+          ],
+          "autograd": 3.131669923435374,
+          "numpy_finite_difference": 3.131669923384095,
+          "scaled_error": 1.637432498158516e-11
+        },
+        {
+          "parameter": "output.bias",
+          "index": [
+            0
+          ],
+          "autograd": 2.0,
+          "numpy_finite_difference": 2.0000000000575113,
+          "scaled_error": 2.8755664515384365e-11
+        }
+      ]
+    },
+    "adam_numpy": {
+      "pass": true,
+      "detail": {
+        "max_abs_error": 0.0,
+        "steps": 4,
+        "tiny_gradient_tests_epsilon_placement": true
+      }
+    },
+    "synthetic_loss": {
+      "pass": true,
+      "detail": {
+        "initial_eval_mse": 0.5284774303436279,
+        "final_eval_mse": 0.0004518757632467896,
+        "ratio": 0.0008550521503878979,
+        "training_losses_all80": [
+          0.5990529656410217,
+          0.23343007266521454,
+          0.09894580394029617,
+          0.08813896775245667,
+          0.1001095175743103,
+          0.08026136457920074,
+          0.03608352318406105,
+          0.03290431946516037,
+          0.033514417707920074,
+          0.03217988833785057,
+          0.03597521781921387,
+          0.026615101844072342,
+          0.02441953867673874,
+          0.01720384508371353,
+          0.019185326993465424,
+          0.02146805077791214,
+          0.02043379284441471,
+          0.014272525906562805,
+          0.014710349962115288,
+          0.013073524460196495,
+          0.01902363821864128,
+          0.016013838350772858,
+          0.01781725510954857,
+          0.016802571713924408,
+          0.012729475274682045,
+          0.01156881544739008,
+          0.0082742590457201,
+          0.01253662258386612,
+          0.009796755388379097,
+          0.008561398833990097,
+          0.008168503642082214,
+          0.008887257426977158,
+          0.008623883128166199,
+          0.006162450183182955,
+          0.009651238098740578,
+          0.003840917255729437,
+          0.006369222886860371,
+          0.010555785149335861,
+          0.005408650264143944,
+          0.00960445310920477,
+          0.007792491931468248,
+          0.006308543495833874,
+          0.00547500466927886,
+          0.006217675283551216,
+          0.005310418549925089,
+          0.00461945915594697,
+          0.006183259189128876,
+          0.007689294405281544,
+          0.005512430798262358,
+          0.0038950610905885696,
+          0.0052666086703538895,
+          0.006198582239449024,
+          0.004859739448875189,
+          0.0035736411809921265,
+          0.004226595163345337,
+          0.004043550230562687,
+          0.004599191248416901,
+          0.004984618164598942,
+          0.004194199573248625,
+          0.005191287957131863,
+          0.0030823927372694016,
+          0.005474249366670847,
+          0.004907314199954271,
+          0.0030148043297231197,
+          0.004293999634683132,
+          0.0041491203010082245,
+          0.0039559598080813885,
+          0.0037467998918145895,
+          0.0033001515548676252,
+          0.0036994777619838715,
+          0.007364810910075903,
+          0.0038960722740739584,
+          0.0026156683452427387,
+          0.003356619505211711,
+          0.0033677159808576107,
+          0.0032510273158550262,
+          0.0038901190273463726,
+          0.004751826170831919,
+          0.003592302557080984,
+          0.0017273686826229095
+        ]
+      }
+    },
+    "eval_determinism": {
+      "pass": true,
+      "detail": "Repeated evaluation exactly equal"
+    },
+    "dropout_active": {
+      "pass": true,
+      "detail": "Two training forwards differ under dropout"
+    },
+    "cpu_single_thread": {
+      "pass": true,
+      "detail": "CPU only; BLAS env1"
+    },
+    "resource_cap": {
+      "pass": true,
+      "detail": {
+        "wall_seconds": 5.307918292004615,
+        "peak_rss_bytes": 290177024
+      }
+    }
+  },
+  "failures": [],
+  "environment": {
+    "python": "3.12.13",
+    "torch": "2.2.2",
+    "numpy": "1.26.4",
+    "platform": "macOS-15.0-arm64-arm-64bit",
+    "threads": 1,
+    "interop_threads": 1
+  },
+  "wall_seconds": 5.308467333205044,
+  "peak_rss_bytes": 290177024,
+  "throughput": {
+    "batch_size": 32,
+    "warmup_steps": 5,
+    "timed_steps": 20,
+    "training_seconds": 0.4420960829593241,
+    "train_seconds_per_step": 0.022104804147966207,
+    "train_examples_per_second": 1447.6491076689417,
+    "inference_seconds": 0.33495675027370453,
+    "inference_examples_per_second": 1910.6944388403406,
+    "training_steps_total": 105,
+    "natural_epochs_extrapolation": "ceil(N/32)*epochs*train_seconds_per_step; excludes IO/evaluation and is not measured natural throughput"
+  }
+}

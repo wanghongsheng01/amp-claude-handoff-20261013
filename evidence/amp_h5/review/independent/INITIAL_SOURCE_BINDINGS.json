@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-10-11T15:49:44.344325+00:00",
+  "purpose": "H5 independent initial read-only review; not execution approval",
+  "test_opened": false,
+  "natural_train_or_generation_started": false,
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/HANDOFF_H4_H2_BRIDGE_20261011.zh.md",
+      "sha256": "1c80f7ece329d851f4fc907f288723e4cc5e97913b9e56ae05fa1affb22ca6e2",
+      "bytes": 7946
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/DELIVERY_H4_H2_BRIDGE_FINAL_INDEX.json",
+      "sha256": "c5a20a9d56f28370029d8cd39310db0e3064a8061d2b0e31e819f971ab18e395",
+      "bytes": 13226
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/evaluation/terminal_v2/evaluate_terminal.py",
+      "sha256": "f6d72248b8b28c652c175443d16e33a66c88bc200469253c9c71bfc88c563748",
+      "bytes": 12517
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/evaluation/frozen_tools/v1/amp_evaluate.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480",
+      "bytes": 25377
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/evaluation/independent_review/independent_oracles.py",
+      "sha256": "495ae61659401fd404cf4ef03a4a3f4a8c4b54a441647ae02207d0e5447bdaa5",
+      "bytes": 2895
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/EVALUATION_INPUTS.json",
+      "sha256": "712038c65f4d95774c7ce64868efc25d0d075a83dd35f82f2f8aa9485eb6b293",
+      "bytes": 1578
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/design_snapshot/independent_review_design/DESIGN_REVIEW.zh.md",
+      "sha256": "7259c257ea1e8a624078377ddbafaced9635db8bf4bc1b0fc0a1d51e31b2ad43",
+      "bytes": 11533
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/design_snapshot/architecture_review/DESIGN_ADVICE.zh.md",
+      "sha256": "e257dec79e52f207fa94bde2b6fa02ac33487b7bf4440fe0641bff5d5bd23714",
+      "bytes": 8582
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/design_snapshot/science_design/H5_SCIENTIFIC_DESIGN_OPINION.zh.md",
+      "sha256": "ea3e3aa0ae977a3557d8c6da572bc1627183cbea9f41bded9f76acdcd9d8c124",
+      "bytes": 16236
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/design_snapshot/candidate/fvae21_adapter.py",
+      "sha256": "e43e51ba9812524672840e66d431c6d1d702ef844c2a4462de41e47a7bf28142",
+      "bytes": 3478
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/design_snapshot/candidate/objective_oracle.py",
+      "sha256": "7741cc4b409a127825143bb37f5eaf60569b2239e2cd8491b635304c786c2d9d",
+      "bytes": 3857
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/design_snapshot/baseline_ar/ar_model.py",
+      "sha256": "4607250e0b9a5cc547d061656230e11f4d3fd4a7ed064edd94bde20f8410b678",
+      "bytes": 8797
+    }
+  ]
+}

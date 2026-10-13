@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-10-12T08:58:36.841342+00:00",
+  "files": {
+    "ACTUAL_CHEMISTRY_UNITS_V1.json": {
+      "sha256": "a19d2c26ead596aff572a3adc1ffa1b905be96f36d4b291aca9d47539bec98c7",
+      "bytes": 1155
+    },
+    "ACTUAL_CHEMISTRY_UNITS_V2.json": {
+      "sha256": "3d68795a8f92278699a0f77c78eab1e59d34000351643024addc17fd54aa7e89",
+      "bytes": 1351
+    },
+    "CHEMISTRY_INDEPENDENT_SYNTHETIC.json": {
+      "sha256": "e1fe085322283b814bd209457ff470ab05c99f5fe118ddfc7e547773cab23a60",
+      "bytes": 1264
+    },
+    "CNN_INDEPENDENT_NUMERIC.json": {
+      "sha256": "f5b81e1a7fcb9c02eca3bdf411373b2838646613e753b3aec335b0ac5723519c",
+      "bytes": 502
+    },
+    "CNN_SOURCE_AUDIT.json": {
+      "sha256": "2b46488772ce90e36c594d227874a8fbd5b03ea6a2a4385643b944b1b0f09959",
+      "bytes": 4491
+    },
+    "PREAUDIT.json": {
+      "sha256": "97982557dc376a5f96fe27381e41ad235546e21d41a3d6950258e25a8b6cf172",
+      "bytes": 2065
+    },
+    "RAW_CHEMISTRY_INDEPENDENT.json": {
+      "sha256": "a6b7274fab1f95b08caf78f0fcf0ec09db602618ce378016c72bbb5a7e038355",
+      "bytes": 71633
+    },
+    "REPRESENTATION_AND_PENDING_AUDIT.json": {
+      "sha256": "5a8bdc9700ae44056b87109f221e014bfe3093c0bd206532290b1df9949a1f1c",
+      "bytes": 5101
+    },
+    "SIGNOFF.json": {
+      "sha256": "4471e461f1fafdc64f0cdfddd9b55644b6d7c9b17beffd98204a885b0380bb19",
+      "bytes": 2031
+    },
+    "V2_NORMALIZATION_PREAUDIT.json": {
+      "sha256": "d5172146d7638772be71b17ebf91b1b6a09e8f0a1a96170409969d72d80254d9",
+      "bytes": 1254
+    },
+    "audit_actual_chemistry.py": {
+      "sha256": "80273df757c0ac1f375233b2ae4061babce3f3449a6cea759581ed50e01c741e",
+      "bytes": 5070
+    },
+    "audit_cnn_edge_numeric.py": {
+      "sha256": "06dd487fdecec5fb2a587f6223976a4d7dca610f64acbed6ad2ed7a825a0bb63",
+      "bytes": 1942
+    },
+    "audit_conversion_synthetic.py": {
+      "sha256": "34cea34aac5746f155ab79816c8db37e3b85d8ff46b1b0583f27e011bade8537",
+      "bytes": 3425
+    },
+    "audit_conversion_v2_synthetic.py": {
+      "sha256": "9c22714923f9f3ae75d1ab27f4d22b9a672cf2937423d07c5d98e217c8e540e9",
+      "bytes": 4447
+    },
+    "audit_raw_chemistry.py": {
+      "sha256": "c15c299a6b70e2273aca042fd5cd0cc3be2a9af64340aaa66096a4601884f7f6",
+      "bytes": 3037
+    },
+    "audit_representation_and_pending.py": {
+      "sha256": "285a69e417acb29d8e43b752402f7173393050a17feb7fb9f62082ba7d03d787",
+      "bytes": 3545
+    }
+  }
+}

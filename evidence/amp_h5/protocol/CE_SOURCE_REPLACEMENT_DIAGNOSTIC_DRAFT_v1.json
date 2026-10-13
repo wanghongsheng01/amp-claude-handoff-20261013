@@ -1,0 +1,477 @@
+{
+  "created_utc": "2026-10-11T20:06:35.477193+00:00",
+  "document_type": "NON_EXECUTABLE_DESIGN_DRAFT_REQUIRES_NEW_CODE_CONTRACT_PLAN_AND_INDEPENDENT_RECEIPT",
+  "scope_proposal": "AMP_H5_CE_SOURCE_REPLACEMENT_DIAGNOSTIC",
+  "authorized": false,
+  "model_calls_in_preparation": 0,
+  "new_random_draws_in_preparation": 0,
+  "purpose": "Posthoc exploratory source replacement to separate decoder readability, empirical posterior reference, joint-coordinate sensitivity, and reference-g conditional prior behavior after known negative generation findings. No claim of innovation, causality or confirmatory evidence.",
+  "original_four_arm_protocol_changed": false,
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION_PERMANENTLY; no backfill from recovery or this scope",
+  "PROMOTE": "HOLD",
+  "prior_drafts_preserved": "Old A/B64 v1/v2 and earlier r-shuffle design remain historical, unexecuted. This draft selects C in actual decoder-z space and does not execute A=decoder(N0I). A is not a substitute for a native flow prior.",
+  "fixed_checkpoint": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+    "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+    "tensor_state_sha256": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+    "scope": "frozen CE VAE, not historical original scalar checkpoint"
+  },
+  "slots": {
+    "paired_slots": 32,
+    "per_terminal": 16,
+    "terminals_in_order": [
+      "FREE",
+      "AMD"
+    ],
+    "reuse_existing_DDPM": 32,
+    "new_B": 32,
+    "new_C": 32,
+    "optional_new_D": 32,
+    "new_decoder_inputs_maximum": 96,
+    "new_decoder_batch_calls_maximum": 6,
+    "batch_size": 16,
+    "D_inverse_flow_batch_calls_maximum": 2,
+    "D_roundtrip_forward_flow_batch_calls_maximum": 2,
+    "new_encoder_calls": 0,
+    "new_DDPM_calls": 0,
+    "new_training_updates": 0,
+    "no_redecode_of_existing_DDPM": true
+  },
+  "sources": [
+    {
+      "id": "DDPM_EXISTING",
+      "method": "CEdiag_existing_DDPM",
+      "coordinate": "saved r=(mu,log_sigma) -> saved decoder-z",
+      "input": "reuse saved z, raw, tokens, lengths and sequences from CE recovery for all FREE16/AMD16; verify bindings, no DDPM or decoder call",
+      "conditioning": "terminal only during existing DDPM generation",
+      "flow_inverse": false,
+      "new_inputs": 0
+    },
+    {
+      "id": "B_TRAIN_EMPIRICAL_POSTERIOR",
+      "method": "CEdiag_train_posterior",
+      "coordinate": "decoder-z",
+      "input": "z_B[i,c,t] = mu_j[c,t] + epsilon[i,c,t] * exp(log_sigma_j[c,t])",
+      "conditioning": "terminal selects train row pool; posterior already carries its training sequence/global/residue information",
+      "flow_inverse": false,
+      "new_inputs": 32,
+      "interpretation": "training empirical posterior resampling / memorization reference, not novel-generation success"
+    },
+    {
+      "id": "C_PERMUTED_POSTERIOR_Z",
+      "method": "CEdiag_permuted_posterior_z",
+      "coordinate": "decoder-z, not r=(mu,log_sigma) and not prior-zp",
+      "input": "z_C[i,c,t] = z_B[permutation[c,t,i],c,t], independently drawn fixed permutation per coordinate within the same terminal",
+      "conditioning": "same terminal pool and B realization; individual slot has no single corresponding training g",
+      "flow_inverse": false,
+      "new_inputs": 32,
+      "preserves": "exact raw-float32-byte multiset of 16 values at each (terminal,channel,position)",
+      "changes": "cross-coordinate pairing/whole-sequence latent combinations; does not guarantee all dependence becomes zero",
+      "interpretation": "joint combination sensitivity of this empirical posterior sample, not a new generative model or unique DDPM-cause test"
+    },
+    {
+      "id": "D_REFERENCE_G_CONDITIONAL_NATIVE_PRIOR",
+      "method": "CEdiag_reference_g_native_prior",
+      "coordinate": "zp=epsilon -> native prior_flow inverse(zp,g_j) -> decoder-z",
+      "input": "z_D = model.vae.prior_flow(epsilon, g_selected, reverse=True); decoder receives z_D",
+      "conditioning": "the same B-selected TRAIN reference g_j, including residue and length-template information; more than terminal",
+      "flow_inverse": true,
+      "new_inputs_if_prospectively_enabled": 32,
+      "default_execution_state": "PENDING_ROOT_AND_INDEPENDENT_NEW_SCOPE_DECISION",
+      "if_g_unavailable_or_disallowed": "NOT_IDENTIFIED; no zero g, no target g, no substitute N0I direct decoder",
+      "interpretation": "conditional native-prior of frozen CE VAE under selected training reference g, not terminal-only, not historical checkpoint prior, not independent new-peptide evidence, excluded from primary ranking"
+    }
+  ],
+  "epsilon": {
+    "source": "reconstruct original CPU torch RNG trajectory; never infer (z-mu)/sigma",
+    "torch_version": "2.2.2",
+    "dtype": "float32",
+    "device": "cpu",
+    "threads": 1,
+    "seeds": {
+      "FREE": 422,
+      "AMD": 423
+    },
+    "isolation": "global torch.manual_seed within torch.random.fork_rng(devices=[]), restore preexisting global state",
+    "draws_in_exact_order": [
+      "one torch.randn(16,2,16,48)",
+      "for t=998..2 inclusive, 997 torch.randn_like(x) draws of shape(16,2,16,48); no forwards",
+      "t=1 uses zeros and consumes no RNG",
+      "one torch.randn(16,16,48), equivalent to original randn_like(mu) contiguous output"
+    ],
+    "verification": "Both terminals require reconstructed saved_z = saved_mu + epsilon * exp(saved_log_sigma) equal in dtype, shape and raw contiguous bytes SHA256 to saved z, before any model construction/forward; torch.equal alone is insufficient for signed zero. Any mismatch aborts the entire attempt; no alternative seed or epsilon.",
+    "save": [
+      "epsilon values and dtype/shape/raw-byte digest",
+      "initial/pre-epsilon/post-epsilon RNG states and hashes",
+      "full preceding Gaussian tensor stream digest",
+      "restored global RNG state check"
+    ],
+    "pairing": "Same epsilon for DDPM provenance, B and D; C permutes the already sampled B z. Shared random numbers are pairing, not independent experiment repeats."
+  },
+  "B_selection": {
+    "numpy_version": "1.26.4",
+    "algorithm": "numpy.random.Generator(numpy.random.PCG64(seed)).integers(0,n,size=16,endpoint=False,dtype=int64)",
+    "seeds": {
+      "FREE": 523,
+      "AMD": 524
+    },
+    "pool": "ascending saved row_ids filtered by exact class 0=FREE/1=AMD; counts126/153; cache rows0..278 align with hash-bound ordered descriptor/cohort records",
+    "with_replacement": true,
+    "retain_duplicates": true,
+    "selection_not_by_sequence_or_reconstruction": true,
+    "save": [
+      "pool row_ids/hash",
+      "selector initial/final state",
+      "local indices",
+      "selected row_ids",
+      "duplicate counts",
+      "selected mu/log_sigma/sigma"
+    ],
+    "design_unit": "sequence rows within terminal; not homology-independent, and B/D references were all used for training"
+  },
+  "C_permutation": {
+    "numpy_version": "1.26.4",
+    "algorithm": "one Generator(PCG64(seed)) per terminal; channel c=0..15 outer loop, position t=0..47 inner loop; assign permutation[c,t,:]=rng.permutation(16) as int64; no rerolls",
+    "seeds": {
+      "FREE": 625,
+      "AMD": 626
+    },
+    "shape": [
+      16,
+      48,
+      16
+    ],
+    "mapping": "permutation[c,t,i] is B source slot for C output slot i",
+    "retain_fixed_points_and_coincident_permutations": true,
+    "preserve_margin_guard": "Each permutation is a bijection of0..15; C exact expected indexed bits, and sorted uint32 bit-pattern multisets of B/C equal at each coordinate. No numerical sorting assumption about signed zero. All 768 coordinates per terminal checked.",
+    "save": [
+      "full permutations",
+      "PCG64 initial/final states",
+      "all B/C float32 z",
+      "per-coordinate source slot map",
+      "all equality guards"
+    ],
+    "no_inverse_flow_or_g_for_C": true
+  },
+  "D_reference_g": {
+    "source_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/train.csv",
+    "cohort_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "scaler_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+    "selected_indices": "exactly B selected row_ids, preserving multiplicity and terminal order",
+    "construction": "Restore FeatureScaler.stats from saved JSON using __new__ without __init__/fit. Use frozen read_records contract train_idx_start=0 and frozen FeatureScaler.tensorize for selected train records. Retain only g for flow; no encoder or global h consumption.",
+    "g_dtype_shape": "float32 [16,3,48] per terminal",
+    "formula": "real residue: (float(descriptor[t,j])-saved_mean[j])/saved_scale[j]; signed zscore, NO abs. Positions beyond reference length: exact zero.",
+    "checks": [
+      "descriptor/cohort hashes and ordered row identity",
+      "saved scaler hash and train-only fit metadata",
+      "finite g, correct selected row IDs/classes/lengths and [16,3,48] shape",
+      "independent scalar-loop reconstruction of normalization agrees dtype/shape/raw bytes with frozen tensorize g",
+      "all padding exact float32 +0; no new g predictor, target/dev/test g or zero-g stand-in"
+    ],
+    "save": [
+      "selected descriptor record identity and row IDs",
+      "reference lengths",
+      "all normalized g and byte digest",
+      "original scaler hash and restored stats identity",
+      "source path/hash and row-to-g provenance"
+    ],
+    "roundtrip": {
+      "route": "prior_flow(prior_flow(epsilon,g,reverse=True),g,reverse=False)",
+      "batch_calls": {
+        "inverse": 2,
+        "forward": 2
+      },
+      "tolerance_locked_proposal": {
+        "atol": 1e-05,
+        "rtol": 1e-05,
+        "elementwise": "abs(roundtrip-epsilon) <= 1e-5 + 1e-5*abs(epsilon)"
+      },
+      "save": [
+        "z_D and returned_zp",
+        "per-slot max_absolute_error",
+        "per-slot RMS_error",
+        "per-slot max_normalized_error",
+        "all finite results and failed coordinates count"
+      ],
+      "meaning": "finite-precision engineering guard only; not prior quality. Roundtrip cannot verify correct g by itself, since wrong g can also roundtrip. No posthoc tolerance change."
+    }
+  },
+  "phase_order_and_guards": [
+    "0. Validate exact new contract/plan/independent receipt, four-arm closed scientific review decision, scalar terminal status, serial lock and absent/fresh output; validate all bound hashes. No old A/B candidate activation.",
+    "1. Preallocate all fixed selected-scope rows. Rebuild both epsilon tapes, require both raw-byte saved-z matches; select B indices, build B z, choose C permutations and build C z, reconstruct/verify g only if D prospectively enabled. Seal epsilon, indices, B/C tensors, g and permutation inputs before ANY model construction or forward. No natural model in input preparation.",
+    "2. Load only final CE VAE with strict state dict, weights_only=True; verify checkpoint byte hash and loaded full tensor digest. eval + torch.no_grad, CPU one thread, protect/restore global RNG during model initialization. No optimizer/encoder/DDPM.",
+    "3. If D enabled, in FREE then AMD order perform exactly one inverse-flow and one forward-roundtrip per terminal. Any failure aborts; preserve D intermediate tensors and leave pending decoder slots not_executed. No fallback to a B/C-only success after D was selected. Seal all final decoder inputs including D before first decoder call.",
+    "4. Call unchanged frozen decode(model,z,categorical_ce,observations) in fixed order B_FREE,B_AMD,C_FREE,C_AMD,D_FREE,D_AMD (omit D only if prospectively disabled). No flow for DDPM/B/C. Per batch finite z/raw/J; preserve empty and full48; no filtering or clipping.",
+    "5. Finally retain all slots, tracebacks, intermediate tensors, per-phase and supervisor costs, actual call counters, before/after input hashes and full model tensor digests. A failure stops pending calls, does not resample/retry; completed results remain visible. No modification to original runs or reports."
+  ],
+  "failure_and_budget": {
+    "inner_seconds": 120,
+    "outer_seconds": 180,
+    "candidate_budget_not_throughput_guarantee": true,
+    "evidence": "Only 4 or6 batch16 decoder calls and at most4 prior-flow batch calls versus previously completed whole-chain DDPM generation; frozen CE recovery exported train+dev recon in6.815s, which is suggestive but not a benchmark of this new flow or setup. No new timing model job was run.",
+    "included_in_inner": [
+      "imports",
+      "all hashes/data identity checks",
+      "RNG trajectory reconstruction",
+      "input preparation and seals",
+      "model initialization/load",
+      "flow/roundtrip",
+      "decoder/J",
+      "all exports/finalization"
+    ],
+    "accounting": "Report new diagnostic costs separately and reference historical DDPM/training costs without counting old rows as fresh free independent observations. Outer supervisor wall distinct from before-final-I/O timer.",
+    "failed_precondition": "zero new model forwards; all allocated affected slots retained as not_executed with error record",
+    "mid_execution_failure": "retain failed batch/intermediates and completed rows; mark remaining not_executed; no automatic retry, new seed, extra calls, relaxed tolerance, changed budget or g replacement",
+    "D_decision": "Explicit enable32 or NOT_IDENTIFIED before execution/outputs. NOT_IDENTIFIED is not a success or an attempt; if enabled then all32 remain the D denominator even if failures."
+  },
+  "future_outputs_required": [
+    "new-scoped status/contract/plan/receipt hashes",
+    "base-input seal before any forward",
+    "final decoder-input seal before decode",
+    "true epsilon/RNG tapes",
+    "indices and full permutations",
+    "g provenance when D enabled",
+    "all B/C/D z/raw/tokens/length_scores/lengths/sequences",
+    "roundtrip arrays/errors when D enabled",
+    "all fixed rows including empty/full48/failure/not_executed",
+    "per-phase/model-call counts and separate supervisor wall",
+    "model identity before/after",
+    "input integrity before/after",
+    "manifest with every output hash",
+    "separate original DDPM reference index with source hashes, no fake new run"
+  ],
+  "descriptive_evaluation_proposal": {
+    "executor": "separate future evaluator job after independent engineering postflight; no evaluator/model job now",
+    "frozen_scripts": [
+      "implementation/evaluate_h5.py",
+      "implementation/frozen_metrics_v1.py"
+    ],
+    "new_method_names": [
+      "CEdiag_existing_DDPM",
+      "CEdiag_train_posterior",
+      "CEdiag_permuted_posterior_z",
+      "CEdiag_reference_g_native_prior"
+    ],
+    "schema": "sample_id={method}_{terminal}_{000..015}, method, terminal, sequence incl empty, status, seed; optional length must agree, terminal_sample_id0..15",
+    "reference": "same frozen train279 and dev41 cohort paths/hashes from bound EVALUATION_COMMAND; no test",
+    "all_frozen_metrics": "Report every frozen descriptor MMD² vs dev/train, legality length1/5 over all requests, unique counts, same-/any-terminal train copy, nearest train identity summaries and >=70%counts, entropy, dipeptideJS, AA_L1 and lengthKS; do not select metrics by outcome. Actual evaluator semantics and sample eligibility retained.",
+    "denominator": "each included source has32 fixed slots=16perterminal. Full failures/empty/duplicate counts first. Effective unique legal count is descriptive and not a replacement denominator; distribution metrics state actual eligible count. If D not identified, display missing explicitly, not zero.",
+    "limitations": [
+      "diagnostic source names never map to original E/L/G gates; original CE remains NE",
+      "B/C/D are reference/diagnostic controls excluded from primary model ranking and PROMOTE",
+      "copying train sequences cannot establish innovation or improved novel generation",
+      "D uses more conditioning information; B vs D also differs in posterior x/h information so it cannot isolate flow alone",
+      "single paired epsilon bank and selected row bank with16perterminal, no independent repeats or significance claim",
+      "known negative generation and scale findings preceded design, so this is posthoc exploration",
+      "missing dev latent remains missing; reference dev sequence metrics do not fill it",
+      "no whitening, W2, clipping, scaling, new hyperparameter selection or changed J"
+    ]
+  },
+  "pending_before_execution": [
+    "root selects exact B/C/D scope after four-arm independent scientific closure",
+    "new implementation and exact contract with permitted paths/hash bindings",
+    "pure synthetic/static review including g provenance, permutation bit margins and fixed call counters",
+    "independent preflight receipt and exact supervised plan; root authorizes one attempt",
+    "new scope/output directory must not exist; no plan or receipt is created by this DRAFT"
+  ],
+  "bindings": [
+    {
+      "role": "frozen CE training/decoder/J and descriptor tensorization",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "bytes": 41408
+    },
+    {
+      "role": "frozen CE settings; no changes",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "bytes": 2541
+    },
+    {
+      "role": "final CE VAE parameters; hash only during drafting",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+      "bytes": 6800314
+    },
+    {
+      "role": "final CE tensor-state identity",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490",
+      "bytes": 421
+    },
+    {
+      "role": "saved train279 mu/logsigma",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a",
+      "bytes": 1315674
+    },
+    {
+      "role": "restore original statistics; no fit",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "bytes": 3279
+    },
+    {
+      "role": "existing FREE16 posterior/z/raw/tokens",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4",
+      "bytes": 201931
+    },
+    {
+      "role": "existing AMD16 posterior/z/raw/tokens",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a",
+      "bytes": 202058
+    },
+    {
+      "role": "existing 32 sequences; no redecoding",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57",
+      "bytes": 2135
+    },
+    {
+      "role": "frozen environment and implementation bindings",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1",
+      "bytes": 24995
+    },
+    {
+      "role": "D training reference residue descriptors only",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/train.csv",
+      "sha256": "f71de05d3a2086c37b082716781397f7bb6db65322b807366f4f19ebf3058e03",
+      "bytes": 254851
+    },
+    {
+      "role": "train ordered row/terminal identity",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "bytes": 64083
+    },
+    {
+      "role": "train model_row_id and component/sequence binding metadata",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9",
+      "bytes": 141151
+    },
+    {
+      "role": "native CE prior declaration and decoder",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+      "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+      "bytes": 17846
+    },
+    {
+      "role": "native conditional coupling forward/reverse",
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+      "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+      "bytes": 11330
+    },
+    {
+      "role": "reviewed epsilon reconstruction, signed-zero-safe bitwise guard and input-seal candidate; do not execute old candidate",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_decoder_input_control_v2.py",
+      "sha256": "30211ed157ffcda9bf2f96620599beca9e48def87631cb7e4f3885cb0292fd98",
+      "bytes": 20437
+    },
+    {
+      "role": "historical candidate contract; preserved, not activated",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_DECODER_INPUT_CONTROL_CONTRACT_v2.json",
+      "sha256": "32ed71685ec5c988c76b7aca15d281f68cb882f7d753511fecc06c81ba348b86",
+      "bytes": 33826
+    },
+    {
+      "role": "reviewed v2 safeguards only, not authorization",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_DECODER_INPUT_CONTROL_PREPARATION_REVIEW_v2.json",
+      "sha256": "a7a99a6cd60d82484d3bc2864f734d8cebb359c90f3d8da5e4ed9815b892c2a0",
+      "bytes": 3477
+    },
+    {
+      "role": "conditional reference-g design opinion; not execution receipt",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/REFERENCE_G_PRIOR_DIAGNOSTIC_FEASIBILITY_v1.zh.md",
+      "sha256": "605313d33bb632a5bdb29c25aedfb2a48272fc8a79ff192040c92554d8865f3c",
+      "bytes": 3113
+    },
+    {
+      "role": "earlier design boundaries",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/FUTURE_FOUR_SOURCE_ROUTE_DESIGN_BOUNDARIES_v1.zh.md",
+      "sha256": "4d4ebe203a642ea52b4c2f5b788c4b3b825c611882b4381a29379ae0a95144a6",
+      "bytes": 4326
+    },
+    {
+      "role": "coordinate and conditional flow route evidence",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/LATENT_ROUTE_STATIC_AUDIT.json",
+      "sha256": "cddbc4a3ee25926f6654afabfeef8448b77adc3d4620b0e9664cb60b6d2f1096",
+      "bytes": 114898
+    },
+    {
+      "role": "separate existing generation engineering PASS",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484",
+      "bytes": 14870
+    },
+    {
+      "role": "closed MSE engineering review",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_POSTFLIGHT_v1.json",
+      "sha256": "a0a410526b6a252ba1f73fd3957dea5ee20413bb6e5c264fca5d34a4eec97b71",
+      "bytes": 21294
+    },
+    {
+      "role": "closed scalar engineering review; not source-control authorization",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_POSTFLIGHT_v1.json",
+      "sha256": "911a453786a351ac4365e30c818af37aaeac446c5c93159fedf17aab37396d5c",
+      "bytes": 14224
+    },
+    {
+      "role": "original CE interruption remains separate",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+      "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06",
+      "bytes": 4150
+    },
+    {
+      "role": "exploratory/posthoc status",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_POSTHOC_ADDENDUM.json",
+      "sha256": "6f925a28d4d189d29cd675db88ad68b00bf5905135bfd49ddd614067c0ad05ab",
+      "bytes": 1489
+    },
+    {
+      "role": "finite empirical range and macro accuracy limits",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_METRIC_CLARIFICATION.json",
+      "sha256": "42766c205908dd2d9bd0a97d1c52c720f4f1ce022555241f949272b01d505c7f",
+      "bytes": 2085
+    },
+    {
+      "role": "new same-n descriptive evidence; not causal proof",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/DELIVERY_MANIFEST.json",
+      "sha256": "6956edbd2632fa3639ac58c6cc7cf2f9f56023731279242e37d572b893dbdafa",
+      "bytes": 2331
+    },
+    {
+      "role": "unchanged future descriptive metrics interface",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+      "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417",
+      "bytes": 24404
+    },
+    {
+      "role": "unchanged metric definitions",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480",
+      "bytes": 25377
+    },
+    {
+      "role": "existing train/dev reference bindings and CLI schema, not quality outcomes",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_execution_v1/EVALUATION_COMMAND.json",
+      "sha256": "09ce64689f67b1c08ab40e104a70c0725cbb8a574e4eeaff9ed93c1f4840b116",
+      "bytes": 11185
+    },
+    {
+      "role": "future process/cost supervisor",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+      "bytes": 3194
+    },
+    {
+      "role": "future serial detached launch boundary",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+      "bytes": 3703
+    }
+  ]
+}

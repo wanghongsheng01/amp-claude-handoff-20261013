@@ -1,0 +1,59 @@
+{
+  "schema": "AMP_H5_INDEPENDENT_EVIDENCE_REVIEW_V1",
+  "status": "PASS_EXPLANATION_ONLY",
+  "independent_author": "/root/ar_admission_independent",
+  "evidence_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/FOCUSED_MECHANISM_EVIDENCE_v1.json",
+  "evidence_sha256": "1441a7f5e207e9d2e5a8623f23f34ad333a3983774bf0f5dd8a9329b8df98f10",
+  "scope": "单轮解释性核对：结论边界、引用身份和比较公平性；不重新审核已通过的MINIMAL_PLAN_v2。",
+  "findings": [
+    {
+      "topic": "理想等价与归因",
+      "judgment": "PASS",
+      "reason": "R若精确复现按terminal分组的经验r分布，重参数化即给出同一q_bar；因此direct-z只检验有限预算、尺度和学习目标适配。正确z依赖不能推出先验是唯一失败原因或Z必胜。"
+    },
+    {
+      "topic": "对照与价值",
+      "judgment": "PASS",
+      "reason": "保留重新拟合R的机制比较和已审计C的价值比较；共享A仍不消除输入通道、噪声和边界初始化差异。外部预训练、MSA、活性奖励与候选筛选没有被冒充当前train279/terminal-only公平臂。"
+    },
+    {
+      "topic": "AMPGen身份及分母",
+      "judgment": "PASS",
+      "reason": "正式论文身份与当前3DHumanRehab源项目明确分开。31/38为筛选、成功合成后在指定菌株及MIC≤75µM条件的作者报告，不是原始生成命中率或跨论文最强证据。"
+    },
+    {
+      "topic": "AMP-Designer与HydrAMP证据强度",
+      "judgment": "PASS_WITH_DECLARED_LIMITS",
+      "reason": "作者稿详细N/划分未核最终全文、HydrAMP精确唯一训练N未定、三项外部完整可运行性未验证，均已明确而未冒充复现。随机行切分缺乏簇隔离证据也未被写成已证实泄漏。"
+    },
+    {
+      "topic": "统计与生物边界",
+      "judgment": "PASS",
+      "reason": "有限特征均值、池化二肽与32条筛查不能代表完整序列分布、显著优势或抗菌效力；双门通过仍HOLD，不自动扩样或训练。"
+    }
+  ],
+  "required_revisions": [],
+  "nonblocking_precision_note": "AMPGen正文Fig.1区分100M/OpenFold的MSA主干与UniRef50的Seq-based基线。证据文件已写“序列基础模型42M/640M”，建议另补主干100M，防止将640M误读为AMPGen的MSA主模型。此注不改变方案或结论。",
+  "source_scope": {
+    "independently_read_primary_sources": [
+      "https://www.nature.com/articles/s42003-025-08282-7",
+      "https://github.com/szczurek-lab/hydramp",
+      "https://github.com/jkwang93/AMP-Designer",
+      "https://arxiv.org/abs/2407.12296"
+    ],
+    "limitations": "HydrAMP与AMP-Designer出版页本次工具未返回正文；未将作者稿或README升级为最终全文逐项核验，也未重复下载权重、数据或失败发布包。非详尽综述或三论文全面事实审计。"
+  },
+  "frozen_plan_sha256_as_bound_by_evidence": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8",
+  "natural_execution_authorized": false,
+  "training_authorized": false,
+  "activity": {
+    "model_forward": 0,
+    "training": 0,
+    "new_rng": 0,
+    "test_reads": 0,
+    "uploads": 0,
+    "dependency_installations": 0,
+    "plan_edits": 0
+  },
+  "conclusion": "解释性边界核对通过；既有工程、吞吐与运行准入阻断仍在，本回执不授权训练。"
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "fold": 0,
+    "lr": 0.0003,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "e85e2b3209e7fd1d0c146279902995942002d2249a7ae4757750c929939c76b7",
+        "train_batch_token_nll": 2.5581278800964355
+      },
+      {
+        "step": 500,
+        "tensor_sha": "6647a94db34996af1b9ae4c685139c1aabd7fcdce9af61be5f1bf5b66d301905",
+        "train_batch_token_nll": 2.424586296081543
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "ccd1cbd96af6ad93b7d43c713f7560b37bf3a724b22d4ce09175528e88845c97",
+        "train_batch_token_nll": 2.253281831741333
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "lr": 0.001,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "c09e587cb52993b667f903eebdf0f9ad81b4e23c113b36624707039ce2fcf53c",
+        "train_batch_token_nll": 2.320347309112549
+      },
+      {
+        "step": 500,
+        "tensor_sha": "f772e417f46484530f0f819b9f22232140b78bf42f2b9888638d10c14223aa31",
+        "train_batch_token_nll": 1.9638819694519043
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "650ef896d269449cb367ad65a1059f361f5ba7bda807c75e16c8ebde74429ed3",
+        "train_batch_token_nll": 1.460597038269043
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "lr": 0.003,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "fde4a3806f4416f1d4b479bd2b8da069c8bd7946b2de9598ab55fd039575721e",
+        "train_batch_token_nll": 1.7875901460647583
+      },
+      {
+        "step": 500,
+        "tensor_sha": "ecb2478ea8d1e12b988461bf51a26df69f9af53e1a5152e5c6a605ee47612a38",
+        "train_batch_token_nll": 0.8391789793968201
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "9f48d3fb7205210165defd38837563d67d035da3a795b23ba1e25288afbf2d97",
+        "train_batch_token_nll": 0.32833102345466614
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "lr": 0.0003,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "4fcd1dfa9d08bb3f57db6ef47c10207dd858f512cde2d7ddf5b8e242eb5b5c23",
+        "train_batch_token_nll": 2.618452548980713
+      },
+      {
+        "step": 500,
+        "tensor_sha": "ef9c3e63835ed3db31189afed6190516a558ee3cfceaac2cea05beaad680986b",
+        "train_batch_token_nll": 2.4648938179016113
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "b290702f83ec095801865dd138ee4c93121b07de2348681bee4602a5d4562a2f",
+        "train_batch_token_nll": 2.29247784614563
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "lr": 0.001,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "3642f267c6edbefc43584015ac77340cf7b55a67b2fcbbe144370827e5995af9",
+        "train_batch_token_nll": 2.390063762664795
+      },
+      {
+        "step": 500,
+        "tensor_sha": "b0f6dc1e1c1ff0799a0f29aff51e6226173847f7575c1bfbe6ff264d6a3223ce",
+        "train_batch_token_nll": 2.0912082195281982
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "2e5a843fbb48d471ce83ab2e2ff9fd3395e3b38edba545004fe5654b61b38bea",
+        "train_batch_token_nll": 1.5937947034835815
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "lr": 0.003,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "e8045ab8558d728a85fa4d4d55eca05da14e9ea86e010ad4273c9a94633c7ab0",
+        "train_batch_token_nll": 1.8423084020614624
+      },
+      {
+        "step": 500,
+        "tensor_sha": "d4b3a3d9a7dee4bd84c5617e9696ef993850641da81c63873721609cd60c52d6",
+        "train_batch_token_nll": 0.8280214071273804
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "dd75e2cf9af0f5221953fbbf566d30ba57b549f084af988a0c943dd8711902ce",
+        "train_batch_token_nll": 0.3405910134315491
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "lr": 0.0003,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "d73f5632c34c0991620ff8b511d162c417282cc06e6b8b516e33f380515483bd",
+        "train_batch_token_nll": 2.612506151199341
+      },
+      {
+        "step": 500,
+        "tensor_sha": "4e51565d9eb0442098abcd4ab28ec3389876e7a920668d52d83bc2c286ded24f",
+        "train_batch_token_nll": 2.391493797302246
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "4c436276e34f00c34a74ce6784105cff871990d50c0b385c38d959aad3ea0114",
+        "train_batch_token_nll": 2.2318174839019775
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "lr": 0.001,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "3b648ed23681144842a083aff95fd669b5c3ed28ae277498e3f2609477ca12e1",
+        "train_batch_token_nll": 2.419483184814453
+      },
+      {
+        "step": 500,
+        "tensor_sha": "a402823e01acb62bac4deee858566701474aee0a9d79fa731ac75d364135a181",
+        "train_batch_token_nll": 1.9440767765045166
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "2006b47d469021b97c7bf7c845aa21837c20c254d56689a79b71b36e632eabd0",
+        "train_batch_token_nll": 1.4310543537139893
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "lr": 0.003,
+    "trace": [
+      {
+        "step": 250,
+        "tensor_sha": "de94ea0b84a8d487f5e66da50578182fb5c4eada1914be467b5ab8e93286f402",
+        "train_batch_token_nll": 1.7117608785629272
+      },
+      {
+        "step": 500,
+        "tensor_sha": "1bbc896c8434b2cd0c9cf122544e635717857ff24e3332276875fb539ae484c1",
+        "train_batch_token_nll": 0.6764013171195984
+      },
+      {
+        "step": 1000,
+        "tensor_sha": "74e9e2b8a2d57cb5a33809d8177c019a97cee6e90e9d9ef4ca7bae7b9c657ad1",
+        "train_batch_token_nll": 0.3572250008583069
+      }
+    ]
+  }
+]

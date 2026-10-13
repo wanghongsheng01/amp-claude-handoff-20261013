@@ -1,0 +1,17 @@
+{
+  "scope": "Synthetic arrays and files only; no natural data or model calls. Temporary fixture removed.",
+  "checks_passed": 8,
+  "checks": [
+    "nonfinite counts are separate from finite-only moments",
+    "saved posterior exp and analytic mixture formula",
+    "fixed endpoint and exposure counts",
+    "live supervisor rejected without output",
+    "closed synthetic full readout and terminal matched summaries",
+    "sequence strings omitted from author report",
+    "existing output overwrite rejected",
+    "no torch or model import"
+  ],
+  "script_sha256": "17914cc749b66e548dd016e9e47d33257e04784edf232cc0bb0023a5a1426780",
+  "numpy_version": "1.26.4",
+  "model_calls": 0
+}

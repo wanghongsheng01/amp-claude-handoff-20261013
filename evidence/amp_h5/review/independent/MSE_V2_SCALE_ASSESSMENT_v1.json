@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-10-11T19:06:36.442448+00:00",
+  "scope": "DESCRIPTIVE_NUMERICAL_SCALE_ONLY",
+  "source_audit": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_TERMINAL_AUDIT_v1.json",
+    "sha256": "4273578a85d2e9b9d1a9aafa3bcb63fc403d9f0084ecc346b76a1ec8972a95ec"
+  },
+  "assessment": {
+    "decision": "OBSERVED_MSE_NUMERICALLY_FEASIBLE_WITH_TAIL_AND_MEAN_MISMATCH_DISCLOSED",
+    "basis": "Fixed1000/1000 endpoint,32 complete terminal-only chains, all saved posterior/sigma/z/raw finite and sigma strictly positive; exact final seed reparameterization and raw J decode. Descriptive scale assessment introduces no new threshold.",
+    "terminals": {
+      "FREE": {
+        "train_records": 126,
+        "generated_requests": 16,
+        "train_sigma_range": [
+          0.8212479948997498,
+          1.1587051153182983
+        ],
+        "generated_sigma_range": [
+          0.613305389881134,
+          1.5859718322753906
+        ],
+        "train_mu_range": [
+          -1.5438454151153564,
+          1.2843658924102783
+        ],
+        "generated_mu_range": [
+          -2.86047101020813,
+          2.5288422107696533
+        ],
+        "generated_minus_train_mu_mean": 0.08036690220347456,
+        "generated_logsigma_std_div_train": 2.211392488709434,
+        "generated_z_rms": 1.1884091787531748,
+        "train_analytic_qz_rms": 1.1734793568005342,
+        "z_rms_ratio": 1.0127226967105296,
+        "per_request_z_rms_min": 1.0282766452728358,
+        "per_request_z_rms_max": 1.3348754107141103,
+        "decoder_raw_range": [
+          -0.3118940591812134,
+          1.2408671379089355
+        ],
+        "CE_recovery_descriptive_reference": {
+          "sigma_range": [
+            0.6227036714553833,
+            1.6083053350448608
+          ],
+          "z_rms_ratio_to_own_train": 0.9393889723672412,
+          "max_request_z_rms": 2.026810469005359
+        }
+      },
+      "AMD": {
+        "train_records": 153,
+        "generated_requests": 16,
+        "train_sigma_range": [
+          0.8207773566246033,
+          1.1545251607894897
+        ],
+        "generated_sigma_range": [
+          0.24940557777881622,
+          2.625932455062866
+        ],
+        "train_mu_range": [
+          -1.531994342803955,
+          1.2810313701629639
+        ],
+        "generated_mu_range": [
+          -3.811671018600464,
+          2.686065196990967
+        ],
+        "generated_minus_train_mu_mean": -0.08514103098063257,
+        "generated_logsigma_std_div_train": 4.56585646701282,
+        "generated_z_rms": 1.2495366412613358,
+        "train_analytic_qz_rms": 1.2032225424711274,
+        "z_rms_ratio": 1.0384917146707462,
+        "per_request_z_rms_min": 1.097481940609613,
+        "per_request_z_rms_max": 1.6762505162622479,
+        "decoder_raw_range": [
+          -0.4202832579612732,
+          1.2572557926177979
+        ],
+        "CE_recovery_descriptive_reference": {
+          "sigma_range": [
+            0.11082616448402405,
+            5.437218189239502
+          ],
+          "z_rms_ratio_to_own_train": 1.0860242275362952,
+          "max_request_z_rms": 3.1458233919571894
+        }
+      }
+    },
+    "limits": [
+      "Generated sigma and mu tails remain broader than each terminal training cache, and means shift; finite scale does not establish posterior distribution agreement.",
+      "CE/MSE absolute latent scales differ after different reconstruction objectives; ratios are against each model own train cache. No distribution-fit, sequence-quality or activity superiority follows.",
+      "One trained seed,16 requests per terminal; latent coordinates are dependent. Scalar has a different head and loss normalization, so MSE stability does not guarantee scalar stability.",
+      "No posthoc exclusion, clipping, resampling, checkpoint selection or budget change."
+    ]
+  },
+  "original25_files_checked_unchanged": true,
+  "quality_metrics_used": false,
+  "model_calls": 0
+}

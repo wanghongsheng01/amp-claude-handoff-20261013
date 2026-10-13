@@ -1,0 +1,120 @@
+{
+  "created_utc": "2026-10-11T20:11:30.071758+00:00",
+  "status": "PASS_DESIGN_AND_EVALUATION_PREPARATION_WITH_FINAL_CONTRACT_REQUIREMENTS",
+  "execution_authorized": false,
+  "checks": [
+    {
+      "name": "draft_hash",
+      "pass": true
+    },
+    {
+      "name": "evaluation_preparation_hash",
+      "pass": true
+    },
+    {
+      "name": "four_arm_actual_scientific_closeout",
+      "pass": true
+    },
+    {
+      "name": "all_draft_bindings_hash_bytes",
+      "pass": true
+    },
+    {
+      "name": "frozen_evaluator_and_metrics",
+      "pass": true
+    },
+    {
+      "name": "128_rows96_new32_reused",
+      "pass": true
+    },
+    {
+      "name": "epsilon_selection_permutation_separate",
+      "pass": true
+    },
+    {
+      "name": "roundtrip_tolerance_fixed",
+      "pass": true
+    },
+    {
+      "name": "diagnostic_gates_not_applicable",
+      "pass": true
+    },
+    {
+      "name": "fixed_old_train_dev_only",
+      "pass": true
+    },
+    {
+      "name": "all128_exact_slots_accepted",
+      "pass": true
+    },
+    {
+      "name": "empty_failed_pending_and_legal_failed_retained",
+      "pass": true
+    },
+    {
+      "name": "selection_seed_not_epsilon_seed_rejected",
+      "pass": true
+    },
+    {
+      "name": "historical_alias_rejected",
+      "pass": true
+    },
+    {
+      "name": "blank_length_failure_reproduced_for_final_contract",
+      "pass": true
+    },
+    {
+      "name": "missing_slot_rejected",
+      "pass": true
+    },
+    {
+      "name": "slot_index_disagreement_rejected",
+      "pass": true
+    },
+    {
+      "name": "legacy_gate_missing_operand_false_confirmed",
+      "pass": true
+    },
+    {
+      "name": "no_torch_numpy_import",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "required_before_execution": [
+    "Final new contract must override historical draft optional/max/pending D language: exactly mandatoryB/C/D96, six decoder and two inverse plus two forward flow batches, no runtime downgrade.",
+    "Use final four method IDs from evaluation preparation; preserve mapping/source hashes to oldCE32 rather than redecoding.",
+    "Preallocate all96 rows with sequence empty and length0, plus valid integer terminal_sample_id. Blank length is rejected by frozen reader even for failed/pending rows.",
+    "Every complete attempt requires exact new implementation/contract/hashbound supervisor plan and independent execution receipt; finalized sampler-seed file must be bound.",
+    "Base seal contains epsilon/indices/Bz/Cz/g/perms before model construction; D z follows inverse and all decoder inputs are sealed before any decoder call.",
+    "Engineering terminal review must precede natural diagnostic evaluation. Partial failed raw metrics require incomplete-source interpretation; legacy gates NOT_APPLICABLE, never newFAIL/winner."
+  ],
+  "inference_boundaries": [
+    "C has no single paired training truth after per-coordinate cross-slot mixing; no reconstruction score against an arbitrary B row.",
+    "B/D share reference row index and epsilon but D uses residue/length g whereas B posterior carries additional sequence/global information; not a pure flow-effect causal comparison.",
+    "B/C/D are outside c-only candidate ranking and PROMOTE. Tail and readability differences are posthoc source diagnostics only.",
+    "No diagnostic result triggers more seeds, retries, scope additions, changed tolerance or adaptive metric selection."
+  ],
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_DIAGNOSTIC_DRAFT_v1.json",
+      "sha256": "a5f12518b8b677c44f1b48a7da0b6ebe8a7626d9f7a6c4769c4ce12e3f7ce700"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/EVALUATION_PREPARATION.json",
+      "sha256": "ac3229a71ac86a7c988b2324b0b6713af34c3c8e93209c81cc8603820b29efe3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+      "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a"
+    }
+  ],
+  "reviewer_actions": {
+    "stdlib_static_synthetic_only": true,
+    "natural_tensor_loads": 0,
+    "cohort_content_reads": 0,
+    "random_draws": 0,
+    "model_calls": 0,
+    "test37_reads": 0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-10-11T20:14:52.193810+00:00",
+  "status": "PREPARATION_ONLY_NOT_EXECUTED",
+  "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V1",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v1.py",
+      "sha256": "cb14e4aad3977e6dbd8733d60a38a427886f504bd7ed8c8660915cc76b2466e4",
+      "bytes": 32879,
+      "role": "candidate deliverable"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v1.json",
+      "sha256": "7226435783bd6bc84f3bfb13f1fe96359b82325b2b8640a554205b09c7d917eb",
+      "bytes": 26981,
+      "role": "candidate deliverable"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v1.json",
+      "sha256": "f191f8412a5382b7e11ad3af4a1bbb1a45895df0c3491693a7ab14b986c83aa6",
+      "bytes": 261,
+      "role": "candidate deliverable"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_REQUEST_SLOTS_v1.json",
+      "sha256": "fb49c5f72bd8a3ef7c2ba3da92ac226d67fcfb3ce7a644f436dcf094919da22c",
+      "bytes": 51556,
+      "role": "candidate deliverable"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v1/validate_synthetic.py",
+      "sha256": "289b1ecab644e0cd840fc0cdd98b5e76fb5de96c70c760e0e38572ca31a59664",
+      "bytes": 7012,
+      "role": "candidate deliverable"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v1/AUTHOR_SYNTHETIC_VALIDATION.json",
+      "sha256": "67d02ced95d9006fa4fd64decc800f0eea7bf98663d26c4b1f4d64be0026c41d",
+      "bytes": 1741,
+      "role": "candidate deliverable"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v1/PLAN_TEMPLATE_NOT_AUTHORIZED.json",
+      "sha256": "2067f9bed5e56add53c4cf37a5c744d1d694e82d175a8edf20f094b966044d62",
+      "bytes": 3851,
+      "role": "candidate deliverable"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v1/CONTRACT_CLARIFICATIONS.zh.md",
+      "sha256": "b71f9102d57e549437e40b1c4c48951d029ede8465f6f4b717bc314c25a75bfe",
+      "bytes": 2132,
+      "role": "candidate deliverable"
+    }
+  ],
+  "all_previous_bound_files_unchanged": true,
+  "source_bindings_count": 42,
+  "new_model_calls": 0,
+  "natural_epsilon_draws": 0,
+  "toy_checks": 26,
+  "requires_new_independent_receipt": true
+}

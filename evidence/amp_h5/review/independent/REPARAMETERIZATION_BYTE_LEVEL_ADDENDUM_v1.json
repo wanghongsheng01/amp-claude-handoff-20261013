@@ -1,0 +1,221 @@
+{
+  "created_utc": "2026-10-11T20:00:48.067302+00:00",
+  "status": "PASS_ALL_AVAILABLE_SAVED_Z_BYTES",
+  "facts": [
+    {
+      "method": "CE_recovery",
+      "terminal": "FREE",
+      "status": "BYTE_IDENTICAL",
+      "dtype_saved": "float32",
+      "dtype_reconstructed": "float32",
+      "shape_saved": [
+        16,
+        16,
+        48
+      ],
+      "shape_reconstructed": [
+        16,
+        16,
+        48
+      ],
+      "saved_z_bytes_sha256": "7f3ca168ed3c78117368e39a2fbd4c27fdd4dcd11ef8b50f05df842741bce3e7",
+      "reconstructed_z_bytes_sha256": "7f3ca168ed3c78117368e39a2fbd4c27fdd4dcd11ef8b50f05df842741bce3e7",
+      "epsilon_bytes_sha256": "448a0d48c977800be7b5e363e5edf4d2391a6c977ada88eaa8279c755e880bc9",
+      "source_npz_sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4",
+      "source_unchanged": true,
+      "byte_identity_claim": true
+    },
+    {
+      "method": "CE_recovery",
+      "terminal": "AMD",
+      "status": "BYTE_IDENTICAL",
+      "dtype_saved": "float32",
+      "dtype_reconstructed": "float32",
+      "shape_saved": [
+        16,
+        16,
+        48
+      ],
+      "shape_reconstructed": [
+        16,
+        16,
+        48
+      ],
+      "saved_z_bytes_sha256": "ce52271c99dbbe0d9e7543d3085abf46ad5c573da2ca86cafb0540384fb8aa88",
+      "reconstructed_z_bytes_sha256": "ce52271c99dbbe0d9e7543d3085abf46ad5c573da2ca86cafb0540384fb8aa88",
+      "epsilon_bytes_sha256": "d431c9e90f425c9c9e718e193f98465713f2d9ced9a0a2ae1d6f1f278434d6cf",
+      "source_npz_sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a",
+      "source_unchanged": true,
+      "byte_identity_claim": true
+    },
+    {
+      "method": "MSE_v2",
+      "terminal": "FREE",
+      "status": "BYTE_IDENTICAL",
+      "dtype_saved": "float32",
+      "dtype_reconstructed": "float32",
+      "shape_saved": [
+        16,
+        16,
+        48
+      ],
+      "shape_reconstructed": [
+        16,
+        16,
+        48
+      ],
+      "saved_z_bytes_sha256": "2d165d54a94c24fe33ae9326016a43d4579afeca11fc56e40e7a935365d624b0",
+      "reconstructed_z_bytes_sha256": "2d165d54a94c24fe33ae9326016a43d4579afeca11fc56e40e7a935365d624b0",
+      "epsilon_bytes_sha256": "448a0d48c977800be7b5e363e5edf4d2391a6c977ada88eaa8279c755e880bc9",
+      "source_npz_sha256": "189f4a97ee509c1c61569be4c42ba98fd7b8ef4712077bc43a99de0763e8810d",
+      "source_unchanged": true,
+      "byte_identity_claim": true
+    },
+    {
+      "method": "MSE_v2",
+      "terminal": "AMD",
+      "status": "BYTE_IDENTICAL",
+      "dtype_saved": "float32",
+      "dtype_reconstructed": "float32",
+      "shape_saved": [
+        16,
+        16,
+        48
+      ],
+      "shape_reconstructed": [
+        16,
+        16,
+        48
+      ],
+      "saved_z_bytes_sha256": "d15b878b9533f62901cf69b113f5a04bd5d3c5a7f9eb65766344e1eb4e604f5d",
+      "reconstructed_z_bytes_sha256": "d15b878b9533f62901cf69b113f5a04bd5d3c5a7f9eb65766344e1eb4e604f5d",
+      "epsilon_bytes_sha256": "d431c9e90f425c9c9e718e193f98465713f2d9ced9a0a2ae1d6f1f278434d6cf",
+      "source_npz_sha256": "7c489cc1a2b04f041ca5357572cd6c67662253cd368a3c7c11ef333fa9e641c9",
+      "source_unchanged": true,
+      "byte_identity_claim": true
+    },
+    {
+      "method": "SCALAR_v2",
+      "terminal": "FREE",
+      "status": "BYTE_IDENTICAL",
+      "dtype_saved": "float32",
+      "dtype_reconstructed": "float32",
+      "shape_saved": [
+        16,
+        16,
+        48
+      ],
+      "shape_reconstructed": [
+        16,
+        16,
+        48
+      ],
+      "saved_z_bytes_sha256": "9169aae6a551cd05d1fca63addc5145c92c9a27c5482f727e115b2175ba631af",
+      "reconstructed_z_bytes_sha256": "9169aae6a551cd05d1fca63addc5145c92c9a27c5482f727e115b2175ba631af",
+      "epsilon_bytes_sha256": "448a0d48c977800be7b5e363e5edf4d2391a6c977ada88eaa8279c755e880bc9",
+      "source_npz_sha256": "31cc6e196cd18c0f1e6bac11fd8145a877d67e3dff1dd24ac710dcd7d8e69937",
+      "source_unchanged": true,
+      "byte_identity_claim": true
+    },
+    {
+      "method": "SCALAR_v2",
+      "terminal": "AMD",
+      "status": "BYTE_IDENTICAL",
+      "dtype_saved": "float32",
+      "dtype_reconstructed": "float32",
+      "shape_saved": [
+        16,
+        16,
+        48
+      ],
+      "shape_reconstructed": [
+        16,
+        16,
+        48
+      ],
+      "saved_z_bytes_sha256": "b632bab810da68e9aed0945b820581bf41db0db4c14c5fb429c1559e2ac78c42",
+      "reconstructed_z_bytes_sha256": "b632bab810da68e9aed0945b820581bf41db0db4c14c5fb429c1559e2ac78c42",
+      "epsilon_bytes_sha256": "d431c9e90f425c9c9e718e193f98465713f2d9ced9a0a2ae1d6f1f278434d6cf",
+      "source_npz_sha256": "801e99b86b74ccd8c1f1dcdf9a60b5cca78a39c1c86588e06031f228e82aa90c",
+      "source_unchanged": true,
+      "byte_identity_claim": true
+    }
+  ],
+  "failures": [],
+  "global_rng_restored_bytes": true,
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/audit_ce_checkpoint_recovery_terminal_v1.py",
+      "sha256": "9e1acf1cbfaeafe1182acec125a3186bfbf71470f2d2d528dde392e5ee9bc727"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_TERMINAL_AUDIT_v1.json",
+      "sha256": "40086bfd2624a18340a4eb6b8a1a6e817ae9769076be79a9f7fbf5d9eba437fa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/status.json",
+      "sha256": "41d71b8d183cc2869cdd8c77dbdd9d5d5d864340b6246a63647ac5d79455dbc5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/audit_mse_v2_terminal_v1.py",
+      "sha256": "06a22de646bfa924b134582a87e5b02792e2ed54d17d945e71483c3d89aa1229"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_TERMINAL_AUDIT_v1.json",
+      "sha256": "4273578a85d2e9b9d1a9aafa3bcb63fc403d9f0084ecc346b76a1ec8972a95ec"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/status.json",
+      "sha256": "c6b25aa0ea482cc6e99a6861cde430ab3be3e0d1683eff01f1abb50d0f85444e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_FREE.npz",
+      "sha256": "189f4a97ee509c1c61569be4c42ba98fd7b8ef4712077bc43a99de0763e8810d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_AMD.npz",
+      "sha256": "7c489cc1a2b04f041ca5357572cd6c67662253cd368a3c7c11ef333fa9e641c9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/audit_scalar_v2_terminal_v1.py",
+      "sha256": "49c1028b31a5f6a1fb8d7ca404af228ebb22b620f7556c2781364600a574680f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_TERMINAL_AUDIT_v1.json",
+      "sha256": "bb4e5418a9372d7f140de139b154e1d4dfe78f43551f469572d254fef7def209"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/status.json",
+      "sha256": "f304e7868aafca6fbb03dba7407183e3294b825f7c31dfa9e33e1bd8749a9341"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_FREE.npz",
+      "sha256": "31cc6e196cd18c0f1e6bac11fd8145a877d67e3dff1dd24ac710dcd7d8e69937"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_AMD.npz",
+      "sha256": "801e99b86b74ccd8c1f1dcdf9a60b5cca78a39c1c86588e06031f228e82aa90c"
+    }
+  ],
+  "audit_script_sha256": "04d8f82b23a4292c4ec42f0e1397351a526d7f7f7618f0bb429a0a22e7ef2d85",
+  "old_audit_clarification": "CE/MSE and prelocked scalar independent audits already compared numpy raw bytes, not torch.equal. This addendum explicitly records dtype, shape and byte digests using the original global RNG call forms. It does not change old reports.",
+  "reviewer_actions": {
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "new_generation_requests": 0,
+    "training_updates": 0,
+    "test37_reads": 0,
+    "RNG_replay": "Original422/423, one initial and997 reverse noises, then finalepsilon; no alternate seed/alignment or selected draws."
+  },
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD",
+  "new_execution_authorized": false
+}

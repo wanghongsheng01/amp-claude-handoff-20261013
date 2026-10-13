@@ -1,0 +1,174 @@
+{
+  "created_utc": "2026-10-11T12:05:46.385247+00:00",
+  "scope": "Explicit local delivery index, not a full workspace snapshot or scientific acceptance gate",
+  "n_files": 33,
+  "files": [
+    {
+      "path": "HANDOFF_REBUILD_20261011.zh.md",
+      "bytes": 16478,
+      "sha256": "5a7391379f7e5a86837f225a983e63612c57e2995244088e4ebd489b1e8c51c8"
+    },
+    {
+      "path": "SMOKE_HANDOFF.zh.md",
+      "bytes": 4674,
+      "sha256": "102d651b4a4be88dfd824c3d66ac797e5c5833aeceb221e73de05b697bb16d22"
+    },
+    {
+      "path": "A10_PUBLIC_SURFACE_002.json",
+      "bytes": 815,
+      "sha256": "dbb043f358591bc3a3c864872edf73c3882962e738eec27b84d7a704b8f5562a"
+    },
+    {
+      "path": "expanded_data_audit/HANDOFF.zh.md",
+      "bytes": 6073,
+      "sha256": "d29a5fcf90cc1cb81e2e0c5cb9317823d856a481f236edab96c28e8eec9a6d2c"
+    },
+    {
+      "path": "expanded_cohort/HANDOFF_EXPANDED_COHORT.zh.md",
+      "bytes": 4042,
+      "sha256": "9e79b62c2c31fb7d474d12e295d77f4e626701b33035c47e54854730b845eb99"
+    },
+    {
+      "path": "expanded_cohort/release_v2/runner_train_val/COHORT_FREEZE.json",
+      "bytes": 7138,
+      "sha256": "993cd4b9872ba20c1ba4842d51b93d1fac7bcbec7def8e49c5e5229ecc576cb8"
+    },
+    {
+      "path": "expanded_cohort/tautomer_equivalence_v2/independent_review/FULL_REVIEW.json",
+      "bytes": 11153,
+      "sha256": "16caba97fd29dd14f71fd559166b781b4de7df02dcbf2df21b15e76e2c9dc939"
+    },
+    {
+      "path": "expanded_preprocessing/independent_release2_actual_review/REVIEW.json",
+      "bytes": 7505,
+      "sha256": "26ed80f785094562061424cc7ce5dcc6f2751afdbe5fd55cb9f0dd99e606059c"
+    },
+    {
+      "path": "expanded_preprocessing/independent_release2_actual_scaler_review/REVIEW.json",
+      "bytes": 3460,
+      "sha256": "fb819b60de503952e6de5e78684a7250e0107e96fc3780af09a943e6bec608f6"
+    },
+    {
+      "path": "diagnostics_generation_20261011/RESULT.zh.md",
+      "bytes": 5374,
+      "sha256": "92b0177b173ff980675b5024467b6c8ad80f2fdcc55b86f42d30e9900e21f45d"
+    },
+    {
+      "path": "diagnostics_generation_20261011/independent_review/REVIEW.zh.md",
+      "bytes": 6627,
+      "sha256": "25a4ab023ef6ecc02f81864cc659252e4ab6faa93eef5c1ec8b83dc5647da205"
+    },
+    {
+      "path": "diagnostics_capacity_v2/RESULT.zh.md",
+      "bytes": 6032,
+      "sha256": "c229737caa93accf9631f1adc4e700004d718b1292e98bc787a9b4f22a4b3a88"
+    },
+    {
+      "path": "diagnostics_capacity_v2/independent_review/REVIEW.zh.md",
+      "bytes": 5250,
+      "sha256": "4d6afe3860cf27bb547fec53ba9d79fddb3efa42927455beeda38e0a9d73a8c9"
+    },
+    {
+      "path": "expanded_pilot/dbaasp_v4_cpu_prelock/protocol.json",
+      "bytes": 1573,
+      "sha256": "0f7a48bec35ab7acbea59544f47592da78193ce05b3380ab7ed57f09753a14d4"
+    },
+    {
+      "path": "runner/run_rebuild_v3r2.py",
+      "bytes": 55508,
+      "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8"
+    },
+    {
+      "path": "runner/dbaasp_v4_cpu_pilot_001/files_manifest.json",
+      "bytes": 13445,
+      "sha256": "af21ecf2d332918177abd12bb3ec0cbf4c12ed7f03e10e632d58b3a7d1e8768c"
+    },
+    {
+      "path": "runner/dbaasp_v4_cpu_pilot_001/status.json",
+      "bytes": 183,
+      "sha256": "60f21d63a74d1c3dadcce5f3cbb5da646eca5f12d612cc302cc8eff64f584d86"
+    },
+    {
+      "path": "runner/DBAASP_V4_CPU_PILOT_001_HANDOFF.zh.md",
+      "bytes": 5094,
+      "sha256": "8cc8922e02c77315c4bc5669a2657f68c59cf671745b10169b33969ca4bb6953"
+    },
+    {
+      "path": "runner/DBAASP_V4_CPU_PILOT_001_COMPLETION.json",
+      "bytes": 1821,
+      "sha256": "21bec23147ab334b7963a362807e285933da129aebd494abe7b5dc107ecb2850"
+    },
+    {
+      "path": "runner/independent_architecture_review/actual_dbaasp_v4_cpu_001/REVIEW.zh.md",
+      "bytes": 4469,
+      "sha256": "c0b73e94cdafe7486043220924db4d8b863770c5be998530649ec2630709c0e4"
+    },
+    {
+      "path": "runner/independent_architecture_review/actual_dbaasp_v4_cpu_001/MANIFEST.json",
+      "bytes": 2652,
+      "sha256": "8ebd114f8b4ac76fff97df983607d2f2921178369dca9e91186cd0925bb1d3cc"
+    },
+    {
+      "path": "evaluation/dbaasp_v4_cpu_001/metrics.json",
+      "bytes": 751149,
+      "sha256": "633a3e74501cfb5bdcbc057ee54a0a6a7b0c2461b33530a08138f4e65a8a0cb7"
+    },
+    {
+      "path": "evaluation/dbaasp_v4_cpu_001/run.json",
+      "bytes": 2533,
+      "sha256": "3689363b82151f67b2d8fbae3c7c20614999e20b710250dc1c67144697546c37"
+    },
+    {
+      "path": "evaluation/dbaasp_v4_cpu_001/sample_audit.json",
+      "bytes": 263468,
+      "sha256": "b43232dababec0afe65b934468191124c68ae4231330fdca33fb42e4b176f690"
+    },
+    {
+      "path": "evaluation/dbaasp_v4_cpu_001/summary.csv",
+      "bytes": 2078,
+      "sha256": "c0fd51f95e6a34dfece8f5f0135e697e9001a9cd476c986261d7fd7515023ae1"
+    },
+    {
+      "path": "evaluation/dbaasp_v4_cpu_001/RESULT.zh.md",
+      "bytes": 2616,
+      "sha256": "4908eeceb61a5f12248d562ff3e460a597761d03bf42799cec5b1b48de08328d"
+    },
+    {
+      "path": "evaluation/dbaasp_v4_cpu_001/render_receipt.json",
+      "bytes": 483,
+      "sha256": "6ee9941842444cd3b61ab9d073596ec5df981e780a242d7bcc4061d11a889056"
+    },
+    {
+      "path": "evaluation/terminal_v2/actual_six_method_review_dbaasp_v4_001/REVIEW.zh.md",
+      "bytes": 7265,
+      "sha256": "b8badda9ef57d536e12e83f1533a4b9532c87f3129ae397f15ba32b8b768953a"
+    },
+    {
+      "path": "evaluation/terminal_v2/actual_six_method_review_dbaasp_v4_001/MANIFEST.json",
+      "bytes": 3211,
+      "sha256": "7a7988adf03d5eb825d2a89f9d9ed59131de67fc5fc86bef1c84dacffda3fdbc"
+    },
+    {
+      "path": "mechanism_independent_readonly/REPORT.zh.md",
+      "bytes": 20073,
+      "sha256": "cf5827946c6227e5ae110685864dee669963ae72124b1ab1766e7ef7c8e32034"
+    },
+    {
+      "path": "mechanism_independent_readonly/MANIFEST.json",
+      "bytes": 1203,
+      "sha256": "ebcb95f06e504f7ce4eac39fe5ffb73fa03528a80c14afe14a60b94fedf08f49"
+    },
+    {
+      "path": "main_training_visuals/MANIFEST.json",
+      "bytes": 5419,
+      "sha256": "9d6fbdc288c040904344a71dfd4298cac45214d40ae2ffe6c14be283a47adc92"
+    },
+    {
+      "path": "PROTECTED_INPUTS_20261011T120121.json",
+      "bytes": 67329,
+      "sha256": "93697bb61f2c3525a60dd1165a6e783c4356f2321a0071f9ce37533e41cd965e"
+    }
+  ],
+  "backup_status": "BACKUP_BLOCKED",
+  "no_cloud_backup_claim": true
+}

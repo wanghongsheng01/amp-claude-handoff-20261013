@@ -1,0 +1,178 @@
+{
+  "schema": "AMP_H5_BETA_WARMUP_CONDITIONAL_SCIENTIFIC_PROTOCOL_V2",
+  "created_utc": "2026-10-11T20:57:37.048362+00:00",
+  "status": "FROZEN_CONDITIONAL_SCIENTIFIC_PROTOCOL_NOT_EXECUTION_AUTHORIZATION",
+  "identity": "AMP H5 only",
+  "supersedes": {
+    "prior": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/PRIMARY_PRECEDENTS_AND_CONDITIONAL_PROTOCOL_v1.json",
+      "bytes": 13549,
+      "sha256": "6b7769754399dc390d9bfbac827b53bd4d969ffed2d63702a07ef9967e16443b"
+    },
+    "preserve_prior": true,
+    "explicit_changes": [
+      "500-step concept warmup replaced by200/1000-step warmup using official code one-fifth-duration convention as H5 adaptation.",
+      "Only a VAE1000 experiment is conditionally proposed; no automatic DDPM fitting or new generation.",
+      "Any later DDPM/generation needs a separately justified scope; VAE distortion improvement alone does not establish end-to-end benefit."
+    ]
+  },
+  "paper_and_code": {
+    "published_paper": {
+      "title": "Accelerated antimicrobial discovery via deep generative models and molecular dynamics simulations",
+      "authors": "Das et al.",
+      "venue": "Nature Biomedical Engineering",
+      "year": 2021,
+      "publication_date": "2021-03-11",
+      "volume_pages": "5:613–623",
+      "url": "https://www.nature.com/articles/s41551-021-00689-x",
+      "official_code": "https://github.com/IBM/controlled-peptide-generation"
+    },
+    "paper_VAE_recipe": {
+      "url": "https://arxiv.org/html/2005.11248",
+      "section": "6.1.1",
+      "beta_variants": "VAE anneals0→.03 by default; comparison variant0→1; this is the author manuscript statement, not a claim current repository default is VAE.",
+      "not_transferred": [
+        "WAE MMD objective",
+        "variance regularization",
+        "word dropout",
+        "GRU architecture",
+        "external unlabeled data",
+        "beam5 decoder",
+        "GMM/attribute rejection filtering"
+      ]
+    },
+    "official_default_warning": {
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/cfg.py?amp_h5_read=1",
+      "lines": "155–172",
+      "exact": "Current cfg default z_regu_loss=mmdrf, beta.start.val1,end.val2; lambda_logvar_KL1e−3. It overrides anneal end.iter=s_iter+n_iter//5. This is WAE configuration, not the paper VAE0→.03 default."
+    },
+    "interpolation": {
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/utils.py",
+      "lines": "42–53",
+      "exact": "Linear interpolation between start/end values; clamp to end at or after end iteration."
+    },
+    "objective": {
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/train_vae.py",
+      "lines": "21–34",
+      "exact": "sample_z1, reconstruction+beta*selected_regularizer+separate optional variance penalties; do not copy those extra penalties."
+    },
+    "normalization": {
+      "url": "https://raw.githubusercontent.com/IBM/controlled-peptide-generation/master/losses.py",
+      "lines": "7–9,15–28",
+      "author_code": "KL sums latent dimensions then averages examples. Shifted reconstruction CE averages non-PAD token targets (ignore_index=PAD).",
+      "H5": "Both reconstruction CE over all48 positions and conditional prior density difference divide by B*48; latent shape16*48 and native conditional prior differ.",
+      "consequence": "Author numerical beta.03 is not H5 beta.03 in effective regularization. Keeping final H5 beta1 isolates schedule within H5; warmup transfer is a declared method adaptation, not quantitative reproduction."
+    },
+    "version_limit": "Read mutable master, not immutable commit. No upstream code installed/executed. Web browsing supplied code; local urllib download failed DNS and yielded no code snapshot."
+  },
+  "admission_before_training": {
+    "all_required": [
+      "Independent engineering completion of full current CE checkpoint R/M/S on train279/dev41, fixedK8 learned-q samples per sequence; no test.",
+      "Full dev41 primary delta complete; target/R and posterior path exact; every expected slot retained, no stochastic sample selection.",
+      "User resource trigger mean_i[aM_i−mean_k(aS_ik)] >=0.05 on dev41, using equal sequence weights and true nonPAD target positions.",
+      "Root freezes an exact implementation/budget/seed contract and independent preaudit passes; this scientific file alone does not authorize a forward."
+    ],
+    "not_a_substitute": "Existing B32 training donor evidence is not full-dev admission:31unique donors, one sample each, AMD duplicate. Train-only gap cannot trigger dev gate.",
+    "not_significance": "5pp is user resource-allocation threshold, not p-value, confidence bound or proof of KL/sigma/DDPM causation.",
+    "current_frozen_route": "Current encoder q is diagonalGaussian, no posteriorflow; M=decode(mu), S=decode(mu+exp(logsigma)*epsilon). prior_flow(z,g) is used only in density objective; g/h enter encoder, decoder has no g/teacher forcing.",
+    "if_not_triggered": "Do not train the candidate, do not enlargeK or choose seeds to force gate. Preserve no-trigger/incomplete finding."
+  },
+  "only_candidate": {
+    "name": "CE21 density-KL warmup to unchanged final beta1",
+    "mature_mechanism": "Delay full latent regularization during early representation learning; tests optimization-path tradeoff. It does not isolate posterior sigma as a cause.",
+    "objective": "loss(u)=CE_sum/(B*48)+beta(u)*density_sum/(B*48)",
+    "schedule": "zero-based update u=0..999; beta(u)=min(1,u/200). u0..199 ramp, u200..999 beta1. No second beta endpoint and no variance penalty.",
+    "control": "Frozen current CE21 beta1 VAE1000 from same initialization/shuffle/forward RNG; reused historical control explicitly identified. No new control replicas claimed.",
+    "coupling": "init222,shuffle222,VAE noise222, same batch order/sizes, identical stochastic call counts/order; altered stochastic parameters may alter sampled z values but same base random draws must be verifiable. Bind old checkpoint/scaler/config hashes before any execution.",
+    "unchanged": [
+      "data train279/dev41,test37sealed",
+      "target/representation/vocabulary",
+      "CE21 head and capacity",
+      "encoder, decoder, priorflow",
+      "descriptor scaler",
+      "VAE learning-rate warmup/schedule",
+      "Adam, gradient clipping, batch32",
+      "legal J/PAD readout",
+      "condition information",
+      "1000 fixed updates; no bestdev checkpoint",
+      "no external data or architecture changes"
+    ],
+    "scope_and_budget": {
+      "VAE_updates": 1000,
+      "new_DDPM_updates": 0,
+      "new_generation_requests": 0,
+      "new_AR_training": 0,
+      "candidate_count": 1,
+      "hyperparameter_grid": false,
+      "device": "CPU1thread,serial,rootchecksload",
+      "VAE_seconds_ceiling_proposed": 1920,
+      "basis": "Inherited formal VAE phase cap; prior completed CE VAE~1179s, conditional feasibility only.",
+      "posttraining_RMS": "One complete fixedK8 R/M/S evaluation with same upstream definition,train279/dev41 and prebound random bank. Exact forward/call/time caps must be supplied by rootimplementationpreflight; no overflow extension."
+    },
+    "why_from_scratch": "Early warmup concerns the beginning of learning. Same init/data/RNG yields the cleanest schedule intervention; incurs a full VAE1000 but no DDPM/generation yet.",
+    "why_not_checkpoint_continuation": "Starting at CE1000 misses early-regularization mechanism; a fair continuation requires both beta schedules to continue identically in optimizer/LR/time, cannot compare adapted checkpoint at1200 against frozen1000 alone. Restarting optimizer orLR would add components. Not selected.",
+    "why_not_short_pilot": "A fresh much-shorter run changes training maturity and spends a new budget level; previous short-run instability means it cannot settle the selected1000-step mechanism. No short-to-long outcome-dependent extension."
+  },
+  "primary_hypothesis_and_failure": {
+    "hypothesis": "At the fixed1000 endpoint, this single schedule intervention improves mean per-sequence expected stochastic nonPAD reconstruction on dev41 relative to frozen constant-beta1 and shrinks the M−S accuracy gap.",
+    "primary_quantity": "mean_i mean_k accuracy_nonPAD(S_ik,x_i); training and each terminal are reported separately; persequence mean is not AA macro or residue micro.",
+    "minimum_effect_for_further_investment": "At least5pp higher dev mean stochastic accuracy than constant-beta1, AND smaller dev M−S gap. This planned practical threshold is not significance; both raw changes retained.",
+    "failure": [
+      "Any incomplete/nonfinite/route or coupling failure => invalid experiment, retainallslots; no automatic retry.",
+      "Failure of either planned primary condition => no evidence to fund downstream DDPM under this hypothesis. Mean-only reconstruction improvement is insufficient.",
+      "Warmup cannot be called successful globally if rare-class recall/macro/length/exact or train-to-dev disparity worsens: report tradeoff, even if primary trigger passes.",
+      "Posterior/prior-density or scale deterioration is a side effect, not silently dismissed. Better stochastic reconstruction does not establish aggregate-prior match or generation benefit."
+    ],
+    "secondary_complete_readout": [
+      "train/dev persequence delta distribution and paired draw summaries",
+      "residue micro and supported-AA macro,all20classsupport/recall including zero classes",
+      "lengthMAE,empty/cap/exact/full denominators",
+      "logsigma/variance finite summaries and unweighted density term,with original units",
+      "actualelapsedcost and originalCE recovery/exploratory opportunity costs"
+    ],
+    "not_permitted": [
+      "new endtoend generation superiority",
+      "independent training replication",
+      "generalization established on reuseddev",
+      "posterior collapse/noise as unique mechanism",
+      "method novelty or paper readiness",
+      "AMP activity/safety/wetlab N inference"
+    ]
+  },
+  "AR_fairness": "No current new AR run; historical terminalLSTM is a c-only contextual comparator with overfit and adequacy unresolved. If later completegeneration is justified, strongbaseline claims require a separately predeclared balanced tuning/checkpoint opportunity; actual costs cannot be called equal.",
+  "no_training_priority": "Inspect already observed per-class error and target/PAD representation routes, including train-supported zero-recall AA; training support is present, so zero recall alone is neither missing-data proof nor proof of a unique information-loss component. Do not add/resplit data, classweights,latentnormalization or newhead without a new single-component question.",
+  "prior_evidence": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/RESULTS.json",
+      "bytes": 36268,
+      "sha256": "086868e492b7ad6a1af39040bcc7952d166ec9ba09ca6d8e8ce402907d1f7c84"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+      "bytes": 52866,
+      "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_REPLACEMENT_FINAL_SCIENTIFIC_REVIEW_v2.json",
+      "bytes": 94700,
+      "sha256": "c29e17a53b99dc18c2258bf06a860fec649a2e4acb5e0eb11e70a4a73865f9d4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "bytes": 41408,
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "bytes": 2541,
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    }
+  ],
+  "operations": {
+    "model_calls": 0,
+    "training_updates": 0,
+    "cohort_reads": 0,
+    "test_reads": 0,
+    "execution_authorized": false
+  }
+}

@@ -1,0 +1,207 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}\usepackage{lmodern,microtype,amsmath,booktabs,array,longtable,graphicx}
+\usepackage[margin=25mm]{geometry}\usepackage[hidelinks]{hyperref}
+\usepackage{setspace,lineno}\doublespacing
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\newcommand{\ug}{\ensuremath{\mu\mathrm{g}/\mathrm{mL}}}
+\title{Supplementary information:\\Reconstruction gains without superiority over an autoregressive comparator}
+\author{AMP review candidate}\date{12 October 2026}
+\begin{document}\linenumbers\maketitle
+This supplement preserves unfavorable outcomes and distinguishes separate development experiments. It reports completed work, not proposed experiments or new biological validation. No reserved evaluation data were opened for preparation of the manuscript.
+
+\section{Complete primary distance comparison}
+All values below use canonical outputs of length 1--48 and the corresponding terminal reference group. Each generated group contains 16 requests. The six statistics are fixed-feature biased linear MMD squared, residue Jensen--Shannon divergence, residue $L_1$ distance, dipeptide Jensen--Shannon divergence, dipeptide $L_1$ distance and the length Kolmogorov--Smirnov statistic. Divergences use base-two logarithms; no significance test is attached. Lower means closer under that statistic, not more biologically active.
+
+\begin{table}[htbp]\centering\singlespacing\small
+\caption{All six distances against development references.}
+\begin{tabular}{llrrrrrr}\toprule
+Model & Terminal & MMD$^2$ & AA JS & AA $L_1$ & Pair JS & Pair $L_1$ & KS\\\midrule
+CE21 & Free & 0.01733 & 0.09932 & 0.53532 & 0.41789 & 1.14371 & 0.26389 \\
+CE21 & Amide & 0.00771 & 0.08845 & 0.42518 & 0.36559 & 1.06934 & 0.30163 \\
+MSE21 & Free & 0.08233 & 0.29555 & 1.02041 & 0.57409 & 1.47635 & 0.45833 \\
+MSE21 & Amide & 0.08485 & 0.25872 & 0.88895 & 0.51038 & 1.36652 & 0.61957 \\
+Scalar & Free & 0.03988 & 0.20632 & 0.81437 & 0.68353 & 1.57098 & 0.53472 \\
+Scalar & Amide & 0.03133 & 0.17014 & 0.76550 & 0.65774 & 1.51300 & 0.60870 \\
+LSTM & Free & 0.01157 & 0.05963 & 0.44325 & 0.37162 & 1.01636 & 0.20139 \\
+LSTM & Amide & 0.00736 & 0.04485 & 0.32838 & 0.30612 & 0.91346 & 0.24457 \\\bottomrule
+\end{tabular}\end{table}
+\begin{table}[htbp]\centering\singlespacing\small
+\caption{All six distances against training references.}
+\begin{tabular}{llrrrrrr}\toprule
+Model & Terminal & MMD$^2$ & AA JS & AA $L_1$ & Pair JS & Pair $L_1$ & KS\\\midrule
+CE21 & Free & 0.01742 & 0.10169 & 0.51757 & 0.33968 & 1.01911 & 0.27976 \\
+CE21 & Amide & 0.00895 & 0.09447 & 0.48963 & 0.29311 & 0.93571 & 0.25531 \\
+MSE21 & Free & 0.07970 & 0.28258 & 0.94077 & 0.54373 & 1.44107 & 0.47321 \\
+MSE21 & Amide & 0.09220 & 0.26188 & 0.92273 & 0.52182 & 1.39526 & 0.44118 \\
+Scalar & Free & 0.03521 & 0.19289 & 0.82623 & 0.58372 & 1.44584 & 0.39484 \\
+Scalar & Amide & 0.03290 & 0.17476 & 0.81553 & 0.55988 & 1.44251 & 0.59477 \\
+LSTM & Free & 0.00409 & 0.02824 & 0.25980 & 0.24461 & 0.81003 & 0.13393 \\
+LSTM & Amide & 0.00316 & 0.02143 & 0.19005 & 0.24480 & 0.82108 & 0.18219 \\\bottomrule
+\end{tabular}\end{table}
+
+\begin{table}[htbp]\centering\singlespacing\small
+\caption{Complementary outcomes. Entropy columns are absolute differences from the same-terminal training reference in bits. Lower entropy discrepancy is not universally concordant with other distances.}
+\begin{tabular}{llrrrr}\toprule
+Model & Terminal & Length 5--48 & AA entropy gap & Pair entropy gap & At length 48\\\midrule
+CE21 & Free & 14/16 & 0.666742 & 1.651367 & 1\\
+CE21 & Amide & 15/16 & 0.562840 & 1.194429 & 0\\
+MSE21 & Free & 16/16 & 1.919978 & 3.830817 & 0\\
+MSE21 & Amide & 10/16 & 1.785127 & 3.397780 & 0\\
+Scalar & Free & 16/16 & 0.030724 & 0.853119 & 2\\
+Scalar & Amide & 16/16 & 0.363522 & 0.264261 & 1\\
+LSTM & Free & 16/16 & 0.157536 & 0.801172 & 1\\
+LSTM & Amide & 16/16 & 0.242347 & 0.997935 & 0\\\bottomrule
+\end{tabular}\end{table}
+The length cap has different semantics: LSTM generation can reach the cap without sampling EOS; CE21 and MSE21 select a prefix length without sampling EOS; scalar decoding uses the first padding category. An execution status of ``ok'' does not imply natural termination for every model.
+
+\section{Execution contract and reproducibility boundary}
+The VAE optimizer was Adam with base learning rate $5\times10^{-4}$, a 1,000-step warmup, floor $10^{-7}$, coefficients $(0.9,0.999)$, epsilon $10^{-8}$ and zero weight decay. The schedule uses the retrieved step-offset convention recorded in the configuration. Gradient norm was clipped at one. Diffusion used AdamW with maximum learning rate 0.005, epsilon $10^{-5}$, coefficients $(0.9,0.999)$, weight decay 0.01 and a 1,000-step OneCycleLR schedule. The EMA coefficient was 0.995, with the implementation copying parameters during these first 1,000 updates. The 999-element linear beta schedule ranged from $10^{-4}$ to 0.02; training and reverse timesteps ran from 1 through 998. These details describe this implementation, not a canonical diffusion specification.
+
+The VAE and diffusion phase ceilings were 1,920 and 1,020 seconds within the common 2,940-second training ceiling. Monitoring occurred every 100 updates without selecting a checkpoint. Configuration and dataset hashes are supplied in the machine-readable evidence directory. Single-seed variation and optimization sufficiency were not assessed.
+
+\begin{table}[htbp]\centering\singlespacing\small
+\caption{Recorded wall-time scopes in seconds. Overlapping scopes must not be added as independent costs. CE interrupted-attempt and recovery costs remain separate.}
+\begin{tabular}{p{.60\linewidth}r}\toprule
+Recorded scope & Seconds\\\midrule
+LSTM training pipeline before manifest & 14.293\\
+LSTM generation before manifest & 0.020\\
+MSE21 VAE and diffusion training & 1744.338\\
+MSE21 generation & 1125.221\\
+Scalar VAE and diffusion training & 1742.770\\
+Scalar generation & 1116.657\\
+CE original training subtotal & 1743.378\\
+CE interrupted generation observed lower bound & $\geq451.936$\\
+CE original exact total & Unknown\\
+CE recovery generation & 1115.496\\
+CE recovery process before final I/O & 1123.995\\\bottomrule
+\end{tabular}\end{table}
+Earlier setup failures, training-only throughput measurements and later diagnostic runs remain in the original records; this table is not the cost of the complete research history. The Overleaf package is a review and numerical-evidence package, not an independently executable model release. It omits training inputs and weights; the dependency and release gaps are explicit.
+
+\section{Completed follow-up diagnostics}
+\subsection{Readout bridge and source replacement}
+Before H5, a fixed 96-attempt replay applied two readouts to the same upstream hidden states. The categorical readout gave 95/96 canonical sequences of length 1--48 and 91/96 of length 5--48, compared with 96/96 for both criteria under the scalar readout. Development MMD squared worsened in five of six source--terminal comparisons and improved in one, while dipeptide divergence improved in all six. Those 192 readouts are paired outputs of 96 requests, not 192 independent samples. The readout intervention also changes head size and boundary decoding, preventing single-component attribution. H5 retraining was motivated by this mixed outcome; it does not retrospectively change it.
+
+After the main H5 comparison, source replacement reused the 32 CE diffusion outputs (A) and added 32 requests each for training-posterior draws (B), coordinate-permuted B latents (C), and the model's prior flow with a training-derived residue/length template (D). B and D use information from the training pool; D has additional reference content unavailable under terminal-only generation. C preserves each coordinate's finite marginal values but has no single donor. All use the fixed CE decoder and legal-prefix rule.
+\begin{table}[htbp]\centering\singlespacing\small
+\caption{Source-replacement development MMD squared. These are diagnostic sources with unequal information, not competing generators.}
+\begin{tabular}{lrr}\toprule Source & Free & Amide\\\midrule
+A: existing CE diffusion & 0.017328 & 0.007710\\
+B: empirical training posterior & 0.017889 & 0.013236\\
+C: coordinate permutation of B & 0.023325 & 0.016635\\
+D: reference-template prior & 0.017108 & 0.012926\\\bottomrule
+\end{tabular}\end{table}
+All new requests were retained. B produced one exact training copy in the amidated group. Neither the posterior substitution nor the additional-information prior provides a fair general-generation superiority claim.
+
+\subsection{Warmup, latent-conditioned autoregression and direct latent diffusion}
+The warmup follow-up failed its fixed protective comparisons. Posterior-mean mean-per-sequence reconstruction declined from 0.722796 to 0.657852, and the average of eight posterior draws declined from 0.661116 to 0.589099. These statistics are not the micro-residue accuracy in the main table.
+
+The latent-conditioned autoregressive experiment trained three arms for 1,000 updates each using cached representations, without a new encoder or diffusion pass. The matched-latent eight-draw reconstruction score was 0.690802, compared with 0.091958 for the latent-ablated comparison and 0.097533 for mismatched latents. The information screen passed, while the six generation-distance comparisons failed. An additional capacity-unmatched comparison scored 0.120436 and is descriptive only. This experiment made 96 new generation requests; it is distinct from the main 128-request experiment.
+
+The direct-latent screen trained posterior-parameter and direct-latent denoisers for 1,000 updates each, made 64 new requests and retained a total of 96 comparison slots including reused outputs. Training completed, but the mechanism screen failed; downstream sequential value was not interpreted as a successful result. The later independent checkpoint load failed. A restricted saved-sequence and scalar-metric audit succeeded, which does not constitute a fresh end-to-end reproduction. Failed audits and negative experiments remain in the source archive.
+
+\section{Separate exploratory MIC prediction experiments}
+\subsection{Data semantics and group construction}
+These experiments used a separate, already exposed DBAASP cache. They neither augment the generative training partition nor supply activity labels for generated H5 sequences. Reported concentrations in \ug{} and $\mu$M were analyzed separately without molecular-weight conversion. Missing purity, counterion and assay covariates were not fabricated. Point values, explicit bounds, ambiguous ranges and plus/minus formats retained distinct meanings.
+
+Operational sequence families connected uppercased backbones when their unit-cost Levenshtein distance was at most 20\% of the longer sequence length; transitive components define the family. Source groups further joined families sharing a PubMed ID, or a normalized title plus publication year when a PubMed ID was absent. Uppercasing serves only this conservative grouping operation, not a claim of identical stereochemistry or a label conversion. Operational sequence families and source--family connected components were used to keep related peptide and source records together in validation. Entire groups were left out, with no split of repeated records for the same peptide between training and validation. These components are a leakage-control rule, not verified biological independence. Within a training set, each source group has equal weight, each peptide within a group equal weight, and each record within a peptide equal weight. The primary MAE averages absolute log10 errors in that order. The corresponding RMSE is the square root of the identically weighted mean squared error, not the average of fold RMSEs.
+
+\subsection{Native point-value baselines}
+The first experiment used 46 mass-unit points from 33 peptide IDs, 17 operational families and 10 source groups, and 39 molar-unit points from 13 IDs, eight families and seven groups. A training-weighted mean, a composition ridge and a convolutional network were evaluated in 17 group-held-out folds. Ridge uses 20 amino-acid fractions and log length, training-only standardization, an unpenalized intercept and penalty coefficient one.
+
+The CNN is a PyTorch architecture adaptation from the locally cached QMAP implementation associated with the Witten regression approach. It is not a reproduction of the original author's training protocol or published performance. The fixed configuration has 183,069 parameters, dropout 0.5, Glorot initialization and 100 full-batch weighted updates per fold. Training labels are centered using the training fold only. The Keras-style Adam adaptation uses learning rate 0.001, coefficients 0.9 and 0.999, and epsilon $10^{-7}$. Each fold resets seed 1729. No tuning, early stopping or validation-selected endpoint was used. There were 1,700 CNN updates in total.
+
+\begin{table}[htbp]\centering\singlespacing
+\caption{Primary native-unit point-prediction results. Errors are in log10 of the stated native unit.}
+\begin{tabular}{llrr}\toprule
+Unit & Model & MAE & RMSE\\\midrule
+\ug & Training mean & 0.811036 & 1.008588\\
+\ug & Composition ridge & 0.775373 & 0.947523\\
+\ug & CNN adaptation & 0.819758 & 1.010921\\
+$\mu$M & Training mean & 0.516993 & 0.612758\\
+$\mu$M & Composition ridge & 0.582247 & 0.692363\\
+$\mu$M & CNN adaptation & 0.576262 & 0.711455\\\bottomrule
+\end{tabular}\end{table}
+The mass-unit ridge advantage reverses under peptide and record weighting. Its peptide-weighted MAE is 0.630031 versus 0.605203 for the mean, and record-weighted MAE is 0.602473 versus 0.574316. The CNN is worse under the primary MAE in both units; this statement does not claim it is worse under every reported weighting or that the architecture cannot learn on adequate data.
+
+\subsection{Right-censoring working likelihood}
+A later 136-ID cache supported 79 mass-unit points and 14 right bounds, and 68 molar-unit points and 12 right bounds. It admitted 173 of 232 available \textit{E. coli} records, excluding unresolved ranges, plus/minus formats and other incompatible records. ID 12605 was withheld because its bound explicitly referred to two isolates with an unresolved observation identity. A separate retained point with ambiguous strain wording was not assumed to share identical assay conditions with another record. There were no natural left-censored observations.
+
+The four arms were a point-only mean, point-only ridge, endpoint ridge and a Gaussian tail-likelihood ridge. They used the same composition features, training-only scaling and coefficient penalty. Endpoint and tail arms have identical rows and weights; for a right bound $b$ and mean prediction $\mu$, their losses are respectively $\tfrac12(\mu-b)^2$ and $-\log\Phi(\mu-b)$. The Gaussian working standard deviation is fixed at one log10 unit; it is not an estimated biological noise scale. Only the point-valued observations are evaluated. Point-only controls renormalize their subset's weights and share the full training-feature scaler in this experiment, so they are not exact reruns of the earlier baseline.
+
+There were 21 mass-unit and 13 molar-unit validation groups. Three additional molar groups contain only censored records and supply training information but no point-valued validation fold. The serial L-BFGS-B fits used the same 22-parameter initialization and ceilings of 500 iterations, 10,000 function evaluations and 40 line-search steps. All 102 fits met the fixed convergence requirement, including maximum absolute gradient at most $10^{-5}$, and produced 588 point predictions.
+
+\begin{table}[htbp]\centering\singlespacing\small
+\caption{Censoring screen: primary MAE on observed points. The tail-minus-endpoint contrasts are positive in both unit groups.}
+\begin{tabular}{lrrrrr}\toprule
+Unit & Mean & Point ridge & Endpoint & Tail & Tail minus endpoint\\\midrule
+\ug & 0.660871 & 0.787652 & 0.821034 & 0.844128 & 0.023094\\
+$\mu$M & 0.549584 & 0.596303 & 0.589516 & 0.726897 & 0.137381\\\bottomrule
+\end{tabular}\end{table}
+Tail likelihood was worse than endpoint encoding under all three reported weighting schemes for both MAE and RMSE. This negative finding concerns a misspecifiable working model and a selected point-observation subset; it does not refute censoring likelihood theory or estimate risk on latent censored outcomes. Threshold reporting may be informative, and assay covariates are incomplete. Between-group variance diagnostics cannot establish the cause of poor prediction.
+
+\subsection{Later acquisition inventory is not a new experiment}
+The final bounded acquisition checkpoint contains 146 of the original 200 requested IDs, 1,278 MIC records and 240 \textit{E. coli} MIC records. Ten IDs were added to the earlier 136-ID inventory; the last batch attempted 17 IDs, with ten successes and seven failures, then stopped after three consecutive 30-second deadlines. Forty-seven IDs were not attempted. No model was refitted on this expanded cache. Its 79 mass-unit and 70 molar-unit eligible point rows must not be substituted into the denominators of earlier completed experiments. Coverage remains incomplete, and the cache is not a representative benchmark sample.
+
+\section{Historical 27-peptide records}
+\subsection{Transcription and count semantics}
+The source materials contain four supplier report types for each of 27 listed peptides: certificate of analysis, HPLC, mass spectrometry and qualitative solubility. Those 108 documents are not 108 biological replicates. Twenty-six certificates report HPLC purity of 95.0--99.1\%; pp1-7 reports 80.3\%, meeting its historical order specification of at least 80\%. HPLC area percentage is not independently established peptide content by mass. Supplier documentation does not establish the material lot used in a specific MIC well.
+
+Table~\ref{tab:historical} preserves the MIC summary, sequence and purity transcription. E, P, S and F denote \textit{E. coli} ATCC 25922, \textit{P. aeruginosa} ATCC 27853, \textit{S. aureus} ATCC 29213 and \textit{E. faecalis} ATCC 29212. N remains an undefined source value; it is not converted to inactivity, a numerical upper bound or an unperformed measurement. There are 30 numeric entries, 78 N entries and 16 rows containing only N.
+
+\clearpage
+\begin{table}[!ht]\centering\singlespacing\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Complete historical summary, in reported \ug. Sequences and purities are supplier-reported. This table is not validation of H5.}\label{tab:historical}
+\begin{tabular}{llrrrrr}\toprule
+ID & Sequence & Purity (\%) & E & P & S & F\\\midrule
+pp1-1 & LNLPKILFCSAPRTRLPGNWI & 95.3 & 500 & N & 250 & 125 \\
+pp1-2 & KAFFLLYFAVPFGPWS & 97.3 & N & N & N & N \\
+pp1-3 & CVVSLFKSKKGGLRKHGVPFKL & 95.6 & 62.5 & N & 31.25 & 125 \\
+pp1-4 & LLWIMLAYRLAFHRNWNAGGWKLFAVV & 95.1 & N & N & N & N \\
+pp1-5 & LKFTFIKGKFGKSSYY & 96.1 & 31.25 & 125 & 7.8125 & 125 \\
+pp1-7 & AVCLILGLFNWGK & 80.3 & N & N & N & N \\
+pp1-8 & CGHLFPYWLYLGPKTPW & 97.5 & N & N & N & N \\
+pp2-1 & CPRTRVGSKT & 95.6 & N & N & N & N \\
+pp2-2 & LKLLWLIKCSG & 99.1 & N & N & N & N \\
+pp2-3 & AKLSFGKPFANKSKYW & 97.4 & 250 & N & 250 & 1000 \\
+pp2-4 & CNNLKLHICVKKFARYYLYGPTPYY & 97.5 & N & N & N & N \\
+pp2-5 & RETGRGKRDKGNIGTALGCFRMI & 95.2 & 1000 & N & 250 & N \\
+pp2-6 & VGPGKKFLPK & 98.6 & N & N & N & N \\
+pp2-7 & FTGGKGRDWGGHSSRKKKSLGFA & 97.0 & 1000 & N & 1000 & N \\
+pp2-8 & FMPVVLTKLFGVLHFRKIY & 97.8 & N & N & 15.625 & 62.5 \\
+pp3-1 & CHLKLAILFNFLKFLKQFLGNLTYV & 97.2 & N & N & N & N \\
+pp3-2 & HGKFFKYFNLQVCLGLARALKDGG & 96.0 & N & N & N & N \\
+pp3-3 & RPKQIYFFAHLRLIFGLKI & 95.8 & N & N & N & N \\
+pp3-4 & CLGPKLYNNWQGLGGL & 97.0 & N & N & N & N \\
+pp3-5 & NWQPRHFLADTFCPKLKGQILR & 98.4 & 250 & N & 250 & N \\
+pp3-6 & MPKGIFFALKLLWKNFEKAI & 96.3 & N & N & N & N \\
+pp3-7 & PKPFLWAKSDLFVKL & 95.0 & N & N & N & N \\
+pp3-9 & GFFPGFIVLGCKTGFTPTY & 96.2 & N & N & N & N \\
+pp3-11 & FKGVAKARHRLWFL & 95.1 & 62.5 & 1000 & 15.625 & 62.5 \\
+pp3-12 & GFPGDVFKAKAAKA & 97.7 & N & N & N & N \\
+pp3-13 & KTFKKKLFLKLFYILHTPTY & 95.4 & 31.25 & N & 7.8125 & 15.625 \\
+pp3-14 & CFANFQSKLHREARKLMGGAKKWPY & 95.9 & 125 & N & 31.25 & N \\\bottomrule
+\end{tabular}\end{table}
+
+\clearpage
+Retrospective strict thresholds give 6/27 candidates with a numeric result below 32~\ug{} in any listed strain, and 7/27 below either 128 or 200~\ug. The corresponding \textit{S. aureus} count is 6/27 under all three thresholds. These are deterministic counts of a supplied table. The 27 listed candidates are not the complete generated-pool denominator, and the historical claim of six active candidates cannot be reconciled by choosing a favorable threshold after the fact.
+
+\subsection{Unresolved biological evidence}
+Historical documents differ between denominators 30 and 27 and thresholds 200, 128 and 32. The pp2-3 \textit{E. coli} value is N in an earlier screenshot but 250 in two supplied workbooks. Several other earlier blank entries later contain numbers. Versions are not independent repeats; no correction, retest or additional experiment is inferred.
+
+Three worksheet endpoint rows do not identify biological versus technical replication. For pp1-1, two strain worksheets have endpoint rows 250, 125 and 125 but different reported aggregates. Aggregation and blank-control interpretation remain unresolved. Identical copies of a workbook do not provide independent measurements. No missing replicate type, assay rule or N meaning has been supplied by inference.
+
+Sample IDs and supplier lots are partly traceable, but no complete model run, condition, seed, checkpoint and candidate-screening ledger connects the generation pool to these 27 samples. The three additional historical candidate IDs outside the 27 are not assumed to be synthesis failures or negative assays. Terminal chemistry is not established by a supplier modification field reading N/A. Therefore neither target-specific generation, an unconditional hit rate, an H5 benefit, nor safety or efficacy can be derived from these historical records.
+
+\section{Source map and retained limitations}
+The machine-readable evidence directory provides reconstruction row counts, complete generation distances, historical table transcription, fixed experiment configurations and summaries of the two MIC studies. Each source binding includes its path, byte count and SHA-256. These hashes establish local version identity, not independent backup, access permission or biological validity. Earlier failures and negative results remain in the preserved research-stage archive; the new candidate does not rewrite those artifacts.
+
+The scientific question is still limited by repeated development access, one fitted seed, incomplete baseline optimization, no independent biological validation of H5 and unresolved historical assay provenance. Author contributions, funding, conflicts, resource overlap with related work, full AI-use history and release arrangements require human verification. These unresolved items are explicit submission blockers rather than unfinished result sections.
+\section*{References for the separate MIC experiments}
+\noindent Witten, J. and Witten, Z. (2019). Deep learning regression model for antimicrobial peptide design. \textit{bioRxiv preprint}. \url{https://doi.org/10.1101/692681}.
+
+\noindent Lavertu, A., Corbeil, J. and Germain, P. (2026). QMAP: a benchmark for standardized evaluation of antimicrobial peptide MIC and hemolytic activity regression. \textit{Scientific Reports}, 16, 25387. \url{https://doi.org/10.1038/s41598-026-56004-8}.
+
+\noindent Pirtskhalava, M. et al. (2021). DBAASP v3: database of antimicrobial/cytotoxic activity and structure of peptides as a resource for development of new therapeutics. \textit{Nucleic Acids Research}, 49, D288--D297. \url{https://doi.org/10.1093/nar/gkaa991}.
+\end{document}

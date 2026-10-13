@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-11T19:49:02.390089+00:00",
+  "document_type": "NON_EXECUTABLE_DESIGN_NOTE",
+  "authorized": false,
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/future_source_replacement_design_v1/DESIGN_DIFFERENCES.zh.md",
+      "sha256": "49f447397ff07d9e4a26841c6fa1f11fe7fba264348abb7663619eb95c66fbb5"
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/LATENT_ROUTE_STATIC_AUDIT.json",
+      "sha256": "cddbc4a3ee25926f6654afabfeef8448b77adc3d4620b0e9664cb60b6d2f1096"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/FUTURE_FOUR_SOURCE_ROUTE_DESIGN_BOUNDARIES_v1.zh.md",
+      "sha256": "4d4ebe203a642ea52b4c2f5b788c4b3b825c611882b4381a29379ae0a95144a6"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_DECODER_INPUT_CONTROL_CONTRACT_v2.json",
+      "sha256": "32ed71685ec5c988c76b7aca15d281f68cb882f7d753511fecc06c81ba348b86"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_SAME_N_GROUP_REFERENCE_v1.json",
+      "sha256": "69996b7e20e0126878f2847c51e8a06d982924cc76d0b60e2d6d4e62c238d0b3"
+    }
+  ],
+  "model_calls": 0,
+  "random_draws": 0,
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION"
+}

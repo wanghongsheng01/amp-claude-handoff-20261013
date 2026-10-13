@@ -1,0 +1,33 @@
+{
+  "schema": "AMP_H5_NATIVE_BASELINE_FREEZE_V1",
+  "created_utc": "2026-10-12T09:15:34.751680+00:00",
+  "local_sha256": {
+    "prepare.py": "42bfd99ee318fe7ce5dc10f6471150a02f1186b023e6eed317ee9b3d6477d458",
+    "PROTOCOL.json": "4e81c46c58af3f0468ae4e746d8f762803495a9d2fae8e49499d3042d21ed6f4",
+    "DATA.jsonl": "dd07aef8b63b9318a87a94db8f69f7ddf128ee6f87f18a841a4b8d1022d19184",
+    "FOLDS.json": "0e658eb985fa8ffbf762c7d60940f52617a937af12fc109492cd4fcceca9f593",
+    "model.py": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+    "run.py": "43f22d9376203f94a089f7ac6a8e11b4a6f82f0d524461f92811902b43f28d72",
+    "validate_engineering.py": "cf774f1f590a0c1e1c4e98cda5b9ecfd41d5a4926c48a8b7548d7e55f8aee97d",
+    "ENGINEERING_TESTS.json": "0a1d719045bd94406bcdd5a6c0e8431e5f07a87f244f11f535d14ae506a7fc91",
+    "PREFLIGHT.json": "e6ebf551855701e5fb1816410f7b3f7df98123efd4723af56eb90355b0881d8e",
+    "freeze.py": "e8fa462f347d49a5754bccba3059f3e13dc5e7b8dcff2e1d30e93ce29ccf1975"
+  },
+  "source_sha256": {
+    "native_unit_admission_v1/ROW_ADMISSION.jsonl": "5e8a78d0378a3dfa99f14a9bd5521a6841afeec801ec27464c04343da55731c5",
+    "native_unit_admission_v1/independent/SIGNOFF.json": "ccaf9023b60d5cfb0bbbcd0f2b880be75dd671474a7ff4e51be98db7aeaa7af2",
+    "witten_cpu_v1/model.py": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+    "chem_cnn_audit_v1/SIGNOFF.json": "4471e461f1fafdc64f0cdfddd9b55644b6d7c9b17beffd98204a885b0380bb19",
+    "dbaasp_bounded_v3/prepared/peptides.jsonl": "1481b8de54866c4178b7a6a0d923031d8bc2595d29985f73045dce4b75efcd89"
+  },
+  "execution": "Await independent engineering PASS binding this freeze; no natural baseline has run",
+  "limits": {
+    "wall_seconds": 600,
+    "CPU_threads": 1,
+    "total_CNN_updates": 1700,
+    "peak_RSS_bytes": 1500000000
+  },
+  "seeds": [
+    1729
+  ]
+}

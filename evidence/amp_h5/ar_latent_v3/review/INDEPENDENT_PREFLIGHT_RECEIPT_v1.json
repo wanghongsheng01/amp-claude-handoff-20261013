@@ -1,0 +1,75 @@
+{
+  "schema": "AMP_H5_AR_LATENT_V3_INDEPENDENT_PREFLIGHT_RECEIPT_V1",
+  "created_utc": "2026-10-12T02:08:08.296263+00:00",
+  "scope_id": "AMP_H5_AR_LATENT_V3",
+  "status": "PASS",
+  "blocked": false,
+  "authorized": true,
+  "natural_execution_authorized": true,
+  "independent_author": "/root/ar_admission_independent",
+  "implementation_author": "/root/ar_v3_implementation",
+  "plan_sha256": "4ddb5c6696c399e2fb488213bf8e97a4c008348c401c78aba674680e9fa5fbce",
+  "supervisor_sha256": "2fa7a6842730cf6090aaf19366d4331de6a673a27f2d2097943539aa2ff60a62",
+  "launcher_sha256": "460e8643bc6a2787f88ced039939fb9c7e693c36bb246f943aa07699d63cba3d",
+  "config_sha256": "419b283b8b08b745be0e5aad21b1ca2e164255489403c7a96ca85fdb255e4d5c",
+  "code_sha256": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/core.py": "18b8fe1589bb3bda66a3eaa091a9a59dc1420db8da255ee1373ae369ea7cac2a",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/contracts.py": "ef4f3e5d8e04de091ec5524d81f7e8369deb12c9277ab2916327eb574e8780d0",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runner.py": "bb4de35f06976d63530ad7304cf9200aee4896535d9eb6287204ea6551c64fe0",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/scoring.py": "e0e0563bb8c17f5aa272f44b32daec0a2e467b9bd3f3a0e6e075c63b4d2295af"
+  },
+  "synthetic_checks": "PASS",
+  "throughput_checks": "PASS",
+  "deterministic_preparation": {
+    "initial_state_sha256": {
+      "A": "bc6bcb084f5f1f6360399db66f869a12ff49c39742853d916c913fbf9c020373",
+      "B": "bc6bcb084f5f1f6360399db66f869a12ff49c39742853d916c913fbf9c020373",
+      "C": "7f9cc39b1a9729ed83aaf184191bdb130779fbf7fc2debb1c9a35932eaecfae1"
+    },
+    "batch_indices_sha256": "cb6a18e909568b7596c46891dda9c26f3237bec0b49125c8db969fe68ece7d62",
+    "train_mappings_digest": "a4394ba643fff9968e81b1e68994c62d2808feff3e4bb5579f0ac38ad9408571",
+    "dev_mappings_digest": "69cc152c36a8802aae60f89762f0fa2c8ca642c02b0c3e6a274cf58ab6692499",
+    "uniforms_digest": "e0c67f434b1f36142dd738ad80344d0c72b2b79eb76366daf006832426b23a3b"
+  },
+  "root_plan_all40_bindings_verified": true,
+  "single_natural_output": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1",
+  "single_execution_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/execution_v1",
+  "scientific_retries": 0,
+  "additional_natural_attempts_authorized": 0,
+  "natural_updates_cap": 3000,
+  "natural_forward_cap": 4547,
+  "overall_outer_seconds": 660,
+  "phase_budgets_seconds": {
+    "preparation": 60,
+    "training_each_inner": 120,
+    "training_each_outer": 150,
+    "training_arms": 3,
+    "all_decoding_and_scoring": 120,
+    "closure": 30,
+    "overall_outer": 660
+  },
+  "synthetic_window": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/synthetic_window_v1/RESULT.json",
+    "sha256": "f869d180e62b7ed21471551a77ab6b00d1a20401aa6ad3c92b8c25620930f41d",
+    "actual_AR_forward": 1848,
+    "optimizer_updates": 300,
+    "natural_calls": 0,
+    "external_wall_seconds": 20.321034709
+  },
+  "independent_engineering_report": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_ENGINEERING_REPORT_v1.json",
+    "sha256": "52c69b33299482d4168c0db7b445b0301479d85e9f1ecbd4086bd44990b26a17"
+  },
+  "throughput_is_projection_not_guarantee": true,
+  "launch_conditions": [
+    "Fresh H5 active-process check by root immediately before launch",
+    "Existing global H5 lock held by exact supervisor",
+    "Exact code/config/plan/receipt/input bytes unchanged",
+    "No overwrite, resume, new seed, extra samples or natural retry"
+  ],
+  "postflight_required": true,
+  "scientific_parameters_changed": false,
+  "test37": "SEALED",
+  "external_backup": "BACKUP_BLOCKED",
+  "PROMOTE": "HOLD"
+}

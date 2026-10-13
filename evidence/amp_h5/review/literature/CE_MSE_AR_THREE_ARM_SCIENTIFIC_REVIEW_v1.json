@@ -1,0 +1,771 @@
+{
+  "identity": "AMP_H5_CE_MSE_AR_THREE_ARM_SCIENTIFIC_REVIEW_V1",
+  "reviewer": "/root/h5_literature",
+  "verdict": "DESCRIPTIVE_L_PASS_G_FAIL_SUPPORTED_WITH_FIXED_BETA_ATTRIBUTION_BOUNDARY",
+  "blocking_scientific_mismatches": [],
+  "engineering_or_execution_authorization": false,
+  "delivery_index_verified": true,
+  "evaluation_and_author_members_match_index": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/MANIFEST.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/ar_teacher_forced_nll.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/exploratory_gates.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/generation_metrics.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/generation_sample_audit.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/reconstruction_metrics.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/reconstruction_row_audit.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/run.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_author_readout_v1/AUTHOR_FACTS.json",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_author_readout_v1/AUTHOR_READOUT.zh.md",
+      "matches_index": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_author_readout_v1/MANIFEST.json",
+      "matches_index": true
+    }
+  ],
+  "author_full_metrics_and_gate_records_equal_evaluation": true,
+  "observed_generation_requests": 96,
+  "observed_generation_groups": 6,
+  "generation_summaries": [
+    {
+      "method": "CE21_DDPM",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed": 16,
+      "valid1": 16,
+      "valid5": 15,
+      "unique_valid": 16,
+      "copy_same_train": 0,
+      "copy_any_train": 0,
+      "reference_train_n": 153,
+      "reference_dev_n": 23,
+      "train": {
+        "aa_jensen_shannon_bits": 0.09447216287998406,
+        "aa_l1_distance": 0.489628349178911,
+        "dipeptide_jensen_shannon_bits": 0.2931123928240505,
+        "dipeptide_l1_distance": 0.9357077816423107,
+        "mmd2_linear_biased_fixed_features": 0.008949882952629573,
+        "length_ks_statistic_no_pvalue": 0.25531045751633985
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.08845070704817436,
+        "aa_l1_distance": 0.42518173650249125,
+        "dipeptide_jensen_shannon_bits": 0.36559369734732183,
+        "dipeptide_l1_distance": 1.0693362995921398,
+        "mmd2_linear_biased_fixed_features": 0.007709821687840033,
+        "length_ks_statistic_no_pvalue": 0.30163043478260865
+      },
+      "AA_entropy_gap_to_train": 0.5628404258673214,
+      "dipeptide_entropy_gap_to_train": 1.1944294087053766,
+      "length": {
+        "n": 16,
+        "mean": 16.5,
+        "min": 4,
+        "max": 30,
+        "median": 18.0
+      },
+      "status_counts": {
+        "ok": 16
+      }
+    },
+    {
+      "method": "CE21_DDPM",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed": 16,
+      "valid1": 16,
+      "valid5": 14,
+      "unique_valid": 16,
+      "copy_same_train": 0,
+      "copy_any_train": 0,
+      "reference_train_n": 126,
+      "reference_dev_n": 18,
+      "train": {
+        "aa_jensen_shannon_bits": 0.10169432347600005,
+        "aa_l1_distance": 0.5175679769532836,
+        "dipeptide_jensen_shannon_bits": 0.339680009815442,
+        "dipeptide_l1_distance": 1.0191052705515768,
+        "mmd2_linear_biased_fixed_features": 0.01741593479424502,
+        "length_ks_statistic_no_pvalue": 0.27976190476190477
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.09931655138833544,
+        "aa_l1_distance": 0.5353240433532405,
+        "dipeptide_jensen_shannon_bits": 0.41789109667112806,
+        "dipeptide_l1_distance": 1.1437090041741205,
+        "mmd2_linear_biased_fixed_features": 0.01732780337937688,
+        "length_ks_statistic_no_pvalue": 0.2638888888888889
+      },
+      "AA_entropy_gap_to_train": 0.6667418133772367,
+      "dipeptide_entropy_gap_to_train": 1.6513668509043402,
+      "length": {
+        "n": 16,
+        "mean": 17.125,
+        "min": 2,
+        "max": 48,
+        "median": 17.5
+      },
+      "status_counts": {
+        "no_eos_at_limit": 1,
+        "ok": 15
+      }
+    },
+    {
+      "method": "MSE21_DDPM",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed": 16,
+      "valid1": 16,
+      "valid5": 10,
+      "unique_valid": 16,
+      "copy_same_train": 0,
+      "copy_any_train": 0,
+      "reference_train_n": 153,
+      "reference_dev_n": 23,
+      "train": {
+        "aa_jensen_shannon_bits": 0.2618802637314376,
+        "aa_l1_distance": 0.9227312013828868,
+        "dipeptide_jensen_shannon_bits": 0.5218212935833626,
+        "dipeptide_l1_distance": 1.3952620501261355,
+        "mmd2_linear_biased_fixed_features": 0.09220048989006456,
+        "length_ks_statistic_no_pvalue": 0.4411764705882353
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.2587176636149323,
+        "aa_l1_distance": 0.8889487870619945,
+        "dipeptide_jensen_shannon_bits": 0.5103804202536805,
+        "dipeptide_l1_distance": 1.3665183537263608,
+        "mmd2_linear_biased_fixed_features": 0.08484731078874289,
+        "length_ks_statistic_no_pvalue": 0.6195652173913043
+      },
+      "AA_entropy_gap_to_train": 1.785126963317779,
+      "dipeptide_entropy_gap_to_train": 3.397780080748345,
+      "length": {
+        "n": 16,
+        "mean": 8.75,
+        "min": 1,
+        "max": 17,
+        "median": 9.5
+      },
+      "status_counts": {
+        "ok": 16
+      }
+    },
+    {
+      "method": "MSE21_DDPM",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed": 16,
+      "valid1": 16,
+      "valid5": 16,
+      "unique_valid": 16,
+      "copy_same_train": 0,
+      "copy_any_train": 0,
+      "reference_train_n": 126,
+      "reference_dev_n": 18,
+      "train": {
+        "aa_jensen_shannon_bits": 0.2825759985260886,
+        "aa_l1_distance": 0.9407740180521783,
+        "dipeptide_jensen_shannon_bits": 0.543729277884608,
+        "dipeptide_l1_distance": 1.4410706508360318,
+        "mmd2_linear_biased_fixed_features": 0.07969683163943041,
+        "length_ks_statistic_no_pvalue": 0.4732142857142857
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.2955465537598057,
+        "aa_l1_distance": 1.0204146730462522,
+        "dipeptide_jensen_shannon_bits": 0.5740894070189165,
+        "dipeptide_l1_distance": 1.4763483642793973,
+        "mmd2_linear_biased_fixed_features": 0.08233464041463082,
+        "length_ks_statistic_no_pvalue": 0.45833333333333337
+      },
+      "AA_entropy_gap_to_train": 1.919977521009442,
+      "dipeptide_entropy_gap_to_train": 3.830817091743256,
+      "length": {
+        "n": 16,
+        "mean": 11.875,
+        "min": 5,
+        "max": 22,
+        "median": 10.5
+      },
+      "status_counts": {
+        "ok": 16
+      }
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "AMD",
+      "requests": 16,
+      "completed": 16,
+      "valid1": 16,
+      "valid5": 16,
+      "unique_valid": 16,
+      "copy_same_train": 0,
+      "copy_any_train": 0,
+      "reference_train_n": 153,
+      "reference_dev_n": 23,
+      "train": {
+        "aa_jensen_shannon_bits": 0.02143156327866584,
+        "aa_l1_distance": 0.1900539124300902,
+        "dipeptide_jensen_shannon_bits": 0.24479706221132147,
+        "dipeptide_l1_distance": 0.821077198559444,
+        "mmd2_linear_biased_fixed_features": 0.003157921938791385,
+        "length_ks_statistic_no_pvalue": 0.18218954248366015
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.044849491729849957,
+        "aa_l1_distance": 0.3283816614893695,
+        "dipeptide_jensen_shannon_bits": 0.3061247711079168,
+        "dipeptide_l1_distance": 0.9134599366983188,
+        "mmd2_linear_biased_fixed_features": 0.007361941924628023,
+        "length_ks_statistic_no_pvalue": 0.24456521739130435
+      },
+      "AA_entropy_gap_to_train": 0.2423471525789873,
+      "dipeptide_entropy_gap_to_train": 0.9979346104615594,
+      "length": {
+        "n": 16,
+        "mean": 13.9375,
+        "min": 8,
+        "max": 20,
+        "median": 13.5
+      },
+      "status_counts": {
+        "ok": 16
+      }
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "FREE",
+      "requests": 16,
+      "completed": 16,
+      "valid1": 16,
+      "valid5": 16,
+      "unique_valid": 16,
+      "copy_same_train": 0,
+      "copy_any_train": 0,
+      "reference_train_n": 126,
+      "reference_dev_n": 18,
+      "train": {
+        "aa_jensen_shannon_bits": 0.02824255636122359,
+        "aa_l1_distance": 0.2597961189639107,
+        "dipeptide_jensen_shannon_bits": 0.24461102296986983,
+        "dipeptide_l1_distance": 0.8100253019035456,
+        "mmd2_linear_biased_fixed_features": 0.004091706134265748,
+        "length_ks_statistic_no_pvalue": 0.1339285714285714
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.05962819002825927,
+        "aa_l1_distance": 0.44325150615951814,
+        "dipeptide_jensen_shannon_bits": 0.37161584838898454,
+        "dipeptide_l1_distance": 1.0163551401869153,
+        "mmd2_linear_biased_fixed_features": 0.011567464907748784,
+        "length_ks_statistic_no_pvalue": 0.20138888888888895
+      },
+      "AA_entropy_gap_to_train": 0.15753585763459155,
+      "dipeptide_entropy_gap_to_train": 0.8011723205057821,
+      "length": {
+        "n": 16,
+        "mean": 21.0625,
+        "min": 10,
+        "max": 48,
+        "median": 17.0
+      },
+      "status_counts": {
+        "ok": 16
+      }
+    }
+  ],
+  "reconstruction_summaries": [
+    {
+      "method": "CE21_DDPM",
+      "split": "train",
+      "rows": 279,
+      "target_residues": 4868,
+      "rendered_aligned_correct": 3580,
+      "rendered_nonpad_micro": 0.7354149548069022,
+      "rendered_nonpad_macro": 0.4646225971400127,
+      "per_sequence_mean_nonpad_accuracy": 0.7553036976103766,
+      "length_absolute_error_sum": 19,
+      "length_mae": 0.06810035842293907,
+      "length_exact_count": 260,
+      "whole_rendered_exact_count": 21,
+      "empty_count": 0,
+      "zero_recall_supported_AA": [
+        "C",
+        "D",
+        "E",
+        "H",
+        "M",
+        "N",
+        "Q",
+        "Y"
+      ],
+      "macro_from_saved_counts": 0.46462259714001275
+    },
+    {
+      "method": "MSE21_DDPM",
+      "split": "train",
+      "rows": 279,
+      "target_residues": 4868,
+      "rendered_aligned_correct": 585,
+      "rendered_nonpad_micro": 0.12017255546425637,
+      "rendered_nonpad_macro": 0.03933935874336909,
+      "per_sequence_mean_nonpad_accuracy": 0.11692602777164328,
+      "length_absolute_error_sum": 1278,
+      "length_mae": 4.580645161290323,
+      "length_exact_count": 0,
+      "whole_rendered_exact_count": 0,
+      "empty_count": 0,
+      "zero_recall_supported_AA": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "V",
+        "W",
+        "Y"
+      ],
+      "macro_from_saved_counts": 0.03933935874336909
+    },
+    {
+      "method": "CE21_DDPM",
+      "split": "development",
+      "rows": 41,
+      "target_residues": 701,
+      "rendered_aligned_correct": 497,
+      "rendered_nonpad_micro": 0.7089871611982882,
+      "rendered_nonpad_macro": 0.427601056550582,
+      "per_sequence_mean_nonpad_accuracy": 0.7227961128580325,
+      "length_absolute_error_sum": 0,
+      "length_mae": 0.0,
+      "length_exact_count": 41,
+      "whole_rendered_exact_count": 3,
+      "empty_count": 0,
+      "zero_recall_supported_AA": [
+        "C",
+        "D",
+        "E",
+        "H",
+        "M",
+        "N",
+        "Q",
+        "Y"
+      ],
+      "macro_from_saved_counts": 0.427601056550582
+    },
+    {
+      "method": "MSE21_DDPM",
+      "split": "development",
+      "rows": 41,
+      "target_residues": 701,
+      "rendered_aligned_correct": 88,
+      "rendered_nonpad_micro": 0.12553495007132667,
+      "rendered_nonpad_macro": 0.03567725031507728,
+      "per_sequence_mean_nonpad_accuracy": 0.12004714324619178,
+      "length_absolute_error_sum": 228,
+      "length_mae": 5.560975609756097,
+      "length_exact_count": 0,
+      "whole_rendered_exact_count": 0,
+      "empty_count": 0,
+      "zero_recall_supported_AA": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "S",
+        "T",
+        "V",
+        "W",
+        "Y"
+      ],
+      "macro_from_saved_counts": 0.03567725031507728
+    }
+  ],
+  "L": {
+    "state": "PASS",
+    "passed": 4,
+    "failed": 0,
+    "checks": {
+      "rendered_nonpad_micro": {
+        "left": 0.7089871611982882,
+        "right": 0.12553495007132667,
+        "operator": "gt",
+        "pass": true
+      },
+      "rendered_nonpad_macro": {
+        "left": 0.427601056550582,
+        "right": 0.03567725031507728,
+        "operator": "gt",
+        "pass": true
+      },
+      "length_mae": {
+        "left": 0.0,
+        "right": 5.560975609756097,
+        "operator": "le",
+        "pass": true
+      },
+      "whole_rendered_exact_count": {
+        "left": 3,
+        "right": 0,
+        "operator": "ge",
+        "pass": true
+      }
+    }
+  },
+  "G": {
+    "state": "FAIL",
+    "passed": 10,
+    "failed": 8,
+    "checks": {
+      "FREE": {
+        "development_mmd2_strictly_lower": {
+          "left": 0.01732780337937688,
+          "right": 0.011567464907748784,
+          "operator": "lt",
+          "pass": false
+        },
+        "ce_all_requests_valid1": {
+          "left": 16,
+          "right": 16,
+          "operator": "eq",
+          "pass": true
+        },
+        "ar_all_requests_valid1": {
+          "left": 16,
+          "right": 16,
+          "operator": "eq",
+          "pass": true
+        },
+        "valid5_count_not_lower": {
+          "left": 14,
+          "right": 16,
+          "operator": "ge",
+          "pass": false
+        },
+        "valid_unique_count_not_lower": {
+          "left": 16,
+          "right": 16,
+          "operator": "ge",
+          "pass": true
+        },
+        "same_terminal_train_copies_not_higher": {
+          "left": 0,
+          "right": 0,
+          "operator": "le",
+          "pass": true
+        },
+        "any_terminal_train_copies_not_higher": {
+          "left": 0,
+          "right": 0,
+          "operator": "le",
+          "pass": true
+        },
+        "aa_entropy_train_gap_not_larger": {
+          "left": 0.6667418133772367,
+          "right": 0.15753585763459155,
+          "operator": "le",
+          "pass": false
+        },
+        "dipeptide_entropy_train_gap_not_larger": {
+          "left": 1.6513668509043402,
+          "right": 0.8011723205057821,
+          "operator": "le",
+          "pass": false
+        }
+      },
+      "AMD": {
+        "development_mmd2_strictly_lower": {
+          "left": 0.007709821687840033,
+          "right": 0.007361941924628023,
+          "operator": "lt",
+          "pass": false
+        },
+        "ce_all_requests_valid1": {
+          "left": 16,
+          "right": 16,
+          "operator": "eq",
+          "pass": true
+        },
+        "ar_all_requests_valid1": {
+          "left": 16,
+          "right": 16,
+          "operator": "eq",
+          "pass": true
+        },
+        "valid5_count_not_lower": {
+          "left": 15,
+          "right": 16,
+          "operator": "ge",
+          "pass": false
+        },
+        "valid_unique_count_not_lower": {
+          "left": 16,
+          "right": 16,
+          "operator": "ge",
+          "pass": true
+        },
+        "same_terminal_train_copies_not_higher": {
+          "left": 0,
+          "right": 0,
+          "operator": "le",
+          "pass": true
+        },
+        "any_terminal_train_copies_not_higher": {
+          "left": 0,
+          "right": 0,
+          "operator": "le",
+          "pass": true
+        },
+        "aa_entropy_train_gap_not_larger": {
+          "left": 0.5628404258673214,
+          "right": 0.2423471525789873,
+          "operator": "le",
+          "pass": false
+        },
+        "dipeptide_entropy_train_gap_not_larger": {
+          "left": 1.1944294087053766,
+          "right": 0.9979346104615594,
+          "operator": "le",
+          "pass": false
+        }
+      }
+    }
+  },
+  "prior_CE_AR_full_generation_groups_identical": true,
+  "all_six_reported_distances_both_terminals_both_references_order": "AR < CE < MSE; descriptive fixed-feature/distribution distances only",
+  "CE_MSE_generation_tradeoff": {
+    "FREE_valid5": {
+      "CE": 14,
+      "MSE": 16,
+      "denominator": 16,
+      "CE_better": false
+    },
+    "AMD_valid5": {
+      "CE": 15,
+      "MSE": 10,
+      "denominator": 16,
+      "CE_better": true
+    },
+    "all_generating_metrics_better_claim_allowed": false
+  },
+  "coupling_evidence": {
+    "same_capacity_and_initialization": true,
+    "same_train_scaler": true,
+    "VAE_all1000_batch_forward_RNG_LR_equal": true,
+    "DDPM_fresh_initialization_equal": true,
+    "DDPM_all1000_batch_noise_timestep_label_dropout_LR_equal": true,
+    "scope": "Different fitted posteriors/weights follow the reconstruction objective change. Same RNG and budget opportunity does not establish equal actual compute or quality advantage."
+  },
+  "config_differences": {
+    "arm": [
+      "categorical_ce",
+      "raw_onehot_mse"
+    ]
+  },
+  "objective_contract": {
+    "CE": "sum cross entropy / (B*48)",
+    "MSE": "0.5 * sum (raw-onehot)^2 / (B*48)",
+    "common_KL": "sum(logq-logp) / (B*48)",
+    "beta": 1.0,
+    "common_head_channels": 21,
+    "vae_updates_each": 1000,
+    "ddpm_updates_each": 1000,
+    "common_J": "same raw score legal AA-prefix/PAD-suffix argmax",
+    "J_compatibility_reason": "Each legal path selects one of21 onehot classes at each of48 positions. CE logsumexp constants and raw onehot MSE squared-norm constants are path-independent; both argmax sum selected raw scores."
+  },
+  "attribution_boundary": [
+    "A single fixed-hyperparameter loss-form intervention, not equal effective KL/reconstruction weighting",
+    "Loss scale and gradients change with objective form; cannot isolate categorical semantics from altered optimization balance",
+    "Own posterior re-encoding and own DDPM in each arm are verified",
+    "Same seeds/batches do not make generated draws statistical paired replicates",
+    "Additional CE restart and diagnostic/development opportunities remain; original formal gates cannot be restored",
+    "Does not establish tuned-MSE upper bound,universal CE superiority,multiseed stability or novelty"
+  ],
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "costs": {
+    "MSE": {
+      "training_seconds": 1744.3378242077306,
+      "generation_seconds": 1125.2205974170938,
+      "process_seconds_before_final_io": 2877.21776566701,
+      "supervisor_outer_seconds": 2877.830811874941,
+      "CE_recovery_costs_separate": true,
+      "original_CE_exact_wall_unknown": true
+    },
+    "CE_and_AR_from_prior_bound_addendum": {
+      "AR": {
+        "train_updates_seconds": 12.268115932121873,
+        "monitoring_seconds": 0.5697879591025412,
+        "training_pipeline_wall_before_manifest_seconds": 14.292998417280614,
+        "generation_wall_before_manifest_seconds": 0.020189667120575905,
+        "entry_process_seconds": 15.10993174975738,
+        "scope": "training pipeline includes updates, monitoring and overhead; do not add nested durations; process includes the pipeline/generation"
+      },
+      "CE": {
+        "original_training_stage_subtotal": 1743.3780911662616,
+        "original_generation_lower_bound": 451.9357427917421,
+        "original_exact_total": null,
+        "recovery_setup": 1.3591534583829343,
+        "recovery_generation": 1115.4961699172854,
+        "recovery_export": 6.814929542131722,
+        "recovery_process_before_final_io": 1123.995185916312,
+        "recovery_supervisor_outer": 1124.2520439173095,
+        "additional_cost_separate": true
+      },
+      "equal_actual_compute_claim": false
+    },
+    "equal_actual_compute_established": false,
+    "nested_ranges_not_additive": true
+  },
+  "scientific_limits": [
+    "posterior-mean reconstruction receives the object and is not terminal-only generation",
+    "single fitted seed,reused train279/development41,no independent test evaluation",
+    "every terminal distribution denominator is16; no significance or biological efficacy claim",
+    "no strong AR adequacy claim;fixed1000 endpoint and dev overfit retained",
+    "standard objective/readout repair is not demonstrated algorithmic novelty",
+    "wetlab N unknown; historical wetlab not H5 prospective validation",
+    "scalar live quality excluded,no full four-arm result or outcome prediction"
+  ],
+  "operations": {
+    "model_calls": 0,
+    "training_updates": 0,
+    "new_generation": 0,
+    "full_metric_recomputations": 0,
+    "saved_summary_arithmetic_checks": true,
+    "live_scalar_output_reads": 0,
+    "test_reads": 0,
+    "original_file_edits": 0,
+    "threshold_changes": 0,
+    "execution_permission_changes": 0,
+    "future_plan_changes": 0
+  },
+  "input_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_MSE_AR_THREE_ARM_DELIVERY_v1.json",
+      "bytes": 9374,
+      "sha256": "d0bb39e3f90c93b284acca9308a6f97737a3afc598a49908695c660d85e7f891"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/generation_metrics.json",
+      "bytes": 478310,
+      "sha256": "929194ee5b2d839ba06f3cbc17761cb7fd5cb58c6d116ecc224151ea99892208"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/generation_sample_audit.json",
+      "bytes": 146939,
+      "sha256": "fddf4492f329c52426b713e01af7396711f958ff2767d7da7a27bb5228efdd1d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/reconstruction_metrics.json",
+      "bytes": 8289,
+      "sha256": "7d70ca7fd1976824e612827d64fd286aa18b5031f13af7ad462f54e108b4e354"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/exploratory_gates.json",
+      "bytes": 4145,
+      "sha256": "e0487fc4e88c675fda30e66d4a9dc711985491342c21ffb66807b677793b76b8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/run.json",
+      "bytes": 7330,
+      "sha256": "4c1e9b7ccc7617c241414bb1c4d9ebefdb3cc16a1ecd0722d2ac5363a20daa15"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1/ar_teacher_forced_nll.json",
+      "bytes": 2108,
+      "sha256": "7b918e800925abad1e8e8570bb73bd191095d078ba84f1e48e4ab782255c0a21"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_author_readout_v1/AUTHOR_READOUT.zh.md",
+      "bytes": 8254,
+      "sha256": "b3b4c02b58a371affc88e7af90fba03999e404f4fbae91dcbd152b00a5d54007"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_author_readout_v1/AUTHOR_FACTS.json",
+      "bytes": 558138,
+      "sha256": "28f594d02b29325c4294083c345ae081a5fe0d756b04d01c0a5a068f90500b97"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1/generation_metrics.json",
+      "bytes": 370981,
+      "sha256": "cbbd4c672bf2b1de6ddeec0f8202822985f9cfc2ffb79c2caf695bd96b8644e5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_POSTFLIGHT_v1.json",
+      "bytes": 21294,
+      "sha256": "a0a410526b6a252ba1f73fd3957dea5ee20413bb6e5c264fca5d34a4eec97b71"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_TERMINAL_AUDIT_v1.json",
+      "bytes": 29311,
+      "sha256": "4273578a85d2e9b9d1a9aafa3bcb63fc403d9f0084ecc346b76a1ec8972a95ec"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "bytes": 2541,
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/raw_onehot_mse.json",
+      "bytes": 2541,
+      "sha256": "861d530bce7529826ed481697083a4efee016cce24878d85dced240b28d9d004"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "bytes": 41408,
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    }
+  ],
+  "markdown": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/CE_MSE_AR_THREE_ARM_SCIENTIFIC_REVIEW_v1.zh.md",
+    "bytes": 6482,
+    "sha256": "e00121454082e66e3ef9111593168fd4b59367a7219580d78b106ebc748f4c72"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "created_utc": "2026-10-11T17:48:27.679795+00:00",
+  "reviewer": "independent AMP H5 reviewer",
+  "phase": "PREFLIGHT_ONLY",
+  "status": "PASS_SCOPED_ONE_CE_CHECKPOINT_RECOVERY_ATTEMPT",
+  "authorized": true,
+  "scope_id": "AMP_H5_CE_CHECKPOINT_RECOVERY_V1",
+  "plan_sha256": "3e66ffa415dc759e396d25d4ff9c445c7c855fb0e48aaf96b834d6da1b1ae1e4",
+  "contract_sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00",
+  "recovery_script_sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+  "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+  "launcher_sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+  "plan_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_PLAN_v1.json",
+  "contract_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_CONTRACT_v1.json",
+  "generation_attempt_id": "ce_checkpoint_recovery_v1",
+  "generation_attempt_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1",
+  "scope": "One separately authorized additional zero-training generation attempt after unclassified interruption, with exactly32 original fixed requests and fixed train/dev reconstruction export. Root alone launches once after immediate process/load check.",
+  "bindings_verified": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_CONTRACT_v1.json",
+      "sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+      "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_root_v1/INTERRUPTED_ARTIFACT_SNAPSHOT.json",
+      "sha256": "dd0fe7eac19e49b2a148113deff6ab96f15f44b055974b8eafba29e8907a9311"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_root_v1/PROCESS_SNAPSHOT.json",
+      "sha256": "8e17cce916157932b290a9f6b9be803959c67aee47bb8876640d0781710a2125"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_checkpoint_recovery_candidate_validation_v1/VALIDATION.json",
+      "sha256": "c0ac74aae8b0201dccd52b51f9c9563e06678cb07dcff51b01b051b9f4fbbea1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RECOVERY_LAUNCHER_PREPARATION_REVIEW_v1.json",
+      "sha256": "543454154da728faf6b85238643deb8c95b2014bc85fe80e1a868037612d1345"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+      "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_FORENSIC_v2.json",
+      "sha256": "af7ded6832371e2365801f7c5adfb9e3bc978bd151c822087a05480ab4f7fcfa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_RECOVERY_SCOPE_v1.json",
+      "sha256": "09993ebfd1ff908c88b6364fc9c69ada8ce3cfad52ef70d39c7cc976c364bd22"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_author_v1/EVIDENCE.json",
+      "sha256": "608b6ad973f960bad648a36667807405b5e9e3c491ed6b5a5b0b20884b7a5c22"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.json",
+      "sha256": "97f3db5bf0286af52f05cf46291cc3b1f2ce290cfda451d0e0fe77dbe980e0ac"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.pt",
+      "sha256": "e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_training_summary.json",
+      "sha256": "d9c10cda3fdbc3f070414f89a9bccc727627dd1bdbaaeb3daf7f4b41ba662ce2"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_training_summary.json",
+      "sha256": "74755fd716e27fd37f4cb13334689df3cff80f17c75d4d7d2bc0dc9e083c09d9"
+    }
+  ],
+  "original_snapshot_files_verified": 25,
+  "checkpoint_tensor_digests": {
+    "vae_state": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+    "ddpm_ema_state": "a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c"
+  },
+  "preflight_evidence": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RECOVERY_INDEPENDENT_PREFLIGHT_CHECKS_v1.json",
+      "sha256": "f33f97ac050e31d1ac6de39bc33bbb51d99bc163359af36851cf329e8949e37b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_FORENSIC_v2.json",
+      "sha256": "af7ded6832371e2365801f7c5adfb9e3bc978bd151c822087a05480ab4f7fcfa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_RECOVERY_SCOPE_v1.json",
+      "sha256": "09993ebfd1ff908c88b6364fc9c69ada8ce3cfad52ef70d39c7cc976c364bd22"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RECOVERY_LAUNCHER_PREPARATION_REVIEW_v1.json",
+      "sha256": "543454154da728faf6b85238643deb8c95b2014bc85fe80e1a868037612d1345"
+    }
+  ],
+  "review_summary": {
+    "independent_static_synthetic_checks": 32,
+    "author_reported_checks": 19,
+    "all22_plan_bindings_verified": true,
+    "all25_original_files_and_membership_verified": true,
+    "natural_model_calls": 0,
+    "natural_checkpoint_deserializations_this_preflight": 0,
+    "natural_source_CSV_reads_this_preflight": 0,
+    "test37_reads": 0,
+    "synthetic_fixture_note": "Initial fixture used macOS /tmp alias and was correctly rejected by canonical-path guard; fixture corrected to resolved /private/tmp. Candidate code unchanged."
+  },
+  "budget_seconds": {
+    "training_updates": 0,
+    "new_generation": 1800,
+    "new_outer_total": 1980
+  },
+  "conditions": [
+    "Root must immediately confirm no active AMP model/supervisor and acceptable shared load before using the exact bound detached launcher. The existing fcntl task lock must be held by the parent supervisor.",
+    "Only the exact final VAE1000 and DDPM EMA1000 states may load, with file SHA256, strict shape/key load and tensor digest before/after. No optimizer, training, refit, selection, clipping, new seed, replacement or in-attempt retry.",
+    "Use unchanged formal_v2 generate and reconstruction_export, existing scaler.stats, same FREE422/AMD423 with16 requests each, noise999/reverse998..1 and terminal-only generation.",
+    "Only the new recovery output and supervisor/launch records may be written. Preserve the entire original25-file snapshot and stale running states; do not fabricate original final manifest.",
+    "Preserve empty/short/duplicate/full48/error/not-executed records. Interruption during a terminal batch requires external partial-attempt interpretation, not blindly treating placeholder CSV as no computation.",
+    "If launch or transport outcome is uncertain after Popen, inspect launch stdout, existing supervisor/output/PIDs. Do not launch again based solely on tool timeout. Any recovery failure ends this path without automatic retry or other-arm execution.",
+    "Independent terminal postflight must verify32requests, weights/inputs unchanged, finite positive sigma/z/decoder values, all budgets and descriptive scale against the CE1000 train cache before considering any further arm."
+  ],
+  "original_attempt_and_cost": {
+    "original_v2_E": "NOT_EVALUABLE_INTERRUPTION",
+    "original_v2_L": "NOT_EVALUABLE_INTERRUPTION",
+    "original_v2_G": "NOT_EVALUABLE_INTERRUPTION",
+    "original_v2_PASS": false,
+    "cause": "unknown; transport association is not proven causality",
+    "VAE_stage_seconds": 1179.0319216251373,
+    "DDPM_stage_seconds": 564.3461695411243,
+    "generation_seconds_lower_bound": 451.9357427917421,
+    "original_exact_total": "unknown",
+    "FREE16": "partial/interrupted, at least799 reverse steps each",
+    "AMD16": "no start evidence",
+    "protocol_deviation": "This new generation restart explicitly departs from original no-retry and adds separately counted compute; it is not continuation at t200 or unchanged original total budget."
+  },
+  "explicit_exclusions": [
+    "No full FORMAL_PLAN or MSE/scalar execution",
+    "No test37 access",
+    "No scientific E/L/G PASS inferred from this receipt",
+    "No quality-based changes or permission gates",
+    "No scientific promotion, new novelty/activity/strong-baseline claim, or submission"
+  ],
+  "recovery_postflight_pass": false,
+  "MSE_scalar_authorized": false,
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD"
+}

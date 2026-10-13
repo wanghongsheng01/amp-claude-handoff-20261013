@@ -1,0 +1,100 @@
+[
+  {
+    "split": "train",
+    "expected_sequences": 279,
+    "draws": 8,
+    "aggregation": "For each original sequence average all8 draws, then equal-weight sequences; missing draw gives a missing per-sequence value, never average only surviving seeds.",
+    "metrics": {
+      "nonpad_accuracy": {
+        "mean": 0.679590442867706,
+        "n_valid": 279,
+        "n_missing": 0,
+        "total": 279
+      },
+      "whole_exact": {
+        "mean": 0.034050179211469536,
+        "n_valid": 279,
+        "n_missing": 0,
+        "total": 279
+      },
+      "levenshtein_raw": {
+        "mean": 5.963709677419355,
+        "n_valid": 279,
+        "n_missing": 0,
+        "total": 279
+      },
+      "levenshtein_normalized": {
+        "mean": 0.3218641913008367,
+        "n_valid": 279,
+        "n_missing": 0,
+        "total": 279
+      },
+      "length_signed": {
+        "mean": -0.0721326164874552,
+        "n_valid": 279,
+        "n_missing": 0,
+        "total": 279
+      },
+      "length_absolute": {
+        "mean": 0.14112903225806453,
+        "n_valid": 279,
+        "n_missing": 0,
+        "total": 279
+      },
+      "micro_accuracy": {
+        "value": 0.6599989728841413,
+        "target_residues_across8": 38944,
+        "all8_required_per_sequence": true
+      }
+    }
+  },
+  {
+    "split": "development",
+    "expected_sequences": 41,
+    "draws": 8,
+    "aggregation": "For each original sequence average all8 draws, then equal-weight sequences; missing draw gives a missing per-sequence value, never average only surviving seeds.",
+    "metrics": {
+      "nonpad_accuracy": {
+        "mean": 0.6611157984837004,
+        "n_valid": 41,
+        "n_missing": 0,
+        "total": 41
+      },
+      "whole_exact": {
+        "mean": 0.033536585365853654,
+        "n_valid": 41,
+        "n_missing": 0,
+        "total": 41
+      },
+      "levenshtein_raw": {
+        "mean": 6.0701219512195115,
+        "n_valid": 41,
+        "n_missing": 0,
+        "total": 41
+      },
+      "levenshtein_normalized": {
+        "mean": 0.34059195093541067,
+        "n_valid": 41,
+        "n_missing": 0,
+        "total": 41
+      },
+      "length_signed": {
+        "mean": -0.04878048780487805,
+        "n_valid": 41,
+        "n_missing": 0,
+        "total": 41
+      },
+      "length_absolute": {
+        "mean": 0.14024390243902438,
+        "n_valid": 41,
+        "n_missing": 0,
+        "total": 41
+      },
+      "micro_accuracy": {
+        "value": 0.6467546362339515,
+        "target_residues_across8": 5608,
+        "all8_required_per_sequence": true
+      }
+    }
+  }
+]

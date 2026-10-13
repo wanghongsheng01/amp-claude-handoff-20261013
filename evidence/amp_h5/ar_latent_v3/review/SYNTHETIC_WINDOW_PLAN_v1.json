@@ -1,0 +1,49 @@
+{
+  "schema": "AMP_H5_AR_LATENT_V3_INDEPENDENT_SYNTHETIC_WINDOW_PLAN_V1",
+  "status": "PRELOCKED_NOT_EXECUTED_AWAITING_ROOT_SERIAL_WINDOW",
+  "purpose": "Engineering edge cases and prospective throughput only; no scientific tuning or natural sequence training",
+  "outer_seconds": 90,
+  "cpu_threads": 1,
+  "interop_threads": 1,
+  "parallel_model_execution": false,
+  "candidate_code_sha_required_before_execution": true,
+  "data": {
+    "synthetic_train_rows": 279,
+    "synthetic_train_labels": [126, 153],
+    "synthetic_dev_rows": 41,
+    "synthetic_dev_labels": [18, 23],
+    "sequence_rule": "Deterministic rotation of the canonical20 AA alphabet; lengths cycle1,5,47,48; no real sequence content",
+    "posterior_rule": "Synthetic mu fingerprint varying row,channel,position; synthetic logsigma fixed -1; float32[279,16,48]",
+    "rng": "Private CPU generators for fixtures; no global natural-run RNG consumption. Where testing frozen initial_models/uniform_bank, fork RNG and discard every synthetic weight/output."
+  },
+  "model_forward_upper_bounds": {
+    "edge_case_actual_AR_forward": 20,
+    "synthetic_training_arms": 3,
+    "synthetic_training_updates_each": 100,
+    "synthetic_training_forward": 300,
+    "dev_teacher_forced_forward": 28,
+    "dev_one_token_forward": 1372,
+    "generation_one_token_forward": 147,
+    "total_actual_AR_forward_max": 1867,
+    "optimizer_updates_max": 300,
+    "q_DDPM_old_convolution_forward": 0,
+    "natural_forward": 0
+  },
+  "benchmark_contract": [
+    "A/B training includes complete279x16x48 epsilon draw and sampled-z digest at every update, same-terminal whole-row derangement for B, shared batch indices, backward/Adam/clip and flushed trace write; C runs same batches without z.",
+    "All100 training steps per arm, not best subset; interrupted or failed benchmark blocks admission until cause is reported. No natural retry authorization follows from a benchmark repair.",
+    "Dev shapes are one entire batch41 and generation one entire batch32. Execute the upper-bound49 one-token steps per condition by a synthetic driver so earlyEOS cannot understate runtime; this driver does not alter candidate natural decoding.",
+    "Capture representative final checkpoint/raw-array serialization and full fixed-size scoring on deterministic synthetic sequences, including normalized Levenshtein against279 synthetic references.",
+    "Functional decode edge cases use scripted fake logits, separate from actual-AR forward count; verify EOS/absorbing/uniform/failure behavior deterministically without optimizer work."
+  ],
+  "prospective_admission_formula": {
+    "training_each_seconds": "2 * (10 * measured100_update_seconds_including_trace) + measured_setup_and_final_checkpoint_seconds + 5",
+    "training_each_must_be_at_most": 120,
+    "evaluation_and_scoring_seconds": "2 * (measured_full28_dev_conditions_plus3_generation_batches_plus_scoring_and_raw_export_seconds) + 10",
+    "evaluation_and_scoring_must_be_at_most": 120,
+    "natural_outer_budget_seconds": 660,
+    "interpretation": "Conservative projection under observed load, not a runtime guarantee. Exact660 watchdog still governs once-only natural execution."
+  },
+  "on_failure": "Keep evidence, report BLOCKED and cause; do not expand scientific scope, natural budget, seeds or attempts.",
+  "execution_authorization": "Root must explicitly open serial synthetic model window after candidate ready; no model import/forward is performed by this plan."
+}

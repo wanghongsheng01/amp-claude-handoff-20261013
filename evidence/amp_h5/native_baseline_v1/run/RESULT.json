@@ -1,0 +1,880 @@
+{
+  "status": "COMPLETE_DEVELOPMENT_ONLY",
+  "units": {
+    "ug_ml_native": {
+      "training_weighted_mean": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 0.9999999999999998,
+        "group_peptide_macro_MAE": 0.8110355942603993,
+        "group_peptide_macro_RMSE": 1.0085876245136844,
+        "peptide_macro_MAE": 0.6052026530736768,
+        "peptide_macro_RMSE": 0.762861705660805,
+        "row_MAE": 0.5743158937893202,
+        "row_RMSE": 0.7155505579916573
+      },
+      "composition_ridge": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 0.9999999999999998,
+        "group_peptide_macro_MAE": 0.7753732981840886,
+        "group_peptide_macro_RMSE": 0.947523339900512,
+        "peptide_macro_MAE": 0.6300308213327745,
+        "peptide_macro_RMSE": 0.7848611063123938,
+        "row_MAE": 0.6024726459169949,
+        "row_RMSE": 0.7597834322932459
+      },
+      "witten_CNN": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 0.9999999999999998,
+        "group_peptide_macro_MAE": 0.8197583713174594,
+        "group_peptide_macro_RMSE": 1.0109207477984545,
+        "peptide_macro_MAE": 0.627156654593535,
+        "peptide_macro_RMSE": 0.7822611083530658,
+        "row_MAE": 0.5730275472649641,
+        "row_RMSE": 0.7203676908146062
+      }
+    },
+    "uM_native": {
+      "training_weighted_mean": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5169933521404465,
+        "group_peptide_macro_RMSE": 0.6127581968389358,
+        "peptide_macro_MAE": 0.41272739648446227,
+        "peptide_macro_RMSE": 0.5202752601297629,
+        "row_MAE": 0.44092157044860103,
+        "row_RMSE": 0.5124748813593717
+      },
+      "composition_ridge": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5822474808622815,
+        "group_peptide_macro_RMSE": 0.6923631539267225,
+        "peptide_macro_MAE": 0.44357559791994494,
+        "peptide_macro_RMSE": 0.5729913030009435,
+        "row_MAE": 0.4528673039354625,
+        "row_RMSE": 0.5845730278523328
+      },
+      "witten_CNN": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5762617169562861,
+        "group_peptide_macro_RMSE": 0.7114546107579819,
+        "peptide_macro_MAE": 0.4636150505471094,
+        "peptide_macro_RMSE": 0.6118679229041465,
+        "row_MAE": 0.5071623866585437,
+        "row_RMSE": 0.5920234029065735
+      }
+    }
+  },
+  "fold_metrics": [
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G102",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 2.0716460050323438,
+          "group_peptide_macro_RMSE": 2.0716460050323438,
+          "peptide_macro_MAE": 2.0716460050323438,
+          "peptide_macro_RMSE": 2.0716460050323438,
+          "row_MAE": 2.0716460050323438,
+          "row_RMSE": 2.0716460050323438
+        },
+        "composition_ridge": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.7802923162955473,
+          "group_peptide_macro_RMSE": 1.7802923162955473,
+          "peptide_macro_MAE": 1.7802923162955473,
+          "peptide_macro_RMSE": 1.7802923162955473,
+          "row_MAE": 1.7802923162955473,
+          "row_RMSE": 1.7802923162955473
+        },
+        "witten_CNN": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 2.0795600657591056,
+          "group_peptide_macro_RMSE": 2.0795600657591056,
+          "peptide_macro_MAE": 2.0795600657591056,
+          "peptide_macro_RMSE": 2.0795600657591056,
+          "row_MAE": 2.0795600657591056,
+          "row_RMSE": 2.0795600657591056
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G1737",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 13,
+          "peptide_IDs": 5,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 0.9999999999999999,
+          "group_peptide_macro_MAE": 0.5000129650128255,
+          "group_peptide_macro_RMSE": 0.5779864873502887,
+          "peptide_macro_MAE": 0.5000129650128255,
+          "peptide_macro_RMSE": 0.5779864873502887,
+          "row_MAE": 0.5488992772756555,
+          "row_RMSE": 0.6272475682050265
+        },
+        "composition_ridge": {
+          "rows": 13,
+          "peptide_IDs": 5,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 0.9999999999999999,
+          "group_peptide_macro_MAE": 0.39075353786435696,
+          "group_peptide_macro_RMSE": 0.5335242343970986,
+          "peptide_macro_MAE": 0.39075353786435696,
+          "peptide_macro_RMSE": 0.5335242343970986,
+          "row_MAE": 0.5717080617478145,
+          "row_RMSE": 0.7388442715916259
+        },
+        "witten_CNN": {
+          "rows": 13,
+          "peptide_IDs": 5,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 0.9999999999999999,
+          "group_peptide_macro_MAE": 0.3330239898970797,
+          "group_peptide_macro_RMSE": 0.42162051939902817,
+          "peptide_macro_MAE": 0.3330239898970797,
+          "peptide_macro_RMSE": 0.42162051939902817,
+          "row_MAE": 0.38788714228497495,
+          "row_RMSE": 0.4693112874644151
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G2425",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.359989906599112,
+          "group_peptide_macro_RMSE": 0.46757534870339196,
+          "peptide_macro_MAE": 0.359989906599112,
+          "peptide_macro_RMSE": 0.46757534870339196,
+          "row_MAE": 0.359989906599112,
+          "row_RMSE": 0.46757534870339196
+        },
+        "composition_ridge": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.9982709411465022,
+          "group_peptide_macro_RMSE": 1.0963278525745843,
+          "peptide_macro_MAE": 0.9982709411465022,
+          "peptide_macro_RMSE": 1.0963278525745843,
+          "row_MAE": 0.9982709411465022,
+          "row_RMSE": 1.0963278525745843
+        },
+        "witten_CNN": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.37884143332927744,
+          "group_peptide_macro_RMSE": 0.45885631217533757,
+          "peptide_macro_MAE": 0.37884143332927744,
+          "peptide_macro_RMSE": 0.45885631217533757,
+          "row_MAE": 0.37884143332927744,
+          "row_RMSE": 0.45885631217533757
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G3086",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.5059907410734296,
+          "group_peptide_macro_RMSE": 0.5255132715363205,
+          "peptide_macro_MAE": 0.5059907410734296,
+          "peptide_macro_RMSE": 0.5255132715363205,
+          "row_MAE": 0.5059907410734296,
+          "row_RMSE": 0.5255132715363205
+        },
+        "composition_ridge": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.6567648928360919,
+          "group_peptide_macro_RMSE": 0.6650629257476368,
+          "peptide_macro_MAE": 0.6567648928360919,
+          "peptide_macro_RMSE": 0.6650629257476368,
+          "row_MAE": 0.656764892836092,
+          "row_RMSE": 0.6650629257476369
+        },
+        "witten_CNN": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.7660204146497845,
+          "group_peptide_macro_RMSE": 0.7688673709356859,
+          "peptide_macro_MAE": 0.7660204146497845,
+          "peptide_macro_RMSE": 0.7688673709356859,
+          "row_MAE": 0.7660204146497845,
+          "row_RMSE": 0.7688673709356858
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G3198",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.2702611172021538,
+          "group_peptide_macro_RMSE": 1.2702611172021538,
+          "peptide_macro_MAE": 1.2702611172021538,
+          "peptide_macro_RMSE": 1.2702611172021538,
+          "row_MAE": 1.2702611172021538,
+          "row_RMSE": 1.2702611172021538
+        },
+        "composition_ridge": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.330335059160286,
+          "group_peptide_macro_RMSE": 1.330335059160286,
+          "peptide_macro_MAE": 1.330335059160286,
+          "peptide_macro_RMSE": 1.330335059160286,
+          "row_MAE": 1.330335059160286,
+          "row_RMSE": 1.330335059160286
+        },
+        "witten_CNN": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.30590285448443,
+          "group_peptide_macro_RMSE": 1.30590285448443,
+          "peptide_macro_MAE": 1.30590285448443,
+          "peptide_macro_RMSE": 1.30590285448443,
+          "row_MAE": 1.30590285448443,
+          "row_RMSE": 1.30590285448443
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G3224",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 3,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.1831721112123432,
+          "group_peptide_macro_RMSE": 1.2056431106177643,
+          "peptide_macro_MAE": 1.1831721112123432,
+          "peptide_macro_RMSE": 1.2056431106177643,
+          "row_MAE": 1.1831721112123432,
+          "row_RMSE": 1.2056431106177643
+        },
+        "composition_ridge": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 3,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.4711963744591745,
+          "group_peptide_macro_RMSE": 0.5455467349854998,
+          "peptide_macro_MAE": 0.4711963744591745,
+          "peptide_macro_RMSE": 0.5455467349854998,
+          "row_MAE": 0.47119637445917456,
+          "row_RMSE": 0.5455467349854998
+        },
+        "witten_CNN": {
+          "rows": 3,
+          "peptide_IDs": 3,
+          "families": 3,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.9401747032991351,
+          "group_peptide_macro_RMSE": 0.9654161003910271,
+          "peptide_macro_MAE": 0.9401747032991351,
+          "peptide_macro_RMSE": 0.9654161003910271,
+          "row_MAE": 0.9401747032991352,
+          "row_RMSE": 0.9654161003910271
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G37",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 5,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.29151373401194847,
+          "group_peptide_macro_RMSE": 0.33457821399172943,
+          "peptide_macro_MAE": 0.29151373401194847,
+          "peptide_macro_RMSE": 0.33457821399172943,
+          "row_MAE": 0.29151373401194847,
+          "row_RMSE": 0.33457821399172943
+        },
+        "composition_ridge": {
+          "rows": 5,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.28686532106699714,
+          "group_peptide_macro_RMSE": 0.32603478368286004,
+          "peptide_macro_MAE": 0.28686532106699714,
+          "peptide_macro_RMSE": 0.32603478368286004,
+          "row_MAE": 0.28686532106699714,
+          "row_RMSE": 0.32603478368286004
+        },
+        "witten_CNN": {
+          "rows": 5,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.3033461498014727,
+          "group_peptide_macro_RMSE": 0.3581564559357729,
+          "peptide_macro_MAE": 0.3033461498014727,
+          "peptide_macro_RMSE": 0.3581564559357729,
+          "row_MAE": 0.3033461498014727,
+          "row_RMSE": 0.3581564559357729
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G4013",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.2383221799976896,
+          "group_peptide_macro_RMSE": 1.2474360047900632,
+          "peptide_macro_MAE": 1.2383221799976896,
+          "peptide_macro_RMSE": 1.2474360047900632,
+          "row_MAE": 1.2383221799976896,
+          "row_RMSE": 1.2474360047900632
+        },
+        "composition_ridge": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.0496417262669748,
+          "group_peptide_macro_RMSE": 1.0799001713404575,
+          "peptide_macro_MAE": 1.0496417262669748,
+          "peptide_macro_RMSE": 1.0799001713404575,
+          "row_MAE": 1.0496417262669748,
+          "row_RMSE": 1.0799001713404575
+        },
+        "witten_CNN": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.2183416301853727,
+          "group_peptide_macro_RMSE": 1.2520487942603453,
+          "peptide_macro_MAE": 1.2183416301853727,
+          "peptide_macro_RMSE": 1.2520487942603453,
+          "row_MAE": 1.2183416301853727,
+          "row_RMSE": 1.2520487942603453
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G5545",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 4,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.27018306305754075,
+          "group_peptide_macro_RMSE": 0.319215162248383,
+          "peptide_macro_MAE": 0.27018306305754075,
+          "peptide_macro_RMSE": 0.319215162248383,
+          "row_MAE": 0.27018306305754075,
+          "row_RMSE": 0.31921516224838303
+        },
+        "composition_ridge": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 4,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.22860192311468125,
+          "group_peptide_macro_RMSE": 0.2677427332010377,
+          "peptide_macro_MAE": 0.22860192311468125,
+          "peptide_macro_RMSE": 0.2677427332010377,
+          "row_MAE": 0.22860192311468125,
+          "row_RMSE": 0.2677427332010377
+        },
+        "witten_CNN": {
+          "rows": 4,
+          "peptide_IDs": 4,
+          "families": 4,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.31594920227975726,
+          "group_peptide_macro_RMSE": 0.3579314589249766,
+          "peptide_macro_MAE": 0.31594920227975726,
+          "peptide_macro_RMSE": 0.3579314589249766,
+          "row_MAE": 0.31594920227975726,
+          "row_RMSE": 0.3579314589249765
+        }
+      }
+    },
+    {
+      "unit": "ug_ml_native",
+      "fold_id": "G873",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 10,
+          "peptide_IDs": 9,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.4192641194046056,
+          "group_peptide_macro_RMSE": 0.4635055609484913,
+          "peptide_macro_MAE": 0.4192641194046056,
+          "peptide_macro_RMSE": 0.4635055609484913,
+          "row_MAE": 0.4418539921951661,
+          "row_RMSE": 0.48881088443757814
+        },
+        "composition_ridge": {
+          "rows": 10,
+          "peptide_IDs": 9,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.5610108896302733,
+          "group_peptide_macro_RMSE": 0.6841715134225123,
+          "peptide_macro_MAE": 0.5610108896302733,
+          "peptide_macro_RMSE": 0.6841715134225123,
+          "row_MAE": 0.5345924217204869,
+          "row_RMSE": 0.658825530766239
+        },
+        "witten_CNN": {
+          "rows": 10,
+          "peptide_IDs": 9,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.5564232694891784,
+          "group_peptide_macro_RMSE": 0.6738989782101021,
+          "peptide_macro_MAE": 0.5564232694891784,
+          "peptide_macro_RMSE": 0.6738989782101021,
+          "row_MAE": 0.6080109498579134,
+          "row_RMSE": 0.7264072552675559
+        }
+      }
+    },
+    {
+      "unit": "uM_native",
+      "fold_id": "G102",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.4515449934959718,
+          "group_peptide_macro_RMSE": 0.4517487512563854,
+          "peptide_macro_MAE": 0.4515449934959718,
+          "peptide_macro_RMSE": 0.4517487512563854,
+          "row_MAE": 0.4515449934959718,
+          "row_RMSE": 0.4517487512563854
+        },
+        "composition_ridge": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.5208070675913543,
+          "group_peptide_macro_RMSE": 0.5208636140519277,
+          "peptide_macro_MAE": 0.5208070675913543,
+          "peptide_macro_RMSE": 0.5208636140519277,
+          "row_MAE": 0.5208070675913543,
+          "row_RMSE": 0.5208636140519277
+        },
+        "witten_CNN": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.5596887207910726,
+          "group_peptide_macro_RMSE": 0.567602676334026,
+          "peptide_macro_MAE": 0.5596887207910726,
+          "peptide_macro_RMSE": 0.567602676334026,
+          "row_MAE": 0.5596887207910726,
+          "row_RMSE": 0.567602676334026
+        }
+      }
+    },
+    {
+      "unit": "uM_native",
+      "fold_id": "G103",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.6054266826574466,
+          "group_peptide_macro_RMSE": 0.6926301489035768,
+          "peptide_macro_MAE": 0.6054266826574466,
+          "peptide_macro_RMSE": 0.6926301489035768,
+          "row_MAE": 0.6054266826574466,
+          "row_RMSE": 0.6926301489035768
+        },
+        "composition_ridge": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.6725999555851767,
+          "group_peptide_macro_RMSE": 0.7028773217790246,
+          "peptide_macro_MAE": 0.6725999555851767,
+          "peptide_macro_RMSE": 0.7028773217790246,
+          "row_MAE": 0.6725999555851767,
+          "row_RMSE": 0.7028773217790246
+        },
+        "witten_CNN": {
+          "rows": 2,
+          "peptide_IDs": 2,
+          "families": 2,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.6444579796259067,
+          "group_peptide_macro_RMSE": 0.8568934024268285,
+          "peptide_macro_MAE": 0.6444579796259067,
+          "peptide_macro_RMSE": 0.8568934024268285,
+          "row_MAE": 0.6444579796259067,
+          "row_RMSE": 0.8568934024268285
+        }
+      }
+    },
+    {
+      "unit": "uM_native",
+      "fold_id": "G2396",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 25,
+          "peptide_IDs": 5,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.17238275329036643,
+          "group_peptide_macro_RMSE": 0.2273767742949897,
+          "peptide_macro_MAE": 0.17238275329036643,
+          "peptide_macro_RMSE": 0.2273767742949897,
+          "row_MAE": 0.35988529970046057,
+          "row_RMSE": 0.403433986286496
+        },
+        "composition_ridge": {
+          "rows": 25,
+          "peptide_IDs": 5,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.12433584593669479,
+          "group_peptide_macro_RMSE": 0.1918624772912537,
+          "peptide_macro_MAE": 0.12433584593669479,
+          "peptide_macro_RMSE": 0.1918624772912537,
+          "row_MAE": 0.2884707723539387,
+          "row_RMSE": 0.3380118358829346
+        },
+        "witten_CNN": {
+          "rows": 25,
+          "peptide_IDs": 5,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.19725423450035978,
+          "group_peptide_macro_RMSE": 0.2585333017919224,
+          "peptide_macro_MAE": 0.19725423450035978,
+          "peptide_macro_RMSE": 0.2585333017919224,
+          "row_MAE": 0.43059833352561966,
+          "row_RMSE": 0.4739923135933007
+        }
+      }
+    },
+    {
+      "unit": "uM_native",
+      "fold_id": "G3232",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 5,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.7728750601602011,
+          "group_peptide_macro_RMSE": 0.818118487566561,
+          "peptide_macro_MAE": 0.7728750601602011,
+          "peptide_macro_RMSE": 0.818118487566561,
+          "row_MAE": 0.7728750601602011,
+          "row_RMSE": 0.818118487566561
+        },
+        "composition_ridge": {
+          "rows": 5,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.2242678306066765,
+          "group_peptide_macro_RMSE": 1.2533210770345087,
+          "peptide_macro_MAE": 1.2242678306066765,
+          "peptide_macro_RMSE": 1.2533210770345087,
+          "row_MAE": 1.2242678306066765,
+          "row_RMSE": 1.2533210770345087
+        },
+        "witten_CNN": {
+          "rows": 5,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.8756707564187461,
+          "group_peptide_macro_RMSE": 0.9158500279652332,
+          "peptide_macro_MAE": 0.8756707564187461,
+          "peptide_macro_RMSE": 0.9158500279652332,
+          "row_MAE": 0.8756707564187461,
+          "row_RMSE": 0.9158500279652331
+        }
+      }
+    },
+    {
+      "unit": "uM_native",
+      "fold_id": "G3301",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.0046324533639686,
+          "group_peptide_macro_RMSE": 1.0046324533639686,
+          "peptide_macro_MAE": 1.0046324533639686,
+          "peptide_macro_RMSE": 1.0046324533639686,
+          "row_MAE": 1.0046324533639686,
+          "row_RMSE": 1.0046324533639686
+        },
+        "composition_ridge": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.8178197881948945,
+          "group_peptide_macro_RMSE": 0.8178197881948945,
+          "peptide_macro_MAE": 0.8178197881948945,
+          "peptide_macro_RMSE": 0.8178197881948945,
+          "row_MAE": 0.8178197881948945,
+          "row_RMSE": 0.8178197881948945
+        },
+        "witten_CNN": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 1.1739736599145667,
+          "group_peptide_macro_RMSE": 1.1739736599145667,
+          "peptide_macro_MAE": 1.1739736599145667,
+          "peptide_macro_RMSE": 1.1739736599145667,
+          "row_MAE": 1.1739736599145667,
+          "row_RMSE": 1.1739736599145667
+        }
+      }
+    },
+    {
+      "unit": "uM_native",
+      "fold_id": "G37",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.30188306324846875,
+          "group_peptide_macro_RMSE": 0.343454634110129,
+          "peptide_macro_MAE": 0.30188306324846875,
+          "peptide_macro_RMSE": 0.343454634110129,
+          "row_MAE": 0.3018830632484688,
+          "row_RMSE": 0.343454634110129
+        },
+        "composition_ridge": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.20409033946602825,
+          "group_peptide_macro_RMSE": 0.2276544203349702,
+          "peptide_macro_MAE": 0.20409033946602825,
+          "peptide_macro_RMSE": 0.2276544203349702,
+          "row_MAE": 0.20409033946602828,
+          "row_RMSE": 0.2276544203349702
+        },
+        "witten_CNN": {
+          "rows": 3,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.2354836156285538,
+          "group_peptide_macro_RMSE": 0.2868453155359872,
+          "peptide_macro_MAE": 0.2354836156285538,
+          "peptide_macro_RMSE": 0.2868453155359872,
+          "row_MAE": 0.2354836156285538,
+          "row_RMSE": 0.2868453155359872
+        }
+      }
+    },
+    {
+      "unit": "uM_native",
+      "fold_id": "G873",
+      "metrics": {
+        "training_weighted_mean": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.310208458766702,
+          "group_peptide_macro_RMSE": 0.310208458766702,
+          "peptide_macro_MAE": 0.310208458766702,
+          "peptide_macro_RMSE": 0.310208458766702,
+          "row_MAE": 0.310208458766702,
+          "row_RMSE": 0.310208458766702
+        },
+        "composition_ridge": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.5118115386551461,
+          "group_peptide_macro_RMSE": 0.5118115386551461,
+          "peptide_macro_MAE": 0.5118115386551461,
+          "peptide_macro_RMSE": 0.5118115386551461,
+          "row_MAE": 0.5118115386551461,
+          "row_RMSE": 0.5118115386551461
+        },
+        "witten_CNN": {
+          "rows": 1,
+          "peptide_IDs": 1,
+          "families": 1,
+          "groups": 1,
+          "weight_sum": 1.0,
+          "group_peptide_macro_MAE": 0.3473030518147977,
+          "group_peptide_macro_RMSE": 0.3473030518147977,
+          "peptide_macro_MAE": 0.3473030518147977,
+          "peptide_macro_RMSE": 0.3473030518147977,
+          "row_MAE": 0.3473030518147977,
+          "row_RMSE": 0.3473030518147977
+        }
+      }
+    }
+  ],
+  "total_CNN_updates": 1700,
+  "completed_folds": [
+    "ug_ml_native__G102",
+    "ug_ml_native__G1737",
+    "ug_ml_native__G2425",
+    "ug_ml_native__G3086",
+    "ug_ml_native__G3198",
+    "ug_ml_native__G3224",
+    "ug_ml_native__G37",
+    "ug_ml_native__G4013",
+    "ug_ml_native__G5545",
+    "ug_ml_native__G873",
+    "uM_native__G102",
+    "uM_native__G103",
+    "uM_native__G2396",
+    "uM_native__G3232",
+    "uM_native__G3301",
+    "uM_native__G37",
+    "uM_native__G873"
+  ],
+  "elapsed_seconds": 43.882442666683346,
+  "peak_rss_bytes": 310018048,
+  "seed": 1729,
+  "test37_access": false,
+  "no_tuning": true,
+  "claim": "Finite native-unit pipeline and baseline diagnostic; no novelty/biological efficacy/independent confirmation claim"
+}

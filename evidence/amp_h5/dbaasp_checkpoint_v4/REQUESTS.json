@@ -1,0 +1,31 @@
+[
+  {
+    "peptide_id": "5549",
+    "url": "https://dbaasp.org/peptides/5549",
+    "method": "GET",
+    "within_batch_attempt": 1,
+    "explicit_prior_timeout_revisit": true,
+    "started_utc": "2026-10-12T09:27:05.847921+00:00",
+    "monotonic_start": 2333997.089751833,
+    "status": 200,
+    "safe_headers": {
+      "date": "Mon, 12 Oct 2026 09:27:19 GMT",
+      "content-type": "application/json"
+    },
+    "raw_file": "raw/detail_5549.json",
+    "bytes": 9768,
+    "sha256": "9c81290da43c9d760ddff762fe6e228067aad6f6a768f96a7cbddcf6a99303fc",
+    "ended_utc": "2026-10-12T09:27:19.758898+00:00"
+  },
+  {
+    "peptide_id": "5556",
+    "url": "https://dbaasp.org/peptides/5556",
+    "method": "GET",
+    "within_batch_attempt": 1,
+    "explicit_prior_timeout_revisit": false,
+    "started_utc": "2026-10-12T09:27:19.762645+00:00",
+    "monotonic_start": 2334011.004382458,
+    "ended_utc": "2026-10-12T09:27:50.297252+00:00",
+    "error": "TimeoutError: The read operation timed out"
+  }
+]

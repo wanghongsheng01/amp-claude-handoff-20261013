@@ -1,0 +1,433 @@
+{
+  "status": "STOPPED",
+  "stop_reason": "THREE_CONSECUTIVE_TRANSFER_FAILURES",
+  "previous_IDs": 136,
+  "requested_batch_IDs": 64,
+  "attempted": 17,
+  "new_successes": 10,
+  "failed": [
+    {
+      "id": "17375",
+      "outcome": "failure",
+      "reason": "HTTP_502"
+    },
+    {
+      "id": "17389",
+      "outcome": "failure",
+      "reason": "TimeoutError: TOTAL_REQUEST_DEADLINE_30_SECONDS"
+    },
+    {
+      "id": "18513",
+      "outcome": "failure",
+      "reason": "TimeoutError: TOTAL_REQUEST_DEADLINE_30_SECONDS"
+    },
+    {
+      "id": "18530",
+      "outcome": "failure",
+      "reason": "TimeoutError: TOTAL_REQUEST_DEADLINE_30_SECONDS"
+    },
+    {
+      "id": "19481",
+      "outcome": "failure",
+      "reason": "TimeoutError: TOTAL_REQUEST_DEADLINE_30_SECONDS"
+    },
+    {
+      "id": "19485",
+      "outcome": "failure",
+      "reason": "TimeoutError: TOTAL_REQUEST_DEADLINE_30_SECONDS"
+    },
+    {
+      "id": "19486",
+      "outcome": "failure",
+      "reason": "TimeoutError: TOTAL_REQUEST_DEADLINE_30_SECONDS"
+    }
+  ],
+  "unattempted": [
+    "19487",
+    "19488",
+    "19489",
+    "19490",
+    "19491",
+    "19492",
+    "19493",
+    "21182",
+    "21185",
+    "21214",
+    "21215",
+    "21216",
+    "21217",
+    "21260",
+    "21261",
+    "21324",
+    "21325",
+    "23227",
+    "23228",
+    "23310",
+    "23311",
+    "23312",
+    "23313",
+    "23314",
+    "23319",
+    "23321",
+    "23322",
+    "24624",
+    "24625",
+    "24626",
+    "24627",
+    "24628",
+    "24629",
+    "24803",
+    "24875",
+    "24876",
+    "24877",
+    "25750",
+    "25751",
+    "25752",
+    "25753",
+    "25754",
+    "25755",
+    "25756",
+    "25757",
+    "25758",
+    "25759"
+  ],
+  "total_successful_IDs": 146,
+  "remaining_IDs": [
+    "17375",
+    "17389",
+    "18513",
+    "18530",
+    "19481",
+    "19485",
+    "19486",
+    "19487",
+    "19488",
+    "19489",
+    "19490",
+    "19491",
+    "19492",
+    "19493",
+    "21182",
+    "21185",
+    "21214",
+    "21215",
+    "21216",
+    "21217",
+    "21260",
+    "21261",
+    "21324",
+    "21325",
+    "23227",
+    "23228",
+    "23310",
+    "23311",
+    "23312",
+    "23313",
+    "23314",
+    "23319",
+    "23321",
+    "23322",
+    "24624",
+    "24625",
+    "24626",
+    "24627",
+    "24628",
+    "24629",
+    "24803",
+    "24875",
+    "24876",
+    "24877",
+    "25750",
+    "25751",
+    "25752",
+    "25753",
+    "25754",
+    "25755",
+    "25756",
+    "25757",
+    "25758",
+    "25759"
+  ],
+  "minimum_request_gap_seconds": 5.1047919588163495,
+  "maximum_request_elapsed_seconds": 30.012106416281313,
+  "old_files_unchanged": 153,
+  "group_bridges": {
+    "family_components": 0,
+    "source_family_components": 0
+  },
+  "before_and_after_data": [
+    {
+      "metric": "all_peptides.rows",
+      "before136": 136,
+      "after_checkpoint": 146,
+      "increment": 10
+    },
+    {
+      "metric": "all_peptides.peptide_IDs",
+      "before136": 136,
+      "after_checkpoint": 146,
+      "increment": 10
+    },
+    {
+      "metric": "all_peptides.exact_sequences",
+      "before136": 131,
+      "after_checkpoint": 140,
+      "increment": 9
+    },
+    {
+      "metric": "all_peptides.families",
+      "before136": 93,
+      "after_checkpoint": 102,
+      "increment": 9
+    },
+    {
+      "metric": "all_peptides.source_family_components",
+      "before136": 46,
+      "after_checkpoint": 52,
+      "increment": 6
+    },
+    {
+      "metric": "all_MIC.rows",
+      "before136": 1242,
+      "after_checkpoint": 1278,
+      "increment": 36
+    },
+    {
+      "metric": "all_MIC.peptide_IDs",
+      "before136": 111,
+      "after_checkpoint": 118,
+      "increment": 7
+    },
+    {
+      "metric": "all_MIC.exact_sequences",
+      "before136": 106,
+      "after_checkpoint": 113,
+      "increment": 7
+    },
+    {
+      "metric": "all_MIC.families",
+      "before136": 77,
+      "after_checkpoint": 84,
+      "increment": 7
+    },
+    {
+      "metric": "all_MIC.source_family_components",
+      "before136": 35,
+      "after_checkpoint": 39,
+      "increment": 4
+    },
+    {
+      "metric": "Ecoli_MIC.rows",
+      "before136": 232,
+      "after_checkpoint": 240,
+      "increment": 8
+    },
+    {
+      "metric": "Ecoli_MIC.peptide_IDs",
+      "before136": 110,
+      "after_checkpoint": 115,
+      "increment": 5
+    },
+    {
+      "metric": "Ecoli_MIC.exact_sequences",
+      "before136": 105,
+      "after_checkpoint": 110,
+      "increment": 5
+    },
+    {
+      "metric": "Ecoli_MIC.families",
+      "before136": 76,
+      "after_checkpoint": 81,
+      "increment": 5
+    },
+    {
+      "metric": "Ecoli_MIC.source_family_components",
+      "before136": 34,
+      "after_checkpoint": 37,
+      "increment": 3
+    },
+    {
+      "metric": "ug_ml_native.point.rows",
+      "before136": 79,
+      "after_checkpoint": 79,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point.peptide_IDs",
+      "before136": 54,
+      "after_checkpoint": 54,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point.exact_sequences",
+      "before136": 49,
+      "after_checkpoint": 49,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point.families",
+      "before136": 32,
+      "after_checkpoint": 32,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point.source_family_components",
+      "before136": 21,
+      "after_checkpoint": 21,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.bounds.rows",
+      "before136": 15,
+      "after_checkpoint": 15,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.bounds.peptide_IDs",
+      "before136": 15,
+      "after_checkpoint": 15,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.bounds.exact_sequences",
+      "before136": 15,
+      "after_checkpoint": 15,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.bounds.families",
+      "before136": 14,
+      "after_checkpoint": 14,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.bounds.source_family_components",
+      "before136": 6,
+      "after_checkpoint": 6,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point_plus_bound.rows",
+      "before136": 94,
+      "after_checkpoint": 94,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point_plus_bound.peptide_IDs",
+      "before136": 64,
+      "after_checkpoint": 64,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point_plus_bound.exact_sequences",
+      "before136": 59,
+      "after_checkpoint": 59,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point_plus_bound.families",
+      "before136": 41,
+      "after_checkpoint": 41,
+      "increment": 0
+    },
+    {
+      "metric": "ug_ml_native.point_plus_bound.source_family_components",
+      "before136": 21,
+      "after_checkpoint": 21,
+      "increment": 0
+    },
+    {
+      "metric": "uM_native.point.rows",
+      "before136": 68,
+      "after_checkpoint": 70,
+      "increment": 2
+    },
+    {
+      "metric": "uM_native.point.peptide_IDs",
+      "before136": 27,
+      "after_checkpoint": 29,
+      "increment": 2
+    },
+    {
+      "metric": "uM_native.point.exact_sequences",
+      "before136": 27,
+      "after_checkpoint": 29,
+      "increment": 2
+    },
+    {
+      "metric": "uM_native.point.families",
+      "before136": 18,
+      "after_checkpoint": 20,
+      "increment": 2
+    },
+    {
+      "metric": "uM_native.point.source_family_components",
+      "before136": 13,
+      "after_checkpoint": 14,
+      "increment": 1
+    },
+    {
+      "metric": "uM_native.bounds.rows",
+      "before136": 12,
+      "after_checkpoint": 13,
+      "increment": 1
+    },
+    {
+      "metric": "uM_native.bounds.peptide_IDs",
+      "before136": 8,
+      "after_checkpoint": 9,
+      "increment": 1
+    },
+    {
+      "metric": "uM_native.bounds.exact_sequences",
+      "before136": 8,
+      "after_checkpoint": 9,
+      "increment": 1
+    },
+    {
+      "metric": "uM_native.bounds.families",
+      "before136": 8,
+      "after_checkpoint": 9,
+      "increment": 1
+    },
+    {
+      "metric": "uM_native.bounds.source_family_components",
+      "before136": 5,
+      "after_checkpoint": 6,
+      "increment": 1
+    },
+    {
+      "metric": "uM_native.point_plus_bound.rows",
+      "before136": 80,
+      "after_checkpoint": 83,
+      "increment": 3
+    },
+    {
+      "metric": "uM_native.point_plus_bound.peptide_IDs",
+      "before136": 34,
+      "after_checkpoint": 37,
+      "increment": 3
+    },
+    {
+      "metric": "uM_native.point_plus_bound.exact_sequences",
+      "before136": 34,
+      "after_checkpoint": 37,
+      "increment": 3
+    },
+    {
+      "metric": "uM_native.point_plus_bound.families",
+      "before136": 25,
+      "after_checkpoint": 28,
+      "increment": 3
+    },
+    {
+      "metric": "uM_native.point_plus_bound.source_family_components",
+      "before136": 16,
+      "after_checkpoint": 17,
+      "increment": 1
+    }
+  ],
+  "training": 0,
+  "scope": "Incomplete exposed development sample if remaining_IDs nonempty. Group counts are operational, not biological independence. Prior136 data and delivered archives unchanged.",
+  "remaining_blocker": "Fixed200 coverage incomplete: 54 IDs lack successful details; batch stopped under THREE_CONSECUTIVE_TRANSFER_FAILURES"
+}

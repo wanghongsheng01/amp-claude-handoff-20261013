@@ -1,0 +1,199 @@
+{
+  "scope_id": "AMP_H5_NIGHT_DISTRIBUTION_V2",
+  "state": "FROZEN_BEFORE_NATURAL_STATISTICS_PENDING_INDEPENDENT_PREAUDIT",
+  "implementation_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/distribution_diagnostic_v2.py",
+  "implementation_sha256": "7df021783b1f06a54b207ffb6b6117262badcb77e80ec43bac182084c984e7a5",
+  "output_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2",
+  "numpy_version": "1.26.4",
+  "train_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+  "development_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+  "row_binding_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+  "frozen_metrics_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+  "DP_source_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/latent_same_n_reference_v1.py",
+  "generated_inputs": [
+    {
+      "method": "CE21_DDPM",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv"
+    },
+    {
+      "method": "MSE21_DDPM",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated.csv"
+    },
+    {
+      "method": "scalar_DDPM",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated.csv"
+    },
+    {
+      "method": "terminal_LSTM",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv"
+    }
+  ],
+  "input_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "bytes": 64083,
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "bytes": 9489,
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "bytes": 141151,
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "bytes": 25377,
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/latent_same_n_reference_v1.py",
+      "bytes": 13073,
+      "sha256": "4f8e18e287b1f81a9103db1140f3ffb2d30ae4f182173fa26b63b156abc1861a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "bytes": 2135,
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated.csv",
+      "bytes": 1970,
+      "sha256": "948653f3adac79b256a328f9cadb100aed1d835a7213cdb006f50a6ab81a264e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated.csv",
+      "bytes": 2580,
+      "sha256": "97ae42b13738644494ffd5954ad80142b13ab526bf99bfef09e99385592c2e7f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv",
+      "bytes": 2404,
+      "sha256": "d0d639a30472afd022c7b45b4dec89c093cfbc76c820b62093e709f9eaf61715"
+    }
+  ],
+  "point_estimate_methods": [
+    "CE21_DDPM",
+    "MSE21_DDPM",
+    "scalar_DDPM",
+    "terminal_LSTM"
+  ],
+  "generation_bootstrap_methods": [
+    "CE21_DDPM",
+    "terminal_LSTM"
+  ],
+  "sampling_n_per_terminal": 16,
+  "repetitions": 2048,
+  "root_seed": 20571,
+  "rng": "NumPy PCG64; SeedSequence(20571).spawn(4), stream order fixed in implementation",
+  "streams": [
+    "sequence_SRSWOR",
+    "train_exact_component_subset",
+    "generation_bootstrap_CE_AR",
+    "dev_component_bootstrap"
+  ],
+  "source_counts": {
+    "train": 279,
+    "development": 41,
+    "original_four_arm_requests": 128,
+    "requests_per_method_terminal": 16,
+    "train_FREE_AMD": [
+      126,
+      153
+    ],
+    "dev_FREE_AMD": [
+      18,
+      23
+    ],
+    "train_components": 224,
+    "dev_components": 33,
+    "train_cross_terminal_components": 7,
+    "dev_cross_terminal_components": 2
+  },
+  "metric": {
+    "definition": "mmd2_linear_biased_fixed_features = squared Euclidean difference of frozen 421 feature means",
+    "dimension": 421,
+    "AA_order": "ACDEFGHIKLMNPQRSTVWY",
+    "blocks": {
+      "length": [
+        0,
+        1
+      ],
+      "AA": [
+        1,
+        21
+      ],
+      "dipeptide": [
+        21,
+        421
+      ]
+    },
+    "feature_scaling": "length/48, per-sequence AA fractions, per-sequence dipeptide fractions; each block divided by sqrt(3)",
+    "fitting": "none; no new kernel/bandwidth/feature fit or selection",
+    "eligibility": "preserve all 16 requests and statuses; distribution features use canonical sequences length 1 through 48 as frozen evaluator; generation resampling unit remains all request slots, invalid draws counted then omitted from feature mean, empty feature set null",
+    "quantiles": {
+      "probabilities": [
+        0.025,
+        0.5,
+        0.975
+      ],
+      "numpy_method": "linear"
+    },
+    "train_dev_description": "within each terminal: fixed feature mean/std/min/max, signed mean difference; length counts/quantiles; cohort and component counts; MMD decomposed into exactly additive length/AA/dipeptide contributions"
+  },
+  "train_reference_design": {
+    "sequence_without_replacement": "each terminal uniform 16 sequence-row subset without replacement, compared with complete fixed same-terminal dev18/23",
+    "whole_component_exact_16_16": "uniform over all feasible subsets of complete frozen train NW70 components jointly totaling FREE16 and AMD16; DP integer suffix counts and exact integer branch sampling; unequal sequence inclusion is allowed; not independent per-terminal draws",
+    "reuse": "only reviewed DP helper code reused; newly locked 2048 indices; old latent cache is not read or relabeled",
+    "target": "complete fixed dev18/23 for both schemes; no overlapping full-train target or leftover-train panel",
+    "analytic_check": "SRSWOR only: full-train-vs-dev MMD + (N-n)/(n*(N-1))*mean_i||phi_i-mean_train||^2, mean denominator N; report Monte Carlo mean minus exact expectation, no pass threshold",
+    "generated_position": "for each of 4 methods each terminal, observed generation16-vs-dev MMD located in each finite train-reference distribution; count less/exact-ties/greater and midrank/tie interval; no pvalue/null/adequacy threshold"
+  },
+  "bootstrap_design": {
+    "generation_only": "independent with-replacement samples of 16 fixed request slots for CE/AR and each terminal; complete fixed dev",
+    "development_components_only": "draw exactly 33 dev component IDs with replacement jointly; expand entire selected components with multiplicity, retaining cross-terminal correlation; use original 16 generation slots",
+    "joint": "reuse exact generation-only draw and exact dev-component-only draw within each repetition; no extra random stream",
+    "pairing": "all methods use same dev row multiplicities within repetition; CE and AR generation draws are independent, not paired noise",
+    "estimand": "sequence-weighted within-terminal fixed-feature mean under empirical whole-component resampling, a ratio with random terminal n; not equally weighted component means",
+    "missing_terminal": "n=0 stays null; no rejection/refill/truncation; equal-terminal CE-minus-AR average null unless both terminal differences defined",
+    "report": "all per-repetition MMD block values and effective n; per-terminal CE-minus-AR and equal-terminal mean; mean/std0/min/max/q025/q50/q975 plus defined/undefined counts; per-panel dev n histogram",
+    "scope": "only CE and AR; source-replacement B/C/D excluded"
+  },
+  "budget": {
+    "threads": 1,
+    "natural_executions": 1,
+    "model_calls": 0,
+    "encoder_calls": 0,
+    "new_generation_calls": 0,
+    "training_updates": 0,
+    "latent_array_reads": 0,
+    "test_reads": 0,
+    "automatic_retry": false,
+    "extra_seeds_or_repetitions": false,
+    "enforcement": "120s checked after index seal before feature statistics, each 64 repetitions, and after final manifest IO; final overrun writes failed CLOSING plus FAILURE ledger and exits nonzero. Closing/error bookkeeping excluded from 120s decision. Outer subprocess.run timeout=180 kills/waits for the analysis child and records actual perf_counter wall, timeout, exit, stdout and stderr in execution_v2; no retry."
+  },
+  "wall_cap_seconds": 120,
+  "outer_watchdog_seconds": 180,
+  "preaudit_interface": {
+    "status": "PASS",
+    "scope_id": "AMP_H5_NIGHT_DISTRIBUTION_V2",
+    "protocol_sha256": "this file SHA256",
+    "implementation_sha256": "bound implementation SHA256",
+    "natural_statistics_authorized": true
+  },
+  "interpretation": [
+    "All quantities are descriptive diagnostics conditional on the frozen features, current train/dev split, four saved single-seed fitted pipelines and 16-request batches.",
+    "Train-resampling reference comprises sequences the models were trained on and complete repeatedly reused dev; it is not model-unseen validation, a null distribution, a superiority gate, or an adequacy threshold.",
+    "Bootstrap quantiles are finite empirical sensitivity ranges conditional on the fixed fit; not population confidence intervals, pvalues, formal significance, or training-seed uncertainty.",
+    "Each generated sequence request is a resampling unit; neither residues nor 421 coordinates are independent replicate units. At n16, centered sample covariance rank is at most15. Mean-feature MMD does not identify full sequence-distribution equality.",
+    "Dev component resampling preserves the two cross-terminal components by shared whole-component multiplicities; terminal sample sizes vary and missing terminals stay null.",
+    "Single seed and repeated dev use remain limitations. AR adequacy remains NOT_ESTABLISHED; original CE protocol E/L/G permanently NOT_EVALUABLE; recovery descriptive gates are not recomputed or changed; PROMOTE remains HOLD.",
+    "Source-replacement C was coordinate permutation of B decoder-z, not a mu/log-sigma pairing experiment; B/C/D are outside this diagnostic input scope."
+  ],
+  "execution_wrapper_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/execute_once_v2.py",
+  "execution_wrapper_sha256": "478e41959473950832c8bf978baba51e0f31d16e46352c53de2c811dec1a724f",
+  "revision_reason": "Preserve v1; only budget completion guard and named v2 paths/scope. No mathematical, source, sample, seed, repetition or metric changes."
+}

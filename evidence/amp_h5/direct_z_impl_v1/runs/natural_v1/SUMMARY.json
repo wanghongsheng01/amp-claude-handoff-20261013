@@ -1,0 +1,48 @@
+{
+  "status": "COMPLETE",
+  "failure": null,
+  "training": {
+    "R": {
+      "status": "COMPLETE",
+      "completed_updates": 1000,
+      "logged_complete_steps": 1000,
+      "failure": null,
+      "elapsed_seconds": 550.6503029158339,
+      "parameters": 18611970,
+      "final_state_sha256": "a14731fccec0668039505820e3c6a7eb47c3604b19a5b05e5a08661fc05e57aa",
+      "checkpoint_selection": "final1000_only",
+      "no_retry": true
+    },
+    "Z": {
+      "status": "COMPLETE",
+      "completed_updates": 1000,
+      "logged_complete_steps": 1000,
+      "failure": null,
+      "elapsed_seconds": 546.4136138749309,
+      "parameters": 18611329,
+      "final_state_sha256": "60a977ace1d24efc3d9d58fd84535566d1765c41f74af7800d92f2c5b4fad5b0",
+      "checkpoint_selection": "final1000_only",
+      "no_retry": true
+    }
+  },
+  "counts": {
+    "denoiser_train_forward": 2000,
+    "denoiser_generation_forward": 3992,
+    "A_decoder_forward": 47,
+    "updates": 2000,
+    "new_requests": 64,
+    "encoder_forward": 0,
+    "old_DDPM_forward": 0,
+    "C_forward": 0
+  },
+  "screen_status": "FAIL_MECHANISM_SCREEN",
+  "elapsed_seconds": 3372.770754707977,
+  "all96_slots_retained": true,
+  "test_reads": 0,
+  "configuration_count": 1,
+  "training_seed_count": 1,
+  "PROMOTE": "HOLD",
+  "BACKUP": "BACKUP_BLOCKED",
+  "no_retry": true,
+  "scope": "Finite operational screen only. No biological efficacy or submission readiness."
+}

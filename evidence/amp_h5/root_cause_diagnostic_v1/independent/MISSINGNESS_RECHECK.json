@@ -1,0 +1,106 @@
+{
+  "status": "CONFIRMED_REPORTING_ONLY_METADATA_BUG",
+  "fields": [
+    {
+      "unit": "ug_ml_native",
+      "field": "target_raw",
+      "old_missing": 0,
+      "normalized_missing": 0,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "ug_ml_native",
+      "field": "medium",
+      "old_missing": 3,
+      "normalized_missing": 3,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "ug_ml_native",
+      "field": "cfu",
+      "old_missing": 15,
+      "normalized_missing": 15,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "ug_ml_native",
+      "field": "ph",
+      "old_missing": 79,
+      "normalized_missing": 79,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "ug_ml_native",
+      "field": "ionic_strength",
+      "old_missing": 77,
+      "normalized_missing": 77,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "ug_ml_native",
+      "field": "salt",
+      "old_missing": 77,
+      "normalized_missing": 77,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "uM_native",
+      "field": "target_raw",
+      "old_missing": 0,
+      "normalized_missing": 0,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "uM_native",
+      "field": "medium",
+      "old_missing": 0,
+      "normalized_missing": 14,
+      "whitespace_activity_ids": [
+        96187,
+        96200,
+        96188,
+        96199,
+        96189,
+        96198,
+        96190,
+        96197,
+        96191,
+        96196,
+        96192,
+        96195,
+        96193,
+        96194
+      ]
+    },
+    {
+      "unit": "uM_native",
+      "field": "cfu",
+      "old_missing": 19,
+      "normalized_missing": 19,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "uM_native",
+      "field": "ph",
+      "old_missing": 68,
+      "normalized_missing": 68,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "uM_native",
+      "field": "ionic_strength",
+      "old_missing": 68,
+      "normalized_missing": 68,
+      "whitespace_activity_ids": []
+    },
+    {
+      "unit": "uM_native",
+      "field": "salt",
+      "old_missing": 68,
+      "normalized_missing": 68,
+      "whitespace_activity_ids": []
+    }
+  ],
+  "impact": "Whitespace-only medium entries counted present by old bool/string logic. Independent source inspection: prepare selects admission flags, activity12605 and concentration semantics; model features use sequence only; run reads no medium and group definitions preexisting. Therefore changing diagnostic missingness count does not change labels, fitted features, weights, grouping or predictions. No retraining warranted.",
+  "scope": "Correct new diagnostic count and annotate historical erratum; do not mutate frozen source data."
+}

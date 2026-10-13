@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-12T11:54:21.678627+00:00",
+  "AMP_code_repo": {
+    "status": "ACCESS_UNAVAILABLE_THIS_CONNECTOR",
+    "http_status": 404,
+    "message": "Not Found",
+    "not_a_nonexistence_claim": true,
+    "attempts": 1,
+    "retries": 0,
+    "remote_history_content_versions_read": 0
+  },
+  "AMP_IEEE": {
+    "private_repo_access": true,
+    "branch": "master",
+    "head": "a658aeb03f17bd765e2696a0baa299ba864e54dc",
+    "branch_list_returned": 1,
+    "subtree": "WorkSpace/AMP- IEEE",
+    "subtree_history_commits_returned": 1,
+    "commit_author_date": "2025-11-09T05:13:18Z",
+    "commit_committer_date": "2025-11-09T05:13:18Z",
+    "remote_subtrees_queried": 2,
+    "tree_blobs_metadata_reviewed": 179,
+    "trees_truncated": false,
+    "file_paths_history_queried": 6,
+    "versions_content_downloaded": 2,
+    "content_bytes_downloaded": 105336,
+    "local_files_rehashed": 5,
+    "matching_local_blobs": 5,
+    "all6_match_prior_blob_index": true,
+    "all27_exact_sequence_or_ID_hits_in_2_tex": 0
+  },
+  "new_complete_historical_binding_chains": 0,
+  "scope_limit": "No other refs, deleted paths before renames, reflogs, inaccessible code history, or unspecified repositories. No claim to exhaustive remote Git history. File-level APIs queried exact paths on master only.",
+  "backup_status": "BACKUP_BLOCKED"
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "manuscripts/latest_policy/decision.pdf",
+      "pages": 1,
+      "text_characters": 2881
+    },
+    {
+      "path": "manuscripts/review_candidate/source/figures/reconstruction_generation.pdf",
+      "pages": 1,
+      "text_characters": 189
+    },
+    {
+      "path": "manuscripts/review_candidate/pdfs/decision.pdf",
+      "pages": 1,
+      "text_characters": 2419
+    },
+    {
+      "path": "manuscripts/review_candidate/pdfs/main.pdf",
+      "pages": 16,
+      "text_characters": 33431
+    },
+    {
+      "path": "manuscripts/review_candidate/pdfs/supplement.pdf",
+      "pages": 12,
+      "text_characters": 21741
+    },
+    {
+      "path": "manuscripts/review_candidate/pdfs/cover_letter.pdf",
+      "pages": 1,
+      "text_characters": 2740
+    },
+    {
+      "path": "manuscripts/historical_v6r3/main.pdf",
+      "pages": 10,
+      "text_characters": 55890
+    },
+    {
+      "path": "manuscripts/EB_addendum/AMP_H5_EB_context_addendum.pdf",
+      "pages": 4,
+      "text_characters": 11819
+    },
+    {
+      "path": "data/fixed200/APPENDIX_1PAGE.pdf",
+      "pages": 1,
+      "text_characters": 1263
+    },
+    {
+      "path": "manuscripts/historical_v6r3/materials/figures/fig1_v6r3_method_overview.pdf",
+      "pages": 1,
+      "text_characters": 938
+    },
+    {
+      "path": "manuscripts/historical_v6r3/materials/figures/fig6_v6_descriptor_path.pdf",
+      "pages": 1,
+      "text_characters": 636
+    },
+    {
+      "path": "manuscripts/historical_v6r3/materials/figures/fig8_v6r2_parameter_mechanism.pdf",
+      "pages": 1,
+      "text_characters": 1722
+    },
+    {
+      "path": "manuscripts/historical_v6r3/materials/figures/fig7_v6_historical_descriptors.pdf",
+      "pages": 1,
+      "text_characters": 603
+    }
+  ],
+  "token_pattern_hits": [],
+  "scope": "Text extraction and key/token patterns; no guarantee of exhaustive DLP."
+}

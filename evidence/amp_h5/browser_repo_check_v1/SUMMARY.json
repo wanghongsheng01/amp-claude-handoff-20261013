@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-10-12T12:16:06.922568+00:00",
+  "browser_website_access": "VISIBLE_PRIVATE_REPOSITORY_IN_EXISTING_SESSION",
+  "connector_previous_state": "404 NOT_FOUND; no connector retry",
+  "observed_difference": "Browser website accessible while connector was not; cause not proven and account configuration not inspected",
+  "repository": "3DHumanRehab/AMP",
+  "branch": "main",
+  "head": "e7486fb714cbf5c663cc01052e42fb63d4ba3a40",
+  "visible_commits": 12,
+  "file_history_paths": 11,
+  "output_path_histories_empty": 8,
+  "file_versions_this_turn": 2,
+  "complete_versions": 1,
+  "partial_versions": 1,
+  "cumulative_file_versions_including_prior": 4,
+  "limit": 20,
+  "new_complete_candidate_binding_chains": 0,
+  "actual_run_or_assay_dates_recovered": false,
+  "backup_status": "BACKUP_BLOCKED"
+}

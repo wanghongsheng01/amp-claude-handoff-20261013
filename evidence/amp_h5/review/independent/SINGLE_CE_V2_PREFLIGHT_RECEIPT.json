@@ -1,0 +1,158 @@
+{
+  "created_utc": "2026-10-11T16:48:04.432584+00:00",
+  "reviewer": "independent H5 reviewer",
+  "status": "PASS_SCOPED_SINGLE_CE_V2_AFTER_ZERO_UPDATE_CONTRACT_REPAIR",
+  "authorized": true,
+  "plan_sha256": "ce193e133e86d995c21e4596412ce08ee61bb2be3cb47b2549d4f11f5c86f2d6",
+  "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+  "bindings_verified": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/INPUT_INDEX_REPAIR_V2.zh.md",
+      "sha256": "9e2326423be0842fa3cc1f814ae06a2c38c2b8d703a2ccc8c367c7f3af5338fd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SINGLE_CE_STAGED_RULE.zh.md",
+      "sha256": "063f51f66879a439a33ef302ea1f3db1b51f97aa3725979fe5368764d3cca02a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.json",
+      "sha256": "113146eba8d1b7f1ce1efce64bf5ca989f975f570b39a158555ac326ad7d755a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.zh.md",
+      "sha256": "2ff3079574d6e1658adb650ef7ff7600d06199a9abe40b67e7604b2474bc1e35"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_POSTFLIGHT_REVIEW.json",
+      "sha256": "9104676486dcbf8c3c6622c17b8f1ca709c43cb311f5c5b2e1dec6ebd08eab56"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_SCALE_ASSESSMENT.json",
+      "sha256": "9db57db802a21bfd7e94ddc80df00ca548ae45a94db72ee1ce2a23964c42ad98"
+    }
+  ],
+  "all_three_VAE_config_bindings": {
+    "categorical_ce": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "changed_keys": [
+        "dev_idx_start",
+        "implementation_sha256",
+        "train_idx_start"
+      ]
+    },
+    "raw_onehot_mse": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/raw_onehot_mse.json",
+      "sha256": "861d530bce7529826ed481697083a4efee016cce24878d85dced240b28d9d004",
+      "changed_keys": [
+        "dev_idx_start",
+        "implementation_sha256",
+        "train_idx_start"
+      ]
+    },
+    "scalar_legacy": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0",
+      "changed_keys": [
+        "dev_idx_start",
+        "implementation_sha256",
+        "train_idx_start"
+      ]
+    }
+  },
+  "scope": "Exactly one fresh categorical_ce VAE1000/DDPM1000 fixed pilot in formal_v2 output under new explicit input-index contract. Root alone launches. This is an additional visible pretraining-contract repair execution attempt, not continuation of the failed directory.",
+  "repair_review": {
+    "checks_passed": 22,
+    "changed_source_units_only": [
+      "read_records",
+      "validate_config",
+      "run"
+    ],
+    "unchanged_model_objective_training_RNG_generation_units": true,
+    "real_train_loader": {
+      "rows": 279,
+      "idx_range": [
+        0,
+        278
+      ]
+    },
+    "real_dev_loader": {
+      "rows": 41,
+      "idx_range": [
+        279,
+        319
+      ]
+    },
+    "guard_negatives": "wrongID,offset,order,sequence,class,terminal,hash,count and configoffset/type all rejected",
+    "no_torch_or_numpy_import_during_contract_review": true,
+    "no_model_calls": true,
+    "no_source_data_changes_or_reorder": true,
+    "original_failure_preserved": true,
+    "original_attempt_updates": 0,
+    "original_attempt_generated_requests": 0,
+    "read_telemetry": "New version records attempted before load and validated after load; olddevfalse retained as raw artifact but not interpreted as no read."
+  },
+  "budget_seconds": {
+    "VAE": 1920,
+    "DDPM": 1020,
+    "combined_training": 2940,
+    "generation": 1800,
+    "outer": 4920
+  },
+  "evidence": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/FORMAL_V2_CONTRACT_REVIEW.json",
+      "sha256": "56e633f962b3bc4b23bd76cfef5ca806b5a54980200abe178a8aa9973f381f8a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_PRETRAINING_GUARD_FAILURE_REVIEW.json",
+      "sha256": "aed852da9149d3fbf953a7750e27f15c4f4614558239ab9e0d6f8690d72331b1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_POSTFLIGHT_REVIEW.json",
+      "sha256": "9104676486dcbf8c3c6622c17b8f1ca709c43cb311f5c5b2e1dec6ebd08eab56"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_SCALE_ASSESSMENT.json",
+      "sha256": "9db57db802a21bfd7e94ddc80df00ca548ae45a94db72ee1ce2a23964c42ad98"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/H4_PARITY_POSTFLIGHT_REVIEW.json",
+      "sha256": "a4202501b04391920dadecbd4fefdb486d1aa6405b04ac048154ec7e7f5d32cc"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SINGLE_CE_PREFLIGHT_RECEIPT.json",
+      "sha256": "faee973d7a04e83edbc63f59af8ab5b48ecf3f347c3d9bc4694624e06f2e3a1d"
+    }
+  ],
+  "conditions": [
+    "Model,loss,KL,scalers,seeds,batching,RNG,optimizer,decoder,evaluation,monitors and budgets unchanged. No diagnostic oroldweights reused.",
+    "Allthree VAE configs have the same index repair, but only CE execution is authorized here.",
+    "Preserve originalfailedattempt/receipt,all32not_executedslots,extraCSVreads and1.074sec entrycost.",
+    "No model-phase retry,clipping,resampling,newseed orbudget extension.",
+    "Keep allv2 failures and rawnumeric evidence; independent postflight required before any furtherarm.",
+    "Use original frozenAR output for later comparisons; do not rerun or switch its1000endpoint."
+  ],
+  "limitations": [
+    "Maturity evidence remains one CE20 representation andn=1 per terminal; does not guarantee freshVAE1000/32requests stable.",
+    "No scientific or distributional success inferred from guard repair or finite-only diagnostic.",
+    "AR_ADEQUACY remainsNOT_ESTABLISHED; adaptive engineering and extra diagnostic costs must be disclosed."
+  ],
+  "explicit_exclusions": [
+    "MSE/scalar execution",
+    "fullFORMAL_PLAN execution",
+    "test37 access",
+    "quality-based hyperparameter adaptation",
+    "submission"
+  ],
+  "prelaunch_process_scope": "Parent reports no activeML after pretraining failure; supervisor per-taskfcntl lock required. Reviewer did not independently queryprocesses.",
+  "PROMOTE": "HOLD"
+}

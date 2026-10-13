@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "config.json",
+      "sha256": "e45478be33b64384cf59e4a0a4267815106e5e7b278784de1d6ebe64f5ac0ac8"
+    },
+    {
+      "path": "parity_checks.json",
+      "sha256": "3c05edf054c83712f867e1f49d067abe868fc7d62fbdf0e6839f21538ce0058c"
+    },
+    {
+      "path": "replayed_saved_t1_AMD.npz",
+      "sha256": "d6417d476b5ee1f46153725f8b8f468287128cfc40bffbaf5d33f39bfb4c3863"
+    },
+    {
+      "path": "replayed_saved_t1_FREE.npz",
+      "sha256": "2326139df9b805c36415e79190210677cb15fdf2ae7b919b317ac14971577206"
+    },
+    {
+      "path": "status.json",
+      "sha256": "e66755d220ceb99d91001c9e4e7ea253e49255a6b3aa151596ab0585b430315e"
+    }
+  ]
+}

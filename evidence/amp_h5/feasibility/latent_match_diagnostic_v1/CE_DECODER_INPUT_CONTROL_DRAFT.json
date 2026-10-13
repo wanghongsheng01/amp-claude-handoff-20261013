@@ -1,0 +1,145 @@
+{
+  "document_type": "NON_EXECUTABLE_CONTROL_DRAFT",
+  "authorized": false,
+  "finalized": false,
+  "created_utc": "2026-10-11T19:22:41.165534+00:00",
+  "scope_proposal": "AMP_H5_CE_DECODER_INPUT_LOCALIZATION",
+  "prerequisites": [
+    "Frozen scalar queue must finish and receive independent engineering review; do not inspect or interrupt live scalar.",
+    "Root must authorize a separate exact scope after reviewing this evidence; independent reviewer must bind final inputs/index-tape/epsilon/protocol/output/limits before any decoder call.",
+    "This draft does not authorize even RNG reconstruction or index selection."
+  ],
+  "evidence_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1.json",
+      "sha256": "c616a91f45f774fd1de47e7cd4675cea39f9bf3bee2abf39d6c597b24885b8f1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/LATENT_MATCH_READOUT.json",
+      "sha256": "9f0a1fb765fd61770e0b15c9c4708951bd6e12fad137aa63b878f4df860c0a39"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+      "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/LATENT_ROUTE_STATIC_AUDIT.json",
+      "sha256": "cddbc4a3ee25926f6654afabfeef8448b77adc3d4620b0e9664cb60b6d2f1096"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    }
+  ],
+  "model": "CE-only same final VAE checkpoint; do not fit/retrain/load DDPM/encoder-forward; same frozen decoder and original legal-prefix J readout",
+  "checkpoint_sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+  "checkpoint_tensor_digest": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+  "sample_contract": {
+    "paired_slot_ids": 32,
+    "groups": {
+      "FREE": 16,
+      "AMD": 16
+    },
+    "inputs_per_slot": 2,
+    "total_decoder_inputs": 64,
+    "intended_decoder_forwards": 4,
+    "batch_size": 16,
+    "all_slots_and_duplicates_retained": true,
+    "MSE_included": false,
+    "MSE_extension": "Requires separate later scope, not authorized or automatic."
+  },
+  "epsilon_preparation_future_only": {
+    "already_saved_exact_epsilon_available_in_main_generated_npz": false,
+    "do_not_use_inverse_residual": true,
+    "seeds": {
+      "FREE": 422,
+      "AMD": 423
+    },
+    "engine": "CPU torch 2.2.2 / float32 / local torch.Generator; same environment as bound original CE runtime; abort on version mismatch, keep global RNG unchanged.",
+    "call_order": "For each label, initialize local Generator seed422/423; consume exactly998 torch.randn((16,2,16,48),generator=local,dtype=float32,device=cpu) calls: one initial x plus997 reverse noises for t998..2; t1 zero draws. Then one torch.randn((16,16,48),generator=local,dtype=float32,device=cpu) is epsilon. No DDPM calls.",
+    "save_before_decoder": [
+      "epsilon FREE/AMD arrays and file/tensor SHA",
+      "initial/pre-epsilon/post-epsilon Generator state bytes+SHA",
+      "cumulative digest of all998 consumed Gaussian tensors, shapes/order/version metadata",
+      "bitwise mu_generated + epsilon*exp(log_sigma_generated) equality with every saved z coordinate"
+    ],
+    "failure": "If any bitwise saved-z check fails, stop before all decoder calls; no alternate seeds or guessed draw alignment.",
+    "interpretation": "A later RNG-only reconstruction of an existing terminal generation stream, not an extra independent repeat; reuse across branches is paired common random numbers. Standard independent Normal interpretation is that of the frozen generator distribution, not statistical proof from one realised tape."
+  },
+  "posterior_selector_future_only": {
+    "algorithm": "numpy.random.Generator(numpy.random.PCG64(seed)).integers(low=0,high=n_terminal,size=16,endpoint=False,dtype=int64)",
+    "seeds": {
+      "FREE": 523,
+      "AMD": 524
+    },
+    "order": "Ascending existing train row_ids within matching labels (FREE126,AMD153), choose with replacement independently from reconstructed epsilon; both seeds proposed once here, not selected by outputs",
+    "version": "NumPy 1.26.4 / PCG64, Python 3.12.13; abort before draws if version differs, record bit-generator state and exact row indices before any decoder output.",
+    "selection_material": "Saved train-posterior row_ids/labels only; no sequences, dev, test, reconstruction scores or quality criteria",
+    "seal_before_any_decoder": true,
+    "keep_duplicate_rows": true
+  },
+  "branches": [
+    {
+      "id": "A_INDEPENDENT_STANDARD_NORMAL_DECODER_SPACE",
+      "z": "epsilon exactly, no rescaling, terminal feature or inverse flow",
+      "interpretation": "Independent standard-normal input in decoder z space. It is not the native learned flow prior. FREE/AMD are fixed grouping/seed labels only; A is not terminal conditioned."
+    },
+    {
+      "id": "B_TRAIN_EMPIRICAL_POSTERIOR_RESAMPLE",
+      "z": "mu[prelocked_train_row]+exp(log_sigma[prelocked_train_row])*same_epsilon",
+      "interpretation": "Conditional-on-training-cohort empirical posterior / memorization reference. Not a novel-generation result, not independent standard normal, not prospective activity evidence."
+    }
+  ],
+  "prior_coordinate_boundary": "The model prior density is evaluated in zp=prior_flow(z,g). Decoder(z=epsilon) bypasses that flow. A native prior route would need a justified inverse and generation-available g; do not use true residue features, synthetic zero-g or guessed g to fabricate such a route.",
+  "outputs_if_separately_authorized": [
+    "Every paired slot, group, selector index, latent inputs, epsilon, decoder raw output, original J tokens/sequence, status and failure traceback",
+    "All input/weight/state hashes before/after, original 64-slot denominator, actual setup/RNG/forward/export costs separately",
+    "Reuse existing fixed evaluator only for explicitly descriptive decoder readability/distribution/copy reference; never overwrite original E/L/G or treat B as successful novel generation"
+  ],
+  "failure_policy": "Retain every planned slot and error; no clipping, retry, resampling, seed changes, output selection or replacement. Stop pre-decoder on source/hash/epsilon/index mismatch. Nonfinite branch output remains a failure at its fixed slot.",
+  "budget_status": "UNSET_PENDING_SEPARATE_SCOPE; no executable argv/jobs/output_root or launch receipt in this draft. Zero training/zero DDPM; propose CPU1 only, one detached bounded job if later authorized.",
+  "interpretation_limits": [
+    "A worse-than-B result may indicate sensitivity to z distribution/support but cannot itself isolate the trained DDPM as the cause.",
+    "B good vs saved DDPM poor may motivate mismatch hypotheses; one fixed paired experiment is not a superiority or causal proof.",
+    "Neither control supplies a sampled reconstruction of every train/dev sequence; B uses prelocked train rows only.",
+    "Original CE E/L/G stay NOT_EVALUABLE_INTERRUPTION; recovery and new controls remain separately named/costed attempts.",
+    "No test37 and no live scalar access."
+  ],
+  "PROMOTE": "HOLD",
+  "posthoc_status": {
+    "initiated_after_generation_negative_results_and_known_scale": true,
+    "interpretation": "Exploratory follow-up only; prefixed analysis/control decisions do not make the original evidence confirmatory.",
+    "original_E_L_G_backfill": false,
+    "future_64_decoder_inputs_are_new_diagnostic_scope": true,
+    "addendum_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_POSTHOC_ADDENDUM.json",
+    "addendum_sha256": "6f925a28d4d189d29cd675db88ad68b00bf5905135bfd49ddd614067c0ad05ab"
+  }
+}

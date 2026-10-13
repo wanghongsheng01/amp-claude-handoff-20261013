@@ -1,0 +1,181 @@
+{
+  "created_utc": "2026-10-11T19:18:11.537517+00:00",
+  "scope_id": "AMP_H5_SAVED_LATENT_MATCH_V1",
+  "document_type": "FROZEN_BEFORE_NUMERICAL_ANALYSIS",
+  "purpose": "Read-only exploratory localization of CE mean reconstruction versus saved DDPM generation; optional completed MSE reference, no model or new random draws.",
+  "methods": [
+    {
+      "method": "categorical_ce",
+      "training_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+      "generation_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1",
+      "original_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+      "generation_scope": "separate recovery attempt"
+    },
+    {
+      "method": "raw_onehot_mse",
+      "training_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse",
+      "generation_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse"
+    }
+  ],
+  "input_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+      "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/raw_onehot_mse.json",
+      "sha256": "861d530bce7529826ed481697083a4efee016cce24878d85dced240b28d9d004"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_SCALE_DETAIL_v1.json",
+      "sha256": "80b38d9b692be1807e1506c0637c0319b7d9c5d0ccabbfbfe38b87f63ab84ff8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_POSTFLIGHT_v1.json",
+      "sha256": "a0a410526b6a252ba1f73fd3957dea5ee20413bb6e5c264fca5d34a4eec97b71"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_SCALE_ASSESSMENT_v1.json",
+      "sha256": "d8f252723f4d32b74193520c3da9c1c701a51de2d9189cf714dd34902a85250c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+      "sha256": "f7899543f330e1fed829e592269c09c9b747e45abbffe2ec251f3e69c37fae0d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz",
+      "sha256": "fd987de8fec498386f414b3c64db0512f916253d4f294152c97a095eb6d30722"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+      "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+      "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/status.json",
+      "sha256": "41d71b8d183cc2869cdd8c77dbdd9d5d5d864340b6246a63647ac5d79455dbc5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_posterior_parameters.npz",
+      "sha256": "803241f2a112a732b69d607fb8922d93f9828824dc4e0f44d1f932ea02249617"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_FREE.npz",
+      "sha256": "79b4282b306cb92a7a77220be22bd897b5a70855a49981daecbe97a34192c68e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_AMD.npz",
+      "sha256": "49cc4057e28afc4cd035b133773406ea4bc513f5a8aadde958d36202f14729b9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_FREE.npz",
+      "sha256": "189f4a97ee509c1c61569be4c42ba98fd7b8ef4712077bc43a99de0763e8810d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_AMD.npz",
+      "sha256": "7c489cc1a2b04f041ca5357572cd6c67662253cd368a3c7c11ef333fa9e641c9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_reconstruction.csv",
+      "sha256": "c51ef3d43c43e1ea37ec06fc89945115ed7bcc1cf7a453608d73788f64d1e0a0"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/dev_reconstruction.csv",
+      "sha256": "1b0b6836e6129e1e924fb5ceb3329295e4681b643163ac1b2cf2781a636953ec"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/status.json",
+      "sha256": "c6b25aa0ea482cc6e99a6861cde430ab3be3e0d1683eff01f1abb50d0f85444e"
+    }
+  ],
+  "outputs": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1",
+  "arrays": {
+    "train_posterior": "values shape (279,2,16,48), index1 axis component0=mu,component1=log_sigma; labels 0=FREE,1=AMD",
+    "generated_posterior": "values shape (16,2,16,48) per terminal; must equal generated_*.npz posterior_parameters",
+    "generated_z": "saved z shape (16,16,48); no regenerated draw",
+    "sigma": "exp(saved log_sigma) in float64 for descriptive arithmetic",
+    "epsilon_residual": "(saved z - saved mu)/exp(saved log_sigma), deterministic inverse only; rounding means not an exact saved independent epsilon tape"
+  },
+  "frozen_analysis_items": [
+    {
+      "id": "denominators",
+      "definition": "All train279 and generated32 per method; terminal train counts expected126 FREE/153 AMD, generated16 each. Peptides are primary observational units; coordinate counts 768/peptide are denominators only, not independent samples. One seed trajectory/batch per terminal is not 16 independent training runs."
+    },
+    {
+      "id": "descriptive_marginals",
+      "definition": "For mu/log_sigma/sigma and saved z/derived epsilon: finite count, mean,std(ddof0),min,max,RMS, quantiles[0,.01,.05,.25,.5,.75,.95,.99,1]; retain per-peptide mean,std,RMS,min,max and summarize across peptides."
+    },
+    {
+      "id": "train_qz_reference",
+      "definition": "No train posterior sampling. Report analytic E[z]=mu, E[z²]=mu²+sigma², mixture mean/std/RMS pooled and per peptide/channel/position; no mixture quantiles or empirical train-z claim."
+    },
+    {
+      "id": "mu_logsigma_dependency",
+      "definition": "Pearson correlation over aligned coordinates pooled descriptively, per peptide, and of channel/position means; null if zero variance. Report centered-within-peptide version. No p-values or effective coordinate sample count."
+    },
+    {
+      "id": "position_channel_structure",
+      "definition": "For each field report channel16 and position48 mean/std/RMS profiles. Compare generated-vs-train mean profiles by correlation/RMSE and RMSE divided by training pooled RMS; report flattened16x48 mean-map correlation/RMSE and within-distribution adjacent position/channel coordinate correlation, descriptive only. Positional coordinates retain padding; no token-derived mask."
+    },
+    {
+      "id": "tail_mismatch",
+      "definition": "Generated mu/log_sigma/sigma fraction outside same-terminal training pooled min/max and pooled1%-99% interval; matched-coordinate min/max and1%-99% coverage; all coordinate fractions accompanied by16 per-peptide fractions, no selection/no inferential tests."
+    },
+    {
+      "id": "generated_z_vs_train_qz",
+      "definition": "Compare saved generated z pooled and structured means/RMS against analytic same-terminal training qz; no claim finite or similar moments establish fit."
+    },
+    {
+      "id": "paired_random_provenance",
+      "definition": "Read frozen code/config and existing independent audit; record common seeds and draw shapes/order. No RNG calls. Compare CE/MSE deterministically recovered epsilon residual arrays only as approximate consistency, never proof of exact stored epsilon or distributional independence. Inventory genuinely stored independent epsilon separately if available."
+    },
+    {
+      "id": "decoder_reference",
+      "definition": "Read every row of existing train/dev reconstruction exports, verify row identity order, compute descriptive visible-sequence real-token accuracy, exact reconstruction and length MAE by split/terminal. Label mean(mu) reconstruction if source says so; do not invent sample reconstruction. No new decoder calls, no new generated sequence quality scores."
+    }
+  ],
+  "failure_policy": "Fail on changed hashes, unexpected shapes/labels/nonfinite critical arrays or missing completed input; do not filter, impute, clip or substitute samples. Preserve explicit unavailability for missing sampled-reconstruction or exact epsilon export.",
+  "resource_contract": {
+    "numpy_stdlib_only": true,
+    "single_thread_environment": true,
+    "no_checkpoint_deserialization": true,
+    "no_model_construction_forward_training_sampling": true,
+    "no_rng_reconstruction": true,
+    "no_live_scalar_reads": true,
+    "no_source_cohort_or_test_reads": true
+  },
+  "interpretation_limits": [
+    "Exploratory after observed outcome; localization and hypothesis evidence only, not causal proof or fair-performance confirmation.",
+    "Training posterior rows are empirical fitted data references; generated sequences or later posterior-decoder outputs are not prospective biological evidence.",
+    "Original CE E/L/G remain not evaluable; CE recovery is phase-split with separately disclosed cost/no-retry deviation.",
+    "No model, readout, seed, budget or scalar setting may be changed from this diagnostic."
+  ],
+  "future_control_draft_only": "After evidence, propose a separately scoped minimal fixed decoder control comparing independent standard-normal input versus train-posterior reparameterized input, preferring an already stored independent epsilon with explicit provenance. No control execution is authorized here."
+}

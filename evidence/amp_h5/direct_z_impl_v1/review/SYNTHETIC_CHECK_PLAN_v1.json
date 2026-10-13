@@ -1,0 +1,49 @@
+{
+  "schema": "AMP_H5_DIRECT_Z_INDEPENDENT_SYNTHETIC_PLAN_V1",
+  "status": "PREPARED_NOT_EXECUTABLE_WITHOUT_EXACT_BINDINGS_AND_ROOT_WINDOW",
+  "independent_author": "/root/ar_admission_independent",
+  "scientific_plan": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/MINIMAL_PLAN_v2.json",
+  "scientific_plan_sha256": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8",
+  "outer_seconds": 180,
+  "cpu_threads": 1,
+  "interop_threads": 1,
+  "single_serial_window": true,
+  "synthetic_train_updates_each": 32,
+  "synthetic_train_forward_total": 64,
+  "synthetic_reverse_batch_size": 16,
+  "synthetic_reverse_steps_each": 32,
+  "synthetic_reverse_forward_total": 64,
+  "edge_actual_model_forward_max": 4,
+  "total_actual_model_forward_max": 132,
+  "natural_forward": 0,
+  "data_contract": {
+    "fixture": "Deterministic arange-based float32 mu/logsigma with 279x16x48 shape and 126 FREE/153 AMD labels. No natural sequences or posterior values participate in optimizer work.",
+    "real_inputs_read_only": "Only exact approved train279/dev41 caches/metadata, frozen A/C artifacts and existing uniforms/slots may be checked for hashes, shape, row identity and moments. No test path, external dataset, new encoder or old DDPM forward.",
+    "rng": "No RNG until the explicit root window. Inside the window use isolated private streams with the frozen seeds. Synthetic weights/checkpoints are marked synthetic and cannot be loaded into a natural run. No output-based seed choice."
+  },
+  "required_checks": [
+    "Exact candidate, configuration, dependency, frozen plan and reviewer script SHA; imports have no model/RNG/launch side effects.",
+    "All effective parameters and conditional gradients; absent dead embeddings; 18611970 R and 18611329 Z parameters; exact shared backbone bytes and independently checked first-conv sqrt(2)/last-head mapping.",
+    "Independent float64 train-only moment formulas, axis order, float32 target round-trip; strict-positive finite sigma, zero-underflow and overflow rejection without clamping or resampling.",
+    "Independent batch permutation/cursor including tail7 and 7972 exposure total; separate private streams; exact R-to-Z first-channel noise coupling, whole-batch label dropout, and fresh posterior epsilon per Z exposure.",
+    "Before first natural forward, complete initial/final RNG states and per-consumption digests must be saved. Replaying the seal must reset streams and verify every consumption; sealing cannot advance the streams used by training.",
+    "Actual candidate training step including all finite scans, optimizer, total_steps1000 OneCycle schedule, per-step hash/trace and flush cost; mean MSE denominator and EMA-as-copy semantics.",
+    "Actual candidate batch16 reverse step including full noise generation, finite checks, per-step digest and trace costs. Independent arithmetic check of beta variance and t1 zero noise; no CFG or extra model call.",
+    "Frozen A decode/uniform contract inherited unchanged; scripted non-model logits may exercise EOS49, absorption, cap_nonEOS and CDF upper boundary. Any actual A forward consumes the four-boundary allowance.",
+    "R/Z/C thin scoring wrapper formula parity, fixed96 slots, exact IDs and per-terminal16; every requested, failed and unexecuted slot retained; Z failure FAIL, failed R/C control NOT_EVALUABLE. Tie/zero/empty/nonfinite gates checked without model forward.",
+    "Outer180 kill has zero grace; actual top-level model hooks cap132; no resume/retry; immutable attempt reservation and existing global H5 lock held for the whole child lifetime."
+  ],
+  "throughput": {
+    "training_each": "1.2 * (1000/32 * measured_all32_steps_with_full_trace_seconds) + measured_setup_and_final_checkpoint_seconds + 20 <= 720",
+    "generation_each": "1.2 * (1996/32 * measured_all32_batch16_reverse_steps_with_full_noise_finite_hash_trace_seconds) + 30 <= 1440",
+    "no_subset_selection": true,
+    "interpretation": "Measured admission estimate only, not a runtime guarantee; all32 steps included. Actual natural4560 watchdog and phase limits still apply. Failure blocks, no budget expansion."
+  },
+  "managed_job_launch_clearance": {
+    "root_must_bind": "Exhaustive registered H5 launches and terminal receipts; every stale-running item requires explicit termination forensic/recovery evidence. Any unclosed registered job blocks.",
+    "scope": "managed_h5_jobs_clear only; never claim host_process_scan_completed when ps was denied. No alternative process API to bypass the denial.",
+    "lock": "LOCK_EX|LOCK_NB on existing workspace H5_PROCESS.lock, retain until child exit, do not alter lock contents."
+  },
+  "receipt_contract": "The final receipt is separate from the review code and binds completed engineering results plus exact candidate/config/plan/check-script hashes. No receipt hash is embedded back into a bound script. This plan grants no natural authorization.",
+  "stop_policy": "Preserve failed checks, exception, counters, real wall and all partial files. No second window or silent retry. Root decides any subsequent action; no tuning or scientific config change."
+}

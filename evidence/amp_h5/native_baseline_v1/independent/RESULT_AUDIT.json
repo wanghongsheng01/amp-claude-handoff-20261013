@@ -1,0 +1,1620 @@
+{
+  "schema": "AMP_H5_NATIVE_BASELINE_INDEPENDENT_RESULT_AUDIT_V1",
+  "status": "PASS",
+  "reviewer": "/root/native_baseline_engineering_audit",
+  "utc": "2026-10-12T09:19:58.312558+00:00",
+  "checks": [
+    {
+      "name": "local_freeze_hashes_unchanged",
+      "pass": true
+    },
+    {
+      "name": "source_freeze_hashes_unchanged",
+      "pass": true
+    },
+    {
+      "name": "preaudit_bound_to_freeze",
+      "pass": true
+    },
+    {
+      "name": "run_start_bindings",
+      "pass": true
+    },
+    {
+      "name": "complete_without_failure",
+      "pass": true
+    },
+    {
+      "name": "255_prediction_rows",
+      "pass": true
+    },
+    {
+      "name": "255_unique_model_activity_pairs",
+      "pass": true
+    },
+    {
+      "name": "all_models_complete_exact85",
+      "pass": true
+    },
+    {
+      "name": "all_raw_prediction_fields_unchanged",
+      "pass": true
+    },
+    {
+      "name": "all_labels_exact_log_original",
+      "pass": true
+    },
+    {
+      "name": "all_predictions_finite",
+      "pass": true
+    },
+    {
+      "name": "single_thread_CPU_environment",
+      "pass": true
+    },
+    {
+      "name": "budget_and_updates",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_training_weighted_mean_all_unit_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_composition_ridge_all_unit_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_witten_CNN_all_unit_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_training_weighted_mean_all_unit_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_composition_ridge_all_unit_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_witten_CNN_all_unit_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_train_weights_all_and_center",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_train_val_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_zero_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_zero_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_zero_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_zero_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_zero_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_zero_overlap_source",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_fixed_CNN_receipt",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_checkpoint_hash",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_ridge_independent_augmented_system_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_constant_independent",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_training_weighted_mean_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_training_weighted_mean_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_training_weighted_mean_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_composition_ridge_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_composition_ridge_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_composition_ridge_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_witten_CNN_exact_heldout_activity_set",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_witten_CNN_prediction_weights",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_witten_CNN_all_fold_metrics_and_denominators",
+      "pass": true
+    },
+    {
+      "name": "all17_completed_folds_exact",
+      "pass": true
+    },
+    {
+      "name": "CSV255_matches_JSONL_identity_predictions",
+      "pass": true
+    }
+  ],
+  "recomputed_predictions": 255,
+  "folds": 17,
+  "units": {
+    "ug_ml_native": {
+      "training_weighted_mean": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.8110355942603993,
+        "group_peptide_macro_RMSE": 1.0085876245136847,
+        "peptide_macro_MAE": 0.6052026530736768,
+        "peptide_macro_RMSE": 0.7628617056608051,
+        "row_MAE": 0.5743158937893202,
+        "row_RMSE": 0.7155505579916573
+      },
+      "composition_ridge": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.7753732981840885,
+        "group_peptide_macro_RMSE": 0.9475233399005121,
+        "peptide_macro_MAE": 0.6300308213327745,
+        "peptide_macro_RMSE": 0.7848611063123938,
+        "row_MAE": 0.6024726459169948,
+        "row_RMSE": 0.7597834322932459
+      },
+      "witten_CNN": {
+        "rows": 46,
+        "peptide_IDs": 33,
+        "families": 17,
+        "groups": 10,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.8197583713174593,
+        "group_peptide_macro_RMSE": 1.0109207477984545,
+        "peptide_macro_MAE": 0.6271566545935351,
+        "peptide_macro_RMSE": 0.782261108353066,
+        "row_MAE": 0.5730275472649641,
+        "row_RMSE": 0.7203676908146062
+      }
+    },
+    "uM_native": {
+      "training_weighted_mean": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5169933521404465,
+        "group_peptide_macro_RMSE": 0.6127581968389358,
+        "peptide_macro_MAE": 0.4127273964844622,
+        "peptide_macro_RMSE": 0.5202752601297629,
+        "row_MAE": 0.44092157044860086,
+        "row_RMSE": 0.5124748813593716
+      },
+      "composition_ridge": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5822474808622816,
+        "group_peptide_macro_RMSE": 0.6923631539267225,
+        "peptide_macro_MAE": 0.4435755979199447,
+        "peptide_macro_RMSE": 0.5729913030009435,
+        "row_MAE": 0.4528673039354625,
+        "row_RMSE": 0.5845730278523328
+      },
+      "witten_CNN": {
+        "rows": 39,
+        "peptide_IDs": 13,
+        "families": 8,
+        "groups": 7,
+        "weight_sum": 1.0,
+        "group_peptide_macro_MAE": 0.5762617169562861,
+        "group_peptide_macro_RMSE": 0.711454610757982,
+        "peptide_macro_MAE": 0.4636150505471094,
+        "peptide_macro_RMSE": 0.6118679229041466,
+        "row_MAE": 0.5071623866585437,
+        "row_RMSE": 0.5920234029065735
+      }
+    }
+  },
+  "reviewed_sha256": {
+    "freeze": "cde69c299c9dd06f46f69dbe800c43c58e16b14016b64fa3bed150b9e11f2161",
+    "predictions_jsonl": "2f375ce444e5465eab28a1a15823f9dda1c1b800fe0c61b680dfb6d8eb378556",
+    "predictions_csv": "86ffc244a5b7b67a0931478d7ea8ea31412b1f598398341b0b730b1000c440be",
+    "result": "f11a098bd47067464866dd8a6a9ffe54ec6c08d1ecf8fbe1d96cb693ed352657",
+    "audit_script": "c9fd5e7b912eecdf765f9705ce05eae9776b7fe590731db8a5958f1d7dbd47e2",
+    "recomputed_metrics": "44eda29c38afecbbd66510e1a81613375a8c5ad2e9b88a7abb99b8e1572cef31"
+  },
+  "scope": "Independent metric/denominator/group weight recomputation from raw labels and OOF predictions; separate augmented-matrix ridge/constant recomputation; no torch/model import or natural retraining. CNN checkpoint hashes verified but forward pass not rerun.",
+  "limitations": [
+    "All material already exposed; source-family components operational, not proven independent biology.",
+    "Exactly one seed and100epochs, no hyperparameter comparisons or statistically significant/generalization claims.",
+    "Point-report labels only; nonpoint data retained outside this run. Missing covariates retained; no molar conversion or unknown purity assumptions."
+  ]
+}

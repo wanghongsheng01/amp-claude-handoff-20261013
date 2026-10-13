@@ -1,0 +1,37 @@
+{
+  "state": "PREPARED_NOT_EXECUTED_PENDING_INDEPENDENT_REVIEW",
+  "script_sha256": "50c7bc92bcb646056adfe52142946c2e6779ecf4176ae98a43d512dd09683216",
+  "source_root": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011",
+  "h5_runner": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal.py",
+  "h5_runner_sha256": "9580bf84e2ffc2d2d357f77eaca04c338b6608abe0f6a30c17c578cf6e3606b5",
+  "protocol": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/DDPM_MATURITY_PROTOCOL.zh.md",
+  "protocol_sha256": "52e001d850ddc92b3807eaeb08dc61866cc0d5f3061821de814c6d0ff3f9aa23",
+  "posterior_npz": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/categorical_ce/train_posterior_parameters.npz",
+  "posterior_npz_sha256": "df03a4363fb288eeae68626db4e3f233ee43ab19f5a37283fe449d344ac5ae0f",
+  "train_rows": 279,
+  "updates": 1000,
+  "checkpoint_updates": [
+    20,
+    1000
+  ],
+  "ddpm_seed": 322,
+  "sampling_seeds": [
+    422,
+    423
+  ],
+  "batch_size": 8,
+  "noise_steps": 999,
+  "ddpm_lr": 0.005,
+  "samples_per_terminal": 1,
+  "new_vae_updates": 0,
+  "decoder_forwards": 0,
+  "dev_test_reads": 0,
+  "training_seconds_cap": 1020,
+  "generation_seconds_cap": 240,
+  "total_outer_timeout_seconds": 1380,
+  "optimizer": "AdamW lr.005 eps1e-5 betas(.9,.999) weight_decay.01; OneCycleLR total_steps1000; no grad clip; inherited EMA.995 copies current through step1000",
+  "inference": "four fixed latent-only requests; paired CPU generator noise banks in original initial/reverse/epsilon order; all training before inference",
+  "numeric_outcome_policy": "Recorded FloatingPointError sampling failures are numerical diagnostic outcomes; COMPLETE_WITH_NUMERICAL_FAILURES can exit0. Timeouts and other execution errors are INCOMPLETE/FAILED exit2; never imply finite success.",
+  "no_warm_start": true,
+  "interpretation": "only 20 vs1000 on same trajectory, representation, seed, horizon1000; not an exact recreation of old horizon20 smoke, not sequence quality or general VAE stability"
+}

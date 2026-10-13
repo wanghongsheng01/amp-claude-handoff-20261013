@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-12T08:57:03.442050+00:00",
+  "local_sha256": {
+    "PLAN.json": "0253e3b239fb6523e8a67fd3cbc9264de55d9f4a8a44a04e6d5c8bb2e6b1338f",
+    "audit_convert.py": "1f1ec396f17c0f1910dd70f59eeccfe2671365ae97c834a922bc84321716a9a2",
+    "validate_synthetic.py": "7e69ea77f64b987a32ae5be426d814bbc9afcfad434b45c7c4df45f29a17a1e3",
+    "SYNTHETIC_CHECKS.json": "38638de86f90ec136e50d21373e2b5f181e3f87beef333fb0def727239bc97e9"
+  },
+  "mode": "offline chemistry audit, not model training",
+  "limits": {
+    "records": 75,
+    "no_generic_tautomer_enumeration": true,
+    "no_new_requests": true
+  },
+  "source_and_measurement_semantics": "No material-mass-basis overrides",
+  "independent_preaudit_sha256": "d5172146d7638772be71b17ebf91b1b6a09e8f0a1a96170409969d72d80254d9"
+}

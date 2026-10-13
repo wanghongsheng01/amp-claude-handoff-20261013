@@ -1,0 +1,17 @@
+{
+  "identity": "H5_TERMINAL_AR_GRU_REFERENCE_V1",
+  "state": "STATIC_DRAFT_NOT_AUTHORIZATION_TO_FIT",
+  "architecture": {"token_embedding_dim": 32, "terminal_embedding_dim": 8, "hidden_dim": 128, "layers": 1, "max_length": 48},
+  "parameter_count": 68709,
+  "alphabet": "ARNDCEQGHILKMFPSTWYV",
+  "pad_eos_index": 20,
+  "bos_input_only_index": 21,
+  "terminal_class": {"FREE": 0, "AMD": 1},
+  "training_proposal_pending_root": {"optimizer": "Adam", "learning_rate": 0.001, "betas": [0.9, 0.999], "eps": 1e-8, "weight_decay": 0.0, "gradient_clip_l2": 1.0, "batch_size": 32, "objective": "mean observed-token categorical CE", "checkpoint_selection": "final fixed-budget state only", "shuffle": "independent CPU torch.Generator, once per epoch"},
+  "loss_mask": "Residues plus exactly first PAD/EOS for L<48; residues only for L=48. No EOS49 target.",
+  "generation": {"condition": "terminal only", "source_sequence": false, "true_length": false, "temperature": 1.0, "sampling": "categorical", "rejection_resampling": false, "length_cap": 48, "sampling_requests": null, "sampling_seed": null, "condition_source_id": "", "empty_status": "empty_sequence", "nonempty_status": "ok"},
+  "root_pending": ["training updates", "wall cap", "training/init/shuffle seeds", "actual request count and sampling seeds", "smoke protocol", "independent preflight"],
+  "unexecuted_budget_discussion": ["Initial delegation mentioned 96 per method and possible three seeds. Root subsequently clarified this is unbound, do not execute; stricter candidate is 16 per terminal per method, three methods total96. Neither proposal was executed."],
+  "scientific_limits": ["Canonical small AR mechanism implemented locally, not an exact reproduction of LSTM_peptides.", "Same terminal information and request count do not imply equal parameters, compute, latent noise, or model class.", "Development has already been reused; test37 remains sealed.", "Generated terminal is a requested representation, not measured chemistry; sequence metrics are not activity."],
+  "backup_status": "BACKUP_BLOCKED"
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "synthetic cross-version readout contracts only; no AMP data/model/run reads",
+  "tests_run": 6,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v2.py",
+    "bytes": 21751,
+    "sha256": "ee585532c76a6be3adfd38480bdd304b3fbd316704362c69d4064dd18d181bca"
+  },
+  "tests": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/synthetic_readout_v2_tests.py",
+    "bytes": 8689,
+    "sha256": "dd0bfd11bfa4dbb3ea5c2b30a1b87ce47d100d095d34dd917306e7b37ffd424e"
+  },
+  "frozen_dependency": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout.py",
+    "bytes": 25836,
+    "sha256": "75012cfc99e73f7d08c5b69cb0e9cf2d0f74acc28b98f6db8203e4b8536486dd"
+  }
+}

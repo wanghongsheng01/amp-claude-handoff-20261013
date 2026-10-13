@@ -1,0 +1,23 @@
+{
+  "base_sha256": "9fabbd28171a7b1f98118161ca399dbc1fa81a3448cdb42668cddbf0468a492b",
+  "formal_sha256": "9580bf84e2ffc2d2d357f77eaca04c338b6608abe0f6a30c17c578cf6e3606b5",
+  "unchanged_original": true,
+  "changed_existing_functions": [
+    "decode",
+    "generate"
+  ],
+  "added_functions": [
+    "tensor_observation_summary",
+    "save_generation_observations"
+  ],
+  "all_other_function_and_class_AST_identical": true,
+  "AST_parse": "PASS",
+  "execution": "none; no training, no smoke rerun, no torch import",
+  "pre_existing_evidence": "base already wrote generated_posterior_TERMINAL.npz before exp(logsigma)",
+  "new_evidence": [
+    "generated_posterior_summary_TERMINAL.json before exp(logsigma)",
+    "generation_failure_TERMINAL.npz latest available tensors including nonfinite values",
+    "generation_failure_TERMINAL.json finite counts/extrema/phase/timestep",
+    "decoder input/raw recorded before inherited finite checks"
+  ]
+}

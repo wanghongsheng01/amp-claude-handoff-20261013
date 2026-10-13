@@ -1,0 +1,124 @@
+{
+  "schema": "AMP_H5_FINAL_CONDITIONAL_SCIENTIFIC_RECOMMENDATION",
+  "created_utc": "2026-10-11T21:20:59.261640+00:00",
+  "decision": "SUPPORT_EXACT_PREFLIGHT_FOR_ONE_KNOWN_WARMUP_EXPERIMENT",
+  "execution_authorized": false,
+  "new_protocol_version": false,
+  "gate_source": {
+    "status": "EVALUABLE",
+    "threshold": 0.05,
+    "n_dev_sequences": 41,
+    "posterior_draws": 8,
+    "M_sequence_equal_accuracy": 0.7227961128580324,
+    "S8_sequence_equal_accuracy": 0.6611157984837004,
+    "M_minus_S8": 0.06168031437433197,
+    "crosses_investment_threshold": true,
+    "all320x9_complete_finite": true,
+    "meaning": "Prespecified investment screen only; not significance, causal proof, independent repeats or training authorization.",
+    "descriptor_missing_affects_this_gate": false,
+    "difference_exact_fraction": {
+      "numerator": 435643512761,
+      "denominator": 7062926270400
+    },
+    "comparison_rule": "Exact rational counts/target lengths; compare against1/20, no floating tolerance."
+  },
+  "candidate": {
+    "VAE_updates": 1000,
+    "beta": "min(1,u/200), u=0,...,999",
+    "new_DDPM_updates": 0,
+    "new_generation_requests": 0,
+    "candidate_count": 1
+  },
+  "success_rule_authority": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+  "four_success_guards_all_required": [
+    "same dev41/same saved8epsilon: S per-sequence accuracy >= frozen S + .05",
+    "M per-sequence accuracy >= .7227961128580324",
+    "M length MAE <= 0",
+    "S supported-AA macro >= .3792556605509777"
+  ],
+  "gap_shrinkage_role": "descriptive only; neither sufficient nor separately required",
+  "before_launch_still_required": [
+    "exact warmup implementation/plan/input/seed/budget preaudit",
+    "root launch decision and fresh process/load inspection"
+  ],
+  "interpretation": [
+    "M-to-S loss establishes a fixed-model stochastic reconstruction issue, not its unique cause",
+    "mature KL warmup optimization-path experiment; no novelty claim",
+    "historical control reuse, one training seed, repeated dev and unequal cumulative opportunity remain",
+    "representation L/I numerical collision not verified; zero recall is not absent training support",
+    "no automatic downstream DDPM or generation even after reconstruction guards pass"
+  ],
+  "PROMOTE": "HOLD",
+  "original_CE_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+  "operations": {
+    "model_calls": 0,
+    "training_updates": 0,
+    "generation_calls": 0,
+    "RDKit_calls": 0,
+    "test_reads": 0,
+    "new_natural_statistics": 0
+  },
+  "readout": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/FINAL_CONDITIONAL_RECOMMENDATION.zh.md",
+    "bytes": 5722,
+    "sha256": "387445962584342a5afa2e69b43c535b6935ec0cee23c8b147e51660d6a0dfee"
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/BETA_WARMUP_CONDITIONAL_PROTOCOL_v2.json",
+      "bytes": 12234,
+      "sha256": "86f102de2e2e7140a2963ed200fd6668d77c090d1481d17db73f99cc48a4a9ec"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+      "bytes": 4360,
+      "sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/INVESTMENT_SCREEN.json",
+      "bytes": 703,
+      "sha256": "1290fa554b55d9e6ecc6c5251ec52966529bb1dc44cb423ced795fedf7d1f9ff"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/STRATIFIED_CORE_SUMMARIES.json",
+      "bytes": 199243,
+      "sha256": "4934ef758b3302b081123d97b5402fe4eef34f4abaa70173fe04fd069fb922ed"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/MANIFEST.json",
+      "bytes": 2408,
+      "sha256": "c2cc1fba99f43c84b1d191bfd6f2daee41eebc67f53c148b4ae2a47c27af3ef0"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RMS_RECONSTRUCTION_POSTFLIGHT_v2.json",
+      "bytes": 6749,
+      "sha256": "9786d0be1c9d1fa345f598c626cb6d9b284f63aa41e60b8a706bc6772d5e5666"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/DELIVERY_INDEX_v2.json",
+      "bytes": 7889,
+      "sha256": "45b0416062a01cb413c94746151c8a80c2fa1650b391fe62780504aa75c3e926"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/SUMMARY.json",
+      "bytes": 526514,
+      "sha256": "31658bb3b0d247bcf0633e7c862c829fe0859e941fd0b85f793bfff22618b8dc"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "bytes": 41408,
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/molecular_representation.py",
+      "bytes": 4424,
+      "sha256": "4d0d6abb6cb7c49efe69a387270dbd44e49e6749c8515ce2d844ccdc4a717dd4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "bytes": 15962,
+      "sha256": "67254873fcff4dfb660bca8f729798dfdd0873b7f9d6012f0f36b0320dacf036"
+    }
+  ],
+  "independent_scoring_and_distribution_postflight": "PASS"
+}

@@ -1,0 +1,8 @@
+{
+  "visual_review": "One-page appendix reviewed at150%; tables and text visible, correctedASCIIunit/operator symbols preserved",
+  "data_scope": "No new API acquisition; raw responses200 already cached",
+  "package_contents": "One generated appendix PDF only; no original article PDF, model checkpoint, localtrain/dev/test data or helper credential paths bundled",
+  "reproduction": "Standalone cleaner CLI matches all3 deliveredCSV bytes",
+  "scientific_gate": "NO_GO_UNCHANGED",
+  "original27": "UNKNOWN_GENERATION_ORIGIN_AND_SELECTION_RULES_PENDING_AUTHOR"
+}

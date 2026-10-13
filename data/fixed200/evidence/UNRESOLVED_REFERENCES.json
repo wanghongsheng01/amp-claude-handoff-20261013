@@ -1,0 +1,140 @@
+[
+  {
+    "peptide_id": 25752,
+    "activity_id": 204864,
+    "target": "Acinetobacter baumannii",
+    "concentration_raw": "8-16",
+    "unit_raw": "µg/ml",
+    "reference_raw": "",
+    "format": "range_unresolved",
+    "candidate_article_metadata": [
+      {
+        "additional": "",
+        "authors": [
+          {
+            "description": "",
+            "name": "Li X"
+          },
+          {
+            "description": "",
+            "name": "Gong H"
+          },
+          {
+            "description": "",
+            "name": "Wang Y"
+          },
+          {
+            "description": "",
+            "name": "Zhao Y"
+          },
+          {
+            "description": "",
+            "name": "Li L"
+          },
+          {
+            "description": "Bao P",
+            "name": "Bao P"
+          },
+          {
+            "description": "Kong Q",
+            "name": "Kong Q"
+          },
+          {
+            "description": "Fu J",
+            "name": "Fu J"
+          },
+          {
+            "description": "Wan B",
+            "name": "Wan B"
+          }
+        ],
+        "id": 30243,
+        "journal": {
+          "description": "Adv Sci (Weinh)",
+          "name": "Adv Sci (Weinh)"
+        },
+        "pages": "e15835",
+        "pubmed": {
+          "pubmedId": "41801219",
+          "pubmedUrl": "http://www.ncbi.nlm.nih.gov/pubmed/41801219"
+        },
+        "title": "De Novo Multi-Mechanism Antimicrobial Peptide Design via Multimodal Deep Learning",
+        "volume": "13",
+        "year": 2026
+      }
+    ],
+    "decision": "REMAIN_UNRESOLVED_NO_IMPUTATION",
+    "reason": "Empty measurement reference; one peptide-level article alone does not establish measurement-level provenance. No cached original paper evidence found by independent check. Range remains unresolved; not converted to point or verified interval censor."
+  },
+  {
+    "peptide_id": 25758,
+    "activity_id": 204939,
+    "target": "Escherichia coli",
+    "concentration_raw": "16-32",
+    "unit_raw": "µg/ml",
+    "reference_raw": "",
+    "format": "range_unresolved",
+    "candidate_article_metadata": [
+      {
+        "additional": "",
+        "authors": [
+          {
+            "description": "",
+            "name": "Li X"
+          },
+          {
+            "description": "",
+            "name": "Gong H"
+          },
+          {
+            "description": "",
+            "name": "Wang Y"
+          },
+          {
+            "description": "",
+            "name": "Zhao Y"
+          },
+          {
+            "description": "",
+            "name": "Li L"
+          },
+          {
+            "description": "Bao P",
+            "name": "Bao P"
+          },
+          {
+            "description": "Kong Q",
+            "name": "Kong Q"
+          },
+          {
+            "description": "Fu J",
+            "name": "Fu J"
+          },
+          {
+            "description": "Wan B",
+            "name": "Wan B"
+          },
+          {
+            "description": "",
+            "name": "et al."
+          }
+        ],
+        "id": 30250,
+        "journal": {
+          "description": "Adv Sci (Weinh)",
+          "name": "Adv Sci (Weinh)"
+        },
+        "pages": "e15835",
+        "pubmed": {
+          "pubmedId": "41801219",
+          "pubmedUrl": "http://www.ncbi.nlm.nih.gov/pubmed/41801219"
+        },
+        "title": "De Novo Multi-Mechanism Antimicrobial Peptide Design via Multimodal Deep Learning",
+        "volume": "13",
+        "year": 2026
+      }
+    ],
+    "decision": "REMAIN_UNRESOLVED_NO_IMPUTATION",
+    "reason": "Empty measurement reference; one peptide-level article alone does not establish measurement-level provenance. No cached original paper evidence found by independent check. Range remains unresolved; not converted to point or verified interval censor."
+  }
+]

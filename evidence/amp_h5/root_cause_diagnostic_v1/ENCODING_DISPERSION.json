@@ -1,0 +1,1609 @@
+{
+  "ug_ml_native": {
+    "peptide_ID": {
+      "within_fold_buckets": 54,
+      "same_input_empirical_MSE_floor_component": 0.014700992555128245,
+      "multiple_ID_buckets": 0,
+      "multiple_sequence_buckets": 0,
+      "details": [
+        {
+          "group": "G37",
+          "rows": 5,
+          "peptide_IDs": [
+            37
+          ],
+          "sequences": [
+            "GMASKAGAIAGKIAKVALKAL"
+          ],
+          "activity_ids": [
+            36,
+            112057,
+            112058,
+            177211,
+            177212
+          ],
+          "unit_primary_weight_mass": 0.04761904761904762,
+          "weighted_within_bucket_variance_contribution": 0.004487800981954039,
+          "label_log10_span": 0.9030899869919436
+        },
+        {
+          "group": "G873",
+          "rows": 2,
+          "peptide_IDs": [
+            873
+          ],
+          "sequences": [
+            "RAGLQFPVGRVHRLLRK"
+          ],
+          "activity_ids": [
+            4796,
+            141543
+          ],
+          "unit_primary_weight_mass": 0.005291005291005291,
+          "weighted_within_bucket_variance_contribution": 0.00020946593981732988,
+          "label_log10_span": 0.39794000867203766
+        },
+        {
+          "group": "G1737",
+          "rows": 6,
+          "peptide_IDs": [
+            1737
+          ],
+          "sequences": [
+            "KFFRKLKKSVKKRAKEFFKKPRVIGVSIPF"
+          ],
+          "activity_ids": [
+            12526,
+            12527,
+            54742,
+            58515,
+            58517,
+            58519
+          ],
+          "unit_primary_weight_mass": 0.009523809523809523,
+          "weighted_within_bucket_variance_contribution": 0.001469384973289471,
+          "label_log10_span": 1.2041199826559248
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4339
+          ],
+          "sequences": [
+            "VKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31234,
+            31238
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.0008630386503757763,
+          "label_log10_span": 0.6020599913279623
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4379
+          ],
+          "sequences": [
+            "LVKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31244,
+            31248
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.00021575966259394392,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4380
+          ],
+          "sequences": [
+            "KLVKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31254,
+            31258
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.00021575966259394392,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G6742",
+          "rows": 3,
+          "peptide_IDs": [
+            6743
+          ],
+          "sequences": [
+            "PY"
+          ],
+          "activity_ids": [
+            46970,
+            148350,
+            162194
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.00022093933252208576,
+          "label_log10_span": 0.15645578805436489
+        },
+        {
+          "group": "G6785",
+          "rows": 2,
+          "peptide_IDs": [
+            6785
+          ],
+          "sequences": [
+            "DCYCRIPACIAGERRYGTCIYQGRLWAFCC"
+          ],
+          "activity_ids": [
+            47335,
+            47337
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.0010787983129697206,
+          "label_log10_span": 0.3010299956639812
+        },
+        {
+          "group": "G8157",
+          "rows": 2,
+          "peptide_IDs": [
+            8157
+          ],
+          "sequences": [
+            "KFFKRLLKSVRRAVKKFRKKPRLIGLSTLL"
+          ],
+          "activity_ids": [
+            58729,
+            58730
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.001085452630648191,
+          "label_log10_span": 0.3019569853049405
+        },
+        {
+          "group": "G12453",
+          "rows": 2,
+          "peptide_IDs": [
+            12453
+          ],
+          "sequences": [
+            "KLLKHKLLVTLA"
+          ],
+          "activity_ids": [
+            95703,
+            95704
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.001078798312969721,
+          "label_log10_span": 0.30102999566398125
+        },
+        {
+          "group": "G13735",
+          "rows": 2,
+          "peptide_IDs": [
+            13735
+          ],
+          "sequences": [
+            "KDRPKKPGLCPLIWWLIIKVG"
+          ],
+          "activity_ids": [
+            107201,
+            107205
+          ],
+          "unit_primary_weight_mass": 0.023809523809523808,
+          "weighted_within_bucket_variance_contribution": 0.0005393991564848597,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G17268",
+          "rows": 2,
+          "peptide_IDs": [
+            17268
+          ],
+          "sequences": [
+            "KFFKKLKKAVKKGFKKFAKV"
+          ],
+          "activity_ids": [
+            133341,
+            133342
+          ],
+          "unit_primary_weight_mass": 0.007936507936507936,
+          "weighted_within_bucket_variance_contribution": 0.0007191988753131474,
+          "label_log10_span": 0.6020599913279625
+        },
+        {
+          "group": "G17268",
+          "rows": 2,
+          "peptide_IDs": [
+            17269
+          ],
+          "sequences": [
+            "KFFKKLKKAVKKGFKKFAKV"
+          ],
+          "activity_ids": [
+            133347,
+            133348
+          ],
+          "unit_primary_weight_mass": 0.007936507936507936,
+          "weighted_within_bucket_variance_contribution": 0.0007191988753131474,
+          "label_log10_span": 0.6020599913279625
+        },
+        {
+          "group": "G17268",
+          "rows": 2,
+          "peptide_IDs": [
+            17270
+          ],
+          "sequences": [
+            "KFFKKLKKAVKKGFKKFAKV"
+          ],
+          "activity_ids": [
+            133355,
+            133356
+          ],
+          "unit_primary_weight_mass": 0.007936507936507936,
+          "weighted_within_bucket_variance_contribution": 0.00017979971882828684,
+          "label_log10_span": 0.30102999566398125
+        },
+        {
+          "group": "G17268",
+          "rows": 2,
+          "peptide_IDs": [
+            17271
+          ],
+          "sequences": [
+            "KFFKKLKKAVKKGFKKFAKV"
+          ],
+          "activity_ids": [
+            133362,
+            133363
+          ],
+          "unit_primary_weight_mass": 0.007936507936507936,
+          "weighted_within_bucket_variance_contribution": 0.0007191988753131474,
+          "label_log10_span": 0.6020599913279625
+        },
+        {
+          "group": "G17268",
+          "rows": 2,
+          "peptide_IDs": [
+            17272
+          ],
+          "sequences": [
+            "KFFKKLKKAVKKGFKKFAKV"
+          ],
+          "activity_ids": [
+            133369,
+            133370
+          ],
+          "unit_primary_weight_mass": 0.007936507936507936,
+          "weighted_within_bucket_variance_contribution": 0.0007191988753131472,
+          "label_log10_span": 0.6020599913279624
+        },
+        {
+          "group": "G17268",
+          "rows": 2,
+          "peptide_IDs": [
+            17273
+          ],
+          "sequences": [
+            "KFFKKLKKAVKKGFKKFAKV"
+          ],
+          "activity_ids": [
+            133375,
+            133376
+          ],
+          "unit_primary_weight_mass": 0.007936507936507936,
+          "weighted_within_bucket_variance_contribution": 0.0001797997188282867,
+          "label_log10_span": 0.30102999566398114
+        }
+      ],
+      "interpretation": "Weighted label dispersion for identical deterministic inputs within the same fitted fold; algebraic floor on this observed point subset, not estimated biological noise or out-of-sample lower bound. Bucket label means are diagnostic arithmetic, not trained predictors."
+    },
+    "exact_sequence": {
+      "within_fold_buckets": 49,
+      "same_input_empirical_MSE_floor_component": 0.01613939030575454,
+      "multiple_ID_buckets": 1,
+      "multiple_sequence_buckets": 0,
+      "details": [
+        {
+          "group": "G37",
+          "rows": 5,
+          "peptide_IDs": [
+            37
+          ],
+          "sequences": [
+            "GMASKAGAIAGKIAKVALKAL"
+          ],
+          "activity_ids": [
+            36,
+            112057,
+            112058,
+            177211,
+            177212
+          ],
+          "unit_primary_weight_mass": 0.04761904761904762,
+          "weighted_within_bucket_variance_contribution": 0.004487800981954039,
+          "label_log10_span": 0.9030899869919436
+        },
+        {
+          "group": "G873",
+          "rows": 2,
+          "peptide_IDs": [
+            873
+          ],
+          "sequences": [
+            "RAGLQFPVGRVHRLLRK"
+          ],
+          "activity_ids": [
+            4796,
+            141543
+          ],
+          "unit_primary_weight_mass": 0.005291005291005291,
+          "weighted_within_bucket_variance_contribution": 0.00020946593981732988,
+          "label_log10_span": 0.39794000867203766
+        },
+        {
+          "group": "G1737",
+          "rows": 6,
+          "peptide_IDs": [
+            1737
+          ],
+          "sequences": [
+            "KFFRKLKKSVKKRAKEFFKKPRVIGVSIPF"
+          ],
+          "activity_ids": [
+            12526,
+            12527,
+            54742,
+            58515,
+            58517,
+            58519
+          ],
+          "unit_primary_weight_mass": 0.009523809523809523,
+          "weighted_within_bucket_variance_contribution": 0.001469384973289471,
+          "label_log10_span": 1.2041199826559248
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4339
+          ],
+          "sequences": [
+            "VKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31234,
+            31238
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.0008630386503757763,
+          "label_log10_span": 0.6020599913279623
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4379
+          ],
+          "sequences": [
+            "LVKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31244,
+            31248
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.00021575966259394392,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4380
+          ],
+          "sequences": [
+            "KLVKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31254,
+            31258
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.00021575966259394392,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G6742",
+          "rows": 3,
+          "peptide_IDs": [
+            6743
+          ],
+          "sequences": [
+            "PY"
+          ],
+          "activity_ids": [
+            46970,
+            148350,
+            162194
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.00022093933252208576,
+          "label_log10_span": 0.15645578805436489
+        },
+        {
+          "group": "G6785",
+          "rows": 2,
+          "peptide_IDs": [
+            6785
+          ],
+          "sequences": [
+            "DCYCRIPACIAGERRYGTCIYQGRLWAFCC"
+          ],
+          "activity_ids": [
+            47335,
+            47337
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.0010787983129697206,
+          "label_log10_span": 0.3010299956639812
+        },
+        {
+          "group": "G8157",
+          "rows": 2,
+          "peptide_IDs": [
+            8157
+          ],
+          "sequences": [
+            "KFFKRLLKSVRRAVKKFRKKPRLIGLSTLL"
+          ],
+          "activity_ids": [
+            58729,
+            58730
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.001085452630648191,
+          "label_log10_span": 0.3019569853049405
+        },
+        {
+          "group": "G12453",
+          "rows": 2,
+          "peptide_IDs": [
+            12453
+          ],
+          "sequences": [
+            "KLLKHKLLVTLA"
+          ],
+          "activity_ids": [
+            95703,
+            95704
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.001078798312969721,
+          "label_log10_span": 0.30102999566398125
+        },
+        {
+          "group": "G13735",
+          "rows": 2,
+          "peptide_IDs": [
+            13735
+          ],
+          "sequences": [
+            "KDRPKKPGLCPLIWWLIIKVG"
+          ],
+          "activity_ids": [
+            107201,
+            107205
+          ],
+          "unit_primary_weight_mass": 0.023809523809523808,
+          "weighted_within_bucket_variance_contribution": 0.0005393991564848597,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G17268",
+          "rows": 12,
+          "peptide_IDs": [
+            17268,
+            17269,
+            17270,
+            17271,
+            17272,
+            17273
+          ],
+          "sequences": [
+            "KFFKKLKKAVKKGFKKFAKV"
+          ],
+          "activity_ids": [
+            133341,
+            133342,
+            133347,
+            133348,
+            133355,
+            133356,
+            133362,
+            133363,
+            133369,
+            133370,
+            133375,
+            133376
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.004674792689535458,
+          "label_log10_span": 0.9030899869919436
+        }
+      ],
+      "interpretation": "Weighted label dispersion for identical deterministic inputs within the same fitted fold; algebraic floor on this observed point subset, not estimated biological noise or out-of-sample lower bound. Bucket label means are diagnostic arithmetic, not trained predictors."
+    },
+    "composition_and_length": {
+      "within_fold_buckets": 49,
+      "same_input_empirical_MSE_floor_component": 0.01613939030575454,
+      "multiple_ID_buckets": 1,
+      "multiple_sequence_buckets": 0,
+      "details": [
+        {
+          "group": "G37",
+          "rows": 5,
+          "peptide_IDs": [
+            37
+          ],
+          "sequences": [
+            "GMASKAGAIAGKIAKVALKAL"
+          ],
+          "activity_ids": [
+            36,
+            112057,
+            112058,
+            177211,
+            177212
+          ],
+          "unit_primary_weight_mass": 0.04761904761904762,
+          "weighted_within_bucket_variance_contribution": 0.004487800981954039,
+          "label_log10_span": 0.9030899869919436
+        },
+        {
+          "group": "G873",
+          "rows": 2,
+          "peptide_IDs": [
+            873
+          ],
+          "sequences": [
+            "RAGLQFPVGRVHRLLRK"
+          ],
+          "activity_ids": [
+            4796,
+            141543
+          ],
+          "unit_primary_weight_mass": 0.005291005291005291,
+          "weighted_within_bucket_variance_contribution": 0.00020946593981732988,
+          "label_log10_span": 0.39794000867203766
+        },
+        {
+          "group": "G1737",
+          "rows": 6,
+          "peptide_IDs": [
+            1737
+          ],
+          "sequences": [
+            "KFFRKLKKSVKKRAKEFFKKPRVIGVSIPF"
+          ],
+          "activity_ids": [
+            12526,
+            12527,
+            54742,
+            58515,
+            58517,
+            58519
+          ],
+          "unit_primary_weight_mass": 0.009523809523809523,
+          "weighted_within_bucket_variance_contribution": 0.001469384973289471,
+          "label_log10_span": 1.2041199826559248
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4339
+          ],
+          "sequences": [
+            "VKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31234,
+            31238
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.0008630386503757763,
+          "label_log10_span": 0.6020599913279623
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4379
+          ],
+          "sequences": [
+            "LVKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31244,
+            31248
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.00021575966259394392,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G1737",
+          "rows": 2,
+          "peptide_IDs": [
+            4380
+          ],
+          "sequences": [
+            "KLVKRFKKFFRKLKKS"
+          ],
+          "activity_ids": [
+            31254,
+            31258
+          ],
+          "unit_primary_weight_mass": 0.009523809523809525,
+          "weighted_within_bucket_variance_contribution": 0.00021575966259394392,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G6742",
+          "rows": 3,
+          "peptide_IDs": [
+            6743
+          ],
+          "sequences": [
+            "PY"
+          ],
+          "activity_ids": [
+            46970,
+            148350,
+            162194
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.00022093933252208576,
+          "label_log10_span": 0.15645578805436489
+        },
+        {
+          "group": "G6785",
+          "rows": 2,
+          "peptide_IDs": [
+            6785
+          ],
+          "sequences": [
+            "DCYCRIPACIAGERRYGTCIYQGRLWAFCC"
+          ],
+          "activity_ids": [
+            47335,
+            47337
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.0010787983129697206,
+          "label_log10_span": 0.3010299956639812
+        },
+        {
+          "group": "G8157",
+          "rows": 2,
+          "peptide_IDs": [
+            8157
+          ],
+          "sequences": [
+            "KFFKRLLKSVRRAVKKFRKKPRLIGLSTLL"
+          ],
+          "activity_ids": [
+            58729,
+            58730
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.001085452630648191,
+          "label_log10_span": 0.3019569853049405
+        },
+        {
+          "group": "G12453",
+          "rows": 2,
+          "peptide_IDs": [
+            12453
+          ],
+          "sequences": [
+            "KLLKHKLLVTLA"
+          ],
+          "activity_ids": [
+            95703,
+            95704
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.001078798312969721,
+          "label_log10_span": 0.30102999566398125
+        },
+        {
+          "group": "G13735",
+          "rows": 2,
+          "peptide_IDs": [
+            13735
+          ],
+          "sequences": [
+            "KDRPKKPGLCPLIWWLIIKVG"
+          ],
+          "activity_ids": [
+            107201,
+            107205
+          ],
+          "unit_primary_weight_mass": 0.023809523809523808,
+          "weighted_within_bucket_variance_contribution": 0.0005393991564848597,
+          "label_log10_span": 0.30102999566398103
+        },
+        {
+          "group": "G17268",
+          "rows": 12,
+          "peptide_IDs": [
+            17268,
+            17269,
+            17270,
+            17271,
+            17272,
+            17273
+          ],
+          "sequences": [
+            "KFFKKLKKAVKKGFKKFAKV"
+          ],
+          "activity_ids": [
+            133341,
+            133342,
+            133347,
+            133348,
+            133355,
+            133356,
+            133362,
+            133363,
+            133369,
+            133370,
+            133375,
+            133376
+          ],
+          "unit_primary_weight_mass": 0.047619047619047616,
+          "weighted_within_bucket_variance_contribution": 0.004674792689535458,
+          "label_log10_span": 0.9030899869919436
+        }
+      ],
+      "interpretation": "Weighted label dispersion for identical deterministic inputs within the same fitted fold; algebraic floor on this observed point subset, not estimated biological noise or out-of-sample lower bound. Bucket label means are diagnostic arithmetic, not trained predictors."
+    }
+  },
+  "uM_native": {
+    "peptide_ID": {
+      "within_fold_buckets": 27,
+      "same_input_empirical_MSE_floor_component": 0.034258776767850455,
+      "multiple_ID_buckets": 0,
+      "multiple_sequence_buckets": 0,
+      "details": [
+        {
+          "group": "G37",
+          "rows": 3,
+          "peptide_IDs": [
+            37
+          ],
+          "sequences": [
+            "GMASKAGAIAGKIAKVALKAL"
+          ],
+          "activity_ids": [
+            18406,
+            59455,
+            105180
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 0.002063669370418737,
+          "label_log10_span": 0.3802112417116059
+        },
+        {
+          "group": "G2396",
+          "rows": 21,
+          "peptide_IDs": [
+            2398
+          ],
+          "sequences": [
+            "SMLSVLKKLGKVGLGFVACKINKQC"
+          ],
+          "activity_ids": [
+            18590,
+            18593,
+            18594,
+            18603,
+            18604,
+            18605,
+            18606,
+            18607,
+            18608,
+            18609,
+            18610,
+            18611,
+            18612,
+            18613,
+            18614,
+            18615,
+            18616,
+            18617,
+            18618,
+            18619,
+            18620
+          ],
+          "unit_primary_weight_mass": 0.015384615384615392,
+          "weighted_within_bucket_variance_contribution": 0.0003856802759921054,
+          "label_log10_span": 0.6020599913279624
+        },
+        {
+          "group": "G3232",
+          "rows": 5,
+          "peptide_IDs": [
+            3232
+          ],
+          "sequences": [
+            "FFFLSRIF"
+          ],
+          "activity_ids": [
+            24714,
+            24716,
+            24717,
+            68607,
+            101190
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 0.0027685385030985638,
+          "label_log10_span": 0.6665179805548809
+        },
+        {
+          "group": "G6669",
+          "rows": 3,
+          "peptide_IDs": [
+            6669
+          ],
+          "sequences": [
+            "RGGLCYCRGRFCVCVGR"
+          ],
+          "activity_ids": [
+            183419,
+            183420,
+            183421
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 2.370375316168906e-34,
+          "label_log10_span": 0.0
+        },
+        {
+          "group": "G12531",
+          "rows": 3,
+          "peptide_IDs": [
+            12531
+          ],
+          "sequences": [
+            "RFRPPIRRPPIRPPFYPPFRPPIRP"
+          ],
+          "activity_ids": [
+            96162,
+            96164,
+            96166
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 0.024784699703099225,
+          "label_log10_span": 1.2041199826559248
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12533
+          ],
+          "sequences": [
+            "GGGGLRKRLRKFRNKIKEKLKKIGQKIQGLLPKLA"
+          ],
+          "activity_ids": [
+            96187,
+            96200
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12534
+          ],
+          "sequences": [
+            "GGGGLRKRLRKFRNKCKEKLKKCGQKIQGLLPKLA"
+          ],
+          "activity_ids": [
+            96188,
+            96199
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 3.566782289813168e-05,
+          "label_log10_span": 0.11394335230683679
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12535
+          ],
+          "sequences": [
+            "GGGRGLRRLGRKIAHGVKKYGPTVLRIIRIAG"
+          ],
+          "activity_ids": [
+            96189,
+            96198
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12536
+          ],
+          "sequences": [
+            "GGGCGLRRLGCKIAHGVKKYGPTVLRIIRIAG"
+          ],
+          "activity_ids": [
+            96190,
+            96197
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0002489534568391663,
+          "label_log10_span": 0.3010299956639812
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12537
+          ],
+          "sequences": [
+            "GGGGRFKRFRKKFKKLFKKLSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96191,
+            96196
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12538
+          ],
+          "sequences": [
+            "GGGGRFKRFRKKCKKLFKKCSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96192,
+            96195
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0013172306557541558,
+          "label_log10_span": 0.692439137177061
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12539
+          ],
+          "sequences": [
+            "GGGGKKCKKLFKKCSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96193,
+            96194
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0002768014226933761,
+          "label_log10_span": 0.3174204118521506
+        },
+        {
+          "group": "G13692",
+          "rows": 3,
+          "peptide_IDs": [
+            13692
+          ],
+          "sequences": [
+            "WKIKWKIKWKIK"
+          ],
+          "activity_ids": [
+            106653,
+            106698,
+            106818
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 1.185187658084453e-34,
+          "label_log10_span": 0.0
+        },
+        {
+          "group": "G13692",
+          "rows": 3,
+          "peptide_IDs": [
+            13693
+          ],
+          "sequences": [
+            "WRVRWKVRWRVK"
+          ],
+          "activity_ids": [
+            106652,
+            106699,
+            106817
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 0.0023235655971655523,
+          "label_log10_span": 0.6020599913279624
+        }
+      ],
+      "interpretation": "Weighted label dispersion for identical deterministic inputs within the same fitted fold; algebraic floor on this observed point subset, not estimated biological noise or out-of-sample lower bound. Bucket label means are diagnostic arithmetic, not trained predictors."
+    },
+    "exact_sequence": {
+      "within_fold_buckets": 27,
+      "same_input_empirical_MSE_floor_component": 0.034258776767850455,
+      "multiple_ID_buckets": 0,
+      "multiple_sequence_buckets": 0,
+      "details": [
+        {
+          "group": "G37",
+          "rows": 3,
+          "peptide_IDs": [
+            37
+          ],
+          "sequences": [
+            "GMASKAGAIAGKIAKVALKAL"
+          ],
+          "activity_ids": [
+            18406,
+            59455,
+            105180
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 0.002063669370418737,
+          "label_log10_span": 0.3802112417116059
+        },
+        {
+          "group": "G2396",
+          "rows": 21,
+          "peptide_IDs": [
+            2398
+          ],
+          "sequences": [
+            "SMLSVLKKLGKVGLGFVACKINKQC"
+          ],
+          "activity_ids": [
+            18590,
+            18593,
+            18594,
+            18603,
+            18604,
+            18605,
+            18606,
+            18607,
+            18608,
+            18609,
+            18610,
+            18611,
+            18612,
+            18613,
+            18614,
+            18615,
+            18616,
+            18617,
+            18618,
+            18619,
+            18620
+          ],
+          "unit_primary_weight_mass": 0.015384615384615392,
+          "weighted_within_bucket_variance_contribution": 0.0003856802759921054,
+          "label_log10_span": 0.6020599913279624
+        },
+        {
+          "group": "G3232",
+          "rows": 5,
+          "peptide_IDs": [
+            3232
+          ],
+          "sequences": [
+            "FFFLSRIF"
+          ],
+          "activity_ids": [
+            24714,
+            24716,
+            24717,
+            68607,
+            101190
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 0.0027685385030985638,
+          "label_log10_span": 0.6665179805548809
+        },
+        {
+          "group": "G6669",
+          "rows": 3,
+          "peptide_IDs": [
+            6669
+          ],
+          "sequences": [
+            "RGGLCYCRGRFCVCVGR"
+          ],
+          "activity_ids": [
+            183419,
+            183420,
+            183421
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 2.370375316168906e-34,
+          "label_log10_span": 0.0
+        },
+        {
+          "group": "G12531",
+          "rows": 3,
+          "peptide_IDs": [
+            12531
+          ],
+          "sequences": [
+            "RFRPPIRRPPIRPPFYPPFRPPIRP"
+          ],
+          "activity_ids": [
+            96162,
+            96164,
+            96166
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 0.024784699703099225,
+          "label_log10_span": 1.2041199826559248
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12533
+          ],
+          "sequences": [
+            "GGGGLRKRLRKFRNKIKEKLKKIGQKIQGLLPKLA"
+          ],
+          "activity_ids": [
+            96187,
+            96200
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12534
+          ],
+          "sequences": [
+            "GGGGLRKRLRKFRNKCKEKLKKCGQKIQGLLPKLA"
+          ],
+          "activity_ids": [
+            96188,
+            96199
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 3.566782289813168e-05,
+          "label_log10_span": 0.11394335230683679
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12535
+          ],
+          "sequences": [
+            "GGGRGLRRLGRKIAHGVKKYGPTVLRIIRIAG"
+          ],
+          "activity_ids": [
+            96189,
+            96198
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12536
+          ],
+          "sequences": [
+            "GGGCGLRRLGCKIAHGVKKYGPTVLRIIRIAG"
+          ],
+          "activity_ids": [
+            96190,
+            96197
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0002489534568391663,
+          "label_log10_span": 0.3010299956639812
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12537
+          ],
+          "sequences": [
+            "GGGGRFKRFRKKFKKLFKKLSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96191,
+            96196
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12538
+          ],
+          "sequences": [
+            "GGGGRFKRFRKKCKKLFKKCSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96192,
+            96195
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0013172306557541558,
+          "label_log10_span": 0.692439137177061
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12539
+          ],
+          "sequences": [
+            "GGGGKKCKKLFKKCSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96193,
+            96194
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0002768014226933761,
+          "label_log10_span": 0.3174204118521506
+        },
+        {
+          "group": "G13692",
+          "rows": 3,
+          "peptide_IDs": [
+            13692
+          ],
+          "sequences": [
+            "WKIKWKIKWKIK"
+          ],
+          "activity_ids": [
+            106653,
+            106698,
+            106818
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 1.185187658084453e-34,
+          "label_log10_span": 0.0
+        },
+        {
+          "group": "G13692",
+          "rows": 3,
+          "peptide_IDs": [
+            13693
+          ],
+          "sequences": [
+            "WRVRWKVRWRVK"
+          ],
+          "activity_ids": [
+            106652,
+            106699,
+            106817
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 0.0023235655971655523,
+          "label_log10_span": 0.6020599913279624
+        }
+      ],
+      "interpretation": "Weighted label dispersion for identical deterministic inputs within the same fitted fold; algebraic floor on this observed point subset, not estimated biological noise or out-of-sample lower bound. Bucket label means are diagnostic arithmetic, not trained predictors."
+    },
+    "composition_and_length": {
+      "within_fold_buckets": 26,
+      "same_input_empirical_MSE_floor_component": 0.03509494425145629,
+      "multiple_ID_buckets": 1,
+      "multiple_sequence_buckets": 1,
+      "details": [
+        {
+          "group": "G37",
+          "rows": 3,
+          "peptide_IDs": [
+            37
+          ],
+          "sequences": [
+            "GMASKAGAIAGKIAKVALKAL"
+          ],
+          "activity_ids": [
+            18406,
+            59455,
+            105180
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 0.002063669370418737,
+          "label_log10_span": 0.3802112417116059
+        },
+        {
+          "group": "G2396",
+          "rows": 22,
+          "peptide_IDs": [
+            2398,
+            2400
+          ],
+          "sequences": [
+            "SMLSVLKKLGKVGLGFVACKINKQC",
+            "SMLSVLKNLGKVGLGFVACKIKKQC"
+          ],
+          "activity_ids": [
+            18590,
+            18593,
+            18594,
+            18603,
+            18604,
+            18605,
+            18606,
+            18607,
+            18608,
+            18609,
+            18610,
+            18611,
+            18612,
+            18613,
+            18614,
+            18615,
+            18616,
+            18617,
+            18618,
+            18619,
+            18620,
+            18625
+          ],
+          "unit_primary_weight_mass": 0.030769230769230778,
+          "weighted_within_bucket_variance_contribution": 0.0012218477595979398,
+          "label_log10_span": 0.6020599913279624
+        },
+        {
+          "group": "G3232",
+          "rows": 5,
+          "peptide_IDs": [
+            3232
+          ],
+          "sequences": [
+            "FFFLSRIF"
+          ],
+          "activity_ids": [
+            24714,
+            24716,
+            24717,
+            68607,
+            101190
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 0.0027685385030985638,
+          "label_log10_span": 0.6665179805548809
+        },
+        {
+          "group": "G6669",
+          "rows": 3,
+          "peptide_IDs": [
+            6669
+          ],
+          "sequences": [
+            "RGGLCYCRGRFCVCVGR"
+          ],
+          "activity_ids": [
+            183419,
+            183420,
+            183421
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 2.370375316168906e-34,
+          "label_log10_span": 0.0
+        },
+        {
+          "group": "G12531",
+          "rows": 3,
+          "peptide_IDs": [
+            12531
+          ],
+          "sequences": [
+            "RFRPPIRRPPIRPPFYPPFRPPIRP"
+          ],
+          "activity_ids": [
+            96162,
+            96164,
+            96166
+          ],
+          "unit_primary_weight_mass": 0.07692307692307693,
+          "weighted_within_bucket_variance_contribution": 0.024784699703099225,
+          "label_log10_span": 1.2041199826559248
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12533
+          ],
+          "sequences": [
+            "GGGGLRKRLRKFRNKIKEKLKKIGQKIQGLLPKLA"
+          ],
+          "activity_ids": [
+            96187,
+            96200
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12534
+          ],
+          "sequences": [
+            "GGGGLRKRLRKFRNKCKEKLKKCGQKIQGLLPKLA"
+          ],
+          "activity_ids": [
+            96188,
+            96199
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 3.566782289813168e-05,
+          "label_log10_span": 0.11394335230683679
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12535
+          ],
+          "sequences": [
+            "GGGRGLRRLGRKIAHGVKKYGPTVLRIIRIAG"
+          ],
+          "activity_ids": [
+            96189,
+            96198
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12536
+          ],
+          "sequences": [
+            "GGGCGLRRLGCKIAHGVKKYGPTVLRIIRIAG"
+          ],
+          "activity_ids": [
+            96190,
+            96197
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0002489534568391663,
+          "label_log10_span": 0.3010299956639812
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12537
+          ],
+          "sequences": [
+            "GGGGRFKRFRKKFKKLFKKLSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96191,
+            96196
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 1.798998663048141e-05,
+          "label_log10_span": 0.08092190762392612
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12538
+          ],
+          "sequences": [
+            "GGGGRFKRFRKKCKKLFKKCSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96192,
+            96195
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0013172306557541558,
+          "label_log10_span": 0.692439137177061
+        },
+        {
+          "group": "G12533",
+          "rows": 2,
+          "peptide_IDs": [
+            12539
+          ],
+          "sequences": [
+            "GGGGKKCKKLFKKCSPVIPLLHLG"
+          ],
+          "activity_ids": [
+            96193,
+            96194
+          ],
+          "unit_primary_weight_mass": 0.01098901098901099,
+          "weighted_within_bucket_variance_contribution": 0.0002768014226933761,
+          "label_log10_span": 0.3174204118521506
+        },
+        {
+          "group": "G13692",
+          "rows": 3,
+          "peptide_IDs": [
+            13692
+          ],
+          "sequences": [
+            "WKIKWKIKWKIK"
+          ],
+          "activity_ids": [
+            106653,
+            106698,
+            106818
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 1.185187658084453e-34,
+          "label_log10_span": 0.0
+        },
+        {
+          "group": "G13692",
+          "rows": 3,
+          "peptide_IDs": [
+            13693
+          ],
+          "sequences": [
+            "WRVRWKVRWRVK"
+          ],
+          "activity_ids": [
+            106652,
+            106699,
+            106817
+          ],
+          "unit_primary_weight_mass": 0.038461538461538464,
+          "weighted_within_bucket_variance_contribution": 0.0023235655971655523,
+          "label_log10_span": 0.6020599913279624
+        }
+      ],
+      "interpretation": "Weighted label dispersion for identical deterministic inputs within the same fitted fold; algebraic floor on this observed point subset, not estimated biological noise or out-of-sample lower bound. Bucket label means are diagnostic arithmetic, not trained predictors."
+    }
+  }
+}

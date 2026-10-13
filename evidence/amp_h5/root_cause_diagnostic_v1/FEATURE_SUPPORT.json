@@ -1,0 +1,1472 @@
+[
+  {
+    "unit": "ug_ml_native",
+    "group": "G102",
+    "activity_id": 50769,
+    "peptide_id": 102,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "N"
+    ],
+    "max_abs_standardized_feature": 6.499585907966815
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G12453",
+    "activity_id": 95703,
+    "peptide_id": 12453,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "L"
+    ],
+    "max_abs_standardized_feature": 4.840027852156742
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G12453",
+    "activity_id": 95704,
+    "peptide_id": 12453,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "L"
+    ],
+    "max_abs_standardized_feature": 4.840027852156742
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G12529",
+    "activity_id": 161390,
+    "peptide_id": 12529,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 0.9461148659690782
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G13726",
+    "activity_id": 107126,
+    "peptide_id": 13726,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "I"
+    ],
+    "max_abs_standardized_feature": 4.696923434649891
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G13735",
+    "activity_id": 107201,
+    "peptide_id": 13735,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.5917837133539345
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G13735",
+    "activity_id": 107205,
+    "peptide_id": 13735,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.5917837133539345
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G13735",
+    "activity_id": 107203,
+    "peptide_id": 13736,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.443440644485133
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133341,
+    "peptide_id": 17268,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133342,
+    "peptide_id": 17268,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133347,
+    "peptide_id": 17269,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133348,
+    "peptide_id": 17269,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133355,
+    "peptide_id": 17270,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133356,
+    "peptide_id": 17270,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133362,
+    "peptide_id": 17271,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133363,
+    "peptide_id": 17271,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133369,
+    "peptide_id": 17272,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133370,
+    "peptide_id": 17272,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133375,
+    "peptide_id": 17273,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "activity_id": 133376,
+    "peptide_id": 17273,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.3682839197521415
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 12526,
+    "peptide_id": 1737,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.247835118752192
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 12527,
+    "peptide_id": 1737,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.247835118752192
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 54742,
+    "peptide_id": 1737,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.247835118752192
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 58515,
+    "peptide_id": 1737,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.247835118752192
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 58517,
+    "peptide_id": 1737,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.247835118752192
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 58519,
+    "peptide_id": 1737,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.247835118752192
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 12601,
+    "peptide_id": 1738,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.8397060575693085
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 31234,
+    "peptide_id": 4339,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "F"
+    ],
+    "max_abs_standardized_feature": 3.093365031348072
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 31238,
+    "peptide_id": 4339,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "F"
+    ],
+    "max_abs_standardized_feature": 3.093365031348072
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 31244,
+    "peptide_id": 4379,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.8397060575693085
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 31248,
+    "peptide_id": 4379,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.8397060575693085
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 31254,
+    "peptide_id": 4380,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.6177544555128898
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "activity_id": 31258,
+    "peptide_id": 4380,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.6177544555128898
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G2425",
+    "activity_id": 18691,
+    "peptide_id": 2425,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.655970023119354
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G2425",
+    "activity_id": 18696,
+    "peptide_id": 2426,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.053211619383915
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G2425",
+    "activity_id": 18699,
+    "peptide_id": 2427,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.6976550925593386
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G2425",
+    "activity_id": 18702,
+    "peptide_id": 2428,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.8737757377040223
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3086",
+    "activity_id": 23078,
+    "peptide_id": 3086,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.7161652736594233
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3086",
+    "activity_id": 23089,
+    "peptide_id": 3087,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.8410074621639887
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3086",
+    "activity_id": 23100,
+    "peptide_id": 3088,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.9762531663772673
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3198",
+    "activity_id": 23905,
+    "peptide_id": 3198,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "D",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 4.998695191131628
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3224",
+    "activity_id": 24672,
+    "peptide_id": 3224,
+    "outside_train_feature_count": 3,
+    "outside_feature_names": [
+      "E",
+      "M",
+      "T"
+    ],
+    "max_abs_standardized_feature": 7.814148774150988
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3224",
+    "activity_id": 24676,
+    "peptide_id": 3225,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "M",
+      "Q"
+    ],
+    "max_abs_standardized_feature": 6.90482195436687
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3224",
+    "activity_id": 24680,
+    "peptide_id": 3226,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "M"
+    ],
+    "max_abs_standardized_feature": 5.5821647619536074
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G37",
+    "activity_id": 36,
+    "peptide_id": 37,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.712430754084937
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G37",
+    "activity_id": 112057,
+    "peptide_id": 37,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.712430754084937
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G37",
+    "activity_id": 112058,
+    "peptide_id": 37,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.712430754084937
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G37",
+    "activity_id": 177211,
+    "peptide_id": 37,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.712430754084937
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G37",
+    "activity_id": 177212,
+    "peptide_id": 37,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.712430754084937
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G4013",
+    "activity_id": 28735,
+    "peptide_id": 4015,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "V"
+    ],
+    "max_abs_standardized_feature": 4.318994325733923
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G4013",
+    "activity_id": 28747,
+    "peptide_id": 4021,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.1296891238779327
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5545",
+    "activity_id": 39663,
+    "peptide_id": 5545,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.025905243996001
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5545",
+    "activity_id": 39673,
+    "peptide_id": 5546,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.9621667034999974
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5545",
+    "activity_id": 39683,
+    "peptide_id": 5547,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.578154459088072
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5545",
+    "activity_id": 39693,
+    "peptide_id": 5548,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.3479291167100764
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5545",
+    "activity_id": 39703,
+    "peptide_id": 5549,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 4.348192787607121
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5556",
+    "activity_id": 39782,
+    "peptide_id": 5556,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.47394674409375
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5556",
+    "activity_id": 39795,
+    "peptide_id": 5557,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.47394674409375
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5556",
+    "activity_id": 39808,
+    "peptide_id": 5558,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.5947300201729315
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5556",
+    "activity_id": 39821,
+    "peptide_id": 5559,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.248869686102062
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6669",
+    "activity_id": 57368,
+    "peptide_id": 6669,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "C",
+      "G"
+    ],
+    "max_abs_standardized_feature": 4.473524057161675
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6742",
+    "activity_id": 46970,
+    "peptide_id": 6743,
+    "outside_train_feature_count": 3,
+    "outside_feature_names": [
+      "P",
+      "Y",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 12.384319991164611
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6742",
+    "activity_id": 148350,
+    "peptide_id": 6743,
+    "outside_train_feature_count": 3,
+    "outside_feature_names": [
+      "P",
+      "Y",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 12.384319991164611
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6742",
+    "activity_id": 162194,
+    "peptide_id": 6743,
+    "outside_train_feature_count": 3,
+    "outside_feature_names": [
+      "P",
+      "Y",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 12.384319991164611
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6785",
+    "activity_id": 47335,
+    "peptide_id": 6785,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.2461831370511507
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6785",
+    "activity_id": 47337,
+    "peptide_id": 6785,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.2461831370511507
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G8110",
+    "activity_id": 91533,
+    "peptide_id": 8110,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "R",
+      "W"
+    ],
+    "max_abs_standardized_feature": 18.53647514365952
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G8157",
+    "activity_id": 58729,
+    "peptide_id": 8157,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 0.9711830480945561
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G8157",
+    "activity_id": 58730,
+    "peptide_id": 8157,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 0.9711830480945561
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4796,
+    "peptide_id": 873,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.8278292056817698
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 141543,
+    "peptide_id": 873,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.8278292056817698
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4807,
+    "peptide_id": 874,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.0238171196730246
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4818,
+    "peptide_id": 875,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.2459367555297804
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4829,
+    "peptide_id": 876,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.4997877679375007
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4840,
+    "peptide_id": 877,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.792692782254102
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4851,
+    "peptide_id": 878,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 4.134415298956802
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4862,
+    "peptide_id": 879,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "H"
+    ],
+    "max_abs_standardized_feature": 4.538269182332722
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4884,
+    "peptide_id": 881,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.0238171196730246
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "activity_id": 4895,
+    "peptide_id": 882,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.2459367555297804
+  },
+  {
+    "unit": "uM_native",
+    "group": "G102",
+    "activity_id": 51566,
+    "peptide_id": 107,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "T"
+    ],
+    "max_abs_standardized_feature": 6.338115303918744
+  },
+  {
+    "unit": "uM_native",
+    "group": "G102",
+    "activity_id": 51569,
+    "peptide_id": 108,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "L",
+      "T"
+    ],
+    "max_abs_standardized_feature": 7.860358347514952
+  },
+  {
+    "unit": "uM_native",
+    "group": "G103",
+    "activity_id": 340,
+    "peptide_id": 110,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "A"
+    ],
+    "max_abs_standardized_feature": 5.407611639607561
+  },
+  {
+    "unit": "uM_native",
+    "group": "G103",
+    "activity_id": 343,
+    "peptide_id": 111,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "I"
+    ],
+    "max_abs_standardized_feature": 2.201027543027696
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12531",
+    "activity_id": 96162,
+    "peptide_id": 12531,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "P"
+    ],
+    "max_abs_standardized_feature": 15.686196856088285
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12531",
+    "activity_id": 96164,
+    "peptide_id": 12531,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "P"
+    ],
+    "max_abs_standardized_feature": 15.686196856088285
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12531",
+    "activity_id": 96166,
+    "peptide_id": 12531,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "P"
+    ],
+    "max_abs_standardized_feature": 15.686196856088285
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96187,
+    "peptide_id": 12533,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 2.1751889858824374
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96200,
+    "peptide_id": 12533,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 2.1751889858824374
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96188,
+    "peptide_id": 12534,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 2.1751889858824374
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96199,
+    "peptide_id": 12534,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 2.1751889858824374
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96189,
+    "peptide_id": 12535,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "G",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 2.5563961788625806
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96198,
+    "peptide_id": 12535,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "G",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 2.5563961788625806
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96190,
+    "peptide_id": 12536,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "G",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 2.5563961788625806
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96197,
+    "peptide_id": 12536,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "G",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 2.5563961788625806
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96191,
+    "peptide_id": 12537,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 1.422321956386685
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96196,
+    "peptide_id": 12537,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 1.422321956386685
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96192,
+    "peptide_id": 12538,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 1.422321956386685
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96195,
+    "peptide_id": 12538,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 1.422321956386685
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96193,
+    "peptide_id": 12539,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.9893590676246329
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "activity_id": 96194,
+    "peptide_id": 12539,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.9893590676246329
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13692",
+    "activity_id": 106653,
+    "peptide_id": 13692,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.492974845821395
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13692",
+    "activity_id": 106698,
+    "peptide_id": 13692,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.492974845821395
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13692",
+    "activity_id": 106818,
+    "peptide_id": 13692,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "K"
+    ],
+    "max_abs_standardized_feature": 3.492974845821395
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13692",
+    "activity_id": 106652,
+    "peptide_id": 13693,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "V"
+    ],
+    "max_abs_standardized_feature": 4.290063534028685
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13692",
+    "activity_id": 106699,
+    "peptide_id": 13693,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "V"
+    ],
+    "max_abs_standardized_feature": 4.290063534028685
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13692",
+    "activity_id": 106817,
+    "peptide_id": 13693,
+    "outside_train_feature_count": 1,
+    "outside_feature_names": [
+      "V"
+    ],
+    "max_abs_standardized_feature": 4.290063534028685
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13726",
+    "activity_id": 133771,
+    "peptide_id": 13726,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.047045786412544
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18584,
+    "peptide_id": 2396,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18590,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18593,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18594,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18603,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18604,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18605,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18606,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18607,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18608,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18609,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18610,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18611,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18612,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18613,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18614,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18615,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18616,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18617,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18618,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18619,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18620,
+    "peptide_id": 2398,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18622,
+    "peptide_id": 2399,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18625,
+    "peptide_id": 2400,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "activity_id": 18628,
+    "peptide_id": 2401,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.758475452568599
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3232",
+    "activity_id": 24714,
+    "peptide_id": 3232,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "F",
+      "S"
+    ],
+    "max_abs_standardized_feature": 8.836730823146295
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3232",
+    "activity_id": 24716,
+    "peptide_id": 3232,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "F",
+      "S"
+    ],
+    "max_abs_standardized_feature": 8.836730823146295
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3232",
+    "activity_id": 24717,
+    "peptide_id": 3232,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "F",
+      "S"
+    ],
+    "max_abs_standardized_feature": 8.836730823146295
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3232",
+    "activity_id": 68607,
+    "peptide_id": 3232,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "F",
+      "S"
+    ],
+    "max_abs_standardized_feature": 8.836730823146295
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3232",
+    "activity_id": 101190,
+    "peptide_id": 3232,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "F",
+      "S"
+    ],
+    "max_abs_standardized_feature": 8.836730823146295
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3232",
+    "activity_id": 46020,
+    "peptide_id": 6568,
+    "outside_train_feature_count": 3,
+    "outside_feature_names": [
+      "H",
+      "Y",
+      "loglength"
+    ],
+    "max_abs_standardized_feature": 12.228985742855595
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3301",
+    "activity_id": 25117,
+    "peptide_id": 3301,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.9548428317165947
+  },
+  {
+    "unit": "uM_native",
+    "group": "G37",
+    "activity_id": 18406,
+    "peptide_id": 37,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.4285328484963986
+  },
+  {
+    "unit": "uM_native",
+    "group": "G37",
+    "activity_id": 59455,
+    "peptide_id": 37,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.4285328484963986
+  },
+  {
+    "unit": "uM_native",
+    "group": "G37",
+    "activity_id": 105180,
+    "peptide_id": 37,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 2.4285328484963986
+  },
+  {
+    "unit": "uM_native",
+    "group": "G6669",
+    "activity_id": 183419,
+    "peptide_id": 6669,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.5565572020557155
+  },
+  {
+    "unit": "uM_native",
+    "group": "G6669",
+    "activity_id": 183420,
+    "peptide_id": 6669,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.5565572020557155
+  },
+  {
+    "unit": "uM_native",
+    "group": "G6669",
+    "activity_id": 183421,
+    "peptide_id": 6669,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 3.5565572020557155
+  },
+  {
+    "unit": "uM_native",
+    "group": "G8110",
+    "activity_id": 199969,
+    "peptide_id": 8110,
+    "outside_train_feature_count": 2,
+    "outside_feature_names": [
+      "R",
+      "W"
+    ],
+    "max_abs_standardized_feature": 6.3801425669088445
+  },
+  {
+    "unit": "uM_native",
+    "group": "G873",
+    "activity_id": 62980,
+    "peptide_id": 874,
+    "outside_train_feature_count": 0,
+    "outside_feature_names": [],
+    "max_abs_standardized_feature": 1.3909975279085884
+  }
+]

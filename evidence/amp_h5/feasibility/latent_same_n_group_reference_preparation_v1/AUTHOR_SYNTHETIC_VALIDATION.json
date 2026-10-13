@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-10-11T19:46:03.860128+00:00",
+  "status": "PASS_SYNTHETIC_DETERMINISTIC_ONLY",
+  "checks": [
+    {
+      "name": "DP_matches_bruteforce_(1, 1)",
+      "pass": true
+    },
+    {
+      "name": "Every_feasible_subset_exact_uniform_(1, 1)",
+      "pass": true
+    },
+    {
+      "name": "DP_matches_bruteforce_(2, 2)",
+      "pass": true
+    },
+    {
+      "name": "Every_feasible_subset_exact_uniform_(2, 2)",
+      "pass": true
+    },
+    {
+      "name": "integer_rejection_not_float",
+      "pass": true
+    },
+    {
+      "name": "arbitrary_precision_raw_words",
+      "pass": true
+    },
+    {
+      "name": "bound1_consumes_no_random",
+      "pass": true
+    },
+    {
+      "name": "synthetic_self_range_zero",
+      "pass": true
+    },
+    {
+      "name": "synthetic_identity_structures",
+      "pass": true
+    },
+    {
+      "name": "undefined_corr_explicit",
+      "pass": true
+    },
+    {
+      "name": "script_protocol_exacthash",
+      "pass": true
+    },
+    {
+      "name": "no_torch_import_or_covariance",
+      "pass": true
+    },
+    {
+      "name": "same_n_natural_output_absent",
+      "pass": true
+    }
+  ],
+  "protocol_sha256": "69996b7e20e0126878f2847c51e8a06d982924cc76d0b60e2d6d4e62c238d0b3",
+  "script_sha256": "4f8e18e287b1f81a9103db1140f3ffb2d30ae4f182173fa26b63b156abc1861a",
+  "model_calls": 0,
+  "natural_latent_array_loads": 0,
+  "natural_component_selections": 0,
+  "actual_RNG_calls": 0,
+  "synthetic_raw_bits_only": true,
+  "not_an_independent_receipt": true
+}

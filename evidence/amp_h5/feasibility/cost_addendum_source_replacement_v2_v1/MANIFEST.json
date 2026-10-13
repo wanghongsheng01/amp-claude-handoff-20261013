@@ -1,0 +1,40 @@
+{
+  "scope": "v4-preserving terminal source-v2 cost addendum; analysis separate",
+  "files": [
+    {
+      "path": "COST_ADDENDUM.json",
+      "bytes": 12087,
+      "sha256": "8132da75896f07623f5389a56274bee82db4611d664288a2df1d53f3986a4a52"
+    },
+    {
+      "path": "NEW_ANALYSIS_COSTS.csv",
+      "bytes": 1486,
+      "sha256": "784c9c90cd6e72375de943b4f376797c79582bd62d5692e8b4a0ae63237925dc"
+    },
+    {
+      "path": "NEW_CONTROL_DENOMINATORS.csv",
+      "bytes": 359,
+      "sha256": "ab1c2081eb1b264b8dfd005720b457761372c404b4914f289a46c0889f342662"
+    },
+    {
+      "path": "READOUT.zh.md",
+      "bytes": 3222,
+      "sha256": "85c5bceae49bc503c36c16d97ca5de9464c691e431b15d4c5a2e9c9ecf2fa967"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 6338,
+      "sha256": "3a143d7e861c47391eb450d8f763f2f0d7a138ea4895133ef7299c08694fcaeb"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 1138,
+      "sha256": "480fabcc86de6602e01802ea8a3de2ec9543ce93affa0223ae18de9aa6783328"
+    },
+    {
+      "path": "build_addendum.py",
+      "bytes": 20618,
+      "sha256": "b25d2c8423e7bccfbe601cf87c20da6e58b52272d4ecd11fe20d4fb87c2edb8d"
+    }
+  ]
+}

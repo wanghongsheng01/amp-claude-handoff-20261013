@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-11T19:24:25.839171+00:00",
+  "scope": "new append-only static audit deliverables",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/LATENT_ROUTE_STATIC_AUDIT.json",
+      "sha256": "cddbc4a3ee25926f6654afabfeef8448b77adc3d4620b0e9664cb60b6d2f1096",
+      "bytes": 114898
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/READOUT.zh.md",
+      "sha256": "f3967be1b2c07706447ac2277766698322b85a3fe98f676499d12f93655b75a7",
+      "bytes": 6514
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/SAVED_ARRAY_SCHEMAS.json",
+      "sha256": "b0208748d625850b61cbdb4c63cc4a2ac27e141968bca9048a7a7d1b48d18043",
+      "bytes": 10269
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/SOURCE_BINDINGS.json",
+      "sha256": "3f0af7a0e9b498b62d5a373441c6137fd33653d94c7078ac2bce1bb4a366e681",
+      "bytes": 9079
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/VALIDATION.json",
+      "sha256": "a05f80a22b7831b53d6f60e29b6204ad601a1b27f3c285d4559129663981e0c5",
+      "bytes": 2076
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/build_static_audit.py",
+      "sha256": "24b63fb39df347fd95fb7abd0d96d179e28c3556fc3ba8e1a7cb8cd355e84d39",
+      "bytes": 25631
+    }
+  ]
+}

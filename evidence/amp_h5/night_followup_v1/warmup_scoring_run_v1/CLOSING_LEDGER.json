@@ -1,0 +1,13 @@
+{
+  "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+  "state": "completed",
+  "manifest_sha256": "8e6dee3134502f08c33e4d5dd12a09dfd6afd3864397d3ce5c50493473305d96",
+  "wall_seconds_after_manifest_before_closing": 10.458527500275522,
+  "cap_seconds": 300,
+  "budget_applies_through_manifest_and_closing_write": true,
+  "model_calls": 0,
+  "primary_gate_status": "EVALUABLE",
+  "descriptor_or_feature_missing_does_not_change_core_gate": true,
+  "not_self_included_in_manifest": true,
+  "outer_watchdog_required_seconds": 360
+}

@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/BOOTSTRAP_REPLICATES.json",
+      "bytes": 13797204,
+      "sha256": "feef2d1712c46762b93a84c1a5c0ee6fb567e5abe12f957923fc0c4077f470af"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/INDEX_SEAL.json",
+      "bytes": 8025810,
+      "sha256": "fa9f3c0e4a77f053770886774d135bd755b95df8a2f7291678f58832daf00cef"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/REFERENCE_REPLICATES.json",
+      "bytes": 2586751,
+      "sha256": "b561249e4df06d85222d697985702bd92309f8f2b5c6c25243c04e6d131c3be2"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/SUMMARY.json",
+      "bytes": 526514,
+      "sha256": "31658bb3b0d247bcf0633e7c862c829fe0859e941fd0b85f793bfff22618b8dc"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "bytes": 64083,
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "bytes": 9489,
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "bytes": 141151,
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "bytes": 25377,
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/latent_same_n_reference_v1.py",
+      "bytes": 13073,
+      "sha256": "4f8e18e287b1f81a9103db1140f3ffb2d30ae4f182173fa26b63b156abc1861a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "bytes": 2135,
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated.csv",
+      "bytes": 1970,
+      "sha256": "948653f3adac79b256a328f9cadb100aed1d835a7213cdb006f50a6ab81a264e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated.csv",
+      "bytes": 2580,
+      "sha256": "97ae42b13738644494ffd5954ad80142b13ab526bf99bfef09e99385592c2e7f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv",
+      "bytes": 2404,
+      "sha256": "d0d639a30472afd022c7b45b4dec89c093cfbc76c820b62093e709f9eaf61715"
+    }
+  ],
+  "protocol": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v2.json",
+    "bytes": 11616,
+    "sha256": "027611e8a8c3e1fee211c60c7f4ae6be2ba9c59ff8cc9af201efa5ef969c0c3a"
+  },
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/distribution_diagnostic_v2.py",
+    "bytes": 19129,
+    "sha256": "7df021783b1f06a54b207ffb6b6117262badcb77e80ec43bac182084c984e7a5"
+  },
+  "preaudit": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/DISTRIBUTION_PREFLIGHT_v2.json",
+    "bytes": 10021,
+    "sha256": "de60e3f25d850adea8d6a5407394d49783fc4bc7a27dfa433107b8c79c1a4e8a"
+  },
+  "all_input_hashes_unchanged": true,
+  "model_calls": 0,
+  "test_reads": 0
+}

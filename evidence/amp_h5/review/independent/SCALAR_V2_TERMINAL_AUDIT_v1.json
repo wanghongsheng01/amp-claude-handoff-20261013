@@ -1,0 +1,949 @@
+{
+  "created_utc": "2026-10-11T19:58:37.274364+00:00",
+  "status": "PASS_CHECKS_PENDING_INDEPENDENT_SCALE_ASSESSMENT",
+  "checks": [
+    {
+      "name": "fixed_plan_receipt_config",
+      "pass": true
+    },
+    {
+      "name": "all_plan_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "exact_job_terminal_success",
+      "pass": true
+    },
+    {
+      "name": "fixed_config_runner_status",
+      "pass": true
+    },
+    {
+      "name": "manifest_members_unique_exact_and_hashes",
+      "pass": true
+    },
+    {
+      "name": "single_thread_CPU_and_source_hashes",
+      "pass": true
+    },
+    {
+      "name": "exact_allowed_train_dev_hashes",
+      "pass": true
+    },
+    {
+      "name": "validated_train279_dev41_no_test",
+      "pass": true
+    },
+    {
+      "name": "vae_1000_finite_updates",
+      "pass": true
+    },
+    {
+      "name": "vae_stage_cap",
+      "pass": true
+    },
+    {
+      "name": "ddpm_1000_finite_updates",
+      "pass": true
+    },
+    {
+      "name": "ddpm_stage_cap",
+      "pass": true
+    },
+    {
+      "name": "shared_training_cap",
+      "pass": true
+    },
+    {
+      "name": "process_outer_cap",
+      "pass": true
+    },
+    {
+      "name": "all_VAE_seed222_batch_order",
+      "pass": true
+    },
+    {
+      "name": "VAE_fixed_lr",
+      "pass": true
+    },
+    {
+      "name": "SCALAR_objective_accounting",
+      "pass": true
+    },
+    {
+      "name": "ten_fixed_rng_preserving_descriptive_monitors",
+      "pass": true
+    },
+    {
+      "name": "vae_initial_state_file_tensor_hash_and_finite",
+      "pass": true
+    },
+    {
+      "name": "vae_state_file_tensor_hash_and_finite",
+      "pass": true
+    },
+    {
+      "name": "vae_state_1000_endpoint",
+      "pass": true
+    },
+    {
+      "name": "ddpm_state_file_tensor_hash_and_finite",
+      "pass": true
+    },
+    {
+      "name": "ddpm_state_1000_endpoint",
+      "pass": true
+    },
+    {
+      "name": "ddpm_ema_state_file_tensor_hash_and_finite",
+      "pass": true
+    },
+    {
+      "name": "ddpm_ema_state_1000_endpoint",
+      "pass": true
+    },
+    {
+      "name": "DDPM_frozen_EMA_copy_rule",
+      "pass": true
+    },
+    {
+      "name": "fresh_VAE_parameters_changed",
+      "pass": true
+    },
+    {
+      "name": "train_only_finite_scaler",
+      "pass": true
+    },
+    {
+      "name": "configuration_values_diff_only_arm_branch",
+      "pass": true
+    },
+    {
+      "name": "same_train_scaler",
+      "pass": true
+    },
+    {
+      "name": "fresh_scalar_initialization_matches_frozen_scalar_smoke",
+      "pass": true
+    },
+    {
+      "name": "train_export_exact_source_and_rendering",
+      "pass": true
+    },
+    {
+      "name": "train_native_firstPAD_raw_to_visible_link",
+      "pass": true
+    },
+    {
+      "name": "dev_export_exact_source_and_rendering",
+      "pass": true
+    },
+    {
+      "name": "dev_native_firstPAD_raw_to_visible_link",
+      "pass": true
+    },
+    {
+      "name": "train_dev_disjoint",
+      "pass": true
+    },
+    {
+      "name": "32_exact_request_id_seeds",
+      "pass": true
+    },
+    {
+      "name": "32_completed_no_retry_or_filter",
+      "pass": true
+    },
+    {
+      "name": "generation_cap",
+      "pass": true
+    },
+    {
+      "name": "both_complete_to_t1",
+      "pass": true
+    },
+    {
+      "name": "own_train_cache_schema_finite",
+      "pass": true
+    },
+    {
+      "name": "train_sigma_strict_positive_finite",
+      "pass": true
+    },
+    {
+      "name": "FREE_finite_arrays",
+      "pass": true
+    },
+    {
+      "name": "FREE_shapes_and_posterior_exact",
+      "pass": true
+    },
+    {
+      "name": "FREE_sigma_strict_positive_finite",
+      "pass": true
+    },
+    {
+      "name": "FREE_seed_reparameterization_bitwise",
+      "pass": true
+    },
+    {
+      "name": "FREE_native_round_clamp_firstPAD_exact",
+      "pass": true
+    },
+    {
+      "name": "FREE_slot_rendering_exact",
+      "pass": true
+    },
+    {
+      "name": "AMD_finite_arrays",
+      "pass": true
+    },
+    {
+      "name": "AMD_shapes_and_posterior_exact",
+      "pass": true
+    },
+    {
+      "name": "AMD_sigma_strict_positive_finite",
+      "pass": true
+    },
+    {
+      "name": "AMD_seed_reparameterization_bitwise",
+      "pass": true
+    },
+    {
+      "name": "AMD_native_round_clamp_firstPAD_exact",
+      "pass": true
+    },
+    {
+      "name": "AMD_slot_rendering_exact",
+      "pass": true
+    },
+    {
+      "name": "all_SCALAR_artifacts_stable_during_audit",
+      "pass": true
+    },
+    {
+      "name": "CE_postflight_bindings_still_unchanged",
+      "pass": true
+    },
+    {
+      "name": "MSE_postflight70_bindings_still_unchanged",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "section_errors": [],
+  "facts": {
+    "raw_status": {
+      "state": "completed",
+      "purpose": "formal_pilot",
+      "config_sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0",
+      "runner_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "test_read": false,
+      "development_read": true,
+      "train_read_attempted": true,
+      "train_read_validated": true,
+      "development_read_attempted": true,
+      "development_read_validated": true,
+      "training_seconds": 1742.7696539591998,
+      "training_cap_exceeded": false,
+      "vae_updates": 1000,
+      "ddpm_updates": 1000,
+      "generation": {
+        "elapsed_seconds": 1116.6571687501855,
+        "requested": 32,
+        "successful_execution": 32,
+        "failed_execution": 0,
+        "not_executed": 0,
+        "condition_inputs": [
+          "terminal class only"
+        ],
+        "no_retry_or_filter": true
+      },
+      "process_seconds": 2867.1760469167493
+    },
+    "raw_supervisor": {
+      "pid": 71163,
+      "created_utc": "2026-10-11T19:10:17.234530+00:00",
+      "state": "completed",
+      "plan_sha256": "69e082e8a5c172f8ca2ed421fdd47caaac4015bea70dcffe612a750a7554b501",
+      "jobs": [
+        {
+          "id": "scalar_legacy",
+          "argv": [
+            "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+            "-u",
+            "-B",
+            "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+            "run",
+            "--config",
+            "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+            "--output",
+            "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy"
+          ],
+          "started_utc": "2026-10-11T19:10:17.234915+00:00",
+          "state": "completed",
+          "pid": 71165,
+          "exit_code": 0,
+          "seconds": 2867.7861290420406
+        }
+      ],
+      "completed_utc": "2026-10-11T19:58:05.086905+00:00"
+    },
+    "training_summary": {
+      "vae": {
+        "updates": 1000,
+        "requested_updates": 1000,
+        "fixed_endpoint_reached": true,
+        "initial_tensor_state_sha256": "025e0f9e49523eea9124511e7ae0bc5dc3d3b3b66f468630717bbc2b7f25e9e4",
+        "elapsed_seconds_before_checkpoint_io": 1179.3944424591027,
+        "elapsed_seconds": 1179.4492224999703
+      },
+      "ddpm": {
+        "updates": 1000,
+        "requested_updates": 1000,
+        "fixed_endpoint_reached": true,
+        "initial_tensor_state_sha256": "bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f",
+        "posterior_encoding_and_setup_seconds": 6.182585000060499,
+        "elapsed_seconds_before_checkpoint_io": 562.6386739998125,
+        "parameters": 18612994,
+        "ema_step": 1000,
+        "ema_semantics": "inherited reset/copy until 2000 updates; beta=.995 thereafter",
+        "elapsed_seconds": 563.3003288749605
+      }
+    },
+    "state_digests": {
+      "vae_initial_state": "025e0f9e49523eea9124511e7ae0bc5dc3d3b3b66f468630717bbc2b7f25e9e4",
+      "vae_state": "4ec905bf9bbe979abe8d599855e6ca78f4b2a6d93e17443f13f0f6e6b1b88ac5",
+      "ddpm_state": "fd6b7a71fcabf6805900c04f1210b6544d32a021ffe8da633249b494a21d6a9a",
+      "ddpm_ema_state": "fd6b7a71fcabf6805900c04f1210b6544d32a021ffe8da633249b494a21d6a9a"
+    },
+    "costs": {
+      "training_seconds": 1742.7696539591998,
+      "generation_seconds": 1116.6571687501855,
+      "process_seconds_before_final_io": 2867.1760469167493,
+      "supervisor_outer_seconds": 2867.7861290420406,
+      "CE_recovery_costs_separate": true,
+      "original_CE_exact_wall_unknown": true
+    },
+    "descriptive_random_exposure_comparison": {
+      "VAE_CE_same_batches_rng_lr": true,
+      "DDPM_CE_same_batches_noise_dropout_lr": true,
+      "DDPM_same_initialization": true,
+      "scalar_model_parameter_count": 1681209,
+      "decoder_head_parameters": 17
+    },
+    "comparison_limits": "Scalar has a scalar head, MSE/nonPAD, KL/16 and round-clamp-firstPAD readout. It is a whole-pipeline legacy adaptation comparator. Random-exposure equality, if observed, does not make it a single-factor ablation or equal actual compute comparison.",
+    "scales": {
+      "pooled_train": {
+        "records": 279,
+        "mu": {
+          "shape": [
+            279,
+            16,
+            48
+          ],
+          "elements": 214272,
+          "finite_elements": 214272,
+          "nan": 0,
+          "positive_inf": 0,
+          "negative_inf": 0,
+          "min": -3.1340203285217285,
+          "max": 2.948678970336914,
+          "mean": 0.35301000534647037,
+          "std": 1.5619115635348269,
+          "rms": 1.6013069025575712
+        },
+        "logsigma": {
+          "shape": [
+            279,
+            16,
+            48
+          ],
+          "elements": 214272,
+          "finite_elements": 214272,
+          "nan": 0,
+          "positive_inf": 0,
+          "negative_inf": 0,
+          "min": -0.26632189750671387,
+          "max": 0.25002217292785645,
+          "mean": -0.01152823412517923,
+          "std": 0.046954079338931524,
+          "rms": 0.04834858579743179
+        },
+        "sigma": {
+          "shape": [
+            279,
+            16,
+            48
+          ],
+          "elements": 214272,
+          "finite_elements": 214272,
+          "nan": 0,
+          "positive_inf": 0,
+          "negative_inf": 0,
+          "min": 0.7661924362182617,
+          "max": 1.284053921699524,
+          "mean": 0.9896253070765116,
+          "std": 0.04631143188699925,
+          "rms": 0.9907083310085285
+        },
+        "analytic_qz_mean": 0.35301000534647037,
+        "analytic_qz_rms": 1.8829994140488269,
+        "analytic_qz_std": 1.8496136703196997
+      },
+      "terminal_train": {
+        "FREE": {
+          "records": 126,
+          "mu": {
+            "shape": [
+              126,
+              16,
+              48
+            ],
+            "elements": 96768,
+            "finite_elements": 96768,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -3.113954544067383,
+            "max": 2.844475269317627,
+            "mean": 0.3404544517181262,
+            "std": 1.505562815355708,
+            "rms": 1.5435765691006376
+          },
+          "logsigma": {
+            "shape": [
+              126,
+              16,
+              48
+            ],
+            "elements": 96768,
+            "finite_elements": 96768,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -0.26632189750671387,
+            "max": 0.25002217292785645,
+            "mean": -0.014457637859474742,
+            "std": 0.04923879317397841,
+            "rms": 0.051317463360005824
+          },
+          "sigma": {
+            "shape": [
+              126,
+              16,
+              48
+            ],
+            "elements": 96768,
+            "finite_elements": 96768,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.7661924362182617,
+            "max": 1.284053921699524,
+            "mean": 0.9868385877112843,
+            "std": 0.04842374182113459,
+            "rms": 0.9880259394206015
+          },
+          "analytic_qz_mean": 0.3404544517181262,
+          "analytic_qz_rms": 1.8327094373207276,
+          "analytic_qz_std": 1.8008094424313106
+        },
+        "AMD": {
+          "records": 153,
+          "mu": {
+            "shape": [
+              153,
+              16,
+              48
+            ],
+            "elements": 117504,
+            "finite_elements": 117504,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -3.1340203285217285,
+            "max": 2.948678970336914,
+            "mean": 0.3633498730404008,
+            "std": 1.6067596863034472,
+            "rms": 1.647331120257378
+          },
+          "logsigma": {
+            "shape": [
+              153,
+              16,
+              48
+            ],
+            "elements": 117504,
+            "finite_elements": 117504,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -0.2533210515975952,
+            "max": 0.2017485648393631,
+            "mean": -0.009115783991053516,
+            "std": 0.044842044192375606,
+            "rms": 0.04575922251440156
+          },
+          "sigma": {
+            "shape": [
+              153,
+              16,
+              48
+            ],
+            "elements": 117504,
+            "finite_elements": 117504,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.7762186527252197,
+            "max": 1.2235403060913086,
+            "mean": 0.9919202524361105,
+            "std": 0.044365415246406276,
+            "rms": 0.9929119181795046
+          },
+          "analytic_qz_mean": 0.3633498730404008,
+          "analytic_qz_rms": 1.9234276427854857,
+          "analytic_qz_std": 1.8887961157289728
+        }
+      },
+      "generated": {
+        "FREE": {
+          "mu": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -4.3971099853515625,
+            "max": 7.561000347137451,
+            "mean": 0.7864833672544792,
+            "std": 1.9769132176943573,
+            "rms": 2.1276141467057887
+          },
+          "logsigma": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -0.753311276435852,
+            "max": 0.9082884788513184,
+            "mean": -0.0041797290460323655,
+            "std": 0.13338575439374267,
+            "rms": 0.1334512255848034
+          },
+          "sigma": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.47080498933792114,
+            "max": 2.480074167251587,
+            "mean": 1.0049700727007196,
+            "std": 0.14217149712278893,
+            "rms": 1.0149766409224525
+          },
+          "z": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -6.56315279006958,
+            "max": 11.43810749053955,
+            "mean": 0.7815292863616605,
+            "std": 2.218936759456018,
+            "rms": 2.3525450830762287
+          },
+          "decoder_raw": {
+            "shape": [
+              16,
+              48
+            ],
+            "elements": 768,
+            "finite_elements": 768,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 1.421785831451416,
+            "max": 20.958946228027344,
+            "mean": 15.889209554065019,
+            "std": 4.885843273887315,
+            "rms": 16.623430595096217
+          },
+          "z_rms_ratio_to_terminal_train": 1.2836432416234287,
+          "z_rms_ratio_to_pooled_train": 1.2493604966226646,
+          "per_request_z_rms": [
+            1.4775872072028324,
+            2.57410645227734,
+            1.9290262139289658,
+            1.5543072339528576,
+            1.6554351217079515,
+            3.183192244250079,
+            2.1246953819154744,
+            2.0648247272138116,
+            2.6802315563202677,
+            1.4685274342945311,
+            2.7414540651665957,
+            1.8665727641369971,
+            1.9568632784956024,
+            1.6530167215121085,
+            3.801070459080965,
+            3.2564382019465263
+          ]
+        },
+        "AMD": {
+          "mu": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -10.108565330505371,
+            "max": 5.004835605621338,
+            "mean": 0.11449213480370919,
+            "std": 2.0029812277740113,
+            "rms": 2.00625079383087
+          },
+          "logsigma": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -1.9860341548919678,
+            "max": 1.5991332530975342,
+            "mean": -0.017747908064525197,
+            "std": 0.17895892688366952,
+            "rms": 0.17983683091074923
+          },
+          "sigma": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.13723862171173096,
+            "max": 4.948741436004639,
+            "mean": 0.9975393658375348,
+            "std": 0.18678617165732117,
+            "rms": 1.0148762783304917
+          },
+          "z": {
+            "shape": [
+              16,
+              16,
+              48
+            ],
+            "elements": 12288,
+            "finite_elements": 12288,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": -12.07016372680664,
+            "max": 7.1915411949157715,
+            "mean": 0.12163861467994745,
+            "std": 2.229098562726182,
+            "rms": 2.232414915496039
+          },
+          "decoder_raw": {
+            "shape": [
+              16,
+              48
+            ],
+            "elements": 768,
+            "finite_elements": 768,
+            "nan": 0,
+            "positive_inf": 0,
+            "negative_inf": 0,
+            "min": 0.00281524658203125,
+            "max": 20.99262809753418,
+            "mean": 16.148741239720646,
+            "std": 4.950892563636201,
+            "rms": 16.89062405016826
+          },
+          "z_rms_ratio_to_terminal_train": 1.160644084465315,
+          "z_rms_ratio_to_pooled_train": 1.1855632555380877,
+          "per_request_z_rms": [
+            1.9154577787270672,
+            1.69845295140544,
+            2.149508051943681,
+            1.732933603976739,
+            2.498338527525515,
+            2.08030997236407,
+            1.9455614087698423,
+            2.293479242227254,
+            2.094749700271159,
+            1.832225767246631,
+            2.581449616737359,
+            3.9266133074306664,
+            1.6695419056658631,
+            2.7336921347778205,
+            1.5518145022605172,
+            1.8577521168559563
+          ]
+        }
+      }
+    },
+    "native_scalar_readout": {
+      "FREE": {
+        "raw_below0_elements": 0,
+        "raw_above20_elements": 194,
+        "raw_elements": 768,
+        "raw_round_ties_after_clamp": 0,
+        "requests_firstPAD_at0": 0,
+        "requests_noPAD_at_limit48": 2,
+        "definition": "Frozen decoder clamp/torch.round followed by firstPAD; these counts are descriptive, never a quality or engineering pass threshold."
+      },
+      "AMD": {
+        "raw_below0_elements": 0,
+        "raw_above20_elements": 185,
+        "raw_elements": 768,
+        "raw_round_ties_after_clamp": 0,
+        "requests_firstPAD_at0": 0,
+        "requests_noPAD_at_limit48": 1,
+        "definition": "Frozen decoder clamp/torch.round followed by firstPAD; these counts are descriptive, never a quality or engineering pass threshold."
+      }
+    },
+    "slot_status_counts": {
+      "no_eos_at_limit": 3,
+      "ok": 29
+    },
+    "raw_slot_status_inventory": {
+      "no_eos_at_limit": 3,
+      "ok": 29
+    },
+    "failure_evidence": {}
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/config.json",
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0",
+      "bytes": 2540
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_ema_state.json",
+      "sha256": "29348852c9fc35f2ded26669273e45f09b4225ddc0ac5c5c6839e5705d948f56",
+      "bytes": 611
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_ema_state.pt",
+      "sha256": "f78f9f6c622885a7227e9b646718f8142097104b3be14e8c8e2250e7fd1f7604",
+      "bytes": 74515981
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_state.json",
+      "sha256": "0e70ccc33fdedce483d910b44924dee2b8fc0bbb54987744493a4152daaa92a0",
+      "bytes": 611
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_state.pt",
+      "sha256": "741ae2102ec7132c28091680302f58ed4719037eeb87ed4f7e94b3bc4519d756",
+      "bytes": 74515249
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_train.jsonl",
+      "sha256": "ade0b7ca2b37d57ea1f7dda845238280c5f9413b08154ab1d6bf8bc8647f82a2",
+      "bytes": 339550
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_training_state.pt",
+      "sha256": "1d47b27e62db745c7e3c47cc696d4181247d9308912560b6ad44a5707cc1a7ac",
+      "bytes": 149054122
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_training_summary.json",
+      "sha256": "0f57f8210081b42c1f0aa480263950b2c29229a413a42cfac6a1f4ef9ad972ca",
+      "bytes": 478
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/dev_monitor.jsonl",
+      "sha256": "58feb7b3d78bba6ef56d7e18008e39a4e6f9c4d8f18c64a768082ba1e88afb23",
+      "bytes": 4149
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/dev_reconstruction.csv",
+      "sha256": "93067ce161302480f641e273006006bcf24a58cad9d20a3d8dfec0d7e7cb2d7c",
+      "bytes": 19102
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated.csv",
+      "sha256": "97ae42b13738644494ffd5954ad80142b13ab526bf99bfef09e99385592c2e7f",
+      "bytes": 2580
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_AMD.npz",
+      "sha256": "801e99b86b74ccd8c1f1dcdf9a60b5cca78a39c1c86588e06031f228e82aa90c",
+      "bytes": 142833
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_FREE.npz",
+      "sha256": "31cc6e196cd18c0f1e6bac11fd8145a877d67e3dff1dd24ac710dcd7d8e69937",
+      "bytes": 142575
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_posterior_AMD.npz",
+      "sha256": "3622a172a1ded4469725c3137ba645a7832a2d8e880aeff891fc30aaca54dff1",
+      "bytes": 93237
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_posterior_FREE.npz",
+      "sha256": "714579a9671fbc723f2fc72b2b2e18a603a7a555a5c77752738cdd692ee2d370",
+      "bytes": 93098
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_posterior_summary_AMD.json",
+      "sha256": "367c67fad0720a185d2c78e92005207c530cb834ad4ef3547282f22da81b0a72",
+      "bytes": 1076
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_posterior_summary_FREE.json",
+      "sha256": "e0e6a3f49a53b88501f3f5057569b5c44edc2ffb390bf3cf2c6b3759431df206",
+      "bytes": 1076
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generation_progress.jsonl",
+      "sha256": "bb781c933014b3a8152bdde64b40e0ef7e3155cec5820e8ee49c2d93fb585c3e",
+      "bytes": 1510
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generation_summary.json",
+      "sha256": "2663276cb0e01ec75a23dccd2a30bbeeb374f7506e708932d1ca823ed3a0376a",
+      "bytes": 224
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/manifest.json",
+      "sha256": "01ac8ae2811be6bee9ee30e3080b6708cc811667b0249edaa3878bc9eda1c51f",
+      "bytes": 5038
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1",
+      "bytes": 24995
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/status.json",
+      "sha256": "f304e7868aafca6fbb03dba7407183e3294b825f7c31dfa9e33e1bd8749a9341",
+      "bytes": 845
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "bytes": 3279
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/train_posterior_parameters.npz",
+      "sha256": "26be82a92b679ba015317c579ad9410077b3785c0fedc999de633b47830af28c",
+      "bytes": 1267898
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/train_reconstruction.csv",
+      "sha256": "55780a004282cd81851be7ce9d48231b883b0d365a804093fe46514efcc1436f",
+      "bytes": 129302
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_initial_state.json",
+      "sha256": "bbc9aa15170d33a0bfbce839b145e8ac05e5361e77e4c0bbbac2fde18398ddc3",
+      "bytes": 208
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_initial_state.pt",
+      "sha256": "35a8c87d8501d2f910f42ebab99981c7a5a41a99d701cbeed7860bdd47188638",
+      "bytes": 6800722
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_initialization.json",
+      "sha256": "88ea4e73df0de087806b3076925f33966eea6fd0ee587c9d0461f86911adcbda",
+      "bytes": 169
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_state.json",
+      "sha256": "04868c09f280ee9e447f89bf35c737378923ab5abd5f88b9b331c777c4379d37",
+      "bytes": 421
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_state.pt",
+      "sha256": "829bbdd75987d3436c6df158cb2a1376053775007b78ce4f0cdcf7c2a56fea7d",
+      "bytes": 6798970
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_train.jsonl",
+      "sha256": "1c917c20595c9b7cd8a3351fe150ce6ded55f4878258b411eb46d5a7efaf5ec5",
+      "bytes": 554211
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_training_state.pt",
+      "sha256": "46c2d8424d32027e15c17279a9fabf120a348a6fcdacdaf1644b013cc9014d3b",
+      "bytes": 13624771
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_training_summary.json",
+      "sha256": "499990631100d75b9c8b7ad790e0de269c3253f243ce47eef1d524b872c7b7b5",
+      "bytes": 289
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_scalar_legacy_execution_v2/SUPERVISOR_STATUS.json",
+      "sha256": "03c0f63c550cff367005eaa77cf226a0f54f10e7df1b00ef3905a1b82a6e6bf5",
+      "bytes": 1003
+    }
+  ],
+  "audit_script_sha256": "49c1028b31a5f6a1fb8d7ca404af228ebb22b620f7556c2781364600a574680f",
+  "scope": "SINGLE_SCALAR_WHOLE_PIPELINE_ENGINEERING_ONLY",
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD",
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "further_model_runs_authorized": false,
+  "reviewer_actions": {
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "new_generation_requests": 0,
+    "test37_reads": 0,
+    "scope": "Immutable saved arrays/logs; weights_only tensor-state loading; two exact-bound cohort CSVs for export identity; local RNG/arithmetic only."
+  },
+  "limitations": [
+    "No generation quality, biology or goodness-of-fit decision. Scale values are descriptive without posthoc thresholds.",
+    "No independent998-step DDPM replay; source/hash/progress and final arithmetic checks.",
+    "This concludes the current frozen VAE-arm queue; no further model work or retry is authorized by this audit.",
+    "No OS syscall tracing; no-test evidence is exact config/path/source/status audit.",
+    "Optimizer objects are not deserialized here; finite optimizer execution comes from frozen per-update guards and full finite logs."
+  ]
+}

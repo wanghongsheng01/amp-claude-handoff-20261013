@@ -1,0 +1,164 @@
+{
+  "files": [
+    {
+      "path": "config.json",
+      "bytes": 2540,
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0"
+    },
+    {
+      "path": "ddpm_ema_state.json",
+      "bytes": 611,
+      "sha256": "29348852c9fc35f2ded26669273e45f09b4225ddc0ac5c5c6839e5705d948f56"
+    },
+    {
+      "path": "ddpm_ema_state.pt",
+      "bytes": 74515981,
+      "sha256": "f78f9f6c622885a7227e9b646718f8142097104b3be14e8c8e2250e7fd1f7604"
+    },
+    {
+      "path": "ddpm_state.json",
+      "bytes": 611,
+      "sha256": "0e70ccc33fdedce483d910b44924dee2b8fc0bbb54987744493a4152daaa92a0"
+    },
+    {
+      "path": "ddpm_state.pt",
+      "bytes": 74515249,
+      "sha256": "741ae2102ec7132c28091680302f58ed4719037eeb87ed4f7e94b3bc4519d756"
+    },
+    {
+      "path": "ddpm_train.jsonl",
+      "bytes": 339550,
+      "sha256": "ade0b7ca2b37d57ea1f7dda845238280c5f9413b08154ab1d6bf8bc8647f82a2"
+    },
+    {
+      "path": "ddpm_training_state.pt",
+      "bytes": 149054122,
+      "sha256": "1d47b27e62db745c7e3c47cc696d4181247d9308912560b6ad44a5707cc1a7ac"
+    },
+    {
+      "path": "ddpm_training_summary.json",
+      "bytes": 478,
+      "sha256": "0f57f8210081b42c1f0aa480263950b2c29229a413a42cfac6a1f4ef9ad972ca"
+    },
+    {
+      "path": "dev_monitor.jsonl",
+      "bytes": 4149,
+      "sha256": "58feb7b3d78bba6ef56d7e18008e39a4e6f9c4d8f18c64a768082ba1e88afb23"
+    },
+    {
+      "path": "dev_reconstruction.csv",
+      "bytes": 19102,
+      "sha256": "93067ce161302480f641e273006006bcf24a58cad9d20a3d8dfec0d7e7cb2d7c"
+    },
+    {
+      "path": "generated.csv",
+      "bytes": 2580,
+      "sha256": "97ae42b13738644494ffd5954ad80142b13ab526bf99bfef09e99385592c2e7f"
+    },
+    {
+      "path": "generated_AMD.npz",
+      "bytes": 142833,
+      "sha256": "801e99b86b74ccd8c1f1dcdf9a60b5cca78a39c1c86588e06031f228e82aa90c"
+    },
+    {
+      "path": "generated_FREE.npz",
+      "bytes": 142575,
+      "sha256": "31cc6e196cd18c0f1e6bac11fd8145a877d67e3dff1dd24ac710dcd7d8e69937"
+    },
+    {
+      "path": "generated_posterior_AMD.npz",
+      "bytes": 93237,
+      "sha256": "3622a172a1ded4469725c3137ba645a7832a2d8e880aeff891fc30aaca54dff1"
+    },
+    {
+      "path": "generated_posterior_FREE.npz",
+      "bytes": 93098,
+      "sha256": "714579a9671fbc723f2fc72b2b2e18a603a7a555a5c77752738cdd692ee2d370"
+    },
+    {
+      "path": "generated_posterior_summary_AMD.json",
+      "bytes": 1076,
+      "sha256": "367c67fad0720a185d2c78e92005207c530cb834ad4ef3547282f22da81b0a72"
+    },
+    {
+      "path": "generated_posterior_summary_FREE.json",
+      "bytes": 1076,
+      "sha256": "e0e6a3f49a53b88501f3f5057569b5c44edc2ffb390bf3cf2c6b3759431df206"
+    },
+    {
+      "path": "generation_progress.jsonl",
+      "bytes": 1510,
+      "sha256": "bb781c933014b3a8152bdde64b40e0ef7e3155cec5820e8ee49c2d93fb585c3e"
+    },
+    {
+      "path": "generation_summary.json",
+      "bytes": 224,
+      "sha256": "2663276cb0e01ec75a23dccd2a30bbeeb374f7506e708932d1ca823ed3a0376a"
+    },
+    {
+      "path": "runtime_and_source.json",
+      "bytes": 24995,
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "path": "status.json",
+      "bytes": 845,
+      "sha256": "f304e7868aafca6fbb03dba7407183e3294b825f7c31dfa9e33e1bd8749a9341"
+    },
+    {
+      "path": "train_feature_scaler.json",
+      "bytes": 3279,
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d"
+    },
+    {
+      "path": "train_posterior_parameters.npz",
+      "bytes": 1267898,
+      "sha256": "26be82a92b679ba015317c579ad9410077b3785c0fedc999de633b47830af28c"
+    },
+    {
+      "path": "train_reconstruction.csv",
+      "bytes": 129302,
+      "sha256": "55780a004282cd81851be7ce9d48231b883b0d365a804093fe46514efcc1436f"
+    },
+    {
+      "path": "vae_initial_state.json",
+      "bytes": 208,
+      "sha256": "bbc9aa15170d33a0bfbce839b145e8ac05e5361e77e4c0bbbac2fde18398ddc3"
+    },
+    {
+      "path": "vae_initial_state.pt",
+      "bytes": 6800722,
+      "sha256": "35a8c87d8501d2f910f42ebab99981c7a5a41a99d701cbeed7860bdd47188638"
+    },
+    {
+      "path": "vae_initialization.json",
+      "bytes": 169,
+      "sha256": "88ea4e73df0de087806b3076925f33966eea6fd0ee587c9d0461f86911adcbda"
+    },
+    {
+      "path": "vae_state.json",
+      "bytes": 421,
+      "sha256": "04868c09f280ee9e447f89bf35c737378923ab5abd5f88b9b331c777c4379d37"
+    },
+    {
+      "path": "vae_state.pt",
+      "bytes": 6798970,
+      "sha256": "829bbdd75987d3436c6df158cb2a1376053775007b78ce4f0cdcf7c2a56fea7d"
+    },
+    {
+      "path": "vae_train.jsonl",
+      "bytes": 554211,
+      "sha256": "1c917c20595c9b7cd8a3351fe150ce6ded55f4878258b411eb46d5a7efaf5ec5"
+    },
+    {
+      "path": "vae_training_state.pt",
+      "bytes": 13624771,
+      "sha256": "46c2d8424d32027e15c17279a9fabf120a348a6fcdacdaf1644b013cc9014d3b"
+    },
+    {
+      "path": "vae_training_summary.json",
+      "bytes": 289,
+      "sha256": "499990631100d75b9c8b7ad790e0de269c3253f243ce47eef1d524b872c7b7b5"
+    }
+  ]
+}

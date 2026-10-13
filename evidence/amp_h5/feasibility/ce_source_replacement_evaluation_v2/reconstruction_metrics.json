@@ -1,0 +1,15 @@
+{
+  "policy": {
+    "scope": "exploratory single-fit train/development pilot; no test access",
+    "mmd": "biased linear MMD squared on 421 frozen features; valid canonical 1..48 only",
+    "feature_blocks": "length/48,20 AA fractions,400 dipeptide fractions; each scaled by 1/sqrt(3)",
+    "reconstruction": "posterior mean only; rendered sequence aligned to target positions; no nearest-neighbor truth",
+    "macro": "mean recall over amino-acid classes supported by target; PAD excluded",
+    "missing_prediction": "counts incorrect at every unrendered target position; never removes truth denominator",
+    "ar_nll": "teacher-forced diagnostic reported separately; not comparable with VAE objective",
+    "uncertainty": "no p-values/CI; draws are not independent training replicates; development has been reused",
+    "claims": "no activity, wetlab validation, significance, novelty, general method superiority or submission-readiness claim",
+    "engineering_prerequisite": "screens require complete request execution here and independently verified fixed-step training/budget upstream"
+  },
+  "groups": []
+}

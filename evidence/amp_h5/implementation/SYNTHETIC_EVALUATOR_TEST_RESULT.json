@@ -1,0 +1,22 @@
+{
+  "scope": "synthetic evaluator checks only; no natural AMP data or model reads",
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "evaluator": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+    "bytes": 24404,
+    "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417"
+  },
+  "tests": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/synthetic_evaluator_tests.py",
+    "bytes": 14036,
+    "sha256": "a5930582058f6b1b5d527105f8094fb54c932f90d8a67385cdd49bb46a69005f"
+  },
+  "dependency": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+    "bytes": 25377,
+    "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+  }
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "peptide_id": 16,
+    "note_reference": "This peptide is a part of Dimer.\n",
+    "rows": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "exact_sequences": 1,
+      "chemical_annotation_fingerprints": 1,
+      "sequence_families": 1,
+      "source_family_components": 1,
+      "point_rows": 0,
+      "right_bound_rows": 0,
+      "left_bound_rows": 0,
+      "recorded_condition_source_signatures": 1,
+      "repeated_condition_source_signatures": 0,
+      "potential_same_observation_signatures": 1,
+      "potential_duplicate_extra_rows": 0,
+      "IDs": [
+        16
+      ],
+      "families": [
+        "F16"
+      ],
+      "source_components": [
+        "G16"
+      ]
+    },
+    "decision": "Retain; source needs to identify whether single chain or mixture measured; not declared confirmed mixture"
+  },
+  {
+    "peptide_id": 36,
+    "note_reference": "This peptide is a part of Dimer.",
+    "rows": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "exact_sequences": 1,
+      "chemical_annotation_fingerprints": 1,
+      "sequence_families": 1,
+      "source_family_components": 1,
+      "point_rows": 0,
+      "right_bound_rows": 0,
+      "left_bound_rows": 0,
+      "recorded_condition_source_signatures": 1,
+      "repeated_condition_source_signatures": 0,
+      "potential_same_observation_signatures": 1,
+      "potential_duplicate_extra_rows": 0,
+      "IDs": [
+        36
+      ],
+      "families": [
+        "F36"
+      ],
+      "source_components": [
+        "G16"
+      ]
+    },
+    "decision": "Retain; source needs to identify whether single chain or mixture measured; not declared confirmed mixture"
+  },
+  {
+    "peptide_id": 1783,
+    "note_reference": "<p>This peptide is part of Two-Peptide.<br></p>",
+    "rows": {
+      "rows": 6,
+      "peptide_IDs": 1,
+      "exact_sequences": 1,
+      "chemical_annotation_fingerprints": 1,
+      "sequence_families": 1,
+      "source_family_components": 1,
+      "point_rows": 4,
+      "right_bound_rows": 0,
+      "left_bound_rows": 0,
+      "recorded_condition_source_signatures": 6,
+      "repeated_condition_source_signatures": 0,
+      "potential_same_observation_signatures": 6,
+      "potential_duplicate_extra_rows": 0,
+      "IDs": [
+        1783
+      ],
+      "families": [
+        "F1783"
+      ],
+      "source_components": [
+        "G873"
+      ]
+    },
+    "decision": "Retain; source needs to identify whether single chain or mixture measured; not declared confirmed mixture"
+  }
+]

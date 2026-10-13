@@ -1,0 +1,23 @@
+{
+  "kind": "H5_independent_design_review_sources",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/run_rebuild_v3r2.py",
+      "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+      "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+      "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45"
+    }
+  ],
+  "read_mode": "source text only; no arrays/checkpoint unpickling/model execution",
+  "author_protocol_ready": false,
+  "real_model_calls": 0,
+  "fit_calls": 0,
+  "test_reads": 0,
+  "backup_status": "BACKUP_BLOCKED"
+}

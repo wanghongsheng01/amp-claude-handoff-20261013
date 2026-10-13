@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-11T19:32:09.924125+00:00",
+  "scope": "CANDIDATE_IMPLEMENTATION_ONLY_NO_EXECUTION_AUTHORIZATION",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_decoder_input_control_v1.py",
+      "sha256": "c3fadf38b1a4f7fed9b53c65e4b18905d3f4ed3744350e1575af0cb724513324"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_DECODER_INPUT_CONTROL_CONTRACT_v1.json",
+      "sha256": "01687cab73e6dd90843002e5f8eb764fd3241e1fdcb8bad4506a9d34d6ab16e1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_METRIC_CLARIFICATION.json",
+      "sha256": "42766c205908dd2d9bd0a97d1c52c720f4f1ce022555241f949272b01d505c7f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_decoder_input_control_candidate_v1/AUTHOR_STATIC_VALIDATION.json",
+      "sha256": "69309eccded9bf44daac99ac8f24a87c3a9758a181c84cf97e6df221697eaf64"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_decoder_input_control_candidate_v1/READOUT.zh.md",
+      "sha256": "78991dc412ee696f73b1b90d4286021296255301e2b667ee6cb696ff69e9bffa"
+    }
+  ],
+  "execution_authorized": false,
+  "model_calls": 0,
+  "random_draws": 0
+}

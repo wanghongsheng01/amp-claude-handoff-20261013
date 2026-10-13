@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/AR_METRICS.csv",
+      "sha256": "ddfc2a0c777bbbcea82ccd15a1276762913e434dbd2f8268315e766079655c42",
+      "bytes": 622
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/AUTHOR_READOUT.zh.md",
+      "sha256": "1fa2c767d0e9ccc2f2de7f08afc8f7a1e2295579ac7a82d6a9f5777677dd6b87",
+      "bytes": 3149
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/GENERATION_METRICS.json",
+      "sha256": "eb621cf8141f91dfa11800aef8c37f60db4acd52143d1b32314eef842d167ae9",
+      "bytes": 255068
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/MONITOR_READOUT.json",
+      "sha256": "36364bb337fd7c084e498b16d288aa923c1e1fe0ff31df543ac3d78d4fa7f581",
+      "bytes": 2689
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/RUN_FACTS.json",
+      "sha256": "0182fc30ca63bdc1e5ef7cd25bf6d119ffdd5e8b21236ef4a81bd44fac1bf4da",
+      "bytes": 2349
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/SAMPLE_AUDIT.json",
+      "sha256": "9e8378df84eca82410d3bcf8efbd47f470e3feaba7927efae3661fffe373644b",
+      "bytes": 49592
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/SOURCE_BINDINGS.json",
+      "sha256": "647658761f8e680797fbf8441607e04eef636b091ddec4bc5c5e080808a07789",
+      "bytes": 9253
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/TEACHER_FORCED_NLL.json",
+      "sha256": "7b918e800925abad1e8e8570bb73bd191095d078ba84f1e48e4ab782255c0a21",
+      "bytes": 2108
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ar_formal_readout/evaluate_ar_only.py",
+      "sha256": "47ab91bc0d6bb09c8757ebce771aa0964916d466ae26f59a578d87a690788166",
+      "bytes": 13806
+    }
+  ],
+  "scope": "AR-only descriptive evaluation; no method comparison",
+  "PROMOTE": "HOLD"
+}

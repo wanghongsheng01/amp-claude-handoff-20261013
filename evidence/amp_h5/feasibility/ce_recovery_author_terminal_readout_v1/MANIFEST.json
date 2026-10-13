@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "ORIGINAL_SAVED_TRAINING_CURVES.json",
+      "sha256": "954ad8f81d598a5adb79fbbbcd6683e4d70987d49d0e24e782b1d93384cedd59"
+    },
+    {
+      "path": "READOUT.md",
+      "sha256": "8433b028bd204c9d69ce05e7035900394e68d26a1d97398506c5196aa4c40a6f"
+    },
+    {
+      "path": "RECOVERY_AUTHOR_READOUT.json",
+      "sha256": "c49b244dc6156d0a1965f74d5b779905f397b144ea99c9c5764da83ff2b2bb69"
+    }
+  ]
+}

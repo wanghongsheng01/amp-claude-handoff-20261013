@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:amp-h5:phase-split-readout-v4-contract",
+  "title": "AMP H5 phase-split saved-artifact readout contract",
+  "description": "This contract selects existing artifact sources only. It never authorizes a model call, metric recomputation or test read. The original protocol E/L/G remain permanently NOT_EVALUABLE. Runtime validation additionally requires resolved child paths of base_directory, no sealed test components, distinct generation roots, CE phases distinct and all other method phases identical.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "base_directory", "methods", "evaluation_directories", "recovery_postflight_receipt", "context_evidence"],
+  "properties": {
+    "schema_version": {"const": "AMP_H5_PHASE_SPLIT_READOUT_V4"},
+    "base_directory": {"type": "string", "minLength": 1, "description": "Absolute path, or path relative to this contract file. All sources must resolve beneath it."},
+    "methods": {
+      "type": "object", "additionalProperties": false,
+      "required": ["CE21_DDPM", "MSE21_DDPM", "scalar_DDPM", "terminal_LSTM"],
+      "properties": {
+        "CE21_DDPM": {"allOf": [{"$ref": "#/$defs/method"}, {"properties": {"generation_attempt_id": {"const": "ce_checkpoint_recovery_v1"}}}]},
+        "MSE21_DDPM": {"$ref": "#/$defs/method"},
+        "scalar_DDPM": {"$ref": "#/$defs/method"},
+        "terminal_LSTM": {"$ref": "#/$defs/method"}
+      }
+    },
+    "evaluation_directories": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}, "description": "Existing frozen-evaluator or AR-only metric packages. Duplicate group observations are rejected. Recovery L/G are transcribed only when all operands occur in one bound complete package; no gate splicing."},
+    "recovery_postflight_receipt": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/binding"}], "description": "Null until independently issued terminal postflight. A preflight/eligibility PASS is insufficient. Receipt must use status=PASS, scope=RECOVERY_ENGINEERING_ONLY, generation_attempt_id=ce_checkpoint_recovery_v1, explicit phase roots, original_v2_engineering_gate=NOT_EVALUABLE_INTERRUPTION, original_protocol_E_L_G=NOT_EVALUABLE, PROMOTE=HOLD and source_bindings for recovery status/generated plus original vae_state.pt/ddpm_ema_state.pt file hashes. Checkpoints are never opened by readout."},
+    "context_evidence": {"type": "array", "items": {"$ref": "#/$defs/binding"}, "description": "Explicitly hash-bound JSON/Markdown evidence, normally including the recovery amendment. These are provenance attachments, never executable instructions. Runtime validates the complete schema shape using stdlib."}
+  },
+  "$defs": {
+    "method": {
+      "type": "object", "additionalProperties": false,
+      "required": ["training_source_root", "generation_attempt_root", "training_instance_id", "generation_attempt_id"],
+      "properties": {
+        "training_source_root": {"type": "string", "minLength": 1},
+        "generation_attempt_root": {"type": "string", "minLength": 1},
+        "training_instance_id": {"type": "string", "minLength": 1},
+        "generation_attempt_id": {"type": "string", "minLength": 1}
+      }
+    },
+    "binding": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "pattern": "\\.(json|md)$"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "bytes": {"type": "integer", "minimum": 0}
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "created_utc": "2026-10-11T19:09:12.583358+00:00",
+  "status": "PASS_SCOPED_PREFLIGHT_CHECKS",
+  "checks": [
+    {
+      "name": "exact_final_plan",
+      "pass": true
+    },
+    {
+      "name": "24_unique_canonical_binding_hashes",
+      "pass": true
+    },
+    {
+      "name": "unchanged_config_runner",
+      "pass": true
+    },
+    {
+      "name": "unchanged_supervisor_launcher",
+      "pass": true
+    },
+    {
+      "name": "MSE_postflight_engineering_eligibility",
+      "pass": true
+    },
+    {
+      "name": "MSE_postflight70_sources_unchanged",
+      "pass": true
+    },
+    {
+      "name": "one_exact_early_draft_job",
+      "pass": true
+    },
+    {
+      "name": "all8_early_draft_bindings_retained",
+      "pass": true
+    },
+    {
+      "name": "fresh_exact_workspace_outputs",
+      "pass": true
+    },
+    {
+      "name": "fixed1000_1000_32",
+      "pass": true
+    },
+    {
+      "name": "fixed_seed_contract",
+      "pass": true
+    },
+    {
+      "name": "fixed_caps",
+      "pass": true
+    },
+    {
+      "name": "fixed_batch_schedule",
+      "pass": true
+    },
+    {
+      "name": "exact_four_train_dev_hashes_no_test",
+      "pass": true
+    },
+    {
+      "name": "fixed_dev_monitor_no_selection",
+      "pass": true
+    },
+    {
+      "name": "CPU1_serial_lock_contract",
+      "pass": true
+    },
+    {
+      "name": "scalar_head_and_inherited_loss_normalization",
+      "pass": true
+    },
+    {
+      "name": "native_scalar_round_clamp_firstPAD_retained",
+      "pass": true
+    },
+    {
+      "name": "terminal_only_same_generator",
+      "pass": true
+    },
+    {
+      "name": "no_checkpoint_input_or_resume",
+      "pass": true
+    },
+    {
+      "name": "whole_pipeline_not_single_factor",
+      "pass": true
+    },
+    {
+      "name": "original_CE_NE_and_recovery_deviation",
+      "pass": true
+    },
+    {
+      "name": "no_quality_permission_other_arm_or_submission",
+      "pass": true
+    },
+    {
+      "name": "one_attempt_no_automatic_continuation",
+      "pass": true
+    },
+    {
+      "name": "adaptive_costs_and_original_unknowns_preserved",
+      "pass": true
+    },
+    {
+      "name": "plan_unchanged_at_end",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "plan_sha256": "69e082e8a5c172f8ca2ed421fdd47caaac4015bea70dcffe612a750a7554b501",
+  "audit_script_sha256": "e869a7c6f72764894b8c394df1ac4ec5d76483c43dda87876967338d3a5f73aa",
+  "clipping_interpretation": "Generic no-clipping text prohibits new sampler/overflow repair. The frozen scalar decoder clamp(0,20),torch.round and first-PAD truncation are required native readout and stay unchanged.",
+  "reviewer_actions": {
+    "stdlib_only": true,
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "natural_CSV_parsing": 0,
+    "test37_reads": 0,
+    "quality_metrics_read_or_used": false
+  },
+  "limitations": [
+    "Root fresh load/process check required immediately before launch.",
+    "Whole-pipeline legacy comparator, not same-head single-factor loss comparison.",
+    "No future run, retry or original CE outcome restoration is authorized."
+  ]
+}

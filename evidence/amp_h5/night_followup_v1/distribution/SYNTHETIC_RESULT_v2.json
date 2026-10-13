@@ -1,0 +1,65 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "implementation": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/distribution_diagnostic_v2.py",
+    "bytes": 19129,
+    "sha256": "7df021783b1f06a54b207ffb6b6117262badcb77e80ec43bac182084c984e7a5"
+  },
+  "fixture": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/check_synthetic_v2.py",
+    "bytes": 5927,
+    "sha256": "13bc90b81f9414ac35a60d936f38f74337f7144a439d04e2fb5327553abbb328"
+  },
+  "checks": [
+    {
+      "check": "SRSWOR_expectation_all_6_subsets_3_blocks",
+      "passed": true
+    },
+    {
+      "check": "SRSWOR_n_equals_N_variance_term_zero",
+      "passed": true
+    },
+    {
+      "check": "421_frozen_metric_and_additive_blocks_identical",
+      "passed": true
+    },
+    {
+      "check": "component_DP_enumeration_and_exact_uniform_conditional_probability",
+      "passed": true
+    },
+    {
+      "check": "reviewed_choose_subset_returns_only_complete_feasible_groups",
+      "passed": true
+    },
+    {
+      "check": "whole_dev_cross_terminal_group_shared_multiplicity",
+      "passed": true
+    },
+    {
+      "check": "empty_terminal_null_without_fill_reject_or_macro",
+      "passed": true
+    },
+    {
+      "check": "shared_dev_draw_CE_AR_difference_zero_when_generated_features_equal",
+      "passed": true
+    },
+    {
+      "check": "slot_is_sampling_unit_invalid_slot_not_erased_from_denominator",
+      "passed": true
+    },
+    {
+      "check": "fixed_streams_replay_indices_exactly",
+      "passed": true
+    },
+    {
+      "check": "exact_tie_position_is_not_tail_probability",
+      "passed": true
+    }
+  ],
+  "check_count": 11,
+  "natural_data_reads": 0,
+  "model_calls": 0,
+  "test_reads": 0,
+  "elapsed_seconds_before_result_io": 0.0688994163647294,
+  "numpy_version": "1.26.4"
+}

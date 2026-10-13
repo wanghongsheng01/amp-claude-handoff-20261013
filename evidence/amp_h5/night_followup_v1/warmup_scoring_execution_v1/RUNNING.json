@@ -1,0 +1,34 @@
+{
+  "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+  "command": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+    "--config",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v3/SCORING_CONTRACT.json",
+    "--approval",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_RMS_SCORING_PREFLIGHT_v2.json",
+    "--model-postflight",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_RMS_RECONSTRUCTION_POSTFLIGHT_v1.json",
+    "--out",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1"
+  ],
+  "root_authorization": "Root direct single-use authorization after model postflight PASS",
+  "started_utc": "2026-10-12T01:13:33.524741+00:00",
+  "outer_cap_seconds": 360,
+  "inner_cap_seconds": 300,
+  "inputs": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v3/SCORING_CONTRACT.json": "354d60ec279f9f5565a8370e4a11c11830ce367345eef4c8274ae2824feec8ff",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_RMS_SCORING_PREFLIGHT_v2.json": "ee51781dd0e2b5defc89c7d6e45d5b3d2d40b24b71b6da1f73a5a49938255931",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_RMS_RECONSTRUCTION_POSTFLIGHT_v1.json": "4e4e0ce7a1a8643d4cf7ee322bf46317dfafe934a193e33006812abb3cc2d0c4"
+  },
+  "watchdog_sha256": "c0744a13a27d7c062a4ebd7df1c9d3d2c8498444e6ee464d8298afa2f0379945",
+  "retry_allowed": false,
+  "model_calls": 0,
+  "training_updates": 0,
+  "random_draws": 0,
+  "test_access": false,
+  "pid": 768,
+  "state": "running"
+}

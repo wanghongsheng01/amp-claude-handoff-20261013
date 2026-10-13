@@ -1,0 +1,14 @@
+test_all_modes_normalization_and_unseen (test_model.ModelTests) ... ok
+test_counts_and_no_cross_sequence_edges (test_model.ModelTests) ... ok
+test_frozen_heldout_serialization_and_sampling (test_model.ModelTests) ... ok
+test_invalid_inputs (test_model.ModelTests) ... ok
+test_logscore_complete_sequence (test_model.ModelTests) ... ok
+test_ngram_backoff (test_model.ModelTests) ... ok
+test_partial_formula_and_limits (test_model.ModelTests) ... ok
+test_structure_shared_and_order_invariant (test_model.ModelTests) ... ok
+test_transitions_and_boundary (test_model.ModelTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.087s
+
+OK

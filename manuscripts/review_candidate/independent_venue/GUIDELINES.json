@@ -1,0 +1,112 @@
+{
+  "checked_utc_date": "2026-10-12",
+  "recommended_candidate": "Bioinformatics Original Paper; format-free review LaTeX",
+  "submission_readiness": "NO_GO pending science and author/data availability gates",
+  "not_acceptance_prediction": true,
+  "template": "No official production template downloaded; initial template optional verified. Do not badge generic article.cls as official.",
+  "rules": [
+    {
+      "id": "BIO-01",
+      "topic": "article_type",
+      "requirement": "Original Paper is the candidate format; Application Notes describe novel software/algorithm implementations/databases/network services. No distinct Analysis format confirmed.",
+      "url": "https://academic.oup.com/bioinformatics/pages/author-guidelines",
+      "evidence_access": "official indexed excerpts; full HTML access blocked by challenge"
+    },
+    {
+      "id": "BIO-02",
+      "topic": "initial_format",
+      "requirement": "Format-free initial submission confirmed; initial PDF or LaTeX source acceptable, figures/tables embedded.",
+      "url": "https://academic.oup.com/bioinformatics/pages/submission_online",
+      "evidence_access": "official full page; corroborated by journal homepage"
+    },
+    {
+      "id": "BIO-03",
+      "topic": "review_layout",
+      "requirement": "12pt minimum, double spacing and line numbers; approximately5000 words Original Paper. Template not required at first submission.",
+      "url": "https://academic.oup.com/bioinformatics/pages/submission_online",
+      "evidence_access": "official full page"
+    },
+    {
+      "id": "BIO-04",
+      "topic": "production_length",
+      "requirement": "Original Papers up to7 template pages, approximately5000 words excluding figures. Treat review-layout page count separately; do not claim publication-template compliance.",
+      "url": "https://academic.oup.com/bioinformatics/pages/author-guidelines",
+      "evidence_access": "official indexed excerpt"
+    },
+    {
+      "id": "BIO-05",
+      "topic": "abstract",
+      "requirement": "Structured headings Motivation, Results, Availability and Implementation, Contact, Supplementary information. Use concise<=250-word working target; exact numerical abstract limit not fully verified in accessible source.",
+      "url": "https://academic.oup.com/bioinformatics/pages/author-guidelines",
+      "evidence_access": "heading list verified in official indexed excerpt; numeric target is internal conservative choice"
+    },
+    {
+      "id": "BIO-06",
+      "topic": "AI",
+      "requirement": "Disclose AI used for content generation, code writing or data processing in both cover letter and Methods/appropriate section; AI cannot be an author. Human authors must verify and approve.",
+      "url": "https://academic.oup.com/bioinformatics/pages/author-guidelines",
+      "evidence_access": "official indexed excerpts"
+    },
+    {
+      "id": "BIO-07",
+      "topic": "supplement",
+      "requirement": "Combine supplementary prose/figures/tables in one supplementary file; provide code/data availability accurately. Do not advertise a public archive that does not exist.",
+      "url": "https://academic.oup.com/bioinformatics/pages/author-guidelines",
+      "evidence_access": "single-file supplement verified in official indexed excerpt; no claimed public release checked"
+    },
+    {
+      "id": "CB-01",
+      "topic": "scope",
+      "requirement": "Primary research is expected to make a significant advance with new biological insight to a specialist field. Current sequence-only development evidence does not establish that insight.",
+      "url": "https://www.nature.com/commsbio/submit",
+      "evidence_access": "official indexed source; conclusion is reviewer judgement"
+    },
+    {
+      "id": "CB-02",
+      "topic": "article_format",
+      "requirement": "Original research type is Article; guideline recommends~5000 main-text words excluding unlimited Methods, up to10 display items.",
+      "url": "https://www.nature.com/commsbio/submit/content-types",
+      "evidence_access": "official full indexed content"
+    },
+    {
+      "id": "CB-03",
+      "topic": "layout",
+      "requirement": "150–250-word unreferenced abstract; title<=15words;12pt,line numbers; LaTeXZIP accepted; either IMRaD or IRDM order.",
+      "url": "https://www.nature.com/commsbio/submit/formatting-guidelines",
+      "evidence_access": "official full indexed content"
+    },
+    {
+      "id": "CB-04",
+      "topic": "reporting",
+      "requirement": "Methods must permit interpretation/replication; statistical analyses subsection; citation order and figure/table references checked; source data and availability need truthful statements.",
+      "url": "https://www.nature.com/commsbio/submit/formatting-guidelines",
+      "evidence_access": "official full indexed content"
+    },
+    {
+      "id": "CB-05",
+      "topic": "AI",
+      "requirement": "Current policy uses assistive/evaluative/prohibited risk framework. Substantive AI interpretation/writing requires human oversight, verification and transparent disclosure; responsibility cannot be transferred to AI.",
+      "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+      "evidence_access": "official indexed page; official Springer Nature guidance full page confirms current framework"
+    },
+    {
+      "id": "CB-06",
+      "topic": "AI_disclosure_boundary",
+      "requirement": "Group guidance contains inconsistent location/copyediting FAQ wording; avoid declaring exemption. Fully disclose tools, dates, extent, code/analysis/writing role in Methods and cover letter. Simple numerical charts are distinct from generated experimental images.",
+      "url": "https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers",
+      "evidence_access": "official full page; inconsistency recorded rather than silently resolved"
+    },
+    {
+      "id": "BOTH-01",
+      "topic": "author_signoff",
+      "requirement": "Retain supplied names as unconfirmed; no fabricated affiliation/funding/COI/contribution/approval. Human authors must endorse scientific judgement, final text and submission.",
+      "url": "https://www.nature.com/nature-portfolio/editorial-policies/authorship",
+      "evidence_access": "official indexed authorship policy; applies directly to Nature; candidate uses conservative human signoff gate"
+    }
+  ],
+  "access_limitations": [
+    "Bioinformatics main guidelines web fetch exceeded tool length; one public curl returned Cloudflare challenge. No challenge/auth retry. Indexed official excerpts plus official homepage/submission page used.",
+    "Nature main AI/submit pages sometimes redirect to auth. No auth was attempted. Official indexed text and publisher group guidance used.",
+    "No claim that every current submission-form field or template requirement has been verified."
+  ]
+}

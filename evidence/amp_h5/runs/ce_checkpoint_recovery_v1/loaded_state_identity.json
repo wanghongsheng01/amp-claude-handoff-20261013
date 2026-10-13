@@ -1,0 +1,10 @@
+{
+  "before": {
+    "vae_state": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+    "ddpm_ema_state": "a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c"
+  },
+  "expected": {
+    "vae_state": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+    "ddpm_ema_state": "a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c"
+  }
+}

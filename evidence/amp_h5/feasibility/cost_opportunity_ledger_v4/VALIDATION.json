@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_direct_sources_stable": true,
+    "v3_manifest_exact": true,
+    "scalar_completed1000_1000": true,
+    "scalar32completed_no_fail": true,
+    "scalar_independent_postflight_PASS": true,
+    "decimal_arithmetic": true,
+    "actual_total_still_unknown": true,
+    "updates_accounting": true,
+    "allocated200_started_atleast152_completed130": true,
+    "slot_partition": true,
+    "partial16_not_completed": true,
+    "completed_legality_partition129_120_empty1_short9": true,
+    "latent4_separate": true,
+    "prepared64_not_real_attempts": true,
+    "analysis11_834_separate": true,
+    "scalar_terminal_not_live": true,
+    "original_CE_stale_preserved": true,
+    "PROMOTE_HOLD": true,
+    "AR_adequacy_not_established": true,
+    "actual_compute_not_equal": true
+  },
+  "model_calls": 0,
+  "source_cohort_reads": 0,
+  "v1_v2_v3_or_run_mutations": 0,
+  "no_natural_sampling_or_training": true
+}

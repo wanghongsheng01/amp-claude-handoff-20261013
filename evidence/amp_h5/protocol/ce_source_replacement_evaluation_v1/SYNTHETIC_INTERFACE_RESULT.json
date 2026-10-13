@@ -1,0 +1,48 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "checks": [
+    {
+      "name": "all128_exact_diagnostic_slots_accepted",
+      "pass": true
+    },
+    {
+      "name": "unexpected_slot_id_rejected",
+      "pass": true
+    },
+    {
+      "name": "duplicate_slot_rejected",
+      "pass": true
+    },
+    {
+      "name": "missing_request_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_epsilon_seed_rejected",
+      "pass": true
+    },
+    {
+      "name": "unlocked_method_alias_rejected",
+      "pass": true
+    },
+    {
+      "name": "empty_failed_and_pending_retained_with_eligibility_explicit",
+      "pass": true
+    },
+    {
+      "name": "seed_field_shared_epsilon_separate_selection_permutation",
+      "pass": true
+    }
+  ],
+  "evaluator_sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417",
+  "source_sha256": "39bfdf48defefe390441c9f921d2a65b5d8a4010d76c4879b2b5fabecab651a8",
+  "operations": {
+    "natural_dataset_reads": 0,
+    "natural_sample_reads": 0,
+    "model_calls": 0,
+    "new_random_draws": 0,
+    "test37_reads": 0
+  },
+  "authorization": false,
+  "limits": "No execution or natural quality result; old gate false from missing operands is NOT_APPLICABLE, not a diagnostic failure."
+}

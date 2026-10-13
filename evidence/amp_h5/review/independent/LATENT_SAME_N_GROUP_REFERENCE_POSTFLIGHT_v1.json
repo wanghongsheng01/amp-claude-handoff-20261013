@@ -1,0 +1,313 @@
+{
+  "created_utc": "2026-10-11T20:03:46.954383+00:00",
+  "status": "PASS_SAVED_ARRAY_SAME_N_DESCRIPTIVE_ANALYSIS",
+  "scope_id": "AMP_H5_LATENT_SAME_N_GROUP_REFERENCE_V1",
+  "checks": [
+    {
+      "name": "runtime_numpy1_26_4",
+      "pass": true
+    },
+    {
+      "name": "exact_frozen_numerical_and_index_artifacts",
+      "pass": true
+    },
+    {
+      "name": "manifest_members_hashes_bytes_unique",
+      "pass": true
+    },
+    {
+      "name": "all12_inputs_before",
+      "pass": true
+    },
+    {
+      "name": "protocol_script_preflight_bindings",
+      "pass": true
+    },
+    {
+      "name": "independent_recursive_DP_count",
+      "pass": true
+    },
+    {
+      "name": "initial_RNG_state",
+      "pass": true
+    },
+    {
+      "name": "all256_index_and_RNG_replays_exact",
+      "pass": true
+    },
+    {
+      "name": "complete_inclusion_and_duplicate_accounting",
+      "pass": true
+    },
+    {
+      "name": "exact1024_unique_records",
+      "pass": true
+    },
+    {
+      "name": "all1024_numeric_records_independently_recomputed",
+      "pass": true
+    },
+    {
+      "name": "all_summaries_independently_recomputed",
+      "pass": true
+    },
+    {
+      "name": "original_NE_dev_missing_no_inferential_claim",
+      "pass": true
+    },
+    {
+      "name": "all_input_and_output_bindings_stable",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "numeric_comparisons": 507432,
+  "numerical_disagreements": [],
+  "facts": {
+    "repetitions": 256,
+    "records": 1024,
+    "components": 224,
+    "exact_subset_count": "488466986509709352862250309225896922",
+    "component_inclusion_range": [
+      0,
+      64
+    ],
+    "components_observed_zero_inclusion": 8,
+    "duplicate_subsets": 0,
+    "reference_counts": {
+      "FREE": 110,
+      "AMD": 137
+    },
+    "generated_and_holdout_counts_each": 16,
+    "selected_paired_delta_empirical_quantiles": {
+      "categorical_ce": {
+        "FREE": {
+          "mu/outside_coordinate_minmax": {
+            ".025": 0.13349405924479169,
+            ".25": 0.1395263671875,
+            ".5": 0.14298502604166666,
+            ".75": 0.14792887369791666,
+            ".975": 0.18522135416666666
+          },
+          "log_sigma/outside_coordinate_minmax": {
+            ".025": 0.12769571940104169,
+            ".25": 0.13197835286458331,
+            ".5": 0.13411458333333334,
+            ".75": 0.135986328125,
+            ".975": 0.138916015625
+          },
+          "log_sigma/map_mean_correlation_distance": {
+            ".025": 0.1911512751022288,
+            ".25": 0.21206148067669814,
+            ".5": 0.22315144120994684,
+            ".75": 0.23183491242102947,
+            ".975": 0.25094875051212395
+          },
+          "mu_logsigma/position_mean_absolute_difference_from_reference": {
+            ".025": -0.18852654688132658,
+            ".25": -0.0455933156145604,
+            ".5": 0.020112223564921594,
+            ".75": 0.06671100692107498,
+            ".975": 0.17579356125161968
+          }
+        },
+        "AMD": {
+          "mu/outside_coordinate_minmax": {
+            ".025": 0.30659993489583337,
+            ".25": 0.31353759765625,
+            ".5": 0.3162841796875,
+            ".75": 0.3184407552083333,
+            ".975": 0.378021240234375
+          },
+          "log_sigma/outside_coordinate_minmax": {
+            ".025": 0.2755940755208333,
+            ".25": 0.2814737955729167,
+            ".5": 0.28369140625,
+            ".75": 0.28558349609375,
+            ".975": 0.2883504231770833
+          },
+          "log_sigma/map_mean_correlation_distance": {
+            ".025": 0.563497377429205,
+            ".25": 0.5829606816835737,
+            ".5": 0.5943599229722734,
+            ".75": 0.603170890357469,
+            ".975": 0.616071710085734
+          },
+          "mu_logsigma/position_mean_absolute_difference_from_reference": {
+            ".025": 0.37420661902520935,
+            ".25": 0.5700224206785851,
+            ".5": 0.6489888461303019,
+            ".75": 0.7193720133626695,
+            ".975": 0.7874562104252034
+          }
+        }
+      },
+      "raw_onehot_mse": {
+        "FREE": {
+          "mu/outside_coordinate_minmax": {
+            ".025": 0.24208577473958331,
+            ".25": 0.249755859375,
+            ".5": 0.25390625,
+            ".75": 0.25732421875,
+            ".975": 0.279510498046875
+          },
+          "log_sigma/outside_coordinate_minmax": {
+            ".025": 0.207763671875,
+            ".25": 0.21346028645833334,
+            ".5": 0.216064453125,
+            ".75": 0.21846516927083331,
+            ".975": 0.22075398763020834
+          },
+          "log_sigma/map_mean_correlation_distance": {
+            ".025": 0.1935603917846106,
+            ".25": 0.2084132413304191,
+            ".5": 0.21602558744226946,
+            ".75": 0.22209132905962936,
+            ".975": 0.23158554868057388
+          },
+          "mu_logsigma/position_mean_absolute_difference_from_reference": {
+            ".025": -0.22331369295948497,
+            ".25": -0.07567266726331379,
+            ".5": -0.018813423265121074,
+            ".75": 0.017548733857709206,
+            ".975": 0.05764159711129686
+          }
+        },
+        "AMD": {
+          "mu/outside_coordinate_minmax": {
+            ".025": 0.3526713053385417,
+            ".25": 0.36252848307291663,
+            ".5": 0.3671875,
+            ".75": 0.3711140950520833,
+            ".975": 0.41350301106770837
+          },
+          "log_sigma/outside_coordinate_minmax": {
+            ".025": 0.2934672037760417,
+            ".25": 0.29866536458333337,
+            ".5": 0.30037434895833337,
+            ".75": 0.302001953125,
+            ".975": 0.3046061197916667
+          },
+          "log_sigma/map_mean_correlation_distance": {
+            ".025": 0.42338331787644246,
+            ".25": 0.4395404644675436,
+            ".5": 0.44599860878035896,
+            ".75": 0.45176148212024325,
+            ".975": 0.45808842231516617
+          },
+          "mu_logsigma/position_mean_absolute_difference_from_reference": {
+            ".025": -0.18313319684313975,
+            ".25": -0.023841580479947742,
+            ".5": 0.03819356939598239,
+            ".75": 0.08679860125322013,
+            ".975": 0.12368541189207566
+          }
+        }
+      }
+    }
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/GROUP_BINDING_AVAILABILITY.json",
+      "sha256": "94487523cd76ad184f6c091988df6c47f6214c36632373cd0f28a730942d9b16"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/LATENT_AVAILABILITY.json",
+      "sha256": "c4ace7de7df6912f18939f963caf1f9c33e925982b3a089659829f9ef5bb16a7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/MANIFEST.json",
+      "sha256": "bd1666a2bc17abc073d9ae98d54d2dfc9f9e548f6a65c7a6266182316b2563ab"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/LATENT_MATCH_READOUT.json",
+      "sha256": "9f0a1fb765fd61770e0b15c9c4708951bd6e12fad137aa63b878f4df860c0a39"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_METRIC_CLARIFICATION.json",
+      "sha256": "42766c205908dd2d9bd0a97d1c52c720f4f1ce022555241f949272b01d505c7f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+      "sha256": "f7899543f330e1fed829e592269c09c9b747e45abbffe2ec251f3e69c37fae0d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz",
+      "sha256": "fd987de8fec498386f414b3c64db0512f916253d4f294152c97a095eb6d30722"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_posterior_parameters.npz",
+      "sha256": "803241f2a112a732b69d607fb8922d93f9828824dc4e0f44d1f932ea02249617"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_FREE.npz",
+      "sha256": "79b4282b306cb92a7a77220be22bd897b5a70855a49981daecbe97a34192c68e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_AMD.npz",
+      "sha256": "49cc4057e28afc4cd035b133773406ea4bc513f5a8aadde958d36202f14729b9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/AUTHOR_VALIDATION.json",
+      "sha256": "cad7096e84d6a2dd3cfb69dd14ed4701cade128da86db7916b50115416318296",
+      "bytes": 1198
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/COMPACT_READOUT.json",
+      "sha256": "0b7fce893fe6de4ff6c0a4b341b0e294ac3a549b8a68d2bd695765211d59afca",
+      "bytes": 476501
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/COMPUTE_MANIFEST.json",
+      "sha256": "71041754808816f3456211725b43ced8998e0c2260b15bb199915d8cff661ba3",
+      "bytes": 725
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/INDEX_SEAL.json",
+      "sha256": "9882ca817a5c813dfc89d756080a15e34522dbe61b8fa4ed28e41661687b77c1",
+      "bytes": 1902613
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/READOUT.zh.md",
+      "sha256": "6e0f68eae015982781c726f0b01f5067c205f143e18ed770c38ddcbe4cac8720",
+      "bytes": 4704
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/SAME_N_READOUT.json",
+      "sha256": "bded28a9a808f367dcfba11bc63d6bf53246e633b3f7af294012441a342bde22",
+      "bytes": 22558298
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/DELIVERY_MANIFEST.json",
+      "sha256": "6956edbd2632fa3639ac58c6cc7cf2f9f56023731279242e37d572b893dbdafa"
+    }
+  ],
+  "reviewer_actions": {
+    "model_calls": 0,
+    "new_latent_draws": 0,
+    "new_subsets_selected": 0,
+    "prelocked_subset_RNG_replayed": 256,
+    "saved_arrays_recomputed": true,
+    "test37_reads": 0,
+    "live_scalar_reads": 0
+  },
+  "scope_limitations": [
+    "Posthoc descriptive finite-training-pool reference, not confidence intervals, pvalues, model-unseen validation or independent biological experiments.",
+    "Joint whole-component holdout prevents split of frozen similarity components only; uniform feasible subsets cause unequal inclusion probabilities. Eight groups were not selected by this256-replay stream but none was prefiltered.",
+    "Both operands use16 rows and identical110/137 reference; this addresses that count mismatch only, not all dependence, model bias or causal identification.",
+    "Statistics are low-order marginal/mean-profile/dependency summaries, not a verified estimate of full1536-dimensional covariance.",
+    "Dev latent remains missing; no forward was added. Existing tail proportions cannot prove DDPM implementation failure.",
+    "No new model work or source-substitution control authorized; original CE E/L/G remainsNE and PROMOTE HOLD."
+  ],
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD",
+  "audit_seconds": 23.45660720905289
+}

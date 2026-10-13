@@ -1,0 +1,109 @@
+{
+  "schema": "AMP_H5_SMOKE_V1",
+  "created_utc": "2026-10-11T15:49:23.230420+00:00",
+  "state": "PRELOCK_AWAIT_INDEPENDENT_REVIEW",
+  "purpose": "Real train-only end-to-end finite execution and throughput; not learning/quality evidence; weights excluded from formal initialization",
+  "arms": [
+    "categorical_ce",
+    "raw_onehot_mse",
+    "scalar_legacy",
+    "terminal_lstm"
+  ],
+  "train": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+    "rows": 279
+  },
+  "dev_access": "none: inherit expected digest from frozen source manifest without opening dev file",
+  "test_access": "forbidden",
+  "device": "cpu",
+  "threads": 1,
+  "execution": "serial across all methods",
+  "seeds": {
+    "init_and_vae_batch": 222,
+    "ddpm": 322,
+    "generation_terminal_0": 422,
+    "generation_terminal_1": 423
+  },
+  "updates": {
+    "VAE": 20,
+    "DDPM": 20,
+    "AR": 100
+  },
+  "batch_size": {
+    "VAE": 32,
+    "DDPM": 8,
+    "AR": 32
+  },
+  "limits": {
+    "total_training_seconds_per_method": 180,
+    "generation_seconds_per_method_all_two_requests": 450,
+    "no_new_update_or_request_after_softcap": true,
+    "inflight_operation_may_finish_and_is_accounted": true
+  },
+  "generation": {
+    "per_terminal": 1,
+    "total_per_method": 2,
+    "conditions": [
+      "FREE",
+      "AMD"
+    ],
+    "allowed_input": "terminal plus own random noise or autoregressive prefix",
+    "forbidden": [
+      "true_length",
+      "source_sequence",
+      "per_residue_g",
+      "source_global_h",
+      "retrieved_prototype"
+    ],
+    "max_length": 48,
+    "support": "0..48; empty retained; no minimum-length rejection",
+    "resample_or_retry": 0
+  },
+  "losses": {
+    "CE": "sum position CE / (B*48)",
+    "MSE": "0.5*sum raw-score onehot squared error / (B*48)",
+    "common_K": "sum sampled(logq-logp)/(B*48); beta=1; preserve negative MC estimate",
+    "scalar": "legacy target-index MSE and legacy KL; whole-pipeline comparator, not single-component causal control"
+  },
+  "AR": {
+    "architecture": "terminal-conditioned 2x64 LSTM",
+    "classification": "paper-informed canonical adaptation; not faithful official reproduction",
+    "temperature": 1,
+    "support": "capped48, shifted BOS inputs; first EOS supervision only for length<48"
+  },
+  "endpoint": "fixed updates if completed within cap; final checkpoint; no model selection",
+  "failure": "nonfinite/data identity/budget/generation error: retain failed stage and all request slots; no retry; formal only after engineering diagnosis and separately frozen correction if necessary",
+  "data_evaluation": "no development losses, distribution metrics or biological claims; throughput, finite outputs, condition interface and hashes only",
+  "formal_budget_rule": "Use measured seconds/update and fixed historical 1000/1000 anchor; choose one common end-to-end training ceiling and fixed VAE/DDPM update counts before formal outcomes. AR gets comparable ceiling with throughput-derived steps. Record actual costs; never claim exact equal compute when unequal. No architecture/loss/seed selection using smoke quality.",
+  "restrictions": [
+    "no test",
+    "no source/manuscript mutations",
+    "no remote authentication",
+    "no credential access",
+    "no uploads/push/submission",
+    "BACKUP_BLOCKED"
+  ],
+  "descriptor_train": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/train.csv",
+    "sha256": "f71de05d3a2086c37b082716781397f7bb6db65322b807366f4f19ebf3058e03",
+    "rows": 279,
+    "verification": "row-wise sequence and terminal match with frozen cohort train; descriptor source unchanged; train-only population scaler"
+  },
+  "runtime": {
+    "python": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "torch": "2.2.2",
+    "source_manifest_sha256": "019f4d1a6c6fd882c71849ae3c2920556020cee043ea084b31def1a89e980f48"
+  },
+  "optimizer_contract": {
+    "vae": "Adam(lr=max(5e-4*max(0,step-2)/1000,1e-7),betas=(.9,.999),eps=1e-8,weight_decay=0)",
+    "vae_clip_norm": 1.0,
+    "ddpm": "AdamW(lr=.005,eps=1e-5,betas=(.9,.999),weight_decay=.01)",
+    "ddpm_scheduler": "OneCycleLR(max_lr=.005,total_steps=20); step after optimizer",
+    "ema": "EMA(.995), copied each update before 2000",
+    "ddpm_noise": "linear beta 1e-4..0.02,999 steps; train and reverse timesteps1..998",
+    "kl_beta": 1.0,
+    "raw_onehot_mse_prefactor": 0.5,
+    "phase_budget": "VAE90s+DDPM90s; shared total180s, checked before update, encode batch; in-flight atomic operation may finish"
+  }
+}

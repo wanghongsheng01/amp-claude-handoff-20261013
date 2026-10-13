@@ -1,0 +1,28 @@
+{
+  "pid": 60234,
+  "created_utc": "2026-10-11T16:42:06.656508+00:00",
+  "state": "completed_with_failures",
+  "plan_sha256": "75680ea81168d1456a97ed697ab09f285148d0fc3bf5a4d5a34098b8f8cdbf6e",
+  "jobs": [
+    {
+      "id": "categorical_ce",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs/categorical_ce.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/categorical_ce"
+      ],
+      "started_utc": "2026-10-11T16:42:06.656847+00:00",
+      "state": "failed",
+      "pid": 60236,
+      "exit_code": 2,
+      "seconds": 1.074364208150655
+    }
+  ],
+  "completed_utc": "2026-10-11T16:42:07.731764+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-11T16:39:59.796104+00:00",
+  "reports": [
+    {
+      "manifest": "DELIVERY_H4_H2_BRIDGE_FINAL_INDEX.json",
+      "manifest_sha256": "c5a20a9d56f28370029d8cd39310db0e3064a8061d2b0e31e819f971ab18e395",
+      "checked": 64,
+      "missing": [],
+      "mismatched": [],
+      "skipped_protected": []
+    },
+    {
+      "manifest": "DELIVERY_H3_FINAL_INDEX.json",
+      "manifest_sha256": "8580a59558198db0a7dfed899f7e569af7dc5214ce668d74e2d3e1e19b60b6ac",
+      "checked": 45,
+      "missing": [],
+      "mismatched": [],
+      "skipped_protected": []
+    },
+    {
+      "manifest": "DELIVERY_H2_FINAL_INDEX.json",
+      "manifest_sha256": "6e12e3aef75054eed8237dd5816fda4638143935a7205710a8c4e04625ff6f8c",
+      "checked": 32,
+      "missing": [],
+      "mismatched": [],
+      "skipped_protected": []
+    }
+  ],
+  "scope": "only three named delivery manifests; no full historic507 or all-manuscript independent verification claimed"
+}

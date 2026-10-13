@@ -1,0 +1,53 @@
+{
+  "terminal": "AMD",
+  "mu": {
+    "shape": [
+      16,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 12288,
+    "finite_elements": 12288,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -10.108565330505371,
+    "finite_max": 5.004835605621338
+  },
+  "logsigma": {
+    "shape": [
+      16,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 12288,
+    "finite_elements": 12288,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -1.9860341548919678,
+    "finite_max": 1.5991332530975342
+  },
+  "posterior_parameters": {
+    "shape": [
+      16,
+      2,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 24576,
+    "finite_elements": 24576,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -10.108565330505371,
+    "finite_max": 5.004835605621338
+  },
+  "recorded_before_exp": true
+}

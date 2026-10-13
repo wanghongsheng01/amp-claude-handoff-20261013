@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "path": "DESIGN_ADVICE.zh.md",
+      "sha256": "e257dec79e52f207fa94bde2b6fa02ac33487b7bf4440fe0641bff5d5bd23714"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "sha256": "782db437ad09647ef8675b0c7f01ab3401ae6daf0a677eebfcc9852e67bd76b3"
+    }
+  ],
+  "scope": "independent advice only, not preflight approval"
+}

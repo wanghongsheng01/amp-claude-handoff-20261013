@@ -1,0 +1,71 @@
+{
+  "status": "PASS_SOURCE_AND_SAVED_SYNTHETIC_EVIDENCE_WITH_LIMITS",
+  "time_utc": "2026-10-12T08:46:57.527190+00:00",
+  "hash_checks": {
+    "model.py": true,
+    "validate_synthetic.py": true,
+    "CONFIG.json": true,
+    "AUTHOR_BINDING.json": true,
+    "PREFLIGHT.json": true,
+    "REPAIR.json": true,
+    "source_snapshot_binding": true,
+    "author_content:eval_prev_works/Antimicrobial-Peptides/pyproject.toml": true,
+    "author_content:eval_prev_works/Antimicrobial-Peptides/main.py": true,
+    "author_content:eval_prev_works/Antimicrobial-Peptides/src/nn.py": true,
+    "author_content:eval_prev_works/Antimicrobial-Peptides/src/settings.py": true,
+    "author_content:eval_prev_works/Antimicrobial-Peptides/src/train_model.py": true,
+    "author_report_all_checks_pass": true
+  },
+  "files_sha256": {
+    "model.py": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+    "validate_synthetic.py": "c381374708d7f2d5922f32ef062da5770e1e1f7f25a5ecca1a9e08c3de5612c5",
+    "CONFIG.json": "15d5af361d66e9eb3ecd152e493ba256f3a5b25391cd01b77c6b908290e62d8e",
+    "FREEZE.json": "f559752de93f9b25a354ec27145248747d64aec4730c504cdfae3770c1a7f218",
+    "RESULT.json": "89b96b41ad040f729066634365e20222d8c400b9242acd4b4abc2dc1c234e7aa",
+    "AUTHOR_BINDING.json": "0f113581e79d6dd6edc04d8e324eedfadeedf39806fe17f1f40c7f752958db4f"
+  },
+  "independent_review": "Manually compared cached author code to new source and inspected NumPy forward/finite-difference/Adam tests; independent reviewer has not run Torch or training. This audit does not call author-implemented tests independent executions.",
+  "accepted": [
+    "100x21 zero-padded one-hot with unused21stchannel, author first100 truncation and unknown token rejection",
+    "ZeroPadding5 + Conv64k5 + Pool2 + Conv64k5 + Pool2 + channels-last flatten1536 + dropout.5 + dense100,20,1",
+    "183069 parameters derived independently from layer shapes",
+    "Keras Glorot kernel and zero bias initializers; same distribution not same RNG samples",
+    "Mean squared scalar loss with shape(B,1)",
+    "Dense epsilon-hat Adam formula lr.001,beta.9/.999,eps1e-7; current loop all parameter gradients ensures per-parameter counter equals global iteration",
+    "Synthetic forward max error1.33e-15, finite difference <=7.1e-10, Adam4steps0error; inspected saved evidence",
+    "Single-thread CPU105syntheticoptimizationsteps with resource caps; saved results not biological/generalization evidence"
+  ],
+  "limitations": [
+    "No TensorFlow runtime installed, so no empirical same-runtime Keras parity",
+    "QMAP cached adaptation source, not independently recovered original Witten repository",
+    "Fixed alphabet ordering differs nondeterministic set enumeration but is channel permutation equivalent",
+    "Input100 accepted byencoder; QMAP natural training filter isstrict<100",
+    "No naturaldata loader, grouping, censoredlikelihood, provenanceisolation or naturaltraining budget frozen",
+    "Smoke fixedsyntheticbatch and surrogate targets are not original papers training or performance reproduction",
+    "Per-parameter Adam counters require dense gradient every step; documented in author README, not a discrepancy in present executed harness."
+  ],
+  "training_admission": "PENDING_CHEMISTRY_LABELS_GROUP_SPLITS_ISOLATION_AND_FROZEN_PROTOCOL",
+  "resource_result": {
+    "wall_seconds": 5.308467333205044,
+    "peak_rss_bytes": 290177024,
+    "throughput": {
+      "batch_size": 32,
+      "warmup_steps": 5,
+      "timed_steps": 20,
+      "training_seconds": 0.4420960829593241,
+      "train_seconds_per_step": 0.022104804147966207,
+      "train_examples_per_second": 1447.6491076689417,
+      "inference_seconds": 0.33495675027370453,
+      "inference_examples_per_second": 1910.6944388403406,
+      "training_steps_total": 105,
+      "natural_epochs_extrapolation": "ceil(N/32)*epochs*train_seconds_per_step; excludes IO/evaluation and is not measured natural throughput"
+    }
+  },
+  "independent_numeric_followup": "CNN_INDEPENDENT_NUMERIC.json: independent fixed-weight forward/backward and scalar optimizer assertions PASS after root released model slot; no trainingloop.",
+  "final_manifest_verification": {
+    "manifest_sha256": "c41d0769f2f79d801fb38b11a97d5de5615d90903cb9c607a1eb64bdb64882ae",
+    "all_files_pass": true,
+    "file_count": 17,
+    "initial_failure": "NumPy scalar JSON serialization repaired int-cast; attempt1 and original freeze retained; no changed scientific settings"
+  }
+}

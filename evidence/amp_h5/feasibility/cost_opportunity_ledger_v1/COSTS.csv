@@ -1,0 +1,10 @@
+event_id,category,state,outer_wall_seconds,inner_wall_seconds,train_pipeline_seconds,generation_seconds,AR_updates,VAE_updates,DDPM_updates,sequence_slots,sequence_attempts,latent_only_attempts,not_executed_slots
+AR_smoke_v1,smoke,completed,3.714580708183348,3.477028749883175,2.68213608302176,0.006877250038087368,100,0,0,2,2,0,0
+AR_formal_v1,formal,completed,15.3623446659185,15.10993174975738,14.292998417280614,0.020189667120575905,1000,0,0,32,32,0,0
+categorical_ce_smoke_v1,smoke,completed_with_failure,84.14928554091603,83.61939104227349,42.02405612496659,41.07353204116225,0,20,20,2,2,0,0
+raw_onehot_mse_smoke_v1,smoke,completed_with_failure,86.69244345789775,86.12129270890728,43.488666917197406,41.96440399996936,0,20,20,2,2,0,0
+scalar_legacy_smoke_v1,smoke,completed_with_failure,85.87268779193982,85.32932429201901,42.37623491603881,42.27294475026429,0,20,20,2,2,0,0
+H4_saved_t1_parity,additional_diagnostic,PASS,2.600359874777496,2.391429416835308,,,0,0,0,0,0,0,0
+DDPM_maturity_1000_4,additional_diagnostic,COMPLETE_WITH_NUMERICAL_FAILURES,651.8265761248767,651.2082062079571,558.6888052499853,91.69133349973708,0,0,1000,0,0,4,0
+CE_formal_v1_entry_failure,failed_formal_entry,failed,1.074364208150655,0.8533692504279315,,,0,0,0,32,0,0,32
+CE_formal_v2_pending,formal_pending,PENDING_NOT_INSPECTED,,,,,,,,,,,

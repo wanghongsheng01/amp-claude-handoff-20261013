@@ -1,0 +1,49 @@
+{
+  "kind": "synthetic_only_not_natural_throughput_guarantee",
+  "rows": 279,
+  "seed": 8675309,
+  "runs": [
+    {
+      "kind": "tree",
+      "depth": 1,
+      "fit_seconds": 0.022711958,
+      "score41_seconds": 0.018895082999999993,
+      "leaves": 8,
+      "transitions": 8144
+    },
+    {
+      "kind": "ngram",
+      "depth": 1,
+      "fit_seconds": 0.007882917000000003,
+      "tables": 22
+    },
+    {
+      "kind": "tree",
+      "depth": 2,
+      "fit_seconds": 0.089501166,
+      "score41_seconds": 0.016796332999999997,
+      "leaves": 41,
+      "transitions": 8144
+    },
+    {
+      "kind": "ngram",
+      "depth": 2,
+      "fit_seconds": 0.013780708000000003,
+      "tables": 414
+    },
+    {
+      "kind": "tree",
+      "depth": 3,
+      "fit_seconds": 0.132134,
+      "score41_seconds": 0.017267959,
+      "leaves": 82,
+      "transitions": 8144
+    },
+    {
+      "kind": "ngram",
+      "depth": 3,
+      "fit_seconds": 0.037594000000000016,
+      "tables": 2181
+    }
+  ]
+}

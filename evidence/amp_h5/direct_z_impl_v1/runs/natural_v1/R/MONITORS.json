@@ -1,0 +1,52 @@
+[
+  {
+    "step": 100,
+    "current_batch_MSE": 0.2664973735809326,
+    "cumulative_objects": 798
+  },
+  {
+    "step": 200,
+    "current_batch_MSE": 0.15235860645771027,
+    "cumulative_objects": 1595
+  },
+  {
+    "step": 300,
+    "current_batch_MSE": 0.1636246293783188,
+    "cumulative_objects": 2392
+  },
+  {
+    "step": 400,
+    "current_batch_MSE": 0.09664299339056015,
+    "cumulative_objects": 3189
+  },
+  {
+    "step": 500,
+    "current_batch_MSE": 0.07976894080638885,
+    "cumulative_objects": 3986
+  },
+  {
+    "step": 600,
+    "current_batch_MSE": 0.16809232532978058,
+    "cumulative_objects": 4783
+  },
+  {
+    "step": 700,
+    "current_batch_MSE": 0.027481935918331146,
+    "cumulative_objects": 5580
+  },
+  {
+    "step": 800,
+    "current_batch_MSE": 0.061050210148096085,
+    "cumulative_objects": 6378
+  },
+  {
+    "step": 900,
+    "current_batch_MSE": 0.09504774212837219,
+    "cumulative_objects": 7175
+  },
+  {
+    "step": 1000,
+    "current_batch_MSE": 0.11901053786277771,
+    "cumulative_objects": 7972
+  }
+]

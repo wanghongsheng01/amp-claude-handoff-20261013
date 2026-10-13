@@ -1,0 +1,260 @@
+{
+  "work_seed": 0,
+  "frozen_routine": "posterior_parameters uses fork_rng and manual_seed0",
+  "batches": [
+    {
+      "batch": 1,
+      "split": "train",
+      "rows": 32,
+      "rng_before": "1ccf17250133dec5e96478acd63e13d728d0dbbabb30389415a302c6f872f81f",
+      "rng_after": "8910300e1476bfbc52ff370cf7d8dfcad643b569195fd962fc37c45b61750494",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "457bf2f605658b88e15e25fbfb9f3b2c348163464ab66cf3ff0f1db1766a7d76",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 2,
+      "split": "train",
+      "rows": 32,
+      "rng_before": "8910300e1476bfbc52ff370cf7d8dfcad643b569195fd962fc37c45b61750494",
+      "rng_after": "3a6e3aaebe8792d526c52f653de1cb4c12a70dc984a06d372c8507eccff852e2",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "38abbcca4b54bcc95faeb1fdc57d57d54855b064ffc3dc60e5eb073438a3f47f",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 3,
+      "split": "train",
+      "rows": 32,
+      "rng_before": "3a6e3aaebe8792d526c52f653de1cb4c12a70dc984a06d372c8507eccff852e2",
+      "rng_after": "74ba0d48be506a1db00e575b8065a5437557118e9c67d228d938d7afdfe9bc76",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "3e3404e48e96252fba573f83985e75479611315f52cdfffb1e6a31e446c26356",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 4,
+      "split": "train",
+      "rows": 32,
+      "rng_before": "74ba0d48be506a1db00e575b8065a5437557118e9c67d228d938d7afdfe9bc76",
+      "rng_after": "30b0ec1990a44392d32036203bf4c54b5b84c20a8ec1f35b0c61a16b47036c30",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "a612e989e08b3fc2fa2a9304c4e7683ad243fd87b3ac5499c45d6b1e1f108559",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 5,
+      "split": "train",
+      "rows": 32,
+      "rng_before": "30b0ec1990a44392d32036203bf4c54b5b84c20a8ec1f35b0c61a16b47036c30",
+      "rng_after": "3fd1587d549fd3f268ba4081b6b4a253bd14a703b9b7bffd959e6253da627e07",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "b2722a6fa0ee06827b28d459867b720534e99b30693dd943bbc25130e5cd892b",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 6,
+      "split": "train",
+      "rows": 32,
+      "rng_before": "3fd1587d549fd3f268ba4081b6b4a253bd14a703b9b7bffd959e6253da627e07",
+      "rng_after": "edc7f14deed2819a2c525be6acc7df16cb5a842a044866070ceb7c6978a0482c",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "b982fe640cad590a484b6b1839735a2e857e56a249dfc8b598166358ce96cb27",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 7,
+      "split": "train",
+      "rows": 32,
+      "rng_before": "edc7f14deed2819a2c525be6acc7df16cb5a842a044866070ceb7c6978a0482c",
+      "rng_after": "2c9a3a16122b1775bcbb32c77e947edd3cdb5072a4ed691e6f1286d7463a1ec8",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "b1592897fe07c762590e176ae05e7d71c68caf799fc140d958c3173f887226a0",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 8,
+      "split": "train",
+      "rows": 32,
+      "rng_before": "2c9a3a16122b1775bcbb32c77e947edd3cdb5072a4ed691e6f1286d7463a1ec8",
+      "rng_after": "4157fd163ae5ca746b1899aed342bb906d82135e6dc32552ed941b58b1cf4fcf",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "1464748d34231c158e9ee4b8eafa16b913e73bdaad55e651484b2a9faab3d776",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 9,
+      "split": "train",
+      "rows": 23,
+      "rng_before": "4157fd163ae5ca746b1899aed342bb906d82135e6dc32552ed941b58b1cf4fcf",
+      "rng_after": "327f3d2532d728e99d5bb57bb849feec11f4ceadca266f1ed58479f0f640c7bc",
+      "discarded_internal_z_shape": [
+        23,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "f095444f6ac66c7275e9ba6bff66ab30cc5d4d785baed62d93c8935c8b57a673",
+      "mu_shape": [
+        23,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        23,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 10,
+      "split": "development",
+      "rows": 32,
+      "rng_before": "1ccf17250133dec5e96478acd63e13d728d0dbbabb30389415a302c6f872f81f",
+      "rng_after": "8910300e1476bfbc52ff370cf7d8dfcad643b569195fd962fc37c45b61750494",
+      "discarded_internal_z_shape": [
+        32,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "a97692cd878ae54a3541b9635c056aa8fc8d6424d00e0b67a544e908281dea7c",
+      "mu_shape": [
+        32,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        32,
+        16,
+        48
+      ]
+    },
+    {
+      "batch": 11,
+      "split": "development",
+      "rows": 9,
+      "rng_before": "8910300e1476bfbc52ff370cf7d8dfcad643b569195fd962fc37c45b61750494",
+      "rng_after": "fcaacf33c6854a94f38c25bce0485ff7c96a3024a4cba0f6ad1ab3a7b2747b84",
+      "discarded_internal_z_shape": [
+        9,
+        16,
+        48
+      ],
+      "discarded_internal_z_sha256": "3a6eb6727a6d931038fbecbb578c8ed15e4cc39b18290d58b152ae0ee5dfbf18",
+      "mu_shape": [
+        9,
+        16,
+        48
+      ],
+      "log_sigma_shape": [
+        9,
+        16,
+        48
+      ]
+    }
+  ],
+  "internal_sample_is_not_an_S_seed": true
+}

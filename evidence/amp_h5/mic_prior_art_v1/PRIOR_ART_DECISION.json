@@ -1,0 +1,56 @@
+{
+  "schema": "AMP_H5_MIC_PRIOR_ART_DECISION_V1",
+  "created_utc": "2026-10-12T07:36:12.790962+00:00",
+  "status": "NO_GO_NOVELTY_AND_TRAINING",
+  "scope": "Focused published-method check only; no expansion or training; no test37 access",
+  "sources": [
+    {
+      "doi": "10.1038/s41598-026-56004-8",
+      "url": "https://www.nature.com/articles/s41598-026-56004-8",
+      "verified": "Full publisher text. Methods: finite bounds treated as measurements then IQR filtering and averaging; strain discarded to species. Reproduced Witten CNN and BERT-AmPEP60; both better than ESM2 linear probe, modest neural gap. Does not establish strongest local baseline."
+    },
+    {
+      "doi": "10.1093/bib/bbaf343",
+      "url": "https://academic.oup.com/bib/article/26/4/bbaf343/8205772",
+      "verified": "Full publisher text. Species-aware LLAMP; duplicates median, species genome and peptide model; condition-aware species prediction not novel by itself. No verified full strain/assay/censoring joint solution."
+    },
+    {
+      "doi": "10.1039/C8ME00051D",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6519479/",
+      "verified": "Indexed primary text explicitly mentions censoring statistics in oncocin mutagenesis. Full method NOT verified: PMC challenge, publisher403, EuropePMC API500; no retry. Do not label its estimator Tobit or neural conditional likelihood."
+    },
+    {
+      "doi": "10.1016/j.csda.2013.01.024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S016794731300039X",
+      "verified": "Publisher indexed title/abstract identifies interval-censored MIC distribution modeling, not peptide-sequence regression. Full text unavailable."
+    },
+    {
+      "url": "https://www.clinmedkaz.org/article/sequence-and-physicochemical-associations-with-antimicrobial-peptide-activity-against-acinetobacter-19488",
+      "verified": "Publisher in-press abstract: entity median log2MIC, cluster-robust inference and censor/assay sensitivity. No accessible full method; not evidence of same conditional likelihood solution."
+    }
+  ],
+  "author_code_review": {
+    "url": "https://github.com/anthol42/QMAP/blob/main/eval_prev_works/AMP_regression_EC_SA/main.py",
+    "git_blob_sha": "547cd2906b58df5741bb0b8e226088e3a72dc8c8",
+    "execution": "NOT_RUN",
+    "note": "Source inspection only; CPU fallback observed; dependencies/weights/throughput not admitted or tested. No repository datasets read."
+  },
+  "data_evidence": "../dbaasp_feasibility_v2/FIELD_COMPLETENESS.json",
+  "sampling_warning": "20 convenience root records cannot estimate full-database availability or censoring prevalence. 178 MIC rows not 178 independent peptides. Narrow46rows4peptides includes fungal targets and precedes chemistry/isolation checks. Each exact strain-medium stratum has at most one peptide.",
+  "single_candidate": "After semantic/data/baseline admission only: same verified strongest reproducible point-regression backbone and identical conditional inputs, Gaussian scale, data, split, seeds and budget; replace boundary-point likelihood with correct observation likelihood. Mature statistical adaptation, not established novelty.",
+  "observation_rules": [
+    "Model Y=logMIC conditional on verified chemistry/sequence, strain and observed assay fields. Do not synthesize missing metadata.",
+    "Point log density; right-bound log survival; left-bound log CDF; genuine interval log CDF difference. Assay dilution grid requires actual protocol.",
+    "Ranges across clinical isolates are not single-measurement intervals. Plus/minus requires SD/SE/CI and n definition before use.",
+    "Repeated measurements do not increase independent peptide count; preserve study/assay identities and use same grouped analysis in both arms. No simultaneous random-effects/architecture change.",
+    "Mass-to-molar conversion requires verified molecular identity and mass. auxiliary activity field is not a label replacement."
+  ],
+  "minimum_data_basis": [
+    "Semantically resolved raw MIC, unit, verified chemistry, target and observed assay plus source and replicate linkage; adequate shared support without complete sequence-condition-source confounding.",
+    "Independent homology/chemical/source groups for fitting and untouched evaluation. Counts planned from paired group-level variance and a prespecified practically meaningful effect or CI width; no fixed arbitrary N.",
+    "Current N cannot estimate condition effects or reliable unseen-peptide gain. No full-database extrapolation."
+  ],
+  "go_criterion": "Only revisit if data/chemistry/isolation pass, reproducible strong baseline fits CPU budget, and independent-group precision planning supports one frozen loss-change comparison. No benefit/safety/submission claim.",
+  "prohibited_actions_performed": false,
+  "backup_status": "BACKUP_BLOCKED"
+}

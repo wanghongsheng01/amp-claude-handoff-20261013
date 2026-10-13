@@ -1,0 +1,995 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = "C.UTF-8",
+	LC_CTYPE = "C.UTF-8",
+	LC_NUMERIC = (unset),
+	LC_COLLATE = (unset),
+	LC_TIME = (unset),
+	LC_MESSAGES = (unset),
+	LC_MONETARY = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  ../materials/figures/fig1_v6r3_method_overview.pdf
+Category 'changed_user':
+  ../materials/figures/fig1_v6r3_method_overview.pdf
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex -no-shell-escape  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Homebrew) (preloaded format=pdflatex)
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/ot1ptm
+.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 10 point document.
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/fontenc.
+sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/t1ptm.
+fd)) (./glyphtounicode.tex) (./glyphtounicode-cmex.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/cite/cite.sty
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsma
+th.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amste
+xt.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsge
+n.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsbs
+y.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsop
+n.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/amss
+ymb.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/amsf
+onts.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/algorithms/al
+gorithmic.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/ifthen.s
+ty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/keyv
+al.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/algorithms/al
+gorithm.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/float/float.s
+ty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/tools/array.s
+ty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hicx.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hics.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/trig
+.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-cfg/
+graphics.cfg)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-def/
+pdftex.def)))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/textcomp
+.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/url/url.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/booktabs/book
+tabs.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/multirow/mult
+irow.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/l3backend/l3b
+ackend-pdftex.def) (./main.aux)
+-- Lines per column: 58 (exact).
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/context/base/mkii/s
+upp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/epstopdf-pkg/
+epstopdf-base.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/latexconfig/e
+pstopdf-sys.cfg))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/umsa
+.fd)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/umsb
+.fd)
+
+LaTeX Warning: Citation `huan2020antimicrobial' on page 1 undefined on input li
+ne 63.
+
+
+LaTeX Warning: Citation `gan2021multifaceted' on page 1 undefined on input line
+ 63.
+
+
+LaTeX Warning: Citation `huang2023identification' on page 1 undefined on input 
+line 65.
+
+
+LaTeX Warning: Citation `huan2020antimicrobial' on page 1 undefined on input li
+ne 67.
+
+
+LaTeX Warning: Citation `gan2021multifaceted' on page 1 undefined on input line
+ 67.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `meyers2021denovo' on page 1 undefined on input line 69
+.
+
+
+LaTeX Warning: Citation `zhavoronkov2023generative' on page 1 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Citation `das2021accelerated' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Citation `szymczak2023discovering' on page 1 undefined on input 
+line 69.
+
+
+LaTeX Warning: Citation `segler2018generating' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `kotsias2020direct' on page 1 undefined on input line 6
+9.
+
+
+LaTeX Warning: Citation `muller2018recurrent' on page 1 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `kingma2014autoencoding' on page 1 undefined on input l
+ine 69.
+
+
+LaTeX Warning: Citation `dean2020variational' on page 1 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `ho2020denoising' on page 1 undefined on input line 69.
+
+
+
+LaTeX Warning: Citation `watson2023denovo' on page 1 undefined on input line 69
+.
+
+
+LaTeX Warning: Citation `huang2024cpdiffusion' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `jin2024artificial' on page 1 undefined on input line 6
+9.
+
+
+LaTeX Warning: Citation `rives2021biological' on page 1 undefined on input line
+ 71.
+
+
+LaTeX Warning: Citation `elnaggar2021prottrans' on page 1 undefined on input li
+ne 71.
+
+
+LaTeX Warning: Citation `brandes2022proteinbert' on page 1 undefined on input l
+ine 71.
+
+
+LaTeX Warning: Citation `lin2023evolutionary' on page 1 undefined on input line
+ 71.
+
+
+LaTeX Warning: Citation `jumper2021highly' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `baek2021accurate' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `abramson2024accurate' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `wieder2020compact' on page 1 undefined on input line 7
+1.
+
+
+LaTeX Warning: Citation `xiong2020pushing' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `maziarka2024transfer' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `olivecrona2017molecular' on page 1 undefined on input 
+line 71.
+
+
+LaTeX Warning: Citation `zhou2019optimization' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `wang2023denovo' on page 1 undefined on input line 71.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 76.
+
+
+LaTeX Warning: Citation `szymczak2023discovering' on page 1 undefined on input 
+line 76.
+
+[1{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/enc
+/dvips/base/8r.enc}]
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/t1pcr.
+fd)
+
+LaTeX Warning: Reference `fig:framework' on page 2 undefined on input line 92.
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 110--111
+[]\T1/ptm/m/n/10 These de-scrip-tor rep-re-sen-ta-tions are sequence-derived
+
+LaTeX Warning: Reference `fig:framework' on page 2 undefined on input line 114.
+
+
+[2]
+
+LaTeX Warning: Reference `fig:framework' on page 3 undefined on input line 131.
+
+
+
+LaTeX Warning: Reference `fig:framework' on page 3 undefined on input line 137.
+
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 142--143
+[]\T1/ptm/m/n/10 The his-tor-i-cal manuscript re-ports max-i-mum pair-wise
+
+LaTeX Warning: Citation `muller2018modlamp' on page 3 undefined on input line 1
+44.
+
+
+LaTeX Warning: Citation `veltri2018ampscannerv2' on page 3 undefined on input l
+ine 150.
+
+[3 <../materials/figures/fig1_v6r3_method_overview.pdf>]
+
+LaTeX Warning: Reference `tab:complete_mic_summary' on page 4 undefined on inpu
+t line 162.
+
+
+LaTeX Warning: Reference `tab:comparison' on page 4 undefined on input line 164
+.
+
+
+LaTeX Warning: Reference `tab:complete_mic_summary' on page 4 undefined on inpu
+t line 194.
+
+[4]
+
+LaTeX Warning: Citation `landrum2013rdkit' on page 5 undefined on input line 26
+0.
+
+
+LaTeX Warning: Reference `fig:triplet_descriptors' on page 5 undefined on input
+ line 260.
+
+[5]
+Underfull \hbox (badness 2073) in paragraph at lines 282--283
+[]\T1/ptm/b/n/10 Minimum Par-tial Charge\T1/ptm/m/n/10 : Low-est par-tial charg
+e
+[6 <../materials/figures/fig6_v6_descriptor_path.pdf> <../materials/figures/fig
+7_v6_historical_descriptors.pdf>]
+
+LaTeX Warning: Reference `alg:training' on page 7 undefined on input line 372.
+
+
+LaTeX Warning: Reference `alg:generation' on page 7 undefined on input line 372
+.
+
+[7]
+
+LaTeX Warning: Citation `jin2025ampgen' on page 8 undefined on input line 419.
+
+
+LaTeX Warning: Citation `zhang2025proldm' on page 8 undefined on input line 419
+.
+
+
+LaTeX Warning: Reference `tab:mechanism_positioning' on page 8 undefined on inp
+ut line 419.
+
+
+LaTeX Warning: Citation `jin2025ampgen' on page 8 undefined on input line 429.
+
+
+LaTeX Warning: Citation `zhang2025proldm' on page 8 undefined on input line 431
+.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 8 undefined on input line 438.
+
+
+LaTeX Warning: Citation `szymczak2023discovering' on page 8 undefined on input 
+line 438.
+
+
+LaTeX Warning: Citation `jin2024artificial' on page 8 undefined on input line 4
+38.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [8 <../mat
+erials/figures/fig8_v6r2_parameter_mechanism.pdf>]
+No file main.bbl.
+[9] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</opt/homebrew/Cellar/texli
+ve/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/ho
+mebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20
+260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew
+/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20260301/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/t
+exlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></op
+t/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/typ
+e1/public/lm/lmex10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist
+/fonts/type1/public/lm/lmmi10.pfb></opt/homebrew/Cellar/texlive/20260301/share/
+texmf-dist/fonts/type1/public/lm/lmmi6.pfb></opt/homebrew/Cellar/texlive/202603
+01/share/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></opt/homebrew/Cellar/texli
+ve/20260301/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></opt/homebrew/Cel
+lar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></opt/home
+brew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></
+opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lms
+s10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/pub
+lic/lm/lmss9.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/
+type1/public/lm/lmssbx10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf
+-dist/fonts/type1/public/lm/lmsy10.pfb></opt/homebrew/Cellar/texlive/20260301/s
+hare/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></opt/homebrew/Cellar/texlive/2
+0260301/share/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></opt/homebrew/Cellar/
+texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></opt/homebre
+w/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msbm10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/
+urw/courier/ucrr8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/t
+exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/homebrew/Cellar/texlive/20260
+301/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/tex
+live/20260301/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (9 pages, 465011 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Missing bbl file 'main.bbl' in following:
+ No file main.bbl.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'main.bbl' for 'pdflatex'
+Create bibtex main
+Latexmk: Found bibliography file(s):
+  ./layout_control.bib
+  ./references.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex main' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99e (TeX Live 2026/Homebrew)
+The top-level auxiliary file: main.aux
+The style file: IEEEtran.bst
+Database file #1: references.bib
+Database file #2: layout_control.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** IEEEtran BST control entry "AMPv6SpacingControl" detected.
+
+Done.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+  main.bbl
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex -no-shell-escape  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Homebrew) (preloaded format=pdflatex)
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/ot1ptm
+.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 10 point document.
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/fontenc.
+sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/t1ptm.
+fd)) (./glyphtounicode.tex) (./glyphtounicode-cmex.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/cite/cite.sty
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsma
+th.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amste
+xt.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsge
+n.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsbs
+y.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsop
+n.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/amss
+ymb.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/amsf
+onts.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/algorithms/al
+gorithmic.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/ifthen.s
+ty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/keyv
+al.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/algorithms/al
+gorithm.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/float/float.s
+ty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/tools/array.s
+ty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hicx.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hics.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/trig
+.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-cfg/
+graphics.cfg)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-def/
+pdftex.def)))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/textcomp
+.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/url/url.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/booktabs/book
+tabs.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/multirow/mult
+irow.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/l3backend/l3b
+ackend-pdftex.def) (./main.aux)
+-- Lines per column: 58 (exact).
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/context/base/mkii/s
+upp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/epstopdf-pkg/
+epstopdf-base.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/latexconfig/e
+pstopdf-sys.cfg))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/umsa
+.fd)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/umsb
+.fd)
+
+LaTeX Warning: Citation `huan2020antimicrobial' on page 1 undefined on input li
+ne 63.
+
+
+LaTeX Warning: Citation `gan2021multifaceted' on page 1 undefined on input line
+ 63.
+
+
+LaTeX Warning: Citation `huang2023identification' on page 1 undefined on input 
+line 65.
+
+
+LaTeX Warning: Citation `huan2020antimicrobial' on page 1 undefined on input li
+ne 67.
+
+
+LaTeX Warning: Citation `gan2021multifaceted' on page 1 undefined on input line
+ 67.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `meyers2021denovo' on page 1 undefined on input line 69
+.
+
+
+LaTeX Warning: Citation `zhavoronkov2023generative' on page 1 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Citation `das2021accelerated' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Citation `szymczak2023discovering' on page 1 undefined on input 
+line 69.
+
+
+LaTeX Warning: Citation `segler2018generating' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `kotsias2020direct' on page 1 undefined on input line 6
+9.
+
+
+LaTeX Warning: Citation `muller2018recurrent' on page 1 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `kingma2014autoencoding' on page 1 undefined on input l
+ine 69.
+
+
+LaTeX Warning: Citation `dean2020variational' on page 1 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `ho2020denoising' on page 1 undefined on input line 69.
+
+
+
+LaTeX Warning: Citation `watson2023denovo' on page 1 undefined on input line 69
+.
+
+
+LaTeX Warning: Citation `huang2024cpdiffusion' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `jin2024artificial' on page 1 undefined on input line 6
+9.
+
+
+LaTeX Warning: Citation `rives2021biological' on page 1 undefined on input line
+ 71.
+
+
+LaTeX Warning: Citation `elnaggar2021prottrans' on page 1 undefined on input li
+ne 71.
+
+
+LaTeX Warning: Citation `brandes2022proteinbert' on page 1 undefined on input l
+ine 71.
+
+
+LaTeX Warning: Citation `lin2023evolutionary' on page 1 undefined on input line
+ 71.
+
+
+LaTeX Warning: Citation `jumper2021highly' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `baek2021accurate' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `abramson2024accurate' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `wieder2020compact' on page 1 undefined on input line 7
+1.
+
+
+LaTeX Warning: Citation `xiong2020pushing' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `maziarka2024transfer' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `olivecrona2017molecular' on page 1 undefined on input 
+line 71.
+
+
+LaTeX Warning: Citation `zhou2019optimization' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `wang2023denovo' on page 1 undefined on input line 71.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 76.
+
+
+LaTeX Warning: Citation `szymczak2023discovering' on page 1 undefined on input 
+line 76.
+
+[1{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/enc
+/dvips/base/8r.enc}]
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/t1pcr.
+fd)
+Underfull \hbox (badness 4792) in paragraph at lines 110--111
+[]\T1/ptm/m/n/10 These de-scrip-tor rep-re-sen-ta-tions are sequence-derived
+[2]
+Underfull \hbox (badness 3735) in paragraph at lines 142--143
+[]\T1/ptm/m/n/10 The his-tor-i-cal manuscript re-ports max-i-mum pair-wise
+
+LaTeX Warning: Citation `muller2018modlamp' on page 3 undefined on input line 1
+44.
+
+
+LaTeX Warning: Citation `veltri2018ampscannerv2' on page 3 undefined on input l
+ine 150.
+
+[3 <../materials/figures/fig1_v6r3_method_overview.pdf>] [4]
+
+LaTeX Warning: Citation `landrum2013rdkit' on page 5 undefined on input line 26
+0.
+
+[5]
+Underfull \hbox (badness 2073) in paragraph at lines 282--283
+[]\T1/ptm/b/n/10 Minimum Par-tial Charge\T1/ptm/m/n/10 : Low-est par-tial charg
+e
+[6 <../materials/figures/fig6_v6_descriptor_path.pdf> <../materials/figures/fig
+7_v6_historical_descriptors.pdf>] [7]
+
+LaTeX Warning: Citation `jin2025ampgen' on page 8 undefined on input line 419.
+
+
+LaTeX Warning: Citation `zhang2025proldm' on page 8 undefined on input line 419
+.
+
+
+LaTeX Warning: Citation `jin2025ampgen' on page 8 undefined on input line 429.
+
+
+LaTeX Warning: Citation `zhang2025proldm' on page 8 undefined on input line 431
+.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 8 undefined on input line 438.
+
+
+LaTeX Warning: Citation `szymczak2023discovering' on page 8 undefined on input 
+line 438.
+
+
+LaTeX Warning: Citation `jin2024artificial' on page 8 undefined on input line 4
+38.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [8 <../mat
+erials/figures/fig8_v6r2_parameter_mechanism.pdf>] (./main.bbl [9]
+Underfull \hbox (badness 1546) in paragraph at lines 104--109
+[]\T1/ptm/m/n/8 J. Ho, A. Jain, and P. Abbeel, ``De-nois-ing dif-fu-sion prob-a
+-bilis-
+
+Underfull \hbox (badness 1412) in paragraph at lines 104--109
+\T1/ptm/m/n/8 tic mod-els,'' in \T1/ptm/m/it/8 Ad-vances in Neu-ral In-for-ma-t
+ion Pro-cess-ing Sys-
+
+Underfull \hbox (badness 5331) in paragraph at lines 104--109
+\T1/ptm/m/it/8 tems\T1/ptm/m/n/8 , vol. 33. Cur-ran As-so-ciates, Inc., 2020, p
+p. 6840--
+
+Underfull \hbox (badness 1924) in paragraph at lines 104--109
+\T1/ptm/m/n/8 6851. [On-line]. Avail-able: $https : / / proceedings . neurips .
+ cc / paper / 2020 /
+) [10] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)</opt/homebrew/Cellar/texli
+ve/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/ho
+mebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20
+260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew
+/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20260301/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/t
+exlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></op
+t/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/typ
+e1/public/lm/lmex10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist
+/fonts/type1/public/lm/lmmi10.pfb></opt/homebrew/Cellar/texlive/20260301/share/
+texmf-dist/fonts/type1/public/lm/lmmi6.pfb></opt/homebrew/Cellar/texlive/202603
+01/share/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></opt/homebrew/Cellar/texli
+ve/20260301/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></opt/homebrew/Cel
+lar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></opt/home
+brew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></
+opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lms
+s10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/pub
+lic/lm/lmss9.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/
+type1/public/lm/lmssbx10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf
+-dist/fonts/type1/public/lm/lmsy10.pfb></opt/homebrew/Cellar/texlive/20260301/s
+hare/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></opt/homebrew/Cellar/texlive/2
+0260301/share/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></opt/homebrew/Cellar/
+texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></opt/homebre
+w/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msbm10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/
+urw/courier/ucrr8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/t
+exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/homebrew/Cellar/texlive/20260
+301/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/tex
+live/20260301/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 473957 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'main.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./layout_control.bib
+  ./references.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 2 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99e (TeX Live 2026/Homebrew)
+The top-level auxiliary file: main.aux
+The style file: IEEEtran.bst
+Database file #1: references.bib
+Database file #2: layout_control.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** IEEEtran BST control entry "AMPv6SpacingControl" detected.
+
+Done.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex -no-shell-escape  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Homebrew) (preloaded format=pdflatex)
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/ot1ptm
+.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 10 point document.
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/fontenc.
+sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/t1ptm.
+fd)) (./glyphtounicode.tex) (./glyphtounicode-cmex.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/cite/cite.sty
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsma
+th.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amste
+xt.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsge
+n.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsbs
+y.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsop
+n.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/amss
+ymb.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/amsf
+onts.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/algorithms/al
+gorithmic.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/ifthen.s
+ty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/keyv
+al.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/algorithms/al
+gorithm.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/float/float.s
+ty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/tools/array.s
+ty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hicx.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hics.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/trig
+.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-cfg/
+graphics.cfg)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-def/
+pdftex.def)))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/textcomp
+.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/url/url.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/booktabs/book
+tabs.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/multirow/mult
+irow.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/l3backend/l3b
+ackend-pdftex.def) (./main.aux)
+-- Lines per column: 58 (exact).
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/context/base/mkii/s
+upp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/epstopdf-pkg/
+epstopdf-base.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/latexconfig/e
+pstopdf-sys.cfg))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/umsa
+.fd)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/umsb
+.fd) [1{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/map/pdftex
+/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/font
+s/enc/dvips/base/8r.enc}]
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/t1pcr.
+fd)
+Underfull \hbox (badness 4792) in paragraph at lines 110--111
+[]\T1/ptm/m/n/10 These de-scrip-tor rep-re-sen-ta-tions are sequence-derived
+[2]
+Underfull \hbox (badness 3735) in paragraph at lines 142--143
+[]\T1/ptm/m/n/10 The his-tor-i-cal manuscript re-ports max-i-mum pair-wise
+[3 <../materials/figures/fig1_v6r3_method_overview.pdf>] [4] [5]
+Underfull \hbox (badness 2073) in paragraph at lines 282--283
+[]\T1/ptm/b/n/10 Minimum Par-tial Charge\T1/ptm/m/n/10 : Low-est par-tial charg
+e
+[6 <../materials/figures/fig6_v6_descriptor_path.pdf> <../materials/figures/fig
+7_v6_historical_descriptors.pdf>] [7]
+Underfull \vbox (badness 10000) has occurred while \output is active [8 <../mat
+erials/figures/fig8_v6r2_parameter_mechanism.pdf>] (./main.bbl [9]
+Underfull \hbox (badness 1546) in paragraph at lines 104--109
+[]\T1/ptm/m/n/8 J. Ho, A. Jain, and P. Abbeel, ``De-nois-ing dif-fu-sion prob-a
+-bilis-
+
+Underfull \hbox (badness 1412) in paragraph at lines 104--109
+\T1/ptm/m/n/8 tic mod-els,'' in \T1/ptm/m/it/8 Ad-vances in Neu-ral In-for-ma-t
+ion Pro-cess-ing Sys-
+
+Underfull \hbox (badness 5331) in paragraph at lines 104--109
+\T1/ptm/m/it/8 tems\T1/ptm/m/n/8 , vol. 33. Cur-ran As-so-ciates, Inc., 2020, p
+p. 6840--
+
+Underfull \hbox (badness 1924) in paragraph at lines 104--109
+\T1/ptm/m/n/8 6851. [On-line]. Avail-able: $https : / / proceedings . neurips .
+ cc / paper / 2020 /
+) [10] (./main.aux) )
+(see the transcript file for additional information)</opt/homebrew/Cellar/texli
+ve/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/ho
+mebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20
+260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew
+/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20260301/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/t
+exlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></op
+t/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/typ
+e1/public/lm/lmex10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist
+/fonts/type1/public/lm/lmmi10.pfb></opt/homebrew/Cellar/texlive/20260301/share/
+texmf-dist/fonts/type1/public/lm/lmmi6.pfb></opt/homebrew/Cellar/texlive/202603
+01/share/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></opt/homebrew/Cellar/texli
+ve/20260301/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></opt/homebrew/Cel
+lar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></opt/home
+brew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></
+opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lms
+s10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/pub
+lic/lm/lmss9.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/
+type1/public/lm/lmssbx10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf
+-dist/fonts/type1/public/lm/lmsy10.pfb></opt/homebrew/Cellar/texlive/20260301/s
+hare/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></opt/homebrew/Cellar/texlive/2
+0260301/share/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></opt/homebrew/Cellar/
+texlive/20260301/share/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></opt/homebre
+w/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msbm10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/
+urw/courier/ucrr8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/t
+exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/homebrew/Cellar/texlive/20260
+301/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/tex
+live/20260301/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 473602 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'main.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./layout_control.bib
+  ./references.bib
+Latexmk: All targets (main.pdf) are up-to-date
+

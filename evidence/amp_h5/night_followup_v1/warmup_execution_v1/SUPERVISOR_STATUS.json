@@ -1,0 +1,28 @@
+{
+  "pid": 82280,
+  "created_utc": "2026-10-11T21:26:45.452285+00:00",
+  "state": "completed",
+  "plan_sha256": "575bab69d2de163c92aee20f52a64a02faf158d2355850a6e0b83bee94a702d6",
+  "jobs": [
+    {
+      "id": "ce_beta_warmup_vae_only_v1",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/warmup_vae_only.py",
+        "--contract",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/CONTRACT.json",
+        "--root-receipt",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ROOT_LAUNCH_AUTHORIZATION.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1"
+      ],
+      "started_utc": "2026-10-11T21:26:45.452689+00:00",
+      "state": "completed",
+      "pid": 82282,
+      "exit_code": 0,
+      "seconds": 1181.1842636661604
+    }
+  ],
+  "completed_utc": "2026-10-11T21:46:26.680981+00:00"
+}

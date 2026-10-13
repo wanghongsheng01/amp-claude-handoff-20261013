@@ -1,0 +1,234 @@
+{
+  "created_utc": "2026-10-11T14:30:29.078222+00:00",
+  "scope": "Frozen local H3 closeout; both numerical optimization certificates pass, both prespecified usability hypotheses fail. Separate H2 bridge is not included as executed work.",
+  "n_files": 45,
+  "files": [
+    {
+      "path": "HANDOFF_H3_20261011.zh.md",
+      "bytes": 7642,
+      "sha256": "a80ba4de690db965e501ccae99e5ab335d3ad9962f9abff8e8872e207b71f86d"
+    },
+    {
+      "path": "H3_AUTHORIZATION_RECEIPT.json",
+      "bytes": 1592,
+      "sha256": "8a40e33c4797a1c7051e80afbc26705f504813b9a9625207ee99a682118147b4"
+    },
+    {
+      "path": "H3_CLAIM_MATRIX_PRELOCK.json",
+      "bytes": 4156,
+      "sha256": "7f30da21231478155f3bdc6bb7fae3ce125f7a878b26e37ca8e9c49199048c17"
+    },
+    {
+      "path": "H3_CLAIM_STATUS_FINAL.json",
+      "bytes": 5844,
+      "sha256": "b06bbdac7af188faeff3a9f9e92e561c7a07bf233aa224415be3b17af0672123"
+    },
+    {
+      "path": "H3_PREDECESSOR_PRESERVATION_BEFORE.json",
+      "bytes": 76973,
+      "sha256": "26cdf769f78791810c56944ab9e9cfaaab42560956c286525f69a0fc17e09e57"
+    },
+    {
+      "path": "H3_PREDECESSOR_PRESERVATION_AFTER.json",
+      "bytes": 103022,
+      "sha256": "73d021bfc840c9f89b30021182d9a6622901c5d276a81fb5723c3765f993d606"
+    },
+    {
+      "path": "H3_ROOT_READOUT_FACTS.json",
+      "bytes": 68601,
+      "sha256": "00cb6b80eec7e71f6dee043a7d22b780e0e1e2d561f4027cfb8605ea494ed667"
+    },
+    {
+      "path": "H3_START_BINDING_INDEX.json",
+      "bytes": 2150,
+      "sha256": "c2e72f9529238011f478aaf6da24d812e1501696a4b1f4bd6252da0de03fd415"
+    },
+    {
+      "path": "CONTINUATION_REQUIREMENTS_20261011T1356.json",
+      "bytes": 1660,
+      "sha256": "c58d74746d8d4f42bb2a4dbea30d4a37ee7710af0b44f0be9d4c80cf455abf7b"
+    },
+    {
+      "path": "DELIVERY_H2_FINAL_INDEX.json",
+      "bytes": 6293,
+      "sha256": "6e12e3aef75054eed8237dd5816fda4638143935a7205710a8c4e04625ff6f8c"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/PRELOCK_MANIFEST.json",
+      "bytes": 1327,
+      "sha256": "4548fb834081ffaaae74d468a5be9ac9c43644a809a29f9d418bed4a779c4fd5"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/PROTOCOL.json",
+      "bytes": 9975,
+      "sha256": "3ce77cb5a97da15e2fa1969c8377fef2473cc90d8a0c30921f9caf28bc15ede2"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/INPUT_BINDING.json",
+      "bytes": 110349,
+      "sha256": "db316d5f6ece3af050781dbc81749df6cb701a8f66a19f768ffa73b86ab36964"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/START.json",
+      "bytes": 953,
+      "sha256": "2ec086f3994a0c46f4e51dc9f7c5dff10b5c85e278437ee8c269811caeffd7c0"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/ROOT_ADOPTION_BASIS.zh.md",
+      "bytes": 4808,
+      "sha256": "e5a020b3178e6d93a770ef7fb10236dfc3660c6ac16322c704af6af6b0152829"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/AUTHOR_READOUT.zh.md",
+      "bytes": 8954,
+      "sha256": "5a0529d86dbffc55adf830a1a50014b1b639736250303f06cdc2aeec257f8b58"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/AUTHOR_DELIVERY_MANIFEST.json",
+      "bytes": 873,
+      "sha256": "4d81772400b88a6e06153056725db4bc36f99139452fcdf05e1b2267dd7eb12a"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/METRICS_LONG.csv",
+      "bytes": 27495,
+      "sha256": "d9235e9a76bb34d1ff490352dc74fe849c313f3ab8f27069328a6c818ee03885"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/run/MANIFEST.json",
+      "bytes": 20597,
+      "sha256": "865cfb62f03b36187941ad029fc203552657378c8770bb6c2c2f5f1aac066ba0"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/run/status.json",
+      "bytes": 1355,
+      "sha256": "4b4c956cb28a0247627311aa8584339114da8a23a693de90837e6987dfe59a24"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/run/DECISIONS.json",
+      "bytes": 13039,
+      "sha256": "c4a952a36584ae2f8f6eba1eb502f031e68d0c000bfaac22c868bafe460edcaa"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/run/quadratic/FIT.json",
+      "bytes": 410,
+      "sha256": "5b0849cb5bd02832bd585a8a4ab59443e9bf0621fad69d455ec7f073a784dd59"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/run/rff/FIT.json",
+      "bytes": 411,
+      "sha256": "451351ac9dd2d769aec5266bc3126adda40514ffc1a5ee192fa64ec5c0b4aaa3"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/literature/SOURCE_LEDGER.json",
+      "bytes": 2530,
+      "sha256": "d37521f72d4ea7b79e17e2b361aeb8c7bdbc3ae70c6cde2a6ab2f61caa06d684"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/literature/NOTES.zh.md",
+      "bytes": 1926,
+      "sha256": "cb248b18cd71a0675ca4df58a7c6d7bf2ed4b1f00148a97b2b3db3c9a03cd8ad"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/literature/TRANSFER_AND_FALSIFICATION.zh.md",
+      "bytes": 10394,
+      "sha256": "7f9284a578ed22d33690550f31a59da21ea26586533d3af0c2d8886bb3562b31"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/design_review/MANIFEST.json",
+      "bytes": 2162,
+      "sha256": "add76a5a0d729b15fd540f82a22ef1eddfbc14348ef982149ddcafe4fa80321a"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/independent_review/PREFLIGHT_MANIFEST.json",
+      "bytes": 2431,
+      "sha256": "2ade29286c024f73dbc64defcfa6b0492f0b49afda42a4620a5ae3fbc09ad90c"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/independent_review/POST_AUDIT_RULES.json",
+      "bytes": 5341,
+      "sha256": "1846edb3a4129d6cccb56f6c33e9781c79896d5cad822ae86afe772ae9c372b5"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/independent_review/POST_AUDIT_RESULTS.json",
+      "bytes": 1824746,
+      "sha256": "8afab060ccf37d4828ad3b26cf021f330f954b2bf1deee78a179e641b49ee7d6"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/independent_review/POST_REVIEW.zh.md",
+      "bytes": 5732,
+      "sha256": "e43af5ff5fea690c7cfaecd4a4ec4a67be8e8463375124a78a53aa7ac52ef1d7"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/independent_review/FINAL_RECEIPT.json",
+      "bytes": 3194,
+      "sha256": "b8e2ceb79db1cbec1f3783701735145627c36bb1622c3ba312d56c1ccf63d627"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/independent_review/FINAL_MANIFEST.json",
+      "bytes": 4003,
+      "sha256": "e37f58823d80786d8b3bcfd0d61693d6e75f44297757a598a70a1cf1f7de6eaa"
+    },
+    {
+      "path": "diagnostics_h3_nonlinear_content_v1/independent_review/AUTHOR_TEXT_REVIEW.json",
+      "bytes": 268528,
+      "sha256": "5cbb5925c78b7706d35a796ac2862c0bb3064919b8281aa773ea49ab8627438a"
+    },
+    {
+      "path": "final_science_review/H3_PRELOCK_CLAIM_REVIEW.json",
+      "bytes": 19662,
+      "sha256": "e4e37bfbdfdc36c2f76d69a3dec148c8ae79819a9781fe9e8562e9b45e0a7eec"
+    },
+    {
+      "path": "final_science_review/H3_INCREMENT_CLAIM_REVIEW.json",
+      "bytes": 26819,
+      "sha256": "6ff21909b2d8e7d5cbc9aa12ecd4686fd6fe9d88bc79877bde39794fe45d944c"
+    },
+    {
+      "path": "h3_design_capacity_control/CONTROL_RECOMMENDATION.zh.md",
+      "bytes": 7606,
+      "sha256": "885000d528acec7cd2269b58aa7a4f47f4a3f778bcb23c61490f4fe501da080b"
+    },
+    {
+      "path": "h3_design_capacity_control/GENERATION_BRIDGE_AVAILABILITY.zh.md",
+      "bytes": 10422,
+      "sha256": "1ce36cf60d4ce01c884e99f130cbb6b4f9c634fb5ce5a3c515e3d142ed0d87cc"
+    },
+    {
+      "path": "h3_design_capacity_control/GENERATION_BRIDGE_AVAILABILITY.json",
+      "bytes": 26787,
+      "sha256": "553dc62476c0ed18074be08b8c30d48f5828eb92460c5a28a8d8f8f3d88a6a31"
+    },
+    {
+      "path": "h3_failure_analysis_readonly/END_TO_END_21HEAD_FEASIBILITY.zh.md",
+      "bytes": 5818,
+      "sha256": "52937235b0326301e13cf09bc60080b702a2a0aaed15578ffffb4d1fbe61958c"
+    },
+    {
+      "path": "h3_failure_analysis_readonly/RESOURCE_AND_CODE_EVIDENCE.json",
+      "bytes": 4914,
+      "sha256": "f59b9adca72ddf4debc49700474d93d397a55586ecae3a553aca79ab087bb46c"
+    },
+    {
+      "path": "h3_failure_analysis_readonly/MANIFEST.json",
+      "bytes": 379,
+      "sha256": "c1b2f75267052343f8d1af7470a89b0aa70b03d79b3e26b800f297e9df4002cd"
+    },
+    {
+      "path": "h3_failure_analysis_readonly/END_TO_END_PRECEDENT.zh.md",
+      "bytes": 14076,
+      "sha256": "0743b8c12667826fc510ab334656054fd9de5d2812faa5e833e5f7c2d2b79021"
+    },
+    {
+      "path": "diagnostics_h4_generation_bridge_v1/BLOCKED_BY_H3_PRELOCKED_GATE.json",
+      "bytes": 2482,
+      "sha256": "06dfb3dc02cf2a00c356b855d92e0c64debdedd3278327ba23e7e0fadd8e7046"
+    },
+    {
+      "path": "diagnostics_h4_generation_bridge_v1/DRAFT_MANIFEST.json",
+      "bytes": 1908,
+      "sha256": "a26c6841b2637d1e7caba3a23045a07e3acee681856b78eaa7e9504d75f02ebb"
+    }
+  ],
+  "backup_status": "BACKUP_BLOCKED",
+  "no_cloud_backup_claim": true
+}

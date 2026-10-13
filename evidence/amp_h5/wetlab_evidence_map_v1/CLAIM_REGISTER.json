@@ -1,0 +1,115 @@
+[
+  {
+    "id": "W01",
+    "status": "SUPPORTED_AS_SUPPLIER_REPORTED",
+    "claim": "27个编号各有COA、HPLC、MS、溶解度报告；序列、订单和lot可在供应商内部对应。",
+    "evidence": [
+      "EVIDENCE_MAP_27.json#synthesis.quality_evidence",
+      "QC_CHECKS.json"
+    ],
+    "limits": "不是独立重测的化学身份或谱图解析，不证明这批lot进入特定MIC孔位。"
+  },
+  {
+    "id": "W02",
+    "status": "SUPPORTED_AS_REPORTED_SUMMARY",
+    "claim": "27×4 MIC汇总保留30个数值与78个N；16行全N。",
+    "evidence": [
+      "COUNTS.json",
+      "EVIDENCE_MAP_27.json#MIC"
+    ],
+    "limits": "N含义不明，不能转阴性、>1000或未测；27是列出候选分母。"
+  },
+  {
+    "id": "W03",
+    "status": "SUPPORTED_DESCRIPTIVE_NUMERIC_VALUES",
+    "claim": "S.aureus列六候选低于32µg/mL：pp1-3=31.25、pp1-5=7.8125、pp2-8=15.625、pp3-11=15.625、pp3-13=7.8125、pp3-14=31.25。",
+    "evidence": [
+      "EVIDENCE_MAP_27.json#MIC.saureus_atcc_29213"
+    ],
+    "limits": "数值记录算术，不是已复核的历史成功率或生成效率。"
+  },
+  {
+    "id": "W04",
+    "status": "SUPPORTED_REPORTED_FOUR_STRAIN_PROFILE",
+    "claim": "pp1-5在E.coli/P.aeruginosa/S.aureus/E.faecalis分别记录31.25/125/7.8125/125µg/mL。",
+    "evidence": [
+      "EVIDENCE_MAP_27.json:sample_id=pp1-5"
+    ],
+    "limits": "可描述四株报告谱；不外推耐药临床株、机制、安全性或疗效。"
+  },
+  {
+    "id": "W05",
+    "status": "SUPPORTED_TWO_NUMERIC_VALUES_NOT_SPECIFICITY",
+    "claim": "pp2-8在S.aureus/E.faecalis分别记录15.625/62.5µg/mL；另两株为N。",
+    "evidence": [
+      "EVIDENCE_MAP_27.json:sample_id=pp2-8"
+    ],
+    "limits": "N不能证明Gram-positive-specific；原稿/与16/63保留为版本表述。"
+  },
+  {
+    "id": "W06",
+    "status": "SUPPORTED_SUPPLIER_PURITY_WITH_EXCEPTION",
+    "claim": "26个COA报告95.0–99.1% HPLC纯度；pp1-7为80.3%，满足其≥80.0%订单规格。",
+    "evidence": [
+      "EVIDENCE_MAP_27.json#synthesis"
+    ],
+    "limits": "不得声称全体≥95%，也不以低纯度自动排除或修改N；HPLC面积纯度非净肽质量分数证明。"
+  },
+  {
+    "id": "W07",
+    "status": "UNRESOLVED_HISTORICAL_RULE",
+    "claim": "历史6/30、后稿6/27及200/128/32阈值之间未统一。",
+    "evidence": [
+      "EVIDENCE_MAP_27.json#manuscript",
+      "COUNTS.json#thresholds"
+    ],
+    "limits": "当前任一菌严格<128或<200为7而非6，不能事后选菌株/规则修成历史成功率。"
+  },
+  {
+    "id": "W08",
+    "status": "UNRESOLVED_VERSION_CONFLICT",
+    "claim": "pp2-3 E.coli旧截图N、两工作簿250；另五条截图空白后表有值。",
+    "evidence": [
+      "EVIDENCE_MAP_27.json#unresolved_conflicts"
+    ],
+    "limits": "不判断修正/补测/重测，不把版本当重复。pp3-1截图序列F计数不确定性另保留。"
+  },
+  {
+    "id": "W09",
+    "status": "UNRESOLVED_ASSAY_AGGREGATION",
+    "claim": "pp1-1 Sa/Ef端点行均250/125/125，汇总分别250/125；E.coli M6 blank0.306199997663498。",
+    "evidence": [
+      "EVIDENCE_MAP_27.json:sample_id=pp1-1",
+      "MIC_RAW_ROWS.jsonl"
+    ],
+    "limits": "不重新判MIC、不删除异常、不补重复类型/聚合规则。"
+  },
+  {
+    "id": "W10",
+    "status": "NOT_BOUND_TO_HISTORICAL_GENERATION",
+    "claim": "固定AMP GitHub代码存在，但27湿实验ID未恢复到历史run/condition/seed/checkpoint及1000→30筛选台账。",
+    "evidence": [
+      "GENERATION_CHAIN.json"
+    ],
+    "limits": "代码默认值、近期H0–H5 checkpoint或相似序列不能替代历史来源。"
+  },
+  {
+    "id": "W11",
+    "status": "NOT_ESTABLISHED_MATCHED_GENERALIZATION_OR_NOVELTY",
+    "claim": "这些湿实验记录不能单独证明生成创新、可控谱、相对竞争模型优势或独立泛化。",
+    "evidence": [
+      "GENERATION_CHAIN.json",
+      "ORIGINAL_MANUSCRIPT_LOCATORS.json"
+    ],
+    "limits": "原稿跨模型表来自不同实验/阈值，不构成同条件对照；本轮未重新做外部新颖性检索，不作不存在创新的定论。"
+  },
+  {
+    "id": "W12",
+    "status": "CANDIDATE_ONLY_FINAL_DISPOSITION_UNKNOWN",
+    "claim": "历史截图还列pp1-6、pp3-8、pp3-10，过程说明当时剩三条未完成。",
+    "evidence": [
+      "OUTSIDE_27_HISTORICAL_CANDIDATES.json"
+    ],
+    "limits": "候选身份截图不证明已合成、最终失败、阴性或额外独立测试。"
+  }
+]

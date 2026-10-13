@@ -1,0 +1,280 @@
+{
+  "files": [
+    {
+      "path": "ATTEMPTS.csv",
+      "sha256": "ae2223c4c1e7d334ac8955db3a4f92164eee9ab458939c5f530482cf49f55136"
+    },
+    {
+      "path": "SCHEDULE.npz",
+      "sha256": "a1c0711659429a51aa68694df408a76ab4a94acd31df4f5ca3fa169816f8b34f"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_available_tensors.npz",
+      "sha256": "83542403432caedda77cd765179ed94270376f101fc419640bf215fe05dde682"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_failure.json",
+      "sha256": "0dde989c1c240fcbaa3372fcdd4b599ae25cc969643c9bb2626feb07bf9bf490"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_posterior_summary.json",
+      "sha256": "a163d052c58c79d96c8f33dc1d39b6065549c50e72a9c65ef637ffa2a796b557"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t001.npz",
+      "sha256": "d39fb4f1c6776e308dcc526f39ff5ffc74bb07f1110c6ba32c5237245969120b"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t010.npz",
+      "sha256": "63438acfe4c124d04897b9b6fa72a2c20dfc64a81768a853df0c73f7f635ee0d"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t050.npz",
+      "sha256": "1c68e279d0eb093e94b624506d2188e0a1c4a9a2709e3cc8148cd087cb15ba38"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t100.npz",
+      "sha256": "0e115c177a456996a21725055530201c34937498d03a2be61eb45db109e541ab"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t250.npz",
+      "sha256": "1d461dd3642c16980540de9f0877171c0297e1bb002b5bd718b1ae629983e4e8"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t500.npz",
+      "sha256": "a168b0ebe2fa09b982c581196d31907b62799bec88d6b0d8a3a0ed9a27581a8e"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t750.npz",
+      "sha256": "8c0c1d918989b81cefbf4bbd0fab51249c1f3e1b5fc1509ac2dc737a0ba76dcc"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t900.npz",
+      "sha256": "ced9f97ce9b7773ed927cbec41e69764573092e8059dec89ef1dc3d9ca518147"
+    },
+    {
+      "path": "UPDATE0020_AMD_000_t998.npz",
+      "sha256": "457dd0fc65ce8a6a3cc433136f9c57a1d5d2d127aa637ff32ab001791feb67f2"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_available_tensors.npz",
+      "sha256": "ce68b57b7f90e858a711723d456c5048b9ced7f6371d9469d3699b2fbffc24f6"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_failure.json",
+      "sha256": "0dde989c1c240fcbaa3372fcdd4b599ae25cc969643c9bb2626feb07bf9bf490"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_posterior_summary.json",
+      "sha256": "c656190dc6334d2be9167195169150617cc445de08d177ba46e7a6711eb37b60"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t001.npz",
+      "sha256": "dddf8974bbaa6c023ccd44942904d06d0fb892dee80e7fd70b543bc8e4e6c059"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t010.npz",
+      "sha256": "6d06571aa81f5e8fa45561f4a993897b7c21d9be2b6f1481519a5c6583cfde78"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t050.npz",
+      "sha256": "cce4d359179f0265d2eae37c2e75cd26d07bb8a5ec323027eb141778c6984106"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t100.npz",
+      "sha256": "0c47e5c6d2ce5f77613668d423ba6a077f96d56dab1cd29f4fd9306c6372c1cc"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t250.npz",
+      "sha256": "0c288bd3e43a5fd24c1d25b885edadfaabb317f733f349a8cff94876613a1dcc"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t500.npz",
+      "sha256": "e4a2842d2735c6819700e96a693b8fb01f435226054f1ffb3f5910ade75db941"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t750.npz",
+      "sha256": "f909fffe27f612a5e8a3d3e810fdc81f707caae07a3694a82213307dcdbf0793"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t900.npz",
+      "sha256": "98433a2c7a5675e698c14f562c3692f9a4d06f0c832d32cbef322413b8cecb20"
+    },
+    {
+      "path": "UPDATE0020_FREE_000_t998.npz",
+      "sha256": "b5fd951d7bbe7f1f3269393c3f7e3f49051bbf8658f20ea6e23e5d03c7e4ca10"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_available_tensors.npz",
+      "sha256": "0e4c7db1119107ce6aa3a57dd60085120a477ce07c413410998a4dfa980d7858"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_posterior_summary.json",
+      "sha256": "4cfff1abaa85735bc89ddaadf18f4c08b203279cb9345051ef2fb2aeabebffbc"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t001.npz",
+      "sha256": "6f15abbd06699ede629b1e124cc890e50995919478c294b8eb442dfc3357b8c3"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t010.npz",
+      "sha256": "12ff222f76d3616e32474445e453f6e5a41c410a5dda2d7ea1f1a9be729c0c4e"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t050.npz",
+      "sha256": "2a189762b4859c8d669c67571e991260f2cd6a6c4e542c151aa84a5dbfac18d9"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t100.npz",
+      "sha256": "446a6d1c6695a8afa149c0c40c73c4ad6568ad4cfcf937f37877f43bac14447d"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t250.npz",
+      "sha256": "f25b7dbee9c2c383859df826451f4f681e314e19925e3b10fae933316ef17ef3"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t500.npz",
+      "sha256": "402f8ede6f5ff55ab98f67120dd57cfc19d0b076c6312b61c54c7e5709ce639c"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t750.npz",
+      "sha256": "c1693327a3640eb5802272ca70850e0f6afc8dcac661e8b2653636ddbc2a417a"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t900.npz",
+      "sha256": "009764ff18f02ea2cecae808625982a2a359e1e6e94ce7155d3ac7937b581139"
+    },
+    {
+      "path": "UPDATE1000_AMD_000_t998.npz",
+      "sha256": "42e62ceca72db3db40c47d60ae6f146f37f2419111c5510ffcee9711f45d5c28"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_available_tensors.npz",
+      "sha256": "ff6c80ed2847024d6617ccedfa689b09e9b3d527a33924f71dffb1ef09b6eff9"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_posterior_summary.json",
+      "sha256": "1fbe61237602b917b62e6bb719e488fc3abd0d64e67b291f47d0752d6ef12e46"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t001.npz",
+      "sha256": "4308bc4e392e6226d214286458d43ce6a65d7a4ed8fdcf43115263ffc7b23cfd"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t010.npz",
+      "sha256": "b1f3ece28e611fc4a40009d785623902d36947e50103c3dfb60206573384eaea"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t050.npz",
+      "sha256": "1397f7fe6062704d03e8b006b733c069b9710c3c46423e036f58b28f37008120"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t100.npz",
+      "sha256": "d68cfd83a3e8fbaf0bdb88c84f06a7f3956085aed88b819b321e88276e9b7532"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t250.npz",
+      "sha256": "7239caef8416e1ca487ad060b42a95dd9d64aa6f81ed6b7e0976fbab7f2522ca"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t500.npz",
+      "sha256": "8e1a25783db7473b545ec0d204f8f96a185b6bdbafb73c21015b54094a3b5774"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t750.npz",
+      "sha256": "edac50aec2cc46d3e4c06532cfa82b3871c77e436372c0535776f7f71450dd2a"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t900.npz",
+      "sha256": "4d2930359986d7da6236dbd6ca7412b060ace05d7fdab3b400c7c9bd3cb54f92"
+    },
+    {
+      "path": "UPDATE1000_FREE_000_t998.npz",
+      "sha256": "6f3912ae04b2a223b8428bd4eb3ec323eeab6bf98c889b62c8e9f6e2ef861c7d"
+    },
+    {
+      "path": "config.json",
+      "sha256": "34dcd3ddd2ae0285568adc98211b56fd65d6be8ddc5a84b40bb9071633eadbd9"
+    },
+    {
+      "path": "ddpm_ema_update_0020.json",
+      "sha256": "a77a2493c281a4f0e66befe29b67767c733392eaeb17c80ea8253caa0c2c1ee4"
+    },
+    {
+      "path": "ddpm_ema_update_0020.pt",
+      "sha256": "759afe2dac8acefc505a7866104198e57908e4444d549fd74b84d9b80d72bfe1"
+    },
+    {
+      "path": "ddpm_ema_update_1000.json",
+      "sha256": "27be4d130d797fdf590e9be2b513f41db43a87a726fd5cb0e252a100bcd25ff2"
+    },
+    {
+      "path": "ddpm_ema_update_1000.pt",
+      "sha256": "88ca21d0370cf736f1cb4ebcbca73b3dfb1eacf951a9a7f9add1cca2c8458b23"
+    },
+    {
+      "path": "ddpm_initial_state.json",
+      "sha256": "a8f2a023d7cf35e5768e3785ec0a632cb6e2549ad39bac43792ad3473275432c"
+    },
+    {
+      "path": "ddpm_initial_state.pt",
+      "sha256": "99425229212e5e7ba083224a19d2b4f764f12bf84c64359302f373d5afaead8a"
+    },
+    {
+      "path": "ddpm_train.jsonl",
+      "sha256": "2e272ecb5266d25c9ff69daea8f9701c74331117b156ef5b7dff1c508a744779"
+    },
+    {
+      "path": "frozen_noise_AMD.json",
+      "sha256": "936d793dc04d42d71397dfbed2b34696b569d12a58c16e2adc7f3f5f91bdb192"
+    },
+    {
+      "path": "frozen_noise_AMD.npz",
+      "sha256": "f43358c79ed1b4d7e6bfb836c3924b4c64c0eb72093ded757c826da5839e309e"
+    },
+    {
+      "path": "frozen_noise_FREE.json",
+      "sha256": "b2cf8767cdfaffd68176700ce58dfd7dcd4f9b9bebe07935dddfd517a1c5c2b6"
+    },
+    {
+      "path": "frozen_noise_FREE.npz",
+      "sha256": "c36d88c9cb132e199f6561f133b28256bb7d692465cbd62a5db49d489ea552f4"
+    },
+    {
+      "path": "generation_noise_hashes.jsonl",
+      "sha256": "c93ba944ef89f6ccf10a08383be90dc90a7e2e1efafb798d06e05a4bbe4a2fbd"
+    },
+    {
+      "path": "generation_summary.json",
+      "sha256": "9da0172037120efda73317bff64012cffaf205847599e203e25f73dc992b3b05"
+    },
+    {
+      "path": "reverse_scale_checkpoints.jsonl",
+      "sha256": "fb8bafbe35588967fc82c3bd129f7e3607f28ae5fe91254dc9c6b836170452e7"
+    },
+    {
+      "path": "runtime.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "path": "status.json",
+      "sha256": "bbe9995940b3aa1fc031e158c13fab6869b9e455db6412b60a9962248f2fb5ba"
+    },
+    {
+      "path": "target_summary.json",
+      "sha256": "386de13de288baf86ba8bb17509463df8a255dda99301f72586468c7f8ae0008"
+    },
+    {
+      "path": "training_final_state.pt",
+      "sha256": "7cf8c7487ae5b7d1589afab111395ca182bfec3c6565d739283b3c158484d868"
+    },
+    {
+      "path": "training_summary.json",
+      "sha256": "7bb3b834e9a8e1411a4936c35d0a9c637c064b106a9ef55ca944459da1ecda9d"
+    },
+    {
+      "path": "zero_predictor_reference.json",
+      "sha256": "f2bdb1e68548a7ea2d44d32cc593fd444968d2c3c47518f31e96e6aebcbd2a25"
+    }
+  ]
+}

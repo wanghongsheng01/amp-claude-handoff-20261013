@@ -1,0 +1,122 @@
+{
+  "schema": "AMP_H5_FORMAL_V1",
+  "created_utc": "2026-10-11T16:05:53.344916+00:00",
+  "status": "FROZEN_CANDIDATE_AWAIT_INDEPENDENT_PREFLIGHT",
+  "primary_candidate": "CE21_DDPM",
+  "arms": [
+    "CE21_DDPM",
+    "MSE21_DDPM",
+    "scalar_DDPM",
+    "terminal_LSTM"
+  ],
+  "budgets": {
+    "created_utc": "2026-10-11T16:03:03.537346+00:00",
+    "source": "actual serialized train-only smoke logs; quality ignored",
+    "rule_sha256": "e2092dee3649e4f736495ec6c4f2c46f4717312f3b0497868e792c60c72eee1e",
+    "measurements": [
+      {
+        "arm": "categorical_ce",
+        "vae": {
+          "updates": 20,
+          "mean_update_seconds": 1.1496471228310838,
+          "log_sha256": "f19cc7b84bff693930201f3d28460144d7079c1dfd46fefcca5386c1a52ed8a7"
+        },
+        "ddpm": {
+          "updates": 20,
+          "mean_update_seconds": 0.5508490020409227,
+          "log_sha256": "86025b38962521211e7db2b6c5f270903d7c5601534fad20cfdfdc793e1a1f0b"
+        }
+      },
+      {
+        "arm": "raw_onehot_mse",
+        "vae": {
+          "updates": 20,
+          "mean_update_seconds": 1.1840331063605845,
+          "log_sha256": "04def96ac19de1ab9456a030aa359108b5c1146c0ae357fe82edfea41f760cce"
+        },
+        "ddpm": {
+          "updates": 20,
+          "mean_update_seconds": 0.5688270938349888,
+          "log_sha256": "041a60d8e5d9fe9e072fa24edb3edd2240701fadd09a48d4f5651bac42f3b807"
+        }
+      },
+      {
+        "arm": "scalar_legacy",
+        "vae": {
+          "updates": 20,
+          "mean_update_seconds": 1.1670799187617376,
+          "log_sha256": "8932d84115ea70296807ff9c6b2d662189f07a6e44e96fb2224fb876462d28ec"
+        },
+        "ddpm": {
+          "updates": 20,
+          "mean_update_seconds": 0.5342279125005007,
+          "log_sha256": "e0c419d759d135048a75d2f205cb34039404c741ae6af87544ad76fddea1aed4"
+        }
+      }
+    ],
+    "vae_seconds_cap": 1920,
+    "ddpm_seconds_cap": 1020,
+    "common_total_training_seconds_cap": 2940,
+    "generation_seconds_cap": 1800,
+    "within_maximum3600": true,
+    "steps": {
+      "vae": 1000,
+      "ddpm": 1000,
+      "ar": 1000
+    },
+    "actual_compute_equal": false
+  },
+  "train_rows": 279,
+  "development_rows": 41,
+  "test_access": "FORBIDDEN",
+  "posterior_reconstruction_modes": [
+    "mean"
+  ],
+  "seeds": {
+    "init": 222,
+    "shuffle": 222,
+    "vae_noise": 222,
+    "DDPM": 322,
+    "FREE_generation": 422,
+    "AMD_generation": 423
+  },
+  "generation_requests": 128,
+  "per_terminal_per_method": 16,
+  "train_selection_opportunities": {
+    "configs_per_method": 1,
+    "training_seeds_per_method": 1,
+    "checkpoints_chosen_per_method": "fixed final",
+    "hyperparameter_tuning": 0,
+    "VAE_or_AR_monitor_points_per_method": 10,
+    "DDPM_dev_monitors": 0
+  },
+  "conditions_generation": [
+    "terminal",
+    "own_randomness_or_AR_prefix"
+  ],
+  "failure": "all attempts retained; no retries/no resampling/no replacement; failed engineering makes scientific comparison NOT_EVALUABLE",
+  "engineering_E": [
+    "prelocked input/source/config identity",
+    "fixed update endpoints complete under cap",
+    "finite training and all generation",
+    "all128 attempts retained",
+    "no test or forbidden generation condition",
+    "matchedCE_MSEinitialization_batches_RNG"
+  ],
+  "L": "dev mean: CE > MSE micro and target-supported AA macro, lengthMAE <=, exact >=",
+  "G": "CEvsAR both terminals:devMMD strictly lower; bothall16valid1;CEvalid5/validunique>=AR;traincopy same/any<=AR;AA/dipeptide entropy absolute gap-to-train<=AR",
+  "AR_adequacy": "NOT_ESTABLISHED",
+  "promotion": "HOLD",
+  "monitoring_policy": "Every100 VAE/AR updates, fixed10points; no change of endpoint, hyperparameters or checkpoint; curves descriptive only",
+  "no_claims": [
+    "strongestbaselinebeaten",
+    "generalsuperiority",
+    "activity",
+    "novelty",
+    "independentconfirmation",
+    "submissionreadiness"
+  ],
+  "smoke_continuation": "Three20stepDDPMs numerically fail exp(logsigma); source tensors already saved; formal1000 alreadydeclared; no model or numerical algorithm repair; observation-only addition; cause unproven; no claim longer training will fix it",
+  "historical_adaptation": "fresh scalar retains legacy reconstruction/KL and scalar17 head; H5 fresh training seed and DDPM seed are bound, not bitwise replay of old whole run",
+  "backup": "BACKUP_BLOCKED"
+}

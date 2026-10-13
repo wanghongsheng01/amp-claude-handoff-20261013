@@ -1,0 +1,43 @@
+{
+  "arm": "raw_onehot_mse",
+  "source_root": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011",
+  "train": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/train.csv",
+  "train_sha256": "f71de05d3a2086c37b082716781397f7bb6db65322b807366f4f19ebf3058e03",
+  "train_rows": 279,
+  "train_cohort": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+  "train_cohort_sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+  "purpose": "train_only_smoke",
+  "initialization_seed": 222,
+  "shuffle_seed": 222,
+  "vae_noise_seed": 222,
+  "ddpm_seed": 322,
+  "sampling_seeds": [
+    422,
+    423
+  ],
+  "vae_updates": 20,
+  "ddpm_updates": 20,
+  "vae_batch_size": 32,
+  "ddpm_batch_size": 8,
+  "ddpm_lr": 0.005,
+  "noise_steps": 999,
+  "training_seconds_cap": 180,
+  "vae_seconds_cap": 90,
+  "ddpm_seconds_cap": 90,
+  "generation_seconds_cap": 450,
+  "samples_per_terminal": 1,
+  "do_eval": false,
+  "monitor_interval": 0,
+  "implementation_sha256": "9fabbd28171a7b1f98118161ca399dbc1fa81a3448cdb42668cddbf0468a492b",
+  "optimizer_contract": {
+    "vae": "Adam(lr=max(5e-4*max(0,step-2)/1000,1e-7),betas=(.9,.999),eps=1e-8,weight_decay=0)",
+    "vae_clip_norm": 1.0,
+    "ddpm": "AdamW(lr=.005,eps=1e-5,betas=(.9,.999),weight_decay=.01)",
+    "ddpm_scheduler": "OneCycleLR(max_lr=.005,total_steps=20); step after optimizer",
+    "ema": "EMA(.995), copied each update before 2000",
+    "ddpm_noise": "linear beta 1e-4..0.02,999 steps; train and reverse timesteps1..998",
+    "kl_beta": 1.0,
+    "raw_onehot_mse_prefactor": 0.5,
+    "phase_budget": "VAE90s+DDPM90s; shared total180s, checked before update, encode batch; in-flight atomic operation may finish"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "locked_utc": "2026-10-11T20:54:15.740326+00:00",
+  "scope": "AMP_H5_POSTERIOR_PATH_SAVED_TRAIN_DRAW_COMPARISON_V1",
+  "status": "PRELOCKED_BEFORE_SCORING",
+  "posthoc_exploratory": true,
+  "PROMOTE": "HOLD",
+  "checkpoint_tensor_digest": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+  "allowed_computation": "stdlib frozen reconstruction scorer on existing cached sequences; no new model/tensor forward, RNG or test access",
+  "pairing": "B sample_id and terminal_sample_id map to BASE_INPUTS_SEAL.selected_row_ids and CSV reference_train_row_id; donor train reconstruction row_id is0..278. Retain all FREE16+AMD16 draw slots including repeated AMD donor117. Distinct temporary scorer row_id0..15 only indexes slots, not altered biological identity.",
+  "formula": "For target residue position k, count correct iff rendered prediction has same AA at k. micro=sum correct/sum target lengths; supported-AA macro=unweighted per-AA recall over target-supported20 classes, PAD excluded; per-sequence mean accuracy=mean(correct_i/lenR_i); lengthMAE=mean(abs(lenP-lenR)); exact=whole rendered string equality. NonPAD errors=1-accuracy. All formulas via unchanged frozen scorer.",
+  "denominator": "same16 slots per terminal and32 pooled, including repeats; each mean and stochastic comparison shares target residue/AA support. Report unique donor count separately; no independent-replicate claim.",
+  "mode_label_handling": "Frozen scorer hardcodes mode=posterior_mean irrespective of input. Keep original function label in frozen_scorer_hardcoded_mode, explicitly label actual prediction_mode, change no scoring arithmetic.",
+  "analysis_groups": [
+    "FREE mean vs B single stochastic draw",
+    "AMD mean vs B single stochastic draw",
+    "pooled32 descriptive only",
+    "fulltrain279 mean context",
+    "dev41 mean identity check497/701"
+  ],
+  "failure_policy": "do not filter failed/empty requests; exact cached source identity required. Any unexpected missing/mismatch stops this analysis with no model recovery.",
+  "cache_availability": {
+    "train_mean": {
+      "rows": 279,
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv"
+    },
+    "dev_mean": {
+      "rows": 41,
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv"
+    },
+    "train_posterior_parameters": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "available": true,
+      "parameters_not_full_stochastic_reconstruction": true
+    },
+    "train_stochastic_draw_B": {
+      "slots": 32,
+      "unique_donors": 31,
+      "terminal_slots": {
+        "FREE": 16,
+        "AMD": 16
+      },
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv"
+    },
+    "fulltrain279_stochastic_reconstruction": "MISSING",
+    "dev41_stochastic_reconstruction": "MISSING",
+    "dev41_latent_parameter_cache": "MISSING",
+    "old_H0_H4_results": "excluded, different checkpoint not a substitute"
+  },
+  "input_filename_inventory": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce": [
+      "config.json",
+      "ddpm_ema_state.json",
+      "ddpm_ema_state.pt",
+      "ddpm_state.json",
+      "ddpm_state.pt",
+      "ddpm_train.jsonl",
+      "ddpm_training_state.pt",
+      "ddpm_training_summary.json",
+      "dev_monitor.jsonl",
+      "generated.csv",
+      "generation_progress.jsonl",
+      "runtime_and_source.json",
+      "status.json",
+      "train_feature_scaler.json",
+      "train_posterior_parameters.npz",
+      "vae_initial_state.json",
+      "vae_initial_state.pt",
+      "vae_initialization.json",
+      "vae_state.json",
+      "vae_state.pt",
+      "vae_train.jsonl",
+      "vae_training_state.pt",
+      "vae_training_summary.json"
+    ],
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1": [
+      "config.json",
+      "dev_reconstruction.csv",
+      "generated.csv",
+      "generated_AMD.npz",
+      "generated_FREE.npz",
+      "generated_posterior_AMD.npz",
+      "generated_posterior_FREE.npz",
+      "generated_posterior_summary_AMD.json",
+      "generated_posterior_summary_FREE.json",
+      "generation_progress.jsonl",
+      "generation_summary.json",
+      "input_integrity_after.json",
+      "loaded_state_identity.json",
+      "manifest.json",
+      "model_identity_after.json",
+      "phase_provenance.json",
+      "recovery_contract.json",
+      "restored_scaler_identity.json",
+      "runtime_and_source.json",
+      "status.json",
+      "train_reconstruction.csv"
+    ],
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2": [
+      "BASE_INPUTS_SEAL.json",
+      "CLOSING_LEDGER.json",
+      "COORDINATE_PERMUTATION_C_AMD.npz",
+      "COORDINATE_PERMUTATION_C_FREE.npz",
+      "DECODER_INPUTS_SEAL.json",
+      "D_ROUNDTRIP.json",
+      "D_inverse_AMD.npz",
+      "D_inverse_FREE.npz",
+      "D_roundtrip_AMD.npz",
+      "D_roundtrip_FREE.npz",
+      "EMPIRICAL_POSTERIOR_B_AMD.npz",
+      "EMPIRICAL_POSTERIOR_B_FREE.npz",
+      "REFERENCE_G_PRIOR_D_AMD.npz",
+      "REFERENCE_G_PRIOR_D_FREE.npz",
+      "REQUEST_SLOTS.json",
+      "REUSED_DDPM_SLOTS.json",
+      "contract.json",
+      "generated.csv",
+      "generation_summary.json",
+      "input_integrity_after.json",
+      "manifest.json",
+      "model_identity_after.json",
+      "model_identity_before.json",
+      "prepared_AMD.npz",
+      "prepared_FREE.npz",
+      "reused_ddpm.csv",
+      "runtime_and_source.json",
+      "status.json"
+    ]
+  },
+  "train_cohort": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+    "bytes": 64083
+  },
+  "dev_cohort": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+    "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+    "bytes": 9489
+  },
+  "train_mean_csv": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+  "dev_mean_csv": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+  "B_generated_csv": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+  "B_input_seal": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/BASE_INPUTS_SEAL.json",
+  "existing_reconstruction_metrics": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_evaluation_v1/reconstruction_metrics.json",
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/compare_saved_posterior.py",
+      "sha256": "4bb0d45e10e5143fb3561b64c37409e995c114c67d15e61ca95e093817819fab",
+      "bytes": 11173
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+      "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417",
+      "bytes": 24404
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480",
+      "bytes": 25377
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "bytes": 41408
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+      "sha256": "e915f23cbf6157b20bd1d9a94fe831d326b0ab6a20b4013824224921a2bbf444",
+      "bytes": 34554
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+      "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020",
+      "bytes": 128631
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+      "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49",
+      "bytes": 19017
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/loaded_state_identity.json",
+      "sha256": "fa6c248213a8b1bf1ad2bead2a03e791491d2f70d25be9d2913392619fbf2123",
+      "bytes": 391
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+      "sha256": "9b37d8469978e5b529acffde790c55fd0478da9766511e9ca61cde89a64bc7d7",
+      "bytes": 15580
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/BASE_INPUTS_SEAL.json",
+      "sha256": "64ef940ab02b79a7ea59a4422c4c56c4cbfa10a1a6da641609e615063a25f9a8",
+      "bytes": 9782
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/model_identity_before.json",
+      "sha256": "c800c6472ee7cf3eb61751ce9b4375ec92475d2e0be904c83c6b1b71aab41e38",
+      "bytes": 181
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+      "sha256": "01fe09cbce4c4d4d8cf6c04d617408de40162b02f4583cb2a0c095418535cac3",
+      "bytes": 59016
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_evaluation_v1/reconstruction_metrics.json",
+      "sha256": "8b8abe6483bf4af805793f6a6d1b9932ab67292cb47700edd935da3c4e228630",
+      "bytes": 11861
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "bytes": 64083
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "bytes": 9489
+    }
+  ]
+}

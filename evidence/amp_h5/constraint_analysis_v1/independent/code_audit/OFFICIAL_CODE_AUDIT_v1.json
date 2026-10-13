@@ -1,0 +1,158 @@
+{
+  "audit_date": "2026-10-12",
+  "scope": "static read-only public official repository audit; no local data/manuscripts/models accessed",
+  "repositories": [
+    {
+      "name": "LSSAMP",
+      "repository": "dqwang122/LSSAMP",
+      "commit": "f8f9c7bce63693383818a83cf08639981498ef58",
+      "license": null,
+      "tree_complete": true,
+      "license_filename_matches": [],
+      "cpu": "HOLD: cuda invocation in sample"
+    },
+    {
+      "name": "Twisted SMC",
+      "repository": "Silent-Zebra/twisted-smc-lm",
+      "commit": "28d921a7fedd1584a1bbe97aa498a63013585cb5",
+      "license": null,
+      "tree_complete": true,
+      "license_filename_matches": [],
+      "cpu": "HOLD: CUDA requirements"
+    },
+    {
+      "name": "CASA",
+      "repository": "large-loris-models/casa",
+      "commit": "54a11a6e934c4a9a4248c8ceb092d9e352a3c748",
+      "license": "MIT",
+      "tree_complete": true,
+      "cpu": "HOLD: possible adaptation only; not run"
+    },
+    {
+      "name": "Ctrl-G",
+      "repository": "joshuacnf/Ctrl-G",
+      "commit": "379463249c368739f81c46c1e71b8673bfcedf7c",
+      "license": "MIT",
+      "cpu": "HOLD: official distillation CUDA/FAISS GPU/NCCL; inference port untested",
+      "auditor": "ctrl_g_feasibility independent child"
+    }
+  ],
+  "source_files": [
+    {
+      "key": "lss",
+      "path": "requirements.txt",
+      "git_blob_sha": "4dd10edadf67d82914eac227b977859f2f4e30ed",
+      "url": "https://github.com/dqwang122/LSSAMP/blob/f8f9c7bce63693383818a83cf08639981498ef58/requirements.txt"
+    },
+    {
+      "key": "lss",
+      "path": "configs/lssamp_sample.yml",
+      "git_blob_sha": "e4818863d844abef9c61bb8214643a84f0d896f1",
+      "url": "https://github.com/dqwang122/LSSAMP/blob/f8f9c7bce63693383818a83cf08639981498ef58/configs/lssamp_sample.yml"
+    },
+    {
+      "key": "lss",
+      "path": "src/models/model_builder.py",
+      "git_blob_sha": "4d3d5ba66f8008a79b9b914b5560bf125ff296a0",
+      "url": "https://github.com/dqwang122/LSSAMP/blob/f8f9c7bce63693383818a83cf08639981498ef58/src/models/model_builder.py"
+    },
+    {
+      "key": "lss",
+      "path": "src/models/predictor.py",
+      "git_blob_sha": "a0ef2662d96f4435268ffad411f12d9c95026b21",
+      "url": "https://github.com/dqwang122/LSSAMP/blob/f8f9c7bce63693383818a83cf08639981498ef58/src/models/predictor.py"
+    },
+    {
+      "key": "lss",
+      "path": "src/train_vae.py",
+      "git_blob_sha": "e1d94a9b3536f81717a5a44cc5f74f718ef7e3e3",
+      "url": "https://github.com/dqwang122/LSSAMP/blob/f8f9c7bce63693383818a83cf08639981498ef58/src/train_vae.py"
+    },
+    {
+      "key": "tsmc",
+      "path": "requirements.txt",
+      "git_blob_sha": "d18082dc7740c08c75084a93081daea6d96d9583",
+      "url": "https://github.com/Silent-Zebra/twisted-smc-lm/blob/28d921a7fedd1584a1bbe97aa498a63013585cb5/requirements.txt"
+    },
+    {
+      "key": "tsmc",
+      "path": "custom_transformer_prob_utils.py",
+      "git_blob_sha": "c86b5a61ab79fb4a9ca536773f34d1e70d5584e5",
+      "url": "https://github.com/Silent-Zebra/twisted-smc-lm/blob/28d921a7fedd1584a1bbe97aa498a63013585cb5/custom_transformer_prob_utils.py"
+    },
+    {
+      "key": "tsmc",
+      "path": "losses.py",
+      "git_blob_sha": "5a765f09d02166cd3152fff13b208920c9facc0d",
+      "url": "https://github.com/Silent-Zebra/twisted-smc-lm/blob/28d921a7fedd1584a1bbe97aa498a63013585cb5/losses.py"
+    },
+    {
+      "key": "tsmc",
+      "path": "do_training_and_log_Z_bounds.py",
+      "git_blob_sha": "5a2fb69b1c3dba2c782e977ec2c35c52e9de9739",
+      "url": "https://github.com/Silent-Zebra/twisted-smc-lm/blob/28d921a7fedd1584a1bbe97aa498a63013585cb5/do_training_and_log_Z_bounds.py"
+    },
+    {
+      "key": "tsmc",
+      "path": "custom_toy_transformer_and_analytic_tests/TestClass.py",
+      "git_blob_sha": "ef78831d4ad3865b5c2cfce796b169cb92750027",
+      "url": "https://github.com/Silent-Zebra/twisted-smc-lm/blob/28d921a7fedd1584a1bbe97aa498a63013585cb5/custom_toy_transformer_and_analytic_tests/TestClass.py"
+    },
+    {
+      "key": "casa",
+      "path": "LICENSE",
+      "git_blob_sha": "de30b04c32a363e30d308c4468663c84e681b79b",
+      "url": "https://github.com/large-loris-models/casa/blob/54a11a6e934c4a9a4248c8ceb092d9e352a3c748/LICENSE"
+    },
+    {
+      "key": "casa",
+      "path": "README.md",
+      "git_blob_sha": "92437041d63ed2ce0b4f5ded1f69c3822061e4dc",
+      "url": "https://github.com/large-loris-models/casa/blob/54a11a6e934c4a9a4248c8ceb092d9e352a3c748/README.md"
+    },
+    {
+      "key": "casa",
+      "path": "pyproject.toml",
+      "git_blob_sha": "a7e7989d18ead9075f74761096361ef93ab27894",
+      "url": "https://github.com/large-loris-models/casa/blob/54a11a6e934c4a9a4248c8ceb092d9e352a3c748/pyproject.toml"
+    },
+    {
+      "key": "casa",
+      "path": "src/casa/llm.py",
+      "git_blob_sha": "487a8cb1a5cbc58e6a9434aece36d7b86bb4532a",
+      "url": "https://github.com/large-loris-models/casa/blob/54a11a6e934c4a9a4248c8ceb092d9e352a3c748/src/casa/llm.py"
+    },
+    {
+      "key": "casa",
+      "path": "src/casa/grammar.py",
+      "git_blob_sha": "b27985798e4e5fab6bb4ebe9012ec04a94e5d0d0",
+      "url": "https://github.com/large-loris-models/casa/blob/54a11a6e934c4a9a4248c8ceb092d9e352a3c748/src/casa/grammar.py"
+    },
+    {
+      "key": "casa",
+      "path": "src/casa/samplers/mcmc.py",
+      "git_blob_sha": "cb5926e7daf4def656413a4e70c3d6fd7bdd7202",
+      "url": "https://github.com/large-loris-models/casa/blob/54a11a6e934c4a9a4248c8ceb092d9e352a3c748/src/casa/samplers/mcmc.py"
+    },
+    {
+      "key": "casa",
+      "path": "src/casa/utils/grammar_logits_processor.py",
+      "git_blob_sha": "341a449e778d33b31e5bd4d34f878fd6dc84bbcb",
+      "url": "https://github.com/large-loris-models/casa/blob/54a11a6e934c4a9a4248c8ceb092d9e352a3c748/src/casa/utils/grammar_logits_processor.py"
+    }
+  ],
+  "executed_models": 0,
+  "opened_local_data": 0,
+  "uploads": 0,
+  "backup": "BACKUP_BLOCKED",
+  "failure_log": [
+    {
+      "action": "public GitHub metadata GET via shell urllib",
+      "result": "DNS failure; continued using available public-repository read tool"
+    },
+    {
+      "action": "official NeurIPS PDF web open",
+      "result": "file size over web retrieval cap; official search excerpt plus reciprocal repo reference used"
+    }
+  ]
+}

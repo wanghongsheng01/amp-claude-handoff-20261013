@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "frozen_runner_hash_matches_config",
+      "pass": true
+    },
+    {
+      "check": "source_manifest_hash_matches_CE_runtime",
+      "pass": true
+    },
+    {
+      "check": "V_hash_matches_manifest_and_recorded_runtime",
+      "pass": true
+    },
+    {
+      "check": "D_hash_matches_manifest_and_recorded_runtime",
+      "pass": true
+    },
+    {
+      "check": "FLOW_hash_matches_manifest_and_recorded_runtime",
+      "pass": true
+    },
+    {
+      "check": "ATTN_hash_matches_manifest_and_recorded_runtime",
+      "pass": true
+    },
+    {
+      "check": "ROOTDIFF_hash_matches_manifest_and_recorded_runtime",
+      "pass": true
+    },
+    {
+      "check": "TASKDIFF_hash_matches_manifest_and_recorded_runtime",
+      "pass": true
+    },
+    {
+      "check": "VAE_YAML_hash_matches_manifest_and_recorded_runtime",
+      "pass": true
+    },
+    {
+      "check": "CSV_LOADER_hash_matches_manifest_and_recorded_runtime",
+      "pass": true
+    },
+    {
+      "check": "recovery_runtime_binding_same",
+      "pass": true
+    },
+    {
+      "check": "CE_current_ema_recorded_tensor_digest_identical",
+      "pass": true
+    },
+    {
+      "check": "CE_DDPM_endpoint_1000",
+      "pass": true
+    },
+    {
+      "check": "recovery_loaded_ema_identity",
+      "pass": true
+    },
+    {
+      "check": "recovery_scaler_identity_no_refit",
+      "pass": true
+    },
+    {
+      "check": "train_only_scaler_metadata",
+      "pass": true
+    },
+    {
+      "check": "NPZ_headers_have_no_epsilon",
+      "pass": true
+    },
+    {
+      "check": "train_cache_shape",
+      "pass": true
+    },
+    {
+      "check": "generated_param_shape",
+      "pass": true
+    },
+    {
+      "check": "CSV_headers_identical",
+      "pass": true
+    },
+    {
+      "check": "inspected_python_syntax_valid",
+      "pass": true
+    },
+    {
+      "check": "source_files_unchanged_during_audit",
+      "pass": true
+    }
+  ],
+  "check_count": 22,
+  "scope": "Static syntax/hash/metadata/schema assertions only; not model execution validation."
+}

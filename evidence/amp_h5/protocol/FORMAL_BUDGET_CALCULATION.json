@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-10-11T16:03:03.537346+00:00",
+  "source": "actual serialized train-only smoke logs; quality ignored",
+  "rule_sha256": "e2092dee3649e4f736495ec6c4f2c46f4717312f3b0497868e792c60c72eee1e",
+  "measurements": [
+    {
+      "arm": "categorical_ce",
+      "vae": {
+        "updates": 20,
+        "mean_update_seconds": 1.1496471228310838,
+        "log_sha256": "f19cc7b84bff693930201f3d28460144d7079c1dfd46fefcca5386c1a52ed8a7"
+      },
+      "ddpm": {
+        "updates": 20,
+        "mean_update_seconds": 0.5508490020409227,
+        "log_sha256": "86025b38962521211e7db2b6c5f270903d7c5601534fad20cfdfdc793e1a1f0b"
+      }
+    },
+    {
+      "arm": "raw_onehot_mse",
+      "vae": {
+        "updates": 20,
+        "mean_update_seconds": 1.1840331063605845,
+        "log_sha256": "04def96ac19de1ab9456a030aa359108b5c1146c0ae357fe82edfea41f760cce"
+      },
+      "ddpm": {
+        "updates": 20,
+        "mean_update_seconds": 0.5688270938349888,
+        "log_sha256": "041a60d8e5d9fe9e072fa24edb3edd2240701fadd09a48d4f5651bac42f3b807"
+      }
+    },
+    {
+      "arm": "scalar_legacy",
+      "vae": {
+        "updates": 20,
+        "mean_update_seconds": 1.1670799187617376,
+        "log_sha256": "8932d84115ea70296807ff9c6b2d662189f07a6e44e96fb2224fb876462d28ec"
+      },
+      "ddpm": {
+        "updates": 20,
+        "mean_update_seconds": 0.5342279125005007,
+        "log_sha256": "e0c419d759d135048a75d2f205cb34039404c741ae6af87544ad76fddea1aed4"
+      }
+    }
+  ],
+  "vae_seconds_cap": 1920,
+  "ddpm_seconds_cap": 1020,
+  "common_total_training_seconds_cap": 2940,
+  "generation_seconds_cap": 1800,
+  "within_maximum3600": true,
+  "steps": {
+    "vae": 1000,
+    "ddpm": 1000,
+    "ar": 1000
+  },
+  "actual_compute_equal": false
+}

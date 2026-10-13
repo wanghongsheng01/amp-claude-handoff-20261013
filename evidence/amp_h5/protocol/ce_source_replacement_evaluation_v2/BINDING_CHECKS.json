@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-11T20:18:31.490516+00:00",
+  "status": "PASS_METADATA_BINDING_ONLY",
+  "v2_seed_binding": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+    "bytes": 261,
+    "sha256": "f191f8412a5382b7e11ad3af4a1bbb1a45895df0c3491693a7ab14b986c83aa6"
+  },
+  "v2_slot_binding": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_REQUEST_SLOTS_v2.json",
+    "bytes": 51556,
+    "sha256": "6857bdbd06e7bad7325cc23c06524862030f8bff492aa943813e77d3c744699c"
+  },
+  "seed_values_equal_v1": true,
+  "all96_slot_rows_equal_v1": true,
+  "exact_six_groups_16_ids": true,
+  "scope_id_v2": true,
+  "frozen_evaluator_source_unchanged": true,
+  "prior_synthetic8_checks_reused_no_new_model_or_metric_test": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/SYNTHETIC_INTERFACE_RESULT.json",
+    "bytes": 1237,
+    "sha256": "3470a84049fde67babdbde4c9c9ab0d89f6a1e602ccad2ed7714161c36ff2deb"
+  },
+  "operations": {
+    "natural_sample_reads": 0,
+    "natural_metric_computations": 0,
+    "model_calls": 0,
+    "cohort_reads": 0,
+    "test37_reads": 0
+  },
+  "authorization": false
+}

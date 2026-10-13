@@ -1,0 +1,3 @@
+/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/lib/python3.12/site-packages/torch/nn/utils/weight_norm.py:28: UserWarning: torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.
+  warnings.warn("torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.")
+{"state": "completed", "completed_inputs": 96, "decoder_forward_attempts": 6, "prior_inverse_attempts": 2, "prior_roundtrip_forward_attempts": 2}

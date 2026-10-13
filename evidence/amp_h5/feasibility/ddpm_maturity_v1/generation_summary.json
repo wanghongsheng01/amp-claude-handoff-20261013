@@ -1,0 +1,45 @@
+{
+  "seconds": 91.69133349973708,
+  "global_rng_unchanged": true,
+  "attempts": [
+    {
+      "attempt_id": "UPDATE0020_FREE_000",
+      "checkpoint_update": 20,
+      "terminal": "FREE",
+      "seed": 422,
+      "status": "error:FloatingPointError",
+      "error": "FloatingPointError('nonfinite exp(logsigma); no clipping or retry')"
+    },
+    {
+      "attempt_id": "UPDATE0020_AMD_000",
+      "checkpoint_update": 20,
+      "terminal": "AMD",
+      "seed": 423,
+      "status": "error:FloatingPointError",
+      "error": "FloatingPointError('nonfinite exp(logsigma); no clipping or retry')"
+    },
+    {
+      "attempt_id": "UPDATE1000_FREE_000",
+      "checkpoint_update": 1000,
+      "terminal": "FREE",
+      "seed": 422,
+      "status": "finite_latent_no_decoder",
+      "error": ""
+    },
+    {
+      "attempt_id": "UPDATE1000_AMD_000",
+      "checkpoint_update": 1000,
+      "terminal": "AMD",
+      "seed": 423,
+      "status": "finite_latent_no_decoder",
+      "error": ""
+    }
+  ],
+  "decoder_forwards": 0,
+  "generated_sequence_strings": 0,
+  "numerical_success_count": 2,
+  "failed_count": 2,
+  "numerical_failure_count": 2,
+  "execution_failure_count": 0,
+  "not_executed_count": 0
+}

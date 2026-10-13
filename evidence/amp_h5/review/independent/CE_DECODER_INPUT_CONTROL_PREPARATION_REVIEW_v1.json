@@ -1,0 +1,140 @@
+{
+  "created_utc": "2026-10-11T19:36:20.180694+00:00",
+  "status": "HOLD_PREPARATION_TWO_NARROW_REPAIRS_REQUIRED",
+  "execution_authorized": false,
+  "checks": [
+    {
+      "name": "stdlib_only_import",
+      "pass": true
+    },
+    {
+      "name": "exact_frozen_candidate_and_contract",
+      "pass": true
+    },
+    {
+      "name": "110_unique_bound_inputs_unchanged",
+      "pass": true
+    },
+    {
+      "name": "64_slots32paired_preallocated",
+      "pass": true
+    },
+    {
+      "name": "A_reportgroup_B_trainpool_roles",
+      "pass": true
+    },
+    {
+      "name": "scope_no_nativeprior_novelty_claim",
+      "pass": true
+    },
+    {
+      "name": "synthetic_valid_scope_contract_passes",
+      "pass": true
+    },
+    {
+      "name": "live_scalar_rejected",
+      "pass": true
+    },
+    {
+      "name": "runningjob_rejected",
+      "pass": true
+    },
+    {
+      "name": "badseed_rejected",
+      "pass": true
+    },
+    {
+      "name": "extra_input_count_rejected",
+      "pass": true
+    },
+    {
+      "name": "capchange_rejected",
+      "pass": true
+    },
+    {
+      "name": "missingreviewstatus_rejected",
+      "pass": true
+    },
+    {
+      "name": "no_independent_scalarreview_receipt_rejected",
+      "pass": true
+    },
+    {
+      "name": "existing_output_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_parent_lock_rejected",
+      "pass": true
+    },
+    {
+      "name": "R_C2_actual_failed_supervisor_enum_reproduced",
+      "pass": true
+    },
+    {
+      "name": "no_torch_numpy_import_after_synthetic",
+      "pass": true
+    },
+    {
+      "name": "metric_clarification_binds_unchanged_originals",
+      "pass": true
+    },
+    {
+      "name": "seal_precedes_model_and_decode",
+      "pass": true
+    },
+    {
+      "name": "fixed_four_decode_loop_single_callsite",
+      "pass": true
+    },
+    {
+      "name": "global_rng_sequence_and_restore_static",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "findings": [
+    {
+      "id": "R-C1",
+      "blocking_before_execution": true,
+      "issue": "torch.equal compares values and permits signed-zero equality (and does not itself enforce dtype); actual requirement and field names promise bitwise savedz identity.",
+      "required": "Use exact dtype/shape and byte digest or same-dtype bit representation equality before seal/model. Preserve this candidate."
+    },
+    {
+      "id": "R-C2",
+      "blocking_before_execution": true,
+      "issue": "Actual supervisor failed terminal is completed_with_failures, but guard accepts completed/failed/interrupted. Synthetic reproduction rejects the authentic failed terminal.",
+      "required": "Accept actual terminal enum with no running job, retain independent exact scalar review/final plan decision; do not label failed scalar as PASS."
+    }
+  ],
+  "scope_conclusions": [
+    "Global RNG fullstream sequence, both terminal checks, input sealing before model construction, fixed4decoder calls,weight/source guards and budgets are otherwise coherent on static inspection.",
+    "A decoder-space N0I uses report groups only; B is training empirical posterior reference. No nativeflow prior or novelty claim.",
+    "Metric clarification correctly distinguishes per-peptide macro from supported-AA macro recall and leaves prior numbers unchanged.",
+    "Contract includes copied historical source assets named test_dataset.csv in byte hash inventory; it does not reference sealed test37. Runtime no-test claim should mean no sealed task test/data parsing, not literally no historical filename containingtest bytes hashed."
+  ],
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_decoder_input_control_v1.py",
+      "sha256": "c3fadf38b1a4f7fed9b53c65e4b18905d3f4ed3744350e1575af0cb724513324"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_DECODER_INPUT_CONTROL_CONTRACT_v1.json",
+      "sha256": "01687cab73e6dd90843002e5f8eb764fd3241e1fdcb8bad4506a9d34d6ab16e1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_METRIC_CLARIFICATION.json",
+      "sha256": "42766c205908dd2d9bd0a97d1c52c720f4f1ce022555241f949272b01d505c7f"
+    }
+  ],
+  "reviewer_actions": {
+    "stdlib_only": true,
+    "models": 0,
+    "forwards": 0,
+    "torch_numpy_imports": 0,
+    "natural_rng": 0,
+    "live_scalar_reads": 0,
+    "test37_reads": 0
+  },
+  "future_receipt": "Still wait real scalar terminal and independent review, corrected candidate and exact new root plan. This is not execution authorization."
+}

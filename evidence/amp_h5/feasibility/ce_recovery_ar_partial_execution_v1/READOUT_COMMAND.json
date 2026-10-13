@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-11T18:14:56.440975+00:00",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v4.py",
+    "--contract",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/READOUT_V4_CE_RECOVERY_AR_PARTIAL_v1.json",
+    "--output",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_readout_v4_v1"
+  ],
+  "shell_command": "/Library/Developer/CommandLineTools/usr/bin/python3 -B /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v4.py --contract /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/READOUT_V4_CE_RECOVERY_AR_PARTIAL_v1.json --output /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_readout_v4_v1",
+  "cwd": "/Users/loctek/Documents/Codex/2026-10-11/task-4",
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v4.py",
+    "bytes": 36250,
+    "sha256": "8a762d82e9527c4cc4a8367a031f7c9a62a6ac8b150e579c286512cedfa94dc2"
+  },
+  "contract": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/READOUT_V4_CE_RECOVERY_AR_PARTIAL_v1.json",
+    "bytes": 2689,
+    "sha256": "66f5d6966a26b5fa2215bdb8be9c98c2ad02cd4e293f366dbeca71b5e2be3508"
+  },
+  "scope": "Read-only saved-artifact phase-split summary; original protocol E/L/G permanently NOT_EVALUABLE"
+}

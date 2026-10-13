@@ -1,0 +1,13 @@
+event_id,category,state,outer_exact_wall_seconds,original_stage_and_partial_wall_lower_bound_seconds,AR_updates,VAE_updates,DDPM_updates,sequence_allocated_slots,observed_sequence_attempts_or_lower_bound,latent_only_attempts,attempt_count_is_lower_bound
+AR_smoke_v1,smoke,completed,3.714580708183348,,100,0,0,2,2,0,False
+AR_formal_v1,formal,completed,15.3623446659185,,1000,0,0,32,32,0,False
+categorical_ce_smoke_v1,smoke,completed_with_failure,84.14928554091603,,0,20,20,2,2,0,False
+raw_onehot_mse_smoke_v1,smoke,completed_with_failure,86.69244345789775,,0,20,20,2,2,0,False
+scalar_legacy_smoke_v1,smoke,completed_with_failure,85.87268779193982,,0,20,20,2,2,0,False
+H4_saved_t1_parity,additional_diagnostic,PASS,2.600359874777496,,0,0,0,0,0,0,False
+DDPM_maturity_1000_4,additional_diagnostic,COMPLETE_WITH_NUMERICAL_FAILURES,651.8265761248767,,0,0,1000,0,0,4,False
+CE_formal_v1_entry_failure,failed_formal_entry,failed,1.074364208150655,,0,0,0,32,0,0,False
+CE_formal_v2_original_interrupted,formal_interrupted,INTERRUPTED_NO_FINAL_STATUS,,2195.3138339580037,0,1000,1000,32,16,0,True
+CE_checkpoint_recovery_v1,additional_generation_restart,recovery_completed,1124.2520439173095,,0,0,0,32,32,0,False
+raw_onehot_mse_formal_not_started,formal_not_started,NOT_STARTED_PER_DELEGATED_SNAPSHOT,,,0,0,0,0,0,0,False
+scalar_legacy_formal_not_started,formal_not_started,NOT_STARTED_PER_DELEGATED_SNAPSHOT,,,0,0,0,0,0,0,False

@@ -1,0 +1,40 @@
+{
+  "scope": "cost/opportunityv4; terminalscalar; model-experimentlowerbound; separateanalysiscost; noexecuteddecodercontrols",
+  "files": [
+    {
+      "path": "COSTS_V4.csv",
+      "bytes": 1226,
+      "sha256": "933d7c395fb13f1ed187dea477f4a35ce2df01191b7a8d35e89a3720a6439ffd"
+    },
+    {
+      "path": "COST_OPPORTUNITY_LEDGER_V4.json",
+      "bytes": 46376,
+      "sha256": "63947fdb14a623606f86656f1905a00c87d92ffc1a84874c12b1169b35a0dfbf"
+    },
+    {
+      "path": "DENOMINATORS_V4.csv",
+      "bytes": 523,
+      "sha256": "e8f65ac2b8bbb327175f1d3ad4aa0e1896186b632bb9c93715d509781f3bd368"
+    },
+    {
+      "path": "READOUT.zh.md",
+      "bytes": 3033,
+      "sha256": "00bae634e2fc0c77fe65fd02c9fb24608fd764708e4be35cc001fa2073270db2"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 5933,
+      "sha256": "0e4d233580e2d49472beca7bdbba9738c642397a1d744fd2fb62a4e271bd2307"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 945,
+      "sha256": "82375f6b7c159c8c098e3d5d9890527c1792914a88c6887d193e74a1e4741521"
+    },
+    {
+      "path": "build_ledger_v4.py",
+      "bytes": 21596,
+      "sha256": "9a6278cba57e28de6a5a890c932188ce6539281cccb089c4bb79ed602acf5199"
+    }
+  ]
+}

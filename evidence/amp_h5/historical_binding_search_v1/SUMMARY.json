@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-10-12T11:47:37.264907+00:00",
+  "targets": 27,
+  "searched_text_units": 229,
+  "scanned_text_bytes": 1818747,
+  "unique_source_files": 208,
+  "hits": 1822,
+  "strong_links": 0,
+  "sequence_or_id_match_only": 27,
+  "not_found": 0,
+  "code_snapshot_hit_count": 0,
+  "backup_index_files": 201,
+  "backup_index_local_files": 23,
+  "backup_index_direct_content_searched": 9,
+  "git_history": [
+    {
+      "root": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main",
+      "git_present": false,
+      "history_scanned": false
+    },
+    {
+      "root": "/Users/loctek/Documents/Codex/2026-10-09/task-4/github_material_inventory_20261009/amp_scoped_materials",
+      "git_present": false,
+      "history_scanned": false
+    }
+  ],
+  "history_limit": "Only available snapshots/version package content searched; no commit traversal because neither explicit root contains .git. No remote/undownloaded contents accessed.",
+  "backup_status": "BACKUP_BLOCKED"
+}

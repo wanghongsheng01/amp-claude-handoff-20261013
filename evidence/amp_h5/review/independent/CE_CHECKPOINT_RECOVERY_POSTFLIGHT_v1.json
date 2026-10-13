@@ -1,0 +1,310 @@
+{
+  "created_utc": "2026-10-11T18:11:15.006874+00:00",
+  "status": "PASS",
+  "scope": "RECOVERY_ENGINEERING_ONLY",
+  "generation_attempt_id": "ce_checkpoint_recovery_v1",
+  "generation_attempt_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1",
+  "training_source_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+  "original_v2_engineering_gate": "NOT_EVALUABLE_INTERRUPTION",
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD",
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/config.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "bytes": 2541
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+      "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49",
+      "bytes": 19017
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57",
+      "bytes": 2135
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_AMD.npz",
+      "sha256": "0cbca87531c7fe2b4d78cb8612fbb52f449bc7b4035473b2f395b6b842de483a",
+      "bytes": 202058
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_FREE.npz",
+      "sha256": "52dc62ca656b230db65a2d47af7b151cdeeba7fc406379873d4a46f7dc3606f4",
+      "bytes": 201931
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz",
+      "sha256": "fd987de8fec498386f414b3c64db0512f916253d4f294152c97a095eb6d30722",
+      "bytes": 93014
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+      "sha256": "f7899543f330e1fed829e592269c09c9b747e45abbffe2ec251f3e69c37fae0d",
+      "bytes": 92852
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_summary_AMD.json",
+      "sha256": "08c90bf0b384b549fcb5fb369eda64b551252a78a2bc62133518dac1daa5d380",
+      "bytes": 1075
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_summary_FREE.json",
+      "sha256": "2d3f9848d0dc6f9b0b2c2ad030db3ae04df79e5a6ce34b5610f5b0040d162be0",
+      "bytes": 1079
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generation_progress.jsonl",
+      "sha256": "a484e49899fbd0eba8af9147c122d5c2e9175158e9258fd17e0d8becbcf3fbb8",
+      "bytes": 1510
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generation_summary.json",
+      "sha256": "bc5c1919ec5868462cd1195e7f5a74071d57db6f46b4f5fd3e2a9094ad6b6128",
+      "bytes": 224
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/input_integrity_after.json",
+      "sha256": "055fc2bef3746a6f39b9c6061c205a62f770f00ada113dc170793af1f79c34fc",
+      "bytes": 49
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/loaded_state_identity.json",
+      "sha256": "fa6c248213a8b1bf1ad2bead2a03e791491d2f70d25be9d2913392619fbf2123",
+      "bytes": 391
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/model_identity_after.json",
+      "sha256": "bc476d433aaed0ae3870317c14cd9f2bbd6e238ff9a81cb1a8eb0e8a99806f2c",
+      "bytes": 629
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/phase_provenance.json",
+      "sha256": "f62780024a12709c5b872a6c0d52039c86a2eb9d2d6981e2b1b767a760faa676",
+      "bytes": 1730
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/recovery_contract.json",
+      "sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00",
+      "bytes": 15792
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/restored_scaler_identity.json",
+      "sha256": "4bb093dc1ea42adf1d08a18d36ee162ddef6422de8eee6e3733b8b88405ebca0",
+      "bytes": 232
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1",
+      "bytes": 24995
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/status.json",
+      "sha256": "41d71b8d183cc2869cdd8c77dbdd9d5d5d864340b6246a63647ac5d79455dbc5",
+      "bytes": 1972
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+      "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020",
+      "bytes": 128631
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/manifest.json",
+      "sha256": "c9dc68bb44d0677d92f1d7aca6a8b88d8ac971b6e7c5d177221f7ad35e60f6cc",
+      "bytes": 3189
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+      "bytes": 6800314
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.pt",
+      "sha256": "e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1",
+      "bytes": 74515981
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490",
+      "bytes": 421
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.json",
+      "sha256": "97f3db5bf0286af52f05cf46291cc3b1f2ce290cfda451d0e0fe77dbe980e0ac",
+      "bytes": 611
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a",
+      "bytes": 1315674
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "bytes": 3279
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_TERMINAL_AUDIT_v1.json",
+      "sha256": "40086bfd2624a18340a4eb6b8a1a6e817ae9769076be79a9f7fbf5d9eba437fa",
+      "bytes": 26639
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_SCALE_DETAIL_v1.json",
+      "sha256": "80b38d9b692be1807e1506c0637c0319b7d9c5d0ccabbfbfe38b87f63ab84ff8",
+      "bytes": 16604
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_V2_INTERRUPTION_FORENSIC_v2.json",
+      "sha256": "af7ded6832371e2365801f7c5adfb9e3bc978bd151c822087a05480ab4f7fcfa",
+      "bytes": 15436
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_AMENDMENT_v1.zh.md",
+      "sha256": "e4a02fff5ba2fa73f020fbbc3db52675062801c357b7e471d7ec7c2789125a06",
+      "bytes": 4150
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_PLAN_v1.json",
+      "sha256": "3e66ffa415dc759e396d25d4ff9c445c7c855fb0e48aaf96b834d6da1b1ae1e4",
+      "bytes": 6928
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_CONTRACT_v1.json",
+      "sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00",
+      "bytes": 15792
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_PREFLIGHT_RECEIPT_v1.json",
+      "sha256": "0e9e4d79e34a7e56dee012a0716c240fc63e6b6dcb7492a5c28ad4274b1f3e56",
+      "bytes": 10931
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_execution_v1/SUPERVISOR_STATUS.json",
+      "sha256": "5c78608b0268502dc718168029bbb179de61a0e83a1f8daa043819c15c848858",
+      "bytes": 1294
+    }
+  ],
+  "independent_audit": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_TERMINAL_AUDIT_v1.json",
+    "sha256": "40086bfd2624a18340a4eb6b8a1a6e817ae9769076be79a9f7fbf5d9eba437fa",
+    "checks_passed": 41,
+    "failed_checks": []
+  },
+  "scale_detail": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_SCALE_DETAIL_v1.json",
+    "sha256": "80b38d9b692be1807e1506c0637c0319b7d9c5d0ccabbfbfe38b87f63ab84ff8"
+  },
+  "execution_facts": {
+    "original_training_updates": {
+      "VAE": 1000,
+      "DDPM": 1000
+    },
+    "new_training_updates": 0,
+    "generation_requested": 32,
+    "generation_completed": 32,
+    "slot_status_counts": {
+      "ok": 31,
+      "no_eos_at_limit": 1
+    },
+    "generation_failures": 0,
+    "not_executed": 0,
+    "original25_files_unchanged": true,
+    "loaded_and_final_model_states_match": true,
+    "reparameterization_from_same_seeds_bitwise": true,
+    "J_decode_from_raw_exact": true,
+    "generation_numerical_arrays_finite": true,
+    "all_sigma_strictly_positive": true,
+    "train_dev_exports": {
+      "train": 279,
+      "development": 41
+    },
+    "test37_read": false
+  },
+  "scale_assessment": {
+    "decision": "OBSERVED_RECOVERY_NUMERICALLY_FEASIBLE_WITH_DISTRIBUTIONAL_TAIL_MISMATCH_DISCLOSED",
+    "basis": "All32 fixed chains reached their endpoint without clipping, retries, nonfinite values or nonpositive sigma. Seed-based final reparameterization and raw J decode match saved arrays. Sigma and latent scales remain numerically tractable for the actual decoder; this finite engineering finding does not establish posterior distribution agreement.",
+    "FREE": {
+      "generated_sigma_range": [
+        0.6227036714553833,
+        1.6083053350448608
+      ],
+      "train_sigma_range": [
+        0.7715493440628052,
+        1.2541402578353882
+      ],
+      "generated_z_rms": 1.4995671713884842,
+      "train_analytic_qz_rms": 1.596321881030395,
+      "ratio": 0.9393889723672412
+    },
+    "AMD": {
+      "generated_sigma_range": [
+        0.11082616448402405,
+        5.437218189239502
+      ],
+      "train_sigma_range": [
+        0.7842644453048706,
+        1.2480173110961914
+      ],
+      "generated_mu_range": [
+        -10.114991188049316,
+        6.258078098297119
+      ],
+      "train_mu_range": [
+        -4.4912109375,
+        5.389507293701172
+      ],
+      "generated_z_rms": 1.7052005226282765,
+      "train_analytic_qz_rms": 1.5701311990954532,
+      "ratio": 1.0860242275362952,
+      "generated_logs_std_ratio_to_train": 5.485363099152415,
+      "largest_request_z_rms": 3.1458233919571894,
+      "tail_warning": "AMIDATED generated posterior is broader and mean-shifted relative to its training cache; one request has z RMS3.1458. Retain this observed mismatch. It is not evidence of fitted latent distribution, generalization or AMP activity."
+    },
+    "threshold_policy": "No new numerical tolerance, sample deletion, quality threshold, checkpoint choice or seed was introduced after seeing results. This judgment uses the predeclared engineering finite/positive-scale/complete/cap rules with descriptive scale review.",
+    "uncertainty": "One fitted CE model, one fixed16-request batch per terminal; latent coordinates are dependent, not thousands of independent samples. This does not certify another arm or unseen seeds."
+  },
+  "costs": {
+    "original_training_stage_subtotal": 1743.3780911662616,
+    "original_generation_lower_bound": 451.9357427917421,
+    "original_exact_total": null,
+    "recovery_setup": 1.3591534583829343,
+    "recovery_generation": 1115.4961699172854,
+    "recovery_export": 6.814929542131722,
+    "recovery_process_before_final_io": 1123.995185916312,
+    "recovery_supervisor_outer": 1124.2520439173095,
+    "additional_cost_separate": true
+  },
+  "protocol_deviation_preserved": "Original no-retry rule was departed from by this additional generation attempt; original partialFREE cost and unknown total remain. Original E/L/G are never backfilled.",
+  "next_stage_judgment": {
+    "next_frozen_MSE_plan_eligible_on_engineering_only": true,
+    "MSE_execution_authorized_by_this_postflight": false,
+    "scalar_execution_authorized": false,
+    "allowed_preparation": "A separate hash-bound serial plan for the already frozen raw_onehot_mse v2 configuration may now be prepared and independently reviewed. Keep original weights initialization, seeds, losses, budgets and all outcomes; no quality-based adjustment.",
+    "basis_excludes": [
+      "reconstruction accuracy",
+      "length validity rates",
+      "uniqueness",
+      "MMD",
+      "JS",
+      "copy rate",
+      "sequence biology"
+    ],
+    "remaining_required": "Exact new MSE plan and execution receipt plus fresh load/process check; any model failure must remain a result. Scalar needs its own later decision/receipt."
+  },
+  "reviewer_actions": {
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "new_generation_requests": 0,
+    "model_checkpoint_deserializations_this_postflight": 0,
+    "actions": "Read immutable saved arrays/reports, hash files, parse two exact-bound cohort CSVs for row identity; reproduce local random draws and perform tensor arithmetic only."
+  },
+  "limits": [
+    "Postflight is engineering-only; original E/L/G remain NOT_EVALUABLE and PROMOTE remains HOLD.",
+    "No goodness-of-fit, significance, robustness or strongest-baseline claim. AR adequacy remains NOT_ESTABLISHED.",
+    "Source/output audit is not OS syscall tracing; sealed test37 remains unread.",
+    "Frozen evaluator quality scores were not recomputed or used in this decision."
+  ]
+}

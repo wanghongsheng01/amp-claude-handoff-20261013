@@ -1,0 +1,202 @@
+{
+  "schema": "AMP_H5_DIRECT_Z_IMPLEMENTATION_CONFIG_V1",
+  "implementation_author": "/root/ar_v3_implementation",
+  "plan_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/MINIMAL_PLAN_v2.json",
+  "plan_sha256": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8",
+  "status": "CANDIDATE_REQUIRES_INDEPENDENT_ENGINEERING",
+  "python_executable": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+  "torch_version": "2.2.2",
+  "inputs": {
+    "train": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "development": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+    "posterior279": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+    "A_posterior320": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/posterior_parameters320.npz",
+    "A_core": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/core.py",
+    "A_checkpoint": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/A/final.pt",
+    "C_checkpoint_provenance_only": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/C/final.pt",
+    "uniform_bank": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/RANDOM_BANKS.npz",
+    "historical_slots": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/GENERATION_SLOTS.json",
+    "C_generation_evidence": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/C_generation.npz"
+  },
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/diff.py",
+      "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a",
+      "bytes": 1315674
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_training_summary.json",
+      "sha256": "74755fd716e27fd37f4cb13334689df3cff80f17c75d4d7d2bc0dc9e083c09d9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generation_summary.json",
+      "sha256": "bc5c1919ec5868462cd1195e7f5a74071d57db6f46b4f5fd3e2a9094ad6b6128"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/A/final.pt",
+      "sha256": "b1e360887374c6a0d5daf3a1ae1695b42ceab4a6483c8a3872bed4f9adf0e4f9",
+      "bytes": 821396
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/C/final.pt",
+      "sha256": "da3d364a295161e31320d3a4b4f9bc9ab8dc11a160aa0ec9696abe8f0f2f9114",
+      "bytes": 772244
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/RANDOM_BANKS.npz",
+      "sha256": "41203d7edd79ba04c88f908aba9921c218706d3ea9b28ddd72bef797db66bcac",
+      "bytes": 2289580
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/GENERATION_SLOTS.json",
+      "sha256": "5c647c49e8b7702ac87cfc082f3aea97d4b76fc3dd96bf8b5fb26f5ab7ffcf5a",
+      "bytes": 51835
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/scoring.py",
+      "sha256": "e0e0563bb8c17f5aa272f44b32daec0a2e467b9bd3f3a0e6e075c63b4d2295af"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/core.py",
+      "sha256": "18b8fe1589bb3bda66a3eaa091a9a59dc1420db8da255ee1373ae369ea7cac2a",
+      "bytes": 8468
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/CANDIDATE_CONFIG.json",
+      "sha256": "419b283b8b08b745be0e5aad21b1ca2e164255489403c7a96ca85fdb255e4d5c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "bytes": 64083
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "bytes": 9489
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/posterior_parameters320.npz",
+      "sha256": "8d13fbc8da1143cfba63da5b3eb2a3ee6964c5af412041ce1685107290abbd7a",
+      "bytes": 1508840
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/evaluation/C_generation.npz",
+      "sha256": "4c740ad782292d6d2ab42b2a98b67a39ad4409ba5ca4d0eefee24ed6e4208b11",
+      "bytes": 298479
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/MINIMAL_PLAN_v2.json",
+      "sha256": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8",
+      "bytes": 15805
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+      "sha256": "d67ff65d8cbe8e6f40d5e7bcf8d9978e935d571907316c5ce6670181951db324",
+      "bytes": 52640
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/pyvenv.cfg",
+      "sha256": "72d71d05e7b320b08e2e382daa31f7c54b24bab9e2ecba30128fa0329dc97a7d",
+      "bytes": 139
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/lib/python3.12/site-packages/torch/version.py",
+      "sha256": "9b258fdce517e843ad179ec28528168dca639aedb6f636b76b79e4f8995f2248",
+      "bytes": 240
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/lib/python3.12/site-packages/torch/optim/adamw.py",
+      "sha256": "520ecdefab1cf3c639e25a43402313da01c84be774c701ff48de783069b6d968",
+      "bytes": 28266
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/lib/python3.12/site-packages/torch/optim/lr_scheduler.py",
+      "sha256": "094871b05b83f57fdecad4722b212c48ff1caf47a806629249b268744b90f70b",
+      "bytes": 77187
+    }
+  ],
+  "limits": {
+    "total_compute_job_outer_seconds": 4800,
+    "meaning": "所有新计算作业外层wall之和的硬上限；人工阅读/编写及等待回执不作计算wall，不填0。CPU单线程串行；启动前查H5进程并持锁。",
+    "independent_engineering_outer": 180,
+    "natural_supervisor_outer": 4560,
+    "natural_phase_caps": {
+      "prepare": 60,
+      "R_training": 720,
+      "Z_training": 720,
+      "R_generation": 1440,
+      "Z_generation": 1440,
+      "decode_score": 120,
+      "closure": 60
+    },
+    "independent_saved_output_audit_outer": 60,
+    "natural_updates_total": 2000,
+    "natural_denoiser_train_forward": 2000,
+    "natural_denoiser_generation_forward": 3992,
+    "A_decoder_step_forward_max": 98,
+    "total_natural_forward_max": 6090,
+    "new_encoder_or_old_DDPM_or_C_forward": 0,
+    "configuration_count": 1,
+    "training_seed_count": 1,
+    "natural_attempts": 1,
+    "retries": 0,
+    "historical_throughput_basis": "原同主干r DDPM1000步含编码/保存564.346s；32条完整998步生成1115.496s。新目标/负载吞吐未知，必须先经合成准入；不是保证。",
+    "failure_policy": "阶段或总cap超限即STOP_RESOURCE；保留部分/失败/未执行，不减步救场、不续跑、不扩cap、不改变lr。"
+  },
+  "seeds": {
+    "updates_each": 1000,
+    "batch_size": 8,
+    "sampling": "同一279行随机循环，无放回一轮；尾batch7保留；1000步共7972对象曝光/臂",
+    "batches_seed": 322,
+    "initialization_seed": 322,
+    "timestep_seed": 3322,
+    "diffusion_noise_seed": 4322,
+    "label_dropout_seed": 5322,
+    "posterior_epsilon_seed_Z": 6322,
+    "generation_noise_seeds": {
+      "FREE": 7422,
+      "AMD": 7423
+    },
+    "R_final_reparam_epsilon_seeds": {
+      "FREE": 8422,
+      "AMD": 8423
+    },
+    "token_uniform": "精确复用ARv3 RANDOM_BANKS.npz中uniforms：FREE3422/AMD3423；不重新挑样本",
+    "separate_generators": "每一用途独立CPU torch Generator；禁止依赖全局交错消费次序",
+    "training_coupling": "每步共享row_ids、t和整batch10%label dropout事件。R扩散噪声[B,2,16,48]；Z共享其首通道，R第二通道有独立元素。Z每次对象曝光重新以mu+exp(logsigma)*epsilon抽样，R目标r固定；该随机性差异明报，不能当作更多独立训练对象。R不人为抽取无用途epsilon。",
+    "generation_coupling": "每端16条，R初始/每reverse步2通道噪声，Z共享首通道；R最终重参数化epsilon独立。相同seed不称同一latent样本配对；两臂token uniforms同slot同位置。",
+    "seal": "在自然forward前封存私有generator初终态、1000批次/时刻/dropout及q-epsilon和逐reverse噪声hash；保存允许重放所需seed/版本/消费规范，不按输出修改。"
+  },
+  "optimization": {
+    "optimizer": "AdamW",
+    "lr_max": 0.005,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-05,
+    "weight_decay": 0.01,
+    "gradient_clip": null,
+    "loss": "mean squared epsilon prediction error acrossbatch andall C*16*48 elements；期望单位噪声MSE为1；不得用总和使R多一倍权重",
+    "schedule": "OneCycleLR total_steps1000,pct_start0.3,anneal_strategy=cos,cycle_momentum=True,base_momentum0.85,max_momentum0.95,div_factor25,final_div_factor10000,three_phase=False,last_epoch=-1；固定torch版本并hash完整序列",
+    "checkpoint": "只用最终1000步；不早停挑点；继承原EMA语义：2000步前均复制，因此本次所谓EMA等于最终当前模型，无额外EMA收益",
+    "monitoring": "记录每步loss/grad有限性/参数有限性及固定100,200,...1000训练摘要，不用dev选checkpoint；R/Z损失大小不跨目标作质量排名"
+  },
+  "generation_terminal_condition_only": true,
+  "no_new_encoder_old_DDPM_C_calls": true,
+  "test37": "NEVER_OPEN",
+  "BACKUP": "BACKUP_BLOCKED"
+}

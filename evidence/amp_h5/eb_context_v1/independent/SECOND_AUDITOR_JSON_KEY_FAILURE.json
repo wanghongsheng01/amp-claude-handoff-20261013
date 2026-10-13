@@ -1,0 +1,171 @@
+{
+  "status": "AUDIT_BLOCKED",
+  "no_training": true,
+  "no_sampling": true,
+  "original_split_reads": false,
+  "checks": [
+    "freeze and independent preflight bindings unchanged",
+    "snapshot identities, split isolation, grouping coverage and edge isolation",
+    "fold 0 frozen models independently forward-scored; EB fit identities/root counts conserved",
+    "fold 1 frozen models independently forward-scored; EB fit identities/root counts conserved",
+    "fold 2 frozen models independently forward-scored; EB fit identities/root counts conserved",
+    "all 45 train-CV configurations independently aggregated; selected grid minima/ties reproduced",
+    "all six dev predictive models independently forward-scored, including full BOS/EOS/cap48",
+    "384 raw attempts, full per-terminal degeneration/copy guards, stop decision reproduced"
+  ],
+  "elapsed_seconds": 17.762688625138253,
+  "cv_checkpoints_recomputed": 135,
+  "selected_cv_balanced_nll": {
+    "pooled": 51.122407442643095,
+    "separate": 51.29898008968816,
+    "partial": 51.238902322568386,
+    "ngram": 51.569839182671686,
+    "ar_cv": 49.870260504990064
+  },
+  "development_summary": {
+    "ar_cv": {
+      "by_terminal": {
+        "FREE": {
+          "n": 18,
+          "sequence_nll": 51.7520153787401,
+          "token_nll": 2.6768283816589706,
+          "aa_nll": 883.1058387756348,
+          "eos_nll": 48.43043804168701
+        },
+        "AMD": {
+          "n": 23,
+          "sequence_nll": 44.33402705192566,
+          "token_nll": 2.5880269598839853,
+          "aa_nll": 986.1723553538322,
+          "eos_nll": 33.510266840457916
+        }
+      },
+      "equal_terminal_sequence_nll": 48.04302121533288
+    },
+    "ar_historical": {
+      "by_terminal": {
+        "FREE": {
+          "n": 18,
+          "sequence_nll": 62.89840799321731,
+          "token_nll": 3.2533659306836538,
+          "aa_nll": 1050.4109067320824,
+          "eos_nll": 81.7604371458292
+        },
+        "AMD": {
+          "n": 23,
+          "sequence_nll": 53.035424524999186,
+          "token_nll": 3.0959765585659422,
+          "aa_nll": 1174.1638283059,
+          "eos_nll": 45.650935769081116
+        }
+      },
+      "equal_terminal_sequence_nll": 57.966916259108245
+    },
+    "ngram": {
+      "by_terminal": {
+        "FREE": {
+          "n": 18,
+          "sequence_nll": 53.460590059564254,
+          "token_nll": 2.7652029341153925,
+          "aa_nll": 907.2454429975556,
+          "eos_nll": 55.045178074600926
+        },
+        "AMD": {
+          "n": 23,
+          "sequence_nll": 45.48733819928003,
+          "token_nll": 2.6553522299072103,
+          "aa_nll": 988.1265665649204,
+          "eos_nll": 58.08221201852037
+        }
+      },
+      "equal_terminal_sequence_nll": 49.47396412942214
+    },
+    "partial": {
+      "by_terminal": {
+        "FREE": {
+          "n": 18,
+          "sequence_nll": 53.002010637946626,
+          "token_nll": 2.741483308859308,
+          "aa_nll": 900.5724288118628,
+          "eos_nll": 53.463762671176525
+        },
+        "AMD": {
+          "n": 23,
+          "sequence_nll": 45.32660659504384,
+          "token_nll": 2.645969420522864,
+          "aa_nll": 981.1222224048793,
+          "eos_nll": 61.38972928112929
+        }
+      },
+      "equal_terminal_sequence_nll": 49.164308616495234
+    },
+    "pooled": {
+      "by_terminal": {
+        "FREE": {
+          "n": 18,
+          "sequence_nll": 53.059075253996255,
+          "token_nll": 2.7444349269308406,
+          "aa_nll": 904.5740297975127,
+          "eos_nll": 50.48932477441983
+        },
+        "AMD": {
+          "n": 23,
+          "sequence_nll": 44.115131397415716,
+          "token_nll": 2.5752487871587855,
+          "aa_nll": 950.9293769740451,
+          "eos_nll": 63.71864516651637
+        }
+      },
+      "equal_terminal_sequence_nll": 48.58710332570598
+    },
+    "separate": {
+      "by_terminal": {
+        "FREE": {
+          "n": 18,
+          "sequence_nll": 52.93870267851116,
+          "token_nll": 2.738208759233336,
+          "aa_nll": 897.6679538562149,
+          "eos_nll": 55.22869435698602
+        },
+        "AMD": {
+          "n": 23,
+          "sequence_nll": 44.89673534627117,
+          "token_nll": 2.6208754136148147,
+          "aa_nll": 970.7619310908548,
+          "eos_nll": 61.862981873382225
+        }
+      },
+      "equal_terminal_sequence_nll": 48.91771901239117
+    }
+  },
+  "recomputed_decision": "NOT_SUPPORTED",
+  "recomputed_failure_reasons": [
+    "grouped_train_cv: partial does not improve balanced sequence NLL over pooled",
+    "grouped_train_cv: partial worsens FREE sequence NLL versus pooled",
+    "grouped_train_cv: partial worsens AMD sequence NLL versus pooled",
+    "grouped_train_cv: partial worsens AMD sequence NLL versus separate",
+    "grouped_train_cv: partial does not improve balanced sequence NLL over ar_cv",
+    "grouped_train_cv: partial worsens FREE sequence NLL versus ar_cv",
+    "grouped_train_cv: partial worsens AMD sequence NLL versus ar_cv",
+    "development: partial does not improve balanced sequence NLL over ar_cv",
+    "development: partial worsens FREE sequence NLL versus ar_cv",
+    "development: partial worsens AMD sequence NLL versus ar_cv",
+    "development: partial does not improve balanced sequence NLL over pooled",
+    "development: partial worsens AMD sequence NLL versus pooled",
+    "development: partial does not improve balanced sequence NLL over separate",
+    "development: partial worsens FREE sequence NLL versus separate",
+    "development: partial worsens AMD sequence NLL versus separate",
+    "generation: partial AMD short_below5 exceeds pooled",
+    "generation: partial FREE short_below5 exceeds ar_cv",
+    "generation: partial FREE cap48 exceeds ar_cv",
+    "generation: partial AMD short_below5 exceeds ar_cv",
+    "generation: partial FREE short_below5 exceeds ar_historical",
+    "generation: partial FREE cap48 exceeds ar_historical",
+    "generation: partial AMD short_below5 exceeds ar_historical"
+  ],
+  "error": {
+    "type": "AssertionError",
+    "message": "(dict_keys([3, 5, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 24]), dict_keys(['3', '5', '7', '9', '10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '24']))",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 244, in main\n    recursive_compare(metrics['groups'],original['groups']);recursive_compare(metrics['references_by_terminal'],original['references_by_terminal'])\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 38, in recursive_compare\n    for x,y in zip(a,b): recursive_compare(x,y)\n                         ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 35, in recursive_compare\n    for k in a: recursive_compare(a[k],b[k])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 35, in recursive_compare\n    for k in a: recursive_compare(a[k],b[k])\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/audit_saved_outputs.py\", line 34, in recursive_compare\n    assert a.keys()==b.keys(),(a.keys(),b.keys())\n           ^^^^^^^^^^^^^^^^^^\nAssertionError: (dict_keys([3, 5, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 24]), dict_keys(['3', '5', '7', '9', '10', '11', '12', '13', '14', '16', '17', '18', '19', '20', '21', '24']))\n"
+  }
+}

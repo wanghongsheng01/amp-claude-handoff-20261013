@@ -1,0 +1,298 @@
+{
+  "schema": "AMP_H5_NATIVE_BASELINE_INDEPENDENT_PREAUDIT_V1",
+  "status": "PASS",
+  "reviewer": "/root/native_baseline_engineering_audit",
+  "utc": "2026-10-12T09:16:04.694145+00:00",
+  "freeze_sha256": "cde69c299c9dd06f46f69dbe800c43c58e16b14016b64fa3bed150b9e11f2161",
+  "checks": [
+    {
+      "name": "DATA_exact_original_rows_and_metadata",
+      "pass": true
+    },
+    {
+      "name": "independent82_input_checks_pass",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_groups",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G102_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G102_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G102_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G1737_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G1737_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G1737_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G2425_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G2425_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G2425_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3086_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3086_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3086_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3198_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3198_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3198_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3224_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3224_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G3224_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G37_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G37_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G37_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G4013_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G4013_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G4013_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G5545_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G5545_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G5545_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G873_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G873_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_G873_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_OOF_once",
+      "pass": true
+    },
+    {
+      "name": "uM_native_groups",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G102_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G102_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G102_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G103_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G103_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G103_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G2396_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G2396_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G2396_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3232_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3232_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3232_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3301_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3301_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G3301_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G37_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G37_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G37_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G873_exact_partition",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G873_train_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_G873_validation_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_OOF_once",
+      "pass": true
+    },
+    {
+      "name": "model_exact_previously_audited",
+      "pass": true
+    },
+    {
+      "name": "synthetic15_pass_bound_runner",
+      "pass": true
+    },
+    {
+      "name": "seed1729_fixed",
+      "pass": true
+    },
+    {
+      "name": "epochs100_no_adaptive_endpoint",
+      "pass": true
+    },
+    {
+      "name": "ridge_alpha1_sumweights1_fixed",
+      "pass": true
+    },
+    {
+      "name": "CPU_one_and_600s",
+      "pass": true
+    },
+    {
+      "name": "train_center_explicit_protocol",
+      "pass": true
+    },
+    {
+      "name": "local_hashes_match",
+      "pass": true
+    },
+    {
+      "name": "source_hashes_match",
+      "pass": true
+    },
+    {
+      "name": "run_not_started",
+      "pass": true
+    }
+  ],
+  "static_review": [
+    "Runner fit uses training-only hierarchical weights/label center/ridge standardization. CNN heldout features called only after 100 updates; no validation endpoint selection.",
+    "Metrics use equal source groups, equal peptides within groups, equal records within peptide; RMSE square root taken after weighted MSE. Row and peptide sensitivity separately reported.",
+    "Observed source/family group partition inherited from full cached collection; no unit-specific regrouping. No original protected data path is loaded.",
+    "CPU-only, thread env before numpy/torch imports, alarm600s, RSS check1.5GB, serial models, single run directory, failed/partial retention.",
+    "KerasStyleAdam uses verified default optimizer arguments matching frozen protocol. Model exact byte copy of previously audited183069-param architecture."
+  ],
+  "limitations": [
+    "Tiny pre-exposed developmental cache,17operational grouped folds, no untouched validation or certified biological independence.",
+    "CNN full-batch centered-target100update adaptation is not author protocol/performance replication. A fixed negative result cannot establish absence of model signal.",
+    "No model execution by independent auditor; static engineering review plus independent data/math verification only."
+  ],
+  "reviewed_sha256": {
+    "PROTOCOL.json": "4e81c46c58af3f0468ae4e746d8f762803495a9d2fae8e49499d3042d21ed6f4",
+    "run.py": "43f22d9376203f94a089f7ac6a8e11b4a6f82f0d524461f92811902b43f28d72",
+    "model.py": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+    "DATA.jsonl": "dd07aef8b63b9318a87a94db8f69f7ddf128ee6f87f18a841a4b8d1022d19184",
+    "FOLDS.json": "0e658eb985fa8ffbf762c7d60940f52617a937af12fc109492cd4fcceca9f593",
+    "ENGINEERING_TESTS.json": "0a1d719045bd94406bcdd5a6c0e8431e5f07a87f244f11f535d14ae506a7fc91",
+    "FREEZE.json": "cde69c299c9dd06f46f69dbe800c43c58e16b14016b64fa3bed150b9e11f2161"
+  }
+}

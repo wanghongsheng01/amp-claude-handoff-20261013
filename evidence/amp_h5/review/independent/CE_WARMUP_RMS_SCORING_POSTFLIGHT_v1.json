@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "blocked": false,
+  "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+  "checks": [
+    {
+      "name": "score_terminal_exit_and_caps",
+      "passed": true
+    },
+    {
+      "name": "score_authority_and_sources",
+      "passed": true
+    },
+    {
+      "name": "score320refs2880predictions_complete",
+      "passed": true
+    },
+    {
+      "name": "all2880_sequence_edit_length_and_saved_property_deltas",
+      "passed": true
+    },
+    {
+      "name": "exact_fraction_primary_gate_full41x8",
+      "passed": true
+    },
+    {
+      "name": "all60_stratified_groups_macro_support_counts_and_core_means",
+      "passed": true
+    },
+    {
+      "name": "exact_output_scope_closing_and_authority",
+      "passed": true
+    },
+    {
+      "name": "model_actual_pass_scope_contract_manifest",
+      "passed": true
+    },
+    {
+      "name": "fixed_source_bindings_and_model_csv_identity",
+      "passed": true
+    },
+    {
+      "name": "all_consumed_inputs_unchanged",
+      "passed": true
+    }
+  ],
+  "model_calls": 0,
+  "new_RNG_calls": 0,
+  "new_RDKit_calls": 0,
+  "test_reads": 0,
+  "original_CE_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD",
+  "primary_gate": {
+    "status": "EVALUABLE",
+    "threshold": 0.05,
+    "n_dev_sequences": 41,
+    "posterior_draws": 8,
+    "M_sequence_equal_accuracy": 0.6578523604648727,
+    "S8_sequence_equal_accuracy": 0.5890993500883396,
+    "M_minus_S8": 0.06875301037653318,
+    "crosses_investment_threshold": true,
+    "all320x9_complete_finite": true,
+    "meaning": "Prespecified investment screen only; not significance, causal proof, independent repeats or training authorization.",
+    "descriptor_missing_affects_this_gate": false,
+    "difference_exact_fraction": {
+      "numerator": 194238977263,
+      "denominator": 2825170508160
+    },
+    "comparison_rule": "Exact rational counts/target lengths; compare against1/20, no floating tolerance."
+  },
+  "candidate_metrics": {
+    "M_equal_sequence_accuracy": 0.6578523604648727,
+    "S8_equal_sequence_accuracy": 0.5890993500883396,
+    "M_length_MAE": 0.04878048780487805,
+    "S8_supported_AA_macro": 0.3108142811727528
+  },
+  "scoring_outer_seconds": 10.529740917030722,
+  "M_dev_micro": {
+    "correct": 456,
+    "target": 701
+  },
+  "RMS_descriptor_chemistry_review": "Original function/version bound and saved raw deltas checked; no independent additional RDKit calls.",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_execution_v1/RESULT.json",
+      "sha256": "baf2e3295220735ff2ec36e1fe5c076252f0928ce471973ba9d007d3df8b36b5",
+      "bytes": 3233
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/CLOSING_LEDGER.json",
+      "sha256": "fbd9220e170c92e2e6885db5d8466c842432cc9abc6e92262d133501e1d9cef4",
+      "bytes": 521
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/MANIFEST.json",
+      "sha256": "8e6dee3134502f08c33e4d5dd12a09dfd6afd3864397d3ce5c50493473305d96",
+      "bytes": 2439
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/STATUS.json",
+      "sha256": "9f87c75a67ab17546ad1519ed182559b13113c85d1db9dd31e0e0dd43031b802",
+      "bytes": 2367
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_WARMUP_RMS_RECONSTRUCTION_POSTFLIGHT_v1.json",
+      "sha256": "4e4e0ce7a1a8643d4cf7ee322bf46317dfafe934a193e33006812abb3cc2d0c4",
+      "bytes": 7513
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/reference_rows.csv",
+      "sha256": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3",
+      "bytes": 17182
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/reconstructions.csv",
+      "sha256": "89d873bc01a49305dfaa53806b566b290a16c785a444ef7bf2162980c1cafbd2",
+      "bytes": 899813
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/ROW_METRICS.jsonl",
+      "sha256": "3eb8e3384235919113d17603efdec0a05bcb74afffefa2ccc4a6b78934cceccd",
+      "bytes": 18447847
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/DESCRIPTOR_CACHE.jsonl",
+      "sha256": "397e94a8b6cc4e26163be5f527d3c1969c7deec5ee416b633599bc15d92628c9",
+      "bytes": 933540
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/INVESTMENT_SCREEN.json",
+      "sha256": "98f7de74e391bfe7a7cdc45cbc06f5219408bd4b7c785f09d73f5899b1495b5a",
+      "bytes": 703
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1/STRATIFIED_CORE_SUMMARIES.json",
+      "sha256": "777c36092272b6abf9fb51b8ec70c8e59d81aefe333c51c4f00d7e5a429273d1",
+      "bytes": 198289
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v3/SCORING_CONTRACT.json",
+      "sha256": "354d60ec279f9f5565a8370e4a11c11830ce367345eef4c8274ae2824feec8ff",
+      "bytes": 7728
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/audit_warmup_score_v1.py",
+      "sha256": "28ae2c5f76f4a20e8c074281381fef1ebd3ef1f5dbc92d3d7adc67874f00ef60",
+      "bytes": 11712
+    }
+  ],
+  "interpretation": "Scoring engineering verification only. The emitted M-minus-S investment screen is descriptive for this completed warmup candidate and is not its success gate. The separately frozen four paired guards decide resource success; no further training, DDPM or generation authorized.",
+  "descriptor_limit": "Saved original raw RDKit values and their deltas/missingness are checked; no independent new chemistry computation.",
+  "check_count": 10,
+  "numeric_values_compared": 2428507,
+  "audit_seconds_before_receipt_io": 2.499813875183463
+}

@@ -1,0 +1,1632 @@
+{
+  "status": "PASS_DATA_CLOSURE_WITH_UNRESOLVED_SEMANTIC_GATES",
+  "utc": "2026-10-12T15:44:53.249498+00:00",
+  "raw_responses_verified": 200,
+  "raw_id_monomer_hash_failures": 0,
+  "all_MIC": {
+    "rows": 1788,
+    "peptide_IDs": 165,
+    "exact_sequences": 158,
+    "families": 119,
+    "source_family_components": 53
+  },
+  "Ecoli_MIC": {
+    "rows": 318,
+    "peptide_IDs": 158,
+    "exact_sequences": 153,
+    "families": 115,
+    "source_family_components": 50
+  },
+  "formats_all_MIC": {
+    "range_unresolved": 215,
+    "point": 1203,
+    "right_bound": 336,
+    "plusminus_unresolved": 33,
+    "unresolved": 1
+  },
+  "formats_Ecoli_MIC": {
+    "range_unresolved": 44,
+    "point": 226,
+    "plusminus_unresolved": 5,
+    "right_bound": 43
+  },
+  "native_unit_groups": {
+    "ug_ml_native": {
+      "point": {
+        "rows": 103,
+        "peptide_IDs": 71,
+        "exact_sequences": 66,
+        "families": 49,
+        "source_family_components": 27
+      },
+      "one_sided_bound": {
+        "rows": 15,
+        "peptide_IDs": 15,
+        "exact_sequences": 15,
+        "families": 14,
+        "source_family_components": 6
+      }
+    },
+    "uM_native": {
+      "point": {
+        "rows": 88,
+        "peptide_IDs": 42,
+        "exact_sequences": 42,
+        "families": 28,
+        "source_family_components": 19
+      },
+      "one_sided_bound": {
+        "rows": 24,
+        "peptide_IDs": 18,
+        "exact_sequences": 18,
+        "families": 18,
+        "source_family_components": 10
+      }
+    }
+  },
+  "historical_stages": {
+    "136": {
+      "peptides": 136,
+      "MIC_rows": 1242,
+      "Ecoli_MIC_rows": 232,
+      "native": {
+        "ug_ml_native": {
+          "point": {
+            "rows": 79,
+            "peptide_IDs": 54,
+            "exact_sequences": 49,
+            "families": 32,
+            "source_family_components": 21
+          },
+          "one_sided_bound": {
+            "rows": 15,
+            "peptide_IDs": 15,
+            "exact_sequences": 15,
+            "families": 14,
+            "source_family_components": 6
+          }
+        },
+        "uM_native": {
+          "point": {
+            "rows": 68,
+            "peptide_IDs": 27,
+            "exact_sequences": 27,
+            "families": 18,
+            "source_family_components": 13
+          },
+          "one_sided_bound": {
+            "rows": 12,
+            "peptide_IDs": 8,
+            "exact_sequences": 8,
+            "families": 8,
+            "source_family_components": 5
+          }
+        }
+      }
+    },
+    "146": {
+      "peptides": 146,
+      "MIC_rows": 1278,
+      "Ecoli_MIC_rows": 240,
+      "native": {
+        "ug_ml_native": {
+          "point": {
+            "rows": 79,
+            "peptide_IDs": 54,
+            "exact_sequences": 49,
+            "families": 32,
+            "source_family_components": 21
+          },
+          "one_sided_bound": {
+            "rows": 15,
+            "peptide_IDs": 15,
+            "exact_sequences": 15,
+            "families": 14,
+            "source_family_components": 6
+          }
+        },
+        "uM_native": {
+          "point": {
+            "rows": 70,
+            "peptide_IDs": 29,
+            "exact_sequences": 29,
+            "families": 20,
+            "source_family_components": 14
+          },
+          "one_sided_bound": {
+            "rows": 13,
+            "peptide_IDs": 9,
+            "exact_sequences": 9,
+            "families": 9,
+            "source_family_components": 6
+          }
+        }
+      }
+    }
+  },
+  "increments_to_200": {
+    "136": {
+      "peptides_added": 64,
+      "MIC_rows_added": 546,
+      "Ecoli_MIC_rows_added": 86,
+      "native_rows_added": {
+        "ug_ml_native": {
+          "point": 24,
+          "one_sided_bound": 0
+        },
+        "uM_native": {
+          "point": 20,
+          "one_sided_bound": 12
+        }
+      },
+      "old_rows_preserved_except_recomputed_operational_groups": true
+    },
+    "146": {
+      "peptides_added": 54,
+      "MIC_rows_added": 510,
+      "Ecoli_MIC_rows_added": 78,
+      "native_rows_added": {
+        "ug_ml_native": {
+          "point": 24,
+          "one_sided_bound": 0
+        },
+        "uM_native": {
+          "point": 18,
+          "one_sided_bound": 11
+        }
+      },
+      "old_rows_preserved_except_recomputed_operational_groups": true
+    }
+  },
+  "unresolved_measurements": [
+    {
+      "peptide_id": 25752,
+      "activity_id": 204864,
+      "target": "Acinetobacter baumannii",
+      "reported_concentration": "8-16",
+      "unit": "µg/ml",
+      "note": "MDR clinical isolates 102,104,106,114",
+      "reference": "",
+      "sole_article_metadata_PMID": "41801219",
+      "mapping_status": "UNRESOLVED_DO_NOT_IMPUTE_REFERENCE_1",
+      "range_status": "SEMANTIC_NOT_VERIFIED_NOT_POINT_OR_ADMITTED_CENSOR",
+      "cached_original_fulltext_found": false
+    },
+    {
+      "peptide_id": 25758,
+      "activity_id": 204939,
+      "target": "Escherichia coli",
+      "reported_concentration": "16-32",
+      "unit": "µg/ml",
+      "note": "MDR clinical isolates 110,208,4119",
+      "reference": "",
+      "sole_article_metadata_PMID": "41801219",
+      "mapping_status": "UNRESOLVED_DO_NOT_IMPUTE_REFERENCE_1",
+      "range_status": "SEMANTIC_NOT_VERIFIED_NOT_POINT_OR_ADMITTED_CENSOR",
+      "cached_original_fulltext_found": false
+    }
+  ],
+  "cache_search_scope": "Targeted PMID41801219 filename/text search and local PDF inventory under amp_h5, excluding test-named paths. Only v7 database response/derived/index metadata matches; no original article fulltext found. No network search.",
+  "native_semantic_checks": "Reported point values remain points; strict/non-strict inequality operators retained; one-sided bounds not converted to point values; numeric ranges and plus/minus remain unresolved; original mass/molar units separate, no conversion. No model/chemistry engine execution.",
+  "admission": "NO_GO_UNCHANGED; source/condition/chemistry/contamination independence unverified, all execution_admitted false",
+  "limitations": [
+    "A sole article attached to a peptide is not evidence of the missing measurement-level reference.",
+    "Only one of the two missing-reference rows targets E.coli; both are unresolved ranges.",
+    "MIC rows are repeated measurements, not independent peptides. Distinct ID/sequence/family/source-component levels cannot be conflated.",
+    "Operational family/source components can change as records are added; count differences do not establish independent new biological information."
+  ],
+  "no_network_or_models": true,
+  "test37_accessed": false,
+  "old_directory_writes": false,
+  "raw_bindings": [
+    {
+      "peptide_id": "16",
+      "path": "dbaasp_bounded_v3/raw/detail_16.json",
+      "bytes": 15000,
+      "sha256": "db5704a2c5616da5b331cb387f543437f459c9b9e14f9f6cd31b05250c3826b7",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "36",
+      "path": "dbaasp_bounded_v3/raw/detail_36.json",
+      "bytes": 17063,
+      "sha256": "3f7316621c2f3c8a865837d7907a09c93b5a8cb19fd91cc83ff9761d0654d741",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "37",
+      "path": "dbaasp_bounded_v3/raw/detail_37.json",
+      "bytes": 46638,
+      "sha256": "f2c18c1426fc4171f0f18f52d736b841248f07582a0094f961ed9eff33a144d5",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "102",
+      "path": "dbaasp_bounded_v3/raw/detail_102.json",
+      "bytes": 17664,
+      "sha256": "7ffdfbdb87aba100f5218f93c30c9ca61e8c77c6457daa2dc2372c6b1ddb45fd",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "103",
+      "path": "dbaasp_bounded_v3/raw/detail_103.json",
+      "bytes": 5176,
+      "sha256": "add97b4245cfd34143dafb71fa8dccc326f206d5a947bd97a8c2c0b3daa80906",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "107",
+      "path": "dbaasp_bounded_v3/raw/detail_107.json",
+      "bytes": 11196,
+      "sha256": "54fee80453c8bb461b717222fcd9b796b740f29cdb2a0d9fbda0cec320c07a31",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "108",
+      "path": "dbaasp_bounded_v3/raw/detail_108.json",
+      "bytes": 11596,
+      "sha256": "468d74e4b91f33d6d79bf54d3d93ec08c2fc1c03ce26a80cb7302eb925cad4b2",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "109",
+      "path": "dbaasp_bounded_v3/raw/detail_109.json",
+      "bytes": 5203,
+      "sha256": "4dea53e35792ece6c48677dc25ba3b79eb752d2e408b20eb4017b488b6e4dbc9",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "110",
+      "path": "dbaasp_bounded_v3/raw/detail_110.json",
+      "bytes": 5218,
+      "sha256": "2f3ee1ce4eff2f0381a9f301d3735aa58477242b0d3364f3f4332461c53c0026",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "111",
+      "path": "dbaasp_bounded_v3/raw/detail_111.json",
+      "bytes": 5230,
+      "sha256": "08597799c16ba49e6af6f29549a89670fe5f454ff54f106d472ca6a998456898",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "873",
+      "path": "dbaasp_bounded_v3/raw/detail_873.json",
+      "bytes": 17916,
+      "sha256": "26f5c4a870300ccb3ef8e3b9cfbdba6b5c992ea9993f4b861067fbfc51da34d0",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "874",
+      "path": "dbaasp_bounded_v3/raw/detail_874.json",
+      "bytes": 18103,
+      "sha256": "61e752097c7c4c686a50566172014996c71ed0165fad27d44c3a4557b6dd96ae",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "875",
+      "path": "dbaasp_bounded_v3/raw/detail_875.json",
+      "bytes": 10183,
+      "sha256": "90ba69df1a488fd49d183a2fbba8931ea6fc9311fbb06131f45117d159924c49",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "876",
+      "path": "dbaasp_bounded_v3/raw/detail_876.json",
+      "bytes": 10153,
+      "sha256": "aa33e1acbc925eb81b0d590ea1a2b571a481fc3b808a35db12d9782aeb79ed5b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "877",
+      "path": "dbaasp_bounded_v3/raw/detail_877.json",
+      "bytes": 10065,
+      "sha256": "f5052570beaf944d385a1c7c44696a0246e074ba5ffdc45eaf1fb7ad4f9312d6",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "878",
+      "path": "dbaasp_bounded_v3/raw/detail_878.json",
+      "bytes": 11817,
+      "sha256": "cf2173fde25c85bb6e0dee03cecba87e3119860d5db8757c02281e77e3fdc225",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "879",
+      "path": "dbaasp_bounded_v3/raw/detail_879.json",
+      "bytes": 9892,
+      "sha256": "b084cec26b24ce9fbd893e8151674e6dbb2a96f71cf013bee711f40f68e64564",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "880",
+      "path": "dbaasp_bounded_v3/raw/detail_880.json",
+      "bytes": 9761,
+      "sha256": "fea2efadcddaf33929136f673d1490544f7eb8a34462496df5fa0e170494d0aa",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "881",
+      "path": "dbaasp_bounded_v3/raw/detail_881.json",
+      "bytes": 10265,
+      "sha256": "44455d28e84f156999eedcb4d7f5a0b1d6e1d8f3d771bfd4173e0763742ba7e9",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "882",
+      "path": "dbaasp_bounded_v3/raw/detail_882.json",
+      "bytes": 10161,
+      "sha256": "ba6181aa2d10eccde2858eeaf1be7a484117a2ef399fd5d10c5809eb75dfab70",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1666",
+      "path": "dbaasp_bounded_v3/raw/detail_1666.json",
+      "bytes": 8297,
+      "sha256": "f42446eb48fbb6e9b5502135b59e3ebb59d38d20e9942baf82e114118ac6a0de",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1681",
+      "path": "dbaasp_bounded_v3/raw/detail_1681.json",
+      "bytes": 6250,
+      "sha256": "6ba0d714aae3d4250c372674bb60bf8bba4505c27a4b6ef6088b355bdeb291eb",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1688",
+      "path": "dbaasp_bounded_v3/raw/detail_1688.json",
+      "bytes": 56262,
+      "sha256": "7529178c23f93646a4ad8086c810fa6ba4f8c3b34bdcf1488b20254126637334",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1689",
+      "path": "dbaasp_bounded_v3/raw/detail_1689.json",
+      "bytes": 19801,
+      "sha256": "1d34148331e08ed3ca6cfa9c9a514f0f513f20a9db352e557361a851d3db2ef0",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1716",
+      "path": "dbaasp_bounded_v3/raw/detail_1716.json",
+      "bytes": 18113,
+      "sha256": "6a2022658881743068b1ddaadb01f4cbda6d162f2e141ab3f05ee3daa239db32",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1737",
+      "path": "dbaasp_bounded_v3/raw/detail_1737.json",
+      "bytes": 30470,
+      "sha256": "2e57734923d61ed091bc41378077e5516e3d1caf543b7f4c061a626081f8574d",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1738",
+      "path": "dbaasp_bounded_v3/raw/detail_1738.json",
+      "bytes": 16757,
+      "sha256": "6985e1f20dc8b34e794a895f450fd0aecb3e33924d663c52337f8845544d0a3a",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1773",
+      "path": "dbaasp_bounded_v3/raw/detail_1773.json",
+      "bytes": 5642,
+      "sha256": "0e09ed0784a052c6931fef10c35f6c592abf2513b42c5dec74b797bde1a18ab6",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1783",
+      "path": "dbaasp_bounded_v3/raw/detail_1783.json",
+      "bytes": 24550,
+      "sha256": "87d5cbc147b0221a1e1950150c7b7ee2b2ace635786d06cca242cf31784a9b28",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "1821",
+      "path": "dbaasp_bounded_v3/raw/detail_1821.json",
+      "bytes": 10828,
+      "sha256": "36960a9154aff86cb36fbdda53edc23088babd1729f478d916d0040ab8e87a52",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2396",
+      "path": "dbaasp_bounded_v3/raw/detail_2396.json",
+      "bytes": 6017,
+      "sha256": "872c4f99e591a8a1e7bddf96ad4a1f6563b1889ec5538d8772c0532632e90a97",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2397",
+      "path": "dbaasp_bounded_v3/raw/detail_2397.json",
+      "bytes": 5877,
+      "sha256": "1e5a6bb52183b1a1c182a37706d71365898fe2a21487adc965a59206d2429b7f",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2398",
+      "path": "dbaasp_bounded_v3/raw/detail_2398.json",
+      "bytes": 17233,
+      "sha256": "e96004d2184f75dbbe808a67510f32a4a42a6767199da044646734c367e54d9c",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2399",
+      "path": "dbaasp_bounded_v3/raw/detail_2399.json",
+      "bytes": 5675,
+      "sha256": "cf3c092ccc44e1c365ff2418aaa47990d2da5c8b11cec923ea532ac471ebef82",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2400",
+      "path": "dbaasp_bounded_v3/raw/detail_2400.json",
+      "bytes": 5671,
+      "sha256": "0bbdc2b8fa3bfee61f8db7c26c1d30a0fb01493c604d8175c9e5baf8a3b61ea1",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2401",
+      "path": "dbaasp_bounded_v3/raw/detail_2401.json",
+      "bytes": 5668,
+      "sha256": "95f2e0a72c4431f24704f5ec2e02c18e9907c629993a04244599970fc91b189f",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2425",
+      "path": "dbaasp_bounded_v3/raw/detail_2425.json",
+      "bytes": 6113,
+      "sha256": "d86fe51a758aff1940caef7e5b469a67c1a8a03f0d01c028efac033ef0c66636",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2426",
+      "path": "dbaasp_bounded_v3/raw/detail_2426.json",
+      "bytes": 5555,
+      "sha256": "4d72c6deefa8abfd27594b5bb7eaf17f017e9ee40f8680e3bf10ce579da34772",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2427",
+      "path": "dbaasp_bounded_v3/raw/detail_2427.json",
+      "bytes": 6121,
+      "sha256": "cf108d795e0fadbd55c7020e67a97e5e0422c9fc886ab4ad74539e191caf4f1e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "2428",
+      "path": "dbaasp_bounded_v3/raw/detail_2428.json",
+      "bytes": 6015,
+      "sha256": "bee510baa37c2751edec7a6920ed6accadbc47816e6f6d1eaa47293bb649a3c6",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3086",
+      "path": "dbaasp_bounded_v3/raw/detail_3086.json",
+      "bytes": 8292,
+      "sha256": "3319f433d88435aa32f6ffb5d06c785ba885b3683b365be7e5fb8b7b5ec81094",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3087",
+      "path": "dbaasp_bounded_v3/raw/detail_3087.json",
+      "bytes": 8250,
+      "sha256": "bc82ea90e13c7f042f98425a073e07ac5f54c8922111e9dd2a563f7ef5cc0d19",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3088",
+      "path": "dbaasp_bounded_v3/raw/detail_3088.json",
+      "bytes": 8256,
+      "sha256": "d279d912fec38eeffe322878f42455192b7b0d865566d0fb230a59764d41551c",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3198",
+      "path": "dbaasp_bounded_v3/raw/detail_3198.json",
+      "bytes": 21674,
+      "sha256": "5c396d9e3fa2bbf3177258d5c8914904704bac0fe126dbfbe61e582448c4db3a",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3199",
+      "path": "dbaasp_bounded_v3/raw/detail_3199.json",
+      "bytes": 6077,
+      "sha256": "18292d7ae29bf23df2e4b7c8e681f2401d36477c5e5c53356376bd3201a0540e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3224",
+      "path": "dbaasp_bounded_v3/raw/detail_3224.json",
+      "bytes": 4926,
+      "sha256": "44b81674e8a695ac774bdaee04441225201fe7235e9881f6d1d75788d1a18a83",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3225",
+      "path": "dbaasp_bounded_v3/raw/detail_3225.json",
+      "bytes": 7429,
+      "sha256": "7360a5cedcdbe2c62af50ffc2ec4afe9e4bcd1d8a391e9c3625add932e22958e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3226",
+      "path": "dbaasp_bounded_v3/raw/detail_3226.json",
+      "bytes": 4983,
+      "sha256": "3e4638d5f257d9d402a7ed422230eb15888e4a9f6366652e9619079a952a6c8f",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3232",
+      "path": "dbaasp_bounded_v3/raw/detail_3232.json",
+      "bytes": 26804,
+      "sha256": "50a2b0a3a2e2f5a128e701fd69692f1ede8b2d3f312dbf44e8a918ed29b470b2",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "3301",
+      "path": "dbaasp_bounded_v3/raw/detail_3301.json",
+      "bytes": 7504,
+      "sha256": "b617204afac1406670041260f5fa3f43da50efe1df6253b869c5b0593abb5faa",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4013",
+      "path": "dbaasp_bounded_v3/raw/detail_4013.json",
+      "bytes": 3865,
+      "sha256": "59fbfb410c4364e0544fc770dcffae0f5a2f93f331311da8e1e230e726504f5b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4014",
+      "path": "dbaasp_bounded_v3/raw/detail_4014.json",
+      "bytes": 3879,
+      "sha256": "bea65473b5293bed7abd7be342d6ba843c351374caf4896edca64679d885d6ac",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4015",
+      "path": "dbaasp_bounded_v3/raw/detail_4015.json",
+      "bytes": 4848,
+      "sha256": "e90fa6534876fc92ad4210112048ee99463705cf868656628cff5265fc321d15",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4016",
+      "path": "dbaasp_bounded_v3/raw/detail_4016.json",
+      "bytes": 4836,
+      "sha256": "e898b3412d9f9e4c2ea194ce373d0f4a88de88e68e34849b2f48e14432aaedc4",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4017",
+      "path": "dbaasp_bounded_v3/raw/detail_4017.json",
+      "bytes": 3847,
+      "sha256": "5cb86f2d8713556795aa044bb4f3f9db7ebccc3197078e27d0cd9b21652e8d0c",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4018",
+      "path": "dbaasp_bounded_v3/raw/detail_4018.json",
+      "bytes": 3852,
+      "sha256": "824f559055163c41dc36dd12ada42f07224dc23e774fb9140bbb40c20c0bdd61",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4019",
+      "path": "dbaasp_bounded_v3/raw/detail_4019.json",
+      "bytes": 4791,
+      "sha256": "c52439bfb8aa95795f989639ed23efec997481e728f78b503d345756d9a50bfa",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4020",
+      "path": "dbaasp_bounded_v3/raw/detail_4020.json",
+      "bytes": 4801,
+      "sha256": "288540b3ee87da1ed5332263e0dfe63be186522a6bbfda5daa9d78cd49f1f48a",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4021",
+      "path": "dbaasp_bounded_v3/raw/detail_4021.json",
+      "bytes": 3873,
+      "sha256": "f40f85341fc99acec28b5cff7c8f58840d3b7f4e4dc91c386d5c5bf1e3827661",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4022",
+      "path": "dbaasp_bounded_v3/raw/detail_4022.json",
+      "bytes": 3856,
+      "sha256": "c5fcf5652e49e5911a95e67100c0a0cb201b7d24094665e49f95d3811548e1f2",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4339",
+      "path": "dbaasp_bounded_v3/raw/detail_4339.json",
+      "bytes": 8897,
+      "sha256": "56725285c44ab3b828d5a18e550022a8394b98f03c5a1960021ed60696622539",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4340",
+      "path": "dbaasp_bounded_v3/raw/detail_4340.json",
+      "bytes": 11906,
+      "sha256": "d1d5c0281fe2ab4c7b484e1f9cb62fdc9e5833651884296d40c1f894720f36f5",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4341",
+      "path": "dbaasp_bounded_v3/raw/detail_4341.json",
+      "bytes": 6962,
+      "sha256": "3d611b728f48e4a2b9422b2507ed7cec5371916cd68a0fe3e2a25e55619cca08",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4342",
+      "path": "dbaasp_bounded_v3/raw/detail_4342.json",
+      "bytes": 5207,
+      "sha256": "ce1ffc3aaa1fe883f37b1eb32583319e1638d05a557c62b6a9b536e050da7826",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4347",
+      "path": "dbaasp_bounded_v3/raw/detail_4347.json",
+      "bytes": 14012,
+      "sha256": "e9f3ab11530760388c9ceff2d9a2b371d919e4e87bdc7bacd67077700aca2ee3",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4352",
+      "path": "dbaasp_bounded_v3/raw/detail_4352.json",
+      "bytes": 13270,
+      "sha256": "704ec82773cd43d96f17b8a583f5dc0df944a33ae8c3777dfc2bf7598ae4eedd",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4379",
+      "path": "dbaasp_bounded_v3/raw/detail_4379.json",
+      "bytes": 8935,
+      "sha256": "74eeae41ea35e650a5c6b690e120b2d28196c9ed3ea3eebe8ec03e30d595d0f7",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4380",
+      "path": "dbaasp_bounded_v3/raw/detail_4380.json",
+      "bytes": 8982,
+      "sha256": "c0c6da4bede79a286596d7904a8c03d147ec23e5cb95bcdc08aab7f57ab4dd4f",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4407",
+      "path": "dbaasp_bounded_v3/raw/detail_4407.json",
+      "bytes": 12274,
+      "sha256": "ef71cca4d1dd280aff768b87e3f5d953c1d198eae41a0ff4629bb1f6065c6bd1",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "4476",
+      "path": "dbaasp_bounded_v3/raw/detail_4476.json",
+      "bytes": 18757,
+      "sha256": "8d122fc93f333dae38b691e63156ef973840d20760158b7ae82c2f213c124e7e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5518",
+      "path": "dbaasp_bounded_v3/raw/detail_5518.json",
+      "bytes": 14794,
+      "sha256": "6436abc41781cb015b4f13c35febb9a5221047fef73c0450d0bee27b3fe81fba",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5545",
+      "path": "dbaasp_bounded_v3/raw/detail_5545.json",
+      "bytes": 8960,
+      "sha256": "d3675d9dcf7a4b4028ba8b3b95d8d697de7d57bb5f3c00a173d8c4bef173754c",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5546",
+      "path": "dbaasp_bounded_v3/raw/detail_5546.json",
+      "bytes": 10937,
+      "sha256": "f0fdd039c6511f1a923a673cc586cf2b78811de067e20be5ba4949b2d30015a8",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5547",
+      "path": "dbaasp_bounded_v3/raw/detail_5547.json",
+      "bytes": 12631,
+      "sha256": "7f6ec0f6f835f28166bf8c11179e67ab54a48358f61bbb3252974cb7673724e4",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5548",
+      "path": "dbaasp_bounded_v3/raw/detail_5548.json",
+      "bytes": 10482,
+      "sha256": "a33cb84318be6f42a733ae3accfeddc7869d51aaf00f09519bc9573922853d78",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5549",
+      "path": "dbaasp_checkpoint_v4/raw/detail_5549.json",
+      "bytes": 9768,
+      "sha256": "9c81290da43c9d760ddff762fe6e228067aad6f6a768f96a7cbddcf6a99303fc",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5556",
+      "path": "dbaasp_coverage_v5/raw/detail_5556.json",
+      "bytes": 10111,
+      "sha256": "5dbd0f415f94e38f782b52e9c389b39167db6a371b0ece99fdc6e8bbda7ef7e2",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5557",
+      "path": "dbaasp_coverage_v5/raw/detail_5557.json",
+      "bytes": 10116,
+      "sha256": "d3310fe35e7e560b706cac699490916fd09fcb5032a6f7270a0b36a32f32f569",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5558",
+      "path": "dbaasp_coverage_v5/raw/detail_5558.json",
+      "bytes": 10120,
+      "sha256": "082005f05d82ccbb36030f4058702ff858e3b4d553250fbb987264b0ffa40bed",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "5559",
+      "path": "dbaasp_coverage_v5/raw/detail_5559.json",
+      "bytes": 10208,
+      "sha256": "4c0ff65fc04c57f19e42792b7d5ff19903c8d4a1881a9ef7cdbc2719af708aaa",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6568",
+      "path": "dbaasp_coverage_v5/raw/detail_6568.json",
+      "bytes": 8362,
+      "sha256": "f6698300d2851eaff97184257306b4e505b065b7a08f359868866a1672669174",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6596",
+      "path": "dbaasp_coverage_v5/raw/detail_6596.json",
+      "bytes": 11722,
+      "sha256": "58880c210597905f5f4e4d60aff983807981a7b8c6b725f088d87668c1561797",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6597",
+      "path": "dbaasp_coverage_v5/raw/detail_6597.json",
+      "bytes": 13642,
+      "sha256": "18c03e85425d05e52a8dce52409312987e9df5a91f93c608e4e028b7929687f3",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6598",
+      "path": "dbaasp_coverage_v5/raw/detail_6598.json",
+      "bytes": 11689,
+      "sha256": "bd0f954f1b3e5ae6a5a4c4c778b5cea71daf44c1404dc9116470f54fc3b71851",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6669",
+      "path": "dbaasp_coverage_v5/raw/detail_6669.json",
+      "bytes": 34866,
+      "sha256": "6d6e342a98eefb6ed348d35a5478fb52649e88d84dcf49651ccebe2bc3c933be",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6701",
+      "path": "dbaasp_coverage_v5/raw/detail_6701.json",
+      "bytes": 9455,
+      "sha256": "50f0df3abde0bd832676c2d0f99ad27e4723f1707ac034a69e5108ffd41804f1",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6742",
+      "path": "dbaasp_coverage_v5/raw/detail_6742.json",
+      "bytes": 35710,
+      "sha256": "0a2d6d850e8ab1a78bd78cd7214fda63b4f76298967e537a18d26958ce8eae95",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6743",
+      "path": "dbaasp_coverage_v5/raw/detail_6743.json",
+      "bytes": 27045,
+      "sha256": "feb14d2d379e2ebf9db84ebe5bd9b53098ece041b5246fab986cac9c84bc43fa",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6785",
+      "path": "dbaasp_coverage_v5/raw/detail_6785.json",
+      "bytes": 16122,
+      "sha256": "b3d65b52b25a070a495cccd20b7b60533656f03470f1f10a8359cf98010e1ea2",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "6834",
+      "path": "dbaasp_coverage_v5/raw/detail_6834.json",
+      "bytes": 7815,
+      "sha256": "0919e5a637c99701f9620388e8ac712dee67a833e41127136907eb4335784e25",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8110",
+      "path": "dbaasp_coverage_v5/raw/detail_8110.json",
+      "bytes": 10366,
+      "sha256": "bf9b297045b325f039152902387d8c97c5817679e103f6f3d7d11ce43f09a2b3",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8157",
+      "path": "dbaasp_coverage_v5/raw/detail_8157.json",
+      "bytes": 27548,
+      "sha256": "f82f5517a0d58f5266ba2c3eace020bf6a7f9a6c7817cee631a09964483f376e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8221",
+      "path": "dbaasp_coverage_v5/raw/detail_8221.json",
+      "bytes": 6684,
+      "sha256": "b9bbaaccf7a1ffe4dc358e2054ade821f25ef07776e55b948e7aab6c2b4ebfaa",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8222",
+      "path": "dbaasp_coverage_v5/raw/detail_8222.json",
+      "bytes": 12648,
+      "sha256": "4ba85539fd4324837baae6b6dd5e19ef2ba55816e2b8c1784b90f8d629a87b8c",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8223",
+      "path": "dbaasp_coverage_v5/raw/detail_8223.json",
+      "bytes": 6683,
+      "sha256": "d8c38abedc0d6dd5adffed10c4c62dbbeeadd00b7de4112afb4e99d6cfbd4ca9",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8224",
+      "path": "dbaasp_coverage_v5/raw/detail_8224.json",
+      "bytes": 7250,
+      "sha256": "a4e69e93b8d5d587a6cf8dabae98f13fa65b849e99ecdddb18af8d352b090293",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8225",
+      "path": "dbaasp_coverage_v5/raw/detail_8225.json",
+      "bytes": 8559,
+      "sha256": "e5f36d13b9f1e9b791e6402b730cc29c307c5bb0db194906f929db2b2f868572",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8226",
+      "path": "dbaasp_coverage_v5/raw/detail_8226.json",
+      "bytes": 5587,
+      "sha256": "5826eae6b6c2e8dd291032d01966aeb872c295d23b803a0b3708ddf55dbb6fe6",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8227",
+      "path": "dbaasp_coverage_v5/raw/detail_8227.json",
+      "bytes": 7019,
+      "sha256": "ec6a778d9012988db83ebf3ed84dffdcbe71a370755a532b63cca57d481f2d95",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "8297",
+      "path": "dbaasp_coverage_v5/raw/detail_8297.json",
+      "bytes": 12121,
+      "sha256": "6d1cdfb4e04c16fca3c320e6ea3d0a39b279d5b48c9df87f3d6e19a09726104b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10457",
+      "path": "dbaasp_coverage_v5/raw/detail_10457.json",
+      "bytes": 8007,
+      "sha256": "a6ce9db36be0fd658e02eeced06f3636aa1cf4e74d3daf937e9aff6bcd3d5292",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10458",
+      "path": "dbaasp_coverage_v5/raw/detail_10458.json",
+      "bytes": 8791,
+      "sha256": "e1c0305f5a567536a2235e553570fced45de546bb263b8fcff6451559e593be0",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10459",
+      "path": "dbaasp_coverage_v5/raw/detail_10459.json",
+      "bytes": 8705,
+      "sha256": "43e8fbc438115748b1b02beebc4fd860edc5f46e7b98bbf516428403e15b2570",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10460",
+      "path": "dbaasp_coverage_v5/raw/detail_10460.json",
+      "bytes": 8759,
+      "sha256": "063b1b36376f3844bade364da17c2099e28a80b4d71b8461e0d2e75e16c1f5dd",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10461",
+      "path": "dbaasp_coverage_v5/raw/detail_10461.json",
+      "bytes": 8876,
+      "sha256": "4fc870db2cda73f3dae6d1e3e2d0525070825375380a1b241b70fc9e3a4696da",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10468",
+      "path": "dbaasp_coverage_v5/raw/detail_10468.json",
+      "bytes": 8023,
+      "sha256": "a6bdb2afdeefc8f0c9fe8e75e3a2a8b3fb61f5a0ee7eea650cacad83f8d53644",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10469",
+      "path": "dbaasp_coverage_v5/raw/detail_10469.json",
+      "bytes": 8801,
+      "sha256": "ff326b5b3d558fde6de27ea4d05c084721cc1922ae4e9cee0b2bc63ea13fd30b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10470",
+      "path": "dbaasp_coverage_v5/raw/detail_10470.json",
+      "bytes": 8103,
+      "sha256": "7fddd533a45ebf550071681531b757485a50270e91d5cb6ea119e0b4820189b6",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10471",
+      "path": "dbaasp_coverage_v5/raw/detail_10471.json",
+      "bytes": 8246,
+      "sha256": "38f0ba3b8a0a857024073a770d86b50a78b7f5087473dcee06a11f6de9d71dfc",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "10472",
+      "path": "dbaasp_coverage_v5/raw/detail_10472.json",
+      "bytes": 8208,
+      "sha256": "927c583512b4793a3bf0d2c92d1b37cd80511a50c3c3dce536a45b22803cb939",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12453",
+      "path": "dbaasp_coverage_v5/raw/detail_12453.json",
+      "bytes": 7874,
+      "sha256": "e38428d22cfb19bc7c00dcac96bc7fe6a6854ab262ca84e3b50232b534e36e6b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12529",
+      "path": "dbaasp_coverage_v5/raw/detail_12529.json",
+      "bytes": 20823,
+      "sha256": "f36d5cb2acaf6724b5a53416d600bb02d11d9b39634399ff2e9b2298ffaa054a",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12531",
+      "path": "dbaasp_coverage_v5/raw/detail_12531.json",
+      "bytes": 13513,
+      "sha256": "a37bb00f413239da0e179d9bb342e7a58e4f9b7656e88734daaf0e2f38ad5c6e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12533",
+      "path": "dbaasp_coverage_v5/raw/detail_12533.json",
+      "bytes": 6624,
+      "sha256": "df304753e80a1165b84f0e474e86b2fdbac46a53c542fd6f65e87f7e001eff28",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12534",
+      "path": "dbaasp_coverage_v5/raw/detail_12534.json",
+      "bytes": 6881,
+      "sha256": "791a14dd2064e4d249e7c3d5a35fd8d98f7b04b188a77769acae28d3a3251edc",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12535",
+      "path": "dbaasp_coverage_v5/raw/detail_12535.json",
+      "bytes": 8544,
+      "sha256": "e1b1e4d47edf32a75a5425938ca7ccc6da0fbfd9ad3c2ed60b864fa6496763e0",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12536",
+      "path": "dbaasp_coverage_v5/raw/detail_12536.json",
+      "bytes": 8790,
+      "sha256": "0b91cc112b746e5ba25d59009caf35e8b9c9e37a2292d45a90221d6253b0a925",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12537",
+      "path": "dbaasp_coverage_v5/raw/detail_12537.json",
+      "bytes": 8409,
+      "sha256": "f7bee9e9e35f0440c99aec28d9e53c76ae1d288fde8f4c66d1d842ac8f9f58e7",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12538",
+      "path": "dbaasp_coverage_v5/raw/detail_12538.json",
+      "bytes": 8692,
+      "sha256": "f8829ca163c2af18a3b637b3a1a5e939448e79639e47f622a00fc23686c0a72f",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "12539",
+      "path": "dbaasp_coverage_v5/raw/detail_12539.json",
+      "bytes": 7177,
+      "sha256": "2c1993ad7576e5f40eed0a563d25804643e47cadbdcce5b54f9c4b87c4d620c3",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13692",
+      "path": "dbaasp_coverage_v5/raw/detail_13692.json",
+      "bytes": 8652,
+      "sha256": "70d8cf343187a1564bef60b1f1435cb90cb9c5c5ba0981142b1a7dfada1c19ce",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13693",
+      "path": "dbaasp_coverage_v5/raw/detail_13693.json",
+      "bytes": 9497,
+      "sha256": "dbb1a76a4d010198f8708200b24cf90daea578b98c69ae4b962b19ee86e93053",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13726",
+      "path": "dbaasp_coverage_v5/raw/detail_13726.json",
+      "bytes": 35414,
+      "sha256": "aa23896e3b3f506508bee341cabcf7b3cb22bcdb00cbef17096ef6321af90b3d",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13735",
+      "path": "dbaasp_coverage_v5/raw/detail_13735.json",
+      "bytes": 11438,
+      "sha256": "3ccb744b96bbd7d1079eb0492da8ff7277f84e07d7c464db846e20b7f87a945d",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13736",
+      "path": "dbaasp_coverage_v5/raw/detail_13736.json",
+      "bytes": 11320,
+      "sha256": "04b2186301dbb865b7ac3dd0193b0423255da2d3e7dd92936d6501cff38585b4",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13803",
+      "path": "dbaasp_coverage_v5/raw/detail_13803.json",
+      "bytes": 16663,
+      "sha256": "dc6e91263025a7fa2f63d92cec10c63bfb202c4e61b74867a7870c49cfd57192",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13804",
+      "path": "dbaasp_coverage_v5/raw/detail_13804.json",
+      "bytes": 18253,
+      "sha256": "33e23134e6d794cbc16cc932a67f2b85bbb5680d5ecfa58025b15e16a5ba97be",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13805",
+      "path": "dbaasp_coverage_v5/raw/detail_13805.json",
+      "bytes": 12451,
+      "sha256": "fa30909a26cadaa9da1c2285c32714bcf9a521143a0aa0464ed032201567cbdb",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13806",
+      "path": "dbaasp_coverage_v5/raw/detail_13806.json",
+      "bytes": 18688,
+      "sha256": "5ee9894418d9ba2b433497d086a606da8fa4c046b3656d2b5289d40d44e2012c",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "13807",
+      "path": "dbaasp_coverage_v5/raw/detail_13807.json",
+      "bytes": 14848,
+      "sha256": "6962a69f9000dd6889bf104e6c07ff15b4dfc23864bdb9fdd67d413822ca9bc6",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17268",
+      "path": "dbaasp_coverage_v5/raw/detail_17268.json",
+      "bytes": 6314,
+      "sha256": "6b982e982dbab2e91952b72d72057f312dd7ea6a0431d3c124242f1b118ad038",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17269",
+      "path": "dbaasp_coverage_v5/raw/detail_17269.json",
+      "bytes": 6305,
+      "sha256": "6817ebb06fdb2faf254f68a273a0923e2d1543fe01a103df7302db033ad7ef45",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17270",
+      "path": "dbaasp_coverage_v5/raw/detail_17270.json",
+      "bytes": 6350,
+      "sha256": "5e1e3bf7e7021184cfc9b08282366cab66e6d8add02e0bc21df517fa1dddeaff",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17271",
+      "path": "dbaasp_coverage_v5/raw/detail_17271.json",
+      "bytes": 6688,
+      "sha256": "9fe34e5966f18c6139b2efa5db0bd72ae90c8a7385ad22fd9156c62c6a07df63",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17272",
+      "path": "dbaasp_coverage_v5/raw/detail_17272.json",
+      "bytes": 6349,
+      "sha256": "9d5dead84d0dc8f14c32cc94bb2b64a8009dba44d8f6f4c535849d871d55b17e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17273",
+      "path": "dbaasp_coverage_v5/raw/detail_17273.json",
+      "bytes": 6308,
+      "sha256": "57a2ca36c649b64aac9468c094147a09f98d8ebe56f000c5ebbf7ddd353832ae",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17375",
+      "path": "dbaasp_checkpoint_v7/raw/detail_17375.json",
+      "bytes": 9342,
+      "sha256": "a2e295145c3969dd11519f6e7f920ca49aaf863ee2312724570d43cdd3462d81",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17376",
+      "path": "dbaasp_checkpoint_v6/raw/detail_17376.json",
+      "bytes": 10586,
+      "sha256": "00d1eeac13641679dee347d9d2b2ac17136dbdab17c6e7d3fa80bcf33c30037d",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17389",
+      "path": "dbaasp_checkpoint_v7/raw/detail_17389.json",
+      "bytes": 23277,
+      "sha256": "fdbabdb31d89436dea9957ef548d04d5bbc3274bdb27e63d1a1c9066f874229d",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "17545",
+      "path": "dbaasp_checkpoint_v6/raw/detail_17545.json",
+      "bytes": 7018,
+      "sha256": "a6ae4cbaea2b6ef0b68c47f6854da81cab878fa20a6908e09cfc4bdb5d847dda",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18454",
+      "path": "dbaasp_checkpoint_v6/raw/detail_18454.json",
+      "bytes": 5222,
+      "sha256": "ad74cc5b65d9524109e22093ade79b3f98440fad37d1d5f4d23133a97f794853",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18455",
+      "path": "dbaasp_checkpoint_v6/raw/detail_18455.json",
+      "bytes": 4911,
+      "sha256": "7548f4e39eb725123fc4bc368371b017bc76568084a02b9e492c6b96514a3e45",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18466",
+      "path": "dbaasp_checkpoint_v6/raw/detail_18466.json",
+      "bytes": 7333,
+      "sha256": "787ecb8c284ea7d6ffa0fb4759c0214ed481b1bc791194985bcb086eccd39284",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18510",
+      "path": "dbaasp_checkpoint_v6/raw/detail_18510.json",
+      "bytes": 7129,
+      "sha256": "5f48c4b8c8b301ff75b6f436e7b1ef9a1c60bbb6b1beb619593118a22515ed1b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18511",
+      "path": "dbaasp_checkpoint_v6/raw/detail_18511.json",
+      "bytes": 10463,
+      "sha256": "696f31366f5a738e38bee10f9206cfe7ade79a1ea4b56a18edebfa5089d2a6d0",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18512",
+      "path": "dbaasp_checkpoint_v6/raw/detail_18512.json",
+      "bytes": 8459,
+      "sha256": "2c4b91f3c4cf69159bcbec8f77ae84c16c8492a181f69f53cc73f8d13b354e17",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18513",
+      "path": "dbaasp_checkpoint_v7/raw/detail_18513.json",
+      "bytes": 12240,
+      "sha256": "7c88176f7656d16021e793dfacd2342822f331cd0794bed3719059f869f2518a",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18530",
+      "path": "dbaasp_checkpoint_v7/raw/detail_18530.json",
+      "bytes": 8082,
+      "sha256": "e8a3d53175378a468d9ea936e05cee7ac3add585f67bbd9f5a92f986d179bca1",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18531",
+      "path": "dbaasp_checkpoint_v6/raw/detail_18531.json",
+      "bytes": 8436,
+      "sha256": "39b0e79d40a5c0b327f568dcffbd187f6c6b6df121bf00506eb36796c912c3a1",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "18532",
+      "path": "dbaasp_checkpoint_v6/raw/detail_18532.json",
+      "bytes": 9184,
+      "sha256": "2c4cecd8a7936415bfeec5ab6b92e74203624853ac537a78282d3a802a0e8f83",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19481",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19481.json",
+      "bytes": 13921,
+      "sha256": "7cfb9986ceb461615910807427c6e342e59895ef0e793d20a2d58a191be24b16",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19485",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19485.json",
+      "bytes": 16484,
+      "sha256": "03d4de42baedb3ba88cad7df27a0be5185e353614e82fa950cba7427850e48ce",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19486",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19486.json",
+      "bytes": 17289,
+      "sha256": "91583ddda1de6f7d561d7f4f305a898c95446cbc2676173ddc9ad5ede3470c09",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19487",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19487.json",
+      "bytes": 16241,
+      "sha256": "9c134f939d6d2fc4fed5d55f12c37bd477bca97e1c7f48d2052b58d61003a242",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19488",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19488.json",
+      "bytes": 15207,
+      "sha256": "b5d1ffc590c399df7e6388c8199ccb65c5bdb1ff543d94ae5ef8602e0f8fa62e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19489",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19489.json",
+      "bytes": 15211,
+      "sha256": "e1dea47e45ab47117eb62a42f0ec9cb723d1851d1e654449a69e18ade26b5066",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19490",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19490.json",
+      "bytes": 3495,
+      "sha256": "c12ace02e89ebba526a9a9bf653ba0d50bc1de34dae930208876d9aad599dabb",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19491",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19491.json",
+      "bytes": 5216,
+      "sha256": "f1360dd171b6439e65400941e56d041b25f07e867b0d330a603388041357e67b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19492",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19492.json",
+      "bytes": 4919,
+      "sha256": "3877eaa25518264caa467a337f4edebd2b7b9618faf4fe9dc0430d6e9afd57df",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "19493",
+      "path": "dbaasp_checkpoint_v7/raw/detail_19493.json",
+      "bytes": 5939,
+      "sha256": "71fbe2c9524745f9ed60b647c59519bbae1362f52a1a2c61df557344cd342755",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21182",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21182.json",
+      "bytes": 7903,
+      "sha256": "6834c70724378d054d38e985be1d52a7bc88ad2c5fa555a0dcb19c85f313618f",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21185",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21185.json",
+      "bytes": 8777,
+      "sha256": "f281fb1de4bc271e14061020936fc11ad29a5bbc8b2fa224932a87d4760ca6ea",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21214",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21214.json",
+      "bytes": 17027,
+      "sha256": "a122bb2dd26e36e3d32e82ffb47e6562e46fc398430e88f156e02d9ae4e9501e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21215",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21215.json",
+      "bytes": 16963,
+      "sha256": "1d4149afd8505be7671a656ebc2650354dc876978b7212d5cf40f3f826f38508",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21216",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21216.json",
+      "bytes": 16976,
+      "sha256": "fda798a6de2a7af0effc7694a6e3960b12c3b36344907d75103fca833c278372",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21217",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21217.json",
+      "bytes": 16938,
+      "sha256": "76d90ea3b68ca2a22ed9be8155a1516511eede565e2de37d966e576b91edf392",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21260",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21260.json",
+      "bytes": 10996,
+      "sha256": "61e72ce2107c3a5a13d1969dbc5440405e9db60736628e30f0a4152021ee9f0b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21261",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21261.json",
+      "bytes": 11409,
+      "sha256": "c458400c4bc816c517a72905fc543795786bf44511b4a804ee6eecf3b320f021",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21324",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21324.json",
+      "bytes": 4266,
+      "sha256": "c3d002e48e723cc8ba0a3f5e9ada9972a844b6818a1575fd8fd716117069a214",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "21325",
+      "path": "dbaasp_checkpoint_v7/raw/detail_21325.json",
+      "bytes": 4109,
+      "sha256": "ca6ccf3bc3d26c66820a50ebd407f325d9aac43a4bfba5559934e0620d791d5e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23227",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23227.json",
+      "bytes": 5514,
+      "sha256": "1b6227b7985fa1d28798955e72c376f2b75db464497175ef4ea0c4c9ab0cf98d",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23228",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23228.json",
+      "bytes": 5617,
+      "sha256": "5ae8169525063a5ac3df272162b04229dc2b54cad997f20fdc1301af2b28297c",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23310",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23310.json",
+      "bytes": 9769,
+      "sha256": "5b250b77d919daaaf55a78ba31073e219e79f3cb4d9cf3d9b6de84067a37d7a0",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23311",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23311.json",
+      "bytes": 8123,
+      "sha256": "6b7167d3607752759b837cb37aaaea1a7c9d11f95b227bda8dcb642a67e7f600",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23312",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23312.json",
+      "bytes": 8122,
+      "sha256": "da538bf7ccd320cf1838ab9359f8df12d3c49568f1354a1811271b2b8e19f5b0",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23313",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23313.json",
+      "bytes": 7768,
+      "sha256": "f770526ebfe2193527c9a54669ad8fd0739045262f1f64d451507b92a107cc1f",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23314",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23314.json",
+      "bytes": 7723,
+      "sha256": "951c7c8b19319f3c242ad43a051277d5072c45573446f54c1c50dabd79065cd8",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23319",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23319.json",
+      "bytes": 7953,
+      "sha256": "dcfb9b0947fabd2454596102ee42308642fa971611220800a42c37e32a99921d",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23321",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23321.json",
+      "bytes": 7940,
+      "sha256": "232578bccec912bbc6be5dc814902415f7fbd516399492b716d149ea38dfb55f",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "23322",
+      "path": "dbaasp_checkpoint_v7/raw/detail_23322.json",
+      "bytes": 7957,
+      "sha256": "d1cdb3d10ca14b1293dfc9f1730cfea09829e60cdb506f9f4fff814613d07a9b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24624",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24624.json",
+      "bytes": 11953,
+      "sha256": "f6b5f750bfdb615a8403b1f6523ba9369c0a91aa5b9a9b42a7adf8960359b427",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24625",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24625.json",
+      "bytes": 9563,
+      "sha256": "b7cf5fdc720534f4d28bcc5f8e9dd04f18fa777171b1913b25ef192f55549877",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24626",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24626.json",
+      "bytes": 11196,
+      "sha256": "d6031d1d8979b81f003ed07eaf0649af78e1b6ad8c81f3b013bcc3b70c321873",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24627",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24627.json",
+      "bytes": 7959,
+      "sha256": "60c4fb697fcc5d848b4512c54179e4fd91a934c2ef5031d5667211399bf53b84",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24628",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24628.json",
+      "bytes": 8093,
+      "sha256": "e6ccc251ec19ed6a8492fa2d45b5f99dddf6f5758f669db2433e73c424bd8f94",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24629",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24629.json",
+      "bytes": 9664,
+      "sha256": "239514d8019852c8b447947d280de69cfd20f53aacfb333bf07e7f03bacb0a68",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24803",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24803.json",
+      "bytes": 22280,
+      "sha256": "8afe5579cd829cd500a54228dd185da790eeee7059b1f9078b55a62d7812ab10",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24875",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24875.json",
+      "bytes": 4095,
+      "sha256": "ce741cfd40d0fbfe16d1a7f0ccaf19544c9fed941e39ceedcdf770914d0dc85b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24876",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24876.json",
+      "bytes": 4092,
+      "sha256": "577f597f44f7c276e1bacf705a8d370b42a054b02f0b6378335be296355a41da",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "24877",
+      "path": "dbaasp_checkpoint_v7/raw/detail_24877.json",
+      "bytes": 4338,
+      "sha256": "185a76a29c1d36b24ae19b2186d5dde316157b41d2f59fe5371b65663053de2d",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25750",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25750.json",
+      "bytes": 9777,
+      "sha256": "3eb3ae9dfb5b920b4cbe23f926a0e940784931a42b82c3b20ea5bbdf396837b6",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25751",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25751.json",
+      "bytes": 10042,
+      "sha256": "258d129927f30f41fd02d51526afc32660ca9fe3991e4144b40dcf54a80479dc",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25752",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25752.json",
+      "bytes": 9957,
+      "sha256": "93ffc2638814ea68811dd2c3e8aaaa74530e34ca69950255ca95b12f230c7b1b",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25753",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25753.json",
+      "bytes": 9947,
+      "sha256": "77e06f573f2d1ca966625bd095570d299247744f4c9e750a8c56781b4b70540e",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25754",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25754.json",
+      "bytes": 9965,
+      "sha256": "b73f88dc19d0c2950f10e376e81e8f14f11c16e59eccaf7e12657748aee2fa68",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25755",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25755.json",
+      "bytes": 9620,
+      "sha256": "02c2dc5105bfd76dfc4c9ea22479f7be0f77444da1c74ff00f955c8264158038",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25756",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25756.json",
+      "bytes": 9873,
+      "sha256": "c595ff097b09753c2109ee1b4fa7ef261834cfc7abb1087082cf487ccadbef2c",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25757",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25757.json",
+      "bytes": 9770,
+      "sha256": "4dfb021d10eb7cdb9e5ac2295915c15c1be7295e5cf8531a858e1b4bc233633a",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25758",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25758.json",
+      "bytes": 9914,
+      "sha256": "06e586ce76f8570f70d6df9a1ddb65f70d53aa55439323f223150c34c4cd9e77",
+      "id_and_monomer_match": true
+    },
+    {
+      "peptide_id": "25759",
+      "path": "dbaasp_checkpoint_v7/raw/detail_25759.json",
+      "bytes": 8389,
+      "sha256": "2b79b9696a25cb6bafbbfc752691869fc15516b7e67eb49b5593da71848e02c6",
+      "id_and_monomer_match": true
+    }
+  ],
+  "source_bindings": {
+    "dbaasp_checkpoint_v7/prepared/peptides.jsonl": "068acc503c4b5b078b33ea1fc01847001d8ca5b82fe3b386270d06ff2a79c7b7",
+    "dbaasp_checkpoint_v7/prepared/mic_measurements.jsonl": "1a1969c23f908623a6487c43659ba8a5b21994c7b81bb2f88bc6260f068e5052",
+    "dbaasp_checkpoint_v7/analysis/NATIVE_ROWS.jsonl": "0ea0d163a7117e771201a68a81dcfd8fc940bb38eab6f326d822961c5c98301d",
+    "dbaasp_checkpoint_v7/INDEX_README.json": "331de0a7be08e4d4c9b8732c51c74388953e69234bee6423a89cff1653a74960",
+    "dbaasp_checkpoint_v7/SOURCE_INDEX.csv": "c12be7a80fc5a3b2bf5a3e386b294b64451bb31d7328b2cbfb2d76899ee0792d",
+    "dbaasp_checkpoint_v7/MEASUREMENT_SOURCE_INDEX.json": "f77cd4233421f7d94ef363d680e3b2cf162311c0a25af58216285c1612fc8548",
+    "dbaasp_checkpoint_v7/independent/POSTAUDIT.json": "86ba3a3bbdae0db7b0d462754d8d7e1fbe1db4c988c2186b7709561378f11d41"
+  }
+}

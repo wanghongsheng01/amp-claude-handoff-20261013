@@ -1,0 +1,64 @@
+{
+  "scope_id": "AMP_H5_WARMUP_SCORING_PREPARATION_V2",
+  "status": "FROZEN_CANDIDATE_PENDING_INDEPENDENT_PREAUDIT",
+  "created_utc": "2026-10-11T21:23:36.639297+00:00",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/ARGV.json",
+      "sha256": "d76bfd89d7d5ab29fac217a1f2297fd64e7fd619763068901074e1c0a995de5b",
+      "bytes": 1587
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/PAIRED_GUARD_CONTRACT.json",
+      "sha256": "5b1b2b6e63d62384b3dda7ce313cd6674d59865fdfcfde071e138415a5ca0f37",
+      "bytes": 7136
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/README.zh.md",
+      "sha256": "ae72d047f00081dd30120d5faf120684cffe494d00c080ea83db49a8c092c330",
+      "bytes": 401
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/SCORING_CONTRACT.json",
+      "sha256": "e9c9b8a782b6c67ee732dc983e6a01692f94b574d520fbcb9231e9a2a9360fed",
+      "bytes": 7225
+    }
+  ],
+  "reused_code_and_tests": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+      "sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+      "bytes": 27857
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/paired_guard_v1.py",
+      "sha256": "3bb4d3a3cd2b8247de8540ce5e5a8cabeb6992d51c0dd6b011f61ac6b396c2e2",
+      "bytes": 15404
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/synthetic_guard_checks.py",
+      "sha256": "6bb27b0333b2c204992ab0b2d37a844ef118e87f2b5224668a51e7c1cb7b1381",
+      "bytes": 5784
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/SYNTHETIC_RESULT_v2.json",
+      "sha256": "bd202140cdba8d702b670843e37b4f812c7209b536805df59f06ff2e5f1c528a",
+      "bytes": 1742
+    }
+  ],
+  "superseded_preparation": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/MANIFEST.json",
+    "sha256": "257be8d7472d38ad22f6e691ee83ab5fe71f8d3237862be41ba4e21b227af49f",
+    "bytes": 5399
+  },
+  "model_preparation": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/MANIFEST.json",
+    "sha256": "3bd8d72445c0d45b9b2aa84eb6d4e4b4ce589357da43573ce60db64bc92329f0",
+    "bytes": 2333
+  },
+  "natural_executions": 0,
+  "model_calls": 0,
+  "training_updates": 0,
+  "random_draws": 0,
+  "test_access": false
+}

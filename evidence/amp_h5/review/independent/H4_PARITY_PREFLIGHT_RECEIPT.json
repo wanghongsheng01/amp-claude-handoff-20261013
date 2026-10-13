@@ -1,0 +1,89 @@
+{
+  "created_utc": "2026-10-11T16:18:59.815053+00:00",
+  "reviewer": "independent H5 reviewer",
+  "status": "PASS_SCOPED_SAVED_H4_T1_PARITY_PREFLIGHT",
+  "authorized": true,
+  "plan_sha256": "c84e9f6ee8c58d1034d20607561fe6dcbca21cb88066b12eabc3569750ca2a55",
+  "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+  "plan_bindings_verified": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/h4_saved_step_parity.py",
+      "sha256": "5e8d84f3baff188f3eb15a6b54343a72bb79c7d7dc0e23fa22b64593b93e3e30"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/PARITY_CONFIG.json",
+      "sha256": "e45478be33b64384cf59e4a0a4267815106e5e7b278784de1d6ebe64f5ac0ac8"
+    }
+  ],
+  "input_bindings_verified": {
+    "h5_runner": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal.py",
+      "sha256": "9580bf84e2ffc2d2d357f77eaca04c338b6608abe0f6a30c17c578cf6e3606b5"
+    },
+    "v3r2_runner": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/run_rebuild_v3r2.py",
+      "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8"
+    },
+    "h4_runner": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+      "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78"
+    },
+    "h4_runtime": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/run/runtime.json",
+      "sha256": "88de47c05f9b76d932d288b66e61016cfb5a69c29ff0df5e5d1473cc4262a7eb"
+    },
+    "corrected_source_manifest": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/source_copy_manifest.json",
+      "sha256": "019f4d1a6c6fd882c71849ae3c2920556020cee043ea084b31def1a89e980f48"
+    },
+    "vae_weights": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/dbaasp_v4_cpu_pilot_001/vae_state.pt",
+      "sha256": "ae8690901f26d5c2b568a4f69eb41d57d14f537befe2d18509df2d95292355c2"
+    },
+    "ddpm_ema_weights": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/dbaasp_v4_cpu_pilot_001/ddpm_ema_state.pt",
+      "sha256": "ef483054643fa518c3e4423c16caf960c0342a06d196fe1990eb88cb5c138a65"
+    },
+    "FREE": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/run/replay__FREE__posterior_parameter_ddpm.npz",
+      "sha256": "b9a7eea2db1b24d1f83d87b3075a240104f0ac44e7d88b01b265c0736da9946b"
+    },
+    "AMD": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/run/replay__AMD__posterior_parameter_ddpm.npz",
+      "sha256": "4df5fccf832c8abc3579b6a4affea620ae1ec8b013db8886bb3377aae1951704"
+    },
+    "schedule": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/run/SCHEDULE.npz",
+      "sha256": "c0ea53da5fac9cbab6810a430f51b62b1c8cc32b5e2800fcd1709aaeb39d22ef"
+    }
+  },
+  "expected_calls": {
+    "DDPM_conditional_forward": 2,
+    "scalar_decoder_forward": 2,
+    "unconditional_forward": 0,
+    "reverse_steps_per_saved_terminal_batch": 1,
+    "new_random_sequence_noise": 0
+  },
+  "scope": "Exactly two archived successful H4 final-timestep batches (FREE16 and AMD16), each one existing DDPM conditional forward, source-AST reverse-step and packing comparison, archived-epsilon reparameterization and one existing scalar decoder forward. Root alone executes.",
+  "checks": [
+    "All10 input file hashes verified without model loading; source manifest binds imported corrected modules at runtime.",
+    "Checkpoint weights loaded weights_only=True; eval/no_grad/frozen; encoder replaced with fail-fast hook.",
+    "H5 reverse and packing AST extracted from exact frozen source; old reverse and packing AST likewise.",
+    "Saved class and zero final noise checked; exact H4 environment required; schedule compared bitwise.",
+    "No RNG sampling after model constructors; no CSV/split loader/optimizer called; RNG equality and parameter equality checked afterward.",
+    "Strict bitwise comparisons and finite values required; no tolerance fallback/retry; latest result arrays and failures retained.",
+    "Two loop iterations, exactly2 DDPM plus2 decoder forwards; 120sec checked stage cap with180sec outer supervisor bound."
+  ],
+  "limitations": [
+    "Local saved t=1 replay only; no independent full998-step trajectory replay.",
+    "No evidence that fresh H5 CE/MSE/scalar checkpoints or future1000-update training will be stable.",
+    "Descriptor scaling and encoder execution are not dynamically tested by this script; packing is tested from saved coordinates.",
+    "Constructors consume initialization RNG before trusted checkpoint load; no new sequence noise drawn after construction.",
+    "Saved-state success does not establish numerical stability under arbitrary samples or generation quality."
+  ],
+  "VAE_formal_training_authorized": false,
+  "new_VAE_sampling_authorized": false,
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "reviewer_model_calls": 0
+}

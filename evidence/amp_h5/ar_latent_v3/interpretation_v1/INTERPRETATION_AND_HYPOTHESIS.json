@@ -1,0 +1,391 @@
+{
+  "schema": "AMP_H5_AR_V3_READ_ONLY_INTERPRETATION_V1",
+  "created_utc": "2026-10-12T02:20:56.038952+00:00",
+  "status": "HOLD_NO_EXECUTION_AUTHORIZATION",
+  "search_scope": "截至2026-10-12的定向机制与官方代码核查，不是完整文献普查、SOTA或新颖性证明。只读官方主分支，未安装或执行；将来复现前仍须固定commit和许可。",
+  "activity": {
+    "new_model_calls": 0,
+    "new_random_draws": 0,
+    "training": 0,
+    "test37_reads": 0,
+    "external_backup_transfers": 0,
+    "credential_access": 0
+  },
+  "arm_identity": {
+    "A": "Correctly paired posterior-z conditioned AR,66597 trainable parameters",
+    "B": "Same66597 capacity, initialization, batches and1000 updates; each update deranges whole sampled z within terminal",
+    "C": "Terminal-only AR,62501parameters;1000updates; own prefix andEOS, no z",
+    "D": "Historical CE21 convolution+legal prefix J on same cached conditional-DDPM z; no new training; different decoding semantics"
+  },
+  "six_comparisons": [
+    {
+      "terminal": "FREE",
+      "candidate": "A",
+      "control": "B",
+      "candidate_n": 16,
+      "control_n": 16,
+      "development_n": 18,
+      "development_mean_length": 18.333333333333332,
+      "gate": "FAIL",
+      "A_MMD2": 0.021077888013689552,
+      "control_MMD2": 0.0063771168966765225,
+      "A_dipeptide_JS_bits": 0.6019690520931582,
+      "control_dipeptide_JS_bits": 0.3716185976307588,
+      "A_mean_length": 12.0,
+      "control_mean_length": 21.5625,
+      "A_absolute_length_mean_gap": 6.333333333333332,
+      "control_absolute_length_mean_gap": 3.229166666666668,
+      "A_legal5_48": 14,
+      "control_legal5_48": 16,
+      "A_copy": 0,
+      "control_copy": 0,
+      "A_duplicate": 0,
+      "control_duplicate": 0
+    },
+    {
+      "terminal": "FREE",
+      "candidate": "A",
+      "control": "C",
+      "candidate_n": 16,
+      "control_n": 16,
+      "development_n": 18,
+      "development_mean_length": 18.333333333333332,
+      "gate": "FAIL",
+      "A_MMD2": 0.021077888013689552,
+      "control_MMD2": 0.00640753336151295,
+      "A_dipeptide_JS_bits": 0.6019690520931582,
+      "control_dipeptide_JS_bits": 0.3249306132706418,
+      "A_mean_length": 12.0,
+      "control_mean_length": 19.1875,
+      "A_absolute_length_mean_gap": 6.333333333333332,
+      "control_absolute_length_mean_gap": 0.8541666666666679,
+      "A_legal5_48": 14,
+      "control_legal5_48": 16,
+      "A_copy": 0,
+      "control_copy": 0,
+      "A_duplicate": 0,
+      "control_duplicate": 0
+    },
+    {
+      "terminal": "FREE",
+      "candidate": "A",
+      "control": "D",
+      "candidate_n": 16,
+      "control_n": 16,
+      "development_n": 18,
+      "development_mean_length": 18.333333333333332,
+      "gate": "FAIL",
+      "A_MMD2": 0.021077888013689552,
+      "control_MMD2": 0.01732780337937688,
+      "A_dipeptide_JS_bits": 0.6019690520931582,
+      "control_dipeptide_JS_bits": 0.41789109667112806,
+      "A_mean_length": 12.0,
+      "control_mean_length": 17.125,
+      "A_absolute_length_mean_gap": 6.333333333333332,
+      "control_absolute_length_mean_gap": 1.2083333333333321,
+      "A_legal5_48": 14,
+      "control_legal5_48": 14,
+      "A_copy": 0,
+      "control_copy": 0,
+      "A_duplicate": 0,
+      "control_duplicate": 0
+    },
+    {
+      "terminal": "AMD",
+      "candidate": "A",
+      "control": "B",
+      "candidate_n": 16,
+      "control_n": 16,
+      "development_n": 23,
+      "development_mean_length": 16.130434782608695,
+      "gate": "FAIL",
+      "A_MMD2": 0.02011673424588856,
+      "control_MMD2": 0.010523311324442907,
+      "A_dipeptide_JS_bits": 0.5414730122643624,
+      "control_dipeptide_JS_bits": 0.37721851055502165,
+      "A_mean_length": 9.4375,
+      "control_mean_length": 15.1875,
+      "A_absolute_length_mean_gap": 6.692934782608695,
+      "control_absolute_length_mean_gap": 0.9429347826086953,
+      "A_legal5_48": 15,
+      "control_legal5_48": 16,
+      "A_copy": 0,
+      "control_copy": 0,
+      "A_duplicate": 0,
+      "control_duplicate": 0
+    },
+    {
+      "terminal": "AMD",
+      "candidate": "A",
+      "control": "C",
+      "candidate_n": 16,
+      "control_n": 16,
+      "development_n": 23,
+      "development_mean_length": 16.130434782608695,
+      "gate": "FAIL",
+      "A_MMD2": 0.02011673424588856,
+      "control_MMD2": 0.014968824722600806,
+      "A_dipeptide_JS_bits": 0.5414730122643624,
+      "control_dipeptide_JS_bits": 0.4442582818958851,
+      "A_mean_length": 9.4375,
+      "control_mean_length": 14.0625,
+      "A_absolute_length_mean_gap": 6.692934782608695,
+      "control_absolute_length_mean_gap": 2.0679347826086953,
+      "A_legal5_48": 15,
+      "control_legal5_48": 16,
+      "A_copy": 0,
+      "control_copy": 0,
+      "A_duplicate": 0,
+      "control_duplicate": 0
+    },
+    {
+      "terminal": "AMD",
+      "candidate": "A",
+      "control": "D",
+      "candidate_n": 16,
+      "control_n": 16,
+      "development_n": 23,
+      "development_mean_length": 16.130434782608695,
+      "gate": "FAIL",
+      "A_MMD2": 0.02011673424588856,
+      "control_MMD2": 0.007709821687840027,
+      "A_dipeptide_JS_bits": 0.5414730122643624,
+      "control_dipeptide_JS_bits": 0.36559369734732183,
+      "A_mean_length": 9.4375,
+      "control_mean_length": 16.5,
+      "A_absolute_length_mean_gap": 6.692934782608695,
+      "control_absolute_length_mean_gap": 0.36956521739130466,
+      "A_legal5_48": 15,
+      "control_legal5_48": 15,
+      "A_copy": 0,
+      "control_copy": 0,
+      "A_duplicate": 0,
+      "control_duplicate": 0
+    }
+  ],
+  "all_groups": {
+    "A": {
+      "FREE": {
+        "MMD2": 0.021077888013689552,
+        "dipeptide_JS_bits": 0.6019690520931582,
+        "mean_length": 12.0,
+        "absolute_length_mean_gap": 6.333333333333332,
+        "legal5_48": 14,
+        "copy": 0,
+        "duplicate": 0
+      },
+      "AMD": {
+        "MMD2": 0.02011673424588856,
+        "dipeptide_JS_bits": 0.5414730122643624,
+        "mean_length": 9.4375,
+        "absolute_length_mean_gap": 6.692934782608695,
+        "legal5_48": 15,
+        "copy": 0,
+        "duplicate": 0
+      }
+    },
+    "B": {
+      "FREE": {
+        "MMD2": 0.0063771168966765225,
+        "dipeptide_JS_bits": 0.3716185976307588,
+        "mean_length": 21.5625,
+        "absolute_length_mean_gap": 3.229166666666668,
+        "legal5_48": 16,
+        "copy": 0,
+        "duplicate": 0
+      },
+      "AMD": {
+        "MMD2": 0.010523311324442907,
+        "dipeptide_JS_bits": 0.37721851055502165,
+        "mean_length": 15.1875,
+        "absolute_length_mean_gap": 0.9429347826086953,
+        "legal5_48": 16,
+        "copy": 0,
+        "duplicate": 0
+      }
+    },
+    "C": {
+      "FREE": {
+        "MMD2": 0.00640753336151295,
+        "dipeptide_JS_bits": 0.3249306132706418,
+        "mean_length": 19.1875,
+        "absolute_length_mean_gap": 0.8541666666666679,
+        "legal5_48": 16,
+        "copy": 0,
+        "duplicate": 0
+      },
+      "AMD": {
+        "MMD2": 0.014968824722600806,
+        "dipeptide_JS_bits": 0.4442582818958851,
+        "mean_length": 14.0625,
+        "absolute_length_mean_gap": 2.0679347826086953,
+        "legal5_48": 16,
+        "copy": 0,
+        "duplicate": 0
+      }
+    },
+    "D": {
+      "FREE": {
+        "MMD2": 0.01732780337937688,
+        "dipeptide_JS_bits": 0.41789109667112806,
+        "mean_length": 17.125,
+        "absolute_length_mean_gap": 1.2083333333333321,
+        "legal5_48": 14,
+        "copy": 0,
+        "duplicate": 0
+      },
+      "AMD": {
+        "MMD2": 0.007709821687840027,
+        "dipeptide_JS_bits": 0.36559369734732183,
+        "mean_length": 16.5,
+        "absolute_length_mean_gap": 0.36956521739130466,
+        "legal5_48": 15,
+        "copy": 0,
+        "duplicate": 0
+      }
+    }
+  },
+  "sampling": "每臂FREE16、AMD16；dev为FREE18、AMD23，train为126、153。ABC使用相同预锁slot-position uniform bank；D为历史复用。ABC新96+D历史32，共128条，均非空且合法1–48；所有组精确训练复制和重复均0。六组比较复用A和dev，不是六次独立重复。",
+  "metric_definitions": {
+    "MMD2": "Biased linear ||mean(phi_generated)-mean(phi_dev)||^2; phi=[L/48,20 per-sequence AA fractions,400 per-sequence dipeptide fractions]/sqrt(3). No fitted scale/bandwidth.",
+    "dipeptide_JS_bits": "0.5 KL2(P||(P+Q)/2)+0.5 KL2(Q||(P+Q)/2), pooled within-sequence adjacent-pair frequencies; longer sequences contribute more pairs; no cross-sequence boundary pairs.",
+    "absolute_length_mean_gap": "abs(mean generated length - mean same-terminal dev length); units=residues; NOT per-sequence length MAE.",
+    "legal5_48": "Canonical AA and length5..48 count /16 requested slots.",
+    "copy": "Exact sequence found anywhere in train279, ignoring terminal;count/16.",
+    "duplicate": "(number completed sequences-number unique completed sequences)/16;all current groups0.",
+    "failure": "All requested slots retained;candidate empty/incomplete blocks promotion, incomplete control means NOT_EVALUABLE;current all complete.",
+    "uncertainty": "No ARv3 confidence intervals,p-values,independent training-seed uncertainty or significance. Historical CE/AR bootstrap is not reusable as ARv3 uncertainty."
+  },
+  "scope_boundary": "结论仅适用于冻结q/DDPM、seed222、ABC各1000更新、该固定32-z库和token随机数库，以及反复使用的dev41。不能推广到所有AR/VAE/prior；C参数量较少，D为历史方法且读出/历史计算成本不同；无活性或旧湿实验前瞻验证。",
+  "mechanism_evidence": [
+    {
+      "hypothesis": "posterior-to-generation-latent distribution mismatch contributes",
+      "supports": "保存的CE AMD生成/训练logσ标准差比5.485；μ/logσ超过同坐标有限训练范围的比例32.51%/29.18%。同n参考仍显示部分尺度差异。AR v3正确后验重建较好，而生成z对应序列指标较差，与来源错位相容。",
+      "against_or_missing": "有限训练范围不是潜空间合法边界。旧source B经验后验对旧source A DDPM的MMD：FREE0.017888733398>0.017327803379；AMD0.013236364505>0.007709821688，且最近train相似度≥70%为7/16、14/16，AMD有1次精确复制。它反对旧卷积/J下来源替换必能修复；不直接否定新AR A可能受益，亦不能锁定DDPM为唯一原因。"
+    },
+    {
+      "hypothesis": "excessive latent reliance",
+      "supports": "A的S8重建0.6908023671，同一A输入错配z为0.0975326662；μ重建0.8212602042，z=0为0.1884841600。说明模型确实利用正确潜变量信息。",
+      "against_or_missing": "错配主动移除了目标对应信息，z=0又是分布外输入；只能说明依赖，不能证明依赖过强导致生成失败。B/C自由生成更好与捷径解释相容，但缺少控制依赖程度的干预。经典忽略z的posterior collapse与本次巨大正确/错配差异不符。"
+    },
+    {
+      "hypothesis": "optimization不足",
+      "supports": "旧冻结CE20表示上的DDPM20→1000步使两个exp溢出请求变为有限。历史AR的dev NLL由step200的2.6153恶化至step1000的3.1698，说明终点和过拟合会影响结果。",
+      "against_or_missing": "成熟度实验使用不同CE20表示，仅两个请求，学习率阶段和数据暴露也变化，不能证明当前1000步欠拟合。后续warmup的S8由0.6611157985降至0.5890993501，mean由0.7227961129降至0.6578523605，反对更多/重加权拟合必然有效。当前没有收敛或预算前沿证据，不据此盲加步。"
+    }
+  ],
+  "strong_baseline_essence": "C直接学习p(x|terminal)=逐步p(下一个AA或EOS|前缀,terminal)的乘积；CE只计真实残基和首EOS，屏蔽PAD。训练和生成的信息接口一致，不依赖目标导出的表示及额外潜变量生成阶段。C的本次胜出是有限pilot事实，不证明AR家族已充分优化。",
+  "candidates": [
+    {
+      "id": 1,
+      "mechanism": "学习实际decoder-z的prior",
+      "difference": "结合Two-stage的分离训练思想与LSGM的直接潜变量score建模。当前AMP先生成r=(μ,logσ)，再重参数化z；拟议最小适配冻结q和A，只学习p(z|terminal)。Two-stage使用第二个VAE；完整LSGM通常联合训练VAE和score prior。该适配不是官方复现，也不是新机制。",
+      "status": "SELECTED_AS_FALSIFIABLE_HYPOTHESIS_ONLY"
+    },
+    {
+      "id": 2,
+      "mechanism": "InfoVAE聚合后验匹配",
+      "difference": "调整encoder目标，使聚合q(z|terminal)匹配生成时合法可用的prior，同时管理重建/信息项；不等于只增大β。需要重训q/decoder、确定latent核与权重，且不能借reference-g；干预范围较大，不作为第一选择。"
+    },
+    {
+      "id": 3,
+      "mechanism": "VampPrior可学习伪输入混合",
+      "difference": "可学习先验与encoder耦合，不是抽取真实train donor。AMP还需解决离散伪输入与terminal条件，禁止借真实残基g或长度；有组件数、正则化及记忆风险，旧source B负结果使朴素重放不足以成立。"
+    }
+  ],
+  "selected_hypothesis": {
+    "claim": "在另行冻结的有限预算下，直接建模实际采样decoder-z，比建模后验参数对r更能改善同一冻结A的自由生成。这是成熟方法适配的可行性假说，不是新颖性或胜出保证。",
+    "comparison": "新拟合且预算匹配的r-prior→同一A，对比direct-z prior→同一A；纯C保留为实用强基线，并匹配开发机会；历史D仅作背景。train/dev、q、A、terminal信息、token采样、上限及零调参保持一致。",
+    "falsifier": "如果两个末端的自由生成MMD/JS和长度保护条件不能较匹配r-prior改善，则否定本次有限预算收益。只有latent拟合变好也算失败；若改善r-prior却仍输C，不得宣称AR优势或复杂管线价值。失败保留，不追加尝试。",
+    "necessary_preconditions": "当前仅供父任务判断，无运行准入。原DDPM输入[B,2,16,48]且c_in=c_out=2；direct-z沿用布局是[B,1,16,48]，即2→1通道，不能误写32→16通道或参数减半。准入前必须解决接口/有效参数量、latent缩放、损失归一化、噪声日程与实际计算量公平；不顺手改whitening/KL/decoder。预算、种子、样本库、最小效应和保护规则需在新输出前冻结；无法说明公平性则继续HOLD。",
+    "why_not_more_probes": "若将来获准，这是训练一个实际生成prior并对完整生成链做端到端评价，对比匹配prior和AR；不是仅解码带目标信息的诊断来源。"
+  },
+  "backup": {
+    "exact_recorded_reason": "BLOCKED_NO_AUTHORIZED_VERIFIED_DESTINATION",
+    "constraints": "没有获授权且已验证可恢复的外部目标；当前明确禁止上传、push、生产访问、凭据读取、付费调用及被拒认证重试。A10的SSH banner不等于已认证会话，也不构成备份目的地授权。",
+    "historical_local_capacity": "2026-10-11T20:54:53Z历史快照为216286998528空闲字节（约201GiB），不是本次容量验证；当时未创建归档或副本。",
+    "safe_steps_now": [
+      "整理最终态文件白名单及SHA256，记录外部源码、train/dev与runtime依赖；不打开test37或凭据文件。",
+      "另行授权本地复制后，可仅在amp_h5内制作限定范围归档，隔离解压并逐文件验hash、静态验证依赖路径；不运行模型。同卷副本仍不是外部备份。",
+      "解除外部阻塞需要后续明确传输授权，以及用户/管理员通过既有批准通道配置并验证的目的地；不传聊天密码、不新建凭据、不改安全设置。先只读核容量与权限，再按白名单复制、端到端校验hash并验证恢复，才能宣布备份完成。"
+    ],
+    "current_action": "本轮未创建归档、复制、外部连接探测或凭据操作；BACKUP_BLOCKED保持。"
+  },
+  "independent_static_review": {
+    "reviewer": "/root/ar_admission_independent",
+    "result": "科学边界获认可；已纳入DDPM通道2→1以及旧source B仅适用于旧decoder的两项修正；不构成执行准入。"
+  },
+  "official_sources": [
+    {
+      "method": "LSGM",
+      "paper": "https://papers.nips.cc/paper_files/paper/2021/hash/5dca4c6b9e244d24a30b4c45601d9720-Abstract.html",
+      "official_code": "https://github.com/NVlabs/LSGM",
+      "checked_code": "https://raw.githubusercontent.com/NVlabs/LSGM/main/training_obj_joint.py",
+      "anchor": "train_vada_joint: vae(x) all_eps -> concat_eps_per_scale -> diffusion.sample_q(eps, noise) -> dae; separate VAE and score objectives",
+      "publication": "NeurIPS 2021"
+    },
+    {
+      "method": "Two-stage VAE",
+      "paper": "https://openreview.net/forum?id=B1e0X3C9tQ",
+      "official_code": "https://github.com/daib13/TwoStageVAE",
+      "checked_code": "https://raw.githubusercontent.com/daib13/TwoStageVAE/master/network/two_stage_vae_model.py",
+      "anchor": "loss2 reconstructs self.z; opt2 updates stage2 only; generate(stage=2) samples u -> z -> x",
+      "publication": "ICLR 2019"
+    },
+    {
+      "method": "InfoVAE",
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/4538",
+      "official_code": "https://github.com/ShengjiaZhao/MMD-Variational-Autoencoder",
+      "checked_code": "https://raw.githubusercontent.com/ShengjiaZhao/MMD-Variational-Autoencoder/master/mmd_vae.py",
+      "tutorial": "https://ermongroup.github.io/blog/a-tutorial-on-mmd-variational-autoencoders/",
+      "anchor": "author tutorial compute_mmd and loss_nll + loss_mmd; aggregated posterior matching, Gaussian latent kernel not our421 linear sequence metric",
+      "publication": "AAAI 2019"
+    },
+    {
+      "method": "VampPrior",
+      "paper": "https://proceedings.mlr.press/v84/tomczak18a.html",
+      "official_code": "https://github.com/jmtomczak/vae_vampprior",
+      "checked_code": "https://raw.githubusercontent.com/jmtomczak/vae_vampprior/master/models/VAE.py",
+      "anchor": "add_pseudoinputs; log_p_z encodes pseudo-inputs and logsumexp mixes posteriors; generate_x samples corresponding posterior",
+      "publication": "AISTATS 2018"
+    }
+  ],
+  "local_source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_POSTFLIGHT_v1.json",
+      "sha256": "dfde1c9ea909e0464be34b6d882ccfde628a356daf1b7357a3351f446624f823"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/HANDOFF_H5_FOUR_ARM_AND_SOURCE_DIAGNOSTIC_FINAL.zh.md",
+      "sha256": "b0def020ccee9245cab117816c22865f319c4553c4365c26a291322e72b59142"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_REPLACEMENT_FINAL_SCIENTIFIC_REVIEW_v2.zh.md",
+      "sha256": "3021dcce5b3bd13f0616043dececcb6f1d492d4cf1a43dc31f6b389bd3e82b98"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/READOUT.zh.md",
+      "sha256": "6d44557fa8f0c0e617973cbadb211d066e490201695dc23db3d1350694699e07"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ddpm_maturity_author/READOUT.zh.md",
+      "sha256": "8e6445f4c321907b50cb1fcfa4391ac6402b040d3fd1616233d95df0cce4e461"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/author_v2/READOUT.zh.md",
+      "sha256": "1971c1f362e0f4376df495d1808f93f7f987f62b54baea372a317881585e9fce"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_run_v1/PAIRED_RESOURCE_GUARD.json",
+      "sha256": "a879cf42952903758c814e7b1a001099f31f65978a0576d8a8f4a77ab6b2aea2"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/ops/LOCAL_BACKUP_FEASIBILITY_v1.json",
+      "sha256": "8920c5e45f3a2391c031022cf646eeec90055e3dc49c33ca04e46c257083c6c0"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+      "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+    }
+  ]
+}

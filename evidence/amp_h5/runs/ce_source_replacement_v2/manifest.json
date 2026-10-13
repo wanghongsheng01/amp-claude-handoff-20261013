@@ -1,0 +1,138 @@
+{
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/BASE_INPUTS_SEAL.json",
+      "sha256": "64ef940ab02b79a7ea59a4422c4c56c4cbfa10a1a6da641609e615063a25f9a8",
+      "bytes": 9782
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/COORDINATE_PERMUTATION_C_AMD.npz",
+      "sha256": "60d09bf4e308738070798ecaec1e9ee1b8eac667a0bb3d9b4d606e40a0aa4724",
+      "bytes": 108972
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/COORDINATE_PERMUTATION_C_FREE.npz",
+      "sha256": "927e02cf952dddb3dcd10a44a6878ad89f4395ae62dfbf4ba0c64f9a3bd7aed6",
+      "bytes": 109107
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/DECODER_INPUTS_SEAL.json",
+      "sha256": "068cc2778458604b9541f977e06c2ac3a56dded20ade2377b468c4acc9db886d",
+      "bytes": 1611
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/D_ROUNDTRIP.json",
+      "sha256": "a887d2688c4b7bf45c2e925e78161b8982f795b44ba27fa84cb29161a14213b4",
+      "bytes": 3379
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/D_inverse_AMD.npz",
+      "sha256": "507b2e9e22db284b366c33ca80862896d6618f79d1d2bbeb95ad0a66a802f554",
+      "bytes": 92507
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/D_inverse_FREE.npz",
+      "sha256": "90a39820c6e8ef2148fce0590554bf1d4ae42d8650f39a8f6d5f0e72ddca0c6d",
+      "bytes": 92793
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/D_roundtrip_AMD.npz",
+      "sha256": "b046dfd102b6464de92bc6a55c23d5a3c02a5a5d3a34ba18307cb2cd0c408eea",
+      "bytes": 181575
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/D_roundtrip_FREE.npz",
+      "sha256": "ee9d80e0dd2d89ca49fac86d653fc1210dbe98928d4f2c4727345446ad81b27e",
+      "bytes": 181599
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/EMPIRICAL_POSTERIOR_B_AMD.npz",
+      "sha256": "00ab408224c718ad5341e4de9c080979cbc793d86beb87f06e6fc1d7ed088d1c",
+      "bytes": 108831
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/EMPIRICAL_POSTERIOR_B_FREE.npz",
+      "sha256": "0c8bd285055e6d2714ef20d1e94d08324c6d5dda02191b7a468a6991579b8a39",
+      "bytes": 108903
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REFERENCE_G_PRIOR_D_AMD.npz",
+      "sha256": "3e78324895473d148dc4d4a5a4a9e6f626f8d22cfd0d53a3944abac4f5938b3d",
+      "bytes": 108870
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REFERENCE_G_PRIOR_D_FREE.npz",
+      "sha256": "0e83f26a17b9a1a71af1979602ca126e72945335be89a80c918345747d43d508",
+      "bytes": 108969
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REQUEST_SLOTS.json",
+      "sha256": "8a4ec99b4781c746109d780fc312b85315f508ce13bdfef91c75362127249f2d",
+      "bytes": 51164
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/REUSED_DDPM_SLOTS.json",
+      "sha256": "750198d74967cb4f0cc8ee74b9c2aaf8a58fe272bb79e614248b512b775842c3",
+      "bytes": 18820
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/contract.json",
+      "sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8",
+      "bytes": 29507
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+      "sha256": "9b37d8469978e5b529acffde790c55fd0478da9766511e9ca61cde89a64bc7d7",
+      "bytes": 15580
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generation_summary.json",
+      "sha256": "49e840723d2e3d6c004662a9bdc794f119bc1360995851a729428776d522c8f0",
+      "bytes": 204
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/input_integrity_after.json",
+      "sha256": "339acc3b09add3c3d0e689adf17878a1bd264d3a3f00fccce7db538630e20066",
+      "bytes": 19
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/model_identity_after.json",
+      "sha256": "1890ed045456db5afc5dfee944cec8b2095ea48cc14463fc70390ddf2bd9f8c6",
+      "bytes": 183
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/model_identity_before.json",
+      "sha256": "c800c6472ee7cf3eb61751ce9b4375ec92475d2e0be904c83c6b1b71aab41e38",
+      "bytes": 181
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/prepared_AMD.npz",
+      "sha256": "157b23762e859e39c7d927d0d3d9186be2b8ebc844034f0ff5a35fb752c8a725",
+      "bytes": 252989
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/prepared_FREE.npz",
+      "sha256": "9a48b60c908c7fead64ab4b6286f451ffd6fb59074a2d9c30928325659838628",
+      "bytes": 270026
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/reused_ddpm.csv",
+      "sha256": "95ba85cbc217f09eb9d40d073816c9be811f9376654148bbf7fc48370f0f36c8",
+      "bytes": 9651
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1",
+      "bytes": 24995
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/status.json",
+      "sha256": "92e20fa49d35271f68790ce209e77c14c88cdf6cca62c04b60d2dae7165a4332",
+      "bytes": 1762
+    }
+  ],
+  "state": "completed",
+  "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+  "posthoc_exploratory_only": true,
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION"
+}

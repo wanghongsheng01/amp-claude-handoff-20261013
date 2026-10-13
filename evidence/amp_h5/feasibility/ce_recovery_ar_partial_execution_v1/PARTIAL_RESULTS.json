@@ -1,0 +1,500 @@
+{
+  "created_utc": "2026-10-11T18:16:27.242429+00:00",
+  "scope": "recovery-based CE plus original AR descriptive partial comparison only",
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "recovery_engineering": "PASS",
+  "recovery_L": "NOT_EVALUABLE_MISSING_MATCHED_MSE",
+  "recovery_G": "FAIL",
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "generation_groups": [
+    {
+      "method": "CE21_DDPM",
+      "terminal": "AMD",
+      "requests": 16,
+      "execution_completed": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "valid_1_48": 16,
+      "valid_5_48": 15,
+      "unique_valid_1_48": 16,
+      "same_terminal_train_copy": 0,
+      "any_terminal_train_copy": 0,
+      "length": {
+        "n": 16,
+        "mean": 16.5,
+        "min": 4,
+        "max": 30,
+        "median": 18.0
+      },
+      "train": {
+        "aa_jensen_shannon_bits": 0.09447216287998406,
+        "aa_l1_distance": 0.489628349178911,
+        "dipeptide_jensen_shannon_bits": 0.2931123928240505,
+        "dipeptide_l1_distance": 0.9357077816423107,
+        "mmd2_linear_biased_fixed_features": 0.008949882952629573,
+        "length_ks_statistic_no_pvalue": 0.25531045751633985
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.08845070704817436,
+        "aa_l1_distance": 0.42518173650249125,
+        "dipeptide_jensen_shannon_bits": 0.36559369734732183,
+        "dipeptide_l1_distance": 1.0693362995921398,
+        "mmd2_linear_biased_fixed_features": 0.007709821687840033,
+        "length_ks_statistic_no_pvalue": 0.30163043478260865
+      },
+      "AA_entropy_gap_to_train": 0.5628404258673214,
+      "dipeptide_entropy_gap_to_train": 1.1944294087053766,
+      "nearest_same_terminal_train_identity": {
+        "n": 16,
+        "mean": 0.44308949693237615,
+        "min": 0.3076923076923077,
+        "max": 0.5714285714285714,
+        "median": 0.4392857142857143
+      },
+      "nearest_any_terminal_train_identity": {
+        "n": 16,
+        "mean": 0.4544759905557119,
+        "min": 0.3333333333333333,
+        "max": 0.5714285714285714,
+        "median": 0.45
+      }
+    },
+    {
+      "method": "CE21_DDPM",
+      "terminal": "FREE",
+      "requests": 16,
+      "execution_completed": 16,
+      "status_counts": {
+        "no_eos_at_limit": 1,
+        "ok": 15
+      },
+      "valid_1_48": 16,
+      "valid_5_48": 14,
+      "unique_valid_1_48": 16,
+      "same_terminal_train_copy": 0,
+      "any_terminal_train_copy": 0,
+      "length": {
+        "n": 16,
+        "mean": 17.125,
+        "min": 2,
+        "max": 48,
+        "median": 17.5
+      },
+      "train": {
+        "aa_jensen_shannon_bits": 0.10169432347600005,
+        "aa_l1_distance": 0.5175679769532836,
+        "dipeptide_jensen_shannon_bits": 0.339680009815442,
+        "dipeptide_l1_distance": 1.0191052705515768,
+        "mmd2_linear_biased_fixed_features": 0.01741593479424502,
+        "length_ks_statistic_no_pvalue": 0.27976190476190477
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.09931655138833544,
+        "aa_l1_distance": 0.5353240433532405,
+        "dipeptide_jensen_shannon_bits": 0.41789109667112806,
+        "dipeptide_l1_distance": 1.1437090041741205,
+        "mmd2_linear_biased_fixed_features": 0.01732780337937688,
+        "length_ks_statistic_no_pvalue": 0.2638888888888889
+      },
+      "AA_entropy_gap_to_train": 0.6667418133772367,
+      "dipeptide_entropy_gap_to_train": 1.6513668509043402,
+      "nearest_same_terminal_train_identity": {
+        "n": 16,
+        "mean": 0.4002025295610822,
+        "min": 0.2222222222222222,
+        "max": 0.5238095238095238,
+        "median": 0.40283400809716596
+      },
+      "nearest_any_terminal_train_identity": {
+        "n": 16,
+        "mean": 0.42395218086007563,
+        "min": 0.2222222222222222,
+        "max": 0.5454545454545454,
+        "median": 0.4444444444444444
+      }
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "AMD",
+      "requests": 16,
+      "execution_completed": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "valid_1_48": 16,
+      "valid_5_48": 16,
+      "unique_valid_1_48": 16,
+      "same_terminal_train_copy": 0,
+      "any_terminal_train_copy": 0,
+      "length": {
+        "n": 16,
+        "mean": 13.9375,
+        "min": 8,
+        "max": 20,
+        "median": 13.5
+      },
+      "train": {
+        "aa_jensen_shannon_bits": 0.02143156327866584,
+        "aa_l1_distance": 0.1900539124300902,
+        "dipeptide_jensen_shannon_bits": 0.24479706221132147,
+        "dipeptide_l1_distance": 0.821077198559444,
+        "mmd2_linear_biased_fixed_features": 0.003157921938791385,
+        "length_ks_statistic_no_pvalue": 0.18218954248366015
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.044849491729849957,
+        "aa_l1_distance": 0.3283816614893695,
+        "dipeptide_jensen_shannon_bits": 0.3061247711079168,
+        "dipeptide_l1_distance": 0.9134599366983188,
+        "mmd2_linear_biased_fixed_features": 0.007361941924628023,
+        "length_ks_statistic_no_pvalue": 0.24456521739130435
+      },
+      "AA_entropy_gap_to_train": 0.2423471525789873,
+      "dipeptide_entropy_gap_to_train": 0.9979346104615594,
+      "nearest_same_terminal_train_identity": {
+        "n": 16,
+        "mean": 0.5128502796652952,
+        "min": 0.4166666666666667,
+        "max": 0.6666666666666666,
+        "median": 0.5
+      },
+      "nearest_any_terminal_train_identity": {
+        "n": 16,
+        "mean": 0.5248463697073033,
+        "min": 0.42857142857142855,
+        "max": 0.6666666666666666,
+        "median": 0.5147058823529411
+      }
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "FREE",
+      "requests": 16,
+      "execution_completed": 16,
+      "status_counts": {
+        "ok": 16
+      },
+      "valid_1_48": 16,
+      "valid_5_48": 16,
+      "unique_valid_1_48": 16,
+      "same_terminal_train_copy": 0,
+      "any_terminal_train_copy": 0,
+      "length": {
+        "n": 16,
+        "mean": 21.0625,
+        "min": 10,
+        "max": 48,
+        "median": 17.0
+      },
+      "train": {
+        "aa_jensen_shannon_bits": 0.02824255636122359,
+        "aa_l1_distance": 0.2597961189639107,
+        "dipeptide_jensen_shannon_bits": 0.24461102296986983,
+        "dipeptide_l1_distance": 0.8100253019035456,
+        "mmd2_linear_biased_fixed_features": 0.004091706134265748,
+        "length_ks_statistic_no_pvalue": 0.1339285714285714
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.05962819002825927,
+        "aa_l1_distance": 0.44325150615951814,
+        "dipeptide_jensen_shannon_bits": 0.37161584838898454,
+        "dipeptide_l1_distance": 1.0163551401869153,
+        "mmd2_linear_biased_fixed_features": 0.011567464907748784,
+        "length_ks_statistic_no_pvalue": 0.20138888888888895
+      },
+      "AA_entropy_gap_to_train": 0.15753585763459155,
+      "dipeptide_entropy_gap_to_train": 0.8011723205057821,
+      "nearest_same_terminal_train_identity": {
+        "n": 16,
+        "mean": 0.4690311089225781,
+        "min": 0.38,
+        "max": 0.5882352941176471,
+        "median": 0.4606060606060606
+      },
+      "nearest_any_terminal_train_identity": {
+        "n": 16,
+        "mean": 0.4906306541894027,
+        "min": 0.38,
+        "max": 0.5882352941176471,
+        "median": 0.49
+      }
+    }
+  ],
+  "CE_mean_reconstruction": [
+    {
+      "method": "CE21_DDPM",
+      "split": "train",
+      "rows": 279,
+      "mode": "posterior_mean",
+      "target_residues": 4868,
+      "rendered_aligned_correct": 3580,
+      "rendered_nonpad_micro": 0.7354149548069022,
+      "rendered_nonpad_macro": 0.4646225971400127,
+      "macro_definition": "unweighted mean recall among target-supported amino acid classes, excluding PAD",
+      "per_sequence_mean_nonpad_accuracy": 0.7553036976103766,
+      "target_support_by_aa": {
+        "A": 341,
+        "C": 43,
+        "D": 47,
+        "E": 60,
+        "F": 274,
+        "G": 311,
+        "H": 97,
+        "I": 395,
+        "K": 803,
+        "L": 622,
+        "M": 47,
+        "N": 114,
+        "P": 190,
+        "Q": 90,
+        "R": 571,
+        "S": 167,
+        "T": 111,
+        "V": 275,
+        "W": 236,
+        "Y": 74
+      },
+      "rendered_correct_by_aa": {
+        "A": 297,
+        "C": 0,
+        "D": 0,
+        "E": 0,
+        "F": 271,
+        "G": 262,
+        "H": 0,
+        "I": 118,
+        "K": 795,
+        "L": 562,
+        "M": 0,
+        "N": 0,
+        "P": 88,
+        "Q": 0,
+        "R": 571,
+        "S": 167,
+        "T": 30,
+        "V": 185,
+        "W": 234,
+        "Y": 0
+      },
+      "supported_aa_classes": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "Y"
+      ],
+      "length_absolute_error_sum": 19,
+      "length_mae": 0.06810035842293907,
+      "length_exact_count": 260,
+      "whole_rendered_exact_count": 21,
+      "whole_rendered_exact_fraction": 0.07526881720430108,
+      "empty_count": 0,
+      "status_counts": {
+        "ok": 279
+      }
+    },
+    {
+      "method": "CE21_DDPM",
+      "split": "development",
+      "rows": 41,
+      "mode": "posterior_mean",
+      "target_residues": 701,
+      "rendered_aligned_correct": 497,
+      "rendered_nonpad_micro": 0.7089871611982882,
+      "rendered_nonpad_macro": 0.427601056550582,
+      "macro_definition": "unweighted mean recall among target-supported amino acid classes, excluding PAD",
+      "per_sequence_mean_nonpad_accuracy": 0.7227961128580325,
+      "target_support_by_aa": {
+        "A": 38,
+        "C": 3,
+        "D": 9,
+        "E": 9,
+        "F": 47,
+        "G": 56,
+        "H": 8,
+        "I": 54,
+        "K": 142,
+        "L": 91,
+        "M": 3,
+        "N": 17,
+        "P": 21,
+        "Q": 17,
+        "R": 49,
+        "S": 28,
+        "T": 15,
+        "V": 61,
+        "W": 28,
+        "Y": 5
+      },
+      "rendered_correct_by_aa": {
+        "A": 26,
+        "C": 0,
+        "D": 0,
+        "E": 0,
+        "F": 47,
+        "G": 42,
+        "H": 0,
+        "I": 9,
+        "K": 142,
+        "L": 86,
+        "M": 0,
+        "N": 0,
+        "P": 8,
+        "Q": 0,
+        "R": 49,
+        "S": 28,
+        "T": 2,
+        "V": 30,
+        "W": 28,
+        "Y": 0
+      },
+      "supported_aa_classes": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "Y"
+      ],
+      "length_absolute_error_sum": 0,
+      "length_mae": 0.0,
+      "length_exact_count": 41,
+      "whole_rendered_exact_count": 3,
+      "whole_rendered_exact_fraction": 0.07317073170731707,
+      "empty_count": 0,
+      "status_counts": {
+        "ok": 41
+      }
+    }
+  ],
+  "failed_G_checks": {
+    "FREE": {
+      "development_mmd2_strictly_lower": {
+        "left": 0.01732780337937688,
+        "right": 0.011567464907748784,
+        "operator": "lt",
+        "pass": false
+      },
+      "valid5_count_not_lower": {
+        "left": 14,
+        "right": 16,
+        "operator": "ge",
+        "pass": false
+      },
+      "aa_entropy_train_gap_not_larger": {
+        "left": 0.6667418133772367,
+        "right": 0.15753585763459155,
+        "operator": "le",
+        "pass": false
+      },
+      "dipeptide_entropy_train_gap_not_larger": {
+        "left": 1.6513668509043402,
+        "right": 0.8011723205057821,
+        "operator": "le",
+        "pass": false
+      }
+    },
+    "AMD": {
+      "development_mmd2_strictly_lower": {
+        "left": 0.007709821687840033,
+        "right": 0.007361941924628023,
+        "operator": "lt",
+        "pass": false
+      },
+      "valid5_count_not_lower": {
+        "left": 15,
+        "right": 16,
+        "operator": "ge",
+        "pass": false
+      },
+      "aa_entropy_train_gap_not_larger": {
+        "left": 0.5628404258673214,
+        "right": 0.2423471525789873,
+        "operator": "le",
+        "pass": false
+      },
+      "dipeptide_entropy_train_gap_not_larger": {
+        "left": 1.1944294087053766,
+        "right": 0.9979346104615594,
+        "operator": "le",
+        "pass": false
+      }
+    }
+  },
+  "AR_full_group_metrics_equal_prior_AR_only_readout": {
+    "AMD": true,
+    "FREE": true
+  },
+  "requests_retained": 64,
+  "future_MSE_scalar_observations_created": 0,
+  "quality_not_used_for_next_arm_authorization": true,
+  "evaluation_manifest_integrity": "VERIFIED_CONSUMED_JSON",
+  "inputs_unchanged": true,
+  "model_calls": 0,
+  "test_read": false,
+  "metric_source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1/generation_metrics.json",
+    "bytes": 370981,
+    "sha256": "cbbd4c672bf2b1de6ddeec0f8202822985f9cfc2ffb79c2caf695bd96b8644e5"
+  },
+  "reconstruction_source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1/reconstruction_metrics.json",
+    "bytes": 4722,
+    "sha256": "7630f1ddd41be67a5a0b76c621e043f13cb4c22da2b4234d354a4cdf86aa431c"
+  },
+  "gate_source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1/exploratory_gates.json",
+    "bytes": 3576,
+    "sha256": "10c0b0a3629b0903bdee797aef5c4f0dc614d5dcd00372b04ec749f83f44df9b"
+  },
+  "commands": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_execution_v1/EVALUATION_COMMAND.json",
+      "bytes": 7261,
+      "sha256": "e26a2b5ccfc0136d81b989f9b5dc73eec3b3f330afb1ef6022c0055ea86aa34f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_execution_v1/READOUT_COMMAND.json",
+      "bytes": 1530,
+      "sha256": "3aded943390c777e307f57b968b4955b820fe8679166f43a2f4e96f5ec455e3e"
+    }
+  ],
+  "limits": [
+    "No significance, antimicrobial activity, safety or submission claim.",
+    "CE devmean does not establish L without matched MSE.",
+    "AR adequacy remains unestablished; fixed1000 dev NLL worsening remains recorded.",
+    "CE recovery has extra attempted generation cost and disclosed AMD posterior tail mismatch; original total wall is unknown.",
+    "Both exact-copy scopes count zero observed copies; this does not establish novelty or generalization."
+  ]
+}

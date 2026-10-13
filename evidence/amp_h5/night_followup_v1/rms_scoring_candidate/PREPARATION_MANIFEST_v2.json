@@ -1,0 +1,70 @@
+{
+  "scope_id": "AMP_H5_CE_RMS_SCORING_V2",
+  "status": "FROZEN_CANDIDATE_PENDING_INDEPENDENT_PREAUDIT",
+  "created_utc": "2026-10-11T21:08:15.767519+00:00",
+  "contract": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_SCORING_CONTRACT_v2.json",
+    "bytes": 5766,
+    "sha256": "ca3db6d0f70d9205d90f80f8c0ac000f88db4dd18800f41af964b0fcc4d0e3d1"
+  },
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/SYNTHETIC_SCORER_RESULT_v1.json",
+      "bytes": 417,
+      "sha256": "313fc449ec5378a0df40a931cbfadd501d5b99c8b4a6e64a8c003ddcca0c70bd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/SYNTHETIC_SCORER_RESULT_v2.json",
+      "bytes": 936,
+      "sha256": "8055de9277e94a9eea389217c6011a3a940c901f63117ec424078d9a8cb441b8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/SYNTHETIC_SCORER_RESULT_v3.json",
+      "bytes": 978,
+      "sha256": "eb93c10151aec3ae341d8ccaa6fe6d6b5ba81c9a671513c0a0857cea5c2670c6"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/SYNTHETIC_SCORER_V2_RESULT_v1.json",
+      "bytes": 970,
+      "sha256": "6d2165d54be29c3bc16d1bae0d13751508002a72c62f27fbc334654a2d9810c9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/SYNTHETIC_SCORER_V2_RESULT_v2.json",
+      "bytes": 1146,
+      "sha256": "a27850569f656cf036d90123f51df320f9125501f47296f2334ad4164c555e6b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/rms_metric_core.py",
+      "bytes": 6680,
+      "sha256": "2e55dd45da964367ca24555b7e42e4d82d8c9be226c9816b714ab283b70ad31a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/score_rms_v1.py",
+      "bytes": 24615,
+      "sha256": "5896fea554c37979ed37abf87b5c0472002833539e4e6bb7d5e4f9182d13cc67"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/score_rms_v2.py",
+      "bytes": 27853,
+      "sha256": "e2bae3222e5a13f0de4bc92f658ace2eaf336e17386eb42e416283b9986a2e75"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/synthetic_core_checks.py",
+      "bytes": 8503,
+      "sha256": "75395bf3ec28a22ef7b04aaf43670e0343c12ff7166fe33f9b0762cd981112d7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/synthetic_scorer_checks.py",
+      "bytes": 6088,
+      "sha256": "aea1a11beffb55c55ed07ed3cc35447c6d88a92cc46a3ddff48c644b8a4c4d76"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_candidate/synthetic_scorer_checks_v2.py",
+      "bytes": 6955,
+      "sha256": "e3a4ef44db4a234387c005b511a98cf379c460dc15aaaca59692f5a506d3718d"
+    }
+  ],
+  "new_natural_scoring_runs": 0,
+  "new_model_calls": 0,
+  "old_v1_never_executed": true
+}

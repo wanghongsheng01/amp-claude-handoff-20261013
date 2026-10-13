@@ -1,0 +1,23 @@
+{
+  "scope": "AMP authorized fresh local reconstruction pilot, separate from frozen candidate_v6r3 and historical inputs",
+  "purpose": "Measure executable training-generation-validation path and 200-update throughput before budgeting substantive experiments",
+  "evidence_boundary": "New experiments on a small filtered public cohort; not reproduction of historical results, not independent antimicrobial activity gold, not prospective validation of old 27 peptides",
+  "dataset": "DRAMP public snapshot conservative metadata screen, fixed upstream protocol v3, 165 records/164 sequences",
+  "split": "149 train /7 validation /8 held-out test; fixed global NW identity70% connected components; all31 historical exclusion strings and their transitive neighbours removed (no eligible matches in this cohort)",
+  "features": "preprocessing/descriptor_protocol_v2.json; raw descriptors preserved, train-only population zscore fitted in runner",
+  "architecture": "Retrieved VAE16 latent,48 positions,100 embedding,8 encoder/4 decoder layers,4 additive flow blocks; original global-descriptor abs and padded-index regression MSE plus sampled flow KL/16 retained. Fresh DDPM on posterior mean/logsigma tensor [B,2,16,48], original999-step schedule, new single cohort class.",
+  "original_failure": "Unscaled historical example forward pass produced infinite/zero Normal scale before backward; retained in runner/forward_check_001",
+  "pilot_seed": 222,
+  "initial_training_budget": {"VAE_updates":200,"VAE_batch_size":32,"DDPM_updates":200,"DDPM_batch_size":8},
+  "initial_generation_attempts_per_method": 2,
+  "neural_methods": ["empirical_condition_flow_prior", "posterior_aggregate", "posterior_parameter_ddpm"],
+  "baseline_methods": ["first-order Markov, fixed Laplace alpha1", "train memorization resampling", "train sequence amino-acid shuffle"],
+  "prior_definition": "Sample residue-descriptor condition from train uniformly; draw standard normal, invert learned conditional additive flow, decode. This is an empirical condition mixture, not fully de novo descriptor generation.",
+  "compute_comparability": "Identical train cohort, seed and requested generation budget. VAE-only baselines use the same200-update VAE; DDPM additionally uses200 updates. Markov has closed-form fit and no neural updates. Report parameter counts, updates and measured wall time; do not call these equal-compute comparisons.",
+  "model_selection": "Pilot fixed configuration established before training; no checkpoint selection by test. Any future validation-informed adjustment must be a named new run. No silent retry or discarded failed attempts.",
+  "test_boundary": "No test losses, sequence-generation comparisons or activity metrics in this pilot. Partition-integrity auditing may read test membership; distinguish this from test-outcome use. Final test requires a separate configuration/budget/seed/selection lock.",
+  "metrics": "Execution status, nonfinite failure, validation reconstruction/noise-prediction diagnostics, AA validity and1-48/5-48 length, duplicates, copy, exact global nearest identity, low-order sequence distributions/MMD with fixed train-only definitions. None is an antimicrobial activity metric.",
+  "inference": "One seed and two samples per method cannot estimate reliable method superiority, confidence intervals, significance or convergence. Samples are not independent training replicates.",
+  "acceptance": "Engineering gate requires actual finite forward/backward and fresh checkpoint, generation attempts retained, baseline and metric scripts executed, independent review and hash-preserved originals. Scientific/venue readiness remains open regardless of gate result.",
+  "restrictions": ["no uploads/push/formal submission","no production/credentials/auth retries/paid models","no unverified GPU claim","no PPGC restricted-data workaround","no new wetlab claim","BACKUP_BLOCKED"]
+}

@@ -1,0 +1,46 @@
+{
+  "scope_id": "AMP_H5_NIGHT_DISTRIBUTION_V2",
+  "state": "CANDIDATE_FROZEN_PENDING_INDEPENDENT_PREAUDIT",
+  "supersedes_for_execution_only": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PREPARATION_MANIFEST_v1.json",
+    "bytes": 1538,
+    "sha256": "c3474d969de67c75e46e0b9ef24873eabbdafb06d62ae715564c7e2998224065"
+  },
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/distribution_diagnostic_v2.py",
+      "bytes": 19129,
+      "sha256": "7df021783b1f06a54b207ffb6b6117262badcb77e80ec43bac182084c984e7a5"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v2.json",
+      "bytes": 11616,
+      "sha256": "027611e8a8c3e1fee211c60c7f4ae6be2ba9c59ff8cc9af201efa5ef969c0c3a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/execute_once_v2.py",
+      "bytes": 2640,
+      "sha256": "478e41959473950832c8bf978baba51e0f31d16e46352c53de2c811dec1a724f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/check_synthetic_v2.py",
+      "bytes": 5927,
+      "sha256": "13bc90b81f9414ac35a60d936f38f74337f7144a439d04e2fb5327553abbb328"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/SYNTHETIC_RESULT_v2.json",
+      "bytes": 1870,
+      "sha256": "16eb8614de9d5a094fe800f0a4974ffc2a5cec10c171f45819cece22f7aa06d4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/DESIGN_v2.zh.md",
+      "bytes": 4641,
+      "sha256": "cf2085546e331262af208b44b50ca54d8b1b9492244c7addfa1a2e998e865a06"
+    }
+  ],
+  "natural_statistics_executed": false,
+  "model_calls": 0,
+  "test_reads": 0,
+  "fixture_exit_code": 0,
+  "receipt_required_before_natural_statistics": true
+}

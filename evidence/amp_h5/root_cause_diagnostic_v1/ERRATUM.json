@@ -1,0 +1,11 @@
+{
+  "scope": "metadata missingness report only",
+  "independent_confirmation": "independent/MISSINGNESS_RECHECK.json",
+  "issue": "Whitespace-only medium values were treated as observed",
+  "uM_point_medium_missing_before": 0,
+  "uM_point_medium_missing_corrected": 14,
+  "denominator": 68,
+  "effect_on_model_results": "None: medium not used for admission, features, weights, grouping or fitting in this experiment",
+  "action": "Correct only new diagnostic counts; keep original frozen v5 and censored-likelihood packages unchanged; preserve pre-correction diagnostics in history",
+  "recompute_training_required": false
+}

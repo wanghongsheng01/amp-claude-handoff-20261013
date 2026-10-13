@@ -1,0 +1,100 @@
+{
+  "created_utc": "2026-10-11T16:04:17.780254+00:00",
+  "engineering_training": "all_four_fixed_endpoints_finite",
+  "full_end_to_end_smoke": "FAIL_THREE_VAE_GENERATION_NUMERICAL_FAILURES",
+  "total_generation_requests": 8,
+  "generation_execution_successes": 2,
+  "generation_execution_failures": 6,
+  "rows": [
+    {
+      "arm": "terminal_lstm",
+      "state": "completed",
+      "process_seconds": 3.477028749883175,
+      "development_read": false,
+      "test_read": false,
+      "status_sha256": "eb9a17eb188ea3cd20b2f903823eebc94d3abb0034877e6786007b493b2dab44",
+      "updates": 100,
+      "training_seconds": 2.68213608302176,
+      "generation_requests": 2,
+      "generation_errors": 0
+    },
+    {
+      "arm": "categorical_ce",
+      "state": "completed_with_failure",
+      "process_seconds": 83.61939104227349,
+      "development_read": false,
+      "test_read": false,
+      "status_sha256": "23d60a4a4d64bbc41163c492126228a9b59b7397119a7b8944bedf8af04d3b5b",
+      "vae_updates": 20,
+      "ddpm_updates": 20,
+      "training_seconds": 42.02405612496659,
+      "generation": {
+        "elapsed_seconds": 41.07353204116225,
+        "requested": 2,
+        "successful_execution": 0,
+        "failed_execution": 2,
+        "not_executed": 0,
+        "condition_inputs": [
+          "terminal class only"
+        ],
+        "no_retry_or_filter": true
+      }
+    },
+    {
+      "arm": "raw_onehot_mse",
+      "state": "completed_with_failure",
+      "process_seconds": 86.12129270890728,
+      "development_read": false,
+      "test_read": false,
+      "status_sha256": "eb9542e44571c19e148ec7c1e22ec6a1f736cef06d1772773855a6e8d532ff4f",
+      "vae_updates": 20,
+      "ddpm_updates": 20,
+      "training_seconds": 43.488666917197406,
+      "generation": {
+        "elapsed_seconds": 41.96440399996936,
+        "requested": 2,
+        "successful_execution": 0,
+        "failed_execution": 2,
+        "not_executed": 0,
+        "condition_inputs": [
+          "terminal class only"
+        ],
+        "no_retry_or_filter": true
+      }
+    },
+    {
+      "arm": "scalar_legacy",
+      "state": "completed_with_failure",
+      "process_seconds": 85.32932429201901,
+      "development_read": false,
+      "test_read": false,
+      "status_sha256": "0d7b0d47f62a61c2c366257eaaef3027275b8100a98559e9c48af59d6450579f",
+      "vae_updates": 20,
+      "ddpm_updates": 20,
+      "training_seconds": 42.37623491603881,
+      "generation": {
+        "elapsed_seconds": 42.27294475026429,
+        "requested": 2,
+        "successful_execution": 0,
+        "failed_execution": 2,
+        "not_executed": 0,
+        "condition_inputs": [
+          "terminal class only"
+        ],
+        "no_retry_or_filter": true
+      }
+    }
+  ],
+  "CE_MSE_pair_checks": {
+    "initial_model_same": true,
+    "all20_batch_ids_same": true,
+    "all20_forward_rng_same": true
+  },
+  "diagnosis": "Each 20-step DDPM produced finite posterior-parameter tensors but exp(logsigma) overflowed. This does not identify the cause or prove longer training will fix it. Original generated posterior tensors were preserved.",
+  "formal_continuation_rationale": "Proceed with the already predeclared1000/1000 fixed pilot to measure the complete trained pipeline, without changing model, loss, seed, noise schedule, sigma handling or retry policy. Prior H4 shows the architecture can execute at1000, but does not guarantee H5. Independent formal preflight still required.",
+  "new_formal_instrumentation": "additional numeric summaries and exception-stage snapshots only; existing smoke x tensors were already saved",
+  "smoke_weights_reused": false,
+  "development_accessed": false,
+  "test_accessed": false,
+  "backup": "BACKUP_BLOCKED"
+}

@@ -1,0 +1,291 @@
+{
+  "schema": "AMP_H5_AR_LATENT_V3_DELIVERY_INDEX_V1",
+  "created_utc": "2026-10-12T02:13:50.380800+00:00",
+  "task": "Antimicrobial peptide AMP H5 only",
+  "execution": "COMPLETED_ONCE",
+  "independent_audit": "PASS",
+  "scientific_result": "RECONSTRUCTION_INFORMATION_PASS__FREE_GENERATION_FAIL",
+  "final_action": "STOP_THIS_FROZEN_ROUTE_KEEP_ALL_RESULTS",
+  "PROMOTE": "HOLD",
+  "BACKUP": "BACKUP_BLOCKED",
+  "arms": {
+    "A": "AR decoder with correctly paired frozen posterior z",
+    "B": "Same-capacity AR decoder with whole-z same-terminal derangement",
+    "C": "Runnable terminal-only autoregressive baseline; smaller capacity than A/B",
+    "D": "Historical frozen convolution/J outputs; no new D execution"
+  },
+  "resources": {
+    "natural_wall_seconds": 49.904627417214215,
+    "natural_cap_seconds": 660,
+    "updates_total": 3000,
+    "updates_each": 1000,
+    "natural_forward_total": 4172,
+    "new_generation_requests": 96,
+    "historical_generation_slots": 32,
+    "retries": 0,
+    "CPU_threads": 1,
+    "model_jobs_serial": true
+  },
+  "information_gate": {
+    "status": "PASS",
+    "A_S8": 0.6908023670646612,
+    "B_S8": 0.09195780008237533,
+    "A_mismatch_S8": 0.09753266616727502,
+    "A_minus_B": 0.5988445669822859,
+    "A_minus_mismatch": 0.5932697008973863,
+    "A_mu": 0.8212602042313966,
+    "C_plain": 0.12043600260488428,
+    "interpretation": "Target-informed reconstruction information only; not prior generation gain."
+  },
+  "generation_gate": {
+    "status": "FAIL",
+    "comparisons": [
+      {
+        "terminal": "FREE",
+        "control": "B",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap",
+          "legal5_48"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "FREE",
+        "control": "C",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap",
+          "legal5_48"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "FREE",
+        "control": "D",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "AMD",
+        "control": "B",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap",
+          "legal5_48"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "AMD",
+        "control": "C",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap",
+          "legal5_48"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "AMD",
+        "control": "D",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap"
+        ],
+        "pass": false
+      }
+    ],
+    "metrics": {
+      "A": {
+        "FREE": {
+          "MMD2": 0.021077888013689552,
+          "dipeptide_JS_bits": 0.6019690520931582,
+          "mean_length": 12.0,
+          "absolute_length_mean_gap": 6.333333333333332,
+          "legal5_48": 14,
+          "copy": 0,
+          "duplicate": 0
+        },
+        "AMD": {
+          "MMD2": 0.02011673424588856,
+          "dipeptide_JS_bits": 0.5414730122643624,
+          "mean_length": 9.4375,
+          "absolute_length_mean_gap": 6.692934782608695,
+          "legal5_48": 15,
+          "copy": 0,
+          "duplicate": 0
+        }
+      },
+      "B": {
+        "FREE": {
+          "MMD2": 0.0063771168966765225,
+          "dipeptide_JS_bits": 0.3716185976307588,
+          "mean_length": 21.5625,
+          "absolute_length_mean_gap": 3.229166666666668,
+          "legal5_48": 16,
+          "copy": 0,
+          "duplicate": 0
+        },
+        "AMD": {
+          "MMD2": 0.010523311324442907,
+          "dipeptide_JS_bits": 0.37721851055502165,
+          "mean_length": 15.1875,
+          "absolute_length_mean_gap": 0.9429347826086953,
+          "legal5_48": 16,
+          "copy": 0,
+          "duplicate": 0
+        }
+      },
+      "C": {
+        "FREE": {
+          "MMD2": 0.00640753336151295,
+          "dipeptide_JS_bits": 0.3249306132706418,
+          "mean_length": 19.1875,
+          "absolute_length_mean_gap": 0.8541666666666679,
+          "legal5_48": 16,
+          "copy": 0,
+          "duplicate": 0
+        },
+        "AMD": {
+          "MMD2": 0.014968824722600806,
+          "dipeptide_JS_bits": 0.4442582818958851,
+          "mean_length": 14.0625,
+          "absolute_length_mean_gap": 2.0679347826086953,
+          "legal5_48": 16,
+          "copy": 0,
+          "duplicate": 0
+        }
+      },
+      "D": {
+        "FREE": {
+          "MMD2": 0.01732780337937688,
+          "dipeptide_JS_bits": 0.41789109667112806,
+          "mean_length": 17.125,
+          "absolute_length_mean_gap": 1.2083333333333321,
+          "legal5_48": 14,
+          "copy": 0,
+          "duplicate": 0
+        },
+        "AMD": {
+          "MMD2": 0.007709821687840027,
+          "dipeptide_JS_bits": 0.36559369734732183,
+          "mean_length": 16.5,
+          "absolute_length_mean_gap": 0.36956521739130466,
+          "legal5_48": 15,
+          "copy": 0,
+          "duplicate": 0
+        }
+      }
+    }
+  },
+  "interpretation_zh": "正确潜变量支持目标序列重建，但该AR解码修复未带来自由生成优势。两个末端条件对B/C/D的六组比较，MMD、二肽JS和长度均值偏差均更差。按冻结规则停止本路线，不追加种子、预算或样本。",
+  "limitations": [
+    "One training seed, fixed reused dev41,16 generation requests per terminal per arm.",
+    "Frozen encoder/DDPM caches reused; encoder/DDPM were not retrained in this decoder experiment.",
+    "Posterior reconstruction uses target-informed z and is not evidence of generation-time target content availability.",
+    "A/B share capacity and initialization; C has fewer parameters; D is historical.",
+    "Sequence statistics establish no biological efficacy, novelty or submission readiness."
+  ],
+  "constraints": {
+    "test37": "UNOPENED",
+    "source_H0_H4_manuscripts": "UNCHANGED",
+    "uploads_push_credentials_paid_calls": 0
+  },
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/ROOT_PLAN.json",
+      "sha256": "4ddb5c6696c399e2fb488213bf8e97a4c008348c401c78aba674680e9fa5fbce",
+      "bytes": 10688
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/CANDIDATE_CONFIG.json",
+      "sha256": "419b283b8b08b745be0e5aad21b1ca2e164255489403c7a96ca85fdb255e4d5c",
+      "bytes": 10924
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/AUTHOR_STATIC_CHECK.json",
+      "sha256": "6806caf433ab1bc95741e8faac67aa73a7b7dba8307f26da6698c17f842731dc",
+      "bytes": 1152
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/USER_EXECUTION_AUTHORIZATION_v1.json",
+      "sha256": "2aea75bdb5fb5980857f15cb0488672f3319d3143456d87feb9bdcb92f8c355b",
+      "bytes": 1275
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_PREFLIGHT_RECEIPT_v1.json",
+      "sha256": "1dfacf437109edb517133c3b0a638d12e80a6a31e478546adc31fbf1c7a941f9",
+      "bytes": 3885
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_POSTFLIGHT_v1.json",
+      "sha256": "dfde1c9ea909e0464be34b6d882ccfde628a356daf1b7357a3351f446624f823",
+      "bytes": 8184
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_ENGINEERING_REPORT_v1.json",
+      "sha256": "52c69b33299482d4168c0db7b445b0301479d85e9f1ecbd4086bd44990b26a17",
+      "bytes": 7717
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/SYNTHETIC_WINDOW_PROCESS_RESULT_v1.json",
+      "sha256": "f13ba849b12fb719b5fd47d40b79d56031fd207baab643c0a1734e4252907f6f",
+      "bytes": 1691
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/synthetic_window_v1/RESULT.json",
+      "sha256": "f869d180e62b7ed21471551a77ab6b00d1a20401aa6ad3c92b8c25620930f41d",
+      "bytes": 3499
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/execution_v1/RESULT.json",
+      "sha256": "6f31c525188450557a3d4f9a500b08611f239f1332d0c95382144da0a70a599c",
+      "bytes": 1658
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/ops/NATURAL_LAUNCH_v1.json",
+      "sha256": "3ef703ba573739713a5035bf1b9c5d2e7cfe68e5213d0d36a8dc8a370f0b095e",
+      "bytes": 884
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/SUMMARY.json",
+      "sha256": "5292afb125c31c85c5734f1bc5bd6cd528b0f535a6bb4916cdfa40157394300a",
+      "bytes": 2732
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/TRAINING.json",
+      "sha256": "ce6de13b2978c16c9bf2506310abda33a7144570b2ed4e1794c56856c1b34e47",
+      "bytes": 1073
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/DEVELOPMENT.json",
+      "sha256": "69d9ea41acea8d59756a0e35fadff34576f5294fe853f066a8a3ea1864e0f845",
+      "bytes": 417183
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/GENERATION_METRICS.json",
+      "sha256": "bbea5acdfc795c0d55679755d28f00d544adffb05b2da4391980badf04c53ad5",
+      "bytes": 315954
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/GENERATION_SLOTS.json",
+      "sha256": "5c647c49e8b7702ac87cfc082f3aea97d4b76fc3dd96bf8b5fb26f5ab7ffcf5a",
+      "bytes": 51835
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/MANIFEST.json",
+      "sha256": "22a291b9589e5527506f88f2b893d2d9e589a04fe9f4a10998d4a893db415831",
+      "bytes": 21126
+    }
+  ]
+}

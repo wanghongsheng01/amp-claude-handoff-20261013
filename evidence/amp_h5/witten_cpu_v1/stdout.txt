@@ -1,0 +1,1 @@
+{"status": "PASS_SYNTHETIC_ONLY", "wall_seconds": 5.308467333205044, "peak_rss_bytes": 290177024, "failures": []}

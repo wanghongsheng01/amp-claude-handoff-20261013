@@ -1,0 +1,117 @@
+{
+  "scope_id": "AMP_H5_WARMUP_PAIRED_RESOURCE_GUARD_V1",
+  "status": "FROZEN_CANDIDATE_PENDING_INDEPENDENT_PREAUDIT_NO_EXECUTION_AUTHORIZATION",
+  "created_utc": "2026-10-11T21:22:13.504025+00:00",
+  "script": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/paired_guard_v1.py",
+    "sha256": "3bb4d3a3cd2b8247de8540ce5e5a8cabeb6992d51c0dd6b011f61ac6b396c2e2",
+    "bytes": 15404
+  },
+  "immutable_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+      "sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194",
+      "bytes": 4360
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "sha256": "67254873fcff4dfb660bca8f729798dfdd0873b7f9d6012f0f36b0320dacf036",
+      "bytes": 15962
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_SCORING_CONTRACT_v2.json",
+      "sha256": "ca3db6d0f70d9205d90f80f8c0ac000f88db4dd18800f41af964b0fcc4d0e3d1",
+      "bytes": 5766
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/SCORING_CONTRACT.json",
+      "sha256": "4b254f25211de24f0dfce05cf282b3306d83edce14d7e02457a1335d1d0bca7f",
+      "bytes": 6943
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+      "sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+      "bytes": 27857
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/paired_guard_v1.py",
+      "sha256": "3bb4d3a3cd2b8247de8540ce5e5a8cabeb6992d51c0dd6b011f61ac6b396c2e2",
+      "bytes": 15404
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/MANIFEST.json",
+      "sha256": "c2cc1fba99f43c84b1d191bfd6f2daee41eebc67f53c148b4ae2a47c27af3ef0",
+      "bytes": 2408
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/CLOSING_LEDGER.json",
+      "sha256": "041c836602d3ba77a30bd523522405d8e3ed2c48707fe2036c1f53af40896eaa",
+      "bytes": 515
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/ROW_METRICS.jsonl",
+      "sha256": "83e99f21ca2aff9cf9ba7b5debca5b3d72116a4e1da2e9763bfa7bcc9ff36d37",
+      "bytes": 18266466
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/STRATIFIED_CORE_SUMMARIES.json",
+      "sha256": "4934ef758b3302b081123d97b5402fe4eef34f4abaa70173fe04fd069fb922ed",
+      "bytes": 199243
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/STATUS.json",
+      "sha256": "fabe420075b444f089975147002acc6dfdb5a7e88aec1388429e93fcd032be3e",
+      "bytes": 2362
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RESULT.json",
+      "sha256": "7b827a09b1724b23e2744a5750d1fba108702c69388a064b83a9f8b057733285",
+      "bytes": 3112
+    }
+  ],
+  "baseline": {
+    "root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2",
+    "scope_id": "AMP_H5_CE_RMS_SCORING_V2",
+    "execution_result": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RESULT.json",
+    "receipt_scope_id": "AMP_H5_NIGHT_FOLLOWUP_JOINT_REVIEW_V1",
+    "receipt_section": "scoring_postflight",
+    "postflight": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "sha256": "67254873fcff4dfb660bca8f729798dfdd0873b7f9d6012f0f36b0320dacf036",
+      "bytes": 15962
+    }
+  },
+  "candidate": {
+    "root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1",
+    "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+    "execution_result": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_execution_v1/RESULT.json",
+    "receipt_scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+    "receipt_section": null,
+    "postflight": "Future single exact independent scoring postflight; not fabricated or accepted until PASS."
+  },
+  "output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_run_v1",
+  "cap_seconds": 30,
+  "required_outer_watchdog_seconds": 60,
+  "fixed_reference_csv_sha256": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3",
+  "guards_all_required": [
+    "dev41 sequence-equal S8 improvement >=1/20 exactFraction",
+    "dev41 sequence-equal M accuracy no lower than frozen baseline",
+    "dev41 deterministic M length MAE <= frozen baseline0",
+    "dev41 S8 supported-AA macro no lower than frozen baseline"
+  ],
+  "exact_macro": "Equal mean over reference-supported AA of integer correct pooled across8 divided by8*original support; exact Fraction. Same frozen reference and AA support must match. Equivalent to per-seed macro mean under common reference supports.",
+  "precedence": "Root prelock four guards supersede separate literature-v2 gap-shrink condition; gap change is descriptive, never a fifth gate.",
+  "completeness": "Both independent scoring receipts PASS; each whole fixed320x9 completefinite; full same reference CSV hash, row_key/source_row/terminal/seed/targetlength pair identity; exact terminal evidence and immutable hash bindings. Any incomplete/invalid/overbudget =>NE, never surviving-seed averaging.",
+  "properties": "Descriptor/feature sideeffects remain reported by complete scorer; paired reader does not recompute them or turn their missingness into accuracy failure.",
+  "preaudit_receipt_schema": {
+    "scope_id": "AMP_H5_WARMUP_PAIRED_RESOURCE_GUARD_V1",
+    "status": "PASS",
+    "paired_guard_config_sha256": "exact this file",
+    "paired_guard_script_sha256": "exact script"
+  },
+  "candidate_receipt_requirements": "status PASS/scope_id AMP_H5_WARMUP_RMS_SCORING_V1; source_bindings exact absolute path/sha256 for candidate score MANIFEST,CLOSING_LEDGER,execution RESULT; statecompleted+exit0+300inner/360outer checks. Future receipt must verify candidate model postflight/same saved epsilon banks before approving scorer inputs.",
+  "natural_execution_done": false,
+  "models_or_random_calls": 0,
+  "test_access": false,
+  "no_automatic_downstream_action": true
+}

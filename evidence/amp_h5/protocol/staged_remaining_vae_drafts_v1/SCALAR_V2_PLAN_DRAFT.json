@@ -1,0 +1,87 @@
+{
+  "document_type": "NON_EXECUTABLE_PLAN_DRAFT",
+  "authorized": false,
+  "finalized": false,
+  "scope": "Prospective single scalar_legacy fresh fixed pilot; no current execution authorization",
+  "workspace": "/Users/loctek/Documents/Codex/2026-10-11/task-4",
+  "proposed_output_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_scalar_legacy_execution_v2",
+  "frozen_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/INPUT_INDEX_REPAIR_V2.zh.md",
+      "sha256": "9e2326423be0842fa3cc1f814ae06a2c38c2b8d703a2ccc8c367c7f3af5338fd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SINGLE_CE_STAGED_RULE.zh.md",
+      "sha256": "063f51f66879a439a33ef302ea1f3db1b51f97aa3725979fe5368764d3cca02a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.json",
+      "sha256": "113146eba8d1b7f1ce1efce64bf5ca989f975f570b39a158555ac326ad7d755a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.zh.md",
+      "sha256": "2ff3079574d6e1658adb650ef7ff7600d06199a9abe40b67e7604b2474bc1e35"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_POSTFLIGHT_REVIEW.json",
+      "sha256": "9104676486dcbf8c3c6622c17b8f1ca709c43cb311f5c5b2e1dec6ebd08eab56"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/DDPM_MATURITY_SCALE_ASSESSMENT.json",
+      "sha256": "9db57db802a21bfd7e94ddc80df00ca548ae45a94db72ee1ce2a23964c42ad98"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0"
+    }
+  ],
+  "proposed_job": {
+    "id": "scalar_legacy",
+    "argv": [
+      "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+      "-u",
+      "-B",
+      "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "run",
+      "--config",
+      "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+      "--output",
+      "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy"
+    ],
+    "outer_timeout_seconds": 4920
+  },
+  "budgets_seconds": {
+    "vae_seconds_cap": 1920,
+    "ddpm_seconds_cap": 1020,
+    "training_seconds_cap": 2940,
+    "generation_seconds_cap": 1800
+  },
+  "outer_timeout_seconds": 4920,
+  "required_before_finalization": [
+    "CE v2 supervisor is terminal; outputs and all32 requests preserved.",
+    "Independent CE v2 engineering postflight explicitly permits consideration of remaining VAE controls after numerical and scale assessment; author report alone is insufficient.",
+    "Root creates a NEW final single-arm plan binding the actual CE independent review path and SHA; do not edit this draft into a receipt.",
+    "Independent reviewer signs a NEW receipt for that final plan and the unchanged supervise.py hash.",
+    "Before launch root verifies no active AMP model and obtains the existing process lock; only one model job may run.",
+    "Each later arm remains separate and requires prior active arm to finish; no batch launch or automatic retry."
+  ],
+  "missing_future_bindings": {
+    "CE_v2_independent_engineering_postflight": null,
+    "new_arm_independent_preflight_receipt": null
+  },
+  "frozen_scientific_contract": [
+    "VAE1000/DDPM1000 fixed endpoint, init222/shuffle222/VAEeps222/DDPM322/FREE422/AMD423.",
+    "Use exactly frozen formal_configs_v2 and vae_pipeline_formal_v2.py; no warm start, fitting extra scalers, architecture/loss/KL/schedule/seed changes or budget increase.",
+    "All32 terminal-only requests retained; no clipping, resampling, replacement or quality-based stopping/selection.",
+    "CE/MSE pair shares capacity/initialization/batch and forward RNG; scalar is whole-pipeline legacy comparator only.",
+    "No test37 access; dev monitors are descriptive only; no checkpoint selection.",
+    "Keep prior engineering costs and failures visible; actual compute frontier is not equal-compute evidence."
+  ],
+  "failure_policy": "No model-phase retry; retain failed and not-executed slots. Next arm requires fresh independent assessment.",
+  "anti_accidental_launch": "No jobs/output_root keys and no receipt: this document is intentionally not a supervise.py plan.",
+  "PROMOTE": "HOLD"
+}

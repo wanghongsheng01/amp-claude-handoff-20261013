@@ -1,0 +1,57 @@
+{
+  "identity": "AMP_H5_ZERO_PREDICTOR_ANALYTIC_APPENDIX",
+  "parent_manifest": {
+    "path": "MANIFEST.json",
+    "bytes": 1003,
+    "sha256": "d8d5dbc5b0cd7c53e390f0d158648cd088156f3413be227ea06b4425853a6c06"
+  },
+  "parent_bound_files_unchanged": [
+    {
+      "path": "COORDINATE_AUDIT.zh.md",
+      "sha256_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "SAVED_NUMERIC_AUDIT.json",
+      "sha256_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "sha256_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "audit_saved_numbers.py",
+      "sha256_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "numeric_console.json",
+      "sha256_matches": true,
+      "bytes_match": true
+    }
+  ],
+  "files": [
+    {
+      "path": "analytic_zero_predictor.py",
+      "bytes": 4618,
+      "sha256": "b972ff628af77a8348020dc8c366c4564813eec96173ab26bd9fff1dd5e308c9"
+    },
+    {
+      "path": "ZERO_PREDICTOR_ANALYTIC.json",
+      "bytes": 7269,
+      "sha256": "97d7dbfd6f3c2cbe84b599fa58b8913b291dfbf22f16b8a754b749fd2be597c1"
+    },
+    {
+      "path": "ZERO_PREDICTOR_ANALYTIC_APPENDIX.zh.md",
+      "bytes": 3064,
+      "sha256": "fad8f8e5b9d6a695ca515489dfd37d73b1e754e6db284ebd91b6027b8521dd0a"
+    }
+  ],
+  "no_model_calls": true,
+  "no_rng": true,
+  "no_training": true,
+  "no_sampling": true,
+  "no_test_reads": true
+}

@@ -1,0 +1,110 @@
+{
+  "identity": "H5_INDEPENDENT_SCIENTIFIC_DESIGN_OPINION_V1",
+  "created_utc": "2026-10-11T15:38:41.308404+00:00",
+  "reviewer": "/root/amp_final_science_review",
+  "status": "DESIGN_OPINION_NOT_FINAL_PROTOCOL_OR_EXECUTION_APPROVAL",
+  "scope_zh": "独立科学设计意见；仅新写science_design，不写模型、不运行、不读取test；无新增agent。",
+  "parent_authorized_direction": "End-to-end21headlosscontrol and fair terminal-only AR; concrete budget/model/protocol still to be frozen by author/root",
+  "primary_candidate_proposed": "E-CE fresh end-to-end21head plus own re-encodedtrain/ownterminal-onlyDDPM",
+  "new_methods_proposed": [
+    "E-CE",
+    "E-MSE_raw_onehot_same_capacity",
+    "one_terminal_only_AR"
+  ],
+  "historical_anchors": [
+    "original_scalar_plus_original_terminal_only_DDPM",
+    "H4_frozen_H2_CE_J_plus_original_terminal_only_DDPM"
+  ],
+  "generation_proposal": {
+    "requests_per_terminal_per_new_method": 16,
+    "terminals": [
+      "FREE",
+      "AMD"
+    ],
+    "requests_per_new_method": 32,
+    "new_sources_per_method": 1,
+    "no_new_seed_selected_by_reviewer": true,
+    "not_a_grant_to_run": true
+  },
+  "established": [
+    "ordinal_scalar_loss_geometry_is_arbitrary_class_index_geometry",
+    "same_score_firstPAD_to_J_reduces_lost_true_residues",
+    "fixed_representation_readout_has_partial_repair_evidence",
+    "H4_actual_generation_is_mixed_not_consistent_improvement"
+  ],
+  "unproved": [
+    "latent_or_hidden_OOD_is_cause",
+    "conditional_posterior_collapse_or_its_absence",
+    "CE_is_unique_cause_or_guaranteed_e2e_repair",
+    "hidden_has_no_recoverable_information",
+    "independent_generalization",
+    "activity_safety",
+    "novel_algorithm"
+  ],
+  "critical_controls": [
+    "g_3residue_and_h_9global_descriptors_distinct_from_terminal_c",
+    "preserve_trainingarchitecture_scaler_abs_flow_latent_and_r2warmupfacts",
+    "samefresh21headinitialization_andupstreaminit",
+    "samecapacity_losscontrast_with_explicit_sharedRnormalizer_andKLbeta",
+    "sameJforCEandrawMSE",
+    "ownencoderposteriorcache_andownDDPMforbotharms",
+    "no_val_train_cache",
+    "ARonlyc_BOS_ownprefix_atgeneration",
+    "totaltrainingcostVAE_encode_DDPM_vscompleteAR",
+    "oneterminalARchoice_oneconfig_onefixedendpoint",
+    "no_favorablecheckpoint_seed_or_sample_selection",
+    "O0historical_not_new_costmatched"
+  ],
+  "loss_recommendation": {
+    "CE": "sum cross_entropy overB48 dividedbyB48",
+    "raw_onehot_MSE": "sumB48and21squaredresiduals dividedbyB48;notadditionaldivide21;notsoftmaxBrier",
+    "KL": "jointconditionaldensitysum overbatch dividedbyB48;verifyoldKLsummationdomain",
+    "beta": "shared fixed beta1 suggested startingpoint only, rootmustfreezevalue/schedule;equalbeta_not_equaleffectiveregularization",
+    "decoder": "same49lengthJ;nooraclelength"
+  },
+  "proposed_falsifiable_gates": {
+    "E": "engineering/identity/finite/budget/allattempts",
+    "L": "CEvsMSE allprelockeddevmodes renderedmicroandmacrostrictlyhigher,lengthMAEnohigher,wholeexactnolower",
+    "G": "CE_DDPMvsAR all32legal1to48;eachterminaldevMMDstrictlylower;valid5to48notlower;copycountnotgreater;validuniquenotlower;AAanddipeptideentropyabsolutegap_to_trainnotgreater",
+    "classification": "pilotpointestimategates_only;mustbeadoptedorreplacedbeforedata;nosignificanceorreadinessclaim"
+  },
+  "prelock_decisions_remaining": [
+    "ARsinglearchitecture_sourceversion_hyperparams_mask_sampling",
+    "lossKLbeta_warmup_clipping",
+    "methodtrainingcap_andVAE_DDPMallocation_generationbudget",
+    "frozenexistingseedand32requestcontract",
+    "primarycandidate_L_Gthresholdsandfailurepolicy"
+  ],
+  "limits": [
+    "dev41reused",
+    "test37sealed",
+    "singletrainingseednotrobustness",
+    "historicalselectionopportunitiescannotbeerased",
+    "biologystillmissing",
+    "matureborrowedcomponentsnotnovelty"
+  ],
+  "source_sha256": {
+    "HANDOFF_H0_20261011.zh.md": "057622a8ed1506cb2fade754a8441fd96d653340c7ac2fa10bdaf6772ad33b18",
+    "HANDOFF_H1_20261011.zh.md": "e59cb471b1aea29702c49a2ac89579a6e63f0c2507cd0846db34d70aa1230ade",
+    "HANDOFF_H2_20261011.zh.md": "8e7665a7b67305587472496f3ec6263da8ed21dc2f31765cc6316bb27b56256b",
+    "HANDOFF_H3_20261011.zh.md": "a80ba4de690db965e501ccae99e5ab335d3ad9962f9abff8e8872e207b71f86d",
+    "HANDOFF_H4_H2_BRIDGE_20261011.zh.md": "1c80f7ece329d851f4fc907f288723e4cc5e97913b9e56ae05fa1affb22ca6e2",
+    "H4_H2_BRIDGE_CLAIM_STATUS_FINAL.json": "2fd99935113ec2eadb0d55629d603f0c4dbfc1c75c18e2d905bda6a2cc0904b9",
+    "h3_failure_analysis_readonly/END_TO_END_21HEAD_FEASIBILITY.zh.md": "52937235b0326301e13cf09bc60080b702a2a0aaed15578ffffb4d1fbe61958c",
+    "h4_followup_baseline_design/FAIR_BASELINE_REQUIREMENTS.zh.md": "043f55d9cfd07243c33a4d10ab6b9eec270164db2960a8fd975b6cc07f03dd80",
+    "runner/run_rebuild_v3r2.py": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8",
+    "runner/dbaasp_v4_cpu_pilot_001/config.lock.json": "08629648486bdecc034a45710fbc30e2c1e5396fb2edac85744911dc749d4873",
+    "runner/dbaasp_v4_cpu_pilot_001/vae_architecture.json": "a7c9771bad2cfc0355436e2e306b6730e77315d5a7d362040a133d6cfef1dc79",
+    "final_science_review/H4_H2_INCREMENT_CLAIM_REVIEW.json": "704fb79eb662109b3007dd5e3a2fb9a88b9fbc443008900a445da38e539b78da"
+  },
+  "actions": {
+    "model_calls": 0,
+    "fits": 0,
+    "test_reads": 0,
+    "array_loads": 0,
+    "network_calls": 0,
+    "other_agent_spawns": 0,
+    "prior_artifact_writes": 0
+  },
+  "backup_status": "BACKUP_BLOCKED"
+}

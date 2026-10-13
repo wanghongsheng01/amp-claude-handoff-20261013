@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/render_readout_v2.py"
+  ],
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/render_readout_v2.py",
+    "bytes": 7387,
+    "sha256": "1507156aee288724fe882e33bf59705c21a4dd5189241c385eabcc82588b18d5"
+  },
+  "scope": "transcribe completed sealed distribution statistics; no new statistics"
+}

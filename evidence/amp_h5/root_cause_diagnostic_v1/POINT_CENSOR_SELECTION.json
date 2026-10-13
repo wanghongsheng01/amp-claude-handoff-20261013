@@ -1,0 +1,442 @@
+[
+  {
+    "unit": "ug_ml_native",
+    "group": "G102",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 0.19,
+    "raw_threshold_or_point_max": 0.19
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G12453",
+    "kind": "point",
+    "rows": 2,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 12.5,
+    "raw_threshold_or_point_max": 25.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G12529",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 15.6,
+    "raw_threshold_or_point_max": 15.6
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G13726",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 4.0,
+    "raw_threshold_or_point_max": 4.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G13735",
+    "kind": "point",
+    "rows": 3,
+    "IDs": 2,
+    "families": 2,
+    "raw_threshold_or_point_min": 15.625,
+    "raw_threshold_or_point_max": 31.25
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G17268",
+    "kind": "point",
+    "rows": 12,
+    "IDs": 6,
+    "families": 1,
+    "raw_threshold_or_point_min": 4.0,
+    "raw_threshold_or_point_max": 32.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G1737",
+    "kind": "point",
+    "rows": 13,
+    "IDs": 5,
+    "families": 2,
+    "raw_threshold_or_point_min": 1.0,
+    "raw_threshold_or_point_max": 128.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G2425",
+    "kind": "point",
+    "rows": 4,
+    "IDs": 4,
+    "families": 1,
+    "raw_threshold_or_point_min": 10.4,
+    "raw_threshold_or_point_max": 78.3
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3086",
+    "kind": "point",
+    "rows": 3,
+    "IDs": 3,
+    "families": 1,
+    "raw_threshold_or_point_min": 25.0,
+    "raw_threshold_or_point_max": 50.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3198",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 1.0,
+    "raw_threshold_or_point_max": 1.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3224",
+    "kind": "point",
+    "rows": 3,
+    "IDs": 3,
+    "families": 3,
+    "raw_threshold_or_point_min": 82.0,
+    "raw_threshold_or_point_max": 302.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G37",
+    "kind": "point",
+    "rows": 5,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 4.0,
+    "raw_threshold_or_point_max": 32.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G4013",
+    "kind": "point",
+    "rows": 2,
+    "IDs": 2,
+    "families": 2,
+    "raw_threshold_or_point_min": 128.0,
+    "raw_threshold_or_point_max": 256.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5545",
+    "kind": "point",
+    "rows": 5,
+    "IDs": 5,
+    "families": 5,
+    "raw_threshold_or_point_min": 8.0,
+    "raw_threshold_or_point_max": 50.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G5556",
+    "kind": "point",
+    "rows": 4,
+    "IDs": 4,
+    "families": 3,
+    "raw_threshold_or_point_min": 25.0,
+    "raw_threshold_or_point_max": 75.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6669",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 2.0,
+    "raw_threshold_or_point_max": 2.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6742",
+    "kind": "point",
+    "rows": 3,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 22.32,
+    "raw_threshold_or_point_max": 32.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G6785",
+    "kind": "point",
+    "rows": 2,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 0.5,
+    "raw_threshold_or_point_max": 1.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G8110",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 64.0,
+    "raw_threshold_or_point_max": 64.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G8157",
+    "kind": "point",
+    "rows": 2,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 2.34,
+    "raw_threshold_or_point_max": 4.69
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "kind": "point",
+    "rows": 10,
+    "IDs": 9,
+    "families": 1,
+    "raw_threshold_or_point_min": 2.0,
+    "raw_threshold_or_point_max": 64.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G12529",
+    "kind": "right",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 500.0,
+    "raw_threshold_or_point_max": 500.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G13735",
+    "kind": "right",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 500.0,
+    "raw_threshold_or_point_max": 500.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G3086",
+    "kind": "right",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 200.0,
+    "raw_threshold_or_point_max": 200.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G4013",
+    "kind": "right",
+    "rows": 8,
+    "IDs": 8,
+    "families": 8,
+    "raw_threshold_or_point_min": 256.0,
+    "raw_threshold_or_point_max": 256.0
+  },
+  {
+    "unit": "ug_ml_native",
+    "group": "G873",
+    "kind": "right",
+    "rows": 3,
+    "IDs": 3,
+    "families": 2,
+    "raw_threshold_or_point_min": 256.0,
+    "raw_threshold_or_point_max": 256.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G102",
+    "kind": "point",
+    "rows": 2,
+    "IDs": 2,
+    "families": 1,
+    "raw_threshold_or_point_min": 4.0,
+    "raw_threshold_or_point_max": 32.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G103",
+    "kind": "point",
+    "rows": 2,
+    "IDs": 2,
+    "families": 2,
+    "raw_threshold_or_point_min": 5.6,
+    "raw_threshold_or_point_max": 91.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12531",
+    "kind": "point",
+    "rows": 3,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 1.0,
+    "raw_threshold_or_point_max": 16.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G12533",
+    "kind": "point",
+    "rows": 14,
+    "IDs": 7,
+    "families": 3,
+    "raw_threshold_or_point_min": 0.67,
+    "raw_threshold_or_point_max": 4.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13692",
+    "kind": "point",
+    "rows": 6,
+    "IDs": 2,
+    "families": 2,
+    "raw_threshold_or_point_min": 1.0,
+    "raw_threshold_or_point_max": 4.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13726",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 2.0,
+    "raw_threshold_or_point_max": 2.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "kind": "point",
+    "rows": 25,
+    "IDs": 5,
+    "families": 1,
+    "raw_threshold_or_point_min": 2.5,
+    "raw_threshold_or_point_max": 20.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3232",
+    "kind": "point",
+    "rows": 6,
+    "IDs": 2,
+    "families": 2,
+    "raw_threshold_or_point_min": 4.0,
+    "raw_threshold_or_point_max": 116.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3301",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 1.6,
+    "raw_threshold_or_point_max": 1.6
+  },
+  {
+    "unit": "uM_native",
+    "group": "G37",
+    "kind": "point",
+    "rows": 3,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 12.5,
+    "raw_threshold_or_point_max": 30.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G6669",
+    "kind": "point",
+    "rows": 3,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 0.5,
+    "raw_threshold_or_point_max": 0.5
+  },
+  {
+    "unit": "uM_native",
+    "group": "G8110",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 16.0,
+    "raw_threshold_or_point_max": 16.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G873",
+    "kind": "point",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 6.3,
+    "raw_threshold_or_point_max": 6.3
+  },
+  {
+    "unit": "uM_native",
+    "group": "G13803",
+    "kind": "right",
+    "rows": 2,
+    "IDs": 2,
+    "families": 2,
+    "raw_threshold_or_point_min": 50.0,
+    "raw_threshold_or_point_max": 50.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G2396",
+    "kind": "right",
+    "rows": 1,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 200.0,
+    "raw_threshold_or_point_max": 200.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G3232",
+    "kind": "right",
+    "rows": 4,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 100.0,
+    "raw_threshold_or_point_max": 200.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G6701",
+    "kind": "right",
+    "rows": 2,
+    "IDs": 1,
+    "families": 1,
+    "raw_threshold_or_point_min": 100.0,
+    "raw_threshold_or_point_max": 100.0
+  },
+  {
+    "unit": "uM_native",
+    "group": "G8221",
+    "kind": "right",
+    "rows": 3,
+    "IDs": 3,
+    "families": 3,
+    "raw_threshold_or_point_min": 64.0,
+    "raw_threshold_or_point_max": 64.0
+  }
+]

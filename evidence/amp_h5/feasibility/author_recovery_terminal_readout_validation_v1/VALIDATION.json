@@ -1,0 +1,20 @@
+{
+  "checks_passed": 10,
+  "checks": [
+    "live supervisor refusal precedes natural-artifact numeric reads",
+    "closed synthetic recovery full readout",
+    "original E/L/G not backfilled",
+    "phase cost lower bound without double counting",
+    "reconstruction export schema only",
+    "sequence strings excluded from report",
+    "saved posterior consistency",
+    "terminal-specific train scale reference",
+    "overwrite refusal",
+    "no torch/model import"
+  ],
+  "scope": "Synthetic temporary arrays/files only. No natural run output or model read.",
+  "script_sha256": "33a909d37a3eb74371304c44bfbfe4bddf1fc640fb436eca187b12a7a7663558",
+  "request_sha256": "f471c428df8e2350cf550ec992de0517f134d08231bbad5b2ae4c314b2b3174e",
+  "natural_model_calls": 0,
+  "natural_output_readout_executed": false
+}

@@ -1,0 +1,18 @@
+{
+  "CE21_DDPM": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "MSE21_DDPM": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "scalar_DDPM": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "terminal_LSTM": {
+    "FREE": 422,
+    "AMD": 423
+  }
+}

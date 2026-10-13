@@ -1,0 +1,395 @@
+{
+  "created_utc": "2026-10-12T09:00:24.157446+00:00",
+  "candidates": [
+    {
+      "peptide_id": 102,
+      "sequence_family": "F102",
+      "source_family_group": "G102",
+      "activities": [
+        {
+          "activity_id": 50769,
+          "concentration_raw": "0.19",
+          "unit_raw": "µg/ml",
+          "operator_or_semantics": "point_as_reported",
+          "target_raw": "Escherichia coli MG1655",
+          "medium": "MHB",
+          "cfu": "",
+          "ph": "",
+          "reference_raw": "4",
+          "source_records": [
+            {
+              "additional": "",
+              "authors": [
+                {
+                  "description": "",
+                  "name": "Zairi A"
+                },
+                {
+                  "description": "",
+                  "name": "Ferrières L"
+                },
+                {
+                  "description": "",
+                  "name": "Latour-Lambert P"
+                },
+                {
+                  "description": "",
+                  "name": "Beloin C"
+                },
+                {
+                  "description": "",
+                  "name": "Tangy F"
+                },
+                {
+                  "description": "",
+                  "name": "Ghigo JM"
+                },
+                {
+                  "description": "",
+                  "name": "Hani K"
+                }
+              ],
+              "id": 8068,
+              "journal": {
+                "description": "ANTIMICROBIAL AGENTS AND CHEMOTHERAPY",
+                "name": "Antimicrob Agents Chemother"
+              },
+              "pages": "2221-2228",
+              "pubmed": {
+                "pubmedId": "24492362",
+                "pubmedUrl": "http://www.ncbi.nlm.nih.gov/pubmed/24492362"
+              },
+              "title": "In vitro activities of dermaseptins K4S4 and K4K20S4 against Escherichia coli, Staphylococcus aureus, and Pseudomonas aeruginosa planktonic growth and biofilm formation.",
+              "volume": "58",
+              "year": 2014
+            }
+          ],
+          "raw_sha256": "7ffdfbdb87aba100f5218f93c30c9ca61e8c77c6457daa2dc2372c6b1ddb45fd",
+          "represented_formula": "C135H238N36O31",
+          "represented_parent_MW_g_mol": 2861.609999999992,
+          "conditional_parent_equivalent_lower_uM": 0.06639618955762684,
+          "conditional_parent_equivalent_upper_uM": 0.06639618955762684
+        }
+      ],
+      "status": "PENDING_NOT_TRAINING_ADMITTED",
+      "required_evidence": [
+        "Exact activity-to-source linkage and original MIC observation semantics",
+        "Assayed material basis: covalent entity, counterion/salt/solvate/hydrate/purity or net-peptide convention sufficient for stated molarity",
+        "Null terminal annotation resolution",
+        "Opaque independent contamination-isolation receipt without opening test37",
+        "Grouped data sufficiency and predeclared natural protocol"
+      ],
+      "source_citations_are_not_read_paper_evidence": true
+    },
+    {
+      "peptide_id": 1737,
+      "sequence_family": "F1737",
+      "source_family_group": "G1737",
+      "activities": [
+        {
+          "activity_id": 12526,
+          "concentration_raw": "2.3",
+          "unit_raw": "µg/ml",
+          "operator_or_semantics": "point_as_reported",
+          "target_raw": "Escherichia coli ATCC 25922",
+          "medium": "LBB",
+          "cfu": "",
+          "ph": "",
+          "reference_raw": "1",
+          "source_records": [
+            {
+              "additional": "",
+              "authors": [
+                {
+                  "description": "",
+                  "name": "Wang Y"
+                },
+                {
+                  "description": "",
+                  "name": "Hong J"
+                },
+                {
+                  "description": "",
+                  "name": "Liu X"
+                },
+                {
+                  "description": "",
+                  "name": "Yang H"
+                },
+                {
+                  "description": "",
+                  "name": "Liu R"
+                },
+                {
+                  "description": "",
+                  "name": "Wu J"
+                },
+                {
+                  "description": "",
+                  "name": "Wang A"
+                },
+                {
+                  "description": "",
+                  "name": "Lin D"
+                },
+                {
+                  "description": "",
+                  "name": "Lai R"
+                }
+              ],
+              "id": 2234,
+              "journal": {
+                "description": "",
+                "name": "PLoS One"
+              },
+              "pages": "e3217",
+              "pubmed": {
+                "pubmedId": "18795096",
+                "pubmedUrl": "http://www.ncbi.nlm.nih.gov/pubmed/18795096"
+              },
+              "title": "Snake cathelicidin from Bungarus fasciatus is a potent peptide antibiotics.",
+              "volume": "3",
+              "year": 2008
+            }
+          ],
+          "raw_sha256": "2e57734923d61ed091bc41378077e5516e3d1caf543b7f4c061a626081f8574d",
+          "represented_formula": "C176H290N48O35",
+          "represented_parent_MW_g_mol": 3638.5569999999902,
+          "conditional_parent_equivalent_lower_uM": 0.632118721789986,
+          "conditional_parent_equivalent_upper_uM": 0.632118721789986
+        },
+        {
+          "activity_id": 12527,
+          "concentration_raw": "2.3",
+          "unit_raw": "µg/ml",
+          "operator_or_semantics": "point_as_reported",
+          "target_raw": "Escherichia coli ATCC 25922",
+          "medium": "LBB",
+          "cfu": "",
+          "ph": "",
+          "reference_raw": "1",
+          "source_records": [
+            {
+              "additional": "",
+              "authors": [
+                {
+                  "description": "",
+                  "name": "Wang Y"
+                },
+                {
+                  "description": "",
+                  "name": "Hong J"
+                },
+                {
+                  "description": "",
+                  "name": "Liu X"
+                },
+                {
+                  "description": "",
+                  "name": "Yang H"
+                },
+                {
+                  "description": "",
+                  "name": "Liu R"
+                },
+                {
+                  "description": "",
+                  "name": "Wu J"
+                },
+                {
+                  "description": "",
+                  "name": "Wang A"
+                },
+                {
+                  "description": "",
+                  "name": "Lin D"
+                },
+                {
+                  "description": "",
+                  "name": "Lai R"
+                }
+              ],
+              "id": 2234,
+              "journal": {
+                "description": "",
+                "name": "PLoS One"
+              },
+              "pages": "e3217",
+              "pubmed": {
+                "pubmedId": "18795096",
+                "pubmedUrl": "http://www.ncbi.nlm.nih.gov/pubmed/18795096"
+              },
+              "title": "Snake cathelicidin from Bungarus fasciatus is a potent peptide antibiotics.",
+              "volume": "3",
+              "year": 2008
+            }
+          ],
+          "raw_sha256": "2e57734923d61ed091bc41378077e5516e3d1caf543b7f4c061a626081f8574d",
+          "represented_formula": "C176H290N48O35",
+          "represented_parent_MW_g_mol": 3638.5569999999902,
+          "conditional_parent_equivalent_lower_uM": 0.632118721789986,
+          "conditional_parent_equivalent_upper_uM": 0.632118721789986
+        },
+        {
+          "activity_id": 54742,
+          "concentration_raw": "8",
+          "unit_raw": "µg/ml",
+          "operator_or_semantics": "point_as_reported",
+          "target_raw": "Escherichia coli Ec513",
+          "medium": "CAMHB",
+          "cfu": "",
+          "ph": "",
+          "reference_raw": "2",
+          "source_records": [
+            {
+              "additional": "",
+              "authors": [
+                {
+                  "description": "",
+                  "name": "Liu CB"
+                },
+                {
+                  "description": "",
+                  "name": "Shan B"
+                },
+                {
+                  "description": "",
+                  "name": "Bai H"
+                },
+                {
+                  "description": "",
+                  "name": "Tang J"
+                },
+                {
+                  "description": "",
+                  "name": "Yan LZ"
+                },
+                {
+                  "description": "",
+                  "name": "Ma YB"
+                }
+              ],
+              "id": 8730,
+              "journal": {
+                "description": "ZOOLOGICAL RESEARCH",
+                "name": "Zool Res"
+              },
+              "pages": "41-47",
+              "pubmed": {
+                "pubmedId": "25730460",
+                "pubmedUrl": "http://www.ncbi.nlm.nih.gov/pubmed/25730460"
+              },
+              "title": "Hydrophilic/hydrophobic characters of antimicrobial peptides derived from animals and their effects on multidrug resistant clinical isolates.",
+              "volume": "36",
+              "year": 2015
+            }
+          ],
+          "raw_sha256": "2e57734923d61ed091bc41378077e5516e3d1caf543b7f4c061a626081f8574d",
+          "represented_formula": "C176H290N48O35",
+          "represented_parent_MW_g_mol": 3638.5569999999902,
+          "conditional_parent_equivalent_lower_uM": 2.1986738149216905,
+          "conditional_parent_equivalent_upper_uM": 2.1986738149216905
+        }
+      ],
+      "status": "PENDING_NOT_TRAINING_ADMITTED",
+      "required_evidence": [
+        "Exact activity-to-source linkage and original MIC observation semantics",
+        "Assayed material basis: covalent entity, counterion/salt/solvate/hydrate/purity or net-peptide convention sufficient for stated molarity",
+        "Null terminal annotation resolution",
+        "Opaque independent contamination-isolation receipt without opening test37",
+        "Grouped data sufficiency and predeclared natural protocol"
+      ],
+      "source_citations_are_not_read_paper_evidence": true
+    },
+    {
+      "peptide_id": 1738,
+      "sequence_family": "F1738",
+      "source_family_group": "G1737",
+      "activities": [
+        {
+          "activity_id": 12601,
+          "concentration_raw": "18.7",
+          "unit_raw": "µg/ml",
+          "operator_or_semantics": "point_as_reported",
+          "target_raw": "Escherichia coli ATCC 25922",
+          "medium": "LBB",
+          "cfu": "",
+          "ph": "",
+          "reference_raw": "1",
+          "source_records": [
+            {
+              "additional": "",
+              "authors": [
+                {
+                  "description": "",
+                  "name": "Wang Y"
+                },
+                {
+                  "description": "",
+                  "name": "Hong J"
+                },
+                {
+                  "description": "",
+                  "name": "Liu X"
+                },
+                {
+                  "description": "",
+                  "name": "Yang H"
+                },
+                {
+                  "description": "",
+                  "name": "Liu R"
+                },
+                {
+                  "description": "",
+                  "name": "Wu J"
+                },
+                {
+                  "description": "",
+                  "name": "Wang A"
+                },
+                {
+                  "description": "",
+                  "name": "Lin D"
+                },
+                {
+                  "description": "",
+                  "name": "Lai R"
+                }
+              ],
+              "id": 2235,
+              "journal": {
+                "description": "",
+                "name": "PLoS One"
+              },
+              "pages": "e3217",
+              "pubmed": {
+                "pubmedId": "18795096",
+                "pubmedUrl": "http://www.ncbi.nlm.nih.gov/pubmed/18795096"
+              },
+              "title": "Snake cathelicidin from Bungarus fasciatus is a potent peptide antibiotics.",
+              "volume": "3",
+              "year": 2008
+            }
+          ],
+          "raw_sha256": "6985e1f20dc8b34e794a895f450fd0aecb3e33924d663c52337f8845544d0a3a",
+          "represented_formula": "C94H159N27O17",
+          "represented_parent_MW_g_mol": 1939.4780000000012,
+          "conditional_parent_equivalent_lower_uM": 9.641769589549348,
+          "conditional_parent_equivalent_upper_uM": 9.641769589549348
+        }
+      ],
+      "status": "PENDING_NOT_TRAINING_ADMITTED",
+      "required_evidence": [
+        "Exact activity-to-source linkage and original MIC observation semantics",
+        "Assayed material basis: covalent entity, counterion/salt/solvate/hydrate/purity or net-peptide convention sufficient for stated molarity",
+        "Null terminal annotation resolution",
+        "Opaque independent contamination-isolation receipt without opening test37",
+        "Grouped data sufficiency and predeclared natural protocol"
+      ],
+      "source_citations_are_not_read_paper_evidence": true
+    }
+  ],
+  "no_new_requests": true,
+  "all_statuses_pending": true
+}

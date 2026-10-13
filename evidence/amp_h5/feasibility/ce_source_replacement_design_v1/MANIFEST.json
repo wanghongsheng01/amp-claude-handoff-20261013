@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-11T20:06:35.477193+00:00",
+  "status": "DRAFT_ONLY_NOT_AUTHORIZED",
+  "files": [
+    {
+      "role": "new draft deliverable",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_DIAGNOSTIC_DRAFT_v1.json",
+      "sha256": "a5f12518b8b677c44f1b48a7da0b6ebe8a7626d9f7a6c4769c4ce12e3f7ce700",
+      "bytes": 27522
+    },
+    {
+      "role": "new draft deliverable",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_design_v1/DESIGN.zh.md",
+      "sha256": "805b72fce7e26a173e5aa68ad1e7679481e69e98e5dfa2fb11315a191c89d790",
+      "bytes": 4153
+    },
+    {
+      "role": "new draft deliverable",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_design_v1/AUTHOR_STATIC_CHECKS.json",
+      "sha256": "39e8ca2849b96ab7541d5d33eb4390e985e8e0421353484e654c63a84c4a8ceb",
+      "bytes": 825
+    }
+  ],
+  "old_bound_artifacts_unchanged": true,
+  "model_calls": 0,
+  "new_random_draws": 0
+}

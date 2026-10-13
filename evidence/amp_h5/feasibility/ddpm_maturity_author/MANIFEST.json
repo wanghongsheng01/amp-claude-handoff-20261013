@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "path": "FACTS.json",
+      "sha256": "756b55192b6b70237b64f62e88c340b57bc4369267d761610be280a39ef4520f"
+    },
+    {
+      "path": "READOUT.zh.md",
+      "sha256": "8e6445f4c321907b50cb1fcfa4391ac6402b040d3fd1616233d95df0cce4e461"
+    }
+  ]
+}

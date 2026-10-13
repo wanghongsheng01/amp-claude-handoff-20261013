@@ -1,0 +1,31 @@
+{
+  "pid": 64952,
+  "created_utc": "2026-10-11T17:49:09.717897+00:00",
+  "state": "completed",
+  "plan_sha256": "3e66ffa415dc759e396d25d4ff9c445c7c855fb0e48aaf96b834d6da1b1ae1e4",
+  "jobs": [
+    {
+      "id": "ce_checkpoint_recovery_v1",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+        "--contract",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_CONTRACT_v1.json",
+        "--plan",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_PLAN_v1.json",
+        "--receipt",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_PREFLIGHT_RECEIPT_v1.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1"
+      ],
+      "started_utc": "2026-10-11T17:49:09.718544+00:00",
+      "state": "completed",
+      "pid": 64954,
+      "exit_code": 0,
+      "seconds": 1124.2520439173095
+    }
+  ],
+  "completed_utc": "2026-10-11T18:07:54.040095+00:00"
+}

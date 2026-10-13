@@ -1,0 +1,81 @@
+{
+  "schema": "AMP_H5_NATIVE_UNITS_SCIENTIFIC_INDEPENDENT_SIGNOFF_V1",
+  "reviewer": "/root/native_unit_scientific_review; independent of parent rule/count code author",
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "all142_Ecoli_rows_retained",
+      "pass": true
+    },
+    {
+      "name": "activity_id_set_unchanged",
+      "pass": true
+    },
+    {
+      "name": "every_original_field_unchanged",
+      "pass": true
+    },
+    {
+      "name": "µg/ml:point_and_one_sided_bounds:all_six_counts_match",
+      "pass": true
+    },
+    {
+      "name": "µg/ml:point:all_six_counts_match",
+      "pass": true
+    },
+    {
+      "name": "µg/ml:one_sided_bounds:all_six_counts_match",
+      "pass": true
+    },
+    {
+      "name": "µg/ml:exact_eligible_activity_set_matches",
+      "pass": true
+    },
+    {
+      "name": "µM:point_and_one_sided_bounds:all_six_counts_match",
+      "pass": true
+    },
+    {
+      "name": "µM:point:all_six_counts_match",
+      "pass": true
+    },
+    {
+      "name": "µM:one_sided_bounds:all_six_counts_match",
+      "pass": true
+    },
+    {
+      "name": "µM:exact_eligible_activity_set_matches",
+      "pass": true
+    },
+    {
+      "name": "all_execution_flags_remain_false",
+      "pass": true
+    },
+    {
+      "name": "all_retained_censors_remain_nonpoint",
+      "pass": true
+    },
+    {
+      "name": "attribution_pending_literal_ids_preserved",
+      "pass": true
+    }
+  ],
+  "scientific_decision": "YES for separately modeled native-unit exploratory reported-endpoint tasks; no conversion prerequisite",
+  "execution_decision": "No training this turn; protected H5 isolation and frozen grouped development protocol remain separate prerequisites",
+  "recommended_primary": "log10 database-native µg/ml point-report endpoint with strict Witten feature domain and unresolved composition attribution withheld",
+  "limitations": [
+    "Material mass basis remains unknown; no real parent-molar potency interpretation",
+    "Unobserved assay/chemistry variables limit scope; no complete-case prerequisite for a reported-label task",
+    "Point selection may be informative; censor bounds retained, not points or independent validation set",
+    "Unique IDs and operational families/source groups are not certified biological independence",
+    "No test37 access, protected contamination clearance, new collection, natural training or novelty evidence"
+  ],
+  "reviewed_sha256": {
+    "COUNTING_RULES.json": "f3e7d762c00ba7590f88cb0ba3c9969a534f96cbc3c3ade93b9678f405be910c",
+    "COUNTS.json": "c7e8ef44ac7a986f93b36807f5dce37e61300c4f24e0540c784eef905a29122c",
+    "ROW_ADMISSION.jsonl": "5e8a78d0378a3dfa99f14a9bd5521a6841afeec801ec27464c04343da55731c5",
+    "ADMISSION_ONE_PAGE.zh.md": "5ffc875d69792560b541e9786f6910a36a4f856d3f8536a9d8119a752aa2ddb5",
+    "independent/RECOUNT.json": "84405c9849b5e5539d84a41ad70e6dc10ca0cf33cb782013c19068eabf0e60d5",
+    "independent/SCIENCE_REVIEW.zh.md": "27cfa00cc04b2521da8d2481f7158d5f1a396b7bffbbd68e49e2c7f9f18ee46e"
+  }
+}

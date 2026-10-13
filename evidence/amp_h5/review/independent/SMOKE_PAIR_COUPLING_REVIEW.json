@@ -1,0 +1,16 @@
+{
+  "status": "PASS_RECORDED_SMOKE_PAIR_COUPLING",
+  "checks": {
+    "full_initial_state_hash_equal": true,
+    "VAE20_batch_plans_equal": true,
+    "VAE20_forward_rng_states_equal": true,
+    "VAE20_lr_equal": true,
+    "DDPM20_initial_state_equal": true,
+    "DDPM20_batch_plans_equal": true,
+    "DDPM20_noise_timestep_hashes_equal": true,
+    "DDPM20_condition_drop_equal": true
+  },
+  "natural_record_reads": 0,
+  "model_calls": 0,
+  "interpretation": "Verifies recorded init/batch/RNG coupling, not same trained latents or scientific advantage."
+}

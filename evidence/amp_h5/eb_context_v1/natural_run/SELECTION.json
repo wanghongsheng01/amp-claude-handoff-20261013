@@ -1,0 +1,137 @@
+{
+  "ar_cv": {
+    "config": {
+      "lr": 0.0003,
+      "steps": 500
+    },
+    "index": 1,
+    "score": {
+      "by_terminal": {
+        "AMD": {
+          "aa_nll": 5975.828034341335,
+          "eos_nll": 265.43694826960564,
+          "n": 153,
+          "sequence_nll": 40.792581585692425,
+          "token_nll": 2.529900682047402
+        },
+        "FREE": {
+          "aa_nll": 7109.7483279109,
+          "eos_nll": 317.69203954935074,
+          "n": 126,
+          "sequence_nll": 58.9479394242877,
+          "token_nll": 2.7714329729329292
+        }
+      },
+      "equal_terminal_sequence_nll": 49.870260504990064
+    }
+  },
+  "ngram": {
+    "config": {
+      "alpha": 1.0,
+      "max_depth": 1,
+      "mode": "separate"
+    },
+    "index": 2,
+    "score": {
+      "by_terminal": {
+        "AMD": {
+          "aa_nll": 6063.079816422629,
+          "eos_nll": 404.34177359019344,
+          "n": 153,
+          "sequence_nll": 42.27072934648904,
+          "token_nll": 2.6215734049504755
+        },
+        "FREE": {
+          "aa_nll": 7277.4150767729325,
+          "eos_nll": 392.0724996027143,
+          "n": 126,
+          "sequence_nll": 60.86894901885434,
+          "token_nll": 2.8617490956625544
+        }
+      },
+      "equal_terminal_sequence_nll": 51.569839182671686
+    }
+  },
+  "partial": {
+    "config": {
+      "alpha": 0.5,
+      "max_depth": 1,
+      "mode": "partial",
+      "shrinkage": 100.0
+    },
+    "index": 2,
+    "score": {
+      "by_terminal": {
+        "AMD": {
+          "aa_nll": 6030.693800294697,
+          "eos_nll": 421.3099078690503,
+          "n": 153,
+          "sequence_nll": 42.169958876887236,
+          "token_nll": 2.615323756855998
+        },
+        "FREE": {
+          "aa_nll": 7225.324480297784,
+          "eos_nll": 373.4640865016578,
+          "n": 126,
+          "sequence_nll": 60.307845768249535,
+          "token_nll": 2.835368868208747
+        }
+      },
+      "equal_terminal_sequence_nll": 51.238902322568386
+    }
+  },
+  "pooled": {
+    "config": {
+      "alpha": 1.0,
+      "max_depth": 2,
+      "mode": "pooled"
+    },
+    "index": 5,
+    "score": {
+      "by_terminal": {
+        "AMD": {
+          "aa_nll": 5984.191399343374,
+          "eos_nll": 434.13099785472264,
+          "n": 153,
+          "sequence_nll": 41.94981958953004,
+          "token_nll": 2.6016710162943233
+        },
+        "FREE": {
+          "aa_nll": 7231.735899675373,
+          "eos_nll": 365.43350758990147,
+          "n": 126,
+          "sequence_nll": 60.294995295756145,
+          "token_nll": 2.8347647042034607
+        }
+      },
+      "equal_terminal_sequence_nll": 51.122407442643095
+    }
+  },
+  "separate": {
+    "config": {
+      "alpha": 1.0,
+      "max_depth": 2,
+      "mode": "separate"
+    },
+    "index": 5,
+    "score": {
+      "by_terminal": {
+        "AMD": {
+          "aa_nll": 6020.645681955141,
+          "eos_nll": 423.8124431602035,
+          "n": 153,
+          "sequence_nll": 42.120641340623166,
+          "token_nll": 2.6122651500264875
+        },
+        "FREE": {
+          "aa_nll": 7241.5582624141925,
+          "eos_nll": 378.58391126870515,
+          "n": 126,
+          "sequence_nll": 60.47731883875315,
+          "token_nll": 2.8433366319712303
+        }
+      },
+      "equal_terminal_sequence_nll": 51.29898008968816
+    }
+  }
+}

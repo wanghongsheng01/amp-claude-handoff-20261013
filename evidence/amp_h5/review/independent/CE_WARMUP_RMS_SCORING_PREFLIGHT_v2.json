@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+  "scoring_config_sha256": "354d60ec279f9f5565a8370e4a11c11830ce367345eef4c8274ae2824feec8ff",
+  "scoring_script_sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+  "created_utc": "2026-10-12T01:08:42.055589+00:00",
+  "approval_kind": "CONDITIONAL_READ_ONLY_EXECUTION_PREFLIGHT",
+  "execution_conditions": [
+    "Require actual new endpoint model postflight PASS with exact scope AMP_H5_WARMUP_POSTTRAIN_RMS_V2 and bindings to new model CONTRACT/run manifest; no execution before that.",
+    "Root invokes once under exact inner/outer watchdog, absent output path, no retry. All fixed denominators and four resource guards unchanged."
+  ],
+  "budgets_seconds": {
+    "inner": 300,
+    "outer": 360
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v3/SCORING_CONTRACT.json",
+      "sha256": "354d60ec279f9f5565a8370e4a11c11830ce367345eef4c8274ae2824feec8ff",
+      "bytes": 7728
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+      "sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+      "bytes": 27857
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/WARMUP_RMS_V1_ADMISSION_FAILURE_REVIEW.json",
+      "sha256": "562cbf807b479cd1090d342c149eafa78aee7e92cfdba93913ceb67ca23db7e3",
+      "bytes": 5922
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/WARMUP_POSTTRAIN_PREPARATION_REVIEW_v1.json",
+      "sha256": "327a5463f3c35c88dca1126643f853351b11082eaf076d508a1cb352be84d133",
+      "bytes": 9714
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/INDEPENDENT_PREFLIGHT.json",
+      "sha256": "2f098e930e18dba7e3c511757b92c79d50f601bf4304e15d4cbbfc6a277a69e8",
+      "bytes": 4998
+    }
+  ],
+  "revision": "Only metadata rebinding after explicit zero-model admission repair; old conditional receipts preserved.",
+  "mathematics_tests_repeated": false,
+  "new_model_calls": 0,
+  "new_random_draws": 0,
+  "test_reads": 0,
+  "downstream_authorization": false,
+  "original_CE_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD"
+}

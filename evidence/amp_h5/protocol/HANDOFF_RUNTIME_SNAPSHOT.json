@@ -1,0 +1,103 @@
+{
+  "captured_utc": "2026-10-11T16:50:57.309753+00:00",
+  "identity": "antimicrobial_peptide_AMP_H5",
+  "supervisor_status_snapshot": {
+    "pid": 60744,
+    "created_utc": "2026-10-11T16:48:18.257064+00:00",
+    "state": "running",
+    "plan_sha256": "ce193e133e86d995c21e4596412ce08ee61bb2be3cb47b2549d4f11f5c86f2d6",
+    "jobs": [
+      {
+        "id": "categorical_ce",
+        "argv": [
+          "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+          "-u",
+          "-B",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "run",
+          "--config",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+          "--output",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce"
+        ],
+        "started_utc": "2026-10-11T16:48:18.257378+00:00",
+        "state": "running",
+        "pid": 60747
+      }
+    ]
+  },
+  "model_status_snapshot": {
+    "state": "running",
+    "purpose": "formal_pilot",
+    "config_sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+    "runner_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+    "test_read": false,
+    "development_read": true,
+    "train_read_attempted": true,
+    "train_read_validated": true,
+    "development_read_attempted": true,
+    "development_read_validated": true
+  },
+  "latest_vae_update": {
+    "step": 133,
+    "rows": 32,
+    "record_indices": [
+      66,
+      96,
+      150,
+      6,
+      36,
+      75,
+      83,
+      4,
+      197,
+      114,
+      200,
+      181,
+      16,
+      263,
+      174,
+      117,
+      51,
+      72,
+      46,
+      54,
+      13,
+      251,
+      43,
+      7,
+      212,
+      104,
+      152,
+      24,
+      271,
+      204,
+      137,
+      97
+    ],
+    "loss": 3.5879313945770264,
+    "reconstruction": 2.853760004043579,
+    "kl": 0.7341713905334473,
+    "density_sum": 1127.687255859375,
+    "lr": 6.55e-05,
+    "gradient_norm_before_clip": 5.417761325836182,
+    "forward_rng_sha256": "65a461645311cd86fb6899b5d7c0e51f58511fd37a7d9054fc6f1774a1640d84",
+    "duration_seconds": 1.2128554587252438,
+    "elapsed_stage_seconds": 157.89318275032565
+  },
+  "vae_updates_observed": 133,
+  "ddpm_log_exists": false,
+  "runtime_paths_are_live_not_manifest_frozen": [
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_ce_execution_v2/SUPERVISOR_STATUS.json",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce"
+  ],
+  "next_agents_available": [
+    "h5_runner",
+    "h5_independent",
+    "h5_evaluator",
+    "h5_baseline",
+    "h5_literature"
+  ],
+  "automation_created": false,
+  "requires_independent_postflight_before_other_VAE_arms": true
+}

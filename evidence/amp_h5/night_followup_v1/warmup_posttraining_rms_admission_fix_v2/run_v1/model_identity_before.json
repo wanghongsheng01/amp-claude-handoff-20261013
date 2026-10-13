@@ -1,0 +1,7 @@
+{
+  "sha256": "05b9497ec78697dafdbceaae0cac5ef54e8b157b3b3f9cf417053b6d7e9e96d6",
+  "tensor_digest": "85f650713eadc074b126c7082903fa4153cc07d1ab2b20d53e5a94913d97a89a",
+  "modelinit_seed": 222,
+  "modelinit_global_rng_restored": true,
+  "global_rng_sha256": "16e66a548e6085dab524010d7b8b41555dbab318b949d36ec970fd17d473bf1d"
+}

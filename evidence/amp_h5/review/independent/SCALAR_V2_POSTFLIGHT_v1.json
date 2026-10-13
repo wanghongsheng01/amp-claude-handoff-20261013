@@ -1,0 +1,298 @@
+{
+  "created_utc": "2026-10-11T19:59:58.254625+00:00",
+  "reviewer": "independent H5 reviewer",
+  "status": "PASS",
+  "scope": "SINGLE_SCALAR_WHOLE_PIPELINE_ENGINEERING_ONLY",
+  "attempt_id": "scalar_legacy_v2",
+  "generation_attempt_id": "scalar_legacy_v2",
+  "generation_attempt_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy",
+  "training_source_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/config.json",
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0",
+      "bytes": 2540
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_ema_state.json",
+      "sha256": "29348852c9fc35f2ded26669273e45f09b4225ddc0ac5c5c6839e5705d948f56",
+      "bytes": 611
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_ema_state.pt",
+      "sha256": "f78f9f6c622885a7227e9b646718f8142097104b3be14e8c8e2250e7fd1f7604",
+      "bytes": 74515981
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_state.json",
+      "sha256": "0e70ccc33fdedce483d910b44924dee2b8fc0bbb54987744493a4152daaa92a0",
+      "bytes": 611
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_state.pt",
+      "sha256": "741ae2102ec7132c28091680302f58ed4719037eeb87ed4f7e94b3bc4519d756",
+      "bytes": 74515249
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_train.jsonl",
+      "sha256": "ade0b7ca2b37d57ea1f7dda845238280c5f9413b08154ab1d6bf8bc8647f82a2",
+      "bytes": 339550
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_training_state.pt",
+      "sha256": "1d47b27e62db745c7e3c47cc696d4181247d9308912560b6ad44a5707cc1a7ac",
+      "bytes": 149054122
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/ddpm_training_summary.json",
+      "sha256": "0f57f8210081b42c1f0aa480263950b2c29229a413a42cfac6a1f4ef9ad972ca",
+      "bytes": 478
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/dev_monitor.jsonl",
+      "sha256": "58feb7b3d78bba6ef56d7e18008e39a4e6f9c4d8f18c64a768082ba1e88afb23",
+      "bytes": 4149
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/dev_reconstruction.csv",
+      "sha256": "93067ce161302480f641e273006006bcf24a58cad9d20a3d8dfec0d7e7cb2d7c",
+      "bytes": 19102
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated.csv",
+      "sha256": "97ae42b13738644494ffd5954ad80142b13ab526bf99bfef09e99385592c2e7f",
+      "bytes": 2580
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_AMD.npz",
+      "sha256": "801e99b86b74ccd8c1f1dcdf9a60b5cca78a39c1c86588e06031f228e82aa90c",
+      "bytes": 142833
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_FREE.npz",
+      "sha256": "31cc6e196cd18c0f1e6bac11fd8145a877d67e3dff1dd24ac710dcd7d8e69937",
+      "bytes": 142575
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_posterior_AMD.npz",
+      "sha256": "3622a172a1ded4469725c3137ba645a7832a2d8e880aeff891fc30aaca54dff1",
+      "bytes": 93237
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_posterior_FREE.npz",
+      "sha256": "714579a9671fbc723f2fc72b2b2e18a603a7a555a5c77752738cdd692ee2d370",
+      "bytes": 93098
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_posterior_summary_AMD.json",
+      "sha256": "367c67fad0720a185d2c78e92005207c530cb834ad4ef3547282f22da81b0a72",
+      "bytes": 1076
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated_posterior_summary_FREE.json",
+      "sha256": "e0e6a3f49a53b88501f3f5057569b5c44edc2ffb390bf3cf2c6b3759431df206",
+      "bytes": 1076
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generation_progress.jsonl",
+      "sha256": "bb781c933014b3a8152bdde64b40e0ef7e3155cec5820e8ee49c2d93fb585c3e",
+      "bytes": 1510
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generation_summary.json",
+      "sha256": "2663276cb0e01ec75a23dccd2a30bbeeb374f7506e708932d1ca823ed3a0376a",
+      "bytes": 224
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/manifest.json",
+      "sha256": "01ac8ae2811be6bee9ee30e3080b6708cc811667b0249edaa3878bc9eda1c51f",
+      "bytes": 5038
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1",
+      "bytes": 24995
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/status.json",
+      "sha256": "f304e7868aafca6fbb03dba7407183e3294b825f7c31dfa9e33e1bd8749a9341",
+      "bytes": 845
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "bytes": 3279
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/train_posterior_parameters.npz",
+      "sha256": "26be82a92b679ba015317c579ad9410077b3785c0fedc999de633b47830af28c",
+      "bytes": 1267898
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/train_reconstruction.csv",
+      "sha256": "55780a004282cd81851be7ce9d48231b883b0d365a804093fe46514efcc1436f",
+      "bytes": 129302
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_initial_state.json",
+      "sha256": "bbc9aa15170d33a0bfbce839b145e8ac05e5361e77e4c0bbbac2fde18398ddc3",
+      "bytes": 208
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_initial_state.pt",
+      "sha256": "35a8c87d8501d2f910f42ebab99981c7a5a41a99d701cbeed7860bdd47188638",
+      "bytes": 6800722
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_initialization.json",
+      "sha256": "88ea4e73df0de087806b3076925f33966eea6fd0ee587c9d0461f86911adcbda",
+      "bytes": 169
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_state.json",
+      "sha256": "04868c09f280ee9e447f89bf35c737378923ab5abd5f88b9b331c777c4379d37",
+      "bytes": 421
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_state.pt",
+      "sha256": "829bbdd75987d3436c6df158cb2a1376053775007b78ce4f0cdcf7c2a56fea7d",
+      "bytes": 6798970
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_train.jsonl",
+      "sha256": "1c917c20595c9b7cd8a3351fe150ce6ded55f4878258b411eb46d5a7efaf5ec5",
+      "bytes": 554211
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_training_state.pt",
+      "sha256": "46c2d8424d32027e15c17279a9fabf120a348a6fcdacdaf1644b013cc9014d3b",
+      "bytes": 13624771
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/vae_training_summary.json",
+      "sha256": "499990631100d75b9c8b7ad790e0de269c3253f243ce47eef1d524b872c7b7b5",
+      "bytes": 289
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_scalar_legacy_execution_v2/SUPERVISOR_STATUS.json",
+      "sha256": "03c0f63c550cff367005eaa77cf226a0f54f10e7df1b00ef3905a1b82a6e6bf5",
+      "bytes": 1003
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_TERMINAL_AUDIT_v1.json",
+      "sha256": "bb4e5418a9372d7f140de139b154e1d4dfe78f43551f469572d254fef7def209",
+      "bytes": 30473
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_SCALE_ASSESSMENT_v1.json",
+      "sha256": "cfe7fe7fa13fe9a1f19aaf844cb3ea7c359074aeb7d016cf1c51b77352a36734",
+      "bytes": 4375
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_v2_interruption_root_v1/INTERRUPTED_ARTIFACT_SNAPSHOT.json",
+      "sha256": "dd0fe7eac19e49b2a148113deff6ab96f15f44b055974b8eafba29e8907a9311",
+      "bytes": 5799
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_TERMINAL_AUDIT_PRELOCK_v1.json",
+      "sha256": "92e4e486caa11a310d7e82a651907e6edaa79e9a2d1d9ef7c592b59da4bf5f6f",
+      "bytes": 3211
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/audit_scalar_v2_terminal_v1.py",
+      "sha256": "49c1028b31a5f6a1fb8d7ca404af228ebb22b620f7556c2781364600a574680f",
+      "bytes": 19058
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SINGLE_SCALAR_V2_PREFLIGHT_RECEIPT.json",
+      "sha256": "6356839509b20694e1288bee36cb8accefa7c56fba374d6ed5bd866a09c6169f",
+      "bytes": 9123
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SINGLE_SCALAR_V2_PLAN.json",
+      "sha256": "69e082e8a5c172f8ca2ed421fdd47caaac4015bea70dcffe612a750a7554b501",
+      "bytes": 12573
+    }
+  ],
+  "independent_audit": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_TERMINAL_AUDIT_v1.json",
+    "sha256": "bb4e5418a9372d7f140de139b154e1d4dfe78f43551f469572d254fef7def209",
+    "checks_passed": 57,
+    "failed_checks": []
+  },
+  "scale_assessment": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_SCALE_ASSESSMENT_v1.json",
+    "sha256": "cfe7fe7fa13fe9a1f19aaf844cb3ea7c359074aeb7d016cf1c51b77352a36734",
+    "decision": "OBSERVED_SCALAR_NUMERICALLY_FEASIBLE_WITH_TAIL_AND_MEAN_MISMATCH_DISCLOSED"
+  },
+  "execution_facts": {
+    "VAE_updates": 1000,
+    "DDPM_updates": 1000,
+    "requested": 32,
+    "completed": 32,
+    "failed": 0,
+    "not_executed": 0,
+    "slot_status_counts": {
+      "no_eos_at_limit": 3,
+      "ok": 29
+    },
+    "finite_saved_model_posteriors_sigma_z_decoder_arrays": true,
+    "sigma_strictly_positive": true,
+    "final_reparameterization_byte_equal": true,
+    "native_scalar_round_clamp_firstPAD_exact": true,
+    "J_readout_used": false,
+    "fixed_train279_dev41_exports_verified": true,
+    "test37_read": false,
+    "original_CE_25_files_unchanged": true
+  },
+  "descriptive_random_exposure_comparison": {
+    "VAE_CE_same_batches_rng_lr": true,
+    "DDPM_CE_same_batches_noise_dropout_lr": true,
+    "DDPM_same_initialization": true,
+    "scalar_model_parameter_count": 1681209,
+    "decoder_head_parameters": 17
+  },
+  "comparison_limits": "Scalar has a scalar head, MSE/nonPAD, KL/16 and round-clamp-firstPAD readout. It is a whole-pipeline legacy adaptation comparator. Random-exposure equality, if observed, does not make it a single-factor ablation or equal actual compute comparison.",
+  "costs": {
+    "training_seconds": 1742.7696539591998,
+    "generation_seconds": 1116.6571687501855,
+    "process_seconds_before_final_io": 2867.1760469167493,
+    "supervisor_outer_seconds": 2867.7861290420406,
+    "CE_recovery_costs_separate": true,
+    "original_CE_exact_wall_unknown": true
+  },
+  "next_stage_judgment": {
+    "four_arm_frozen_execution_queue_finished": true,
+    "further_model_execution_authorized": false,
+    "allowed_next": "Read-only frozen four-arm evaluation and independent scientific review. Any new source-substitution diagnostic requires a distinct protocol, final hash-bound plan and independent receipt.",
+    "basis_excludes": [
+      "reconstruction accuracy",
+      "length validity",
+      "uniqueness",
+      "MMD",
+      "JS",
+      "copy rate",
+      "biological activity"
+    ]
+  },
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "CE_recovery_scope": "Separate extra generation attempt; no-retry deviation and original partial generation costs retained. Scalar success does not repair original CE protocol.",
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "reviewer_actions": {
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "new_generation_requests": 0,
+    "test37_reads": 0,
+    "scope": "Immutable saved arrays/logs; weights_only tensor-state loading; two exact-bound cohort CSVs for export identity; local RNG/arithmetic only."
+  },
+  "limitations": [
+    "No generation quality, biology or goodness-of-fit decision. Scale values are descriptive without posthoc thresholds.",
+    "No independent998-step DDPM replay; source/hash/progress and final arithmetic checks.",
+    "This concludes the current frozen VAE-arm queue; no further model work or retry is authorized by this audit.",
+    "No OS syscall tracing; no-test evidence is exact config/path/source/status audit.",
+    "Optimizer objects are not deserialized here; finite optimizer execution comes from frozen per-update guards and full finite logs."
+  ]
+}

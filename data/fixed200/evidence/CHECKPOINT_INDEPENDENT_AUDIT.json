@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-12T15:37:16.670339+00:00",
+  "freeze_sha256": "184833741b28068819605f78b60532756f72a796b4c11338cd6fd59cc734bdcd",
+  "scope": "Independent saved-artifact result verification; no chemistry rerun, model execution or networking. FINAL_MANIFEST excluded because root refreshes it after this receipt.",
+  "requests": {
+    "count": 54,
+    "unique_ids": 54,
+    "never_attempted_first": 47,
+    "ordinary_failure_revisits_after": 7,
+    "successes": 54,
+    "within_batch_retries": 0,
+    "min_completion_to_next_start_seconds": 5.105310790706426,
+    "max_request_seconds": 2.0452787498943508
+  },
+  "coverage": {
+    "frozen_ids": 200,
+    "completed": 200,
+    "previous": 146,
+    "added": 54,
+    "remaining": 0
+  },
+  "all_peptides": {
+    "rows": 200,
+    "peptide_IDs": 200,
+    "exact_sequences": 192,
+    "annotation_fingerprints": 200,
+    "families": 141,
+    "source_family_components": 68
+  },
+  "all_MIC": {
+    "rows": 1788,
+    "peptide_IDs": 165,
+    "exact_sequences": 158,
+    "annotation_fingerprints": 165,
+    "families": 119,
+    "source_family_components": 53
+  },
+  "Ecoli_MIC": {
+    "rows": 318,
+    "peptide_IDs": 158,
+    "exact_sequences": 153,
+    "annotation_fingerprints": 158,
+    "families": 115,
+    "source_family_components": 50
+  },
+  "native_point_groups": {
+    "ug_ml_native": {
+      "rows": 103,
+      "peptide_IDs": 71,
+      "exact_sequences": 66,
+      "annotation_fingerprints": 71,
+      "families": 49,
+      "source_family_components": 27
+    },
+    "uM_native": {
+      "rows": 88,
+      "peptide_IDs": 42,
+      "exact_sequences": 42,
+      "annotation_fingerprints": 42,
+      "families": 28,
+      "source_family_components": 19
+    }
+  },
+  "retention": {
+    "old_source_hashes_verified": 162,
+    "frozen_local_files_verified": 12,
+    "old_peptides_preserved_except_operational_group_labels": 146,
+    "old_MIC_multiset_rows_preserved_except_operational_group_labels": 1278,
+    "old_native_eligibility_rows_preserved": 240
+  },
+  "source_index": {
+    "measurement_rows": 1788,
+    "source_entries": 124,
+    "unresolved_reference_rows": 2,
+    "resolved_links_bidirectionally_closed": true,
+    "unresolved_rows_retained_with_empty_source_keys": true,
+    "csv_json_rows_agree": true,
+    "all_independent_peptide_observation_flags_false": true
+  },
+  "finalizer_static_repairs_confirmed": [
+    "Frozen hashes and successful/prepared ID closure checked before output writes.",
+    "Minimum interval assertion uses frozen5.1s."
+  ],
+  "limitations": [
+    "MIC rows are repeated measurements, not independent peptides.",
+    "Distinct ID, exact sequence, edit family and source-family component counts are separate levels; biological independence not certified.",
+    "Original publication semantics not newly verified; two unresolved reference links remain.",
+    "Complete coverage of the fixed200 frame does not establish database representativeness, efficacy, chemical eligibility, or training/submission admission."
+  ],
+  "no_network_by_reviewer": true,
+  "no_models_or_chemistry_rerun": true,
+  "test37_accessed": false,
+  "bindings": {
+    "FREEZE.json": "184833741b28068819605f78b60532756f72a796b4c11338cd6fd59cc734bdcd",
+    "REQUESTS.json": "e703e028a319cbddfdb0981026d2eb16c4201985d569ebfd27225ae3a77b36dc",
+    "ACQUISITION_RESULT.json": "d40c932cf824b9fc796f89cfe581b4cf699fe34ffe0e9378a3dba9ceed6c8f8d",
+    "RESULT_SUMMARY.json": "45ba2f933e566dea652e92b143cf1624997f3a3008dc48802afb01631c3e5576",
+    "ALL_200_COVERAGE.json": "3e4d1693a484a92cadde273f470a54d3803191068baefe5d0f8143958be10b7f",
+    "MEASUREMENT_SOURCE_INDEX.json": "f77cd4233421f7d94ef363d680e3b2cf162311c0a25af58216285c1612fc8548",
+    "MEASUREMENT_SOURCE_INDEX.csv": "735bd67a8df745e9503461f5d51cd7dd548a24873449d86c37ceff0d5cd93c5b",
+    "SOURCE_INDEX.csv": "c12be7a80fc5a3b2bf5a3e386b294b64451bb31d7328b2cbfb2d76899ee0792d",
+    "INDEX_README.json": "331de0a7be08e4d4c9b8732c51c74388953e69234bee6423a89cff1653a74960",
+    "finalize_checkpoint.py": "3443edd5564f9536640c4856fcf0aad50e30348a34a0820e782d52638eb63cf8",
+    "analysis/COUNTS.json": "64d106f9ada068f7ba3228191492e3c43ec87f6b60575f27f2c27e8040f4a825"
+  }
+}

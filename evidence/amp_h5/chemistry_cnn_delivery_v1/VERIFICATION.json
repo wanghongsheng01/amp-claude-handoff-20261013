@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-12T09:00:24.158250+00:00",
+  "previous_manifest_entries_verified": 166,
+  "frozen_chemistry_bindings": "PASS_BOTH_VERSIONS",
+  "independent_actual_checks_v2": 605,
+  "readiness": "Data/model preparation audited; natural training not admitted"
+}

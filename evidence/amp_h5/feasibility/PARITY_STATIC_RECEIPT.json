@@ -1,0 +1,18 @@
+{
+  "state": "STATIC_READY_NOT_EXECUTED",
+  "script_sha256": "5e8d84f3baff188f3eb15a6b54343a72bb79c7d7dc0e23fa22b64593b93e3e30",
+  "config_sha256": "e45478be33b64384cf59e4a0a4267815106e5e7b278784de1d6ebe64f5ac0ac8",
+  "report_sha256": "e88b434f65a30e7e8c0f41dfb6840067566377c7739bdebc485d6d49987cd6b4",
+  "expected_calls": {
+    "DDPM_conditional_forward": 2,
+    "scalar_decoder_forward": 2,
+    "unconditional_forward": 0,
+    "reverse_steps_per_saved_terminal_batch": 1,
+    "new_random_sequence_noise": 0
+  },
+  "syntax": "PASS",
+  "old_h4_input_manifests_bound": true,
+  "scope": "saved-t1-only checkpoint replay; no full reverse chain",
+  "execution_count": 0,
+  "static_report_correction": "Repository has two CFG entrypoints: root diffusion.py disables(-1); tasks/train_diffusion.py default7/main3. H4/H5 conditional-only match root disabled policy. No script/config changes."
+}

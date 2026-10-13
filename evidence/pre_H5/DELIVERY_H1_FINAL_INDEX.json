@@ -1,0 +1,114 @@
+{
+  "created_utc": "2026-10-11T13:06:45.542967+00:00",
+  "scope": "Explicit local delivery index, not a full workspace snapshot or scientific acceptance gate",
+  "n_files": 21,
+  "files": [
+    {
+      "path": "HANDOFF_H1_20261011.zh.md",
+      "bytes": 7535,
+      "sha256": "e59cb471b1aea29702c49a2ac89579a6e63f0c2507cd0846db34d70aa1230ade"
+    },
+    {
+      "path": "H1_AUTHORIZATION_RECEIPT.json",
+      "bytes": 1492,
+      "sha256": "354da473780f6dfe8f3321fdb40c81dbb836c5c2e045530f3627c31dba718706"
+    },
+    {
+      "path": "H1_CLAIM_MATRIX_PRELOCK.json",
+      "bytes": 3606,
+      "sha256": "96cc4989e75e035e111e998fc5e3dfb7828fda2218eac6475b1756773d8152c5"
+    },
+    {
+      "path": "H1_CLAIM_STATUS_FINAL.json",
+      "bytes": 2817,
+      "sha256": "5b6a565bdb824b1bbe6cf287b8c68eed35ac0b40335fc2b7a93259677e4e9f4f"
+    },
+    {
+      "path": "H1_PREDECESSOR_PRESERVATION_BEFORE.json",
+      "bytes": 14022,
+      "sha256": "f95e6e33da08c6150a74c91eeb2b6cb92cfe996eae345a5af597888bd2c4adb4"
+    },
+    {
+      "path": "H1_PREDECESSOR_PRESERVATION_AFTER.json",
+      "bytes": 19778,
+      "sha256": "04fffb4c75b8b7b9f03a419abb2f5d2954ffbef664ab19fa68447ae2f6739115"
+    },
+    {
+      "path": "DELIVERY_H0_FINAL_INDEX.json",
+      "bytes": 3698,
+      "sha256": "b8b50ebf6852c402f24d5d2d9e6249e4333abea226fe5c91b34708f3e6652f2c"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/PRELOCK_MANIFEST.json",
+      "bytes": 639,
+      "sha256": "833af1f65fde1b5c8b982706b5ff9af4d31a60282b228e4d1855abf57ed2a34d"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/START.json",
+      "bytes": 1079,
+      "sha256": "87c3e73616fc2ae1536589f52854a7fa9917d3b42a270ad7337da3726ea68e34"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/AUTHOR_READOUT_r3.zh.md",
+      "bytes": 7061,
+      "sha256": "7fcc95a29b3ca052ffad6db055ae7e9b53345dfd9a27b34c0983be2ed97563e9"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/AUTHOR_DELIVERY_r3_MANIFEST.json",
+      "bytes": 969,
+      "sha256": "29c37960b6abd951dd8e8200d7eeda6927ccbcbcc9f35477b1adcfc814b63793"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/run/MANIFEST.json",
+      "bytes": 16691,
+      "sha256": "d4dfcf3a2be8ba6e2a90b3eda40f8183471348aed9e82476337cfc24647c97d0"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/run/status.json",
+      "bytes": 538,
+      "sha256": "bd2ecc71795adc8544ccf6676054736479977bf709709a91c1f85bc564cc0751"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/independent_review/PREFLIGHT_MANIFEST.json",
+      "bytes": 3695,
+      "sha256": "c692512600beff80b51c371e99285718ed16638658f669eed66e6f3a5beac1a2"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/independent_review/POST_AUDIT_RULES.json",
+      "bytes": 3534,
+      "sha256": "95a3f044d2f3e3729b5ed9c48aa9c165af7f23c91ae90c88477205f1deb6ef89"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/independent_review/POST_AUDIT_RESULTS.json",
+      "bytes": 889794,
+      "sha256": "9071b00b37ea99e0faacdfb28d42dc6853dc933bcafe79c2bf9eb7f56d61ff44"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/independent_review/POST_REVIEW.zh.md",
+      "bytes": 6712,
+      "sha256": "a95becfbed14d93dd80a01e5e6d28147e99031be33c69b84eb7cc658448932b7"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/independent_review/FINAL_MANIFEST.json",
+      "bytes": 5243,
+      "sha256": "c6486eaa206a1b3a09e4d2919e1918ba33dafed50d81214a13e89dba64c29306"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/independent_review/FINAL_RECEIPT.json",
+      "bytes": 1139,
+      "sha256": "761e9ed49325b123354e258638c516ef8bdaeb5963a86b31443b2ffde8afc738"
+    },
+    {
+      "path": "diagnostics_h1_readout_v1/independent_review/POST_REVIEW_ERRATUM.json",
+      "bytes": 1404,
+      "sha256": "10e6acfc6631f30ffcee4e10eed24a41981f91a05651b497bdb02e03585a61df"
+    },
+    {
+      "path": "final_science_review/H1_INCREMENT_CLAIM_REVIEW.json",
+      "bytes": 8575,
+      "sha256": "44a52acc62da4feaeb48171829a20a4e32b7a4ec19d1843fa24f4fd11e138920"
+    }
+  ],
+  "backup_status": "BACKUP_BLOCKED",
+  "no_cloud_backup_claim": true
+}

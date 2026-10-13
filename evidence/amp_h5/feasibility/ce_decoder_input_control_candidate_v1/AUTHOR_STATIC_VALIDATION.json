@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-10-11T19:32:09.923521+00:00",
+  "status": "PASS_STATIC_SYNTHETIC_ONLY",
+  "script_sha256": "c3fadf38b1a4f7fed9b53c65e4b18905d3f4ed3744350e1575af0cb724513324",
+  "contract_sha256": "01687cab73e6dd90843002e5f8eb764fd3241e1fdcb8bad4506a9d34d6ab16e1",
+  "checks": [
+    {
+      "name": "64_unique_preserved_slots",
+      "pass": true
+    },
+    {
+      "name": "32_paired_ids",
+      "pass": true
+    },
+    {
+      "name": "per_terminal_per_branch16",
+      "pass": true
+    },
+    {
+      "name": "all_preallocated_not_executed",
+      "pass": true
+    },
+    {
+      "name": "A_is_group_only",
+      "pass": true
+    },
+    {
+      "name": "B_train_pool_only",
+      "pass": true
+    },
+    {
+      "name": "hash_accepts_exact",
+      "pass": true
+    },
+    {
+      "name": "hash_rejects_mismatch",
+      "pass": true
+    },
+    {
+      "name": "hash_rejects_symlink",
+      "pass": true
+    },
+    {
+      "name": "64_rows_roundtrip_without_filter",
+      "pass": true
+    },
+    {
+      "name": "unauthorized_path_stops_before_any_file_or_model",
+      "pass": true
+    },
+    {
+      "name": "only_stdlib_imports_at_module_scope",
+      "pass": true
+    },
+    {
+      "name": "no_RNG_execution_in_synthetic_tests",
+      "pass": true
+    },
+    {
+      "name": "contract_script_binding",
+      "pass": true
+    },
+    {
+      "name": "all110_input_bindings_match",
+      "pass": true
+    },
+    {
+      "name": "frozen_caps",
+      "pass": true
+    },
+    {
+      "name": "global_fork_rng_source_contract",
+      "pass": true
+    },
+    {
+      "name": "draw_count_arithmetic",
+      "pass": true
+    },
+    {
+      "name": "no_final_plan_receipt_or_output_created",
+      "pass": true
+    }
+  ],
+  "model_constructions": 0,
+  "forwards": 0,
+  "natural_array_computations": 0,
+  "random_draws": 0,
+  "live_scalar_reads": 0,
+  "test_reads": 0,
+  "not_an_execution_receipt": true
+}

@@ -1,0 +1,150 @@
+{
+  "created_utc": "2026-10-11T17:47:34.046033+00:00",
+  "status": "PASS_STATIC_SYNTHETIC_AND_BINDING_REVIEW",
+  "checks": [
+    {
+      "name": "exact_announced_plan_script_contract_hash",
+      "pass": true
+    },
+    {
+      "name": "all22_plan_bindings_hash_valid",
+      "pass": true
+    },
+    {
+      "name": "all_core_contract_bindings_hash_valid",
+      "pass": true
+    },
+    {
+      "name": "all25_original_files_hash_and_size_valid",
+      "pass": true
+    },
+    {
+      "name": "exact_original25_file_membership",
+      "pass": true
+    },
+    {
+      "name": "new_output_and_supervisor_dirs_absent",
+      "pass": true
+    },
+    {
+      "name": "one_job_exact_caps",
+      "pass": true
+    },
+    {
+      "name": "phase_split_provenance_and_no_original_pass",
+      "pass": true
+    },
+    {
+      "name": "checkpoint_digests_match_independent_forensics",
+      "pass": true
+    },
+    {
+      "name": "no_train_optimizer_forward_or_fit_calls",
+      "pass": true
+    },
+    {
+      "name": "exact_frozen_generate_and_exports",
+      "pass": true
+    },
+    {
+      "name": "two_weights_only_strict_checkpoint_loads",
+      "pass": true
+    },
+    {
+      "name": "authorization_before_import_load_output",
+      "pass": true
+    },
+    {
+      "name": "outer_interruption_bypasses_Exception",
+      "pass": true
+    },
+    {
+      "name": "signal_handler_raises_expected_only",
+      "pass": true
+    },
+    {
+      "name": "synthetic_complete_contract_accepts_no_output",
+      "pass": true
+    },
+    {
+      "name": "unauthorized_receipt",
+      "pass": true
+    },
+    {
+      "name": "wrong_receipt_scope",
+      "pass": true
+    },
+    {
+      "name": "no_root_authorization",
+      "pass": true
+    },
+    {
+      "name": "changed_budget",
+      "pass": true
+    },
+    {
+      "name": "changed_seeds",
+      "pass": true
+    },
+    {
+      "name": "wrong_request_counts",
+      "pass": true
+    },
+    {
+      "name": "stale_receipt_plan_hash",
+      "pass": true
+    },
+    {
+      "name": "wrong_parent_lock_identity",
+      "pass": true
+    },
+    {
+      "name": "existing_empty_output",
+      "pass": true
+    },
+    {
+      "name": "extra_original_file",
+      "pass": true
+    },
+    {
+      "name": "original_hash_drift",
+      "pass": true
+    },
+    {
+      "name": "missing_receipt",
+      "pass": true
+    },
+    {
+      "name": "noncanonical_relative_scope",
+      "pass": true
+    },
+    {
+      "name": "symlink_contract_scope",
+      "pass": true
+    },
+    {
+      "name": "no_synthetic_model_output",
+      "pass": true
+    },
+    {
+      "name": "no_torch_numpy_or_model_imports",
+      "pass": true
+    }
+  ],
+  "checks_passed": 32,
+  "plan_sha256": "3e66ffa415dc759e396d25d4ff9c445c7c855fb0e48aaf96b834d6da1b1ae1e4",
+  "script_sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+  "contract_sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00",
+  "reviewer_actions": {
+    "natural_model_calls": 0,
+    "natural_weight_loads": 0,
+    "training_updates": 0,
+    "generation_requests": 0,
+    "source_CSV_reads": 0,
+    "test37_reads": 0,
+    "original_outputs_written": 0,
+    "synthetic_contract_fixtures": "temporary standard-library-only; deleted after validation"
+  },
+  "authorized": false,
+  "note": "Execution permission requires separate exact scoped receipt; this review report is not itself a receipt."
+}

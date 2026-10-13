@@ -1,0 +1,9 @@
+{
+  "state": "completed",
+  "manifest_sha256": "bc358ed95c8134ba0669b5a6ea9b80ce051c60479fea0a315f0607c5ab6fa7c7",
+  "process_seconds_after_manifest_before_closing_ledger": 10.87685824977234,
+  "inner_seconds_cap": 120,
+  "outer_seconds_cap": 180,
+  "closing_not_self_in_manifest": true,
+  "supervisor_wall_separate": true
+}

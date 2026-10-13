@@ -1,0 +1,189 @@
+{
+  "files": [
+    {
+      "path": "DELIVERY.json",
+      "bytes": 7957,
+      "sha256": "90a7c0f5aea314515aa21d34ce254e72203395857f2ac6ceeb3deaf54965fcd0"
+    },
+    {
+      "path": "ENCODING_DISPERSION.json",
+      "bytes": 44886,
+      "sha256": "e16af9040fc7d334c053ca88a9309b18138ba816f4a3409a4a7642693f8ffd96"
+    },
+    {
+      "path": "ERRATUM.json",
+      "bytes": 625,
+      "sha256": "63a5c15f8b9c5b1381e87f10d09bfec9f8b2e32f1b9ea777dc6bc2ee5fb21c20"
+    },
+    {
+      "path": "FEATURE_SUPPORT.csv",
+      "bytes": 8439,
+      "sha256": "6523c89c8546043412d1df6907c2f39fcd6fa190a97aac59b700560fffe07ee6"
+    },
+    {
+      "path": "FEATURE_SUPPORT.json",
+      "bytes": 35630,
+      "sha256": "815b922869b2caa896e6eee1c44fe060f4031884c835d7aa10c747da17bd75c0"
+    },
+    {
+      "path": "GROUP_ERRORS.csv",
+      "bytes": 36139,
+      "sha256": "0a06d769eacffb3080b85576540ebffccdc171ce456e3be2f252696a05546b5a"
+    },
+    {
+      "path": "GROUP_ERRORS.json",
+      "bytes": 100844,
+      "sha256": "81864cb6120f8cab778a29ff9ebf14f48b6ab780014d07fe8569225773041b48"
+    },
+    {
+      "path": "OBSERVED_ASSAY_STRATA.json",
+      "bytes": 32082,
+      "sha256": "1a2115a3d0ee0a2c14134d570706a5c4d42a47f59d9b975805e5a287c9ce24f6"
+    },
+    {
+      "path": "OBSERVED_CONDITIONS.json",
+      "bytes": 5319,
+      "sha256": "4a7114167ef5ea89da43541022a3cc859913ef08481f1d415b3c016408255d18"
+    },
+    {
+      "path": "PEPTIDE_REPEATS.csv",
+      "bytes": 5160,
+      "sha256": "b4aa06301afbfcc98f637ada63b1fa530d7621cf0ffecc93032f2d6a23ecbd7e"
+    },
+    {
+      "path": "PEPTIDE_REPEATS.json",
+      "bytes": 24231,
+      "sha256": "715803603a32f8ba95804c8ab9fe8e8b936121c224681bca1eebe8f4990921f2"
+    },
+    {
+      "path": "POINT_CENSOR_SELECTION.csv",
+      "bytes": 1886,
+      "sha256": "256f3af2d93abc6c5a4350284962c46afede66980556a8de5791ca8c11ddb5b1"
+    },
+    {
+      "path": "POINT_CENSOR_SELECTION.json",
+      "bytes": 9060,
+      "sha256": "619bc9e51c3bc67458592abf0bd368a1858850433d3671b10147e5f2b1a920ff"
+    },
+    {
+      "path": "REPORT.zh.md",
+      "bytes": 8682,
+      "sha256": "cdb5f3e9b2e0df1e1bb52e996501177db106b2610383c47db095d0c072259f91"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 5339,
+      "sha256": "9a2bfb5583f50e792f7b7bd0834f2e4b1e1bf797ad4c40bd518921b69a17f4ca"
+    },
+    {
+      "path": "SOURCE_CONTEXT.json",
+      "bytes": 511,
+      "sha256": "e619d398f79a6fb3ed341f1c327542f1b561bcc10cb39fc0fc6d03a2e12b1e19"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 8177,
+      "sha256": "cf49199786214524d6824606a20e29d351f24924682d78b572479599d94a843d"
+    },
+    {
+      "path": "diagnose.py",
+      "bytes": 8892,
+      "sha256": "f617656363d4e42afbdf3097fcd3f376ce4c0ba9c8f370011784dc86a4dbe1da"
+    },
+    {
+      "path": "diagnostic.stdout.log",
+      "bytes": 6919,
+      "sha256": "deb179097caf0774f0021be175e1b96d5066db8de8b4ad68590db35866dfa3f2"
+    },
+    {
+      "path": "encoding.stdout.log",
+      "bytes": 6243,
+      "sha256": "b152a2dbd459104e7ba16da6c6a9db6d4cc76ab78cdcb11b5ad632956595faf3"
+    },
+    {
+      "path": "encoding_and_strata.py",
+      "bytes": 3786,
+      "sha256": "b81c908339e7c5256a04356ff73b23068fb8eb9211f2adf6fd49cf01980c93de"
+    },
+    {
+      "path": "history/before_missingness_correction_OBSERVED_CONDITIONS.json",
+      "bytes": 4214,
+      "sha256": "fa1836582351c51caf4aa64d7f51dc4d435308a17b7cabefd2edc548c8f91ecc"
+    },
+    {
+      "path": "history/before_missingness_correction_SOURCE_BINDINGS.json",
+      "bytes": 5339,
+      "sha256": "f73cb6acca3f17e625df433a7ae90b13e46fba8a22b6ed03ae35d6386270723f"
+    },
+    {
+      "path": "history/before_missingness_correction_diagnose.py",
+      "bytes": 8755,
+      "sha256": "874e4e679f5d83b2ddf875521549a3d59cdb212b602d8074a1ebb6cc3a46ffb2"
+    },
+    {
+      "path": "independent/AUDIT_SUMMARY.zh.md",
+      "bytes": 2993,
+      "sha256": "705f4deec98175a86f562d8626d6041d10572174db8216adb1cfb063a3fd4c26"
+    },
+    {
+      "path": "independent/DIAGNOSTIC_AUDIT.json",
+      "bytes": 51724,
+      "sha256": "c456aa3bd1c68fce5d6ecd2726399f78eebe96b6d7cdb891c912623c4c69326c"
+    },
+    {
+      "path": "independent/ENCODING_STRATA_AUDIT.json",
+      "bytes": 42620,
+      "sha256": "622752f9bbc34a373c2fae15b1bab1984aa9389be14ce3fcc85289948e05149f"
+    },
+    {
+      "path": "independent/IMPLEMENTATION_RECHECK.json",
+      "bytes": 34760,
+      "sha256": "9c5259caa065dc803f6ff54c8db80dc3057bd0169a0b62b35322a8bcfb30bb9c"
+    },
+    {
+      "path": "independent/MISSINGNESS_RECHECK.json",
+      "bytes": 2745,
+      "sha256": "4a55c5326bcc5cc8ebbe687a7a329b14027734693de1932d74fe1d71298f57d7"
+    },
+    {
+      "path": "independent/RECOMPUTED_DIAGNOSTICS.json",
+      "bytes": 113005,
+      "sha256": "1daec547de0619e6ae70d3e1fe695d150ea317acd08f3aca57ae6ecfa9a23863"
+    },
+    {
+      "path": "independent/SIGNOFF.json",
+      "bytes": 2778,
+      "sha256": "fe3b8f4ce72b8e330aaac8c9aff3d03acf9d3d2701d4f12c0889b8f8b5325c94"
+    },
+    {
+      "path": "independent/audit_diagnostics.py",
+      "bytes": 9034,
+      "sha256": "fc39bf98857966c702a5887acedede28c138d48e5a9fd65170daa5fb71a54579"
+    },
+    {
+      "path": "independent/audit_encoding.py",
+      "bytes": 4778,
+      "sha256": "78fe601d142398979d63d73840a3b409a31d13316d221dcb5f5984fea28a3019"
+    },
+    {
+      "path": "independent/recheck_implementation.py",
+      "bytes": 6639,
+      "sha256": "dfe462f7a5b49f613dc6604f732ef08682c83e213a5ddc1780e4b7da4a8d6d7f"
+    },
+    {
+      "path": "package_delivery.py",
+      "bytes": 2991,
+      "sha256": "549d926b34ed4398a165e8b5f7dd7fff2e64db7b81bdfd022d92e166d70916f9"
+    },
+    {
+      "path": "write_report.py",
+      "bytes": 9205,
+      "sha256": "b72c023ffae4b8012236a511d64896cef14947061ad96443953039258f9c7c5d"
+    }
+  ],
+  "exclusions": [
+    "FINAL_MANIFEST.json(self)",
+    "__pycache__(derived)"
+  ],
+  "backup": "BACKUP_BLOCKED"
+}

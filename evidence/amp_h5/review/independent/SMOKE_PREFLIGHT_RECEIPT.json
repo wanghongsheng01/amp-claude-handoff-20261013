@@ -1,0 +1,117 @@
+{
+  "schema": "AMP_H5_INDEPENDENT_SMOKE_PREFLIGHT_V1",
+  "created_utc": "2026-10-11T15:58:30.220918+00:00",
+  "status": "PASS_SCOPED_SMOKE_PREFLIGHT",
+  "authorized": true,
+  "reviewer": "h5_independent",
+  "author_of_model_or_runner": false,
+  "plan_sha256": "440381d54dc7dd762ec587adf953a063640f426a04882e590ec61e675cb11759",
+  "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+  "approved_scope": "Only four-arm train-only smoke in bound SMOKE_PLAN: 3x(VAE20+DDPM20), LSTM100; 1 request per terminal per method; 180s per-method train and 450s per-method generation soft caps, outer750s per child; no retry; frozen failures retained. No formal natural experiment approved by this receipt.",
+  "data": {
+    "natural_records_read_by_reviewer": 0,
+    "development_file_opened_by_reviewer": false,
+    "test_file_opened_by_reviewer": false,
+    "natural_optimizer_updates_by_reviewer": 0,
+    "old_source_writes": 0
+  },
+  "evidence": {
+    "independent_vae_math_gradient_decode_checks": 30,
+    "independent_ar_causal_EOS_rng_caps_checks": 24,
+    "author_benchmark_executed_by_independent_reviewer": {
+      "vae_updates_per_arm": 2,
+      "vae_arms": 3,
+      "ddpm_updates": 2,
+      "synthetic_only": true
+    },
+    "plan_bindings_all_match": true
+  },
+  "technical_observations": [
+    "CE/MSE full initial state hashes equal; 357 parameter head; encoder/decoder/flow gradients finite and nonzero on synthetic tensors.",
+    "CE raw categorical loss and 0.5 raw one-hot square independently checked; KL normalized by B48, negative MC not clipped.",
+    "fresh scalar native forward and legacy KL match exactly on common synthetic input/RNG; original scalar17 head retained.",
+    "LSTM is actual 2x64 with62501 parameters; teacher forcing causal and masked after firstEOS; full48 has no EOS49.",
+    "Both entry paths preallocate exact slots and have no dev config in smoke; failures/empty/full48 retained; no filtering/resampling.",
+    "VAE stage entry and posterior-encoding batches enforce total cap; generation reverse steps enforce per-method450s cap.",
+    "Serial supervisor binds plan/source/config hashes, prevents same-workspace overlap with flock, continues remaining arms once after failures."
+  ],
+  "limits": [
+    "PASS is preflight permission for bounded engineering smoke only, not successful real execution, convergence, model comparison, novelty, biological activity or publication readiness.",
+    "DDPM20 may yield nonfinite posterior parameters in long sampling; retain failure and do not silently change sigma/noise steps/seeds; diagnose before any separately frozen formal phase.",
+    "Synthetic benchmark timing may briefly overlap a subsequent ~0.68second AR check after tool yielded; not valid fair-throughput calibration. Formal budget must use bound serial real smoke measurements.",
+    "The first VAE oracle attempt used stale arm name scalar during author rename to scalar_legacy and failed reviewer head-count assertion; corrected to finalized arm and all30 checks passed. No natural data/optimizer training occurred in that failed oracle.",
+    "Formal protocol still needs exact budget, AR adequacy/monitoring rules, E/L/G failure taxonomy and evaluator binding; this receipt does not approve formal."
+  ],
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SMOKE_PLAN.json",
+      "sha256": "440381d54dc7dd762ec587adf953a063640f426a04882e590ec61e675cb11759",
+      "bytes": 4457
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+      "bytes": 3194
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/check_ar_synthetic.py",
+      "sha256": "5fc9c8fccd0929c01d253274e38a4b03e879a084a5f5830df2bcabd41fd134f4",
+      "bytes": 5582
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/AR_SYNTHETIC_RESULT.json",
+      "sha256": "360e0c81ec54013d6bcdca805b6e7650f2fd27fd8ef8e3c599e992c92dd90a3c",
+      "bytes": 1346
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/check_vae_synthetic.py",
+      "sha256": "9d33025af71dc26ed5a99dcbaf34e761d5b53afee9083843e6b26becd65398eb",
+      "bytes": 4969
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/VAE_SYNTHETIC_RESULT.json",
+      "sha256": "9ae06b8bd1f41a8bc5bc5296a3f70f60b9a9f262e54caf6251f39cab14640565",
+      "bytes": 1850
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/vae_synthetic_benchmark/synthetic_benchmark.json",
+      "sha256": "1bb4c47167767746ce17e1c87fb517291c085384d57180a6ebc67dc5c4d17677",
+      "bytes": 27003
+    }
+  ],
+  "approved_plan_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SMOKE_PROTOCOL.json",
+      "sha256": "a806424b497ae7831cef9d958f2728c443e4830e252c5057a9d3262d9b5d9fa1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/AR_SMOKE_CONFIG.json",
+      "sha256": "ad9d1af692c8c12caa15469f123d08737f05fa608aaade3c9601ed71a77d26ee"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+      "sha256": "9fabbd28171a7b1f98118161ca399dbc1fa81a3448cdb42668cddbf0468a492b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_pipeline.py",
+      "sha256": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_entry.py",
+      "sha256": "c3cb73cfce6753af982a71c6e4eec6ede7deaa914ea9ffc12e1412b8d6c26807"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/categorical_ce.json",
+      "sha256": "dabd8378a478d282da46053ff6c9d60b09574409ffd956ca7ecf98fe57f8618f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/raw_onehot_mse.json",
+      "sha256": "301fe404e7d90abd7ed48718f0ebd7c19312401756ee4ac776dedb22bbad92a7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/scalar_legacy.json",
+      "sha256": "f46c560fd2da9da68f76490e284f65e0aa5723270c24e703552815aaf2a3c3c9"
+    }
+  ],
+  "backup": "BACKUP_BLOCKED"
+}

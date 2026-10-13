@@ -1,0 +1,1425 @@
+{
+  "status": "PASS_NO_RECOVERABLE_IMPLEMENTATION_BUG_IDENTIFIED",
+  "utc": "2026-10-12T11:19:19.183441+00:00",
+  "reviewer": "/root/native_baseline_engineering_audit",
+  "checks": [
+    {
+      "name": "all_frozen_local_unchanged",
+      "pass": true
+    },
+    {
+      "name": "all_frozen_sources_unchanged",
+      "pass": true
+    },
+    {
+      "name": "raw_unit_group_correspondence",
+      "pass": true
+    },
+    {
+      "name": "log10_original_point_or_bound",
+      "pass": true
+    },
+    {
+      "name": "training_censor_semantic_directions",
+      "pass": true
+    },
+    {
+      "name": "no_censored_evaluation",
+      "pass": true
+    },
+    {
+      "name": "canonical_exact_encoding",
+      "pass": true
+    },
+    {
+      "name": "feature_fractions_sum1",
+      "pass": true
+    },
+    {
+      "name": "point_only_scaling_difference_disclosed",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_unit_isolated",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_disjoint_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_disjoint_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_disjoint_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_disjoint_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_disjoint_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_source_disjoint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_shared_scaler_train_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_weights_both_subsets",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_predictions_untransformed_log10_no_missing_inverse",
+      "pass": true
+    }
+  ],
+  "max_saved_prediction_reconstruction_error": 8.881784197001252e-16,
+  "semantics": [
+    "Targets use log10 of cached native concentrations; natural log is used only for sequence length feature. These are different intentional transformations.",
+    "Regressions directly predict log10 MIC with a fitted intercept. No response centering or exponentiation is required before log10-domain scoring; point_mean is a log10 training mean.",
+    "All-trained-X standardization is shared by three regression arms, using no validation X or labels; point-only weights and labels are separately normalized. This differs from the earlier baseline scaler and is disclosed.",
+    "Censored rows enter training, never point validation. Endpoint control deliberately treats bounds as endpoints; tail arm uses survival likelihood. This is a control design, not an accidental label conversion.",
+    "Same source/family groups are absent from each heldout training split. Remaining source heterogeneity and biological dependence are scientific limitations, not an identified partition implementation error.",
+    "Sequence composition cannot encode ordering, assay conditions or some chemistry distinctions. The representation restriction is known; it is not evidence that sequence features have no predictive signal."
+  ],
+  "boundaries": [
+    "No implementation bug recovered by this review; no reason to rerun or repair fitted models on current evidence.",
+    "Fixed linear-model negative results cannot establish absence of feature signal or predictability under another model.",
+    "Group drift, feature support, or covariance diagnostics are descriptive decompositions, not causal attribution.",
+    "Point selection and fixed Gaussian scale preclude interpreting observed point prediction errors as full latent MIC population risk."
+  ],
+  "sha256": {
+    "freeze": "8b723893076b8c2faab939905d5cf055537188329cee65b738c0b8d6cc93cc67",
+    "predictions": "610a6dac44804d8231950a65e3c8c7263ba78f2b4e2720cd37c718c136e035c8",
+    "model": "fd28c91fd56b15341eb10371b7abc2b18b33d2973abafc0051a7beb8d1f3677a",
+    "runner": "f59bcfdab8a4356c752afc60d48413686299423ad9fdc3d0b964374c76b858af",
+    "script": "dfe462f7a5b49f613dc6604f732ef08682c83e213a5ddc1780e4b7da4a8d6d7f"
+  }
+}

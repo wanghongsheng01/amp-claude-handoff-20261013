@@ -1,0 +1,305 @@
+{
+  "created_utc": "2026-10-11T19:29:24.885199+00:00",
+  "status": "PASS_READONLY_EXPLORATORY_DIAGNOSTIC_REVIEW",
+  "checks": [
+    {
+      "name": "exact_author_delivery_hash",
+      "pass": true
+    },
+    {
+      "name": "delivery_all_members_hash_bytes_unique",
+      "pass": true
+    },
+    {
+      "name": "delivery_external_binding_hashes",
+      "pass": true
+    },
+    {
+      "name": "all24_input_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "protocol_script_and_readout_binding",
+      "pass": true
+    },
+    {
+      "name": "route_manifest_and24_source_bindings",
+      "pass": true
+    },
+    {
+      "name": "all_static_route_line_excerpts_exact",
+      "pass": true,
+      "detail": {
+        "excerpts_checked": 83
+      }
+    },
+    {
+      "name": "posthoc_noncausal_scope_explicit",
+      "pass": true
+    },
+    {
+      "name": "no_torch_checkpoint_or_RNG_in_compute_source",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_train_schema279",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_FREE_full_denominators_shapes",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_FREE_mu_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "categorical_ce_FREE_log_sigma_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "categorical_ce_FREE_sigma_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "categorical_ce_FREE_dependence_definitions_recomputed",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_FREE_analytic_q_and_saved_z_reference",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_AMD_full_denominators_shapes",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_AMD_mu_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "categorical_ce_AMD_log_sigma_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "categorical_ce_AMD_sigma_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "categorical_ce_AMD_dependence_definitions_recomputed",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_AMD_analytic_q_and_saved_z_reference",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_train_mean_reconstruction_counts_recomputed",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_dev_mean_reconstruction_counts_recomputed",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_train_schema279",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_FREE_full_denominators_shapes",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_FREE_mu_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "raw_onehot_mse_FREE_log_sigma_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "raw_onehot_mse_FREE_sigma_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "raw_onehot_mse_FREE_dependence_definitions_recomputed",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_FREE_analytic_q_and_saved_z_reference",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_AMD_full_denominators_shapes",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_AMD_mu_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "raw_onehot_mse_AMD_log_sigma_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "raw_onehot_mse_AMD_sigma_independent_marginal_tail_structure_recompute",
+      "pass": true,
+      "detail": {
+        "scalar_and_array_comparisons": 77
+      }
+    },
+    {
+      "name": "raw_onehot_mse_AMD_dependence_definitions_recomputed",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_AMD_analytic_q_and_saved_z_reference",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_train_mean_reconstruction_counts_recomputed",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_dev_mean_reconstruction_counts_recomputed",
+      "pass": true
+    },
+    {
+      "name": "input24_still_unchanged_after_recompute",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "recomputed_comparison_count_marginals_tails_profiles": 924,
+  "facts": {
+    "categorical_ce": {
+      "FREE": {
+        "records": 126,
+        "requests": 16,
+        "matched_coordinate_mu_outside_count": 1926,
+        "matched_coordinate_logsigma_outside_count": 1804,
+        "coordinate_denominator": 12288,
+        "logsigma_std_ratio": 1.6056008605877374,
+        "z_RMS_ratio": 0.9393889723968445
+      },
+      "AMD": {
+        "records": 153,
+        "requests": 16,
+        "matched_coordinate_mu_outside_count": 3995,
+        "matched_coordinate_logsigma_outside_count": 3586,
+        "coordinate_denominator": 12288,
+        "logsigma_std_ratio": 5.485363099152415,
+        "z_RMS_ratio": 1.0860242275257928
+      }
+    },
+    "raw_onehot_mse": {
+      "FREE": {
+        "records": 126,
+        "requests": 16,
+        "matched_coordinate_mu_outside_count": 3310,
+        "matched_coordinate_logsigma_outside_count": 2794,
+        "coordinate_denominator": 12288,
+        "logsigma_std_ratio": 2.211392488709434,
+        "z_RMS_ratio": 1.012722696675012
+      },
+      "AMD": {
+        "records": 153,
+        "requests": 16,
+        "matched_coordinate_mu_outside_count": 4639,
+        "matched_coordinate_logsigma_outside_count": 3779,
+        "coordinate_denominator": 12288,
+        "logsigma_std_ratio": 4.56585646701282,
+        "z_RMS_ratio": 1.0384917147797101
+      }
+    }
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/DELIVERY_MANIFEST.json",
+      "sha256": "9507ad6f6ad04f4bb94fa4f55f9a85b91984a73327c5aa7268474cb92b11459c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/LATENT_MATCH_READOUT.json",
+      "sha256": "9f0a1fb765fd61770e0b15c9c4708951bd6e12fad137aa63b878f4df860c0a39"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/MANIFEST.json",
+      "sha256": "77c757461326c5e249a7d19199d29f5410e920d2b67b6b3c7d2bbc9d4774840d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/LATENT_ROUTE_STATIC_AUDIT.json",
+      "sha256": "cddbc4a3ee25926f6654afabfeef8448b77adc3d4620b0e9664cb60b6d2f1096"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1.json",
+      "sha256": "c616a91f45f774fd1de47e7cd4675cea39f9bf3bee2abf39d6c597b24885b8f1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/latent_match_saved_arrays_v1.py",
+      "sha256": "cb4b37d440c40b04309ce8b6e5768ed4deccde687bd8cd3b09514bffe0884c6e"
+    }
+  ],
+  "audit_script_sha256": "5a7600acb6f83ceb11757931bb2d956585706f25e868dac3649fe63d535198e3",
+  "interpretation": [
+    "Posthoc exploratory evidence only; prelocking this computation does not make original outcomes confirmatory.",
+    "Matched-coordinate ranges use126/153 training records at each coordinate; pooled ranges use all coordinates. Neither is legal latent support or a failure-rate denominator.",
+    "Correlations flatten coordinates or average channels/positions as explicitly named, not cross-peptide independence or causal covariance estimates.",
+    "Macro real-token accuracy here means equal-peptide average, not supported-AA macro recall used by the frozen main evaluator. Keep names/definitions separate.",
+    "Existing train/dev exports decode onlymu. No saved sampled reconstruction exists; raw/visible token columns are two representations of one decode.",
+    "No active-route logvariance/inverse-standardization error found; no proof that all code is correct. Native flow prior lives in zp and requires legal g inverse; direct z normal control is not native prior."
+  ],
+  "future_control_design_status": "THEORETICALLY_SCOPABLE_BUT_NOT_EXECUTION_AUTHORIZED",
+  "future_control_requirements": [
+    "32 paired slots x2 branches=64 total decoder inputs, CE only and4 fixedbatch16 calls, original J; all outputs/failures retained.",
+    "Final executable version must use root-requested global CPU torch RNG under fork_rng, reconstruct exact original call sequence and bitwise savedz before anydecoder; draft localGenerator wording is historical, not final contract.",
+    "Save exactepsilon/index tapes and hashes before forward; B selectorPCG64 seeds523/524 on sorted terminal rowIDs; preserve duplicates.",
+    "A standard-normal z control has no terminal conditioning; group labels only. B is empirical train posterior reference and not novel generation.",
+    "Wait scalar true terminal and independent review, then exact new scope/plan/receipt; this report authorizes no forward/RNG/model work."
+  ],
+  "reviewer_actions": {
+    "numpy_stdlib_only": true,
+    "model_imports": 0,
+    "checkpoint_loads": 0,
+    "forwards": 0,
+    "training": 0,
+    "RNG_calls": 0,
+    "new_generation": 0,
+    "test_reads": 0,
+    "live_scalar_reads": 0
+  },
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD"
+}

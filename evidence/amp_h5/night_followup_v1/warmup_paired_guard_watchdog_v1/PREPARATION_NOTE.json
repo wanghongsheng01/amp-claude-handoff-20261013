@@ -1,0 +1,6 @@
+{
+  "static_template_first_attempt": "Assertion rejected broad numeric substitution before writing a file or launching any process; corrected to word-boundary substitution and verified all hashes.",
+  "model_calls": 0,
+  "natural_guard_attempts_before_this_launch": 0,
+  "preparation_wall_seconds": null
+}

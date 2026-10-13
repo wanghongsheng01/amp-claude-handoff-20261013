@@ -1,0 +1,9 @@
+event_id,allocated_slots,started_sampling_attempts,completed_sequence_executions,failed_sequence_executions,completed_empty_sequences,completed_legal1_48,completed_legal5_48,latent_only_attempts
+AR_smoke_v1,2,2,2,0,1,1,1,0
+categorical_ce_smoke_v1,2,2,0,2,0,0,0,0
+raw_onehot_mse_smoke_v1,2,2,0,2,0,0,0,0
+scalar_legacy_smoke_v1,2,2,0,2,0,0,0,0
+AR_formal_v1,32,32,32,0,0,32,32,0
+CE_checkpoint_recovery_v1,32,32,32,0,0,32,29,0
+raw_onehot_mse_formal_v2,32,32,32,0,0,32,26,0
+scalar_legacy_formal_v2,32,32,32,0,0,32,32,0

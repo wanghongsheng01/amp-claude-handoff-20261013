@@ -1,0 +1,56 @@
+[
+  {
+    "method": "terminal_LSTM",
+    "role": "train",
+    "objects": 279,
+    "nll_sum": 8457.158264160156,
+    "aa_nll_sum": 8253.072631835938,
+    "eos_nll_sum": 204.08562660217285,
+    "observed_tokens": 5147,
+    "aa_tokens": 4868,
+    "eos_tokens": 279,
+    "correct_tokens": 2530,
+    "token_count": 5147,
+    "mean_nll": 1.6431238127375474,
+    "teacher_forced_token_accuracy": 0.4915484748397125,
+    "wall_seconds": 0.04955129185691476,
+    "tensor_state_sha256": "259990050729a3e0179ea02f50ac860d3478b918930f2e61619e3e4d1d8ce969",
+    "test_accessed": false,
+    "is_generation_metric": false,
+    "objective_comparable_with_VAE": false,
+    "nll_per_target_token_nats": 1.6431238127375474,
+    "source": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/train_nll.json",
+      "bytes": 613,
+      "sha256": "866812f1b0fbc57133a320d441743b7cc78dda7bc35b5dfc3c489f8a2d296dd3"
+    },
+    "comparison": "teacher forced AR only; do not compare to VAE objectives or reconstruction accuracy"
+  },
+  {
+    "method": "terminal_LSTM",
+    "role": "development",
+    "objects": 41,
+    "nll_sum": 2351.9861450195312,
+    "aa_nll_sum": 2224.57470703125,
+    "eos_nll_sum": 127.41137504577637,
+    "observed_tokens": 742,
+    "aa_tokens": 701,
+    "eos_tokens": 41,
+    "correct_tokens": 151,
+    "token_count": 742,
+    "mean_nll": 3.169792648274301,
+    "teacher_forced_token_accuracy": 0.20350404312668463,
+    "wall_seconds": 0.00812591565772891,
+    "tensor_state_sha256": "259990050729a3e0179ea02f50ac860d3478b918930f2e61619e3e4d1d8ce969",
+    "test_accessed": false,
+    "is_generation_metric": false,
+    "objective_comparable_with_VAE": false,
+    "nll_per_target_token_nats": 3.169792648274301,
+    "source": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/dev_nll.json",
+      "bytes": 613,
+      "sha256": "6b3d2647cbeceb1f1e62db988b3ba2787bc68bf18891922861ab80ba56e9d11a"
+    },
+    "comparison": "teacher forced AR only; do not compare to VAE objectives or reconstruction accuracy"
+  }
+]

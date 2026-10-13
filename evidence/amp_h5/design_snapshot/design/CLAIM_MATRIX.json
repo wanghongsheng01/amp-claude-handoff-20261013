@@ -1,0 +1,55 @@
+[
+  {
+    "id": "H5-C1",
+    "claim": "raw ordinal target semantics is inappropriate to arbitrary categorical ordering",
+    "kind": "theoretical",
+    "status": "VERIFIED",
+    "evidence": "source AA index target; mathematical non-invariance",
+    "boundary": "does not identify sole empirical causal root"
+  },
+  {
+    "id": "H5-C2",
+    "claim": "posterior noise contributes to reconstruction error",
+    "kind": "empirical",
+    "status": "VERIFIED",
+    "evidence": "H0 mean106 vs random85/74/80 of701",
+    "boundary": "mean weak, conditional collapse remains open"
+  },
+  {
+    "id": "H5-C3",
+    "claim": "H2 reconstruction repair consistently improves generation",
+    "kind": "generalization",
+    "status": "CONTRADICTED",
+    "evidence": "H4 mixed predeclared metrics and one empty",
+    "boundary": "not a composite H4 failure or activity conclusion"
+  },
+  {
+    "id": "H5-C4",
+    "claim": "CE yields better end-to-end representations/generation than same-capacity raw-onehot square",
+    "kind": "empirical",
+    "status": "PLANNED",
+    "skeptical_question": "shared changes or optimization/noise/DDPM differences explain effect?",
+    "design": "same fresh VAE21 state/common KL/data/RNG/budget, paired distinct fresh DDPM; allmetrics/allattempts",
+    "evidence_needed": "independently audited frozen train/dev and 96 actual generations",
+    "acceptance_test": "root must prelock smoke and result interpretation before execution",
+    "boundary": "not guaranteed, not sufficient convergence, not single cause versus historical scalar"
+  },
+  {
+    "id": "H5-C5",
+    "claim": "candidate vs AR uses equal available generation condition information",
+    "kind": "benchmark",
+    "status": "PLANNED",
+    "skeptical_question": "any source g/true length/pool/object leaks into candidate generation?",
+    "design": "DDPM and AR generation API terminal only; allsources/weights/provenance audit",
+    "evidence_needed": "static and recorded generation provenance, exact same train/dev and request counts",
+    "boundary": "does not imply equal architecture/FLOPs/optimization opportunities unless separately reported"
+  },
+  {
+    "id": "H5-C6",
+    "claim": "generated-hidden distribution mismatch is the causal cause of H4 mixed output",
+    "kind": "empirical",
+    "status": "MISSING",
+    "evidence": "H4 only readout transfer observations",
+    "boundary": "no direct distribution/counterfactual mechanism test; cannot assert cause"
+  }
+]

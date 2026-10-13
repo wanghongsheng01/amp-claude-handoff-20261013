@@ -1,0 +1,11 @@
+{
+  "status": "FAILED",
+  "exit_code": 2,
+  "timed_out": false,
+  "wall_seconds": 1.7893823338672519,
+  "outer_cap_seconds": 60,
+  "overrun_seconds": 0.0,
+  "model_forward": 0,
+  "new_rng": 0,
+  "script_sha256": "1d639a13cb9a8bab8906d9eef3fab3a6d63839ffa48e3c1400aac317179d5e8c"
+}

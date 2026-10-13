@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-10-11T19:40:02.252628+00:00",
+  "status": "PASS_STATIC_SYNTHETIC_ONLY",
+  "checks": [
+    {
+      "name": "R_C1_signed_zero_not_bitwise_equal",
+      "pass": true
+    },
+    {
+      "name": "R_C1_identical_bytes_dtype_shape_equal",
+      "pass": true
+    },
+    {
+      "name": "R_C1_dtype_required",
+      "pass": true
+    },
+    {
+      "name": "R_C1_shape_required",
+      "pass": true
+    },
+    {
+      "name": "R_C2_completed_with_failures_recognized",
+      "pass": true
+    },
+    {
+      "name": "review_receipt_still_mandatory",
+      "pass": true
+    },
+    {
+      "name": "64_unique_slots32paired",
+      "pass": true
+    },
+    {
+      "name": "no_natural_actions",
+      "pass": true
+    },
+    {
+      "name": "new_contract_script_sha",
+      "pass": true
+    },
+    {
+      "name": "all110_input_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "no_execution_plan_receipt_output",
+      "pass": true
+    },
+    {
+      "name": "v1_script_preserved",
+      "pass": true
+    },
+    {
+      "name": "v1_contract_preserved",
+      "pass": true
+    },
+    {
+      "name": "all_other_function_ASTs_unchanged",
+      "pass": true
+    }
+  ],
+  "script_sha256": "30211ed157ffcda9bf2f96620599beca9e48def87631cb7e4f3885cb0292fd98",
+  "contract_sha256": "32ed71685ec5c988c76b7aca15d281f68cb882f7d753511fecc06c81ba348b86",
+  "model_calls": 0,
+  "random_draws": 0,
+  "natural_tensor_loads": 0,
+  "live_scalar_reads": 0,
+  "v1_defects_recorded": [
+    "R-C1 torch.equal was numerical equality rather than byte equality.",
+    "R-C2 actual completed_with_failures terminal name was omitted."
+  ],
+  "execution_authorized": false
+}

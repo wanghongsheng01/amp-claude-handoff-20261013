@@ -1,0 +1,582 @@
+{
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/ALL320_ENCODING_WORK_RNG.json",
+      "sha256": "041927dfa371c64435c5d4be21aeaee7ba48b99297939fd5ba4a3ef90fb37f19",
+      "bytes": 6428
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/EPSILON_BANKS_SEAL.json",
+      "sha256": "ede52f99d3c9f147d9651dd5e186b1d8489075992585d8850eda20c8e58ae99b",
+      "bytes": 5092
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/FIRST_BATCH_THROUGHPUT_PILOT.json",
+      "sha256": "0eb00d9867f4529561047a12c55d451590702ded0b96e883f9c0ca3f031b71ce",
+      "bytes": 416
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_development_000.npz",
+      "sha256": "ec9468fc5b96c666d942ad33c08b1f2997d89d61b61d3da9456bbab0cc608db7",
+      "bytes": 168382
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_development_032.npz",
+      "sha256": "de3ea06cf1c1049a5597c1f9bd0ce4224c26e288df9110470a47eacc01ee474c",
+      "bytes": 49518
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_000.npz",
+      "sha256": "dfbca66d4c2c8b988ce94ed88e2a639cab09fb5f289c09dae61e521b29d08b88",
+      "bytes": 174380
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_032.npz",
+      "sha256": "cfa99e45dc645a5c3859ad402c4cd7ecf2347c4c4e3af4bb86c5e179a7d0f686",
+      "bytes": 167666
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_064.npz",
+      "sha256": "cc484f5ccb7fda10300c3ab2cff2b6cb12c0e33e1aa68e7a7b52e9b484297bbc",
+      "bytes": 168019
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_096.npz",
+      "sha256": "c4c831f8dd3f8bb37fd82b8d3785046a1e4f088e01cd6e0b10d02b20f595b37a",
+      "bytes": 166339
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_128.npz",
+      "sha256": "af4c75b81e73e4abcbafe659b72143e335a24b40aaf430b2d1308c9e6820b905",
+      "bytes": 166576
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_160.npz",
+      "sha256": "3ffd7e853609b7b8cf26754301750acea151708169083259534dee00a251cf49",
+      "bytes": 172469
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_192.npz",
+      "sha256": "a2713cb5d58465dbf57017ea1ff2772444e00681744af6e943e99150e50a5cbb",
+      "bytes": 169585
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_224.npz",
+      "sha256": "03f5b9a83bbf78fbdef134feefa642b978bc22da8313de00e42a655fea01eaf0",
+      "bytes": 174142
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/M_train_256.npz",
+      "sha256": "519d58d2aa0e5ab7e51d7b94ed44ab79c454be98241fd48f3d8813603d3eadef",
+      "bytes": 123518
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/POSTERIOR_INPUTS_SEAL.json",
+      "sha256": "c8e357eafcbdd65fe7ef1c726fd1dd92fd09c324de985e78c9eb12535769d831",
+      "bytes": 465
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/RAW_INPUTS_SEAL.json",
+      "sha256": "b2e97f52e5de868541dc105f155a099b7f4745ce312cf963b0a1db6eb8181411",
+      "bytes": 704
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/REQUEST_SLOTS.json",
+      "sha256": "c314e31cbda3d954c1d474f3a08bcad4f4d19be28dd843251f06f4eefd0fe13d",
+      "bytes": 633883
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_development_000.npz",
+      "sha256": "20ce11ecf3ecd78f91222d8da18c6930e82f88b8fc9b00eba8f937768e9530c8",
+      "bytes": 217435
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_development_032.npz",
+      "sha256": "370f4c0fb47590c4c620114ccdc35fa2a1be837db92af0323f00c5b23b04dc43",
+      "bytes": 62058
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_000.npz",
+      "sha256": "a153de7ff18a4c6a0c728c8b9a46f558ebc5d98a3885dda95d9729c1ba50a1a3",
+      "bytes": 217280
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_032.npz",
+      "sha256": "c21fe73a01317a7cd432baa3a312d77cc00aff75ec86e4f77ddde9ba0227c99c",
+      "bytes": 217277
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_064.npz",
+      "sha256": "41e5ab11f6904df450680f29fb0b7989029c353321e59c8ac2c6fe29703fb462",
+      "bytes": 217220
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_096.npz",
+      "sha256": "15260c86ac20b3d02fbed4ab2a45d81563b47833b0acfa80af1da8698502b2f3",
+      "bytes": 217277
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_128.npz",
+      "sha256": "7b698bc490e4e072b24bf7d68fc4d88231fdb7d9ed93e0e29098e51257c38877",
+      "bytes": 217302
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_160.npz",
+      "sha256": "19dc03b9507626cad8e59398841f6135c7479162e95060b81190c13c6da0e96a",
+      "bytes": 217251
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_192.npz",
+      "sha256": "1d4d8158e2e34f830da6654af85fadb116cbc68ca5af048a2035db57d3b00324",
+      "bytes": 217329
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_224.npz",
+      "sha256": "8ce24019c1021c7c372ff795e878f83438de92661699399582d7b9c02f951285",
+      "bytes": 217376
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1422_train_256.npz",
+      "sha256": "e902bb23dbd40686b6b241f4cce50af7660df7724ba776cbb9884f503751ea0b",
+      "bytes": 156578
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_development_000.npz",
+      "sha256": "b75d6e26e394e4ca2940b1c8e470f206252847850030e9d349595467822aed76",
+      "bytes": 217279
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_development_032.npz",
+      "sha256": "ffbd698d515177aa6778cdaad1dadd13a1f4319ddbda1d96d17a1bd236885531",
+      "bytes": 62046
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_000.npz",
+      "sha256": "eb45fb211aab99dbba5f43ffd140bbb92b10593581d84d3c33debd4e1e8cb109",
+      "bytes": 217336
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_032.npz",
+      "sha256": "b7b128b4a022ae1358271d63f2a8daea87de8016abf2ed22489d0b1a34922100",
+      "bytes": 217235
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_064.npz",
+      "sha256": "4f91dcd8e7b0c3047ca14cf2237c8c89961ee88f739fa705a8a72943c1670a20",
+      "bytes": 217290
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_096.npz",
+      "sha256": "0293ea4bf6d1839f776399b0a57dd069b033cd079e7509c3d0ea477d8bea7f10",
+      "bytes": 217232
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_128.npz",
+      "sha256": "1b179baec956230376dcaff723394b39539677ffd3892c87bb9b22a91ceeb096",
+      "bytes": 217323
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_160.npz",
+      "sha256": "4ab715ffd260fecd9c78b6595edffef5814714cc7390cd7aad534ef45be25708",
+      "bytes": 217375
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_192.npz",
+      "sha256": "6657d63f2bedee6e86f58e78016c2722fd5da9db51c10e9f24b0f241eb1b1a31",
+      "bytes": 217359
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_224.npz",
+      "sha256": "ceeaf61d50c6b9eb5128a1250e42f335d61d2fc4714867ff56b401b0e9f7aa9c",
+      "bytes": 217326
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1423_train_256.npz",
+      "sha256": "51d5a3ecfc355972f00cf551254f8eebfb2d607efc77bd900aaa0f73b8ff3b2b",
+      "bytes": 156552
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_development_000.npz",
+      "sha256": "3433bbc8b38aab0624f0b076a49b1ecccf97da29aaff49bf211e8dc5f4185b63",
+      "bytes": 217376
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_development_032.npz",
+      "sha256": "7ca9d0a6dcec32331ae49ef331241733f02ca4583fbbd0af99bef30a5677fb98",
+      "bytes": 62012
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_000.npz",
+      "sha256": "21341a8f61d069cb8a2d6480395ae78993f074dd3de36304e4143c871718cd3e",
+      "bytes": 217409
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_032.npz",
+      "sha256": "dd0ba1864f898e6f8419ae6e8b4b8bd2bffe223024f39efa7451ed2384ee7b7b",
+      "bytes": 217307
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_064.npz",
+      "sha256": "1823420cd7a2d95b3fa77b8ff95c2be3f3b23e3c7fc56f3d25a7a5d04707328b",
+      "bytes": 217295
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_096.npz",
+      "sha256": "7959509c66aef50fef96fda9c4b991bcbac44586b158f970ebfa1c13cafb77b0",
+      "bytes": 217359
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_128.npz",
+      "sha256": "5ffcf10c0087f2a0266fbfa3d6e213426350e8e777aa5c0cb3de531490967ea1",
+      "bytes": 217286
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_160.npz",
+      "sha256": "aa4273c44ff9f6d2ec4ac770ed137b855e55e430db8b012c3ed117f1b5bb20d9",
+      "bytes": 217370
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_192.npz",
+      "sha256": "ed42ef472b805a481e821c03cd71324ce8230e2105536d6ee3039cb2f0102ae6",
+      "bytes": 217263
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_224.npz",
+      "sha256": "db637ee242fd65702af8d60459bdbc6f46cd8529a3de78d5a793b9c8ff315b8d",
+      "bytes": 217367
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1424_train_256.npz",
+      "sha256": "03f05e93252cacedda875b6b24afaddc59000a623fd99786089d39c6ec0a0336",
+      "bytes": 156587
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_development_000.npz",
+      "sha256": "2225abcb67769161bc700074f35e3f9aa62335d04c23dadf1acff95908cc0952",
+      "bytes": 217370
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_development_032.npz",
+      "sha256": "be2d36efcf99c7eaa9caa21435a4b7bfc317ffb1581c4967457d6194a7ed7f69",
+      "bytes": 62062
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_000.npz",
+      "sha256": "4468f82fdaf5e67477eb029b5111cec3c5fb96afde16db608bc378fd8368c831",
+      "bytes": 217398
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_032.npz",
+      "sha256": "c39bd73b755c5de4bd8c6e55db7b628538ea711948cc9db42cac3b63ccebf3ea",
+      "bytes": 217287
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_064.npz",
+      "sha256": "cb60849d4179f7ceb2bfcf9f49bb659fe6121da38264b0e62afb0c045420ab6d",
+      "bytes": 217326
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_096.npz",
+      "sha256": "36a2a9482e65e2a923dfdefeae1244159d0c01382f9e632207ee5c5492d9aafa",
+      "bytes": 217276
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_128.npz",
+      "sha256": "173889018f38d929413152bdb440196b74fac43ff1884115a7fd0922b2524f33",
+      "bytes": 217230
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_160.npz",
+      "sha256": "10f4d31cb407f031e11c82d396fffd71387b02d835b775a2de25ac6c8dfb3f69",
+      "bytes": 217363
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_192.npz",
+      "sha256": "e2185638e996e9e23abdb73ba6b0d29726543e6866695762074b786b2452a56c",
+      "bytes": 217367
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_224.npz",
+      "sha256": "2f6a8ce6707bf4dd6fb933f6cbf18b239b7963fa3a9d80ba1a733b3f34aa7b95",
+      "bytes": 217315
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1425_train_256.npz",
+      "sha256": "88c29ec9a492739f8a13b8d3aa49dc30b3603c686672eadedc041e96c1f2f087",
+      "bytes": 156619
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_development_000.npz",
+      "sha256": "c641c6648c10c33eb2a55a4b0577ae3d35ffa932eee18dccbb92bd5a3dd23d71",
+      "bytes": 217387
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_development_032.npz",
+      "sha256": "efa1199f940fd4e82474803c548a5f9f2b31c103e4af1b915a65ba3cd55bf322",
+      "bytes": 62076
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_000.npz",
+      "sha256": "5c9b99cf521b0cbbaa637485e8d316b7a52f45ff2ffb6ba9c865dc681cdfe0aa",
+      "bytes": 217442
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_032.npz",
+      "sha256": "9b9f08e88f9b06e068640a667ec9fe422940461430109a522a88cbb57161b9e7",
+      "bytes": 217260
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_064.npz",
+      "sha256": "8705fe2b353113cf310deea4ef4c50d9126fd61e2209a67b669e343fdd8aa4f1",
+      "bytes": 217257
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_096.npz",
+      "sha256": "e8c04080ca140f46fdddd8df5ecd2c260e23516d49c9acd3fc2fee84be28e853",
+      "bytes": 217249
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_128.npz",
+      "sha256": "65d6203885a17ea9252185b6dcb8bfe9a5f32bfe9696c0dbf7a13959af7f46e5",
+      "bytes": 217254
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_160.npz",
+      "sha256": "f5fa92d256d7c08e07c6c2e5bd3b18e4532d3fdefcd12ee39b0bb3aae0a91d8d",
+      "bytes": 217343
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_192.npz",
+      "sha256": "869e7d56c93a29604dae04fc2df24ee5bb016ab8bfbc920ee93698d208803c4d",
+      "bytes": 217291
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_224.npz",
+      "sha256": "f0bc94d776bcaed0fa2c3978bb7a32cfced974bfd2bd25e562030b66e0f05d29",
+      "bytes": 217327
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1426_train_256.npz",
+      "sha256": "4d2d99b9044af23d4a0c63cdbbb9f2c390f96f4e095d127f7263a8183a42f9e1",
+      "bytes": 156529
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_development_000.npz",
+      "sha256": "b1678c6e6eb905977bb2f8d24b534af69a55848447e6d8675fff2cccd8fd772f",
+      "bytes": 217343
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_development_032.npz",
+      "sha256": "d60b777d35430937b4ccf92fc19f341990f2a1d6c3893846817424345cb4e1cd",
+      "bytes": 62059
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_000.npz",
+      "sha256": "9a063fd04a5cd014a549f811400c7fd6d1352f14160f069ab54a59c3ffa55070",
+      "bytes": 217386
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_032.npz",
+      "sha256": "8c60afb05fdc9c617427c6d786d6efe7366d8abae7aaec75549d46be20055e8d",
+      "bytes": 217312
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_064.npz",
+      "sha256": "b34307d24027e1f2550bf00f640e7e434e73e2afbe44bf4cab6f06fa3255ba38",
+      "bytes": 217309
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_096.npz",
+      "sha256": "fd109eedca23f86124d2e2d072a113e980fffa39bba0f169c3fb9f76516d381d",
+      "bytes": 217284
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_128.npz",
+      "sha256": "78c72689c067e3acd1e26f1736039a4df080f6680bdf758568d6b5ab51220197",
+      "bytes": 217309
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_160.npz",
+      "sha256": "f0dd2f549b7a4465be8f54bf36f5e203845b9fbb38fb0cae60743dc74d143283",
+      "bytes": 217375
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_192.npz",
+      "sha256": "4191a675dac7c5ab2964552ed224327a8e369ccc7d9082b9f5d889a8e865af7f",
+      "bytes": 217303
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_224.npz",
+      "sha256": "3248ec5e5f37b529a6811e6e4a8b583168138bddda6c266ac7fa701fca152159",
+      "bytes": 217379
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1427_train_256.npz",
+      "sha256": "6f8b3cd581d0acc7c3090079b997a43a2b09690cfc5581fff1a9e52b752675f2",
+      "bytes": 156532
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_development_000.npz",
+      "sha256": "b41fd8fbe47488c12cb44c3e52faa4dfc4886a281170a037f0bf404f1878e01e",
+      "bytes": 217315
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_development_032.npz",
+      "sha256": "73bc67c0ae1a3760279c3767ce72405c9f00f9f217c2fc6d6d372e7f9c6515c5",
+      "bytes": 61995
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_000.npz",
+      "sha256": "f03dd6b4d8fcdb7880e4374f9148cb8e1be4d47272543d6f2ff8ab81be77b8cc",
+      "bytes": 217350
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_032.npz",
+      "sha256": "5cfa9f7f789d56c95ba74357a15cc6725c76a4f4c0b5da06b083f26bc38ac970",
+      "bytes": 217236
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_064.npz",
+      "sha256": "3d041ec454647ea2d1f1f3d5ccd6e6a6276ec636e7640a717e346fe20fe81f21",
+      "bytes": 217306
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_096.npz",
+      "sha256": "d5b8e39d4d90968a2bc19e75d697859fe213cd4de7f01d1d5836610961720d62",
+      "bytes": 217289
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_128.npz",
+      "sha256": "17a452daf5f4d4e550af60822a131c3455c18d3c01fbf9a1adf35837da7e7e7e",
+      "bytes": 217323
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_160.npz",
+      "sha256": "04ca4d9d6ea0ef0f0ec54f1decebc850ef9c3cdcd0596eb62e1c950b2818a809",
+      "bytes": 217327
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_192.npz",
+      "sha256": "09b4d949e4aac9bf81b3c0d53e96df63684e9dc3529ee6f185d4efbeabbced04",
+      "bytes": 217259
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_224.npz",
+      "sha256": "3a881275f938961b4ecb2436cf8a6c8555b95eb8b93c27164ea2d67ad8ed07c5",
+      "bytes": 217333
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1428_train_256.npz",
+      "sha256": "60ed4056bd8cdc2a67cf309265604b5b9688a0b5b1ae6fac5f75518909bdf8fb",
+      "bytes": 156563
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_development_000.npz",
+      "sha256": "dd5b4ad6d38c5cec40815999e1b07587640938f8509fce07b70b850f74acdddd",
+      "bytes": 217369
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_development_032.npz",
+      "sha256": "d0c61d8e457a0a4545656a1787f589413d07a788d8aca7bbd8fc588a1acd2208",
+      "bytes": 62067
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_000.npz",
+      "sha256": "7f1e0aa76d252258f71a62c2a04ca1444f2f5935601d6d2ede4639a4490eb721",
+      "bytes": 217416
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_032.npz",
+      "sha256": "c461040f9a371a56f7b495c750643d8fbee4d8d102bc7ffbec07f81a5dc114b7",
+      "bytes": 217183
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_064.npz",
+      "sha256": "1b0a2dcb8691e3584e60119d5b4bb8de97ab70e3653d1cbb7aaee3da076ce6c5",
+      "bytes": 217303
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_096.npz",
+      "sha256": "78cd2e1eb98edf05c4f5d7dad687bf419b38c78cbd6e6e891bfb1285e7df07d2",
+      "bytes": 217334
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_128.npz",
+      "sha256": "e48990f097f6d14ba8b5e9fbfc6c9b7fb47ec6fefd5be0df572940eafbeb085e",
+      "bytes": 217254
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_160.npz",
+      "sha256": "d313cc511a832b4bb37f82e5a8413d6a3540de80587cd28adbda8ad244f3e3be",
+      "bytes": 217315
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_192.npz",
+      "sha256": "0067f83ee08d977b47467d0c9d9dd78384a13ca38f950aa6db6ed8192e97cd23",
+      "bytes": 217328
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_224.npz",
+      "sha256": "4e01f97e4f34071796f87314762263124867fbda59a40af523e225c3213998d4",
+      "bytes": 217407
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/S1429_train_256.npz",
+      "sha256": "3dd8dabe6110c36d58d00d9347f52d5974c4dcd84cd50beb1aec84ea7d539ab8",
+      "bytes": 156540
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/contract.json",
+      "sha256": "76cec91e14020f73ad97fef815253202796f13263128648da2de69cda38f4b70",
+      "bytes": 19498
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/dev_posterior_parameters.npz",
+      "sha256": "e8665e2eac1efc394812ba4755eb14056cb95d45055335b829f7ed47911ee885",
+      "bytes": 193419
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/input_integrity_after.json",
+      "sha256": "339acc3b09add3c3d0e689adf17878a1bd264d3a3f00fccce7db538630e20066",
+      "bytes": 19
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/model_identity_after.json",
+      "sha256": "fa427c07e66312dd7495417df118de9f33d65fc1c482b2a372d857d7d8f34cb7",
+      "bytes": 183
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/model_identity_before.json",
+      "sha256": "6a6a6de1df721c3146ac679bcee72e5196cb0c56c32a4335a47a3d37c3e9f756",
+      "bytes": 327
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/posterior_parameters320.npz",
+      "sha256": "d3557395f30056ef76a1bb7903038886d02e0dd977cb2c49e33a97e034c3c274",
+      "bytes": 1506500
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/reconstructions.csv",
+      "sha256": "89d873bc01a49305dfaa53806b566b290a16c785a444ef7bf2162980c1cafbd2",
+      "bytes": 899813
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/reference_rows.csv",
+      "sha256": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3",
+      "bytes": 17182
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/runtime_and_source.json",
+      "sha256": "d582a58b33bbc4b4350068a9dd15c0f1f4d512a32cc9648a3ab5243699bcfa27",
+      "bytes": 26535
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/run_v1/status.json",
+      "sha256": "1bac9452c7ce0936077d59beded088e23cdcedca76986070a9e87e8d277f6cb9",
+      "bytes": 1537
+    }
+  ],
+  "state": "completed",
+  "scope_id": "AMP_H5_WARMUP_POSTTRAIN_RMS_V2",
+  "historical_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION"
+}

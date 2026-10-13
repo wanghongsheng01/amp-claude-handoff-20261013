@@ -1,0 +1,29 @@
+{
+  "scope": "synthetic phase-split readout only; no natural AMP reads or model calls",
+  "tests_run": 10,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v3.py",
+    "bytes": 27852,
+    "sha256": "7905f92e2a62a3f3e47295177842a9c5f667d83d6c932ea240257c85c69aa19d"
+  },
+  "tests": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/synthetic_readout_v3_tests.py",
+    "bytes": 13176,
+    "sha256": "555dbbc43bc1ad604d577f8686b02402f21bbf13e93ac673236a380ff19e34e9"
+  },
+  "frozen_dependencies": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v2.py",
+      "bytes": 21751,
+      "sha256": "ee585532c76a6be3adfd38480bdd304b3fbd316704362c69d4064dd18d181bca"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout.py",
+      "bytes": 25836,
+      "sha256": "75012cfc99e73f7d08c5b69cb0e9cf2d0f74acc28b98f6db8203e4b8536486dd"
+    }
+  ]
+}

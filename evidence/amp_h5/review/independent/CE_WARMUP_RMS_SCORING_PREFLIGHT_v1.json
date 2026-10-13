@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope_id": "AMP_H5_WARMUP_RMS_SCORING_V1",
+  "scoring_config_sha256": "e9c9b8a782b6c67ee732dc983e6a01692f94b574d520fbcb9231e9a2a9360fed",
+  "scoring_script_sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+  "created_utc": "2026-10-12T00:50:51.064319+00:00",
+  "approval_kind": "CONDITIONAL_READ_ONLY_EXECUTION_PREFLIGHT",
+  "execution_conditions": [
+    "Require actual new warmup RMS model postflight status PASS, exact scope AMP_H5_WARMUP_POSTTRAIN_RMS_V1, with source_bindings covering model CONTRACT and finalized run manifest. No execution until this upstream PASS; preserve all2880 outputs and no retry.",
+    "Root single invocation with required outer watchdog, newly absent output path and immutable exactconfig/script. No model, training or randomness."
+  ],
+  "budgets_seconds": {
+    "inner": 300,
+    "outer": 360
+  },
+  "mathematics_review_reused": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/WARMUP_POSTTRAIN_PREPARATION_REVIEW_v1.json",
+    "sha256": "327a5463f3c35c88dca1126643f853351b11082eaf076d508a1cb352be84d133",
+    "bytes": 9714
+  },
+  "training_postflight": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_POSTFLIGHT_v1.json",
+    "sha256": "98ec7bd6937f05816493905c9ec5d77a2a09b673660c010cc4b8838657b6eb23",
+    "bytes": 9098
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/SCORING_CONTRACT.json",
+      "sha256": "e9c9b8a782b6c67ee732dc983e6a01692f94b574d520fbcb9231e9a2a9360fed",
+      "bytes": 7225
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+      "sha256": "aadcea1738567c3b893900a534c1532a649790d3f9f8c321fda321d730aaa1e8",
+      "bytes": 27857
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/WARMUP_POSTTRAIN_PREPARATION_REVIEW_v1.json",
+      "sha256": "327a5463f3c35c88dca1126643f853351b11082eaf076d508a1cb352be84d133",
+      "bytes": 9714
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_POSTFLIGHT_v1.json",
+      "sha256": "98ec7bd6937f05816493905c9ec5d77a2a09b673660c010cc4b8838657b6eb23",
+      "bytes": 9098
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/MANIFEST.json",
+      "sha256": "349a898ada91ba972e83cc5a7674db1f382050f73340339ca253f4a57893d4f0",
+      "bytes": 2915
+    }
+  ],
+  "review_scope": "Only final binding/interface check; reuse sealed static preparation327a. No repeat math, synthetic or natural audit.",
+  "interpretation": "Four prelocked resource guards exclusively define success; old M-minus-S INVESTMENT_SCREEN is descriptive. Original CE E/L/G NE and PROMOTE HOLD. No automatic downstream execution.",
+  "new_model_calls": 0,
+  "new_random_draws": 0,
+  "new_tests": 0,
+  "test_reads": 0
+}

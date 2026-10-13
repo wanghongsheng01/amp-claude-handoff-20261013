@@ -1,0 +1,95 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-10-11T20:36:56.535870+00:00",
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+    "bytes": 24404,
+    "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417"
+  },
+  "frozen_metrics_dependency": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+    "bytes": 25377,
+    "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+  },
+  "train": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "bytes": 64083,
+    "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660"
+  },
+  "development": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+    "bytes": 9489,
+    "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1"
+  },
+  "sample_inputs": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/reused_ddpm.csv",
+      "bytes": 9651,
+      "sha256": "95ba85cbc217f09eb9d40d073816c9be811f9376654148bbf7fc48370f0f36c8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+      "bytes": 15580,
+      "sha256": "9b37d8469978e5b529acffde790c55fd0478da9766511e9ca61cde89a64bc7d7"
+    }
+  ],
+  "reconstruction_inputs": [],
+  "ar_nll_inputs": [],
+  "sampling_seed_schedule": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+    "bytes": 261,
+    "sha256": "f191f8412a5382b7e11ad3af4a1bbb1a45895df0c3491693a7ab14b986c83aa6"
+  },
+  "seed_check": "prelocked_schedule_checked",
+  "requests_per_method_terminal": 16,
+  "methods": [
+    "CE_DDPM_REUSED",
+    "EMPIRICAL_POSTERIOR_B",
+    "COORDINATE_PERMUTATION_C",
+    "REFERENCE_G_PRIOR_D"
+  ],
+  "rows_retained": 128,
+  "model_calls": 0,
+  "test_accessed": false,
+  "wall_seconds": 5.610874417,
+  "argv": [
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+    "--train",
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "--development",
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+    "--train-sha256",
+    "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+    "--development-sha256",
+    "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+    "--train-rows",
+    "279",
+    "--development-rows",
+    "41",
+    "--methods",
+    "CE_DDPM_REUSED,EMPIRICAL_POSTERIOR_B,COORDINATE_PERMUTATION_C,REFERENCE_G_PRIOR_D",
+    "--requests",
+    "16",
+    "--sampling-seeds-json",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+    "--samples",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/reused_ddpm.csv",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/generated.csv",
+    "--output",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_evaluation_v2"
+  ],
+  "python": "3.9.6 (default, Nov 11 2024, 03:15:38) \n[Clang 16.0.0 (clang-1600.0.26.6)]",
+  "policy": {
+    "scope": "exploratory single-fit train/development pilot; no test access",
+    "mmd": "biased linear MMD squared on 421 frozen features; valid canonical 1..48 only",
+    "feature_blocks": "length/48,20 AA fractions,400 dipeptide fractions; each scaled by 1/sqrt(3)",
+    "reconstruction": "posterior mean only; rendered sequence aligned to target positions; no nearest-neighbor truth",
+    "macro": "mean recall over amino-acid classes supported by target; PAD excluded",
+    "missing_prediction": "counts incorrect at every unrendered target position; never removes truth denominator",
+    "ar_nll": "teacher-forced diagnostic reported separately; not comparable with VAE objective",
+    "uncertainty": "no p-values/CI; draws are not independent training replicates; development has been reused",
+    "claims": "no activity, wetlab validation, significance, novelty, general method superiority or submission-readiness claim",
+    "engineering_prerequisite": "screens require complete request execution here and independently verified fixed-step training/budget upstream"
+  },
+  "backup": "BACKUP_BLOCKED"
+}

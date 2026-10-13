@@ -1,0 +1,23 @@
+{
+  "status": "TEMPLATE_NOT_LAUNCH_AUTHORIZATION",
+  "cwd": "/Users/loctek/Documents/Codex/2026-10-11/task-4",
+  "argv": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/warmup_vae_only.py",
+    "--contract",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/CONTRACT.json",
+    "--root-receipt",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ROOT_LAUNCH_AUTHORIZATION.json",
+    "--output",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1"
+  ],
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "root_receipt_file_exists": false
+}

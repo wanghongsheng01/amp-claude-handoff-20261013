@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-12",
+  "reviewer_role": "Independent venue, references and disclosure audit; separate from candidate authoring",
+  "scope": "Source-text and primary-source guideline/reference review; candidate main, supplement, bibliography, cover letter and decision memo. No training, test-set access, credential access, upload or submission. PDF layout was not visually audited by this agent.",
+  "candidate_status": "PASS_FOR_REVIEW_CANDIDATE",
+  "submission_status": "NO_GO_FOR_SUBMISSION",
+  "recommended_candidate_venue": "Bioinformatics",
+  "recommended_candidate_article_type": "Original Paper",
+  "communications_biology_assessment": "Not supported by current evidence of a new biological advance.",
+  "acceptance_probability": "Not estimated.",
+  "source_identity": {
+    "main.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/main.tex",
+      "bytes": 28594,
+      "sha256": "2f92fbb20b033bae51886f6438ecac475c564c51ecd2bb91606fb0fd662b2ff2"
+    },
+    "supplement.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/supplement.tex",
+      "bytes": 23470,
+      "sha256": "42a8b0863ad45a9c0e820ae6b21259cc476bfccfad7f205a935586afcf0ff86a"
+    },
+    "references.bib": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/references.bib",
+      "bytes": 3767,
+      "sha256": "e01e3fb5c835d811c2b945cd30d39614b5fbebda1f52aab33f681ad76478ba37"
+    },
+    "cover_letter.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/cover_letter.tex",
+      "bytes": 3080,
+      "sha256": "71ca6aafaf04de4156fdc76a7662d1e3c0f32f79387a1f88020246e2375b4cec"
+    },
+    "decision.tex": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/source/decision.tex",
+      "bytes": 2896,
+      "sha256": "9dca227f8746fb3d06ad83176b711ffb635abdfa4fa5f1ef36e71be1f8eb3590"
+    },
+    "main.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/main.pdf",
+      "bytes": 359655,
+      "sha256": "631bd7a74cf6e034630bcd81b27f3ddc8f2fdb5100dd96002c7efa39c67a1907",
+      "inspection": "Existence and byte identity only; no visual inspection by this auditor."
+    },
+    "supplement.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/supplement.pdf",
+      "bytes": 257269,
+      "sha256": "f7fa61096337e370a90203a1e085b15e7d3d9d60c2138eecf72513866b59bdaf",
+      "inspection": "Existence and byte identity only; no visual inspection by this auditor."
+    },
+    "cover_letter.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/cover_letter.pdf",
+      "bytes": 95637,
+      "sha256": "a0fb6d3785558c15f3c5835b811ad97a8cf591a4a8a66698a2d18c42738534d7",
+      "inspection": "Existence and byte identity only; no visual inspection by this auditor."
+    },
+    "decision.pdf": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/build/decision.pdf",
+      "bytes": 86314,
+      "sha256": "15bb57283c6e064bc6030320d7f171d521623f09475afccc5a2bfa0ac99390c2",
+      "inspection": "Existence and byte identity only; no visual inspection by this auditor."
+    }
+  },
+  "checks": [
+    {
+      "id": "V01",
+      "result": "PASS_FOR_CANDIDATE",
+      "subject": "Venue and format",
+      "evidence": "Bioinformatics official initial-submission page permits a single readable PDF and does not require templates initially; candidate is explicitly a review manuscript, not a production template. Original Paper is the defensible article-type candidate. No separate Analysis type was established. Application Note is not justified by this case-study contribution."
+    },
+    {
+      "id": "V02",
+      "result": "PASS_WITH_ACCESS_LIMITATION",
+      "subject": "Guideline verification",
+      "evidence": "Official submission_online and homepage support format-free initial submission. Specific author-guideline provisions were checked through official indexed excerpts because full author-guidelines retrieval was blocked/oversized. Exact numeric abstract limit was not fully independently verified. GUIDELINES.json records this limitation; no universal journal-compliance certification is issued."
+    },
+    {
+      "id": "V03",
+      "result": "PASS",
+      "subject": "Main-reference metadata",
+      "evidence": "Nine focused references checked against primary publication pages and, where needed, public Crossref metadata. Witten is correctly a 2019 bioRxiv preprint; Kingma is the 2013 arXiv version; DBAASP print citation is 2021; new 2026 QMAP and Beierle works have verified publisher records."
+    },
+    {
+      "id": "V04",
+      "result": "FIXED_AND_RECHECKED",
+      "subject": "DDPM mixed-version bibliographic entry",
+      "prior_issue": "Conference venue was previously mixed with the arXiv DOI.",
+      "change": "ho2020 now uses inproceedings, NeurIPS volume 33, pages 6840--6851, and official proceedings URL without arXiv DOI.",
+      "recheck": "Confirmed in current references.bib."
+    },
+    {
+      "id": "V05",
+      "result": "FIXED_AND_RECHECKED",
+      "subject": "Standalone supplement MIC references",
+      "prior_issue": "Named MIC sources lacked self-contained formal references in the supplement.",
+      "change": "Supplement now includes Witten, QMAP and DBAASP references with DOI links.",
+      "recheck": "Confirmed title, author, year and DOI against verified reference ledger."
+    },
+    {
+      "id": "V06",
+      "result": "PASS_FOR_BOUNDED_CLAIMS",
+      "subject": "Citation support and novelty boundary",
+      "evidence": "Prior peptide RNN work supports established autoregressive lineage, not exact reproduction. HydrAMP/AMPGen support published generation-plus-assay workflows, not a guaranteed raw-generator hit rate. Beierle and QMAP prevent a first-observation or mature-benchmark claim. Source text retains the bounded development-case interpretation."
+    },
+    {
+      "id": "V07",
+      "result": "PASS_FOR_DISCLOSURE_DRAFT",
+      "subject": "AI disclosure in Methods and cover letter",
+      "evidence": "Both disclose substantial AI assistance with code, execution/analysis, source checking, drafting and technical audit. Separate agents are not represented as human peer review. Exact historical model versions and complete prior-use history remain explicitly unresolved, as does human verification. Disclosure does not assert language editing only."
+    },
+    {
+      "id": "V08",
+      "result": "PASS_FOR_INTERNAL_DRAFT",
+      "subject": "Cover-letter truthfulness",
+      "evidence": "Letter is labelled unsent/NO_GO, describes one-seed and reused-development-data limits, makes no unsupported original-model or general-superiority claim, and does not invent author approval, exclusivity or publication-readiness attestations."
+    },
+    {
+      "id": "V09",
+      "result": "BLOCKS_SUBMISSION",
+      "subject": "Science and external validity",
+      "evidence": "One fitted seed, repeatedly reused development set, incomplete baseline optimization and realized-compute comparability, no independent H5 biological validation. Sequence validity and distances cannot establish efficacy. The current case does not establish the biological advance expected by Communications Biology."
+    },
+    {
+      "id": "V10",
+      "result": "BLOCKS_SUBMISSION",
+      "subject": "Human authorship and publication declarations",
+      "evidence": "Author identities/affiliations/contact, contributions, funding, conflicts, related-work overlap, historical assay provenance, full AI-use history and release arrangements require responsible human verification. No approval or attestation was inferred."
+    }
+  ],
+  "supporting_files": [
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/independent_venue/GUIDELINES.json",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/independent_venue/VENUE_REVIEW.zh.md",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/independent_venue/REFERENCES_VERIFIED.json",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/submission_candidate_20261012/independent_venue/CROSSREF_METADATA.json"
+  ],
+  "remaining_blockers": [
+    "Independent scientific-validity limitations recorded in V09.",
+    "Human factual verification and declarations recorded in V10.",
+    "Public release and full reproducibility arrangements remain unresolved."
+  ],
+  "action": "Return complete documents for human and independent scientific review; do not submit."
+}

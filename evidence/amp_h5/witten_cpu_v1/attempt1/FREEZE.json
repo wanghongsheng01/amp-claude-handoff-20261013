@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-12T08:45:35.184846+00:00",
+  "sha256": {
+    "model.py": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+    "validate_synthetic.py": "6af5725ac44e9757b4fca798561d390127a5128ba5dd9e96cd86897aadd782d9",
+    "CONFIG.json": "15d5af361d66e9eb3ecd152e493ba256f3a5b25391cd01b77c6b908290e62d8e",
+    "AUTHOR_BINDING.json": "0f113581e79d6dd6edc04d8e324eedfadeedf39806fe17f1f40c7f752958db4f",
+    "PREFLIGHT.json": "98982c3a1fe34034f041d7c1d0f61aef49ef0b5e7dfeca69a4812b61cade558e"
+  },
+  "natural_data": "NONE; generated in memory from frozen seed only"
+}

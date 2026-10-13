@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-10-11T19:12:09.744017+00:00",
+  "status": "PREPARED_STATIC_SYNTHETIC_ONLY",
+  "audit_script": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/audit_scalar_v2_terminal_v1.py",
+  "audit_script_sha256": "49c1028b31a5f6a1fb8d7ca404af228ebb22b620f7556c2781364600a574680f",
+  "checks": [
+    {
+      "name": "stdlib_module_import_no_torch_numpy",
+      "pass": true
+    },
+    {
+      "name": "supervisor_running_refused",
+      "pass": true
+    },
+    {
+      "name": "job_running_refused",
+      "pass": true
+    },
+    {
+      "name": "model_running_refused",
+      "pass": true
+    },
+    {
+      "name": "no_output_on_live_guard",
+      "pass": true
+    },
+    {
+      "name": "existing_report_refused",
+      "pass": true
+    },
+    {
+      "name": "still_no_ML_import_after_guards",
+      "pass": true
+    },
+    {
+      "name": "all_saved_weights_loads_restricted",
+      "pass": true
+    },
+    {
+      "name": "no_model_constructor_forward_or_J_calls",
+      "pass": true
+    },
+    {
+      "name": "native_clip_round_tokens_AST_identical",
+      "pass": true
+    },
+    {
+      "name": "native_firstPAD_AST_identical",
+      "pass": true
+    },
+    {
+      "name": "scalar_KL_density_div16_no_B48",
+      "pass": true
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SINGLE_SCALAR_V2_PLAN.json",
+      "sha256": "69e082e8a5c172f8ca2ed421fdd47caaac4015bea70dcffe612a750a7554b501",
+      "bytes": 12573
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SINGLE_SCALAR_V2_PREFLIGHT_RECEIPT.json",
+      "sha256": "6356839509b20694e1288bee36cb8accefa7c56fba374d6ed5bd866a09c6169f",
+      "bytes": 9123
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0",
+      "bytes": 2540
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "bytes": 41408
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/scalar_legacy/vae_initialization.json",
+      "sha256": "88ea4e73df0de087806b3076925f33966eea6fd0ee587c9d0461f86911adcbda",
+      "bytes": 169
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/MSE_V2_POSTFLIGHT_v1.json",
+      "sha256": "a0a410526b6a252ba1f73fd3957dea5ee20413bb6e5c264fca5d34a4eec97b71",
+      "bytes": 21294
+    }
+  ],
+  "natural_SCALAR_outputs_read": false,
+  "ML_imports": false,
+  "model_calls": 0,
+  "run_only_after": "Root confirms real terminal; stale-running or missing process requires separate forensics, never bypass this guard.",
+  "numerical_rule": "Finite positive sigma, fixed endpoints/source/caps. Scalar native round(clamp(raw,0,20)) and firstPAD verified directly from saved arrays. No J and no posthoc quality threshold.",
+  "current_outcome": "NO_SCALAR_RESULT_OR_POSTFLIGHT_YET"
+}

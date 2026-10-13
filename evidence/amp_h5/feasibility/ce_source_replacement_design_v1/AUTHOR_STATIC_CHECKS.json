@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-11T20:06:35.477193+00:00",
+  "status": "AUTHOR_STATIC_DRAFT_CHECKS_PASS_NOT_INDEPENDENT_REVIEW",
+  "checks": {
+    "all_33_bound_paths_exist_and_hashed": true,
+    "no_execution_authorization": true,
+    "96_maximum_new_decoder_inputs": true,
+    "6_decoder_calls_2_inverse_2_roundtrip": true,
+    "zero_training_DDPM_encoder": true,
+    "only_D_uses_inverse": true,
+    "new_method_names_unique": true,
+    "selector_and_permutation_seeds_disjoint": true,
+    "D_not_terminal_only": true,
+    "no_prior_N0I_substitution": true,
+    "fixed_exact_ce_checkpoint_sha_matches": true,
+    "scalar_engineering_PASS_only": true
+  },
+  "preparation_counts": {
+    "model_calls": 0,
+    "new_random_draws": 0,
+    "quality_calculations": 0,
+    "test_read": false
+  },
+  "not_an_execution_receipt": true
+}

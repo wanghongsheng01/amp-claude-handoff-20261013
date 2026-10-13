@@ -1,0 +1,15 @@
+{
+  "draft_sha256": "1a4085beb4974675fa1e8465d17773018bf1b4e9c55eea50faa5a606abc47735",
+  "draft_parse_pass": true,
+  "unconditional_execution_guard": true,
+  "no_CLI_entry_to_recovery": true,
+  "no_training_or_optimizer_calls": true,
+  "frozen_runner_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+  "frozen_generation_ast_sha256": "382b76bb65da2f874661cbf870bd6aa08b3da97eabe89273eb50e9b8593477e4",
+  "generation_call_count_in_static_flow": 1,
+  "reconstruction_export_call_count": 2,
+  "weights_loads_in_static_flow": 2,
+  "actual_model_calls": 0,
+  "actual_checkpoint_deserializations": 0,
+  "original_artifact_hashes_still_match": true
+}

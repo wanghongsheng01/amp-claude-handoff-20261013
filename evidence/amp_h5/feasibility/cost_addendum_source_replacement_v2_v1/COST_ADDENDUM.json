@@ -1,0 +1,291 @@
+{
+  "schema": "AMP_H5_COST_ADDENDUM_SOURCE_REPLACEMENT_V2_V1",
+  "created_utc": "2026-10-11T20:39:09.791557+00:00",
+  "status": "SEALED_TERMINAL_DIAGNOSTIC_COST_ADDITION",
+  "v4_unchanged": true,
+  "v4_manifest_sha256": "91ae0596763a3d09f5eacd02ecc0948d578bc7c79f576d0ba041f5f7b8ee1ddc",
+  "new_model_diagnostic": {
+    "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+    "attempt_id": "ce_source_replacement_v2",
+    "state": "completed",
+    "started_utc": "2026-10-11T20:27:28.933294+00:00",
+    "completed_utc": "2026-10-11T20:27:31.613386+00:00",
+    "exit_code": 0,
+    "independent_postflight_status": "PASS",
+    "independent_postflight_source": "review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+    "timing": {
+      "supervisor_outer_wall_seconds": 2.679257582873106,
+      "process_seconds_before_final_io": 2.4913654173724353,
+      "process_seconds_after_manifest_before_closing_ledger": 2.4944359590299428,
+      "phase_seconds_as_recorded": {
+        "base_input_preparation": 0.6174157080240548,
+        "model_load": 0.045956708025187254,
+        "D_inverse_and_roundtrip": 0.7632719166576862,
+        "decoder_and_export": 0.05761279119178653
+      },
+      "scope_note": "All process/phase measures are nested in outer. Add outer exactly once. CPU elapsed wall, not CPU utilization or user/system time."
+    },
+    "new_requests": 96,
+    "completed": 96,
+    "failed": 0,
+    "not_executed": 0,
+    "groups": [
+      {
+        "method": "COORDINATE_PERMUTATION_C",
+        "terminal": "AMD",
+        "allocated_new_requests": 16,
+        "started_requests": 16,
+        "completed_requests": 16,
+        "failed_requests": 0,
+        "not_executed_requests": 0,
+        "status_counts": {
+          "ok": 16
+        },
+        "sample_id_set_sha256": "02cddcee3d33e3c8f5333547ccb2c25d9d010b76d02f8928a423dfc23e0b8ec3"
+      },
+      {
+        "method": "COORDINATE_PERMUTATION_C",
+        "terminal": "FREE",
+        "allocated_new_requests": 16,
+        "started_requests": 16,
+        "completed_requests": 16,
+        "failed_requests": 0,
+        "not_executed_requests": 0,
+        "status_counts": {
+          "ok": 16
+        },
+        "sample_id_set_sha256": "8e5fbda641c342e7a25c3eb43b3922e6d9713650437598d5c0ada67330c570f2"
+      },
+      {
+        "method": "EMPIRICAL_POSTERIOR_B",
+        "terminal": "AMD",
+        "allocated_new_requests": 16,
+        "started_requests": 16,
+        "completed_requests": 16,
+        "failed_requests": 0,
+        "not_executed_requests": 0,
+        "status_counts": {
+          "ok": 16
+        },
+        "sample_id_set_sha256": "154e16f373ece7d2d4c4084f7398d6c550f9ed79fd2124ad305bb61e7cabd929"
+      },
+      {
+        "method": "EMPIRICAL_POSTERIOR_B",
+        "terminal": "FREE",
+        "allocated_new_requests": 16,
+        "started_requests": 16,
+        "completed_requests": 16,
+        "failed_requests": 0,
+        "not_executed_requests": 0,
+        "status_counts": {
+          "ok": 16
+        },
+        "sample_id_set_sha256": "f5c5107cf02359ec62955173b9d6d159f4721a2b1210797755f02b8896b6d527"
+      },
+      {
+        "method": "REFERENCE_G_PRIOR_D",
+        "terminal": "AMD",
+        "allocated_new_requests": 16,
+        "started_requests": 16,
+        "completed_requests": 16,
+        "failed_requests": 0,
+        "not_executed_requests": 0,
+        "status_counts": {
+          "ok": 16
+        },
+        "sample_id_set_sha256": "a6cec49855122801aadf2418bb2780bcac202d7abf645335dc9c7df5368186ec"
+      },
+      {
+        "method": "REFERENCE_G_PRIOR_D",
+        "terminal": "FREE",
+        "allocated_new_requests": 16,
+        "started_requests": 16,
+        "completed_requests": 16,
+        "failed_requests": 0,
+        "not_executed_requests": 0,
+        "status_counts": {
+          "ok": 16
+        },
+        "sample_id_set_sha256": "63aaa12c307a78d0ba37731b5d2627348d0c0e17917b5cea2a2d33fb953127be"
+      }
+    ],
+    "reused_DDPM_rows": 32,
+    "reused_DDPM_new_requests": 0,
+    "legal_sequence_count": null,
+    "legality_note": "Execution completion/status is recorded here; literal legality is a separate evaluator metric and is not recomputed or inferred by this ledger.",
+    "batch_forward_calls": {
+      "decoder": 6,
+      "prior_inverse": 2,
+      "prior_roundtrip_forward": 2,
+      "DDPM": 0,
+      "encoder": 0
+    },
+    "training_updates": 0,
+    "test_read": false,
+    "dev_read": false,
+    "train_source_read_started": true,
+    "train_source_read_validated": true,
+    "fresh_conditional_or_independent_biological_samples_inferred": false,
+    "method_boundary": "B empirical train posterior; C coordinate-permuted existing DDPM z; D reference-g conditional flow prior. Reused DDPM32 supplies context, not32 additional executions. All diagnostic groups excluded from formal quality ranking.",
+    "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+    "exploratory_gates": "NOT_APPLICABLE_SOURCE_DIAGNOSTIC",
+    "PROMOTE": "HOLD"
+  },
+  "model_job_wall_cost": {
+    "previous_v4_lower_bound_decimal": "9996.4754611649551",
+    "new_outer_wall_decimal": "2.679257582873106",
+    "combined_lower_bound_decimal": "9999.154718747828206",
+    "combined_lower_bound_seconds": 9999.154718747828,
+    "overall_exact_total_seconds": null,
+    "original_CE_exact_total_still_unknown": true,
+    "complete_total_cost_including_all_analysis_known": false
+  },
+  "non_model_analysis_cost": {
+    "v4_known_timed_cost_decimal": "13.7332680417443848",
+    "v4_cost_not_charged_twice": "AR readout1.8991414169999998 + same-n author11.834126624744385 already in v4.",
+    "newly_accounted_entries": [
+      {
+        "analysis_id": "same_n_independent_postflight",
+        "source": "review/independent/LATENT_SAME_N_GROUP_REFERENCE_POSTFLIGHT_v1.json",
+        "wall_seconds": 23.45660720905289,
+        "cost_class": "non_model_analysis_elapsed_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false
+      },
+      {
+        "analysis_id": "four_arm_evaluation",
+        "source": "feasibility/ce_recovery_four_arm_execution_v1/EVALUATION_RESULT.json",
+        "wall_seconds": 8.186495707999999,
+        "cost_class": "non_model_analysis_elapsed_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false
+      },
+      {
+        "analysis_id": "four_arm_readout_v4",
+        "source": "feasibility/ce_recovery_four_arm_execution_v1/V4_READOUT_RESULT.json",
+        "wall_seconds": 0.155796208,
+        "cost_class": "non_model_analysis_elapsed_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false
+      },
+      {
+        "analysis_id": "four_arm_full_metrics_addendum",
+        "source": "feasibility/ce_recovery_four_arm_execution_v1/ADDENDUM_RESULT.json",
+        "wall_seconds": 0.08936612499999999,
+        "cost_class": "non_model_analysis_elapsed_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false
+      },
+      {
+        "analysis_id": "source_v2_readonly_evaluation",
+        "source": "feasibility/ce_source_replacement_evaluation_execution_v2/EVALUATION_RESULT.json",
+        "wall_seconds": 5.654053791,
+        "cost_class": "non_model_analysis_elapsed_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false
+      },
+      {
+        "analysis_id": "source_v2_author_readout",
+        "source": "feasibility/ce_source_replacement_evaluation_execution_v2/AUTHOR_READOUT_RESULT.json",
+        "wall_seconds": 0.07601374999999999,
+        "cost_class": "non_model_analysis_elapsed_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false
+      },
+      {
+        "analysis_id": "source_v2_initial_audit_reviewer_label_error",
+        "source": "review/independent/CE_SOURCE_REPLACEMENT_TERMINAL_AUDIT_v2.json",
+        "postflight_source": "review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+        "wall_seconds": 0.9142335830256343,
+        "cost_class": "independent_audit_timed_section_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false,
+        "timing_note": "Analysis costs separate from natural generation; timers begin after Python stdlib time import and include subsequent imports. Unmeasured interactive time is unknown, not zero.",
+        "audit_status": "FAIL",
+        "initial_failure_is_reviewer_only_not_model_failure": true
+      },
+      {
+        "analysis_id": "source_v2_corrected_complete_audit",
+        "source": "review/independent/CE_SOURCE_REPLACEMENT_TERMINAL_AUDIT_v2_r1.json",
+        "postflight_source": "review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+        "wall_seconds": 1.4403871656395495,
+        "cost_class": "independent_audit_timed_section_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false,
+        "timing_note": "Analysis costs separate from natural generation; timers begin after Python stdlib time import and include subsequent imports. Unmeasured interactive time is unknown, not zero.",
+        "audit_status": "PASS_CHECKS_PENDING_INDEPENDENT_INTERPRETATION",
+        "initial_failure_is_reviewer_only_not_model_failure": true
+      },
+      {
+        "analysis_id": "source_v2_other_interactive_review_and_report",
+        "source": "review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+        "wall_seconds": null,
+        "cost_class": "independent_review_unmeasured_wall",
+        "new_model_requests": 0,
+        "included_in_model_job_cost": false,
+        "timing_note": "Unmeasured interactive review and writing remains null; no overlap charge for the two timed sections."
+      }
+    ],
+    "newly_accounted_timed_cost_decimal": "39.97295353971807278",
+    "combined_known_timed_cost_decimal": "53.70622158146245758",
+    "all_analysis_cost_seconds": null,
+    "not_added_to_model_job_wall": true
+  },
+  "aggregate_execution_bookkeeping": {
+    "allocated_slots": 296,
+    "started_attempts_observed_lower_bound": 248,
+    "completed_sequence_executions": 226,
+    "recorded_failed_sequence_executions": 6,
+    "original_CE_partial_FREE_slots": 16,
+    "CEv1_entry_failure_not_executed_slots": 32,
+    "original_CE_AMD_no_start_evidence_slots": 16,
+    "latent_only_historical_attempts_separate": 4,
+    "new_DDPM_reused_rows_not_attempts": 32,
+    "old_H4_reused_rows_not_attempts": 32,
+    "scope": "Mixed historical/formal/posthoc scopes combined ONLY for execution bookkeeping; not a quality denominator."
+  },
+  "unchanged_historical_training_updates": {
+    "AR": 1100,
+    "VAE": 3060,
+    "DDPM": 4060
+  },
+  "unexecuted_preparations_and_unknown_costs": [
+    {
+      "item": "old A/B64 candidate v1/v2 preparation",
+      "model_attempts": 0,
+      "wall_seconds": null
+    },
+    {
+      "item": "source replacement v1 blocked by R-S1 static review",
+      "model_attempts": 0,
+      "wall_seconds": null
+    },
+    {
+      "item": "v2 R-S1 repair, synthetic checks and planning/preflight",
+      "model_attempts": 0,
+      "wall_seconds": null
+    },
+    {
+      "item": "transport outage, metadata writes/verification before actual launch",
+      "model_attempts": 0,
+      "wall_seconds": null
+    },
+    {
+      "item": "other historical untimed code review/writing/analysis",
+      "model_attempts": null,
+      "wall_seconds": null,
+      "note": "No numeric cost inferred; model attempt totals come only from explicit execution evidence."
+    },
+    {
+      "item": "root/literature final reporting without a recorded timer",
+      "model_attempts": 0,
+      "wall_seconds": null
+    }
+  ],
+  "development_opportunity_note": "This is one additional posthoc model diagnostic and multiple extra saved-data analyses/reviews, not a fifth formal arm or replication. Shared2940cap does not imply equal actual compute; ARadequacy unproven, one trainingseed/method and reuseddev41 remain.",
+  "no_quality_metrics_recomputed": true,
+  "no_source_cohort_reads_by_ledger_author": true,
+  "model_calls_by_ledger_author": 0,
+  "original_protocol_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD"
+}

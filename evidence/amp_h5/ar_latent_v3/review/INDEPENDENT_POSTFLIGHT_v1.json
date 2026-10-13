@@ -1,0 +1,260 @@
+{
+  "schema": "AMP_H5_AR_LATENT_V3_INDEPENDENT_POSTFLIGHT_V1",
+  "independent_author": "/root/ar_admission_independent",
+  "model_calls": 0,
+  "new_rng_draws": 0,
+  "new_optimizer_updates": 0,
+  "status": "PASS",
+  "scientific_retries": 0,
+  "test37_reads": 0,
+  "information_gate": {
+    "status": "PASS",
+    "A_S8": 0.6908023670646612,
+    "B_S8": 0.09195780008237533,
+    "A_mismatch_S8": 0.09753266616727502,
+    "A_minus_B": 0.5988445669822859,
+    "A_minus_mismatch": 0.5932697008973863,
+    "A_mu": 0.8212602042313966,
+    "C_plain": 0.12043600260488428,
+    "interpretation": "Target-informed reconstruction information only; not prior generation gain."
+  },
+  "call_counts": {
+    "updates": 3000,
+    "training_forward": 3000,
+    "dev_teacher_forced_forward": 28,
+    "dev_one_token_forward": 1033,
+    "generation_forward": 111,
+    "encoder_forward": 0,
+    "DDPM_forward": 0,
+    "D_forward": 0,
+    "new_generation_requests": 96
+  },
+  "audit_checks": [
+    "40 exact input/code/plan bindings and complete saved manifest; pre-forward preparation parity",
+    "ABC1000 updates; exact batches/observed-token counts and all1000 A/B full sampled-bank/RNG digests",
+    "All28x41 saved free reconstructions and teacher-forced NLL; exact rational0.05 information gate",
+    "Raw generation inverseCDF/shared uniforms, EOS statuses and128 retained slots; exact call counts"
+  ],
+  "generation_gate": {
+    "status": "FAIL",
+    "comparisons": [
+      {
+        "terminal": "FREE",
+        "control": "B",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap",
+          "legal5_48"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "FREE",
+        "control": "C",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap",
+          "legal5_48"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "FREE",
+        "control": "D",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "AMD",
+        "control": "B",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap",
+          "legal5_48"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "AMD",
+        "control": "C",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap",
+          "legal5_48"
+        ],
+        "pass": false
+      },
+      {
+        "terminal": "AMD",
+        "control": "D",
+        "failed_metrics": [
+          "MMD2",
+          "dipeptide_JS_bits",
+          "absolute_length_mean_gap"
+        ],
+        "pass": false
+      }
+    ],
+    "metrics": {
+      "A": {
+        "FREE": {
+          "MMD2": 0.021077888013689552,
+          "dipeptide_JS_bits": 0.6019690520931582,
+          "mean_length": 12.0,
+          "absolute_length_mean_gap": 6.333333333333332,
+          "legal5_48": 14,
+          "copy": 0,
+          "duplicate": 0
+        },
+        "AMD": {
+          "MMD2": 0.02011673424588856,
+          "dipeptide_JS_bits": 0.5414730122643624,
+          "mean_length": 9.4375,
+          "absolute_length_mean_gap": 6.692934782608695,
+          "legal5_48": 15,
+          "copy": 0,
+          "duplicate": 0
+        }
+      },
+      "B": {
+        "FREE": {
+          "MMD2": 0.0063771168966765225,
+          "dipeptide_JS_bits": 0.3716185976307588,
+          "mean_length": 21.5625,
+          "absolute_length_mean_gap": 3.229166666666668,
+          "legal5_48": 16,
+          "copy": 0,
+          "duplicate": 0
+        },
+        "AMD": {
+          "MMD2": 0.010523311324442907,
+          "dipeptide_JS_bits": 0.37721851055502165,
+          "mean_length": 15.1875,
+          "absolute_length_mean_gap": 0.9429347826086953,
+          "legal5_48": 16,
+          "copy": 0,
+          "duplicate": 0
+        }
+      },
+      "C": {
+        "FREE": {
+          "MMD2": 0.00640753336151295,
+          "dipeptide_JS_bits": 0.3249306132706418,
+          "mean_length": 19.1875,
+          "absolute_length_mean_gap": 0.8541666666666679,
+          "legal5_48": 16,
+          "copy": 0,
+          "duplicate": 0
+        },
+        "AMD": {
+          "MMD2": 0.014968824722600806,
+          "dipeptide_JS_bits": 0.4442582818958851,
+          "mean_length": 14.0625,
+          "absolute_length_mean_gap": 2.0679347826086953,
+          "legal5_48": 16,
+          "copy": 0,
+          "duplicate": 0
+        }
+      },
+      "D": {
+        "FREE": {
+          "MMD2": 0.01732780337937688,
+          "dipeptide_JS_bits": 0.41789109667112806,
+          "mean_length": 17.125,
+          "absolute_length_mean_gap": 1.2083333333333321,
+          "legal5_48": 14,
+          "copy": 0,
+          "duplicate": 0
+        },
+        "AMD": {
+          "MMD2": 0.007709821687840027,
+          "dipeptide_JS_bits": 0.36559369734732183,
+          "mean_length": 16.5,
+          "absolute_length_mean_gap": 0.36956521739130466,
+          "legal5_48": 15,
+          "copy": 0,
+          "duplicate": 0
+        }
+      }
+    }
+  },
+  "execution": {
+    "wall_seconds": 49.904627417214215,
+    "overrun_seconds": 0.0,
+    "training": {
+      "A": {
+        "status": "COMPLETE",
+        "inner120_exceeded": false,
+        "outer150_exceeded": false,
+        "completed_updates": 1000,
+        "attempted_updates": 1000,
+        "failure": null,
+        "seconds": 17.110556584317237,
+        "final_state_sha256": "5d9fe06ca9f48f3751737dc2ffe0e6247191e1b1789bd264e1fa2e0e3bec0638",
+        "checkpoint_selection": "final_only"
+      },
+      "B": {
+        "status": "COMPLETE",
+        "inner120_exceeded": false,
+        "outer150_exceeded": false,
+        "completed_updates": 1000,
+        "attempted_updates": 1000,
+        "failure": null,
+        "seconds": 16.18255487503484,
+        "final_state_sha256": "ce7dc529d4046784283d1408bd3b3757ba7f7f6b835320e302b51c9c24ffca4b",
+        "checkpoint_selection": "final_only"
+      },
+      "C": {
+        "status": "COMPLETE",
+        "inner120_exceeded": false,
+        "outer150_exceeded": false,
+        "completed_updates": 1000,
+        "attempted_updates": 1000,
+        "failure": null,
+        "seconds": 12.991648375056684,
+        "final_state_sha256": "d4bdc1d3b700e9b51457a2770dbd9296c5289f6a8a07504d5345a728a8e891be",
+        "checkpoint_selection": "final_only"
+      }
+    }
+  },
+  "whole_experiment_claim": "Reconstruction information PASS; legal conditional-DDPM free-generation gain is not established. No expansion, no retry.",
+  "limitations": [
+    "One training seed and reused dev41; no generalization or biological efficacy claim.",
+    "D remains historical convolution/J; A/C are not capacity-matched."
+  ],
+  "final_action": "STOP_ROUTE_KEEP_ALL_RESULTS",
+  "PROMOTE": "HOLD",
+  "BACKUP": "BACKUP_BLOCKED",
+  "audit_wall_seconds": 1.7647648341953754,
+  "audit_script_sha256": "59531e00a0f36b7de8d655e83daf91a80a59c9f03741030d72299f97e8dc3a98",
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/ROOT_PLAN.json",
+      "sha256": "4ddb5c6696c399e2fb488213bf8e97a4c008348c401c78aba674680e9fa5fbce"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_PREFLIGHT_RECEIPT_v1.json",
+      "sha256": "1dfacf437109edb517133c3b0a638d12e80a6a31e478546adc31fbf1c7a941f9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/execution_v1/RESULT.json",
+      "sha256": "6f31c525188450557a3d4f9a500b08611f239f1332d0c95382144da0a70a599c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/SUMMARY.json",
+      "sha256": "5292afb125c31c85c5734f1bc5bd6cd528b0f535a6bb4916cdfa40157394300a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runs/natural_v1/MANIFEST.json",
+      "sha256": "22a291b9589e5527506f88f2b893d2d9e589a04fe9f4a10998d4a893db415831"
+    }
+  ]
+}

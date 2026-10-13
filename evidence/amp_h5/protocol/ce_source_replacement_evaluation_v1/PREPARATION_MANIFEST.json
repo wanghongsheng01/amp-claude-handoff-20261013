@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-11T20:09:48.350233+00:00",
+  "state": "PREPARED_NOT_EXECUTED",
+  "authorization": false,
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/EVALUATION_PREPARATION.json",
+      "bytes": 10701,
+      "sha256": "ac3229a71ac86a7c988b2324b0b6713af34c3c8e93209c81cc8603820b29efe3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/FUTURE_COMMAND.sh.NOT_EXECUTED",
+      "bytes": 1325,
+      "sha256": "deb4aeadfdaae2fed5579ce4115e3192b7250f4997b18957df63fb938a0ecedb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/README.zh.md",
+      "bytes": 2164,
+      "sha256": "8e89c3b5f688f34bc090120731a3f9288056ebdd443972c74017af363e25e209"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/ce_source_replacement_evaluation_v1/SYNTHETIC_INTERFACE_RESULT.json",
+      "bytes": 1237,
+      "sha256": "3470a84049fde67babdbde4c9c9ab0d89f6a1e602ccad2ed7714161c36ff2deb"
+    }
+  ],
+  "synthetic_checker": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/check_source_replacement_eval_interface_v1.py",
+    "bytes": 4734,
+    "sha256": "39bfdf48defefe390441c9f921d2a65b5d8a4010d76c4879b2b5fabecab651a8"
+  },
+  "frozen_evaluator": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+    "bytes": 24404,
+    "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417"
+  },
+  "frozen_metrics": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+    "bytes": 25377,
+    "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+  },
+  "unchanged_four_arm_index": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_FOUR_ARM_DELIVERY_v1.json",
+    "bytes": 12365,
+    "sha256": "72dc82556c3b0bcfe8f959724002bba614ff53871dd48c1f731b00009b84ad38"
+  },
+  "pending": [
+    "Runner final seed file bytes/SHA and new execution contract/slot manifests",
+    "Independent new-scope preflight and root execution authorization",
+    "Completed new attempt and independent engineering postflight before natural evaluation"
+  ],
+  "natural_results_created": false,
+  "model_calls": 0,
+  "natural_metric_evaluations": 0,
+  "test_access": false
+}

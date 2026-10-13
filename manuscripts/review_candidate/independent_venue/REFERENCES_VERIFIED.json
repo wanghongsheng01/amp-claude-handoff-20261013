@@ -1,0 +1,239 @@
+{
+  "checked_utc_date": "2026-10-12",
+  "scope": "Ten focused references. Bibliographic verification and supported claims, not reproduction of cited results. Candidate manuscript citation-to-sentence audit pending.",
+  "references": [
+    {
+      "key": "kingma2013",
+      "title": "Auto-Encoding Variational Bayes",
+      "authors": [
+        "Diederik P. Kingma",
+        "Max Welling"
+      ],
+      "year": 2013,
+      "venue": "arXiv",
+      "doi": "10.48550/arXiv.1312.6114",
+      "url": "https://arxiv.org/abs/1312.6114",
+      "support_scope": "Variational inference, reparameterization and autoencoder methodology.",
+      "does_not_support": "AMP activity, novelty of our architecture, or reconstruction implying generation quality.",
+      "verification": "Author-deposited arXiv page; originally submitted 2013; do not label this DOI a 2014 journal publication."
+    },
+    {
+      "key": "ho2020",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "authors": [
+        "Jonathan Ho",
+        "Ajay Jain",
+        "Pieter Abbeel"
+      ],
+      "year": 2020,
+      "venue": "Advances in Neural Information Processing Systems 33",
+      "doi": "10.48550/arXiv.2006.11239",
+      "url": "https://arxiv.org/abs/2006.11239",
+      "support_scope": "Denoising diffusion methodology.",
+      "does_not_support": "AMP biological efficacy or matched superiority of our model.",
+      "verification": "Author-deposited arXiv title/authors/year verified; DOI is arXiv DOI, not proceedings DOI.",
+      "proceedings_url": "https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html"
+    },
+    {
+      "key": "muller",
+      "title": "Recurrent Neural Network Model for Constructive Peptide Design",
+      "authors": [
+        "Alex T. Müller",
+        "Jan A. Hiss",
+        "Gisbert Schneider"
+      ],
+      "year": 2018,
+      "venue": "Journal of Chemical Information and Modeling",
+      "doi": "10.1021/acs.jcim.7b00414",
+      "url": "https://doi.org/10.1021/acs.jcim.7b00414",
+      "support_scope": "Sequence-based LSTM peptide generation is established prior art.",
+      "does_not_support": "Our terminal-conditioned LSTM is an exact reproduction of this paper or its published performance.",
+      "verification": "Publisher-deposited Crossref metadata; title, authors, DOI, publication data verified. ",
+      "crossref_source": "https://api.crossref.org/works?rows=2&query.title=Recurrent%20Neural%20Network%20Model%20for%20Constructive%20Peptide%20Design",
+      "volume": "58",
+      "issue": "2",
+      "pages": "472-479",
+      "article_number": null
+    },
+    {
+      "key": "witten",
+      "title": "Deep learning regression model for antimicrobial peptide design",
+      "authors": [
+        "Jacob Witten",
+        "Zack Witten"
+      ],
+      "year": 2019,
+      "venue": "bioRxiv preprint",
+      "doi": "10.1101/692681",
+      "url": "https://doi.org/10.1101/692681",
+      "support_scope": "CNN-based quantitative MIC prediction and GRAMPA are prior work.",
+      "does_not_support": "Peer-reviewed Bioinformatics publication; our QMAP-adapted PyTorch port reproduces original performance.",
+      "verification": "Publisher-deposited Crossref metadata; title, authors, DOI, publication data verified. ",
+      "crossref_source": "https://api.crossref.org/works?rows=2&query.title=Deep%20learning%20regression%20model%20for%20antimicrobial%20peptide%20design",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "article_number": null
+    },
+    {
+      "key": "dbaasp",
+      "title": "DBAASP v3: database of antimicrobial/cytotoxic activity and structure of peptides as a resource for development of new therapeutics",
+      "authors": [
+        "Malak Pirtskhalava",
+        "Anthony A Amstrong",
+        "Maia Grigolava",
+        "Mindia Chubinidze",
+        "Evgenia Alimbarashvili",
+        "Boris Vishnepolsky",
+        "Andrei Gabrielian",
+        "Alex Rosenthal",
+        "Darrell E Hurt",
+        "Michael Tartakovsky"
+      ],
+      "year": 2021,
+      "venue": "Nucleic Acids Research",
+      "doi": "10.1093/nar/gkaa991",
+      "url": "https://doi.org/10.1093/nar/gkaa991",
+      "support_scope": "DBAASP documents peptide structures, chemical modifications and activity records.",
+      "does_not_support": "Our fixed200 subset is representative, complete, identically assayed, or independent at the row level.",
+      "verification": "Publisher-deposited Crossref metadata; title, authors, DOI, publication data verified. Online 2020-11-05; print issue 2021, 49(D1):D288-D297.",
+      "crossref_source": "https://api.crossref.org/works?rows=2&query.title=DBAASP%20v3%20database%20of%20antimicrobial%20cytotoxic%20activity%20and%20structure%20of%20peptides",
+      "volume": "49",
+      "issue": "D1",
+      "pages": "D288-D297",
+      "article_number": null
+    },
+    {
+      "key": "hydramp",
+      "title": "Discovering highly potent antimicrobial peptides with deep generative model HydrAMP",
+      "authors": [
+        "Paulina Szymczak",
+        "Marcin Możejko",
+        "Tomasz Grzegorzek",
+        "Radosław Jurczak",
+        "Marta Bauer",
+        "Damian Neubauer",
+        "Karol Sikora",
+        "Michał Michalski",
+        "Jacek Sroka",
+        "Piotr Setny",
+        "Wojciech Kamysz",
+        "Ewa Szczurek"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-023-36994-z",
+      "url": "https://doi.org/10.1038/s41467-023-36994-z",
+      "support_scope": "Conditional VAE generation, candidate preselection, and peptide-specific experimental validation are distinct stages.",
+      "does_not_support": "Its wet-lab validation transfers to our historical27 peptides or new H5 models.",
+      "verification": "Publisher-deposited Crossref metadata; title, authors, DOI, publication data verified. ",
+      "crossref_source": "https://api.crossref.org/works?rows=2&query.title=Discovering%20highly%20potent%20antimicrobial%20peptides%20with%20deep%20generative%20model%20HydrAMP",
+      "volume": "14",
+      "issue": "1",
+      "pages": null,
+      "article_number": "1453",
+      "correction": {
+        "doi": "10.1038/s41467-023-40879-6",
+        "url": "https://www.nature.com/articles/s41467-023-40879-6",
+        "scope": "2023 author correction fixes Figure2 inadvertently duplicated from Figure5; do not use uncorrected figure."
+      }
+    },
+    {
+      "key": "ampgen2025",
+      "title": "AMPGen: an evolutionary information-reserved and diffusion-driven generative model for de novo design of antimicrobial peptides",
+      "authors": [
+        "Shuwen Jin",
+        "Zihan Zeng",
+        "Xiyan Xiong",
+        "Baicheng Huang",
+        "Li Tang",
+        "Hongsheng Wang",
+        "Xiao Ma",
+        "Xiaochun Tang",
+        "Guoqing Shao",
+        "Xingxu Huang",
+        "Feng Lin"
+      ],
+      "year": 2025,
+      "venue": "Communications Biology",
+      "doi": "10.1038/s42003-025-08282-7",
+      "url": "https://www.nature.com/articles/s42003-025-08282-7",
+      "support_scope": "Established diffusion-based AMP design with explicit screening and linked synthesis/assays.",
+      "does_not_support": "Classifier-independent pipeline, fair numerical success-rate comparison to our27, or novelty of diffusion for AMP.",
+      "verification": "Official full article, 2025-05-30, volume8 article839.",
+      "volume": "8",
+      "article_number": "839"
+    },
+    {
+      "key": "proldm2025",
+      "title": "PRO-LDM: A Conditional Latent Diffusion Model for Protein Sequence Design and Functional Optimization",
+      "authors": [
+        "Sitao Zhang",
+        "Zixuan Jiang",
+        "Rundong Huang",
+        "Wenting Huang",
+        "Siyuan Peng",
+        "Shaoxun Mo",
+        "Letao Zhu",
+        "Peiheng Li",
+        "Ziyi Zhang",
+        "Emily Pan",
+        "Xi Chen",
+        "Yunfei Long",
+        "Qi Liang",
+        "Jin Tang",
+        "Renjing Xu",
+        "Rui Qing"
+      ],
+      "year": 2025,
+      "venue": "Advanced Science",
+      "doi": "10.1002/advs.202502723",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202502723",
+      "support_scope": "Latent diffusion for protein sequence design is established; published GFP functional assays are separate from sequence statistics.",
+      "does_not_support": "AMP-specific matched baseline or evidence about our generated sequences.",
+      "verification": "Official full article, first online2025-06-30, volume12 issue34 e02723.",
+      "recommended_use": "Optional; omit if no concrete sentence needs it.",
+      "volume": "12",
+      "issue": "34",
+      "article_number": "e02723"
+    },
+    {
+      "key": "qmap2026",
+      "title": "QMAP: a benchmark for standardized evaluation of antimicrobial peptide MIC and hemolytic activity regression",
+      "authors": [
+        "Anthony Lavertu",
+        "Jacques Corbeil",
+        "Pascal Germain"
+      ],
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-026-56004-8",
+      "url": "https://www.nature.com/articles/s41598-026-56004-8",
+      "support_scope": "Prior quantitative AMP benchmark; five predefined homology-aware test splits, common supported tasks, released software; direct provenance for cached adapted CNN.",
+      "does_not_support": "Our native-unit small-subset results reproduce QMAP: its species merging and micromolar conversion differ from ours.",
+      "verification": "Official full article, 2026-06-03, volume16 article25387.",
+      "volume": "16",
+      "article_number": "25387"
+    },
+    {
+      "key": "beierle2026",
+      "title": "Generative models for antimicrobial peptide design: auto-encoders and beyond",
+      "authors": [
+        "Lukas Beierle",
+        "Julian Hahnfeld",
+        "Alexander Goesmann",
+        "Reihaneh Mostolizadeh",
+        "Franz Cemič"
+      ],
+      "year": 2026,
+      "venue": "BioData Mining",
+      "doi": "10.1186/s13040-026-00558-w",
+      "url": "https://link.springer.com/article/10.1186/s13040-026-00558-w",
+      "support_scope": "Direct prior comparative study of VAE/WAE/RNN/LM sampling and metric sensitivity; reconstruction treated as a proxy, not generation quality.",
+      "does_not_support": "Our bounded developmental case study is the first comparative AMP evaluation or validates a broad benchmark.",
+      "verification": "Official full article, 2026-05-09, volume19 article42.",
+      "volume": "19",
+      "article_number": "42"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "peptide_id": 37,
+    "sequence_family": "F37",
+    "source_family_group": "G37",
+    "plain_CNN_representation_compatible": false,
+    "unencoded_features": [
+      "TERMINAL_MODIFICATION_NOT_ENCODED"
+    ],
+    "null_terminal_annotation_still_unknown": true
+  },
+  {
+    "peptide_id": 102,
+    "sequence_family": "F102",
+    "source_family_group": "G102",
+    "plain_CNN_representation_compatible": true,
+    "unencoded_features": [],
+    "null_terminal_annotation_still_unknown": true
+  },
+  {
+    "peptide_id": 1689,
+    "sequence_family": "F1689",
+    "source_family_group": "G37",
+    "plain_CNN_representation_compatible": false,
+    "unencoded_features": [
+      "D_OR_NONCANONICAL_RESIDUE_NOT_ENCODED",
+      "BOND_OR_CYCLE_NOT_ENCODED"
+    ],
+    "null_terminal_annotation_still_unknown": true
+  },
+  {
+    "peptide_id": 1737,
+    "sequence_family": "F1737",
+    "source_family_group": "G1737",
+    "plain_CNN_representation_compatible": true,
+    "unencoded_features": [],
+    "null_terminal_annotation_still_unknown": true
+  },
+  {
+    "peptide_id": 1738,
+    "sequence_family": "F1738",
+    "source_family_group": "G1737",
+    "plain_CNN_representation_compatible": true,
+    "unencoded_features": [],
+    "null_terminal_annotation_still_unknown": true
+  },
+  {
+    "peptide_id": 4339,
+    "sequence_family": "F1738",
+    "source_family_group": "G1737",
+    "plain_CNN_representation_compatible": false,
+    "unencoded_features": [
+      "TERMINAL_MODIFICATION_NOT_ENCODED"
+    ],
+    "null_terminal_annotation_still_unknown": true
+  },
+  {
+    "peptide_id": 4379,
+    "sequence_family": "F1738",
+    "source_family_group": "G1737",
+    "plain_CNN_representation_compatible": false,
+    "unencoded_features": [
+      "TERMINAL_MODIFICATION_NOT_ENCODED"
+    ],
+    "null_terminal_annotation_still_unknown": true
+  },
+  {
+    "peptide_id": 4380,
+    "sequence_family": "F1738",
+    "source_family_group": "G1737",
+    "plain_CNN_representation_compatible": false,
+    "unencoded_features": [
+      "TERMINAL_MODIFICATION_NOT_ENCODED"
+    ],
+    "null_terminal_annotation_still_unknown": true
+  }
+]

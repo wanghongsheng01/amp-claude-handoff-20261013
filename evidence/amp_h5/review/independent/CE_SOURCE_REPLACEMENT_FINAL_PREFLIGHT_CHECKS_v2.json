@@ -1,0 +1,150 @@
+{
+  "created_utc": "2026-10-11T20:26:13.346589+00:00",
+  "status": "PASS_EXACT_V2_PREFLIGHT",
+  "checks": [
+    {
+      "name": "exact_plan_contract_script",
+      "pass": true
+    },
+    {
+      "name": "all53_unique_plan_bindings",
+      "pass": true
+    },
+    {
+      "name": "all47_unique_contract_bindings",
+      "pass": true
+    },
+    {
+      "name": "all_contract_inputs_present_in_plan",
+      "pass": true
+    },
+    {
+      "name": "feasibility/ce_source_replacement_candidate_v2/MANIFEST.json_members_hashes",
+      "pass": true
+    },
+    {
+      "name": "protocol/ce_source_replacement_evaluation_v2/PREPARATION_MANIFEST.json_members_hashes",
+      "pass": true
+    },
+    {
+      "name": "independent_R_S1_resolved",
+      "pass": true
+    },
+    {
+      "name": "96_slots_match_exact_manifest",
+      "pass": true
+    },
+    {
+      "name": "four_method_epsilon_schedule",
+      "pass": true
+    },
+    {
+      "name": "candidate_paths_no_existing_runs",
+      "pass": true
+    },
+    {
+      "name": "single_exact180_job",
+      "pass": true
+    },
+    {
+      "name": "frozen_caps_callcounts",
+      "pass": true
+    },
+    {
+      "name": "root_scope_D_mandatory",
+      "pass": true
+    },
+    {
+      "name": "synthetic_valid_exact_admission",
+      "pass": true
+    },
+    {
+      "name": "unapproved_receipt_refused",
+      "pass": true
+    },
+    {
+      "name": "unchecked_science_refused",
+      "pass": true
+    },
+    {
+      "name": "unchecked_scalar_refused",
+      "pass": true
+    },
+    {
+      "name": "stale_plan_hash_refused",
+      "pass": true
+    },
+    {
+      "name": "runtime_D_disabled_refused",
+      "pass": true
+    },
+    {
+      "name": "changed_scope_refused",
+      "pass": true
+    },
+    {
+      "name": "changed_inner_budget_refused",
+      "pass": true
+    },
+    {
+      "name": "changed_roundtrip_tolerance_refused",
+      "pass": true
+    },
+    {
+      "name": "changed_permutation_seed_refused",
+      "pass": true
+    },
+    {
+      "name": "changed_command_refused",
+      "pass": true
+    },
+    {
+      "name": "wrong_parent_lock_refused",
+      "pass": true
+    },
+    {
+      "name": "evaluation_current_v2_roots",
+      "pass": true
+    },
+    {
+      "name": "evaluation_no_original_gate_or_ranking",
+      "pass": true
+    },
+    {
+      "name": "receipt_test_no_natural_effects",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+  "plan_sha256": "91e64d4ca473c1a56b2c66b285f0f5b8fd0ccba3884fe15ba465e574108bb46f",
+  "contract_sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8",
+  "script_sha256": "e915f23cbf6157b20bd1d9a94fe831d326b0ab6a20b4013824224921a2bbf444",
+  "reviewer_actions": {
+    "stdlib_only": true,
+    "synthetic_admission_checks_only": true,
+    "natural_array_reads": 0,
+    "natural_RNG_or_indices": 0,
+    "model_calls": 0,
+    "test37_reads": 0
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_PLAN_v2.json",
+      "sha256": "91e64d4ca473c1a56b2c66b285f0f5b8fd0ccba3884fe15ba465e574108bb46f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+      "sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+      "sha256": "e915f23cbf6157b20bd1d9a94fe831d326b0ab6a20b4013824224921a2bbf444"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_R_S1_REPAIR_REVIEW_v2.json",
+      "sha256": "15b3c5023d82dd905c0f518799ed17a19ab297fdbb6f0130b12748651750bba6"
+    }
+  ],
+  "requires_fresh_root_process_load_check_before_launch": true
+}

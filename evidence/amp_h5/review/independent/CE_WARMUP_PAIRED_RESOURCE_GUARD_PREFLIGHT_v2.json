@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope_id": "AMP_H5_WARMUP_PAIRED_RESOURCE_GUARD_V1",
+  "paired_guard_config_sha256": "8b1e0740da6691381e88cee1d0462ec924d60faee3f4aec6e180340ff31e6b6c",
+  "paired_guard_script_sha256": "3bb4d3a3cd2b8247de8540ce5e5a8cabeb6992d51c0dd6b011f61ac6b396c2e2",
+  "created_utc": "2026-10-12T01:08:42.059871+00:00",
+  "approval_kind": "CONDITIONAL_READ_ONLY_EXECUTION_PREFLIGHT",
+  "execution_conditions": [
+    "Require actual new scoring postflight PASS scope AMP_H5_WARMUP_RMS_SCORING_V1 binding MANIFEST/CLOSING_LEDGER/execution RESULT plus existing joint baseline PASS. No execution before these.",
+    "Root invokes once under exact inner/outer watchdog, absent output path, no retry. All fixed denominators and four resource guards unchanged."
+  ],
+  "budgets_seconds": {
+    "inner": 30,
+    "outer": 60
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v3/PAIRED_GUARD_CONTRACT.json",
+      "sha256": "8b1e0740da6691381e88cee1d0462ec924d60faee3f4aec6e180340ff31e6b6c",
+      "bytes": 7625
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/paired_guard_v1.py",
+      "sha256": "3bb4d3a3cd2b8247de8540ce5e5a8cabeb6992d51c0dd6b011f61ac6b396c2e2",
+      "bytes": 15404
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/WARMUP_RMS_V1_ADMISSION_FAILURE_REVIEW.json",
+      "sha256": "562cbf807b479cd1090d342c149eafa78aee7e92cfdba93913ceb67ca23db7e3",
+      "bytes": 5922
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/WARMUP_POSTTRAIN_PREPARATION_REVIEW_v1.json",
+      "sha256": "327a5463f3c35c88dca1126643f853351b11082eaf076d508a1cb352be84d133",
+      "bytes": 9714
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_admission_fix_v2/INDEPENDENT_PREFLIGHT.json",
+      "sha256": "2f098e930e18dba7e3c511757b92c79d50f601bf4304e15d4cbbfc6a277a69e8",
+      "bytes": 4998
+    }
+  ],
+  "revision": "Only metadata rebinding after explicit zero-model admission repair; old conditional receipts preserved.",
+  "mathematics_tests_repeated": false,
+  "new_model_calls": 0,
+  "new_random_draws": 0,
+  "test_reads": 0,
+  "downstream_authorization": false,
+  "original_CE_E_L_G": "NOT_EVALUABLE",
+  "PROMOTE": "HOLD"
+}

@@ -1,0 +1,322 @@
+{
+  "created_utc": "2026-10-11T19:41:17.976081+00:00",
+  "audit_scope": "AMP H5 frozen train/dev component grouping and deterministic integer feasibility only",
+  "author_agent": "/root/h5_baseline/latent_schema",
+  "status": "FROZEN_GROUP_BINDINGS_AVAILABLE_WITH_PROTOCOL_DEFINED_SIMILARITY_SEMANTICS",
+  "source_root": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/COHORT_FREEZE.json",
+      "sha256": "993cd4b9872ba20c1ba4842d51b93d1fac7bcbec7def8e49c5e5229ecc576cb8",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/PARTITION_AUDIT.json",
+      "sha256": "05b7380147abce378479b96fbce5be9d007018e677afa7626fca310e04f2975c",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/split_v2/PARTITION_AUDIT.json",
+      "sha256": "31a99898e4270fa548b060309380a248c1ae88984fc17ad94ed391cc81e5bca4",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/split_exposure_LOCK_v2.json",
+      "sha256": "48be978aaa17908df08563b4a1baa40ae7378ec20438e72ca8487757e500b97a",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/build_expanded_split_v2.py",
+      "sha256": "6e2d6df3b9401212c727c3e977a61769c03504b03d9c07126ee7e20a0b94458f",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/SPLIT_V2_IMPLEMENTATION_DERIVATION.json",
+      "sha256": "10e067387083e17c8f92261387d3e207a1c88f00b39311bcbe1a2e56388da9fc",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/build_descriptors.py",
+      "sha256": "bc2bf73b92a1f88955a3f79a3aa723c1caffffc188ad8c4ca92a8e7c7bed4393",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/DESCRIPTOR_BUILD.json",
+      "sha256": "99af26de1c0a2d81750b2b596fc159351cab08ecacbdbcd2f72b1156436e9576",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9",
+      "hash_observed_during_this_readonly_audit": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/MANIFEST.json",
+      "sha256": "13ec21c72d0fbb55e23b729cf8eb2c12f30e9e03e25db2e71f17082ae4585d2e",
+      "hash_observed_during_this_readonly_audit": true
+    }
+  ],
+  "source_schema": {
+    "cohort_csv_header": [
+      "molecule_sha256",
+      "sequence_sha256",
+      "sequence",
+      "length",
+      "terminal_state",
+      "class",
+      "component_id",
+      "source_ids"
+    ],
+    "binding_row_fields": [
+      "model_row_id",
+      "molecule_sha256",
+      "sequence_sha256",
+      "sequence",
+      "terminal_state",
+      "class",
+      "component_id"
+    ],
+    "cohort_comparison_fields": [
+      "molecule_sha256",
+      "sequence_sha256",
+      "terminal_state",
+      "component_id"
+    ],
+    "sequence_derived_computation_performed": false
+  },
+  "freeze_chain": [
+    {
+      "path": "expanded_cohort/release_v2/runner_train_val/COHORT_FREEZE.json",
+      "lines": [
+        4,
+        6,
+        21,
+        30,
+        55,
+        100,
+        119
+      ],
+      "fact": "Freeze binds split protocol, release train/val byte hashes, partition audit, and exact split_v2 candidate copy hashes. Observed release train/val hashes match."
+    },
+    {
+      "path": "expanded_cohort/release_v2/runner_train_val/PARTITION_AUDIT.json",
+      "lines": [
+        2,
+        21,
+        25
+      ],
+      "fact": "Release audit records independently verified qualification/partition status and binds author split audit. This audit did not repeat that prior full review."
+    },
+    {
+      "path": "expanded_cohort/split_v2/PARTITION_AUDIT.json",
+      "lines": [
+        19,
+        23
+      ],
+      "fact": "Observed author audit hash matches release reference and binds component-file, split-protocol, split-implementation, and NW reference hashes. Component-file contents were not opened."
+    },
+    {
+      "path": "expanded_preprocessing/dbaasp_v4_release2/DESCRIPTOR_BUILD.json",
+      "lines": [
+        4,
+        8,
+        18,
+        29,
+        32
+      ],
+      "fact": "Build metadata binds descriptor script, freeze, train/val source hashes, model CSV hashes, and TRAIN_VAL_BINDING hash; all inspected binding hashes match."
+    }
+  ],
+  "component_construction": {
+    "semantics": "Protocol-defined sequence-similarity connected component; not a verified biological family or independent biological unit.",
+    "vertices": "Eligible unique AA sequences plus 31 historical exclusion-marker sequences and 164 old public split-marker sequences, as specified by the frozen protocol; underlying full graph was not reopened.",
+    "pairwise_rule": "Global Needleman-Wunsch, match +2, mismatch -1, linear gap -2 including terminal gaps; maximize tuple (alignment_score, exact_matches, -aligned_columns); edge iff 10*matches >= 7*all_alignment_columns.",
+    "group_rule": "Full transitive connected components; all terminal states of an identical AA sequence share a graph vertex/component.",
+    "identifier_rule": "SHA256 of sorted unique member AA sequences joined by newline without a final newline. Code uses ASCII, which coincides with UTF-8 on these AA strings.",
+    "assignment_rule": "Hash bucket from seed + colon + component_id, modulo 10000; prior-exposure rules override otherwise 80/10/10 train/val/test component assignment. No new assignment performed here.",
+    "rule_evidence": [
+      {
+        "path": "expanded_cohort/split_exposure_LOCK_v2.json",
+        "lines": [
+          2,
+          10,
+          12,
+          58,
+          66,
+          78
+        ]
+      },
+      {
+        "path": "expanded_cohort/build_expanded_split_v2.py",
+        "lines": [
+          13,
+          28,
+          43,
+          65,
+          68,
+          81,
+          88,
+          93
+        ]
+      }
+    ],
+    "important_boundaries": [
+      "Transitive closure does not imply every pair in a component has identity >= 0.70.",
+      "Original component hashes may include marker members absent from released train/val; do not reconstruct IDs from only the released subset.",
+      "Do not substitute row indices, sequence hashes, source IDs, or terminal labels for component_id.",
+      "No pairwise alignment, homology recomputation, full component-file read, or biological-family validation was performed in this audit."
+    ]
+  },
+  "row_binding_verification": {
+    "method": "Read only designated train/val CSV metadata fields, compare frozen binder in original row order; count existing component IDs without sequence comparison.",
+    "train": {
+      "rows": 279,
+      "components": 224,
+      "unique_molecule_keys": 279,
+      "missing_component_ids": 0,
+      "binding_rows": 279,
+      "all_compared_fields_match_in_order": true,
+      "model_row_id_contiguous": true,
+      "model_row_id_range": [
+        0,
+        278
+      ],
+      "component_size_histogram": {
+        "1": 188,
+        "2": 22,
+        "3": 10,
+        "4": 3,
+        "5": 1
+      }
+    },
+    "val": {
+      "rows": 41,
+      "components": 33,
+      "unique_molecule_keys": 41,
+      "missing_component_ids": 0,
+      "binding_rows": 41,
+      "all_compared_fields_match_in_order": true,
+      "model_row_id_contiguous": true,
+      "model_row_id_range": [
+        279,
+        319
+      ],
+      "component_size_histogram": {
+        "1": 30,
+        "2": 1,
+        "4": 1,
+        "5": 1
+      }
+    },
+    "train_val_component_overlap": 0,
+    "mapping": "Use role plus frozen binding.model_row_id (model CSV idx), or unique molecule_sha256, to join to component_id; validate artifact row semantics first. Binding train IDs are 0..278, val IDs are 279..319.",
+    "local_row_caution": "H5 reconstruction_export uses split-local row_id=i+j (vae_pipeline_formal_v2.py:601), so val reconstruction row_id 0..40 needs its val-role offset/binding; it is not a component ID.",
+    "binding_evidence": [
+      {
+        "path": "expanded_preprocessing/build_descriptors.py",
+        "lines": [
+          88,
+          97,
+          111,
+          124,
+          134,
+          140
+        ]
+      },
+      {
+        "path": "expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+        "lines": [
+          10,
+          20,
+          2526,
+          2527
+        ]
+      }
+    ],
+    "latent_array_join_not_performed_in_this_subtask": true
+  },
+  "train_terminal_component_metadata": {
+    "FREE": {
+      "rows": 126,
+      "components_with_terminal": 109,
+      "terminal_row_count_per_component_histogram": {
+        "1": 99,
+        "2": 4,
+        "3": 5,
+        "4": 1
+      },
+      "max_terminal_rows_per_component": 4,
+      "exact16_reachable": true,
+      "exact16_component_subset_count_excluding_zero_terminal_components": "1322798367791034631"
+    },
+    "AMD": {
+      "rows": 153,
+      "components_with_terminal": 122,
+      "terminal_row_count_per_component_histogram": {
+        "1": 97,
+        "2": 19,
+        "3": 6
+      },
+      "max_terminal_rows_per_component": 3,
+      "exact16_reachable": true,
+      "exact16_component_subset_count_excluding_zero_terminal_components": "1500157538418727311"
+    },
+    "joint": {
+      "total_components": 224,
+      "max_component_total_size": 5,
+      "cross_terminal_components": 7,
+      "cross_terminal_rows": {
+        "FREE": 12,
+        "AMD": 11
+      },
+      "component_terminal_vector_histogram": {
+        "FREE=0,AMD=1": 93,
+        "FREE=0,AMD=2": 17,
+        "FREE=0,AMD=3": 5,
+        "FREE=1,AMD=0": 95,
+        "FREE=1,AMD=1": 2,
+        "FREE=1,AMD=2": 1,
+        "FREE=1,AMD=3": 1,
+        "FREE=2,AMD=0": 3,
+        "FREE=2,AMD=1": 1,
+        "FREE=3,AMD=0": 3,
+        "FREE=3,AMD=1": 1,
+        "FREE=3,AMD=2": 1,
+        "FREE=4,AMD=0": 1
+      },
+      "exact_FREE16_AMD16_reachable": true,
+      "exact_FREE16_AMD16_component_subset_count": "488466986509709352862250309225896922"
+    }
+  },
+  "integer_feasibility_method": {
+    "target": "Remove whole existing train components while reaching 16 FREE and 16 AMD rows simultaneously.",
+    "algorithm": "Deterministic 0/1 integer subset-sum count. Each existing component contributes its (FREE_count, AMD_count). Start count[(0,0)]=1; for each component add an include-copy of prior states with both coordinates <=16. No subset identities selected or emitted. Per-terminal counts analogously use only components with a positive count of that terminal.",
+    "count_semantics": "Number of distinct subsets of labeled existing component IDs, not biological samples or independent experimental replicates. Large counts are decimal strings to preserve exact integers.",
+    "denominator_boundary": "Independent per-terminal exact16 feasibility does not justify independent draws and a union of their components: the 7 mixed-terminal components can remove extra rows of the other terminal. If a single jointly constrained whole-component subset is later selected with exactly (16,16), the remaining train counts would be FREE110 and AMD137. Those denominators are only conditional arithmetic, not a selected split or completed experiment.",
+    "sampling_or_selection_performed": false,
+    "randomness_used": false
+  },
+  "execution_boundaries": {
+    "new_model_forwards": 0,
+    "training_updates": 0,
+    "new_random_draws": 0,
+    "quality_metrics_computed": false,
+    "test_data_files_opened": false,
+    "full_graph_or_all_pair_files_opened": false,
+    "old_source_files_modified": false,
+    "new_output_files": [
+      "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/GROUP_BINDING_AVAILABILITY.json"
+    ],
+    "manifest_heldout_references_seen": "Only paths/counts/hashes already present in allowed split manifests; no referenced heldout data file opened."
+  }
+}

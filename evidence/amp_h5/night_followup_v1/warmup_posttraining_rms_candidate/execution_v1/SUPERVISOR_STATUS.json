@@ -1,0 +1,31 @@
+{
+  "pid": 93226,
+  "created_utc": "2026-10-12T00:52:27.210053+00:00",
+  "state": "completed_with_failures",
+  "plan_sha256": "7f26d743dc41cd72ab3d1ceb4279ef34bce71f6456fec4461a72be4f828fb08e",
+  "jobs": [
+    {
+      "id": "warmup_posttrain_rms_v1",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "-B",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/export_postwarmup_rms_v1.py",
+        "--contract",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/CONTRACT.json",
+        "--plan",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/ROOT_PLAN.json",
+        "--receipt",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/INDEPENDENT_PREFLIGHT.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_posttraining_rms_candidate/run_v1"
+      ],
+      "started_utc": "2026-10-12T00:52:27.210496+00:00",
+      "state": "failed",
+      "pid": 93228,
+      "exit_code": 2,
+      "seconds": 0.07434300007298589
+    }
+  ],
+  "completed_utc": "2026-10-12T00:52:27.285317+00:00"
+}

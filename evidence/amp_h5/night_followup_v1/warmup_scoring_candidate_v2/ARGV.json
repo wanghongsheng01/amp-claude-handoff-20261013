@@ -1,0 +1,31 @@
+{
+  "status": "PREPARATION_ONLY_NOT_RUN",
+  "scoring": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/score_warmup_rms_v1.py",
+    "--config",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/SCORING_CONTRACT.json",
+    "--approval",
+    "<future exact scoring preflight PASS>",
+    "--model-postflight",
+    "<future warmup RMS model postflight PASS>",
+    "--out",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_run_v1"
+  ],
+  "paired_guard": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v1/paired_guard_v1.py",
+    "--config",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_scoring_candidate_v2/PAIRED_GUARD_CONTRACT.json",
+    "--approval",
+    "<future exact paired-guard preflight PASS>",
+    "--baseline-postflight",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+    "--candidate-postflight",
+    "<future exact warmup RMS scoring postflight PASS>",
+    "--out",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_paired_guard_run_v1"
+  ]
+}

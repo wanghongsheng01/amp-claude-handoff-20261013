@@ -1,0 +1,300 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = "C.UTF-8",
+	LC_CTYPE = "C.UTF-8",
+	LC_NUMERIC = (unset),
+	LC_COLLATE = (unset),
+	LC_TIME = (unset),
+	LC_MESSAGES = (unset),
+	LC_MONETARY = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex -no-shell-escape  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Homebrew) (preloaded format=pdflatex)
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/ot1ptm
+.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 10 point document.
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/fontenc.
+sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/t1ptm.
+fd)) (./glyphtounicode.tex) (./glyphtounicode-cmex.tex)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/cite/cite.sty
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsma
+th.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amste
+xt.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsge
+n.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsbs
+y.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsmath/amsop
+n.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/amss
+ymb.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/amsf
+onts.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/algorithms/al
+gorithmic.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/ifthen.s
+ty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/keyv
+al.sty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/algorithms/al
+gorithm.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/float/float.s
+ty))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/tools/array.s
+ty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hicx.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/grap
+hics.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/trig
+.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-cfg/
+graphics.cfg)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-def/
+pdftex.def)))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/textcomp
+.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/url/url.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/booktabs/book
+tabs.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/multirow/mult
+irow.sty)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/l3backend/l3b
+ackend-pdftex.def) (./main.aux)
+-- Lines per column: 58 (exact).
+
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/context/base/mkii/s
+upp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/epstopdf-pkg/
+epstopdf-base.sty
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/latexconfig/e
+pstopdf-sys.cfg))
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/umsa
+.fd)
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/amsfonts/umsb
+.fd)
+
+LaTeX Warning: Citation `huan2020antimicrobial' on page 1 undefined on input li
+ne 63.
+
+
+LaTeX Warning: Citation `gan2021multifaceted' on page 1 undefined on input line
+ 63.
+
+
+LaTeX Warning: Citation `huang2023identification' on page 1 undefined on input 
+line 65.
+
+
+LaTeX Warning: Citation `huan2020antimicrobial' on page 1 undefined on input li
+ne 67.
+
+
+LaTeX Warning: Citation `gan2021multifaceted' on page 1 undefined on input line
+ 67.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `meyers2021denovo' on page 1 undefined on input line 69
+.
+
+
+LaTeX Warning: Citation `zhavoronkov2023generative' on page 1 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Citation `das2021accelerated' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Citation `szymczak2023discovering' on page 1 undefined on input 
+line 69.
+
+
+LaTeX Warning: Citation `segler2018generating' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `kotsias2020direct' on page 1 undefined on input line 6
+9.
+
+
+LaTeX Warning: Citation `muller2018recurrent' on page 1 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `kingma2014autoencoding' on page 1 undefined on input l
+ine 69.
+
+
+LaTeX Warning: Citation `dean2020variational' on page 1 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `ho2020denoising' on page 1 undefined on input line 69.
+
+
+
+LaTeX Warning: Citation `watson2023denovo' on page 1 undefined on input line 69
+.
+
+
+LaTeX Warning: Citation `huang2024cpdiffusion' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `jin2024artificial' on page 1 undefined on input line 6
+9.
+
+
+LaTeX Warning: Citation `rives2021biological' on page 1 undefined on input line
+ 71.
+
+
+LaTeX Warning: Citation `elnaggar2021prottrans' on page 1 undefined on input li
+ne 71.
+
+
+LaTeX Warning: Citation `brandes2022proteinbert' on page 1 undefined on input l
+ine 71.
+
+
+LaTeX Warning: Citation `lin2023evolutionary' on page 1 undefined on input line
+ 71.
+
+
+LaTeX Warning: Citation `jumper2021highly' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `baek2021accurate' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `abramson2024accurate' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `wieder2020compact' on page 1 undefined on input line 7
+1.
+
+
+LaTeX Warning: Citation `xiong2020pushing' on page 1 undefined on input line 71
+.
+
+
+LaTeX Warning: Citation `maziarka2024transfer' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `olivecrona2017molecular' on page 1 undefined on input 
+line 71.
+
+
+LaTeX Warning: Citation `zhou2019optimization' on page 1 undefined on input lin
+e 71.
+
+
+LaTeX Warning: Citation `wang2023denovo' on page 1 undefined on input line 71.
+
+
+LaTeX Warning: Citation `li2021pepvae' on page 1 undefined on input line 76.
+
+
+LaTeX Warning: Citation `szymczak2023discovering' on page 1 undefined on input 
+line 76.
+
+[1{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/enc
+/dvips/base/8r.enc}]
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/t1pcr.
+fd)
+
+LaTeX Warning: Reference `fig:framework' on page 2 undefined on input line 92.
+
+
+LaTeX Warning: File `../materials/figures/fig1_v6r3_method_overview.pdf' not fo
+und on input line 97.
+
+
+! Package pdftex.def Error: File `../materials/figures/fig1_v6r3_method_overvie
+w.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...als/figures/fig1_v6r3_method_overview.pdf}
+                                                  
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Missing input file '../materials/figures/fig1_v6r3_method_overview.pdf' message in .log file:
+  LaTeX Warning: File `../materials/figures/fig1_v6r3_method_overview.pdf' not found on input line 97.
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 1 reference(s)
+  Latex failed to resolve 36 citation(s)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `huan2020antimicrobial' on page 1 undefined on input line 63
+  Citation `gan2021multifaceted' on page 1 undefined on input line 63
+  Citation `huang2023identification' on page 1 undefined on input line 65
+  Citation `huan2020antimicrobial' on page 1 undefined on input line 67
+  Citation `gan2021multifaceted' on page 1 undefined on input line 67
+  Citation `li2021pepvae' on page 1 undefined on input line 67
+  Citation `meyers2021denovo' on page 1 undefined on input line 69
+ And 30 more --- see log file 'main.log'
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'main.log' and/or above output for details
+
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.

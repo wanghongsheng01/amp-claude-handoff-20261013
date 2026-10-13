@@ -1,0 +1,155 @@
+{
+  "created_utc": "2026-10-11T16:47:16.316619+00:00",
+  "status": "PASS_SCOPED_FORMAL_V2_CONTRACT_REPAIR",
+  "checks": [
+    {
+      "name": "no_torch_or_numpy_import",
+      "pass": true
+    },
+    {
+      "name": "only3_contract_units_changed",
+      "pass": true
+    },
+    {
+      "name": "categorical_ce_only_binding_fields_changed",
+      "pass": true
+    },
+    {
+      "name": "raw_onehot_mse_only_binding_fields_changed",
+      "pass": true
+    },
+    {
+      "name": "scalar_legacy_only_binding_fields_changed",
+      "pass": true
+    },
+    {
+      "name": "train_actual_bound_loader_and_idx_pass",
+      "pass": true
+    },
+    {
+      "name": "dev_actual_bound_loader_and_idx_pass",
+      "pass": true
+    },
+    {
+      "name": "actual_train_dev_no_sequence_overlap",
+      "pass": true
+    },
+    {
+      "name": "synthetic_valid_global_idx_pass",
+      "pass": true
+    },
+    {
+      "name": "wrong_idx_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_idx_start_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_order_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_sequence_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_class_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_terminal_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_descriptor_hash_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_cohort_hash_rejected",
+      "pass": true
+    },
+    {
+      "name": "wrong_count_rejected",
+      "pass": true
+    },
+    {
+      "name": "config_reject_train_idx_start_279",
+      "pass": true
+    },
+    {
+      "name": "config_reject_dev_idx_start_0",
+      "pass": true
+    },
+    {
+      "name": "config_reject_dev_idx_start_True",
+      "pass": true
+    },
+    {
+      "name": "no_model_lib_import_after_all_checks",
+      "pass": true
+    }
+  ],
+  "source_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+  "prior_source_sha256": "9580bf84e2ffc2d2d357f77eaca04c338b6608abe0f6a30c17c578cf6e3606b5",
+  "changed_top_level_units": [
+    "read_records",
+    "validate_config",
+    "run"
+  ],
+  "configs": {
+    "categorical_ce": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "changed_keys": [
+        "dev_idx_start",
+        "implementation_sha256",
+        "train_idx_start"
+      ]
+    },
+    "raw_onehot_mse": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/raw_onehot_mse.json",
+      "sha256": "861d530bce7529826ed481697083a4efee016cce24878d85dced240b28d9d004",
+      "changed_keys": [
+        "dev_idx_start",
+        "implementation_sha256",
+        "train_idx_start"
+      ]
+    },
+    "scalar_legacy": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/scalar_legacy.json",
+      "sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0",
+      "changed_keys": [
+        "dev_idx_start",
+        "implementation_sha256",
+        "train_idx_start"
+      ]
+    }
+  },
+  "validator_source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/dataset_loader/dataset_utils/amp_input_contract.py",
+    "sha256": "e716513472b05e28735663790ab23af1e4e8dfe4b24724cf178c0c9132bd80b0"
+  },
+  "real_loaders": {
+    "train": {
+      "rows": 279,
+      "idx_first": 0,
+      "idx_last": 278
+    },
+    "dev": {
+      "rows": 41,
+      "idx_first": 279,
+      "idx_last": 319
+    }
+  },
+  "synthetic_fixture_scope": "Invented two short canonical alphabet strings with zero descriptors; no biological quality or model work. Stored only in reviewer fixture directory.",
+  "actual_source_data_changed": false,
+  "no_reordering": true,
+  "model_imports": 0,
+  "model_calls": 0,
+  "training_updates": 0,
+  "test_reads": 0,
+  "execution_authorized_by_this_report": false,
+  "limitations": "Approval eligibility for new indexed-loader version only. Parent still needs exact plan and independent scoped receipt; old failure and old receipt preserved."
+}

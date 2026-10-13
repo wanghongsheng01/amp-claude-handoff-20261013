@@ -1,0 +1,51 @@
+{
+  "method": "terminal_LSTM",
+  "requests": 32,
+  "terminal_counts": {
+    "FREE": 16,
+    "AMD": 16
+  },
+  "smoke": false,
+  "seeds": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "temperature": 1.0,
+  "no_rejection_or_resampling": true,
+  "cap_seconds": 1800,
+  "capped_by_terminal": {
+    "FREE": false,
+    "AMD": false
+  },
+  "failures_by_terminal": {
+    "FREE": null,
+    "AMD": null
+  },
+  "observed_sampling_tokens": 591,
+  "evaluated_steps_by_terminal": {
+    "FREE": 48,
+    "AMD": 21
+  },
+  "wall_seconds_before_manifest": 0.020189667120575905,
+  "cap_overrun_seconds_before_manifest": 0.0,
+  "tensor_state_sha256": "259990050729a3e0179ea02f50ac860d3478b918930f2e61619e3e4d1d8ce969",
+  "source_sequence_accessed": false,
+  "true_length_accessed": false,
+  "test_accessed": false,
+  "raw": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generation/raw_sampling.pt",
+    "bytes": 298555,
+    "sha256": "185d2809bf24c376eadeeb5fb825b8d43bacac4a2617494306c6b2d8bbe4b951"
+  },
+  "rows": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generation/samples.jsonl",
+    "bytes": 11758,
+    "sha256": "5127d3b4c342a0eb81c99c773a4f2f066d8fd167157dce8675dbff7e80e3b702"
+  },
+  "csv": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generation/samples.csv",
+    "bytes": 4739,
+    "sha256": "75b2d2765fb7f0508dbcc4293c30abf72e5a12b9e65db4cc934b3f7a1c353b1d"
+  },
+  "rng_rule": "separate CPU generator per terminal; each step draws entire terminal batch including finished rows; stop group when all ended"
+}

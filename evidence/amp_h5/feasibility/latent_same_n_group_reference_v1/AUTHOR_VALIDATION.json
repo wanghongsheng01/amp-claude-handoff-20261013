@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-11T19:51:15.185142+00:00",
+  "checks": [
+    {
+      "name": "256_indices_1024_records",
+      "pass": true
+    },
+    {
+      "name": "exact_16_each_holdout110_137_references",
+      "pass": true
+    },
+    {
+      "name": "whole_components_never_split",
+      "pass": true
+    },
+    {
+      "name": "all279_rows_partition_each_repeat",
+      "pass": true
+    },
+    {
+      "name": "all224_inclusion_counts_recorded",
+      "pass": true
+    },
+    {
+      "name": "all12_frozen_inputs_unchanged",
+      "pass": true
+    },
+    {
+      "name": "protocol_script_exact_preflight_versions",
+      "pass": true
+    },
+    {
+      "name": "dev_missing_no_forward",
+      "pass": true
+    },
+    {
+      "name": "coordinate_samples_not_independent",
+      "pass": true
+    },
+    {
+      "name": "old_latent_package_manifest_unchanged",
+      "pass": true
+    },
+    {
+      "name": "no_undefined_metrics_omitted",
+      "pass": true
+    }
+  ],
+  "author_validation_only": true,
+  "readout_sha256": "bded28a9a808f367dcfba11bc63d6bf53246e633b3f7af294012441a342bde22",
+  "index_sha256": "9882ca817a5c813dfc89d756080a15e34522dbe61b8fa4ed28e41661687b77c1",
+  "model_calls": 0
+}

@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-12T09:08:45.116078+00:00",
+  "files": {
+    "ADMISSION_ONE_PAGE.zh.md": {
+      "sha256": "5ffc875d69792560b541e9786f6910a36a4f856d3f8536a9d8119a752aa2ddb5",
+      "bytes": 4167
+    },
+    "COUNTING_RULES.json": {
+      "sha256": "f3e7d762c00ba7590f88cb0ba3c9969a534f96cbc3c3ade93b9678f405be910c",
+      "bytes": 4352
+    },
+    "COUNTS.json": {
+      "sha256": "c7e8ef44ac7a986f93b36807f5dce37e61300c4f24e0540c784eef905a29122c",
+      "bytes": 71428
+    },
+    "FREEZE.json": {
+      "sha256": "8769c1ddfbd8761ce532a2f2b2a7f90d95121e13436e211073b6a464d1debc6b",
+      "bytes": 919
+    },
+    "PENDING_ATTRIBUTION.json": {
+      "sha256": "d05a509b335c3094abd6d3c6776a6bb81e204bf9f4a7598667b7c02cb87551a2",
+      "bytes": 2472
+    },
+    "POTENTIAL_DUPLICATE_LINKS.json": {
+      "sha256": "4ea5e45828cc630698c2b6dd78dec2319daead3354f31c205ee1912a8652faf2",
+      "bytes": 19
+    },
+    "ROW_ADMISSION.jsonl": {
+      "sha256": "5e8a78d0378a3dfa99f14a9bd5521a6841afeec801ec27464c04343da55731c5",
+      "bytes": 386765
+    },
+    "independent/RECOUNT.json": {
+      "sha256": "84405c9849b5e5539d84a41ad70e6dc10ca0cf33cb782013c19068eabf0e60d5",
+      "bytes": 12526
+    },
+    "independent/SCIENCE_REVIEW.zh.md": {
+      "sha256": "27cfa00cc04b2521da8d2481f7158d5f1a396b7bffbbd68e49e2c7f9f18ee46e",
+      "bytes": 4620
+    },
+    "independent/SIGNOFF.json": {
+      "sha256": "ccaf9023b60d5cfb0bbbcd0f2b880be75dd671474a7ff4e51be98db7aeaa7af2",
+      "bytes": 3024
+    },
+    "independent/recount_independent.py": {
+      "sha256": "8a417556261a86944f0b86c3312f0858735fd7d9a202f0bfb980ada631947eff",
+      "bytes": 3778
+    },
+    "independent/verify_root_counts.py": {
+      "sha256": "a4d4bc6133088d381ca319ca3db7d1de9b1255ebaac695e194b0a9470f3a0962",
+      "bytes": 4701
+    },
+    "recount.log": {
+      "sha256": "9b2a845f13daad554e454d714376bdae433bf68dfa86e8bfb954bee2bb779d3f",
+      "bytes": 2316
+    },
+    "recount.py": {
+      "sha256": "dc4afd6fffb89eb58c92001efd2b20ba3949f62faee742e805dc75e3172875f8",
+      "bytes": 8378
+    }
+  },
+  "status": "FINAL_INDEPENDENT_REVIEW_PASSED_NO_TRAINING",
+  "scientific_decision": "Native-unit exploratory baseline scientifically eligible; no universal molar conversion prerequisite",
+  "execution": "No acquisition/model training/test access this turn"
+}

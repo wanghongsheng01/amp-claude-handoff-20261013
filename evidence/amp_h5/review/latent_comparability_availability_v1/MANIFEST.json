@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-11T19:42:34.423694+00:00",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/GROUP_BINDING_AVAILABILITY.json",
+      "sha256": "94487523cd76ad184f6c091988df6c47f6214c36632373cd0f28a730942d9b16",
+      "bytes": 13849
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/LATENT_AVAILABILITY.json",
+      "sha256": "c4ace7de7df6912f18939f963caf1f9c33e925982b3a089659829f9ef5bb16a7",
+      "bytes": 16427
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/READOUT.zh.md",
+      "sha256": "3763ea64d74d39e2e9b2c4c2fd7990b28d89336b38aa9f1efc93fda6707c161c",
+      "bytes": 2397
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/VALIDATION.json",
+      "sha256": "9fb02e7fa23a7278ded81eac7d7cbff01550fba00e9173a06acdc0306cebf43b",
+      "bytes": 1079
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "scope": "AMP H5 empirical-Bayes grouped-context development experiment",
+  "utc": "2026-10-12T14:52:20.905656+00:00",
+  "status": "NOT_SUPPORTED",
+  "independent_status": "PASS_RECOMPUTED",
+  "natural_run_count": 1,
+  "training_seed": 222,
+  "natural_run_seconds": 140.0353804170154,
+  "audit_total_seconds": 37.034515250474215,
+  "total_natural_plus_audit_seconds": 177.06989316781983,
+  "attempts": 384,
+  "train_group_count": 227,
+  "folds": [
+    {
+      "FREE": 42,
+      "AMD": 51
+    },
+    {
+      "FREE": 42,
+      "AMD": 51
+    },
+    {
+      "FREE": 42,
+      "AMD": 51
+    }
+  ],
+  "chosen_partial": {
+    "alpha": 0.5,
+    "max_depth": 1,
+    "mode": "partial",
+    "shrinkage": 100.0
+  },
+  "chosen_ar": {
+    "lr": 0.0003,
+    "steps": 500
+  },
+  "balanced_sequence_nll": {
+    "ar_cv": {
+      "grouped_cv": 49.870260504990064,
+      "development": 48.04302121533288
+    },
+    "ar_historical": {
+      "grouped_cv": null,
+      "development": 57.966916259108245
+    },
+    "ngram": {
+      "grouped_cv": 51.569839182671686,
+      "development": 49.47396412942214
+    },
+    "partial": {
+      "grouped_cv": 51.238902322568386,
+      "development": 49.164308616495234
+    },
+    "pooled": {
+      "grouped_cv": 51.122407442643095,
+      "development": 48.58710332570598
+    },
+    "separate": {
+      "grouped_cv": 51.29898008968816,
+      "development": 48.91771901239117
+    }
+  },
+  "conclusion_zh": "部分池化在固定分组CV与dev比较中均未超过pooled及重新选择的AR；dev也未超过separate。Amide短于5位11/32。该候选按冻结规则停止，不再调参。",
+  "boundaries": [
+    "Only train279/dev41; test37 never opened",
+    "No H0-H4 or manuscript changes",
+    "No official PBCT reproduction or first-algorithm novelty claim",
+    "No biological efficacy or submission-readiness claim",
+    "Single seed and reused development split; no significance claim"
+  ],
+  "backup": "BACKUP_BLOCKED",
+  "remaining_blockers": [
+    "Scientific support gate failed; candidate stopped",
+    "External backup/upload forbidden by task scope"
+  ],
+  "audit_repairs": [
+    "Corrected auditor AR alphabet to frozen AR vocabulary; natural runner was correct.",
+    "Normalized metric histogram keys through JSON before comparing saved JSON; no metric formula change."
+  ],
+  "artifacts": {
+    "protocol": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/PROTOCOL.json",
+      "sha256": "03f94788f0d312628df7dc4b65d73ecbdc1d3322764e09e1f8d7c619dcdb4971"
+    },
+    "freeze": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/FREEZE.json",
+      "sha256": "540c3552ef14b997f318fd200d03854194304439ccd51b87d3da1172c550b296"
+    },
+    "preflight": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/PREFLIGHT.json",
+      "sha256": "7cd02d0c39761658c14cd61ab4fa6ea94988ee393f8a5ab660e80db216e5deff"
+    },
+    "result": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/RESULT.json",
+      "sha256": "2365d92ff7bec6e23b1b413a0f1250c3dbe27c54a267a16e94202b896ebea7c7"
+    },
+    "independent_audit": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/RESULT_AUDIT.json",
+      "sha256": "42614975d848058e5f3d7fed10abf046cfeb851fe7974778d4b08f5bb998479c"
+    },
+    "readout_csv": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/READOUT.csv",
+      "sha256": "7cb949fac1b814dd308c5b13ccb4c5040abea066f9da5f3e20cf71b408a33c40"
+    },
+    "all_cv_scores": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/CV_SCORES.json",
+      "sha256": "1beff8c94a81a8577b93915d0959326e97dc7440416939795868abd212628e12"
+    },
+    "selection": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/SELECTION.json",
+      "sha256": "9b78e5695a280c7b220aec02130b8dece616216ad7995e386a1697a3c5a9c9f5"
+    },
+    "development_scores": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/DEV_SCORES.json",
+      "sha256": "41a9d9ca9e8779a304398ddcdec45e0ffa98c2eb8e23df43063aef9a03e256e3"
+    },
+    "generation_requests": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/GENERATIONS.json",
+      "sha256": "fe6c29cef3edce7e88c98afbfb3dfe2b00b4080036717f0fdf5bdd633b6d23a2"
+    },
+    "generation_metrics": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/GENERATION_METRICS.json",
+      "sha256": "01cb35ccf8942c54f052edbb714718f8eabe94604b95987bb3e244d163ce8fcc"
+    },
+    "generation_audit": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/GENERATION_AUDIT.json",
+      "sha256": "cd973bf873aac075c750232449c3ce93d36ca609f8fb59d1e3c96f581eef59c8"
+    },
+    "grouping": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/GROUPING.json",
+      "sha256": "b6fc50ed8abe0d910745a31ff98f35e41d47fe40d7b28217bcb389085ca43995"
+    },
+    "predev_model_freeze": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/MODELS_FROZEN_BEFORE_DEV.json",
+      "sha256": "94f01edca0db17220a00a54653809366647306f0a1a0f5b99ca7d0392ff637e3"
+    },
+    "execution_events": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/EVENTS.json",
+      "sha256": "4664c95f291f35dc7eaacd9b26446453d6fea9454ecda9d6081cadf8b2a1bc63"
+    },
+    "implementation_notes": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/implementation/IMPLEMENTATION_NOTES.md",
+      "sha256": "41db7634e3a3230e23afab8c2f1e2dcba4dd55a7e1bccc6ddfdbc09fb688630c"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "sha256": "650fed119ee805ed5d1df2bf16c0c7d7efed5a1426b7b39ff5d256ca86911bb1",
+  "tensor_state_sha256": "614532b8b2e6125de5a8f22d9a7fed582e3940172cf39f46c39389b4b2ac70a7",
+  "updates": 20,
+  "requested_updates": 20,
+  "fixed_endpoint_reached": true,
+  "initial_tensor_state_sha256": "bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f",
+  "posterior_encoding_and_setup_seconds": 6.27455179207027,
+  "elapsed_seconds_before_checkpoint_io": 17.657449750229716,
+  "parameters": 18612994,
+  "ema_step": 20,
+  "ema_semantics": "inherited reset/copy until 2000 updates; beta=.995 thereafter"
+}

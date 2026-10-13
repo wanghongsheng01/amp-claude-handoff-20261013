@@ -1,0 +1,945 @@
+{
+  "created_utc": "2026-10-11T18:24:45.503966+00:00",
+  "scope": "additive presentation correction; no metric recomputation or gate change",
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "recovery_L": "NOT_EVALUABLE",
+  "recovery_G": "FAIL",
+  "PROMOTE": "HOLD",
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "termination": [
+    {
+      "method": "CE21_DDPM",
+      "terminal": "FREE",
+      "requests": 16,
+      "ended_below_length_limit_count": 15,
+      "length_cap_hit_count": 1,
+      "status_counts": {
+        "ok": 15,
+        "no_eos_at_limit": 1
+      },
+      "termination_semantics": "J-selected length below48 / PAD suffix; not an autoregressive sampled EOS event",
+      "cap_hit_sample_ids": [
+        "CE21_DDPM_FREE_009"
+      ]
+    },
+    {
+      "method": "CE21_DDPM",
+      "terminal": "AMD",
+      "requests": 16,
+      "ended_below_length_limit_count": 16,
+      "length_cap_hit_count": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "termination_semantics": "J-selected length below48 / PAD suffix; not an autoregressive sampled EOS event",
+      "cap_hit_sample_ids": []
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "FREE",
+      "requests": 16,
+      "ended_below_length_limit_count": 15,
+      "length_cap_hit_count": 1,
+      "status_counts": {
+        "ok": 16
+      },
+      "termination_semantics": "native sampled EOS; terminated=true",
+      "cap_hit_sample_ids": [
+        "terminal_LSTM_FREE_001"
+      ]
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "AMD",
+      "requests": 16,
+      "ended_below_length_limit_count": 16,
+      "length_cap_hit_count": 0,
+      "status_counts": {
+        "ok": 16
+      },
+      "termination_semantics": "native sampled EOS; terminated=true",
+      "cap_hit_sample_ids": []
+    }
+  ],
+  "AR_native_flag_audit": [
+    {
+      "sample_id": "terminal_LSTM_FREE_000",
+      "terminal": "FREE",
+      "length": 12,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_001",
+      "terminal": "FREE",
+      "length": 48,
+      "status": "ok",
+      "terminated": false,
+      "max_length_hit": true,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_002",
+      "terminal": "FREE",
+      "length": 28,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_003",
+      "terminal": "FREE",
+      "length": 16,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_004",
+      "terminal": "FREE",
+      "length": 17,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_005",
+      "terminal": "FREE",
+      "length": 13,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_006",
+      "terminal": "FREE",
+      "length": 16,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_007",
+      "terminal": "FREE",
+      "length": 10,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_008",
+      "terminal": "FREE",
+      "length": 14,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_009",
+      "terminal": "FREE",
+      "length": 20,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_010",
+      "terminal": "FREE",
+      "length": 31,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_011",
+      "terminal": "FREE",
+      "length": 29,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_012",
+      "terminal": "FREE",
+      "length": 21,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_013",
+      "terminal": "FREE",
+      "length": 16,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_014",
+      "terminal": "FREE",
+      "length": 17,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_FREE_015",
+      "terminal": "FREE",
+      "length": 29,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 422
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_000",
+      "terminal": "AMD",
+      "length": 18,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_001",
+      "terminal": "AMD",
+      "length": 12,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_002",
+      "terminal": "AMD",
+      "length": 9,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_003",
+      "terminal": "AMD",
+      "length": 14,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_004",
+      "terminal": "AMD",
+      "length": 13,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_005",
+      "terminal": "AMD",
+      "length": 12,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_006",
+      "terminal": "AMD",
+      "length": 17,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_007",
+      "terminal": "AMD",
+      "length": 8,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_008",
+      "terminal": "AMD",
+      "length": 17,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_009",
+      "terminal": "AMD",
+      "length": 13,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_010",
+      "terminal": "AMD",
+      "length": 12,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_011",
+      "terminal": "AMD",
+      "length": 12,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_012",
+      "terminal": "AMD",
+      "length": 16,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_013",
+      "terminal": "AMD",
+      "length": 14,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_014",
+      "terminal": "AMD",
+      "length": 16,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    },
+    {
+      "sample_id": "terminal_LSTM_AMD_015",
+      "terminal": "AMD",
+      "length": 20,
+      "status": "ok",
+      "terminated": true,
+      "max_length_hit": false,
+      "complete_attempt": true,
+      "seed": 423
+    }
+  ],
+  "AR_native_time_budget_capped_by_terminal": {
+    "FREE": false,
+    "AMD": false
+  },
+  "status_ok_is_not_a_comparable_natural_termination_indicator": true,
+  "AR_standardized_rows_match_native_rows": true,
+  "flag_scope_note": "AR EOS termination and CE legal-prefix J/PAD termination are different mechanisms; cap denominator is comparable at16 requests per terminal. capped_by_terminal is a time-budget flag, not length-cap absence.",
+  "full_requested_distribution_summary": [
+    {
+      "method": "CE21_DDPM",
+      "terminal": "AMD",
+      "requests": 16,
+      "valid_1_48_count": 16,
+      "valid_5_48_count": 15,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.5628404258673214,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.1944294087053766,
+      "unique_valid": 16,
+      "length": {
+        "n": 16,
+        "mean": 16.5,
+        "min": 4,
+        "max": 30,
+        "median": 18.0
+      },
+      "entropy": {
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.1411488740883597,
+        "pooled_dipeptide_entropy_bits": 5.940559720341922,
+        "mean_per_sequence_aa_entropy_bits": 2.4960785565381403
+      },
+      "train": {
+        "aa_jensen_shannon_bits": 0.09447216287998406,
+        "aa_l1_distance": 0.489628349178911,
+        "dipeptide_jensen_shannon_bits": 0.2931123928240505,
+        "dipeptide_l1_distance": 0.9357077816423107,
+        "mmd2_linear_biased_fixed_features": 0.008949882952629573,
+        "length_ks_statistic_no_pvalue": 0.25531045751633985
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.08845070704817436,
+        "aa_l1_distance": 0.42518173650249125,
+        "dipeptide_jensen_shannon_bits": 0.36559369734732183,
+        "dipeptide_l1_distance": 1.0693362995921398,
+        "mmd2_linear_biased_fixed_features": 0.007709821687840033,
+        "length_ks_statistic_no_pvalue": 0.30163043478260865
+      }
+    },
+    {
+      "method": "CE21_DDPM",
+      "terminal": "FREE",
+      "requests": 16,
+      "valid_1_48_count": 16,
+      "valid_5_48_count": 14,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.6667418133772367,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 1.6513668509043402,
+      "unique_valid": 16,
+      "length": {
+        "n": 16,
+        "mean": 17.125,
+        "min": 2,
+        "max": 48,
+        "median": 17.5
+      },
+      "entropy": {
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.267681166788934,
+        "pooled_dipeptide_entropy_bits": 6.013476991850741,
+        "mean_per_sequence_aa_entropy_bits": 2.3419653056230643
+      },
+      "train": {
+        "aa_jensen_shannon_bits": 0.10169432347600005,
+        "aa_l1_distance": 0.5175679769532836,
+        "dipeptide_jensen_shannon_bits": 0.339680009815442,
+        "dipeptide_l1_distance": 1.0191052705515768,
+        "mmd2_linear_biased_fixed_features": 0.01741593479424502,
+        "length_ks_statistic_no_pvalue": 0.27976190476190477
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.09931655138833544,
+        "aa_l1_distance": 0.5353240433532405,
+        "dipeptide_jensen_shannon_bits": 0.41789109667112806,
+        "dipeptide_l1_distance": 1.1437090041741205,
+        "mmd2_linear_biased_fixed_features": 0.01732780337937688,
+        "length_ks_statistic_no_pvalue": 0.2638888888888889
+      }
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "AMD",
+      "requests": 16,
+      "valid_1_48_count": 16,
+      "valid_5_48_count": 16,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.2423471525789873,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 0.9979346104615594,
+      "unique_valid": 16,
+      "length": {
+        "n": 16,
+        "mean": 13.9375,
+        "min": 8,
+        "max": 20,
+        "median": 13.5
+      },
+      "entropy": {
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.461642147376694,
+        "pooled_dipeptide_entropy_bits": 6.137054518585739,
+        "mean_per_sequence_aa_entropy_bits": 2.4099113385608644
+      },
+      "train": {
+        "aa_jensen_shannon_bits": 0.02143156327866584,
+        "aa_l1_distance": 0.1900539124300902,
+        "dipeptide_jensen_shannon_bits": 0.24479706221132147,
+        "dipeptide_l1_distance": 0.821077198559444,
+        "mmd2_linear_biased_fixed_features": 0.003157921938791385,
+        "length_ks_statistic_no_pvalue": 0.18218954248366015
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.044849491729849957,
+        "aa_l1_distance": 0.3283816614893695,
+        "dipeptide_jensen_shannon_bits": 0.3061247711079168,
+        "dipeptide_l1_distance": 0.9134599366983188,
+        "mmd2_linear_biased_fixed_features": 0.007361941924628023,
+        "length_ks_statistic_no_pvalue": 0.24456521739130435
+      }
+    },
+    {
+      "method": "terminal_LSTM",
+      "terminal": "FREE",
+      "requests": 16,
+      "valid_1_48_count": 16,
+      "valid_5_48_count": 16,
+      "exact_copy_train_count_all_requests": 0,
+      "exact_sequence_copy_any_train_terminal_count": 0,
+      "pooled_aa_entropy_bits_absolute_gap_to_train": 0.15753585763459155,
+      "pooled_dipeptide_entropy_bits_absolute_gap_to_train": 0.8011723205057821,
+      "unique_valid": 16,
+      "length": {
+        "n": 16,
+        "mean": 21.0625,
+        "min": 10,
+        "max": 48,
+        "median": 17.0
+      },
+      "entropy": {
+        "sequence_entropy_bits": 4.0,
+        "pooled_aa_entropy_bits": 3.776887122531579,
+        "pooled_dipeptide_entropy_bits": 6.863671522249299,
+        "mean_per_sequence_aa_entropy_bits": 2.7576464218143677
+      },
+      "train": {
+        "aa_jensen_shannon_bits": 0.02824255636122359,
+        "aa_l1_distance": 0.2597961189639107,
+        "dipeptide_jensen_shannon_bits": 0.24461102296986983,
+        "dipeptide_l1_distance": 0.8100253019035456,
+        "mmd2_linear_biased_fixed_features": 0.004091706134265748,
+        "length_ks_statistic_no_pvalue": 0.1339285714285714
+      },
+      "development": {
+        "aa_jensen_shannon_bits": 0.05962819002825927,
+        "aa_l1_distance": 0.44325150615951814,
+        "dipeptide_jensen_shannon_bits": 0.37161584838898454,
+        "dipeptide_l1_distance": 1.0163551401869153,
+        "mmd2_linear_biased_fixed_features": 0.011567464907748784,
+        "length_ks_statistic_no_pvalue": 0.20138888888888895
+      }
+    }
+  ],
+  "frozen_original_gate_record": {
+    "scope": "predeclared exploratory development screen; never a significance/activity/novelty/publication gate",
+    "engineering_prerequisite": "upstream fixed-step training, common budget and final checkpoint identity must independently pass; this file only checks output execution",
+    "all_generation_requests_completed": true,
+    "reconstruction_ce_vs_matched_mse": {
+      "checks": {},
+      "pass": false,
+      "status": "NOT_EVALUATED_MISSING_RECONSTRUCTION"
+    },
+    "generation_ce_vs_terminal_ar": {
+      "checks": {
+        "FREE": {
+          "development_mmd2_strictly_lower": {
+            "left": 0.01732780337937688,
+            "right": 0.011567464907748784,
+            "operator": "lt",
+            "pass": false
+          },
+          "ce_all_requests_valid1": {
+            "left": 16,
+            "right": 16,
+            "operator": "eq",
+            "pass": true
+          },
+          "ar_all_requests_valid1": {
+            "left": 16,
+            "right": 16,
+            "operator": "eq",
+            "pass": true
+          },
+          "valid5_count_not_lower": {
+            "left": 14,
+            "right": 16,
+            "operator": "ge",
+            "pass": false
+          },
+          "valid_unique_count_not_lower": {
+            "left": 16,
+            "right": 16,
+            "operator": "ge",
+            "pass": true
+          },
+          "same_terminal_train_copies_not_higher": {
+            "left": 0,
+            "right": 0,
+            "operator": "le",
+            "pass": true
+          },
+          "any_terminal_train_copies_not_higher": {
+            "left": 0,
+            "right": 0,
+            "operator": "le",
+            "pass": true
+          },
+          "aa_entropy_train_gap_not_larger": {
+            "left": 0.6667418133772367,
+            "right": 0.15753585763459155,
+            "operator": "le",
+            "pass": false
+          },
+          "dipeptide_entropy_train_gap_not_larger": {
+            "left": 1.6513668509043402,
+            "right": 0.8011723205057821,
+            "operator": "le",
+            "pass": false
+          }
+        },
+        "AMD": {
+          "development_mmd2_strictly_lower": {
+            "left": 0.007709821687840033,
+            "right": 0.007361941924628023,
+            "operator": "lt",
+            "pass": false
+          },
+          "ce_all_requests_valid1": {
+            "left": 16,
+            "right": 16,
+            "operator": "eq",
+            "pass": true
+          },
+          "ar_all_requests_valid1": {
+            "left": 16,
+            "right": 16,
+            "operator": "eq",
+            "pass": true
+          },
+          "valid5_count_not_lower": {
+            "left": 15,
+            "right": 16,
+            "operator": "ge",
+            "pass": false
+          },
+          "valid_unique_count_not_lower": {
+            "left": 16,
+            "right": 16,
+            "operator": "ge",
+            "pass": true
+          },
+          "same_terminal_train_copies_not_higher": {
+            "left": 0,
+            "right": 0,
+            "operator": "le",
+            "pass": true
+          },
+          "any_terminal_train_copies_not_higher": {
+            "left": 0,
+            "right": 0,
+            "operator": "le",
+            "pass": true
+          },
+          "aa_entropy_train_gap_not_larger": {
+            "left": 0.5628404258673214,
+            "right": 0.2423471525789873,
+            "operator": "le",
+            "pass": false
+          },
+          "dipeptide_entropy_train_gap_not_larger": {
+            "left": 1.1944294087053766,
+            "right": 0.9979346104615594,
+            "operator": "le",
+            "pass": false
+          }
+        }
+      },
+      "pass": false,
+      "status": "EVALUATED"
+    },
+    "both_exploratory_screens_pass": false
+  },
+  "AR_fixed_checkpoint_monitor": [
+    {
+      "step": 100,
+      "train_nll": 2.5835970324035844,
+      "dev_nll": 2.6314405662351543,
+      "used_for_selection": false
+    },
+    {
+      "step": 200,
+      "train_nll": 2.458414674013685,
+      "dev_nll": 2.6152527184499244,
+      "used_for_selection": false
+    },
+    {
+      "step": 300,
+      "train_nll": 2.343882505699619,
+      "dev_nll": 2.6354723413678194,
+      "used_for_selection": false
+    },
+    {
+      "step": 400,
+      "train_nll": 2.218446365810029,
+      "dev_nll": 2.707511058714833,
+      "used_for_selection": false
+    },
+    {
+      "step": 500,
+      "train_nll": 2.1051896626865467,
+      "dev_nll": 2.7711092802392185,
+      "used_for_selection": false
+    },
+    {
+      "step": 600,
+      "train_nll": 2.0008000977321436,
+      "dev_nll": 2.8245445724446174,
+      "used_for_selection": false
+    },
+    {
+      "step": 700,
+      "train_nll": 1.905814536038894,
+      "dev_nll": 2.9723217905049695,
+      "used_for_selection": false
+    },
+    {
+      "step": 800,
+      "train_nll": 1.805384666868291,
+      "dev_nll": 3.0530186573450133,
+      "used_for_selection": false
+    },
+    {
+      "step": 900,
+      "train_nll": 1.7127350191479866,
+      "dev_nll": 3.1364767480731977,
+      "used_for_selection": false
+    },
+    {
+      "step": 1000,
+      "train_nll": 1.6431238127375474,
+      "dev_nll": 3.169792648274301,
+      "used_for_selection": false
+    }
+  ],
+  "AR_final_teacher_forced_nll": [
+    {
+      "method": "terminal_LSTM",
+      "role": "train",
+      "objects": 279,
+      "nll_sum": 8457.158264160156,
+      "aa_nll_sum": 8253.072631835938,
+      "eos_nll_sum": 204.08562660217285,
+      "observed_tokens": 5147,
+      "aa_tokens": 4868,
+      "eos_tokens": 279,
+      "correct_tokens": 2530,
+      "token_count": 5147,
+      "mean_nll": 1.6431238127375474,
+      "teacher_forced_token_accuracy": 0.4915484748397125,
+      "wall_seconds": 0.04955129185691476,
+      "tensor_state_sha256": "259990050729a3e0179ea02f50ac860d3478b918930f2e61619e3e4d1d8ce969",
+      "test_accessed": false,
+      "is_generation_metric": false,
+      "objective_comparable_with_VAE": false,
+      "nll_per_target_token_nats": 1.6431238127375474,
+      "source": {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/train_nll.json",
+        "bytes": 613,
+        "sha256": "866812f1b0fbc57133a320d441743b7cc78dda7bc35b5dfc3c489f8a2d296dd3"
+      },
+      "comparison": "teacher forced AR only; do not compare to VAE objectives or reconstruction accuracy"
+    },
+    {
+      "method": "terminal_LSTM",
+      "role": "development",
+      "objects": 41,
+      "nll_sum": 2351.9861450195312,
+      "aa_nll_sum": 2224.57470703125,
+      "eos_nll_sum": 127.41137504577637,
+      "observed_tokens": 742,
+      "aa_tokens": 701,
+      "eos_tokens": 41,
+      "correct_tokens": 151,
+      "token_count": 742,
+      "mean_nll": 3.169792648274301,
+      "teacher_forced_token_accuracy": 0.20350404312668463,
+      "wall_seconds": 0.00812591565772891,
+      "tensor_state_sha256": "259990050729a3e0179ea02f50ac860d3478b918930f2e61619e3e4d1d8ce969",
+      "test_accessed": false,
+      "is_generation_metric": false,
+      "objective_comparable_with_VAE": false,
+      "nll_per_target_token_nats": 3.169792648274301,
+      "source": {
+        "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/dev_nll.json",
+        "bytes": 613,
+        "sha256": "6b3d2647cbeceb1f1e62db988b3ba2787bc68bf18891922861ab80ba56e9d11a"
+      },
+      "comparison": "teacher forced AR only; do not compare to VAE objectives or reconstruction accuracy"
+    }
+  ],
+  "AR_overfitting_interpretation": "Development teacher NLL rises from recorded step200 to fixed final1000 while training NLL decreases; observed overfitting evidence, not a new selection or adequacy gate.",
+  "costs": {
+    "AR": {
+      "train_updates_seconds": 12.268115932121873,
+      "monitoring_seconds": 0.5697879591025412,
+      "training_pipeline_wall_before_manifest_seconds": 14.292998417280614,
+      "generation_wall_before_manifest_seconds": 0.020189667120575905,
+      "entry_process_seconds": 15.10993174975738,
+      "scope": "training pipeline includes updates, monitoring and overhead; do not add nested durations; process includes the pipeline/generation"
+    },
+    "CE": {
+      "original_training_stage_subtotal": 1743.3780911662616,
+      "original_generation_lower_bound": 451.9357427917421,
+      "original_exact_total": null,
+      "recovery_setup": 1.3591534583829343,
+      "recovery_generation": 1115.4961699172854,
+      "recovery_export": 6.814929542131722,
+      "recovery_process_before_final_io": 1123.995185916312,
+      "recovery_supervisor_outer": 1124.2520439173095,
+      "additional_cost_separate": true
+    },
+    "equal_actual_compute_claim": false
+  },
+  "source_bindings_and_preservation": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_AR_PARTIAL_DELIVERY_v1.json",
+      "bytes": 7992,
+      "sha256": "2d896527331eed302e83afaa051137b68579e5430e0395df1c4e9db7769eff3e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "bytes": 14870,
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/manifest.json",
+      "bytes": 2343,
+      "sha256": "bf8e6b03dbb3913d28f92583db52c675945b0bed138fbdbd0524905b4353f5e6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generation/samples.jsonl",
+      "bytes": 11758,
+      "sha256": "5127d3b4c342a0eb81c99c773a4f2f066d8fd167157dce8675dbff7e80e3b702",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv",
+      "bytes": 2404,
+      "sha256": "d0d639a30472afd022c7b45b4dec89c093cfbc76c820b62093e709f9eaf61715",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/training/RUN.json",
+      "bytes": 23198,
+      "sha256": "6c0e23e5bc66fece7a8f665050b2439cb71758abb3f728844afc50c18d078df4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/training/MONITORS.json",
+      "bytes": 14719,
+      "sha256": "e520a3dd2c2fe7a50ed8bd0fce94c3f15b50c6f2c9d83a97a3229a8c6066a7c6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generation/GENERATION.json",
+      "bytes": 1656,
+      "sha256": "8441f2d96200be1106dfe4ce4b060865b6a93f34cd0688ef9d443d9183a01713",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/status.json",
+      "bytes": 25951,
+      "sha256": "6b4002084ec3ec2b355fb40a372167f669f750ec473c94d695e8d057b631322a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_pipeline.py",
+      "bytes": 30510,
+      "sha256": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "bytes": 2135,
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/config.json",
+      "bytes": 2541,
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "bytes": 41408,
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1/generation_metrics.json",
+      "bytes": 370981,
+      "sha256": "cbbd4c672bf2b1de6ddeec0f8202822985f9cfc2ffb79c2caf695bd96b8644e5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1/exploratory_gates.json",
+      "bytes": 3576,
+      "sha256": "10c0b0a3629b0903bdee797aef5c4f0dc614d5dcd00372b04ec749f83f44df9b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_ar_partial_evaluation_v1/ar_teacher_forced_nll.json",
+      "bytes": 2108,
+      "sha256": "7b918e800925abad1e8e8570bb73bd191095d078ba84f1e48e4ab782255c0a21",
+      "unchanged": true
+    }
+  ],
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_cap_full_metrics_addendum_v1.py",
+    "bytes": 16248,
+    "sha256": "24871c6bc08b25f412400c1974606afa50f46fa9aadb60a97936e1408e091f7b"
+  },
+  "operations": {
+    "model_calls": 0,
+    "metric_recomputations": 0,
+    "cohort_reads": 0,
+    "test_reads": 0,
+    "checkpoint_or_array_reads": 0
+  },
+  "MSE_authorization_affected": false,
+  "prior_delivery": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_AR_PARTIAL_DELIVERY_v1.json",
+    "bytes": 7992,
+    "sha256": "2d896527331eed302e83afaa051137b68579e5430e0395df1c4e9db7769eff3e"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "initial_PDF_layout_attempt": "Stopped before save by table-cell overflow assertion; numeric cells changed to Latin font, then one-page geometry passed.",
+  "PDF_symbol_revision": "Visual inspection found unsupported micro/greater-equal/plus-minus glyphs in CJK font; appendix uses unambiguous ASCII ug/ml,uM,>=,+/-; raw tables preserve original unicode symbols.",
+  "models_run": 0,
+  "raw_fetches": 0,
+  "old_artifacts_modified": 0
+}

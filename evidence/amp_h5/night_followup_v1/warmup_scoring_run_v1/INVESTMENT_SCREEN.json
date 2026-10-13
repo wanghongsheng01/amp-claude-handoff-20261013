@@ -1,0 +1,18 @@
+{
+  "status": "EVALUABLE",
+  "threshold": 0.05,
+  "n_dev_sequences": 41,
+  "posterior_draws": 8,
+  "M_sequence_equal_accuracy": 0.6578523604648727,
+  "S8_sequence_equal_accuracy": 0.5890993500883396,
+  "M_minus_S8": 0.06875301037653318,
+  "crosses_investment_threshold": true,
+  "all320x9_complete_finite": true,
+  "meaning": "Prespecified investment screen only; not significance, causal proof, independent repeats or training authorization.",
+  "descriptor_missing_affects_this_gate": false,
+  "difference_exact_fraction": {
+    "numerator": 194238977263,
+    "denominator": 2825170508160
+  },
+  "comparison_rule": "Exact rational counts/target lengths; compare against1/20, no floating tolerance."
+}

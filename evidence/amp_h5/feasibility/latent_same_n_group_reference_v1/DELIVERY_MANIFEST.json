@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-10-11T19:51:15.198649+00:00",
+  "scope": "POSTHOC_SAME_N_GROUP_INTACT_TRAIN_REFERENCE_ONLY",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/AUTHOR_VALIDATION.json",
+      "sha256": "cad7096e84d6a2dd3cfb69dd14ed4701cade128da86db7916b50115416318296",
+      "bytes": 1198
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/COMPACT_READOUT.json",
+      "sha256": "0b7fce893fe6de4ff6c0a4b341b0e294ac3a549b8a68d2bd695765211d59afca",
+      "bytes": 476501
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/COMPUTE_MANIFEST.json",
+      "sha256": "71041754808816f3456211725b43ced8998e0c2260b15bb199915d8cff661ba3",
+      "bytes": 725
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/INDEX_SEAL.json",
+      "sha256": "9882ca817a5c813dfc89d756080a15e34522dbe61b8fa4ed28e41661687b77c1",
+      "bytes": 1902613
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/READOUT.zh.md",
+      "sha256": "6e0f68eae015982781c726f0b01f5067c205f143e18ed770c38ddcbe4cac8720",
+      "bytes": 4704
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/SAME_N_READOUT.json",
+      "sha256": "bded28a9a808f367dcfba11bc63d6bf53246e633b3f7af294012441a342bde22",
+      "bytes": 22558298
+    }
+  ],
+  "protocol_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_SAME_N_GROUP_REFERENCE_v1.json",
+  "protocol_sha256": "69996b7e20e0126878f2847c51e8a06d982924cc76d0b60e2d6d4e62c238d0b3",
+  "script_sha256": "4f8e18e287b1f81a9103db1140f3ffb2d30ae4f182173fa26b63b156abc1861a",
+  "preflight_binding": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/LATENT_SAME_N_GROUP_REFERENCE_PREFLIGHT_v1.json",
+    "sha256": "5c9a3a71b87d63be6aa82a5e19ff056a4f762702f1300abccb50ac1fa1e02819"
+  },
+  "model_calls": 0,
+  "new_latent_draws": 0,
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD"
+}

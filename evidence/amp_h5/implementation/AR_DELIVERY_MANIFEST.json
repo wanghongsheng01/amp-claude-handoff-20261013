@@ -1,0 +1,25 @@
+{
+  "scope": "AR implementation and synthetic-only verification; no natural training or test reads",
+  "files": [
+    {
+      "path": "amp_h5/implementation/ar_pipeline.py",
+      "sha256": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee",
+      "bytes": 30510
+    },
+    {
+      "path": "amp_h5/implementation/ar_synthetic_tests.py",
+      "sha256": "3168ea75d2d39f42be3b8ec15c10bb9e1ff2166001fdc03ec6717f4828182094",
+      "bytes": 12455
+    },
+    {
+      "path": "amp_h5/implementation/AR_SYNTHETIC_RESULT.json",
+      "sha256": "f3400b39241055abb8445d1c74e45b0b78854e460c5603e35e8cfc06afa35b22",
+      "bytes": 2653
+    },
+    {
+      "path": "amp_h5/implementation/AR_IMPLEMENTATION.zh.md",
+      "sha256": "caa90f2ac754582609a91ec01afa698c09254034e1710cf6f53e09427803732a",
+      "bytes": 5546
+    }
+  ]
+}

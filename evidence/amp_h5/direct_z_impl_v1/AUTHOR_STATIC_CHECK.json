@@ -1,0 +1,41 @@
+{
+  "status": "AUTHOR_STATIC_CODE_FREEZE",
+  "checks": [
+    "AST syntax passed for five modules",
+    "CONFIG input binding SHA256 all match",
+    "plan SHA4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8 matches"
+  ],
+  "model_forwards": 0,
+  "optimizer_updates": 0,
+  "new_RNG_draws": 0,
+  "natural_requests": 0,
+  "test_reads": 0,
+  "hashes": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/architecture.py": "df3d344878ccc861d36b51efc218c006dec4bb48491a2dbd5d57f6ea2f0a2b96",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/mechanics.py": "96c1961f00ab03fa8e7c21d0cbafaedcc212cef4fa8abff41e8d537db6e4bc98",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/contracts.py": "51993a613733b6db37c0bc443bfb528bee5d187611d1a8cb709930b501009f11",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runner.py": "9d33ebe7f95d3c73f57984c96d7b0c038f9973493a1a9939e6ef5ecbf30cbe1b",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/score.py": "a1fb0174ff09e968108b85a0863c6ccfa76c160e6fd74d9ee8e0ef1bb725b7e1",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/CONFIG.json": "08ed64a4238c40a496d31f45094a6ad17c06a50c2784c23692155827fc49ce9d"
+  },
+  "receipt_required": {
+    "status": "PASS_ENGINEERING",
+    "authorized_natural": true,
+    "synthetic_checks": true,
+    "throughput_checks": true,
+    "independent_author": "different from implementation_author",
+    "config_sha256": "exact CONFIG",
+    "code_sha256": "absolute5path->SHA map",
+    "runner_sha256": "exact runner",
+    "plan_sha256": "exact plan",
+    "deterministic_preparation": "exact runtime preparation object"
+  },
+  "parent_enforces": "H5 inherited fd lock, managed job closure, unique reservation, outer4560 and perphase hard kill with zero grace",
+  "phase_files": [
+    "PHASE.json",
+    "PHASE_TIMINGS.json",
+    "COUNTS.json",
+    "GENERATION_SLOTS.json"
+  ],
+  "remaining_gate": "Independent132-forward maximum engineering/throughput under180s; no natural execution by author."
+}

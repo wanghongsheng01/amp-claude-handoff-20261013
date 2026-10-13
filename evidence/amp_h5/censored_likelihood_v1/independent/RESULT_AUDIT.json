@@ -1,0 +1,3863 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/native_baseline_engineering_audit",
+  "utc": "2026-10-12T11:14:15.829643+00:00",
+  "checks": [
+    {
+      "name": "freeze_local_unchanged",
+      "pass": true
+    },
+    {
+      "name": "freeze_sources_unchanged",
+      "pass": true
+    },
+    {
+      "name": "SCIENCE_PREAUDIT.json_pass_and_binding",
+      "pass": true
+    },
+    {
+      "name": "ENGINEERING_PREAUDIT.json_pass_and_binding",
+      "pass": true
+    },
+    {
+      "name": "started_binding_threads_seed",
+      "pass": true
+    },
+    {
+      "name": "complete_no_failure",
+      "pass": true
+    },
+    {
+      "name": "runtime_budget",
+      "pass": true
+    },
+    {
+      "name": "exact588_unique_predictions",
+      "pass": true
+    },
+    {
+      "name": "each_arm147_points_exact",
+      "pass": true
+    },
+    {
+      "name": "all_prediction_metadata_and_point_targets_unchanged",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_point_mean_all_unit_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_point_ridge_all_unit_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_endpoint_ridge_all_unit_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_tail_ridge_all_unit_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G102_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12453_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G12529_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13726_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G13735_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G17268_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G1737_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G2425_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3086_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3198_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G3224_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G37_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G4013_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5545_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G5556_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6669_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6742_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G6785_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8110_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G8157_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_memberships",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native__G873_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_point_mean_all_unit_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_point_ridge_all_unit_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_endpoint_ridge_all_unit_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native_tail_ridge_all_unit_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G102_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G103_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12531_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G12533_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13692_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G13726_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G2396_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3232_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G3301_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G37_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G6669_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G8110_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_memberships",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_both_weights_exact",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_no_overlap_peptide_id",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_no_overlap_sequence",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_no_overlap_annotation_fingerprint",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_no_overlap_sequence_family",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_no_overlap_source_family_group",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_no_source_overlap",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_scaler_train_X_only",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_mean_and_identical_start",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_point_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_point_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_point_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_point_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_endpoint_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_endpoint_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_endpoint_ridge_independent_closedform",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_endpoint_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_tail_ridge_independent_stationarity_and_objective",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_tail_ridge_optimizer_limits_success",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_tail_ridge_prediction_from_saved_state",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_pointmean_predictions",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_point_mean_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_point_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_endpoint_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "uM_native__G873_tail_ridge_all_fold_metrics_denominators",
+      "pass": true
+    },
+    {
+      "name": "34folds_102fits_exact",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_tail_minus_endpoint_paired_mean_equals_primary_delta",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_endpoint_minus_point_paired_mean_equals_primary_delta",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_tail_minus_point_paired_mean_equals_primary_delta",
+      "pass": true
+    },
+    {
+      "name": "ug_ml_native_tail_minus_mean_paired_mean_equals_primary_delta",
+      "pass": true
+    },
+    {
+      "name": "uM_native_tail_minus_endpoint_paired_mean_equals_primary_delta",
+      "pass": true
+    },
+    {
+      "name": "uM_native_endpoint_minus_point_paired_mean_equals_primary_delta",
+      "pass": true
+    },
+    {
+      "name": "uM_native_tail_minus_point_paired_mean_equals_primary_delta",
+      "pass": true
+    },
+    {
+      "name": "uM_native_tail_minus_mean_paired_mean_equals_primary_delta",
+      "pass": true
+    }
+  ],
+  "prediction_rows": 588,
+  "folds": 34,
+  "fitted_states_independently_verified": 102,
+  "units": {
+    "ug_ml_native": {
+      "point_mean": {
+        "rows": 79,
+        "peptide_IDs": 54,
+        "families": 32,
+        "source_groups": 21,
+        "group_peptide_MAE": 0.6608711830510043,
+        "group_peptide_RMSE": 0.8121947730429933,
+        "peptide_MAE": 0.561384506818006,
+        "peptide_RMSE": 0.6909187374441689,
+        "row_MAE": 0.5241163669800866,
+        "row_RMSE": 0.646636083877408
+      },
+      "point_ridge": {
+        "rows": 79,
+        "peptide_IDs": 54,
+        "families": 32,
+        "source_groups": 21,
+        "group_peptide_MAE": 0.7876524867735213,
+        "group_peptide_RMSE": 0.9604008572010017,
+        "peptide_MAE": 0.6207163658820604,
+        "peptide_RMSE": 0.7642875068530142,
+        "row_MAE": 0.5811253762639387,
+        "row_RMSE": 0.7141538608308288
+      },
+      "endpoint_ridge": {
+        "rows": 79,
+        "peptide_IDs": 54,
+        "families": 32,
+        "source_groups": 21,
+        "group_peptide_MAE": 0.8210338249537428,
+        "group_peptide_RMSE": 1.0097735129902092,
+        "peptide_MAE": 0.6264825825309108,
+        "peptide_RMSE": 0.7806655722812602,
+        "row_MAE": 0.6089393117816762,
+        "row_RMSE": 0.7656969671769454
+      },
+      "tail_ridge": {
+        "rows": 79,
+        "peptide_IDs": 54,
+        "families": 32,
+        "source_groups": 21,
+        "group_peptide_MAE": 0.8441279627974684,
+        "group_peptide_RMSE": 1.055449936037222,
+        "peptide_MAE": 0.6310931858380978,
+        "peptide_RMSE": 0.7962836283410127,
+        "row_MAE": 0.6256080254144094,
+        "row_RMSE": 0.8023666897562529
+      }
+    },
+    "uM_native": {
+      "point_mean": {
+        "rows": 68,
+        "peptide_IDs": 27,
+        "families": 18,
+        "source_groups": 13,
+        "group_peptide_MAE": 0.5495844097732039,
+        "group_peptide_RMSE": 0.6510286836921182,
+        "peptide_MAE": 0.533393573353254,
+        "peptide_RMSE": 0.632909607325048,
+        "row_MAE": 0.46606018720212256,
+        "row_RMSE": 0.5974101836320762
+      },
+      "point_ridge": {
+        "rows": 68,
+        "peptide_IDs": 27,
+        "families": 18,
+        "source_groups": 13,
+        "group_peptide_MAE": 0.5963027394105807,
+        "group_peptide_RMSE": 0.6892558731935622,
+        "peptide_MAE": 0.5299542019950133,
+        "peptide_RMSE": 0.6219402768998155,
+        "row_MAE": 0.4724452696885808,
+        "row_RMSE": 0.605405005726861
+      },
+      "endpoint_ridge": {
+        "rows": 68,
+        "peptide_IDs": 27,
+        "families": 18,
+        "source_groups": 13,
+        "group_peptide_MAE": 0.5895160709857722,
+        "group_peptide_RMSE": 0.7236610177046156,
+        "peptide_MAE": 0.4780329649790641,
+        "peptide_RMSE": 0.6109498393427728,
+        "row_MAE": 0.4763205942929208,
+        "row_RMSE": 0.5958814944827013
+      },
+      "tail_ridge": {
+        "rows": 68,
+        "peptide_IDs": 27,
+        "families": 18,
+        "source_groups": 13,
+        "group_peptide_MAE": 0.726896882650457,
+        "group_peptide_RMSE": 0.9022068950658721,
+        "peptide_MAE": 0.6383682394976757,
+        "peptide_RMSE": 0.7830398470511197,
+        "row_MAE": 0.671639399725048,
+        "row_RMSE": 0.8084302407298998
+      }
+    }
+  },
+  "paired_contrasts": {
+    "ug_ml_native": {
+      "tail_minus_endpoint": {
+        "delta_group_peptide_MAE": 0.023094137843725708,
+        "delta_group_peptide_RMSE": 0.045676423047012804,
+        "delta_peptide_MAE": 0.004610603307186989,
+        "delta_row_MAE": 0.016668713632733256,
+        "win_tie_loss_tolerance1e-12": {
+          "wins": 10,
+          "ties": 0,
+          "losses": 11
+        }
+      },
+      "endpoint_minus_point": {
+        "delta_group_peptide_MAE": 0.03338133818022138,
+        "delta_group_peptide_RMSE": 0.049372655789207576,
+        "delta_peptide_MAE": 0.005766216648850464,
+        "delta_row_MAE": 0.027813935517737476,
+        "win_tie_loss_tolerance1e-12": {
+          "wins": 9,
+          "ties": 0,
+          "losses": 12
+        }
+      },
+      "tail_minus_point": {
+        "delta_group_peptide_MAE": 0.0564754760239471,
+        "delta_group_peptide_RMSE": 0.09504907883622038,
+        "delta_peptide_MAE": 0.010376819956037453,
+        "delta_row_MAE": 0.04448264915047073,
+        "win_tie_loss_tolerance1e-12": {
+          "wins": 9,
+          "ties": 0,
+          "losses": 12
+        }
+      },
+      "tail_minus_mean": {
+        "delta_group_peptide_MAE": 0.18325677974646415,
+        "delta_group_peptide_RMSE": 0.24325516299422878,
+        "delta_peptide_MAE": 0.06970867902009181,
+        "delta_row_MAE": 0.10149165843432284,
+        "win_tie_loss_tolerance1e-12": {
+          "wins": 4,
+          "ties": 0,
+          "losses": 17
+        }
+      }
+    },
+    "uM_native": {
+      "tail_minus_endpoint": {
+        "delta_group_peptide_MAE": 0.13738081166468485,
+        "delta_group_peptide_RMSE": 0.1785458773612566,
+        "delta_peptide_MAE": 0.16033527451861163,
+        "delta_row_MAE": 0.19531880543212726,
+        "win_tie_loss_tolerance1e-12": {
+          "wins": 4,
+          "ties": 0,
+          "losses": 9
+        }
+      },
+      "endpoint_minus_point": {
+        "delta_group_peptide_MAE": -0.006786668424808424,
+        "delta_group_peptide_RMSE": 0.034405144511053365,
+        "delta_peptide_MAE": -0.051921237015949195,
+        "delta_row_MAE": 0.0038753246043399803,
+        "win_tie_loss_tolerance1e-12": {
+          "wins": 7,
+          "ties": 0,
+          "losses": 6
+        }
+      },
+      "tail_minus_point": {
+        "delta_group_peptide_MAE": 0.13059414323987642,
+        "delta_group_peptide_RMSE": 0.21295102187230996,
+        "delta_peptide_MAE": 0.10841403750266243,
+        "delta_row_MAE": 0.19919413003646724,
+        "win_tie_loss_tolerance1e-12": {
+          "wins": 5,
+          "ties": 0,
+          "losses": 8
+        }
+      },
+      "tail_minus_mean": {
+        "delta_group_peptide_MAE": 0.1773124728772532,
+        "delta_group_peptide_RMSE": 0.25117821137375396,
+        "delta_peptide_MAE": 0.10497466614442175,
+        "delta_row_MAE": 0.2055792125229255,
+        "win_tie_loss_tolerance1e-12": {
+          "wins": 3,
+          "ties": 0,
+          "losses": 10
+        }
+      }
+    }
+  },
+  "sha256": {
+    "freeze": "8b723893076b8c2faab939905d5cf055537188329cee65b738c0b8d6cc93cc67",
+    "predictions": "610a6dac44804d8231950a65e3c8c7263ba78f2b4e2720cd37c718c136e035c8",
+    "result": "d38f2ceef44b5c80f066bb8fa703a0e29362f96e438251a6914adec9f63472b9",
+    "audit_script": "8566e3c8617e192279c23123a22a8c08d83378e954f00da69e5e38157080302c",
+    "recomputed_results": "d0fb6be8176054b20a2936b154bba8524f00d0a45eae33465884b95d9da092e3"
+  },
+  "method": "No model module imported and no optimizer called. Separate scipy.stats survival/CDF objective and derivatives evaluate all saved states; closed normal equations independently verify68ridge states; predictions reconstructed from102saved states; group/peptide/record nested means recomputed from147rawpoint labels; all paired group contrasts retained.",
+  "limitations": [
+    "Point-report selection, fixed Gaussian working scale and omitted covariates constrain interpretation; no latent censored-outcome validation.",
+    "Operational source-family groups and already-exposed cache are not independent blind confirmation.",
+    "No natural refitting or new data/seed/tuning by auditor; protected H5 data and test37 untouched."
+  ]
+}

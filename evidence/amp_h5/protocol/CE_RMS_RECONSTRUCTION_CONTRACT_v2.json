@@ -1,0 +1,317 @@
+{
+  "created_utc": "2026-10-11T21:06:30.825539+00:00",
+  "scope_id": "AMP_H5_CE_RMS_RECONSTRUCTION_V2",
+  "document_type": "FROZEN_CANDIDATE_REQUIRES_NEW_EXACT_ROOT_PLAN_AND_INDEPENDENT_RECEIPT",
+  "authorized": false,
+  "script_sha256": "2b18396ad721d06aaf09f20faef90b5f9e77a0905c779b963aac04783a29b10b",
+  "python_executable": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+  "frozen_runner": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+  "training_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce",
+  "historical_mean_root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1",
+  "output_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2",
+  "supervisor_output_directory": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_execution_v2",
+  "request_slots_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_REQUEST_SLOTS_v2.json",
+  "required_plan_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_PLAN_v2.json",
+  "required_receipt_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RMS_RECONSTRUCTION_PREFLIGHT_v2.json",
+  "checkpoint_tensor_digest": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+  "seeds": [
+    1422,
+    1423,
+    1424,
+    1425,
+    1426,
+    1427,
+    1428,
+    1429
+  ],
+  "batch_size": 32,
+  "device": "cpu",
+  "threads": 1,
+  "dtype": "float32",
+  "budgets_seconds": {
+    "inner": 120,
+    "outer": 180
+  },
+  "model_calls": {
+    "encoder_batches": 2,
+    "decoder_batches": 99,
+    "training_updates": 0,
+    "DDPM": 0,
+    "prior_flow": 0
+  },
+  "pilot": {
+    "batch": "first M train rows0..31, included once in99",
+    "safety_multiplier": 8,
+    "fixed_remaining_IO_reserve_seconds": 10,
+    "criterion": "elapsed + 8*observed_first_M_batch_seconds*98 + 10 <=120; finite and exact historical M parity required"
+  },
+  "runtime_evidence": {
+    "source_BCD_96_decode_and_export_seconds": 0.057612791,
+    "historical_full320_encoding_and_mean_export_seconds": 6.815,
+    "interpretation": "Order-of-magnitude only: old batches and export workloads differ. The first formal batch is a retained throughput check, no extra requests or quality-based continuation.",
+    "comparison_field_scope": "Require exact old torch,numpy,python,threads,interop,device,source_manifest SHA; code verification scope explicitly changes, not falsely compared as full91."
+  },
+  "budget_semantics": {
+    "inner_start": "earliest Python perf_counter after time import, before remaining imports/admission",
+    "included": "all subsequent imports, input checking, banks/seals, model load, dev encoding, all decode/export, finally guards, final status/manifest until closing-ledger check",
+    "closing_check": "After manifest completion capture elapsed; >120 forces failed status and rebuilt failed manifest. CLOSING_LEDGER separately hashes manifest; it is not self-included.",
+    "outer": "supervisor180 includes interpreter and complete final ledger/stdout; success requires process exit0 + statecompleted + closingcompleted + elapsed<=120 + outer<=180",
+    "no_retry": true,
+    "no_budget_extension": true,
+    "scoring": "Separate read-only phase300s; no RDKit in model process, no model retry for scoring failure."
+  },
+  "reconstruction_semantics": {
+    "R": "Frozen truth with its known terminal, g and h; reference_rows.csv is unique bound scoring reference.",
+    "M": "decoder(mu) from learned approximate diagonalGaussian q; no posterior flow; all320 newly decoded and exact token/sequence parity checked against saved frozen mean CSV.",
+    "S": "z=mu+exp(logsigma)*epsilon followed by same decoder and legal-prefix J; approximate q, not true Bayes posterior.",
+    "prior_flow": "Only training density path z->zp conditional on g. No prior forward/inverse in this reconstruction diagnostic.",
+    "conditioning": "Known sequence token embedding, g_pre_net(normalized residue descriptors) and h(normalized abs global descriptors) enter encoder. Decoder receives z only, no teacher forcing.",
+    "train_q": "Reuse frozen train279 raw mu/logsigma cache; no train encoder calls.",
+    "dev_q": "Missing historical dev cache; exactly2 frozen posterior_parameters encoder calls32+9, sourceidx279..319.",
+    "limits": "Reconstruction of known R is not terminal-only generation or new peptide evidence. No old gates/backfill, PROMOTE HOLD."
+  },
+  "rng_contract": {
+    "S_banks": "For each fixed1422..1429 use distinct CPU torch.Generator, manual_seed once, one randn float32[320,16,48]; row ordertrain279+dev41; save epsilon bytes and initial/final generator states before model construction. No per-batch reseeding.",
+    "model_initialization": "make_model categorical_ce222 under global fork_rng; load exact final weights; global state restored.",
+    "dev_work_rng": "Reuse frozen posterior_parameters fork_rng manual_seed0; two encoder calls internally sample/discard41 z. Hooks preserve pre/post RNG digests and discarded z digests. This work sample is not a ninth decoded S seed.",
+    "decoder": "eval/no_grad; global RNG unchanged across99 calls.",
+    "bank_vs_replicate": "8 computational draws of fixed checkpoint, not independent model/biological replicates."
+  },
+  "row_contract": {
+    "reference_fields": [
+      "row_key",
+      "split",
+      "row_id",
+      "source_row_id",
+      "terminal",
+      "class",
+      "truth_sequence",
+      "target_length"
+    ],
+    "prediction_fields": [
+      "sample_id",
+      "row_key",
+      "split",
+      "row_id",
+      "source_row_id",
+      "terminal",
+      "class",
+      "mode",
+      "draw_index",
+      "seed",
+      "truth_sequence",
+      "target_length",
+      "prediction_sequence",
+      "length",
+      "status",
+      "prediction_finite",
+      "selected_length",
+      "first_pad_index",
+      "length48_cap",
+      "prediction_tokens48",
+      "error"
+    ],
+    "all_rows": 2880,
+    "reference_rows": 320,
+    "train_rows": 279,
+    "dev_rows": 41,
+    "tokens_order": "ARNDCEQGHILKMFPSTWYV",
+    "PAD": 20,
+    "tokens_shape": [
+      48
+    ],
+    "first_pad_index": "0..47 or -1 if no PAD (selected length48)",
+    "length_semantics": "J chooses0..48, not an autoregressive EOS head; legacy no_eos_at_limit denotesJ48cap only.",
+    "successful_statuses": [
+      "ok",
+      "empty_sequence",
+      "no_eos_at_limit"
+    ],
+    "prediction_finite": "true only after finite z/raw/length scores and shape checks",
+    "failed_pending": "retain all slots, sequence empty/length0 unless a prediction was already recorded, tokens[] pending; status failed/not_executed preserve denominator."
+  },
+  "input_seals": {
+    "before_any_model": "reference rows, original train q hash, scaler/data hashes, all8 epsilon banks/state digests",
+    "after_dev_encode_before_decoder": "train+dev q320, separatedevq41, workRNG record",
+    "each_batch": "z/raw/tokens/selected length/Jscores saved; available tensors retained on model/numeric failure"
+  },
+  "historical_M_parity": "All320 exact prediction_sequence/prediction_tokens48/raw_prediction_tokens48 equality required. Failure fails whole attempt with no re-encode/retry.",
+  "scoring_handoff": {
+    "primary": "dev41 equal sequence mean of a_Mi - average8 a_Sik >=.05 investment screen, not significance or automatic training permission",
+    "completeness": "All320x9 complete finite outputs required; empty and cap outputs retain accuracy denominator.",
+    "secondary": "pooled target-residue accuracy, supported-AA recall if scored, wholeexact, Levenshtein raw/maxlength-normalized, length signed/absolute, J empty/PAD/cap; 421 original sequence features and9 original RDKit raw globals in separate read-only scoring.",
+    "descriptor_failure": "property item missing only, never remove row from core accuracy gate",
+    "model_contract_no_score_cycle": "Root exact plan independently binds scorer code/contract and model contract; separate scoring waits independent model postflight."
+  },
+  "failure_contract": {
+    "admission": "Only validate_request error classified admission_failed_no_model with prelocked2880 intent, no output directory required.",
+    "post_admission": "Uncaught execution/finalization reports unknown counts and last persisted status, never fabricates0 calls.",
+    "partial": "Every admitted attempt writes all2880 slots. No omitted failed/empty/cap rows; no quality filtering.",
+    "old_results": "OriginalCE E/L/G permanentlyNOT_EVALUABLE_INTERRUPTION; prior Gnegative/HOLD unchanged.",
+    "no_access": [
+      "test37",
+      "historical H0-H4 as new checkpoint outcomes",
+      "original manuscript editing",
+      "new DDPM/flow/training"
+    ]
+  },
+  "input_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_rms_reconstruction_v2.py",
+      "sha256": "2b18396ad721d06aaf09f20faef90b5f9e77a0905c779b963aac04783a29b10b",
+      "bytes": 28397
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_REQUEST_SLOTS_v2.json",
+      "sha256": "c314e31cbda3d954c1d474f3a08bcad4f4d19be28dd843251f06f4eefd0fe13d",
+      "bytes": 633883
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+      "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+      "bytes": 41408
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/config.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "bytes": 2541
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+      "bytes": 2541
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+      "bytes": 6800314
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490",
+      "bytes": 421
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "bytes": 3279
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a",
+      "bytes": 1315674
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+      "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020",
+      "bytes": 128631
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+      "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49",
+      "bytes": 19017
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/runtime_and_source.json",
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1",
+      "bytes": 24995
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/train.csv",
+      "sha256": "f71de05d3a2086c37b082716781397f7bb6db65322b807366f4f19ebf3058e03",
+      "bytes": 254851
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "bytes": 64083
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/val.csv",
+      "sha256": "2ff05eb06f2216e45dbfa5b1202d49e78a7692ba761307326fd386f1423dc7e7",
+      "bytes": 36903
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "bytes": 9489
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/source_copy_manifest.json",
+      "sha256": "019f4d1a6c6fd882c71849ae3c2920556020cee043ea084b31def1a89e980f48",
+      "bytes": 26725
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_SOURCE_REPLACEMENT_POSTFLIGHT_v2.json",
+      "sha256": "01fe09cbce4c4d4d8cf6c04d617408de40162b02f4583cb2a0c095418535cac3",
+      "bytes": 59016
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+      "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a",
+      "bytes": 52866
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_CHECKPOINT_RECOVERY_POSTFLIGHT_v1.json",
+      "sha256": "2450c62a2553d854685fee7dde300a2ee794746ad8af36bc4db814b9a472c484",
+      "bytes": 14870
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/CONTINUATION_SCOPE.json",
+      "sha256": "07b782e0e04b171beaa1b8b8ed5f7cb9b28dcf0f788671b7bc87dce840f56e0d",
+      "bytes": 2966
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/INPUTS_AND_FORMULAS_PRELOCK.json",
+      "sha256": "a30d096805ce8caff5f83c66ff6249f21c11dfb40999b4215aef9a1e2f8f03cf",
+      "bytes": 10738
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/RESULTS.json",
+      "sha256": "086868e492b7ad6a1af39040bcc7952d166ec9ba09ca6d8e8ce402907d1f7c84",
+      "bytes": 36268
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_source_replacement_v2/status.json",
+      "sha256": "92e20fa49d35271f68790ce209e77c14c88cdf6cca62c04b60d2dae7165a4332",
+      "bytes": 1762
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+      "bytes": 3194
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+      "bytes": 3703
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/molecular_representation.py",
+      "sha256": "4d0d6abb6cb7c49efe69a387270dbd44e49e6749c8515ce2d844ccdc4a717dd4",
+      "bytes": 4424
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+      "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+      "bytes": 17846
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+      "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+      "bytes": 11330
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_export_candidate/MANIFEST_V1_NOT_EXECUTED.json",
+      "sha256": "6ab7e6195dd77f4b832f775d5e2370a130d00c249ba87c501bffdc6239365d6d",
+      "bytes": 1370
+    }
+  ],
+  "revision_scope": {
+    "supersedes_unexecuted_v1": "Only source bootstrap and versioned exact paths changed; all numerical/scientific/budget/random/score operations unchanged. v1 files preserved.",
+    "legacy_boundary": "Original manifest91: verify82 py/yaml/yml/pyc code files and manifest itself; skip9 noncode entries including4 legacy dataset CSV, which are not the sealed expanded-cohort test37. Skipped entries expose declared hashes as NOT VERIFIED; no content reads/hash for those entries.",
+    "pyc": "Existing readable pyc also truly verified because dont_write_bytecode does not prohibit reads. No false claim that only source .py executes.",
+    "same_runtime": "Same imports/globals, torch/NumPy/version/device/thread constraints and original model/encoder/decode functions; new M320 token parity is the behavior check.",
+    "original_missing_dev_cache": "Newdevq41 is created only by this new scoped2encoder run. Historical saved-latent reports remain MISSING; never backfilled."
+  }
+}

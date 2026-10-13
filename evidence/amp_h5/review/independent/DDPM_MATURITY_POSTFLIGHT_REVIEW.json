@@ -1,0 +1,632 @@
+{
+  "created_utc": "2026-10-11T16:39:50.295164+00:00",
+  "status": "PASS_RECORDED_DIAGNOSTIC_EXECUTION_AUDIT",
+  "checks": [
+    {
+      "name": "saved_manifest_hashes",
+      "pass": true
+    },
+    {
+      "name": "config_matches_preflight",
+      "pass": true
+    },
+    {
+      "name": "all_preflight_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "fixed_posterior_unchanged",
+      "pass": true
+    },
+    {
+      "name": "recorded_scope",
+      "pass": true
+    },
+    {
+      "name": "1000_contiguous_updates",
+      "pass": true
+    },
+    {
+      "name": "all_training_numeric_records_finite",
+      "pass": true
+    },
+    {
+      "name": "caps_met",
+      "pass": true
+    },
+    {
+      "name": "all_seed322_batch_orders",
+      "pass": true
+    },
+    {
+      "name": "all_seed322_drop_decisions",
+      "pass": true
+    },
+    {
+      "name": "first20_rng_noise_and_batch_match_smoke",
+      "pass": true
+    },
+    {
+      "name": "checkpoint20_hash_digest_finite",
+      "pass": true
+    },
+    {
+      "name": "checkpoint20_metadata",
+      "pass": true
+    },
+    {
+      "name": "checkpoint1000_hash_digest_finite",
+      "pass": true
+    },
+    {
+      "name": "checkpoint1000_metadata",
+      "pass": true
+    },
+    {
+      "name": "final_optimizer_and_scheduler_finite1000",
+      "pass": true
+    },
+    {
+      "name": "fresh_initial_state_matches_seed322_smoke",
+      "pass": true
+    },
+    {
+      "name": "exact4_prespecified_attempts",
+      "pass": true
+    },
+    {
+      "name": "slots_match_summary",
+      "pass": true
+    },
+    {
+      "name": "diagnostic_execution_complete",
+      "pass": true
+    },
+    {
+      "name": "failure_counts_reconcile",
+      "pass": true
+    },
+    {
+      "name": "sampling_global_rng_unchanged",
+      "pass": true
+    },
+    {
+      "name": "FREE_bank_reproduced_seed_exact",
+      "pass": true
+    },
+    {
+      "name": "FREE_bank_hashes",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_FREE_000_noise_record_count_matches_reached_phase",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_FREE_000_noise_hashes_match_shared_bank",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_FREE_000_noise_record_count_matches_reached_phase",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_FREE_000_noise_hashes_match_shared_bank",
+      "pass": true
+    },
+    {
+      "name": "FREE_checkpoint_used_noise_pairing_on_shared_timesteps",
+      "pass": true
+    },
+    {
+      "name": "AMD_bank_reproduced_seed_exact",
+      "pass": true
+    },
+    {
+      "name": "AMD_bank_hashes",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_AMD_000_noise_record_count_matches_reached_phase",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_AMD_000_noise_hashes_match_shared_bank",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_AMD_000_noise_record_count_matches_reached_phase",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_AMD_000_noise_hashes_match_shared_bank",
+      "pass": true
+    },
+    {
+      "name": "AMD_checkpoint_used_noise_pairing_on_shared_timesteps",
+      "pass": true
+    },
+    {
+      "name": "fixed_train_cache_identity_schema",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_FREE_000_bank_identity",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_FREE_000_saved_reparam_exact",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_FREE_000_finite_gate_matches_slot",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_AMD_000_bank_identity",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_AMD_000_saved_reparam_exact",
+      "pass": true
+    },
+    {
+      "name": "UPDATE0020_AMD_000_finite_gate_matches_slot",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_FREE_000_bank_identity",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_FREE_000_saved_reparam_exact",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_FREE_000_finite_gate_matches_slot",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_AMD_000_bank_identity",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_AMD_000_saved_reparam_exact",
+      "pass": true
+    },
+    {
+      "name": "UPDATE1000_AMD_000_finite_gate_matches_slot",
+      "pass": true
+    },
+    {
+      "name": "supervisor_bound_plan_completed",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "status_sha256": "bbe9995940b3aa1fc031e158c13fab6869b9e455db6412b60a9962248f2fb5ba",
+  "manifest_sha256": "b153756bb0e1722eafc57bb99cac953ce6b5a4b80cb236542f73bd8fda663bb4",
+  "train_updates": 1000,
+  "recorded_execution_state": "COMPLETE_WITH_NUMERICAL_FAILURES",
+  "attempts": [
+    {
+      "attempt_id": "UPDATE0020_FREE_000",
+      "checkpoint_update": "20",
+      "terminal": "FREE",
+      "seed": "422",
+      "status": "error:FloatingPointError",
+      "error": "FloatingPointError('nonfinite exp(logsigma); no clipping or retry')"
+    },
+    {
+      "attempt_id": "UPDATE0020_AMD_000",
+      "checkpoint_update": "20",
+      "terminal": "AMD",
+      "seed": "423",
+      "status": "error:FloatingPointError",
+      "error": "FloatingPointError('nonfinite exp(logsigma); no clipping or retry')"
+    },
+    {
+      "attempt_id": "UPDATE1000_FREE_000",
+      "checkpoint_update": "1000",
+      "terminal": "FREE",
+      "seed": "422",
+      "status": "finite_latent_no_decoder",
+      "error": ""
+    },
+    {
+      "attempt_id": "UPDATE1000_AMD_000",
+      "checkpoint_update": "1000",
+      "terminal": "AMD",
+      "seed": "423",
+      "status": "finite_latent_no_decoder",
+      "error": ""
+    }
+  ],
+  "both1000_endpoints_finite": true,
+  "target_scale_independent": {
+    "mu": {
+      "elements": 214272,
+      "finite": 214272,
+      "nan": 0,
+      "positive_inf": 0,
+      "negative_inf": 0,
+      "min": -2.3634424209594727,
+      "max": 2.147148847579956,
+      "mean": 0.032345864881736686,
+      "std": 0.4254730278122187,
+      "rms": 0.4267007761542561,
+      "q01_q50_q99": [
+        -1.00821794629097,
+        -0.008929113391786814,
+        1.0843789422512056
+      ]
+    },
+    "logsigma": {
+      "elements": 214272,
+      "finite": 214272,
+      "nan": 0,
+      "positive_inf": 0,
+      "negative_inf": 0,
+      "min": -3.207310914993286,
+      "max": 2.163658618927002,
+      "mean": -0.14027062577327581,
+      "std": 0.41477441482299965,
+      "rms": 0.43785118892905633,
+      "q01_q50_q99": [
+        -1.2471387147903443,
+        -0.10165374353528023,
+        0.7969738781452201
+      ]
+    },
+    "sigma": {
+      "elements": 214272,
+      "finite": 214272,
+      "nan": 0,
+      "positive_inf": 0,
+      "negative_inf": 0,
+      "min": 0.040465280413627625,
+      "max": 8.702919960021973,
+      "mean": 0.943898487252429,
+      "std": 0.3942082680458563,
+      "rms": 1.0229098263449898,
+      "q01_q50_q99": [
+        0.2873257461190224,
+        0.9033422768115997,
+        2.2188164067268423
+      ]
+    },
+    "analytic_z_mean": 0.032345864881736686,
+    "analytic_z_rms": 1.1083402298950364,
+    "analytic_z_std": 1.107868137563688
+  },
+  "generated_scales_independent": {
+    "UPDATE0020_FREE_000": {
+      "mu": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -227.30618286132812,
+        "max": 259.8572082519531,
+        "mean": 11.16185738480029,
+        "std": 48.62181746582824,
+        "rms": 49.886553237911116,
+        "q01_q50_q99": [
+          -110.10460563659667,
+          8.620775699615479,
+          155.841018676758
+        ]
+      },
+      "logsigma": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -359.8711242675781,
+        "max": 309.5354309082031,
+        "mean": 22.17632767979133,
+        "std": 56.78842932907181,
+        "rms": 60.96486869521218,
+        "q01_q50_q99": [
+          -102.40132331848145,
+          21.06968116760254,
+          174.57182861328133
+        ]
+      },
+      "sigma": {
+        "elements": 768,
+        "finite": 695,
+        "nan": 0,
+        "positive_inf": 73,
+        "negative_inf": 0,
+        "min": 0.0,
+        "max": 2.1169278245980943e+38,
+        "mean": 7.740223947686131e+35,
+        "std": 1.0585614202584444e+37,
+        "rms": 1.0613874820891792e+37,
+        "q01_q50_q99": [
+          1.401298464324817e-45,
+          713738.1875,
+          6.853824792452104e+36
+        ]
+      },
+      "latent": {
+        "elements": 768,
+        "finite": 695,
+        "nan": 0,
+        "positive_inf": 28,
+        "negative_inf": 45,
+        "min": -2.011262149637758e+38,
+        "max": 2.3749071447204213e+37,
+        "mean": -2.537995565719669e+35,
+        "std": 7.806279587731784e+36,
+        "rms": 7.810404292784981e+36,
+        "q01_q50_q99": [
+          -1.4879187173322406e+35,
+          16.21357536315918,
+          6.937526725280606e+35
+        ]
+      },
+      "sigma_zero_count": 6,
+      "ratios_to_train": {
+        "mu_rms": 116.9122627043844,
+        "logsigma_rms": 139.23650371791072,
+        "sigma_finite_subset_rms": 1.0376158824103546e+37,
+        "latent_finite_subset_rms_vs_analytic_train": 7.046937467500078e+36
+      }
+    },
+    "UPDATE0020_AMD_000": {
+      "mu": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -178.88194274902344,
+        "max": 304.2682800292969,
+        "mean": 19.77667246829272,
+        "std": 47.31187080774118,
+        "rms": 51.27894200592012,
+        "q01_q50_q99": [
+          -93.9373779296875,
+          18.460536003112793,
+          153.25617401123048
+        ]
+      },
+      "logsigma": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -154.35464477539062,
+        "max": 237.02821350097656,
+        "mean": 15.181869892937053,
+        "std": 51.081958174511286,
+        "rms": 53.29029578064461,
+        "q01_q50_q99": [
+          -91.36567359924317,
+          11.750911712646484,
+          157.4222407531739
+        ]
+      },
+      "sigma": {
+        "elements": 768,
+        "finite": 705,
+        "nan": 0,
+        "positive_inf": 63,
+        "negative_inf": 0,
+        "min": 0.0,
+        "max": 2.552781797997462e+38,
+        "mean": 1.0301419560760845e+36,
+        "std": 1.4000391588352168e+37,
+        "rms": 1.4038239101713234e+37,
+        "q01_q50_q99": [
+          4.0148308589212245e-39,
+          300.6357116699219,
+          5.2425370146102434e+36
+        ]
+      },
+      "latent": {
+        "elements": 768,
+        "finite": 705,
+        "nan": 0,
+        "positive_inf": 36,
+        "negative_inf": 27,
+        "min": -3.3095093732253842e+38,
+        "max": 2.520034225099598e+38,
+        "mean": 2.8402383837419042e+35,
+        "std": 1.763010648132143e+37,
+        "rms": 1.7632394167653373e+37,
+        "q01_q50_q99": [
+          -1.9106136061895243e+33,
+          15.451589584350586,
+          2.5332486017879316e+34
+        ]
+      },
+      "sigma_zero_count": 7,
+      "ratios_to_train": {
+        "mu_rms": 120.17541300975354,
+        "logsigma_rms": 121.70869265192077,
+        "sigma_finite_subset_rms": 1.3723828572332681e+37,
+        "latent_finite_subset_rms_vs_analytic_train": 1.5908828076486243e+37
+      }
+    },
+    "UPDATE1000_FREE_000": {
+      "mu": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -2.140160322189331,
+        "max": 0.9693984389305115,
+        "mean": -0.5906374520430594,
+        "std": 0.6105307292099372,
+        "rms": 0.8494706416737042,
+        "q01_q50_q99": [
+          -2.0486729383468627,
+          -0.568743109703064,
+          0.6847438502311738
+        ]
+      },
+      "logsigma": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -2.0846221446990967,
+        "max": 1.083640456199646,
+        "mean": -0.4951084257392419,
+        "std": 0.5757778290856961,
+        "rms": 0.7593763636726043,
+        "q01_q50_q99": [
+          -1.7112379360198975,
+          -0.47892044484615326,
+          0.6361832368373898
+        ]
+      },
+      "sigma": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": 0.12435410171747208,
+        "max": 2.9554190635681152,
+        "mean": 0.7162057771056425,
+        "std": 0.41692277933247274,
+        "rms": 0.8287190833363324,
+        "q01_q50_q99": [
+          0.18064233765006066,
+          0.6194519698619843,
+          1.890168309211736
+        ]
+      },
+      "latent": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -4.275685787200928,
+        "max": 2.992790699005127,
+        "mean": -0.5953040597317644,
+        "std": 0.9961967271011183,
+        "rms": 1.1605149040921878,
+        "q01_q50_q99": [
+          -2.961240119934082,
+          -0.5837326645851135,
+          1.9952040028572142
+        ]
+      },
+      "sigma_zero_count": 0,
+      "ratios_to_train": {
+        "mu_rms": 1.9907876646716318,
+        "logsigma_rms": 1.7343252293775173,
+        "sigma_finite_subset_rms": 0.8101584929509084,
+        "latent_finite_subset_rms_vs_analytic_train": 1.0470746010925658
+      }
+    },
+    "UPDATE1000_AMD_000": {
+      "mu": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -1.535854458808899,
+        "max": 1.3906238079071045,
+        "mean": -0.023613152072229582,
+        "std": 0.6119539739117841,
+        "rms": 0.6124093787142803,
+        "q01_q50_q99": [
+          -1.3162952995300292,
+          -0.1251360923051834,
+          1.1577352452278138
+        ]
+      },
+      "logsigma": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -2.1837220191955566,
+        "max": 0.5828979015350342,
+        "mean": -0.5108952464363578,
+        "std": 0.52462378261343,
+        "rms": 0.732286874192683,
+        "q01_q50_q99": [
+          -1.699664125442505,
+          -0.498653843998909,
+          0.4648769420385362
+        ]
+      },
+      "sigma": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": 0.11262156814336777,
+        "max": 1.7912217378616333,
+        "mean": 0.6853801598093318,
+        "std": 0.35508224940420996,
+        "rms": 0.771899842791938,
+        "q01_q50_q99": [
+          0.1827548249065876,
+          0.6073479354381561,
+          1.5918197751045229
+        ]
+      },
+      "latent": {
+        "elements": 768,
+        "finite": 768,
+        "nan": 0,
+        "positive_inf": 0,
+        "negative_inf": 0,
+        "min": -4.472110748291016,
+        "max": 4.021890163421631,
+        "mean": 0.002322504128339157,
+        "std": 0.9567453178442219,
+        "rms": 0.9567481367853647,
+        "q01_q50_q99": [
+          -2.07223662853241,
+          -0.06958916038274765,
+          2.725819394588474
+        ]
+      },
+      "sigma_zero_count": 0,
+      "ratios_to_train": {
+        "mu_rms": 1.4352197439942993,
+        "logsigma_rms": 1.6724560597489508,
+        "sigma_finite_subset_rms": 0.7546118171042034,
+        "latent_finite_subset_rms_vs_analytic_train": 0.8632260302199551
+      }
+    }
+  },
+  "scale_review": "PENDING_HUMAN_READABLE_INDEPENDENT_JUDGMENT; no automatic numerical threshold or authorization",
+  "single_CE_authorized": false,
+  "full_VAE_formal_authorized": false,
+  "PROMOTE": "HOLD",
+  "reviewer_actions": {
+    "training_state_loader": "Explicit global allowlist; OneCycle annealing callable represented by inert string; no unrestricted pickle",
+    "model_constructions": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "new_generation_requests": 0,
+    "natural_CSV_reads": 0,
+    "test_reads": 0,
+    "actions": "Inspect saved tensors, recompute numeric summaries and reproduce noise banks without model calls"
+  },
+  "limitations": [
+    "One fixedCE20 representation/seed; total1000 schedule20 endpoint is not originaltotal20 smoke.",
+    "Any numeric failure remains a result; failed/missing reverse-step telemetry needs scope-specific interpretation.",
+    "Finite-subset statistics on arrays containingInf/NaN are not whole-array moments and must not be interpreted as numerical success.",
+    "Extra adaptive diagnostic cost is separate from method comparison."
+  ]
+}

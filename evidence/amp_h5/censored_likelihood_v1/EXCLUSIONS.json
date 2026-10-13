@@ -1,0 +1,556 @@
+[
+  {
+    "activity_id": 66538,
+    "peptide_id": 16,
+    "format": "range_unresolved",
+    "concentration_raw": "1.58-25.33",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE",
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 66592,
+    "peptide_id": 36,
+    "format": "range_unresolved",
+    "concentration_raw": "1.35-21.67",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE",
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 124812,
+    "peptide_id": 37,
+    "format": "range_unresolved",
+    "concentration_raw": "8-16",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 324,
+    "peptide_id": 102,
+    "format": "range_unresolved",
+    "concentration_raw": "1-16",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 6979,
+    "peptide_id": 102,
+    "format": "plusminus_unresolved",
+    "concentration_raw": "1.5±0.5",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 334,
+    "peptide_id": 103,
+    "format": "range_unresolved",
+    "concentration_raw": "2.6-5.2",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 330,
+    "peptide_id": 107,
+    "format": "range_unresolved",
+    "concentration_raw": "1-8",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 6983,
+    "peptide_id": 107,
+    "format": "plusminus_unresolved",
+    "concentration_raw": "2.5±0.5",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 333,
+    "peptide_id": 108,
+    "format": "range_unresolved",
+    "concentration_raw": "2-16",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 6987,
+    "peptide_id": 108,
+    "format": "plusminus_unresolved",
+    "concentration_raw": "4.5±1.5",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 337,
+    "peptide_id": 109,
+    "format": "range_unresolved",
+    "concentration_raw": "5.5-11",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 12097,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "9",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 12098,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "3.1",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 12342,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "19",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 12343,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "9",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 12344,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "13",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 12345,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "5",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 25183,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "25",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 25193,
+    "peptide_id": 1688,
+    "format": "right_bound",
+    "concentration_raw": ">100",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 100735,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "25",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 101624,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "32",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 124830,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "8",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 190635,
+    "peptide_id": 1688,
+    "format": "point",
+    "concentration_raw": "15.6",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 12110,
+    "peptide_id": 1689,
+    "format": "right_bound",
+    "concentration_raw": ">200",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 12111,
+    "peptide_id": 1689,
+    "format": "right_bound",
+    "concentration_raw": ">=200",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 44336,
+    "peptide_id": 1689,
+    "format": "point",
+    "concentration_raw": "128",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 100728,
+    "peptide_id": 1689,
+    "format": "point",
+    "concentration_raw": "400",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 100729,
+    "peptide_id": 1689,
+    "format": "point",
+    "concentration_raw": "190",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 101636,
+    "peptide_id": 1689,
+    "format": "right_bound",
+    "concentration_raw": ">64",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 49602,
+    "peptide_id": 1716,
+    "format": "range_unresolved",
+    "concentration_raw": "25-50",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 12529,
+    "peptide_id": 1737,
+    "format": "range_unresolved",
+    "concentration_raw": "0.6-2.3",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 12602,
+    "peptide_id": 1738,
+    "format": "range_unresolved",
+    "concentration_raw": "18.7-37.5",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 12605,
+    "peptide_id": 1738,
+    "format": "right_bound",
+    "concentration_raw": ">100",
+    "reason": "Multiple explicitly named clinical isolates share one bound; per-isolate attribution unresolved; conservative exclusion",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 12906,
+    "peptide_id": 1783,
+    "format": "point",
+    "concentration_raw": "2.5",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 41258,
+    "peptide_id": 1783,
+    "format": "range_unresolved",
+    "concentration_raw": "20-30",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE",
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 41259,
+    "peptide_id": 1783,
+    "format": "range_unresolved",
+    "concentration_raw": "50-60",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE",
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 47872,
+    "peptide_id": 1783,
+    "format": "point",
+    "concentration_raw": "6",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 111910,
+    "peptide_id": 1783,
+    "format": "point",
+    "concentration_raw": "12",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 141561,
+    "peptide_id": 1783,
+    "format": "point",
+    "concentration_raw": "2.5",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 31485,
+    "peptide_id": 4407,
+    "format": "point",
+    "concentration_raw": "3.1",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": []
+  },
+  {
+    "activity_id": 31738,
+    "peptide_id": 4407,
+    "format": "range_unresolved",
+    "concentration_raw": "3.1-6.25",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 50986,
+    "peptide_id": 6669,
+    "format": "range_unresolved",
+    "concentration_raw": "4-32",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 46961,
+    "peptide_id": 6742,
+    "format": "point",
+    "concentration_raw": "8",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 148343,
+    "peptide_id": 6742,
+    "format": "point",
+    "concentration_raw": "30",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 197059,
+    "peptide_id": 6742,
+    "format": "point",
+    "concentration_raw": "64",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 197076,
+    "peptide_id": 6742,
+    "format": "point",
+    "concentration_raw": "35.68",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "PART_OF_MULTICOMPONENT_ENTITY_ATTRIBUTION_PENDING"
+    ]
+  },
+  {
+    "activity_id": 58731,
+    "peptide_id": 8157,
+    "format": "range_unresolved",
+    "concentration_raw": "2.34-9.38",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 59373,
+    "peptide_id": 8221,
+    "format": "range_unresolved",
+    "concentration_raw": "16-32",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 59385,
+    "peptide_id": 8224,
+    "format": "range_unresolved",
+    "concentration_raw": "8-16",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 59393,
+    "peptide_id": 8226,
+    "format": "range_unresolved",
+    "concentration_raw": "16-32",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 59397,
+    "peptide_id": 8227,
+    "format": "range_unresolved",
+    "concentration_raw": "32-64",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 96136,
+    "peptide_id": 12529,
+    "format": "range_unresolved",
+    "concentration_raw": "8-16",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 103257,
+    "peptide_id": 12531,
+    "format": "range_unresolved",
+    "concentration_raw": "4-16",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 103258,
+    "peptide_id": 12531,
+    "format": "range_unresolved",
+    "concentration_raw": "1-4",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 107134,
+    "peptide_id": 13726,
+    "format": "range_unresolved",
+    "concentration_raw": "2-4",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 183619,
+    "peptide_id": 13726,
+    "format": "range_unresolved",
+    "concentration_raw": "4-8",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 107805,
+    "peptide_id": 13804,
+    "format": "range_unresolved",
+    "concentration_raw": "25-50",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 107848,
+    "peptide_id": 13806,
+    "format": "range_unresolved",
+    "concentration_raw": "12.5-25",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  },
+  {
+    "activity_id": 107869,
+    "peptide_id": 13807,
+    "format": "range_unresolved",
+    "concentration_raw": "25-50",
+    "reason": "Existing native chemistry/encoding/label admission not satisfied",
+    "prior_core_reasons": [
+      "UNRESOLVED_RANGE_PLUSMINUS_OR_PARSE"
+    ]
+  }
+]

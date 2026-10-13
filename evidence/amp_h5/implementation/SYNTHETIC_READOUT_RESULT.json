@@ -1,0 +1,17 @@
+{
+  "scope": "synthetic existing-artifact summary only; no natural AMP run read",
+  "tests_run": 5,
+  "passed": true,
+  "errors": 0,
+  "failures": 0,
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout.py",
+    "bytes": 25836,
+    "sha256": "75012cfc99e73f7d08c5b69cb0e9cf2d0f74acc28b98f6db8203e4b8536486dd"
+  },
+  "tests": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/synthetic_readout_tests.py",
+    "bytes": 8714,
+    "sha256": "4b6fe91f0d4f2d7f877aad78e37885c623e8e12e43bf7e522d46904474afca60"
+  }
+}

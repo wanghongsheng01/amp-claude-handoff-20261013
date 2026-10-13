@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-12T14:44:02.207110+00:00",
+  "files": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/run.py": "a38eddf3b63d9b7108cad34d78d98a88684cbdb24f2f689ba62e0c62a4573eba",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/grouping.py": "6e50630e9c424e5322efab8e8394d076bd6b13489cd25dbce121af42881a0dd6",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/PROTOCOL.json": "03f94788f0d312628df7dc4b65d73ecbdc1d3322764e09e1f8d7c619dcdb4971",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/implementation/model.py": "6f0514af960365641e2b97ba091b2bdee2aca7d78eda4a03fc5425cd52634750",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/implementation/test_model.py": "46216d5ac8de72ed5867ab9583983376c2b254659fbbca91f5794a92c44c0ee8",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/implementation/IMPLEMENTATION_NOTES.md": "41db7634e3a3230e23afab8c2f1e2dcba4dd55a7e1bccc6ddfdbc09fb688630c",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/SYNTHETIC_RUNNER.json": "0195a5e1b0e5d94ca9eef53d74187a41e9a0fea830f51f1987d792a2d718c4d2",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/PROCESS_CHECK.json": "bf5ace30329c635bcf2f49bdfede70a53b494fcabeecf64d737b11d4f03ca5fb",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/test_model_independent.py": "46a90154699b8456a3ec80df4b6f2442b7767334d4604de03a625681532a1282",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/test_grouping_independent.py": "06a70baf07bdb3d2243695a5153790f8211bc830b42fad0e2d837f0ae0852d10",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/test_runner_independent.py": "ca70f41913506c4e2d334a1e0c5789901a3614c0afc2e6eb030012c4a09a15b8",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_pipeline.py": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/training/final.pt": "0b01c4beb3469ce6d7edb183480140f6f7b8def88bc4a8efa77a7c48d98c756c"
+  },
+  "python": "3.12.13",
+  "data_hashes": {
+    "train": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "rows": 279
+    },
+    "development": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "rows": 41
+    }
+  },
+  "natural_data_opened_for_this_run": false,
+  "source_scope": "Existing AMP H5 dependencies readonly; original H0-H4 and manuscripts unchanged",
+  "backup": "BACKUP_BLOCKED"
+}

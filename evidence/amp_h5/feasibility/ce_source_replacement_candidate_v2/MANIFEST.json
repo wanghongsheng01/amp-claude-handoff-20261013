@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-11T20:23:21.176042+00:00",
+  "status": "PREPARATION_ONLY_NOT_EXECUTED",
+  "scope_id": "AMP_H5_CE_SOURCE_REPLACEMENT_V2",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_source_replacement_v2.py",
+      "sha256": "e915f23cbf6157b20bd1d9a94fe831d326b0ab6a20b4013824224921a2bbf444",
+      "bytes": 34554,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+      "sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8",
+      "bytes": 29507,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_SAMPLING_SEEDS_v2.json",
+      "sha256": "f191f8412a5382b7e11ad3af4a1bbb1a45895df0c3491693a7ab14b986c83aa6",
+      "bytes": 261,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_REQUEST_SLOTS_v2.json",
+      "sha256": "6857bdbd06e7bad7325cc23c06524862030f8bff492aa943813e77d3c744699c",
+      "bytes": 51556,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/validate_synthetic.py",
+      "sha256": "29c5a39310473137c70580acb36a94f6143693e09e1f4cc123a1306b01a08568",
+      "bytes": 7012,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/AUTHOR_SYNTHETIC_VALIDATION.json",
+      "sha256": "4130e0903ca1996fe44aceeaa20a72c2889fbfe7c74317b8cc2200e7f08a4099",
+      "bytes": 1741,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/validate_narrow_exception_repair.py",
+      "sha256": "a219bf2425d808afeb0e8df4b24294098bf9699a15a48c51706ed1f59f1ff406",
+      "bytes": 5750,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/NARROW_REPAIR_VALIDATION.json",
+      "sha256": "5b5da56033a296a486a14b2570d0bffe64daeba59a0d4eeb0390fb5ba270ff26",
+      "bytes": 2005,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/V1_TO_V2.diff",
+      "sha256": "4b35b9c3433a329444554211e48be23c44b3abefca79be60b82a8b61b79ac32f",
+      "bytes": 5093,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/PLAN_TEMPLATE_NOT_AUTHORIZED.json",
+      "sha256": "33de87543da6ef8dddc288b6f3d90e4571ecb407a76774a70b184c9afb8fb606",
+      "bytes": 3661,
+      "role": "version2 narrow repair candidate"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_source_replacement_candidate_v2/NARROW_REPAIR.zh.md",
+      "sha256": "c680287c6a6732f04f09b1decbe179688bcd0fef64663cb1ee32e047881c6478",
+      "bytes": 1648,
+      "role": "version2 narrow repair candidate"
+    }
+  ],
+  "all_bound_inputs_unchanged": true,
+  "source_bindings_count": 47,
+  "new_model_calls": 0,
+  "natural_epsilon_draws": 0,
+  "original_toy_checks": 26,
+  "narrow_repair_checks": 31,
+  "requires_new_independent_receipt": true
+}

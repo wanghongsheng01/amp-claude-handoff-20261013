@@ -1,0 +1,18 @@
+{
+  "status": "CONDITIONAL_PREAUDIT_PASS_PENDING_CODE_AND_OUTPUT",
+  "time_utc": "2026-10-12T08:54:19.332528+00:00",
+  "reviewed_proposal": "Local neutral arginine guanidine tautomer canonicalization only; preserve v1 outcomes and bounded original sample",
+  "scientific_basis": "Neutral guanidine chain-N=C(NH2)NH2 and chain-NH-C(=NH)NH2 have same formula, heavy connectivity and net charge; relocating the imine/proton within this identified group is a tautomer transform, not a new chemical measurement.",
+  "guards": [
+    "Central nonaromatic C bonded exactly3neutralnonisotopicN withorders1,1,2",
+    "Exactly2terminalNdegree1 and1chainNdegree2",
+    "No specified atom or bond stereo within editedmotif",
+    "Only theseN explicitH/implicit settings andcentralC-N bondorders change; sanitize",
+    "Full molecularformula,totalcharge,heavyedges,allatomchiraltags preserved",
+    "Atoms/bonds outside editedmotif unchanged",
+    "Exact stereochemical canonical graph matches independentsequence reconstruction andeveryvariant",
+    "No charges/salts removed or isotope/unknownspecies normalized",
+    "Other tautomers outside narrowguanidine pattern remain pending",
+    "Actual assay massbasis stays separate; structuralpass is no admission"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "state": "completed_vae_only_not_scientific_success",
+  "scope": "VAE_ONLY_1000",
+  "ddpm_updates": 0,
+  "generation_requests": 0,
+  "posttraining_q_or_rms_calls": 0,
+  "test_reads": 0,
+  "root_receipt_sha256": "989e4e42a730bd7028c17adc95dde1c5c2f37cf0de147eb5665974ec9a807db9",
+  "vae_updates": 1000,
+  "fixed_monitor_calls": 10,
+  "coupling": "all 1000 batch/RNG/LR trace fields equal",
+  "checkpoint_selection": false,
+  "outer_elapsed_seconds": 1180.8348448337056,
+  "objective_forward_attempts": 1000,
+  "completed_updates_logged": 1000,
+  "fixed_monitors_logged": 10,
+  "partial_forward_or_monitor_possible": false
+}

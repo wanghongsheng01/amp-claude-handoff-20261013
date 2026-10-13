@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-12T09:12:30.469846+00:00",
+  "process_check": "Read-only ps under authorized escalation; no active AMP H5/Witten or Caliber solver seen among matching commands. Unrelated session_watcher ~94.7% one-core CPU; left untouched",
+  "model_slot": "ROOT_NATIVE_BASELINE_RESERVED_SERIAL",
+  "source_scope": "existing cached points only",
+  "CPU_budget": "1 thread nice+10 within user authorized600s; not inspecting/changing other projects"
+}

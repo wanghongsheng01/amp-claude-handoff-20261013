@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-11T16:22:03.916323+00:00",
+  "status": "SCIENTIFIC_DESIGN_ADVICE_NOT_EXECUTION_AUTHORIZATION",
+  "condition": "H4 saved final-step parity has passed; full VAE formal runs remain held.",
+  "estimand": "Numerical sampling feasibility after additional denoiser optimization on one fixed CE20 posterior dataset, within one predeclared1000-update OneCycle trajectory.",
+  "cannot_estimate": [
+    "Exact reproduction of original smoke20, whose OneCycle total_steps was20",
+    "Guarantee for latent distribution of a newly trained1000-update VAE",
+    "Generation quality, activity, novelty, strongest-baseline advantage",
+    "Causal identification of all original smoke failures"
+  ],
+  "locks": [
+    "Frozen CE20 train posterior NPZ hash, all279 row IDs and terminal labels; no encoder/data refit",
+    "Fresh seed322 DDPM, optimizer/noise/EMA unchanged, OneCycle total1000 fixed throughout",
+    "Save checkpoint20 and1000; evaluate both only after training to avoid diagnostic RNG affecting training",
+    "Exactly four fixed conditional chains: checkpoint20/1000 x FREE422/AMD423; one request each; same per-terminal initial/noise/final-epsilon draws across checkpoints",
+    "No decoder, development/test split, peptide string, rejection/filter/retry, hyperparameter change or checkpoint selection",
+    "Every requested slot retained; training and generation cap status distinct from numerical success",
+    "Finite-only gate requires complete trajectory, finite predictions/states, finite strictly positive exp(logsigma), finite fixed-noise latent; fail on underflow/overflow too",
+    "Expected20 failure is a diagnostic result, must not prevent collecting prelocked1000 endpoints if remaining cap allows",
+    "Numeric range summaries may be reported descriptively; no posthoc empirical-range threshold used for success",
+    "Checkpoint1000 must satisfy both terminal finite gates to support fixed-latent feasibility; missing/error/capped slots cannot pass"
+  ],
+  "suggested_budget_seconds": {
+    "training": 1020,
+    "generation_all4": 240,
+    "combined": 1260,
+    "outer_supervisor": 1380
+  },
+  "scope_after_success": "Supports only fixedCE20/seed322 numerical feasibility. Any subsequent singleCE end-to-end pilot requires a separately bound protocol and independent receipt; three-arm longrun is not automatically released.",
+  "cheaper_alternative_assessment": "No identified cheaper substitute with the same estimand. Saved-timestep parity and noise-prediction MSE cannot establish finite full reverse chains. A final-only1000 check saves two chains but loses within-trajectory progression evidence and is a narrower question.",
+  "authorized": false
+}

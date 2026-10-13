@@ -1,0 +1,35 @@
+{
+  "scope": "new cost and development-opportunity ledger v1, completed evidence only, CEv2 pending",
+  "files": [
+    {
+      "path": "COSTS.csv",
+      "bytes": 1329,
+      "sha256": "dbf03165edc3f26ae97dcf27a31dcbb98364534a17a81d3b57151f6184ff985a"
+    },
+    {
+      "path": "COST_OPPORTUNITY_LEDGER.json",
+      "bytes": 19471,
+      "sha256": "d51ee3e52a71ae92679df02533e3979a4590755170b3c22e8fc3a868a7a14859"
+    },
+    {
+      "path": "READOUT.zh.md",
+      "bytes": 4786,
+      "sha256": "9a0a51ab187e17307ac971e25f0e35ca9a746c4a0fff21f856da509f02c27908"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 12128,
+      "sha256": "193066f763f4a76ccad5ac755339c6d58e6683b7ed6fbc955cef226a8644f9df"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 508,
+      "sha256": "de994142a041ffd0771c472d8ef913b3e81a94eb30d0934fdcf5d49d23cd18ce"
+    },
+    {
+      "path": "build_ledger.py",
+      "bytes": 16557,
+      "sha256": "9332721784b8224e51eb0a82143da1801035606a0f132063f4d04f42626eeedd"
+    }
+  ]
+}

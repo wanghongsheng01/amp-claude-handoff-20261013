@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "freeze_sha256": "540c3552ef14b997f318fd200d03854194304439ccd51b87d3da1172c550b296",
+  "utc": "2026-10-12T14:44:31.887749+00:00",
+  "reviewer": "independent non-author agent eb_context_independent",
+  "bindings_verified": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/run.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/grouping.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/PROTOCOL.json": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/implementation/model.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/implementation/test_model.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/implementation/IMPLEMENTATION_NOTES.md": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/SYNTHETIC_RUNNER.json": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/PROCESS_CHECK.json": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/test_model_independent.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/test_grouping_independent.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/independent/test_runner_independent.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_pipeline.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py": true,
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/training/final.pt": true
+  },
+  "synthetic_tests": {
+    "model": 5,
+    "grouping": 4,
+    "runner_contract": 3,
+    "all_pass": true
+  },
+  "natural_data_read": false,
+  "code_changes_requested": [],
+  "scope": "Permits exactly one frozen bounded developmental run. No scientific confirmation or novelty/activity claim. Train grouping guards must pass before development access; all failures retained; no retries.",
+  "limitations": [
+    "Operational edit-similarity components are not biological homology proof.",
+    "Separate is terminal-specific emissions on shared tree.",
+    "Historical AR is secondary and dev previously reused.",
+    "Equal grid sizes do not imply equal capacity/compute."
+  ]
+}

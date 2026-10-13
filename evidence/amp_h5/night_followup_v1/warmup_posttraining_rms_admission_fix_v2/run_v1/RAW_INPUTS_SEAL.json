@@ -1,0 +1,11 @@
+{
+  "reference_rows_sha256": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3",
+  "epsilon_banks_seal_sha256": "ede52f99d3c9f147d9651dd5e186b1d8489075992585d8850eda20c8e58ae99b",
+  "scaler_sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+  "train_descriptor_sha256": "f71de05d3a2086c37b082716781397f7bb6db65322b807366f4f19ebf3058e03",
+  "dev_descriptor_sha256": "2ff05eb06f2216e45dbfa5b1202d49e78a7692ba761307326fd386f1423dc7e7",
+  "sealed_before_any_model_construction_or_forward": true,
+  "all320_q_not_yet_encoded": true,
+  "old_q_cache_reused": false,
+  "late_training_binding_sha256": "49960d58035b21c7ae5fa091f3278c528ed9eaf0cc06906e37645fd16800d07d"
+}

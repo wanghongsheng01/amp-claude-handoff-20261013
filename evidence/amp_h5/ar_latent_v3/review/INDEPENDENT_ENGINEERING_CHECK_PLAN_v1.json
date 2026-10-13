@@ -1,0 +1,39 @@
+{
+  "schema": "AMP_H5_AR_LATENT_V3_INDEPENDENT_ENGINEERING_CHECK_PLAN_V1",
+  "status": "PREPARED_AWAITING_CANDIDATE_AND_ROOT_SERIAL_FORWARD_WINDOW",
+  "author_role": "independent reviewer; did not author candidate implementation",
+  "scientific_config_changes_allowed": false,
+  "natural_training_attempts_allowed": 1,
+  "model_execution_in_this_preparation": false,
+  "candidate_static_checks": [
+    "Bind exact candidate core/config/launcher/metrics bytes plus frozen v3 design/protocol and existing input SHA256; imports must not launch data/model work.",
+    "Only allowlisted train279/dev41/cache paths; no q/DDPM/old convolution construction or calls; test paths rejected before access; generation interface has no targets/length/g/h.",
+    "CPU and interop threads1; serial phases; watchdog totals prep60+training3x150+evaluation120+closure30<=660; timing starts before imports/setup and includes saves.",
+    "Exactly A/B/C x1000 update upper bounds, 28 development conditions x41, at most28 teacher-forced+1372 dev-step+147 generation calls; total natural forward<=4547; generation requests96 plus historical32.",
+    "All initial/request slots exist before model work; interruption/error/timeout preserve failed and unexecuted rows; no automatic retry, resampling, later checkpoint choice or cap extension."
+  ],
+  "synthetic_checks_after_explicit_serial_window": [
+    "Instantiate ABC once; count parameters66597/66597/62501, byte-equal A/B states, and exact C/common A state blocks including first-layer W_ih first40 columns; extra16 columns follow seed7222 only.",
+    "Using synthetic full bank with row/channel/position fingerprints, verify same train epsilon trajectory and complete sampled-z digest before B permutation; B preserves whole z rows with no post-permutation target epsilon.",
+    "Derangement fixture includes terminal groups size2, size3, singleton and a target minibatch with one row from a larger group. Assert no fixed point, bijection, same terminal; singleton raises before training.",
+    "Teacher-forcing fixtures L1,L47,L48: tensor width49, BOS/shifted inputs, exactly L+1 mask, first EOS included, tail PAD excluded. Independently calculate cross-entropy denominator and AA/EOS components; perturb excluded logits to ensure no loss change.",
+    "Hook LSTM input to verify token32+terminal8+z16 ordering, exact z1..48 and zero z49; no out-of-range access and no true-length-dependent latent zeroing.",
+    "Scripted probability fake model tests inverseCDF bin boundary, earlyEOS, emptyEOS, EOS49 and AA49 cap; emitted lengths never49; stopped rows absorb while fixed slot/position uniforms remain aligned.",
+    "Check free reconstruction uses only its own argmax prefix and terminal/z; teacher-forcing tokens cannot reach it; shape is all41 in one batch as prelocked.",
+    "Synthetic outputs with empty, invalid, missing, partial, timeout and cap_nonEOS verify fixed16 terminal denominators; A empty/failure cannot pass, incomplete comparator gives NOT_EVALUABLE; no empty feature-vector call.",
+    "Independent formula checks for equal-draw then equal-sequence reconstruction accuracy, linear421 feature scaling and squared mean distance, pooled log2 dipeptide JS, normalized unit-cost Levenshtein and strict gate ties/undefined.",
+    "Freeze a bounded synthetic throughput fixture before its first execution; record setup/training/full41x49 eval/generation/I/O and use conservative prospective budget only. Do not read natural outcomes to tune scope or budgets."
+  ],
+  "postflight_checks": [
+    "Recheck exact preflight-bound code/config/input hashes and process exit/closing ledger; no natural relaunch.",
+    "All three training arms complete1000 updates or comparison marked incomplete; A/B each-step pre-permutation sampled-z digests and batch identities agree.",
+    "Count28 development conditions,1148 rows,96 new generation slots and32 preserved historical slots; statuses and failed denominator obey frozen policy.",
+    "Recompute final metrics/gates from saved rows only, with same formulas and no new model calls or random draws; report all negative/failed results, actual cap accounting, and unchanged interpretation limits."
+  ],
+  "blocking_conditions": [
+    "Candidate files not yet sealed",
+    "Root serial synthetic-forward window not yet granted",
+    "Synthetic identity/edge-case/resource checks not yet executed",
+    "Natural execution receipt not yet issued"
+  ]
+}

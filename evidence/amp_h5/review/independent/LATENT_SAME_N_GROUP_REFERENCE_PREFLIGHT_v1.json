@@ -1,0 +1,207 @@
+{
+  "created_utc": "2026-10-11T19:47:41.065205+00:00",
+  "status": "PASS_STATIC_SYNTHETIC_SAVED_ARRAY_ANALYSIS_ONLY",
+  "scope_id": "AMP_H5_LATENT_SAME_N_GROUP_REFERENCE_V1",
+  "model_execution_authorized": false,
+  "pure_numpy_saved_array_analysis_eligible": true,
+  "checks": [
+    {
+      "name": "exact_protocol_and_script_hashes",
+      "pass": true
+    },
+    {
+      "name": "all12_frozen_input_hashes",
+      "pass": true
+    },
+    {
+      "name": "fixed256_shared_seed_and_counts",
+      "pass": true
+    },
+    {
+      "name": "only_CE_MSE_saved_inputs",
+      "pass": true
+    },
+    {
+      "name": "toy0_DP_matches_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "toy0_all_paths_uniform",
+      "pass": true
+    },
+    {
+      "name": "toy1_DP_matches_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "toy1_all_paths_uniform",
+      "pass": true
+    },
+    {
+      "name": "toy2_DP_matches_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "toy2_all_paths_uniform",
+      "pass": true
+    },
+    {
+      "name": "toy3_DP_matches_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "toy3_all_paths_uniform",
+      "pass": true
+    },
+    {
+      "name": "toy4_DP_matches_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "toy4_all_paths_uniform",
+      "pass": true
+    },
+    {
+      "name": "toy5_DP_matches_exhaustive",
+      "pass": true
+    },
+    {
+      "name": "toy5_all_paths_uniform",
+      "pass": true
+    },
+    {
+      "name": "integer_rejection_path",
+      "pass": true
+    },
+    {
+      "name": "arbitrary_integer_gt64bit",
+      "pass": true
+    },
+    {
+      "name": "deterministic_n1_no_draw",
+      "pass": true
+    },
+    {
+      "name": "all_indices_sealed_before_any_array_loading",
+      "pass": true
+    },
+    {
+      "name": "same_indices_and_reference_for_both_operands",
+      "pass": true
+    },
+    {
+      "name": "row_and_terminal_and_component_checks_present",
+      "pass": true
+    },
+    {
+      "name": "component_order_and_inclusion_recorded",
+      "pass": true
+    },
+    {
+      "name": "no_model_import_calls",
+      "pass": true
+    },
+    {
+      "name": "undefined_correlations_retained",
+      "pass": true
+    },
+    {
+      "name": "bounds_all279_seen_and_no_inferential_claims",
+      "pass": true
+    },
+    {
+      "name": "target_output_not_yet_created",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "exact_DP_bruteforce_subset_counts": [
+    2,
+    2,
+    3,
+    1,
+    0,
+    5
+  ],
+  "manual_formula_review": [
+    "Joint whole-component subset DP includes mixed-terminal components once; exact integer branch sampling is uniform over feasible labeled subsets, not uniform peptide inclusion.",
+    "Gen16 and statistical-holdout16 compare against identical remaining110/137; all279 were model training examples.",
+    "Mean/std/RMS use pooled field entries; profile correlations use fixed16channel/48position/768map means, not independent biological observations.",
+    "Coordinate tails use per-coordinate extrema/linear1%-99% quantiles of only remainingreference, denominators16x16x48 and per-peptide16x48.",
+    "Analytic q RMS=sqrt(mean(mu^2+sigma^2)); no latent samples fabricated. Paired metric deltas and empirical quantiles are descriptive, not confidence intervals/null/pvalues.",
+    "All256 draws reused for CE/MSE; no dev arrays, scalar data, covariance/PCA/W2 or new model route."
+  ],
+  "limitations": [
+    "Posthoc after generation/latent findings; freeze prevents further selection but does not create confirmatory preregistration.",
+    "Component closure is frozen sequence-similarity grouping, not biological-family independence; empirical inclusion counts are not IPW correction.",
+    "These profile statistics do not estimate full1536-dimensional joint covariance; same n removes this sample-size mismatch only, not estimator/model dependence.",
+    "No terminal-independent new model control is approved; oldA/B64 remains paused for four-arm completion and new unified scope."
+  ],
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_SAME_N_GROUP_REFERENCE_v1.json",
+      "sha256": "69996b7e20e0126878f2847c51e8a06d982924cc76d0b60e2d6d4e62c238d0b3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/latent_same_n_reference_v1.py",
+      "sha256": "4f8e18e287b1f81a9103db1140f3ffb2d30ae4f182173fa26b63b156abc1861a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/TRAIN_VAL_BINDING.json",
+      "sha256": "a42a54a46aa6fbdebfa9426ccfbb3a0800b21e411ec17a0728116c6f4be6b4b9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/GROUP_BINDING_AVAILABILITY.json",
+      "sha256": "94487523cd76ad184f6c091988df6c47f6214c36632373cd0f28a730942d9b16"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/LATENT_AVAILABILITY.json",
+      "sha256": "c4ace7de7df6912f18939f963caf1f9c33e925982b3a089659829f9ef5bb16a7"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_comparability_availability_v1/MANIFEST.json",
+      "sha256": "bd1666a2bc17abc073d9ae98d54d2dfc9f9e548f6a65c7a6266182316b2563ab"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/LATENT_MATCH_READOUT.json",
+      "sha256": "9f0a1fb765fd61770e0b15c9c4708951bd6e12fad137aa63b878f4df860c0a39"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_METRIC_CLARIFICATION.json",
+      "sha256": "42766c205908dd2d9bd0a97d1c52c720f4f1ce022555241f949272b01d505c7f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_FREE.npz",
+      "sha256": "f7899543f330e1fed829e592269c09c9b747e45abbffe2ec251f3e69c37fae0d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated_posterior_AMD.npz",
+      "sha256": "fd987de8fec498386f414b3c64db0512f916253d4f294152c97a095eb6d30722"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_posterior_parameters.npz",
+      "sha256": "803241f2a112a732b69d607fb8922d93f9828824dc4e0f44d1f932ea02249617"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_FREE.npz",
+      "sha256": "79b4282b306cb92a7a77220be22bd897b5a70855a49981daecbe97a34192c68e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated_posterior_AMD.npz",
+      "sha256": "49cc4057e28afc4cd035b133773406ea4bc513f5a8aadde958d36202f14729b9"
+    }
+  ],
+  "reviewer_actions": {
+    "stdlib_only": true,
+    "natural_array_loads": 0,
+    "natural_subsets_selected": 0,
+    "random_draws": 0,
+    "model_calls": 0,
+    "live_scalar_reads": 0,
+    "test37_reads": 0
+  }
+}

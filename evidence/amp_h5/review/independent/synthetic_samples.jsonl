@@ -1,0 +1,8 @@
+{"method": "CE21_DDPM", "terminal": "FREE", "sample_id": "fake_slot", "seed": "422", "sequence": "RRRRR", "status": "ok"}
+{"method": "CE21_DDPM", "terminal": "AMD", "sample_id": "CE21_DDPM_AMD_000", "seed": "423", "sequence": "AAAAA", "status": "ok"}
+{"method": "MSE21_DDPM", "terminal": "FREE", "sample_id": "MSE21_DDPM_FREE_000", "seed": "422", "sequence": "RRRRR", "status": "ok"}
+{"method": "MSE21_DDPM", "terminal": "AMD", "sample_id": "MSE21_DDPM_AMD_000", "seed": "423", "sequence": "AAAAA", "status": "ok"}
+{"method": "scalar_DDPM", "terminal": "FREE", "sample_id": "scalar_DDPM_FREE_000", "seed": "422", "sequence": "RRRRR", "status": "ok"}
+{"method": "scalar_DDPM", "terminal": "AMD", "sample_id": "scalar_DDPM_AMD_000", "seed": "423", "sequence": "AAAAA", "status": "ok"}
+{"method": "terminal_LSTM", "terminal": "FREE", "sample_id": "terminal_LSTM_FREE_000", "seed": "422", "sequence": "RRRRR", "status": "ok"}
+{"method": "terminal_LSTM", "terminal": "AMD", "sample_id": "terminal_LSTM_AMD_000", "seed": "423", "sequence": "AAAAA", "status": "ok"}

@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-11T17:52:46.134463+00:00",
+  "status": "PREPARED_NOT_EXECUTED_WAITING_FOR_ROOT_TERMINAL_NOTIFICATION",
+  "script": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/audit_ce_checkpoint_recovery_terminal_v1.py",
+  "script_sha256": "9e1acf1cbfaeafe1182acec125a3186bfbf71470f2d2d528dde392e5ee9bc727",
+  "validation": "AST parsing only; no live recovery output opened",
+  "output_report": "CE_CHECKPOINT_RECOVERY_TERMINAL_AUDIT_v1.json",
+  "terminal_guards": [
+    "recovery supervisor not running",
+    "no supervisor job running",
+    "model status does not start with running"
+  ],
+  "precommitted_checks": [
+    "Exact original plan/contract/preflight hashes and runtime/source parity",
+    "Original25 files unchanged and bound forensic41-check training proof; no fabricated training outputs",
+    "Strict loaded/final model digests and original checkpoint SHA256; restored scaler identity",
+    "32 fixed request IDs/terminal/seeds/all completion statuses retained",
+    "Raw posterior/sigma/z/decoder finite, sigma strictly positive, seed reparameterization and J decoding recomputed without models",
+    "Pooled and terminal-matched original CE1000 train-cache analytic q(z) scale summaries; no adaptive quality threshold",
+    "Train279/dev41 exact export identity, bound source hashes, no test37",
+    "Separate new1800 generation/1980 outer budget, old partial-cost lower bound and unknown original total",
+    "End-of-audit hash stability and saved failure evidence if any"
+  ],
+  "automatic_maximum_status": "PASS_CHECKS_PENDING_INDEPENDENT_SCALE_ASSESSMENT",
+  "postflight_receipt_requires": "Separate independent reviewer scale judgment after actual results; final schema scope RECOVERY_ENGINEERING_ONLY and attempt_id ce_checkpoint_recovery_v1",
+  "original_v2_engineering_gate": "NOT_EVALUABLE_INTERRUPTION",
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "MSE_scalar_authorized": false,
+  "PROMOTE": "HOLD"
+}

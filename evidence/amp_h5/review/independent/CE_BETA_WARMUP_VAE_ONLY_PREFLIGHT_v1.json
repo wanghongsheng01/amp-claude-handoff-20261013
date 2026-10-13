@@ -1,0 +1,143 @@
+{
+  "schema": "AMP_H5_EXACT_PLAN_PREFLIGHT_V1",
+  "status": "PASS",
+  "authorized": true,
+  "scope_id": "AMP_H5_CE_BETA_WARMUP_VAE_ONLY_V1",
+  "plan_sha256": "575bab69d2de163c92aee20f52a64a02faf158d2355850a6e0b83bee94a702d6",
+  "supervisor_sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+  "launcher_sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+  "root_receipt_sha256": "989e4e42a730bd7028c17adc95dde1c5c2f37cf0de147eb5665974ec9a807db9",
+  "candidate_manifest_sha256": "888c0c022e136e9ae72d616c5217ca0378e745080ec1d5bfeb3f0aec646a1bc4",
+  "contract_sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a",
+  "implementation_sha256": "ece1de1b5153ff1f14b02b37a4ebfd067e679f9f13f25efb1ec2fedbbc4ae2b2",
+  "joint_postflight_sha256": "67254873fcff4dfb660bca8f729798dfdd0873b7f9d6012f0f36b0320dacf036",
+  "created_utc": "2026-10-11T21:26:21.875453+00:00",
+  "checks": [
+    {
+      "check": "Exact plan SHA and all 124 distinct input SHA/declared bytes match",
+      "pass": true
+    },
+    {
+      "check": "Sealed candidate manifest and all seven members unchanged",
+      "pass": true
+    },
+    {
+      "check": "Root receipt exact identity and authorization fields match",
+      "pass": true
+    },
+    {
+      "check": "Completed independent joint scoring audit bound",
+      "pass": true
+    },
+    {
+      "check": "Exact rational 435643512761/7062926270400 exceeds 1/20 without float tolerance",
+      "pass": true
+    },
+    {
+      "check": "Complete 320x9 finite baseline and train279/dev41/K8 locked",
+      "pass": true
+    },
+    {
+      "check": "Score final closing/outer result/manifest, root guards and source bindings match",
+      "pass": true
+    },
+    {
+      "check": "One job argv matches frozen candidate with distinct absent output roots",
+      "pass": true
+    },
+    {
+      "check": "VAE1000 CPU1 seed222; no DDPM, generation or automatic posttraining RMS",
+      "pass": true
+    },
+    {
+      "check": "Only beta=min(1,(step-1)/200); prior static mathematics review preserved",
+      "pass": true
+    },
+    {
+      "check": "External actual process cap2100 plus VAE1920; timeout/overrun/partial remains NE",
+      "pass": true
+    },
+    {
+      "check": "Generic launcher/supervisor receipt interface and hashes verified",
+      "pass": true
+    },
+    {
+      "check": "Root process/load evidence bound; no independent fresh process claim in this receipt",
+      "pass": true
+    },
+    {
+      "check": "No sealed test or legacy test/datasets CSV hashed; no model import/forward/RNG or repeat synthetic tests",
+      "pass": true
+    }
+  ],
+  "binding_count": 124,
+  "authorization_scope": "Exactly one root-launched fresh VAE-only 1000-update beta-warmup attempt under this unchanged plan. No automatic retry, DDPM, generation, posterior RMS or scoring. Root rechecks process/load immediately before launch.",
+  "completion_requirements": {
+    "vae_stage_seconds": 1920,
+    "actual_supervisor_outer_seconds": 2100,
+    "note": "Wrapper status.outer_elapsed_seconds is captured before status/manifest final writes, so it is not authoritative complete-process time. Require final supervisor job exit0, no outer_timeout, job.seconds<=2100 and final status/manifest valid together. Record any shutdown/partial-checkpoint spill beyond2100; never call under-cap from wrapper alone. Supervisor terminate grace may add up to30sec; any timeout/failure/overrun is NOT_EVALUABLE, no retry.",
+    "scientific_success": "Not decided by training completion. Separate posttraining exact RMS scope/score and all four root guards required."
+  },
+  "entry_gate_exact_fraction": {
+    "numerator": 435643512761,
+    "denominator": 7062926270400
+  },
+  "scientific_limits": "Known-method posterior-noise robustness falsification only; no schedule variants, unique mechanism, innovation or generation advantage claim. The four prelocked success guards require a separately authorized posttraining evaluation; gap shrink alone is not success. Original CE E/L/G remain NOT_EVALUABLE and PROMOTE remains HOLD.",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_BETA_WARMUP_VAE_ONLY_PLAN_v1.json",
+      "sha256": "575bab69d2de163c92aee20f52a64a02faf158d2355850a6e0b83bee94a702d6",
+      "bytes": 46477
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/ROOT_LAUNCH_AUTHORIZATION.json",
+      "sha256": "989e4e42a730bd7028c17adc95dde1c5c2f37cf0de147eb5665974ec9a807db9",
+      "bytes": 7857
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/MANIFEST.json",
+      "sha256": "888c0c022e136e9ae72d616c5217ca0378e745080ec1d5bfeb3f0aec646a1bc4",
+      "bytes": 1227
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/CONTRACT.json",
+      "sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a",
+      "bytes": 38678
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/warmup_vae_only.py",
+      "sha256": "ece1de1b5153ff1f14b02b37a4ebfd067e679f9f13f25efb1ec2fedbbc4ae2b2",
+      "bytes": 16801
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+      "sha256": "598ce5a9565140cbde52a7db141a12a5d71293f533f92d5ef60bb8c46e1853d3",
+      "bytes": 3194
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/launch_detached_supervisor_v1.py",
+      "sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+      "bytes": 3703
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/NIGHT_FOLLOWUP_JOINT_POSTFLIGHT_v1.json",
+      "sha256": "67254873fcff4dfb660bca8f729798dfdd0873b7f9d6012f0f36b0320dacf036",
+      "bytes": 15962
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+      "sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194",
+      "bytes": 4360
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/ops/WARMUP_PRELAUNCH_LOAD_v1.json",
+      "sha256": "7edb1b1a3eb47c3d788d447df5bda747aa9a5c360576e69453f1a70e61efc24d",
+      "bytes": 501
+    }
+  ],
+  "review_scope": "Final hash/interface delta review after completed joint static and scoring audit; no new natural or synthetic calculation.",
+  "model_calls": 0,
+  "new_RNG_calls": 0,
+  "test_reads": 0,
+  "audit_seconds_before_receipt_io": 0.03328025
+}

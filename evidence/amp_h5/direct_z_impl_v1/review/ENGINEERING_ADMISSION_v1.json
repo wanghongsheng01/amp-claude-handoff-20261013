@@ -1,0 +1,118 @@
+{
+  "schema": "AMP_H5_DIRECT_Z_INDEPENDENT_ENGINEERING_ADMISSION_V1",
+  "status": "PASS_ENGINEERING",
+  "authorized_natural": true,
+  "independent_author": "/root/ar_admission_independent",
+  "created_utc": "2026-10-12T03:06:35.800281+00:00",
+  "authorization_source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/ops/ROOT_CONDITIONAL_AUTHORIZATION_v1.json",
+    "sha256": "805fbbba0de183aea05e80b5c235b68b8f4440a7b5e1a0ecf0e6fdcb519cfc4f",
+    "scope": "Parent-authorized conditional unique natural attempt; engineering conditions now met. Launch still must atomically acquire inherited H5 lock and recheck bound managed records."
+  },
+  "manifest_sha256": "72fffaade67bda42821f642c7f57f866517d38f9138d4eedbd8700d0f009f1a0",
+  "config_sha256": "08ed64a4238c40a496d31f45094a6ad17c06a50c2784c23692155827fc49ce9d",
+  "runner_sha256": "9d33ebe7f95d3c73f57984c96d7b0c038f9973493a1a9939e6ef5ecbf30cbe1b",
+  "supervisor_sha256": "eac02724bf627fc1878dea37898c1f28292044f95abba0402f37cdd051133d25",
+  "plan_sha256": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8",
+  "code_sha256": {
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/architecture.py": "df3d344878ccc861d36b51efc218c006dec4bb48491a2dbd5d57f6ea2f0a2b96",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/mechanics.py": "96c1961f00ab03fa8e7c21d0cbafaedcc212cef4fa8abff41e8d537db6e4bc98",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/contracts.py": "51993a613733b6db37c0bc443bfb528bee5d187611d1a8cb709930b501009f11",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/runner.py": "9d33ebe7f95d3c73f57984c96d7b0c038f9973493a1a9939e6ef5ecbf30cbe1b",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_impl_v1/score.py": "a1fb0174ff09e968108b85a0863c6ccfa76c160e6fd74d9ee8e0ef1bb725b7e1"
+  },
+  "engineering_result_sha256": "238365ba5fff5b0f52a0cbf4dcb6a3c92afcf8dd1f246fe36521ecd833da7c02",
+  "engineering_worker_result_sha256": "f4e1fcedc422ce2ab6de2a14d25e24c4e59e8aa70d8327be761e71c5501dfbe7",
+  "independent_worker_sha256": "5130a2786acb0e66443b499007d6f26c838451abe9137974f67704db4fcec7ba",
+  "independent_postflight_sha256": "1d639a13cb9a8bab8906d9eef3fab3a6d63839ffa48e3c1400aac317179d5e8c",
+  "synthetic_checks": true,
+  "throughput_checks": true,
+  "deterministic_preparation": {
+    "R_initial_sha256": "d4b5968d7425c33412610f384460e97d430ad22c5515b446015d8817745371e2",
+    "Z_initial_sha256": "cc152c385b1b12bb96ce5f27a34a79c6bfbc7aae851a9a2ba63508e752a5233f",
+    "shared_trunk_sha256": "a354eb9439b2ee1194a8f35db615a9ea7070a270132549260758f798f5f41a00",
+    "random_seal_sha256": "1fd681a156f895eb19d60b912a07b5fed7fb90c847f93f414340398f400c1f54",
+    "initial_rng_sha256": {
+      "generator_initial": "77cdbabd260a78811b412227757795a0b178149b2353397196447b336d659e76",
+      "generator_after_R": "45599b4207de41f452e65f448a00e4c0c20712d8e4a09f78a3c70cdfc329fec7",
+      "generator_after_Z": "3e8672b414dd18310c6d89d1f8b314743ef2a7de8a8429849bb71bafb4aa9fbc"
+    },
+    "scheduler_sequence_sha256": "407f5d21f10b6daacefe4b3f35b90d842769046c362aba14edf27cd2cfc117eb",
+    "noise_schedule_sha256": [
+      "c6030e2f637b07d651d5ea1e68496e38caa89eaf274a8c53b6e11e88b647f2ba",
+      "e7edd8a410ca48cfc04b8baf6cd564b69373c84c1240d8eaf78f3a158f76a033",
+      "772aea6135f3dfa9c04f7253d873534bb3dec4c0619c415131853ad3f4176a8f"
+    ],
+    "normalization": {
+      "R_mean": [
+        0.01368275461642464,
+        -0.013993807936512519
+      ],
+      "R_std": [
+        1.2358883058881482,
+        0.03768022555492503
+      ],
+      "Z_mean": 0.01368275461642464,
+      "Z_std": 1.5819537697447765,
+      "n": 279,
+      "fit_dtype": "float64",
+      "ddof": 0
+    },
+    "torch_version": "2.2.2",
+    "A_state_sha256": "5d9fe06ca9f48f3751737dc2ffe0e6247191e1b1789bd264e1fa2e0e3bec0638",
+    "uniforms_sha256": "e0c67f434b1f36142dd738ad80344d0c72b2b79eb76366daf006832426b23a3b",
+    "posterior279_sha256": "002157e49c6ef9c46081b94e0750e71ab60d15914c442f4e413ac503c10064ee"
+  },
+  "engineering_evidence": {
+    "wall_seconds": 75.97498020809144,
+    "actual_model_forward": 128,
+    "optimizer_updates": 64,
+    "natural_forward": 0,
+    "benchmark": {
+      "R": {
+        "training32_seconds": 16.579287541098893,
+        "setup_seconds_conservative": 0.33978208201006055,
+        "checkpoint_seconds": 0.446059999987483,
+        "training1000_forecast_seconds": 642.509124873206,
+        "generation32_seconds": 18.03775354102254,
+        "generation1996_forecast_seconds": 1380.125852545537
+      },
+      "Z": {
+        "training32_seconds": 16.89348370814696,
+        "setup_seconds_conservative": 0.3410780825652182,
+        "checkpoint_seconds": 0.4712777496315539,
+        "training1000_forecast_seconds": 654.3179948877078,
+        "generation32_seconds": 18.026732791680843,
+        "generation1996_forecast_seconds": 1379.300949457311
+      }
+    }
+  },
+  "managed_scope": {
+    "managed_h5_jobs_clear": true,
+    "host_process_scan_completed": false,
+    "atomic_lock_required": true,
+    "receipt_sha256": "ab9a11117feccac14596544eacf7e851cef4f403ba559d3d65ec3a1c3ac5fcf6"
+  },
+  "limits": {
+    "natural_outer_seconds": 4560,
+    "postflight_outer_seconds": 60,
+    "total_compute_seconds": 4800,
+    "natural_forward_max": 6090,
+    "natural_updates": 2000,
+    "new_sequences_requested": 64,
+    "C_saved_slots": 32,
+    "natural_attempts": 1,
+    "retries": 0
+  },
+  "interpretation": "Measured throughput admission is not a runtime guarantee or scientific success. Keep all failures, stop on frozen phase/outer caps, use frozen60s saved-output audit, no tuning or repeat.",
+  "receipt_activity": {
+    "model_forward": 0,
+    "new_rng": 0,
+    "training": 0,
+    "test_reads": 0
+  },
+  "source_binding_checks": {
+    "manifest_bindings_verified": 45,
+    "managed_record_bindings_verified": 47
+  }
+}

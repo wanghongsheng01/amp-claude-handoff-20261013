@@ -1,0 +1,100 @@
+{
+  "mu": {
+    "shape": [
+      1,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 768,
+    "finite_elements": 768,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -227.30618286132812,
+    "finite_max": 259.8572082519531,
+    "finite_mean": 11.16185738480029,
+    "finite_std": 48.62181746582824,
+    "finite_rms": 49.886553237911116,
+    "finite_q01_q50_q99": [
+      -110.10460563659667,
+      8.620775699615479,
+      155.841018676758
+    ]
+  },
+  "logsigma": {
+    "shape": [
+      1,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 768,
+    "finite_elements": 768,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -359.8711242675781,
+    "finite_max": 309.5354309082031,
+    "finite_mean": 22.17632767979133,
+    "finite_std": 56.78842932907181,
+    "finite_rms": 60.96486869521218,
+    "finite_q01_q50_q99": [
+      -102.40132331848145,
+      21.06968116760254,
+      174.57182861328133
+    ]
+  },
+  "sigma": {
+    "shape": [
+      1,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 768,
+    "finite_elements": 695,
+    "all_finite": false,
+    "nan_elements": 0,
+    "positive_inf_elements": 73,
+    "negative_inf_elements": 0,
+    "finite_min": 0.0,
+    "finite_max": 2.1169278245980943e+38,
+    "finite_mean": 7.740223947686131e+35,
+    "finite_std": 1.0585614202584444e+37,
+    "finite_rms": 1.0613874820891792e+37,
+    "finite_q01_q50_q99": [
+      1.401298464324817e-45,
+      713738.1875,
+      6.853824792452104e+36
+    ]
+  },
+  "sigma_zero_count": 6,
+  "latent": {
+    "shape": [
+      1,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 768,
+    "finite_elements": 695,
+    "all_finite": false,
+    "nan_elements": 0,
+    "positive_inf_elements": 28,
+    "negative_inf_elements": 45,
+    "finite_min": -2.011262149637758e+38,
+    "finite_max": 2.3749071447204213e+37,
+    "finite_mean": -2.537995565719669e+35,
+    "finite_std": 7.806279587731784e+36,
+    "finite_rms": 7.810404292784981e+36,
+    "finite_q01_q50_q99": [
+      -1.4879187173322406e+35,
+      16.21357536315918,
+      6.937526725280606e+35
+    ]
+  },
+  "epsilon_sha256": "54660fe0cb71bbe8d42f568708c66e3d4fc7b216bc2c81592c5ffbf243af7fe0"
+}

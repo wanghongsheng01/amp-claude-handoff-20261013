@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "beta_loss_split.jsonl",
+      "bytes": 384003,
+      "sha256": "bcf9626560e7295958397a35b2034e71b47f571574d1b820cbc4d138452786f9"
+    },
+    {
+      "path": "dev_monitor.jsonl",
+      "bytes": 4108,
+      "sha256": "844f7393de766b9dbc6da6a83cd9506d39ad0c3bcd09efd2d67d5eed464b11b3"
+    },
+    {
+      "path": "effective_vae_config.json",
+      "bytes": 2541,
+      "sha256": "2d764e8e5f6ddfa03ca6b1b0bea985b79629f119efae8ee99b318c5c54e1e584"
+    },
+    {
+      "path": "paired_forward_attempts.jsonl",
+      "bytes": 10619751,
+      "sha256": "f50f8d9562865391be3647cf38c08e400abf73644123327a30fb2aa07f5b097b"
+    },
+    {
+      "path": "root_launch_receipt.json",
+      "bytes": 7858,
+      "sha256": "9fa2d593342ddb72841a0501b061e7e07e29a44036db05c62a8ca70013ce246d"
+    },
+    {
+      "path": "runtime_and_source.json",
+      "bytes": 268,
+      "sha256": "eaf6dea3d26eaa837481b46ae0505a7e4dc770f59864bad9576054e8edaa72e1"
+    },
+    {
+      "path": "status.json",
+      "bytes": 627,
+      "sha256": "394a1674f23ec2de5754b499f3e77186ad348391c3200d53ff214b21c8134975"
+    },
+    {
+      "path": "train_feature_scaler.json",
+      "bytes": 3279,
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d"
+    },
+    {
+      "path": "vae_initial_state.json",
+      "bytes": 208,
+      "sha256": "c7513b462362422ed3d7e117faf9f972839ae231b972f5db76c3b226accf888a"
+    },
+    {
+      "path": "vae_initial_state.pt",
+      "bytes": 6802066,
+      "sha256": "9c1972402bdfcfc56fa58656858a110fa7fd7ca58a438e8a4b6b43dd2669429c"
+    },
+    {
+      "path": "vae_initialization.json",
+      "bytes": 170,
+      "sha256": "8ea13f7d4d425c37d53a1f2dfce797f56b900b489bf3ed07a8a97fa3e1ac094c"
+    },
+    {
+      "path": "vae_state.json",
+      "bytes": 421,
+      "sha256": "57318bb04fdf6b92d44b87f9996947623a10879f7235460080a6c0fae6908c25"
+    },
+    {
+      "path": "vae_state.pt",
+      "bytes": 6800314,
+      "sha256": "05b9497ec78697dafdbceaae0cac5ef54e8b157b3b3f9cf417053b6d7e9e96d6"
+    },
+    {
+      "path": "vae_train.jsonl",
+      "bytes": 557114,
+      "sha256": "a95dce4a9dfe1732f2c11eead098ad21861a5791b8eec937b923f4d808bb50ef"
+    },
+    {
+      "path": "vae_training_state.pt",
+      "bytes": 13627459,
+      "sha256": "b9c59d94d0eb558cb4d2850da7c2e876baedc357adce20b47f31712b60e2533b"
+    },
+    {
+      "path": "vae_training_summary.json",
+      "bytes": 289,
+      "sha256": "284d4916224b1f564a0cbe3f1ef76b94c607ecd696427b57186f44cf90d10c69"
+    }
+  ]
+}

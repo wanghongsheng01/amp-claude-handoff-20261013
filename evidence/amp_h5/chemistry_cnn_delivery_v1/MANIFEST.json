@@ -1,0 +1,274 @@
+{
+  "created_utc": "2026-10-12T09:00:24.162501+00:00",
+  "root": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5",
+  "files": {
+    "chemistry_units_v1/FREEZE.json": {
+      "sha256": "9e0471ccdedd27dc71409bb4ad7f615e7f4d682643093245e5d8ffeab1706383",
+      "bytes": 604
+    },
+    "chemistry_units_v1/MANIFEST.json": {
+      "sha256": "263f8a93fd2e69dedec72285fe51578658a04ff5a90ba009d210516119b65785",
+      "bytes": 1473
+    },
+    "chemistry_units_v1/PLAN.json": {
+      "sha256": "b2b866b539b021d07a2311aa7dbbf5b20a8bcf939f7a0e4f43bdd92b8c819246",
+      "bytes": 3708
+    },
+    "chemistry_units_v1/SYNTHETIC_CHECKS.json": {
+      "sha256": "f2a87ece7bba63e1c702de278c44a3debefca0341287a9a55758c591ddc33d6e",
+      "bytes": 331
+    },
+    "chemistry_units_v1/audit_convert.py": {
+      "sha256": "2902497a80db26067dbaad34b7b8bf171a0afa977fda2c0089108157877fc188",
+      "bytes": 13794
+    },
+    "chemistry_units_v1/results/SUMMARY.json": {
+      "sha256": "ff6dfd8d1f449226e94e4909fe054c46ec3a0c5fbf90547f522fc20844d5b12f",
+      "bytes": 2168
+    },
+    "chemistry_units_v1/results/chemical_identity_audit.jsonl": {
+      "sha256": "8520cabc0eb64c08bce6192c11e0e7bb5efd6d4b4583b5653e0a905285e4e2c9",
+      "bytes": 155517
+    },
+    "chemistry_units_v1/results/mass_MIC_conversion_draft.csv": {
+      "sha256": "ac03ff71d22d1fd725f5788323caef86cc77b6554805b575cd497982a2e19a86",
+      "bytes": 160310
+    },
+    "chemistry_units_v1/results/mass_MIC_conversion_draft.jsonl": {
+      "sha256": "439825be424ac7e79e254fc14bf31cbce28c46914b2e3d1f907d2c6d572eded6",
+      "bytes": 227173
+    },
+    "chemistry_units_v1/run.log": {
+      "sha256": "54d9d6e5b10012b4d04cdc21cc148f02ca2af6ce090de27ad7dd963a289f18e3",
+      "bytes": 5154
+    },
+    "chemistry_units_v2/FREEZE.json": {
+      "sha256": "b25067548767302fe1794a2cb5fbd7a40474f6594c54713bafb3da7d84f3c0e4",
+      "bytes": 794
+    },
+    "chemistry_units_v2/MANIFEST.json": {
+      "sha256": "dfc3b6ee33ba296a85af6921cf540b9a362d5da4de77879966bd78e9a9555865",
+      "bytes": 2167
+    },
+    "chemistry_units_v2/PLAN.json": {
+      "sha256": "0253e3b239fb6523e8a67fd3cbc9264de55d9f4a8a44a04e6d5c8bb2e6b1338f",
+      "bytes": 4491
+    },
+    "chemistry_units_v2/README.zh.md": {
+      "sha256": "338b843b7cda823ef88c6004ddd68ad517d3d7a448b4f065f6ea0ed0e2a47594",
+      "bytes": 5083
+    },
+    "chemistry_units_v2/SYNTHETIC_CHECKS.json": {
+      "sha256": "38638de86f90ec136e50d21373e2b5f181e3f87beef333fb0def727239bc97e9",
+      "bytes": 670
+    },
+    "chemistry_units_v2/audit_convert.py": {
+      "sha256": "1f1ec396f17c0f1910dd70f59eeccfe2671365ae97c834a922bc84321716a9a2",
+      "bytes": 18148
+    },
+    "chemistry_units_v2/build_v2.py": {
+      "sha256": "09a54d0b5b87f88565435d195faa9e267e4aa969df8b9369f2cb55ffddee9732",
+      "bytes": 7249
+    },
+    "chemistry_units_v2/freeze.py": {
+      "sha256": "b8016dbda1caa4d4bb0275750ebfd19dd2a9a5b0df315f786269afd985fdac24",
+      "bytes": 719
+    },
+    "chemistry_units_v2/results/CNN_REPRESENTATION_AUDIT.json": {
+      "sha256": "ad419a67a06839d0392410dcd75d908cca64ad77a8b899747c9a0e09bb0ebc66",
+      "bytes": 2119
+    },
+    "chemistry_units_v2/results/SUMMARY.json": {
+      "sha256": "db857a717788bdc4e420cbc6c58920b4e38282775662fa953423b5ba35716826",
+      "bytes": 2616
+    },
+    "chemistry_units_v2/results/chemical_identity_audit.jsonl": {
+      "sha256": "68309522c055abe716726a76844c04122e712e3f012cd8326d455b7b240b7002",
+      "bytes": 163096
+    },
+    "chemistry_units_v2/results/mass_MIC_conversion_draft.csv": {
+      "sha256": "8be7c325cbe8bcf040aa5d1687045d65fb0b9713f4a0f43018973eca646e749e",
+      "bytes": 169305
+    },
+    "chemistry_units_v2/results/mass_MIC_conversion_draft.jsonl": {
+      "sha256": "7ec28eac2edb82565b94d362fb33951e1f2ef20cb214358c5505a0883bc34899",
+      "bytes": 237399
+    },
+    "chemistry_units_v2/run.log": {
+      "sha256": "e98952c8beedf05a5d1c8eb16e211d986f736594837c2357f8b326cb0488ce2f",
+      "bytes": 2224
+    },
+    "chemistry_units_v2/validate_synthetic.py": {
+      "sha256": "7e69ea77f64b987a32ae5be426d814bbc9afcfad434b45c7c4df45f29a17a1e3",
+      "bytes": 2947
+    },
+    "witten_cpu_v1/AUTHOR_BINDING.json": {
+      "sha256": "0f113581e79d6dd6edc04d8e324eedfadeedf39806fe17f1f40c7f752958db4f",
+      "bytes": 1876
+    },
+    "witten_cpu_v1/CONFIG.json": {
+      "sha256": "15d5af361d66e9eb3ecd152e493ba256f3a5b25391cd01b77c6b908290e62d8e",
+      "bytes": 1519
+    },
+    "witten_cpu_v1/DELIVERY.json": {
+      "sha256": "358297dedc2f795f72d37c1a9b64eda3425008a7382c257e36a8eb45486f0cbb",
+      "bytes": 1164
+    },
+    "witten_cpu_v1/FREEZE.json": {
+      "sha256": "f559752de93f9b25a354ec27145248747d64aec4730c504cdfae3770c1a7f218",
+      "bytes": 674
+    },
+    "witten_cpu_v1/MANIFEST.json": {
+      "sha256": "c41d0769f2f79d801fb38b11a97d5de5615d90903cb9c607a1eb64bdb64882ae",
+      "bytes": 2366
+    },
+    "witten_cpu_v1/PREFLIGHT.json": {
+      "sha256": "98982c3a1fe34034f041d7c1d0f61aef49ef0b5e7dfeca69a4812b61cade558e",
+      "bytes": 437
+    },
+    "witten_cpu_v1/README.md": {
+      "sha256": "f44a0a0b251fa7dc8d2ee46e6d02f48b912accf612646235ab1ea43ad569f6eb",
+      "bytes": 5732
+    },
+    "witten_cpu_v1/REPAIR.json": {
+      "sha256": "93e988055d2b13841cb17ac0851fa5697565857d235b3cf6ba9c4933a87d25e7",
+      "bytes": 327
+    },
+    "witten_cpu_v1/RESULT.json": {
+      "sha256": "89b96b41ad040f729066634365e20222d8c400b9242acd4b4abc2dc1c234e7aa",
+      "bytes": 8028
+    },
+    "witten_cpu_v1/attempt1/FREEZE.json": {
+      "sha256": "6659a79194ace51cc3064b4ebec63fa91a7b150047902a52ad83e6554426ef9b",
+      "bytes": 587
+    },
+    "witten_cpu_v1/attempt1/RESULT.json": {
+      "sha256": "192af47b308896d544c42fc13b4f845eb8f058c97eac9c53d7e31605b1247c24",
+      "bytes": 1311
+    },
+    "witten_cpu_v1/attempt1/stderr.txt": {
+      "sha256": "eca348ae5afae73364f0b57cc5e7793e9531b34b749d52225d94a4ad934a2a1a",
+      "bytes": 2706
+    },
+    "witten_cpu_v1/attempt1/stdout.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "witten_cpu_v1/attempt1/validate_synthetic.py": {
+      "sha256": "6af5725ac44e9757b4fca798561d390127a5128ba5dd9e96cd86897aadd782d9",
+      "bytes": 7587
+    },
+    "witten_cpu_v1/model.py": {
+      "sha256": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+      "bytes": 2604
+    },
+    "witten_cpu_v1/stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "witten_cpu_v1/stdout.txt": {
+      "sha256": "8bbd1427b6f5fb7c613daccdb8bf9a075e6380518b104b7e286fa2853426be96",
+      "bytes": 114
+    },
+    "witten_cpu_v1/validate_synthetic.py": {
+      "sha256": "c381374708d7f2d5922f32ef062da5770e1e1f7f25a5ecca1a9e08c3de5612c5",
+      "bytes": 7599
+    },
+    "chem_cnn_audit_v1/ACTUAL_CHEMISTRY_UNITS_V1.json": {
+      "sha256": "a19d2c26ead596aff572a3adc1ffa1b905be96f36d4b291aca9d47539bec98c7",
+      "bytes": 1155
+    },
+    "chem_cnn_audit_v1/ACTUAL_CHEMISTRY_UNITS_V2.json": {
+      "sha256": "3d68795a8f92278699a0f77c78eab1e59d34000351643024addc17fd54aa7e89",
+      "bytes": 1351
+    },
+    "chem_cnn_audit_v1/CHEMISTRY_INDEPENDENT_SYNTHETIC.json": {
+      "sha256": "e1fe085322283b814bd209457ff470ab05c99f5fe118ddfc7e547773cab23a60",
+      "bytes": 1264
+    },
+    "chem_cnn_audit_v1/CNN_INDEPENDENT_NUMERIC.json": {
+      "sha256": "f5b81e1a7fcb9c02eca3bdf411373b2838646613e753b3aec335b0ac5723519c",
+      "bytes": 502
+    },
+    "chem_cnn_audit_v1/CNN_SOURCE_AUDIT.json": {
+      "sha256": "2b46488772ce90e36c594d227874a8fbd5b03ea6a2a4385643b944b1b0f09959",
+      "bytes": 4491
+    },
+    "chem_cnn_audit_v1/MANIFEST.json": {
+      "sha256": "6dd812a834f1e847745432bfac42f6d2494590d5f680fbf754e0bb08910300ef",
+      "bytes": 2444
+    },
+    "chem_cnn_audit_v1/PREAUDIT.json": {
+      "sha256": "97982557dc376a5f96fe27381e41ad235546e21d41a3d6950258e25a8b6cf172",
+      "bytes": 2065
+    },
+    "chem_cnn_audit_v1/RAW_CHEMISTRY_INDEPENDENT.json": {
+      "sha256": "a6b7274fab1f95b08caf78f0fcf0ec09db602618ce378016c72bbb5a7e038355",
+      "bytes": 71633
+    },
+    "chem_cnn_audit_v1/REPRESENTATION_AND_PENDING_AUDIT.json": {
+      "sha256": "5a8bdc9700ae44056b87109f221e014bfe3093c0bd206532290b1df9949a1f1c",
+      "bytes": 5101
+    },
+    "chem_cnn_audit_v1/SIGNOFF.json": {
+      "sha256": "4471e461f1fafdc64f0cdfddd9b55644b6d7c9b17beffd98204a885b0380bb19",
+      "bytes": 2031
+    },
+    "chem_cnn_audit_v1/V2_NORMALIZATION_PREAUDIT.json": {
+      "sha256": "d5172146d7638772be71b17ebf91b1b6a09e8f0a1a96170409969d72d80254d9",
+      "bytes": 1254
+    },
+    "chem_cnn_audit_v1/audit_actual_chemistry.py": {
+      "sha256": "80273df757c0ac1f375233b2ae4061babce3f3449a6cea759581ed50e01c741e",
+      "bytes": 5070
+    },
+    "chem_cnn_audit_v1/audit_cnn_edge_numeric.py": {
+      "sha256": "06dd487fdecec5fb2a587f6223976a4d7dca610f64acbed6ad2ed7a825a0bb63",
+      "bytes": 1942
+    },
+    "chem_cnn_audit_v1/audit_conversion_synthetic.py": {
+      "sha256": "34cea34aac5746f155ab79816c8db37e3b85d8ff46b1b0583f27e011bade8537",
+      "bytes": 3425
+    },
+    "chem_cnn_audit_v1/audit_conversion_v2_synthetic.py": {
+      "sha256": "9c22714923f9f3ae75d1ab27f4d22b9a672cf2937423d07c5d98e217c8e540e9",
+      "bytes": 4447
+    },
+    "chem_cnn_audit_v1/audit_raw_chemistry.py": {
+      "sha256": "c15c299a6b70e2273aca042fd5cd0cc3be2a9af64340aaa66096a4601884f7f6",
+      "bytes": 3037
+    },
+    "chem_cnn_audit_v1/audit_representation_and_pending.py": {
+      "sha256": "285a69e417acb29d8e43b752402f7173393050a17feb7fb9f62082ba7d03d787",
+      "bytes": 3545
+    },
+    "chemistry_cnn_delivery_v1/CANDIDATE_EVIDENCE_QUEUE.json": {
+      "sha256": "bf3edcd22c36f4c3d8e47d90e7771a59a54b5f9c0fe623fffc5352c7857548af",
+      "bytes": 13453
+    },
+    "chemistry_cnn_delivery_v1/DELIVERY.json": {
+      "sha256": "6e4e4bb1ef60867653634a0b473b27529734d384607ca4901245cb0d86edb81b",
+      "bytes": 5077
+    },
+    "chemistry_cnn_delivery_v1/PACKAGING_REPAIR.json": {
+      "sha256": "85d60c1119f909bed2f3f65c6f9f7d03a64d08d0c06c400876afa2a7036d839d",
+      "bytes": 252
+    },
+    "chemistry_cnn_delivery_v1/VERIFICATION.json": {
+      "sha256": "42ac864102a6e302b92560d0b3898e90c185e2846057f14091500fc2e7d1f410",
+      "bytes": 293
+    },
+    "chemistry_cnn_delivery_v1/finalize.py": {
+      "sha256": "0923a0fec70352010c2df336b385d30ecdfa3de276e2986f9fa2900d11ba2b6d",
+      "bytes": 5337
+    },
+    "chemistry_cnn_delivery_v1/finalize_attempt1.py": {
+      "sha256": "a66f9cd387e1bfe220893e9cd0b65df38bab41baf6d94cdfd7777733ab06ac08",
+      "bytes": 5314
+    }
+  },
+  "exclusions": [
+    "__pycache__",
+    "this self-referential manifest"
+  ]
+}

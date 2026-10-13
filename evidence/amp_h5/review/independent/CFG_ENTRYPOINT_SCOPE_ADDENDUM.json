@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-11T16:20:08.669387+00:00",
+  "scope": "Static clarification only; no change to frozen protocol or parity script/config",
+  "bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+      "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/train_diffusion.py",
+      "sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8"
+    }
+  ],
+  "facts": [
+    {
+      "entry": "corrected_code/diffusion.py",
+      "default_cfg_scale": -1,
+      "explicit_main_calls": [
+        -1,
+        -1,
+        -1
+      ],
+      "lines": [
+        106,
+        118,
+        264,
+        280,
+        296
+      ]
+    },
+    {
+      "entry": "corrected_code/AMP_VAEflow/tasks/train_diffusion.py",
+      "default_cfg_scale": 7,
+      "explicit_main_call": 3,
+      "lines": [
+        105,
+        120,
+        284
+      ]
+    }
+  ],
+  "conclusion": "Repository contains multiple entrypoint settings. H4/H5 pure conditional prediction is consistent with the top-level diffusion.py cfg_scale=-1 branch. No claim that H4/H5 differ from the entire original repository CFG setting."
+}

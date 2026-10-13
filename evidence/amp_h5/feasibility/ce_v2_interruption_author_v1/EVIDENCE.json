@@ -1,0 +1,566 @@
+{
+  "created_utc": "2026-10-11T17:36:24.628504+00:00",
+  "scope": "author read-only interruption evidence; no model/weight deserialization/source CSV reads/test access; original artifacts unchanged",
+  "classification": "INTERRUPTED_WITH_STALE_RUNNING_STATUS_NOT_COMPLETED",
+  "original_runner_status": {
+    "state": "running",
+    "purpose": "formal_pilot",
+    "config_sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+    "runner_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+    "test_read": false,
+    "development_read": true,
+    "train_read_attempted": true,
+    "train_read_validated": true,
+    "development_read_attempted": true,
+    "development_read_validated": true
+  },
+  "original_supervisor_status": {
+    "pid": 60744,
+    "created_utc": "2026-10-11T16:48:18.257064+00:00",
+    "state": "running",
+    "plan_sha256": "ce193e133e86d995c21e4596412ce08ee61bb2be3cb47b2549d4f11f5c86f2d6",
+    "jobs": [
+      {
+        "id": "categorical_ce",
+        "argv": [
+          "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+          "-u",
+          "-B",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "run",
+          "--config",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/formal_configs_v2/categorical_ce.json",
+          "--output",
+          "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce"
+        ],
+        "started_utc": "2026-10-11T16:48:18.257378+00:00",
+        "state": "running",
+        "pid": 60747
+      }
+    ]
+  },
+  "process_evidence": {
+    "parent_report": "Root reports original supervisor60744 and model60747 no longer exist after connection restoration.",
+    "author_probe": "ps -p 60744,60747 -o pid=,ppid=,etime=,command=",
+    "author_probe_result": "PermissionError: Operation not permitted; process absence is parent-reported, not independently verified by this author.",
+    "termination_cause": "unknown",
+    "exact_termination_time": "unknown"
+  },
+  "training": {
+    "vae": {
+      "updates_logged": 1000,
+      "exact_steps_1_to_1000": true,
+      "all_losses_finite": true,
+      "first_loss": 7.473040580749512,
+      "last_loss": 0.432666152715683,
+      "first20_mean": 7.61619119644165,
+      "last20_mean": 0.47269870787858964,
+      "last_row": {
+        "step": 1000,
+        "rows": 32,
+        "record_indices": [
+          100,
+          98,
+          70,
+          74,
+          252,
+          121,
+          139,
+          233,
+          107,
+          189,
+          215,
+          128,
+          43,
+          86,
+          99,
+          234,
+          34,
+          10,
+          119,
+          254,
+          21,
+          77,
+          155,
+          123,
+          130,
+          156,
+          275,
+          84,
+          143,
+          228,
+          112,
+          211
+        ],
+        "loss": 0.432666152715683,
+        "reconstruction": 0.33289870619773865,
+        "kl": 0.09976744651794434,
+        "density_sum": 153.2427978515625,
+        "lr": 0.000499,
+        "gradient_norm_before_clip": 3.5329158306121826,
+        "forward_rng_sha256": "19708c8f7396099ce4c1b033bc269dfb00dc153745ef3112d7ca62ddbcfa812c",
+        "duration_seconds": 1.2069883751682937,
+        "elapsed_stage_seconds": 1178.2584073329344
+      },
+      "training_summary": {
+        "updates": 1000,
+        "requested_updates": 1000,
+        "fixed_endpoint_reached": true,
+        "initial_tensor_state_sha256": "9a6ad5d1c90f1da55bc02310ef77adc6425f6fb419099859159149d361ec478d",
+        "elapsed_seconds_before_checkpoint_io": 1178.9785047080368,
+        "elapsed_seconds": 1179.0319216251373
+      }
+    },
+    "ddpm": {
+      "updates_logged": 1000,
+      "exact_steps_1_to_1000": true,
+      "all_losses_finite": true,
+      "first_loss": 1.2352806329727173,
+      "last_loss": 0.017417004331946373,
+      "first20_mean": 0.8134081318974495,
+      "last20_mean": 0.022613594750873746,
+      "last_row": {
+        "step": 1000,
+        "record_indices": [
+          180,
+          230,
+          130,
+          66,
+          23,
+          269,
+          249,
+          1
+        ],
+        "rows": 8,
+        "mse": 0.017417004331946373,
+        "lr": 4.51774192768498e-08,
+        "label_dropped": false,
+        "noise_timestep_sha256": "036f8bce5e2ba9956fd2d264f4538e277c4934a53c064d240c1868bfefed68f6",
+        "duration_seconds": 0.5721574169583619,
+        "elapsed_stage_seconds": 563.7474023331888
+      },
+      "training_summary": {
+        "updates": 1000,
+        "requested_updates": 1000,
+        "fixed_endpoint_reached": true,
+        "initial_tensor_state_sha256": "bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f",
+        "posterior_encoding_and_setup_seconds": 6.299964915961027,
+        "elapsed_seconds_before_checkpoint_io": 563.7486409158446,
+        "parameters": 18612994,
+        "ema_step": 1000,
+        "ema_semantics": "inherited reset/copy until 2000 updates; beta=.995 thereafter",
+        "elapsed_seconds": 564.3461695411243
+      }
+    }
+  },
+  "saved_dev_curve": [
+    {
+      "step": 100,
+      "rows": 41,
+      "correct_nonpad": 63,
+      "nonpad": 701,
+      "absolute_length_error": 1267,
+      "exact_sequences": 0,
+      "nonpad_token_accuracy": 0.0898716119828816,
+      "length_mae": 30.902439024390244,
+      "mean_reconstruction_objective": 3.0713575409679876,
+      "rng_preserved": true,
+      "rng_sha256": "6b71bf93e7a9198ac02829fe4c2479a88326eba4300abea383e734516d53a2a9",
+      "seconds": 0.7253162497654557,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 200,
+      "rows": 41,
+      "correct_nonpad": 0,
+      "nonpad": 701,
+      "absolute_length_error": 701,
+      "exact_sequences": 0,
+      "nonpad_token_accuracy": 0.0,
+      "length_mae": 17.097560975609756,
+      "mean_reconstruction_objective": 1.6051427019320852,
+      "rng_preserved": true,
+      "rng_sha256": "0a395d6ef7d3b5a1bf172130972fb97a24c489b98cfa4d59cca5e14c993145c7",
+      "seconds": 0.7302754996344447,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 300,
+      "rows": 41,
+      "correct_nonpad": 1,
+      "nonpad": 701,
+      "absolute_length_error": 687,
+      "exact_sequences": 0,
+      "nonpad_token_accuracy": 0.0014265335235378032,
+      "length_mae": 16.75609756097561,
+      "mean_reconstruction_objective": 1.2066339322221957,
+      "rng_preserved": true,
+      "rng_sha256": "9c5990914f6da1239f7084c6629064938416eeef63100cb9c2a99fa20ceb612c",
+      "seconds": 0.7093555410392582,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 400,
+      "rows": 41,
+      "correct_nonpad": 115,
+      "nonpad": 701,
+      "absolute_length_error": 161,
+      "exact_sequences": 0,
+      "nonpad_token_accuracy": 0.16405135520684735,
+      "length_mae": 3.926829268292683,
+      "mean_reconstruction_objective": 1.0533485102459668,
+      "rng_preserved": true,
+      "rng_sha256": "8a1841cde3c838f10509f5d80e11161cb7f0782552895530b6836c1e7f6b3f6e",
+      "seconds": 0.7100997078232467,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 500,
+      "rows": 41,
+      "correct_nonpad": 153,
+      "nonpad": 701,
+      "absolute_length_error": 73,
+      "exact_sequences": 0,
+      "nonpad_token_accuracy": 0.21825962910128388,
+      "length_mae": 1.7804878048780488,
+      "mean_reconstruction_objective": 1.0005956665287172,
+      "rng_preserved": true,
+      "rng_sha256": "9f1eae977c0cf4637164dfcf9d87463a239343360ce3178f95458847927bc9d6",
+      "seconds": 0.7591026248410344,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 600,
+      "rows": 41,
+      "correct_nonpad": 174,
+      "nonpad": 701,
+      "absolute_length_error": 12,
+      "exact_sequences": 0,
+      "nonpad_token_accuracy": 0.24821683309557774,
+      "length_mae": 0.2926829268292683,
+      "mean_reconstruction_objective": 0.9329622160128461,
+      "rng_preserved": true,
+      "rng_sha256": "5acae52da0fe6c96bdfbd34d278ea00403d53d9fad15225203e7697650b2f9f0",
+      "seconds": 0.7076811669394374,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 700,
+      "rows": 41,
+      "correct_nonpad": 249,
+      "nonpad": 701,
+      "absolute_length_error": 11,
+      "exact_sequences": 0,
+      "nonpad_token_accuracy": 0.35520684736091296,
+      "length_mae": 0.2682926829268293,
+      "mean_reconstruction_objective": 0.845834933645357,
+      "rng_preserved": true,
+      "rng_sha256": "aa473ad4501da89d7133f1a2e6a647e8ba28cb1b4855d2b40e33cde5338c0ef2",
+      "seconds": 0.7341331667266786,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 800,
+      "rows": 41,
+      "correct_nonpad": 305,
+      "nonpad": 701,
+      "absolute_length_error": 9,
+      "exact_sequences": 1,
+      "nonpad_token_accuracy": 0.43509272467902993,
+      "length_mae": 0.21951219512195122,
+      "mean_reconstruction_objective": 0.6247745141750429,
+      "rng_preserved": true,
+      "rng_sha256": "d2b5a39c70de431e0f9d9294c5d556b1323925520e5d39a21cd5ae7c6332aa46",
+      "seconds": 0.725060457829386,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 900,
+      "rows": 41,
+      "correct_nonpad": 439,
+      "nonpad": 701,
+      "absolute_length_error": 3,
+      "exact_sequences": 3,
+      "nonpad_token_accuracy": 0.6262482168330956,
+      "length_mae": 0.07317073170731707,
+      "mean_reconstruction_objective": 0.41210838255843496,
+      "rng_preserved": true,
+      "rng_sha256": "d90e758109d09c01d84ba802c8dfb4ca4e6fb37726d43fa609e6e64bbb0a4569",
+      "seconds": 0.71606779191643,
+      "checkpoint_selection": false
+    },
+    {
+      "step": 1000,
+      "rows": 41,
+      "correct_nonpad": 497,
+      "nonpad": 701,
+      "absolute_length_error": 0,
+      "exact_sequences": 3,
+      "nonpad_token_accuracy": 0.7089871611982882,
+      "length_mae": 0.0,
+      "mean_reconstruction_objective": 0.31350810353348896,
+      "rng_preserved": true,
+      "rng_sha256": "06c9236f35958ed3a649378277d9d4ed42ae653b9532ff4dcc5b7b72183d1997",
+      "seconds": 0.7190688750706613,
+      "checkpoint_selection": false
+    }
+  ],
+  "checkpoints": {
+    "vae_state": {
+      "metadata": {
+        "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+        "tensor_state_sha256": "f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789",
+        "updates": 1000,
+        "requested_updates": 1000,
+        "fixed_endpoint_reached": true,
+        "initial_tensor_state_sha256": "9a6ad5d1c90f1da55bc02310ef77adc6425f6fb419099859159149d361ec478d",
+        "elapsed_seconds_before_checkpoint_io": 1178.9785047080368
+      },
+      "actual_file_sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475",
+      "metadata_file_hash_match": true,
+      "weights_not_deserialized": true
+    },
+    "ddpm_state": {
+      "metadata": {
+        "sha256": "c3e29c13282a602e0ac15bb69430d36f1a8e4651a9c2d88a2a32833553f7c56c",
+        "tensor_state_sha256": "a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c",
+        "updates": 1000,
+        "requested_updates": 1000,
+        "fixed_endpoint_reached": true,
+        "initial_tensor_state_sha256": "bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f",
+        "posterior_encoding_and_setup_seconds": 6.299964915961027,
+        "elapsed_seconds_before_checkpoint_io": 563.7486409158446,
+        "parameters": 18612994,
+        "ema_step": 1000,
+        "ema_semantics": "inherited reset/copy until 2000 updates; beta=.995 thereafter"
+      },
+      "actual_file_sha256": "c3e29c13282a602e0ac15bb69430d36f1a8e4651a9c2d88a2a32833553f7c56c",
+      "metadata_file_hash_match": true,
+      "weights_not_deserialized": true
+    },
+    "ddpm_ema_state": {
+      "metadata": {
+        "sha256": "e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1",
+        "tensor_state_sha256": "a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c",
+        "updates": 1000,
+        "requested_updates": 1000,
+        "fixed_endpoint_reached": true,
+        "initial_tensor_state_sha256": "bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f",
+        "posterior_encoding_and_setup_seconds": 6.299964915961027,
+        "elapsed_seconds_before_checkpoint_io": 563.7486409158446,
+        "parameters": 18612994,
+        "ema_step": 1000,
+        "ema_semantics": "inherited reset/copy until 2000 updates; beta=.995 thereafter"
+      },
+      "actual_file_sha256": "e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1",
+      "metadata_file_hash_match": true,
+      "weights_not_deserialized": true
+    }
+  },
+  "generation": {
+    "saved_progress": [
+      {
+        "terminal": "FREE",
+        "timestep": 900,
+        "elapsed_seconds": 55.64839508384466
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 800,
+        "elapsed_seconds": 112.29065087484196
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 700,
+        "elapsed_seconds": 168.65210954193026
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 600,
+        "elapsed_seconds": 225.78185599995777
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 500,
+        "elapsed_seconds": 283.17470291676
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 400,
+        "elapsed_seconds": 339.6782282497734
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 300,
+        "elapsed_seconds": 395.79329941701144
+      },
+      {
+        "terminal": "FREE",
+        "timestep": 200,
+        "elapsed_seconds": 451.9357427917421
+      }
+    ],
+    "last_saved_progress": {
+      "terminal": "FREE",
+      "timestep": 200,
+      "elapsed_seconds": 451.9357427917421
+    },
+    "preallocated_rows": 32,
+    "stored_status_counts": {
+      "not_executed": 32
+    },
+    "missing_final_artifacts": [
+      "manifest.json",
+      "generation_summary.json",
+      "generated_posterior_FREE.npz",
+      "generated_posterior_AMD.npz",
+      "generated_FREE.npz",
+      "generated_AMD.npz",
+      "train_reconstruction.csv",
+      "dev_reconstruction.csv"
+    ],
+    "no_saved_intermediate_sampler_or_rng": true,
+    "caution": "CSV still not_executed is export state, not proof no DDPM calls occurred. Saved FREE progress demonstrates partial execution.",
+    "FREE_partial_requests": 16,
+    "FREE_reverse_steps_completed_at_least": 799,
+    "AMD_started_evidence": false,
+    "final_sequences_saved": 0
+  },
+  "cost": {
+    "vae_stage_seconds": 1179.0319216251373,
+    "ddpm_stage_seconds": 564.3461695411243,
+    "generation_observed_elapsed_lower_bound_seconds": 451.9357427917421,
+    "final_process_or_supervisor_wall_seconds": null,
+    "unknown": "End time, reason, unlogged work after last progress, and final complete wall time are not available."
+  },
+  "artifact_hash_inventory": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/config.json",
+      "bytes": 2541,
+      "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.json",
+      "bytes": 611,
+      "sha256": "97f3db5bf0286af52f05cf46291cc3b1f2ce290cfda451d0e0fe77dbe980e0ac"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.pt",
+      "bytes": 74515981,
+      "sha256": "e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_state.json",
+      "bytes": 611,
+      "sha256": "77e0999541e9ffb5c6eca8188b4037d1d5dcf5835e7a60ad032f4a6f26b336af"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_state.pt",
+      "bytes": 74515249,
+      "sha256": "c3e29c13282a602e0ac15bb69430d36f1a8e4651a9c2d88a2a32833553f7c56c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_train.jsonl",
+      "bytes": 339421,
+      "sha256": "36a18c5204ccc829e84f619b8cc8089f2f6448b553c9e890987a0724ee088aa6"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_training_state.pt",
+      "bytes": 149054122,
+      "sha256": "3be0ecad2d82aac7f16ba60d1d885c2d5a5cc5b5b6ad958b9dff36d160913fbd"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_training_summary.json",
+      "bytes": 478,
+      "sha256": "74755fd716e27fd37f4cb13334689df3cff80f17c75d4d7d2bc0dc9e083c09d9"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/dev_monitor.jsonl",
+      "bytes": 4114,
+      "sha256": "779afe8b424c4331a835d0f4c8e362fa02d8484a0273cf72c3fa4de8ac441afa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/generated.csv",
+      "bytes": 1878,
+      "sha256": "776950caeecda5b6541321b7965d303abca50cd2486ea913c0c2b73cd8b9eecb"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/generation_progress.jsonl",
+      "bytes": 610,
+      "sha256": "55a0673706bb588faea5275c7c37209dd3daf446ae1671719c8babc2e1d0fae4"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/runtime_and_source.json",
+      "bytes": 24995,
+      "sha256": "b3282d1bec1c8953673738861d9c484a0a6ca2e1b5019d26e976cb97a1a8e3e1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/status.json",
+      "bytes": 418,
+      "sha256": "cb567d110d39209ee2248106d5d8fb74fdcb9ab31ab0cb02e75c92ea47d8ab92"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+      "bytes": 3279,
+      "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_posterior_parameters.npz",
+      "bytes": 1315674,
+      "sha256": "0d8998cbaaec1685a9ff09a1995d6b3b6e732010a4fea8165fb5d5d7bb38503a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_initial_state.json",
+      "bytes": 208,
+      "sha256": "c7513b462362422ed3d7e117faf9f972839ae231b972f5db76c3b226accf888a"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_initial_state.pt",
+      "bytes": 6802066,
+      "sha256": "9c1972402bdfcfc56fa58656858a110fa7fd7ca58a438e8a4b6b43dd2669429c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_initialization.json",
+      "bytes": 170,
+      "sha256": "8ea13f7d4d425c37d53a1f2dfce797f56b900b489bf3ed07a8a97fa3e1ac094c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.json",
+      "bytes": 421,
+      "sha256": "b377f9610c9ce8497cce714df75653fbfa47e39086fe9d5b1eed38663cf5c490"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_state.pt",
+      "bytes": 6800314,
+      "sha256": "e86071d360cbea884b2f9536c3a9b2a1bc6545a88a7b3ea07f5b629284e40475"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_train.jsonl",
+      "bytes": 557312,
+      "sha256": "d88e9fff8e1aad92071eb12440d8c0604857c41b6725b6d3c4c2dbfa7d89ceae"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_training_state.pt",
+      "bytes": 13627459,
+      "sha256": "562bb39de972ea2c9578a0ff2955e4e104d143374a4d4890d6b40e2c0f058be8"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/vae_training_summary.json",
+      "bytes": 289,
+      "sha256": "d9c10cda3fdbc3f070414f89a9bccc727627dd1bdbaaeb3daf7f4b41ba662ce2"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_ce_execution_v2/SUPERVISOR_STATUS.json",
+      "bytes": 888,
+      "sha256": "168f658c1a849436cc8773a12c87ab97e01d187bdc2bbd61c7a7ce30da96e970"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/single_ce_execution_v2/categorical_ce.console.log",
+      "bytes": 901851,
+      "sha256": "3cdbde06244f5fc7755700a067b832793100530b4477fb8d9981d6c22572d7b5"
+    }
+  ],
+  "PROMOTE": "HOLD",
+  "no_original_status_rewrite": true,
+  "recovery_authorized": false
+}

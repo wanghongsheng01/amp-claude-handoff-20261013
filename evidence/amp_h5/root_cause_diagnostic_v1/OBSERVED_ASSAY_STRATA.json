@@ -1,0 +1,1301 @@
+[
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli 1",
+    "medium_raw_trimmed": "TSB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 6,
+      "peptide_IDs": 6,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G17268"
+      ],
+      "activity_ids": [
+        133342,
+        133348,
+        133356,
+        133363,
+        133370,
+        133376
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli ATCC 23716",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G873"
+      ],
+      "activity_ids": [
+        141543
+      ]
+    },
+    "right": {
+      "rows": 2,
+      "peptide_IDs": 2,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G873"
+      ],
+      "activity_ids": [
+        141547,
+        141551
+      ]
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli ATCC 25922",
+    "medium_raw_trimmed": "CAMHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G13726"
+      ],
+      "activity_ids": [
+        107126
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli ATCC 25922",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 4,
+      "peptide_IDs": 3,
+      "families": 3,
+      "source_groups": 2,
+      "groups": [
+        "G1737",
+        "G6742"
+      ],
+      "activity_ids": [
+        12526,
+        12527,
+        12601,
+        148350
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli ATCC 25922",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 10,
+      "peptide_IDs": 9,
+      "families": 7,
+      "source_groups": 6,
+      "groups": [
+        "G12453",
+        "G13735",
+        "G1737",
+        "G37",
+        "G8110",
+        "G8157"
+      ],
+      "activity_ids": [
+        36,
+        31234,
+        31244,
+        31254,
+        91533,
+        58729,
+        58730,
+        95703,
+        107201,
+        107203
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli CIP 76.24",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G6785"
+      ],
+      "activity_ids": [
+        47335
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli DH5alpha",
+    "medium_raw_trimmed": "TSB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G37"
+      ],
+      "activity_ids": [
+        112058
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli DSM 1103",
+    "medium_raw_trimmed": "TSB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G37"
+      ],
+      "activity_ids": [
+        112057
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli Ec513",
+    "medium_raw_trimmed": "CAMHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G1737"
+      ],
+      "activity_ids": [
+        54742
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli KCTC 1039",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G6669"
+      ],
+      "activity_ids": [
+        57368
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli LEC001",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G37"
+      ],
+      "activity_ids": [
+        177212
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli MG1655",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G102"
+      ],
+      "activity_ids": [
+        50769
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli MTCC 2622",
+    "medium_raw_trimmed": "TSB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G6742"
+      ],
+      "activity_ids": [
+        46970
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "ug_ml_native",
+    "target_raw": "Escherichia coli NCTC 12923",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G37"
+      ],
+      "activity_ids": [
+        177211
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli 0112 EIEC26",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18616
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli 0112 EIEC27",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18617
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli 0143 EIEC7",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18615
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli 0152 EIEC1",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18613
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli 0164 EIEC6",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18614
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli ATCC 25922",
+    "medium_raw_trimmed": "CAMHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    },
+    "right": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G3232"
+      ],
+      "activity_ids": [
+        171344
+      ]
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli ATCC 25922",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G3232"
+      ],
+      "activity_ids": [
+        24714
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli ATCC 25922",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 8,
+      "peptide_IDs": 8,
+      "families": 8,
+      "source_groups": 7,
+      "groups": [
+        "G12531",
+        "G13692",
+        "G13726",
+        "G2396",
+        "G3232",
+        "G37",
+        "G6669"
+      ],
+      "activity_ids": [
+        59455,
+        18593,
+        68607,
+        183419,
+        96166,
+        106653,
+        106652,
+        133771
+      ]
+    },
+    "right": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G3232"
+      ],
+      "activity_ids": [
+        68618
+      ]
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli ATCC 35218",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    },
+    "right": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G3232"
+      ],
+      "activity_ids": [
+        24715
+      ]
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli ATCC 35218",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18594
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli AX-054-1-3",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18609
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli AX-100-3-1",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18610
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli AX-109-2-3",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18611
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli AX-128-3-3",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18612
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli BW25113",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 2,
+      "peptide_IDs": 2,
+      "families": 2,
+      "source_groups": 2,
+      "groups": [
+        "G12531",
+        "G6669"
+      ],
+      "activity_ids": [
+        183421,
+        96162
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli BW25113 ΔsbmA",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G12531"
+      ],
+      "activity_ids": [
+        96164
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli D21",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G3232"
+      ],
+      "activity_ids": [
+        24716
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli DSM 1103",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G37"
+      ],
+      "activity_ids": [
+        105180
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli JC113",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G3232"
+      ],
+      "activity_ids": [
+        101190
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli K-12",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G37"
+      ],
+      "activity_ids": [
+        18406
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli ML-35p",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G3232"
+      ],
+      "activity_ids": [
+        24717
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli ML-35p",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G6669"
+      ],
+      "activity_ids": [
+        183420
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli NCTC 10418",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    },
+    "right": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G6701"
+      ],
+      "activity_ids": [
+        153842
+      ]
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli O157:H7 282",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18606
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli O157:H7 30328",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18604
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli O157:H7 734/94",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18603
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli O157:H7 ATCC 43895",
+    "medium_raw_trimmed": "LBB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 3,
+      "peptide_IDs": 3,
+      "families": 2,
+      "source_groups": 2,
+      "groups": [
+        "G102",
+        "G873"
+      ],
+      "activity_ids": [
+        51566,
+        51569,
+        62980
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli O157:H7 CB6392",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18605
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli O26:H- CB6418",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18607
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli O26:H11 3",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18608
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli O6:K15:H31 536",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18618
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli U7103",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18619
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli U7794",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 1,
+      "peptide_IDs": 1,
+      "families": 1,
+      "source_groups": 1,
+      "groups": [
+        "G2396"
+      ],
+      "activity_ids": [
+        18620
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  },
+  {
+    "unit": "uM_native",
+    "target_raw": "Escherichia coli UB1005",
+    "medium_raw_trimmed": "MHB",
+    "definition": "Exact cached target text + recorded medium; explicit_strain is prior heuristic, not independently verified strain identity; other assay conditions not harmonized",
+    "point": {
+      "rows": 2,
+      "peptide_IDs": 2,
+      "families": 2,
+      "source_groups": 1,
+      "groups": [
+        "G13692"
+      ],
+      "activity_ids": [
+        106698,
+        106699
+      ]
+    },
+    "right": {
+      "rows": 0,
+      "peptide_IDs": 0,
+      "families": 0,
+      "source_groups": 0,
+      "groups": [],
+      "activity_ids": []
+    }
+  }
+]

@@ -1,0 +1,6 @@
+DBAASP DATA ATTRIBUTION / 数据来源与使用范围
+Data obtained from DBAASP, https://dbaasp.org, public API detail snapshots acquired 2026-10-12. Public database records were minimally transformed for this private AMP H5 data audit.
+The locally cached official Data Access Policy (https://dbaasp.org/terms-and-conditions, checked 2026-10-12) permits access, download, copying, use, adaptation and redistribution, with acknowledgement of DBAASP. This is the database's explicit policy; we do not assign an invented Creative Commons license.
+DBAASP is supported by IBCEB (Tbilisi) and NIAID OCICB (Bethesda); its team collects/submits the database records. Suggested database citation: Pirtskhalava M et al. DBAASP v3. Nucleic Acids Research 49(D1), D288-D297 (2021). https://doi.org/10.1093/nar/gkaa991
+This package contains public database-derived minimal analysis tables and citation metadata, not third-party full-text PDFs. Rights to linked publications are separate. Original response bytes remain in the local read-only provenance chain; this package provides their SHA256 inventory, not another raw-data scrape.
+Private Library delivery only. No public upload, production use or permission to relabel these data as biological validation. Original cached policy evidence SHA256 is recorded in evidence/VALIDATION.json.

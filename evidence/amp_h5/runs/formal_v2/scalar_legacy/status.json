@@ -1,0 +1,28 @@
+{
+  "state": "completed",
+  "purpose": "formal_pilot",
+  "config_sha256": "3de741fc97dfb2d61965cc88609dd7026c831c5458641362d1ae3c06081286c0",
+  "runner_sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+  "test_read": false,
+  "development_read": true,
+  "train_read_attempted": true,
+  "train_read_validated": true,
+  "development_read_attempted": true,
+  "development_read_validated": true,
+  "training_seconds": 1742.7696539591998,
+  "training_cap_exceeded": false,
+  "vae_updates": 1000,
+  "ddpm_updates": 1000,
+  "generation": {
+    "elapsed_seconds": 1116.6571687501855,
+    "requested": 32,
+    "successful_execution": 32,
+    "failed_execution": 0,
+    "not_executed": 0,
+    "condition_inputs": [
+      "terminal class only"
+    ],
+    "no_retry_or_filter": true
+  },
+  "process_seconds": 2867.1760469167493
+}

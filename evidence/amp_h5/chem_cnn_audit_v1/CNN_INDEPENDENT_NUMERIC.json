@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "model_sha256": "115407a59bf0e8f8bf0cce3346057b3c4f8d4b0b294419f079cfcf8512187a77",
+  "execution": "independent fixed-weight forward/backward and one scalar Adam operation; no naturaldata, no training loop",
+  "checks": {
+    "padding_pool_flatten_position": [
+      1,
+      0,
+      0
+    ],
+    "scalar_MSE": 0.3333333333333333,
+    "MSE_output_weight_gradient": -0.6666666666666666,
+    "tiny_gradient_epsilon_hat_Adam_abs_error": 0.0
+  },
+  "threads": [
+    1,
+    1
+  ]
+}

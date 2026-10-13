@@ -1,0 +1,3 @@
+sample_id,method,terminal,sequence,status,length,seed,terminal_sample_id
+terminal_LSTM_FREE_000,terminal_LSTM,FREE,,empty_sequence,0,422,0
+terminal_LSTM_AMD_000,terminal_LSTM,AMD,KLRKKRKRFKWFGKSFAG,ok,18,423,0

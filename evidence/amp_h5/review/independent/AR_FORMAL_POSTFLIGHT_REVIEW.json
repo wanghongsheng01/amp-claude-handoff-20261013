@@ -1,0 +1,207 @@
+{
+  "created_utc": "2026-10-11T16:17:40.300166+00:00",
+  "status": "PASS_AR_EXECUTION_POSTFLIGHT",
+  "checks": [
+    {
+      "name": "all_manifest_files_hash_and_size",
+      "pass": true
+    },
+    {
+      "name": "config_matches_frozen",
+      "pass": true
+    },
+    {
+      "name": "bound_implementation_unchanged",
+      "pass": true
+    },
+    {
+      "name": "recorded_completed_fixed1000",
+      "pass": true
+    },
+    {
+      "name": "exact1000_contiguous_step_records",
+      "pass": true
+    },
+    {
+      "name": "all_step_numeric_finite",
+      "pass": true
+    },
+    {
+      "name": "loss_times_token_count_matches_nll",
+      "pass": true
+    },
+    {
+      "name": "seed222_exact_batch_order_all_steps",
+      "pass": true
+    },
+    {
+      "name": "aggregate_exposure_matches_steps",
+      "pass": true
+    },
+    {
+      "name": "fixed_monitor100_to1000",
+      "pass": true
+    },
+    {
+      "name": "monitor_same_model_train_dev",
+      "pass": true
+    },
+    {
+      "name": "all_monitor_metrics_finite",
+      "pass": true
+    },
+    {
+      "name": "all_saved_initial_final_model_optimizer_tensors_finite",
+      "pass": true
+    },
+    {
+      "name": "checkpoint_and_adam_step1000",
+      "pass": true
+    },
+    {
+      "name": "final_state_digest_linked_everywhere",
+      "pass": true
+    },
+    {
+      "name": "exact32_ids_seeds_and_complete_slots",
+      "pass": true
+    },
+    {
+      "name": "csv_matches_archived_sequence_status",
+      "pass": true
+    },
+    {
+      "name": "all_raw_sampling_tensors_finite",
+      "pass": true
+    },
+    {
+      "name": "raw_shape_ids_and_seeds",
+      "pass": true
+    },
+    {
+      "name": "rendered_raw_tokens_match_all32",
+      "pass": true
+    },
+    {
+      "name": "probabilities_normalized_on_evaluated_steps",
+      "pass": true
+    },
+    {
+      "name": "raw_observed_mask_total",
+      "pass": true
+    },
+    {
+      "name": "no_retry_or_cap",
+      "pass": true
+    },
+    {
+      "name": "only_bound_train_dev_recorded",
+      "pass": true
+    },
+    {
+      "name": "final_nll_matches_monitor1000",
+      "pass": true
+    },
+    {
+      "name": "supervisor_exact_plan_completed",
+      "pass": true
+    }
+  ],
+  "manifest_files": 15,
+  "output_manifest_sha256": "bf8e6b03dbb3913d28f92583db52c675945b0bed138fbdbd0524905b4353f5e6",
+  "implementation_sha256": "1d86971866f40ade1b59d1eb7652be94eb0934d15651136e4edb933dc90831ee",
+  "config_sha256": "4e30c3dd010ae43e247912a131f49d620bdefcdf34585f2eb28c935bc01800ec",
+  "supervisor_sha256": "f4e784b0304dffdfcd33226425f29980178261726246bd81ff3749c030ad0b64",
+  "update_count": 1000,
+  "requested_slots": 32,
+  "terminal_counts": {
+    "FREE": 16,
+    "AMD": 16
+  },
+  "slot_status_counts": {
+    "ok": 32
+  },
+  "valid1to48": 32,
+  "valid5to48": 32,
+  "monitor_curve": [
+    {
+      "step": 100,
+      "train_nll": 2.5835970324035844,
+      "dev_nll": 2.6314405662351543
+    },
+    {
+      "step": 200,
+      "train_nll": 2.458414674013685,
+      "dev_nll": 2.6152527184499244
+    },
+    {
+      "step": 300,
+      "train_nll": 2.343882505699619,
+      "dev_nll": 2.6354723413678194
+    },
+    {
+      "step": 400,
+      "train_nll": 2.218446365810029,
+      "dev_nll": 2.707511058714833
+    },
+    {
+      "step": 500,
+      "train_nll": 2.1051896626865467,
+      "dev_nll": 2.7711092802392185
+    },
+    {
+      "step": 600,
+      "train_nll": 2.0008000977321436,
+      "dev_nll": 2.8245445724446174
+    },
+    {
+      "step": 700,
+      "train_nll": 1.905814536038894,
+      "dev_nll": 2.9723217905049695
+    },
+    {
+      "step": 800,
+      "train_nll": 1.805384666868291,
+      "dev_nll": 3.0530186573450133
+    },
+    {
+      "step": 900,
+      "train_nll": 1.7127350191479866,
+      "dev_nll": 3.1364767480731977
+    },
+    {
+      "step": 1000,
+      "train_nll": 1.6431238127375474,
+      "dev_nll": 3.169792648274301
+    }
+  ],
+  "development_curve_descriptive": {
+    "smallest_recorded_step": 200,
+    "smallest_recorded_mean_nll": 2.6152527184499244,
+    "final_train_mean_nll": 1.6431238127375474,
+    "final_development_mean_nll": 3.169792648274301,
+    "interpretation": "Train NLL falls while development NLL worsens after step200, evidence of overfitting in this fixed recipe. Final1000 was predeclared and remains the comparison endpoint; no retrospective checkpoint swap authorized."
+  },
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "no_test_evidence_scope": "Exact command/config and bound source use train279/dev41 only; recorded status confirms no test. This is source/output audit, not OS-level file-access tracing. Reviewer opened no natural split.",
+  "reviewer_actions": {
+    "model_instantiations": 0,
+    "model_forwards": 0,
+    "training_updates": 0,
+    "new_sampling": 0,
+    "natural_split_reads": 0,
+    "test_reads": 0,
+    "saved_local_tensor_files_inspected": [
+      "initial.pt",
+      "final.pt",
+      "raw_sampling.pt"
+    ]
+  },
+  "remaining_boundaries": [
+    "Single seed and one fixed recipe; no strongest-modern-baseline or tuning adequacy claim.",
+    "Teacher-forced NLL is not generation quality or directly comparable to VAE objective.",
+    "32 slots are execution evidence; no comparative distributional screen has been run by this reviewer.",
+    "Three VAE long runs remain HOLD."
+  ]
+}

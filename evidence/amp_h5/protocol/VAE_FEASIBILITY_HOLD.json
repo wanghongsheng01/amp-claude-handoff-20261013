@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-11T16:12:35.488262+00:00",
+  "state": "HOLD_VAE_FORMAL",
+  "reason": "User requires checkpoint/path consistency and scale feasibility evidence before three long VAE runs; do not assume more training fixes exp(logsigma).",
+  "supersedes_execution_permission_for": "FORMAL_PLAN.json",
+  "allowed": "AR_ONLY_FORMAL_PLAN once independently reviewed; saved-artifact coordinate analysis; bounded legacy-checkpoint parity after protocol",
+  "VAE_training_or_new_sampling_started": false,
+  "no_clip_or_method_repair_without_new_version": true
+}

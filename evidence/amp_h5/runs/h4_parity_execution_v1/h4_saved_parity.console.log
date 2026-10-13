@@ -1,0 +1,314 @@
+/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/lib/python3.12/site-packages/torch/nn/utils/weight_norm.py:28: UserWarning: torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.
+  warnings.warn("torch.nn.utils.weight_norm is deprecated in favor of torch.nn.utils.parametrizations.weight_norm.")
+{
+  "state": "PASS",
+  "new_generation_requests": 0,
+  "training_updates": 0,
+  "encoder_forwards": 0,
+  "train_dev_test_reads": 0,
+  "random_draws_after_construction": 0,
+  "ddpm_forwards": 2,
+  "decoder_forwards": 2,
+  "independent_full_chain_replay": false,
+  "schedule_checks": {
+    "beta": {
+      "shape": [
+        999
+      ],
+      "dtype": "float32",
+      "shape_dtype_equal": true,
+      "all_finite": true,
+      "bitwise_exact": true,
+      "max_abs_difference": 0.0
+    },
+    "alpha": {
+      "shape": [
+        999
+      ],
+      "dtype": "float32",
+      "shape_dtype_equal": true,
+      "all_finite": true,
+      "bitwise_exact": true,
+      "max_abs_difference": 0.0
+    },
+    "alpha_hat": {
+      "shape": [
+        999
+      ],
+      "dtype": "float32",
+      "shape_dtype_equal": true,
+      "all_finite": true,
+      "bitwise_exact": true,
+      "max_abs_difference": 0.0
+    }
+  },
+  "model_states_unchanged": true,
+  "rng_unchanged_after_construction": true,
+  "gradient_tensors": 0,
+  "results": {
+    "FREE": {
+      "saved_request_count": 16,
+      "new_request_count": 0,
+      "checks": {
+        "checkpoint_prediction_vs_saved": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "old_h5_posterior_coordinate_packing": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_packing_vs_saved_coordinates": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "old_step_vs_saved_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_step_vs_old_step": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_step_vs_saved_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "exp_logsigma_vs_saved_scale": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "reparameterization_vs_saved_latent": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_decoder_vs_saved_raw": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_rawtokens_vs_saved_rawtokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "int64",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        }
+      },
+      "pass": true
+    },
+    "AMD": {
+      "saved_request_count": 16,
+      "new_request_count": 0,
+      "checks": {
+        "checkpoint_prediction_vs_saved": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "old_h5_posterior_coordinate_packing": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_packing_vs_saved_coordinates": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "old_step_vs_saved_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_step_vs_old_step": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_step_vs_saved_parameters": {
+          "shape": [
+            16,
+            2,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "exp_logsigma_vs_saved_scale": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "reparameterization_vs_saved_latent": {
+          "shape": [
+            16,
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_decoder_vs_saved_raw": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "float32",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        },
+        "h5_rawtokens_vs_saved_rawtokens": {
+          "shape": [
+            16,
+            48
+          ],
+          "dtype": "int64",
+          "shape_dtype_equal": true,
+          "all_finite": true,
+          "bitwise_exact": true,
+          "max_abs_difference": 0.0
+        }
+      },
+      "pass": true
+    }
+  },
+  "limitations": "Two stored final-step batches only; does not validate new H5 weights, all reverse timesteps, training adequacy or distribution quality.",
+  "elapsed_seconds": 2.391429416835308
+}

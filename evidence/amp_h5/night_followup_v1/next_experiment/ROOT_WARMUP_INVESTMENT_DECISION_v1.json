@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-11T21:18:29.010428+00:00",
+  "decision": "Proceed to exact preflight of one known-method VAE-only warmup1000, then one serial launch if independent approval and fresh process check pass.",
+  "rationale": "Full dev posterior sampling reduces sequence-equal accuracy by 6.168031437433197pp, reaching the prespecified resource threshold. It motivates a limited optimization-history falsification, without identifying a unique KL/variance/prior/DDPM cause.",
+  "actual_training_launch_authorized_by_this_file": false,
+  "single_intervention": "beta(u)=min(1,u/200), u0..999; all other training configuration, initialization seed, batches, forward RNG and endpoint fixed.",
+  "resource_success": "Exactly the four prelocked root guards; gap shrinkage descriptive only.",
+  "no_DDPM_or_prior_generation": true,
+  "no_beta_sweep_seed_search_or_failure_extension": true,
+  "fixed_previous_CE_baseline_observed": true,
+  "matched_cumulative_compute_claim": false,
+  "independent_training_seed_replication": false,
+  "PROMOTE": "HOLD",
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/INVESTMENT_SCREEN.json",
+      "sha256": "1290fa554b55d9e6ecc6c5251ec52966529bb1dc44cb423ced795fedf7d1f9ff"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/CLOSING_LEDGER.json",
+      "sha256": "041c836602d3ba77a30bd523522405d8e3ed2c48707fe2036c1f53af40896eaa"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RESULT.json",
+      "sha256": "7b827a09b1724b23e2744a5750d1fba108702c69388a064b83a9f8b057733285"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/next_experiment/WARMUP_EXECUTION_GUARDS_ROOT_PRELOCK_v1.json",
+      "sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194"
+    }
+  ]
+}

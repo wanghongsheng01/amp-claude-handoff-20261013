@@ -1,0 +1,80 @@
+{
+  "pid": 56733,
+  "created_utc": "2026-10-11T15:59:02.791779+00:00",
+  "state": "completed_with_failures",
+  "plan_sha256": "440381d54dc7dd762ec587adf953a063640f426a04882e590ec61e675cb11759",
+  "jobs": [
+    {
+      "id": "terminal_lstm",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ar_entry.py",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/AR_SMOKE_CONFIG.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/terminal_lstm"
+      ],
+      "started_utc": "2026-10-11T15:59:02.792285+00:00",
+      "state": "completed",
+      "pid": 56736,
+      "exit_code": 0,
+      "seconds": 3.714580708183348
+    },
+    {
+      "id": "categorical_ce",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/categorical_ce.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/categorical_ce"
+      ],
+      "started_utc": "2026-10-11T15:59:06.507557+00:00",
+      "state": "failed",
+      "pid": 56748,
+      "exit_code": 2,
+      "seconds": 84.14928554091603
+    },
+    {
+      "id": "raw_onehot_mse",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/raw_onehot_mse.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/raw_onehot_mse"
+      ],
+      "started_utc": "2026-10-11T16:00:30.657777+00:00",
+      "state": "failed",
+      "pid": 56889,
+      "exit_code": 2,
+      "seconds": 86.69244345789775
+    },
+    {
+      "id": "scalar_legacy",
+      "argv": [
+        "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+        "-u",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline.py",
+        "run",
+        "--config",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_smoke_configs/scalar_legacy.json",
+        "--output",
+        "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/smoke_v1/scalar_legacy"
+      ],
+      "started_utc": "2026-10-11T16:01:57.350973+00:00",
+      "state": "failed",
+      "pid": 57003,
+      "exit_code": 2,
+      "seconds": 85.87268779193982
+    }
+  ],
+  "completed_utc": "2026-10-11T16:03:23.224513+00:00"
+}

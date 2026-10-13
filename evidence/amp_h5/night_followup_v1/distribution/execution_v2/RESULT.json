@@ -1,0 +1,21 @@
+{
+  "exit_code": 0,
+  "outer_timeout": false,
+  "wall_seconds": 5.842333540786058,
+  "error": null,
+  "analysis_closing_state": "completed",
+  "model_calls": 0,
+  "test_reads": 0,
+  "no_retry": true,
+  "PROMOTE": "HOLD",
+  "protocol": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v2.json",
+    "bytes": 11616,
+    "sha256": "027611e8a8c3e1fee211c60c7f4ae6be2ba9c59ff8cc9af201efa5ef969c0c3a"
+  },
+  "preaudit": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/DISTRIBUTION_PREFLIGHT_v2.json",
+    "bytes": 10021,
+    "sha256": "de60e3f25d850adea8d6a5407394d49783fc4bc7a27dfa433107b8c79c1a4e8a"
+  }
+}

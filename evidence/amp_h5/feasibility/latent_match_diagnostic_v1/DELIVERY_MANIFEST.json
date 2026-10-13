@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-10-11T19:25:44.232458+00:00",
+  "scope": "POSTHOC_EXPLORATORY_READ_ONLY_NO_EXECUTION_AUTHORIZATION",
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/AUTHOR_VALIDATION.json",
+      "sha256": "b63834cb8c276fb080b255364ddb375788e82ceff624ff3840f0e9dbc2902618",
+      "bytes": 1501
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/CE_DECODER_INPUT_CONTROL_DRAFT.json",
+      "sha256": "011e1b49589adbebe5d8ef534f4e398c6241abd6200b4b973af622147734c6fe",
+      "bytes": 9563
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/COMPACT_READOUT.json",
+      "sha256": "641a4f18ee25643a11b52251927f1a9ecfdc5e9058f2ae72e76631b97938277a",
+      "bytes": 83331
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/COMPUTE_MANIFEST.json",
+      "sha256": "7727ecc228d24a4de6c1306e074b4f0c9a5d3487e755eed70c0dac2cff3f7b0e",
+      "bytes": 482
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/LATENT_MATCH_READOUT.json",
+      "sha256": "9f0a1fb765fd61770e0b15c9c4708951bd6e12fad137aa63b878f4df860c0a39",
+      "bytes": 3827337
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/READOUT.zh.md",
+      "sha256": "6d44557fa8f0c0e617973cbadb211d066e490201695dc23db3d1350694699e07",
+      "bytes": 6962
+    }
+  ],
+  "external_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1.json",
+      "sha256": "c616a91f45f774fd1de47e7cd4675cea39f9bf3bee2abf39d6c597b24885b8f1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/LATENT_MATCH_DIAGNOSTIC_v1_POSTHOC_ADDENDUM.json",
+      "sha256": "6f925a28d4d189d29cd675db88ad68b00bf5905135bfd49ddd614067c0ad05ab"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/latent_match_saved_arrays_v1.py",
+      "sha256": "cb4b37d440c40b04309ce8b6e5768ed4deccde687bd8cd3b09514bffe0884c6e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/latent_route_static_v1/LATENT_ROUTE_STATIC_AUDIT.json",
+      "sha256": "cddbc4a3ee25926f6654afabfeef8448b77adc3d4620b0e9664cb60b6d2f1096"
+    }
+  ],
+  "model_calls": 0,
+  "random_draws": 0,
+  "all32_each_method_retained": true,
+  "original_CE_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD"
+}

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/CANDIDATE_CONFIG.json",
+    "sha256": "419b283b8b08b745be0e5aad21b1ca2e164255489403c7a96ca85fdb255e4d5c",
+    "bytes": 10924
+  },
+  "receipt": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/review/INDEPENDENT_PREFLIGHT_RECEIPT_v1.json",
+    "sha256": "1dfacf437109edb517133c3b0a638d12e80a6a31e478546adc31fbf1c7a941f9",
+    "bytes": 3885
+  },
+  "code": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/core.py",
+      "sha256": "18b8fe1589bb3bda66a3eaa091a9a59dc1420db8da255ee1373ae369ea7cac2a",
+      "bytes": 8468
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/contracts.py",
+      "sha256": "ef4f3e5d8e04de091ec5524d81f7e8369deb12c9277ab2916327eb574e8780d0",
+      "bytes": 7161
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/runner.py",
+      "sha256": "bb4de35f06976d63530ad7304cf9200aee4896535d9eb6287204ea6551c64fe0",
+      "bytes": 14896
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/ar_latent_v3/scoring.py",
+      "sha256": "e0e0563bb8c17f5aa272f44b32daec0a2e467b9bd3f3a0e6e075c63b4d2295af",
+      "bytes": 7798
+    }
+  ]
+}

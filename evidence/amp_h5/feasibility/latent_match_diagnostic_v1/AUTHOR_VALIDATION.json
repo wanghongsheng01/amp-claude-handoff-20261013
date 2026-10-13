@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-10-11T19:25:44.231645+00:00",
+  "author_validation_not_independent_receipt": true,
+  "checks": [
+    {
+      "name": "all24_original_inputs_unchanged",
+      "pass": true
+    },
+    {
+      "name": "protocol_exact_bound",
+      "pass": true
+    },
+    {
+      "name": "script_exact_bound",
+      "pass": true
+    },
+    {
+      "name": "both_completed_methods_only",
+      "pass": true
+    },
+    {
+      "name": "all_train279_and_all_gen32",
+      "pass": true
+    },
+    {
+      "name": "no_random_or_model_actions",
+      "pass": true
+    },
+    {
+      "name": "only_mean_recon_reported",
+      "pass": true
+    },
+    {
+      "name": "original_epsilon_absence_explicit",
+      "pass": true
+    },
+    {
+      "name": "new_controls_nonexecutable",
+      "pass": true
+    },
+    {
+      "name": "draft_exact64_inputs_no_receipt",
+      "pass": true
+    },
+    {
+      "name": "posthoc_explicit",
+      "pass": true
+    },
+    {
+      "name": "future_control_input_bindings_unchanged",
+      "pass": true
+    },
+    {
+      "name": "no_torch_model_imports_in_numpy_script",
+      "pass": true
+    }
+  ],
+  "synthetic_checks_passed": 5,
+  "runtime": {
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "numpy": "1.26.4",
+    "thread_env": 1
+  },
+  "original_protocol_sha256": "c616a91f45f774fd1de47e7cd4675cea39f9bf3bee2abf39d6c597b24885b8f1",
+  "script_sha256": "cb4b37d440c40b04309ce8b6e5768ed4deccde687bd8cd3b09514bffe0884c6e"
+}

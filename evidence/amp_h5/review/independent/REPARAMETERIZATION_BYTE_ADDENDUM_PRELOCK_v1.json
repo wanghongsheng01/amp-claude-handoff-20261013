@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-11T19:37:40.125111+00:00",
+  "status": "PREPARED_NOT_EXECUTED",
+  "script": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/audit_reparameterization_bytes_addendum_v1.py",
+  "sha256": "04d8f82b23a4292c4ec42f0e1397351a526d7f7f7618f0bb429a0a22e7ef2d85",
+  "condition": "Root scalar terminal notification and prior terminal audit; no model forwards, no new generation requests.",
+  "validation": "AST parses. No module import or natural RNG replay performed."
+}

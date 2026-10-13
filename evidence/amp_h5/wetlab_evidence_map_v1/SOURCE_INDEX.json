@@ -1,0 +1,1787 @@
+{
+  "feishu_history/ARCHIVE_SAMPLE_LINKAGE.csv": {
+    "relative_path": "feishu_history/ARCHIVE_SAMPLE_LINKAGE.csv",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/ARCHIVE_SAMPLE_LINKAGE.csv",
+    "sha256": "568105807d3f52f63ba15ca89a619510967e7ed6219af1dd35d370f09614b3d1",
+    "bytes": 56403,
+    "role": "audited_sample_supplier_assay_linkage"
+  },
+  "editorial_corrections/v6r2_substantive/mic_full_table/mic_full_table.json": {
+    "relative_path": "editorial_corrections/v6r2_substantive/mic_full_table/mic_full_table.json",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/editorial_corrections/v6r2_substantive/mic_full_table/mic_full_table.json",
+    "sha256": "6a9d04b5aa9dd17b42ca1e6cc22067d7b1a0f6fa1167b894b73a5354afacf45b",
+    "bytes": 93839,
+    "role": "prior_audit_reused"
+  },
+  "feishu_history/mic_new_export_audit/results/new_recovered_tables.json": {
+    "relative_path": "feishu_history/mic_new_export_audit/results/new_recovered_tables.json",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/mic_new_export_audit/results/new_recovered_tables.json",
+    "sha256": "130bd1020a118f67429204a10cd3376a64bba637711076a043ebcc3efc050cdb",
+    "bytes": 793659,
+    "role": "prior_audit_reused"
+  },
+  "evidence_followup_v5/mic/visual_followup.json": {
+    "relative_path": "evidence_followup_v5/mic/visual_followup.json",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/evidence_followup_v5/mic/visual_followup.json",
+    "sha256": "d2e7617b7d115d66a7735f15c63499bdc474a2daff0d32b13af1b271d9902754",
+    "bytes": 65178,
+    "role": "prior_audit_reused"
+  },
+  "feishu_history/supplier_archive/archive_manifest.json": {
+    "relative_path": "feishu_history/supplier_archive/archive_manifest.json",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/archive_manifest.json",
+    "sha256": "1fce20aa6e5cc7472b69d744442c94d72d14cbc4ff0f5df2ad8d940f28892ad2",
+    "bytes": 307148,
+    "role": "prior_audit_reused"
+  },
+  "feishu_history/supplier_archive/HPLC_MS_TEXT_AUDIT.json": {
+    "relative_path": "feishu_history/supplier_archive/HPLC_MS_TEXT_AUDIT.json",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/HPLC_MS_TEXT_AUDIT.json",
+    "sha256": "268bb687de8245ae86e897567b200faecc334d2f9f358471d4ea8c412e26d2e7",
+    "bytes": 248658,
+    "role": "prior_audit_reused"
+  },
+  "evidence_followup_v5/mic/MIC_EVIDENCE_FOLLOWUP.zh.md": {
+    "relative_path": "evidence_followup_v5/mic/MIC_EVIDENCE_FOLLOWUP.zh.md",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/evidence_followup_v5/mic/MIC_EVIDENCE_FOLLOWUP.zh.md",
+    "sha256": "f60c9bd3660eb37790f769124a8efac8fc054e021c6abc612329a92e6b3f7191",
+    "bytes": 9564,
+    "role": "context_and_claim_locator"
+  },
+  "evidence_followup_v5/run/SEARCH_CONCLUSION.zh.md": {
+    "relative_path": "evidence_followup_v5/run/SEARCH_CONCLUSION.zh.md",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/evidence_followup_v5/run/SEARCH_CONCLUSION.zh.md",
+    "sha256": "b64ca46c1ceaaed4b693c9dd63db8ed62884126ef8846fe52a4e06f6f1218296",
+    "bytes": 6567,
+    "role": "context_and_claim_locator"
+  },
+  "feishu_history/process_parsed/synthesis_report/fulltext.txt": {
+    "relative_path": "feishu_history/process_parsed/synthesis_report/fulltext.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/process_parsed/synthesis_report/fulltext.txt",
+    "sha256": "9dee509c4565600dc954e95ad5591b4b03d25ff5c9413e9052d9b7c838086ddd",
+    "bytes": 916,
+    "role": "context_and_claim_locator"
+  },
+  "feishu_history/process_parsed/preparation_process/fulltext.txt": {
+    "relative_path": "feishu_history/process_parsed/preparation_process/fulltext.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/process_parsed/preparation_process/fulltext.txt",
+    "sha256": "38bb0084a36b8d2b5258be104af18a25f5ad1ff308f22c44ebd8d0245c128d00",
+    "bytes": 1378,
+    "role": "context_and_claim_locator"
+  },
+  "feishu_history/docx_parsed/amp9.10_improved.fulltext.txt": {
+    "relative_path": "feishu_history/docx_parsed/amp9.10_improved.fulltext.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/docx_parsed/amp9.10_improved.fulltext.txt",
+    "sha256": "279eed35cf7bb5520174dfbd7db211d14b9f0b8e8efa0ca11bf64ea3088e7223",
+    "bytes": 111580,
+    "role": "context_and_claim_locator"
+  },
+  "feishu_history/docx_parsed/original_33p.fulltext.txt": {
+    "relative_path": "feishu_history/docx_parsed/original_33p.fulltext.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/docx_parsed/original_33p.fulltext.txt",
+    "sha256": "8d876a634f514aaebcf38975748361b2bdc5a84a2083ca11e89794d06a8693b5",
+    "bytes": 91616,
+    "role": "context_and_claim_locator"
+  },
+  "evidence_followup_v5/mic/historical_20240818_docx_text.txt": {
+    "relative_path": "evidence_followup_v5/mic/historical_20240818_docx_text.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/evidence_followup_v5/mic/historical_20240818_docx_text.txt",
+    "sha256": "ce3c74328049b923617946cdab65232314c9b095879e30765941a396aab0c2c9",
+    "bytes": 54069,
+    "role": "context_and_claim_locator"
+  },
+  "editorial_corrections/candidate_v6r3/source/main.tex": {
+    "relative_path": "editorial_corrections/candidate_v6r3/source/main.tex",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/editorial_corrections/candidate_v6r3/source/main.tex",
+    "sha256": "a09f20468a3daa5f8a149eb93c294e8ddcb863358c69dd27e0a21bf836147d33",
+    "bytes": 50861,
+    "role": "context_and_claim_locator"
+  },
+  "editorial_corrections/v6r2_substantive/mic_full_table/semantic_contract.json": {
+    "relative_path": "editorial_corrections/v6r2_substantive/mic_full_table/semantic_contract.json",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/editorial_corrections/v6r2_substantive/mic_full_table/semantic_contract.json",
+    "sha256": "141ed7993dd575e9f92c99096e7ea528b34bb392a0b978fa4cbe077f3b8c7b25",
+    "bytes": 3049,
+    "role": "context_and_claim_locator"
+  },
+  "feishu_history/downloads/synthesis_COA__HONzbADeSod325xK88hcuYkXnWd.zip": {
+    "relative_path": "feishu_history/downloads/synthesis_COA__HONzbADeSod325xK88hcuYkXnWd.zip",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/downloads/synthesis_COA__HONzbADeSod325xK88hcuYkXnWd.zip",
+    "sha256": "a5c856ea486d739db53d7a16c130b6eff5debbe438e21a1509e718430ad21ef4",
+    "bytes": 12830721,
+    "role": "original_downloaded_container"
+  },
+  "feishu_history/downloads/synthesis_report__TZaqdNdH6okIykxilPQcWdYLnSf.docx": {
+    "relative_path": "feishu_history/downloads/synthesis_report__TZaqdNdH6okIykxilPQcWdYLnSf.docx",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/downloads/synthesis_report__TZaqdNdH6okIykxilPQcWdYLnSf.docx",
+    "sha256": "a26311e3929d6aa73b8f61039e16c3bbb4616ef615f9daddd3212c1a9ebc7659",
+    "bytes": 1261177,
+    "role": "original_downloaded_container"
+  },
+  "feishu_history/downloads/preparation_process__LcP1dyOTfoKqF3xRdZuckAYtnuc.docx": {
+    "relative_path": "feishu_history/downloads/preparation_process__LcP1dyOTfoKqF3xRdZuckAYtnuc.docx",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/downloads/preparation_process__LcP1dyOTfoKqF3xRdZuckAYtnuc.docx",
+    "sha256": "dc68f49b8facdee7711eb3f0c4cc61105668379d84e939452ca462cbcac15ecb",
+    "bytes": 108204,
+    "role": "original_downloaded_container"
+  },
+  "feishu_history/downloads/amp9.10_improved__KV0RdOukToDutyx7FLicsnQdnCh.docx": {
+    "relative_path": "feishu_history/downloads/amp9.10_improved__KV0RdOukToDutyx7FLicsnQdnCh.docx",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/downloads/amp9.10_improved__KV0RdOukToDutyx7FLicsnQdnCh.docx",
+    "sha256": "db5490e417f27ead6cff862883b38ee2b8e48e21b57560bd732308295c1a59d6",
+    "bytes": 598946,
+    "role": "original_downloaded_container"
+  },
+  "feishu_history/downloads/20240812-AMPModel__XITwdYoxuoXWn5xycBEcFkRmnGx.docx": {
+    "relative_path": "feishu_history/downloads/20240812-AMPModel__XITwdYoxuoXWn5xycBEcFkRmnGx.docx",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/downloads/20240812-AMPModel__XITwdYoxuoXWn5xycBEcFkRmnGx.docx",
+    "sha256": "f9e4aa81f2d5dcd011ca882ea794d96cc7be8d2e352e1b6a2c410089a4dc48eb",
+    "bytes": 1172733,
+    "role": "original_downloaded_container"
+  },
+  "feishu_history/downloads/results_MIC_1__MfiVbdsnlatNlysGQLrcoLuznYe.xlsx": {
+    "relative_path": "feishu_history/downloads/results_MIC_1__MfiVbdsnlatNlysGQLrcoLuznYe.xlsx",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/downloads/results_MIC_1__MfiVbdsnlatNlysGQLrcoLuznYe.xlsx",
+    "sha256": "32852e2680fc6f4b348a89eb57d073fa635fc1e5d8f639aaf8a0a15b1908608b",
+    "bytes": 62653,
+    "role": "original_downloaded_MIC_workbook"
+  },
+  "evidence_followup_v5/run/code_hash_recheck.json": {
+    "relative_path": "evidence_followup_v5/run/code_hash_recheck.json",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/evidence_followup_v5/run/code_hash_recheck.json",
+    "sha256": "c894957968624b5153ac1c7d994c46bccd1bbc150c7557a7332d5e260025daa7",
+    "bytes": 39280,
+    "role": "prior_audit_reused"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/datasets/flow_vae.yaml": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/datasets/flow_vae.yaml",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/datasets/flow_vae.yaml",
+    "sha256": "6d9115beb1532ed140aac46d0c2549a22665058a8540b4d8a0dd194ae0a3ec7e",
+    "bytes": 104,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/egs_bases/flow_vae/base.yaml": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/egs_bases/flow_vae/base.yaml",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/egs_bases/flow_vae/base.yaml",
+    "sha256": "e634b49f7d2065bc5d658c524e77da10f442f128ccf4257b04942e5600d13cf9",
+    "bytes": 1055,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/egs_bases/flow_vae/flow_vae.yaml": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/egs_bases/flow_vae/flow_vae.yaml",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/egs_bases/flow_vae/flow_vae.yaml",
+    "sha256": "4510267a58bc3698a7fc61043adef3a4f65fb701287d68160a1f97cbbdf179ea",
+    "bytes": 80,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/train_vae.yaml": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/train_vae.yaml",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/configs/train_vae.yaml",
+    "sha256": "b9ef1d24c50482674127b191494b314b68a7a24e15814dc61d248413471fb489",
+    "bytes": 1167,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/concract.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/concract.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/concract.py",
+    "sha256": "d6578f6431c8ddd98b9cca702a7062283f7b3a4525ca2557345ae6c95775604a",
+    "bytes": 1011,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/create_datasets.sh": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/create_datasets.sh",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/create_datasets.sh",
+    "sha256": "60b0678ce2df99060c58757e2953252658b02cc1f7d97fc163de469bd22d5605",
+    "bytes": 184,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/dataprocess2.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/dataprocess2.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/datasets/dataprocess2.py",
+    "sha256": "6fc068c8062f5ebae8281fe594b303411c163b5f25f81ffbcacff44ce4707727",
+    "bytes": 826,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/tasks/train_VAE+flow.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/tasks/train_VAE+flow.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/tasks/train_VAE+flow.py",
+    "sha256": "03e7a30527243cb516b00e1291b69f3fd72b9d2751b2da5e9ee3946854751fe6",
+    "bytes": 9599,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/tasks/train_diffusion.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/tasks/train_diffusion.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/tasks/train_diffusion.py",
+    "sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8",
+    "bytes": 13059,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/base_task.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/base_task.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/base_task.py",
+    "sha256": "903ea010d5e44c8c467bf452ee23e6df141908ee394c2818b6b38be127615183",
+    "bytes": 9025,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/hparams.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/hparams.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/hparams.py",
+    "sha256": "10fd6a6049a90235328df98a495467cb40f9a674a31239ed1cab131f9e7f81d7",
+    "bytes": 5292,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/trainer.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/trainer.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/AMP_VAEflow/utils/commons/trainer.py",
+    "sha256": "bb8cfc512d1024bfbd6890994db9da65ba22c4d043d084b4df07793cb667d631",
+    "bytes": 21230,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/README.md": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/README.md",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/README.md",
+    "sha256": "606ebd9762450d4c98586500a625b136402050b0a2650f64b6ae0978dca353f1",
+    "bytes": 2794,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/diffusion.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/diffusion.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/diffusion.py",
+    "sha256": "3b584082f24b9fe9d9761594b94e9b547a1dc5c1b65c84cacb09839087f082e3",
+    "bytes": 13212,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/run.py": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/run.py",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/run.py",
+    "sha256": "5d86b4efec95c07022dc85413b0ea83a38519a5acdd626cf491d215016da4c18",
+    "bytes": 475,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/historical_e7486fb/AMP-main/train_vae_flow.sh": {
+    "relative_path": "code_source/historical_e7486fb/AMP-main/train_vae_flow.sh",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/historical_e7486fb/AMP-main/train_vae_flow.sh",
+    "sha256": "ad8bcc9e61f43860aa9f60cd999be8f0016b6be69293ba6b6669f2efa690b537",
+    "bytes": 103,
+    "role": "fixed_repository_static_text_verified_no_execution"
+  },
+  "code_source/SOURCE_RECEIPT.json": {
+    "relative_path": "code_source/SOURCE_RECEIPT.json",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/code_source/SOURCE_RECEIPT.json",
+    "sha256": "5a757d01af723b1df3747d5a48940f6ee422937de4c3611955367305be2904de",
+    "bytes": 17705,
+    "role": "original_repository_receipt"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/81201268_C9227238G0_1_COA_C9227238G0-1-PE0291.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/81201268_C9227238G0_1_COA_C9227238G0-1-PE0291.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/81201268_C9227238G0_1_COA_C9227238G0-1-PE0291.pdf",
+    "sha256": "21dea13fc400fce8b32273394c76acca9268a2048a4f70440a06870b5d86c2f8",
+    "bytes": 74488,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/81201268_C9227238G0_1_COA_C9227238G0-1-PE0291.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/81201268_C9227238G0_1_COA_C9227238G0-1-PE0291.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/81201268_C9227238G0_1_COA_C9227238G0-1-PE0291.txt",
+    "sha256": "84058e7a65718d9c532f286322e3e7c16e424f32bf0d13518bcc2cae30e4d84e",
+    "bytes": 2076,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-HPLC.pdf",
+    "sha256": "281d3cf6700c7c62530d06ac2a57b1c34f377b41278c84c05dd222c0550584d9",
+    "bytes": 283827,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-HPLC.txt",
+    "sha256": "e5b0413813d6371e07ef8094e53ba830d340f1393dd38f7f8ee1ae4b0f64dc68",
+    "bytes": 3119,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-MS.pdf",
+    "sha256": "2f19e05fbcfc85a3f645eadd87b8157abc0359fb47b866c0e98a32de44cef408",
+    "bytes": 122114,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-MS.txt",
+    "sha256": "3021988c8944d733cadefaeafabf5cb3a8fe48861f5ec302e8e91ad873f2c3a8",
+    "bytes": 1706,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-1C9227238G0_1/C9227238G0-1-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "b47ae04c0e394376c36046681cc6138018c6d21012090ebf52dd3be9944bbfd9",
+    "bytes": 36090,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-1C9227238G0_1/C9227238G0-1-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "ad0ee993e0429a4533f83123a7275284f8b8b232bf0359c4e06be92fd2727ab7",
+    "bytes": 3265,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/81201298_C9227238G0_3_COA_C9227238G0-3-PE0293.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/81201298_C9227238G0_3_COA_C9227238G0-3-PE0293.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/81201298_C9227238G0_3_COA_C9227238G0-3-PE0293.pdf",
+    "sha256": "3a002166eb9ff6b06de4d1efc841dedbb16c4ad1480ca9897f25c34b255d9b6a",
+    "bytes": 74616,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/81201298_C9227238G0_3_COA_C9227238G0-3-PE0293.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/81201298_C9227238G0_3_COA_C9227238G0-3-PE0293.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/81201298_C9227238G0_3_COA_C9227238G0-3-PE0293.txt",
+    "sha256": "4e165732f4ab66832c012f23a36a6548bb493a1081134f9e9f522c979a3c9c18",
+    "bytes": 2091,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-HPLC.pdf",
+    "sha256": "8e65773364761e9f6f2ee3d9c49917f14c75b39b5ff17bb4511f19b199d71e9e",
+    "bytes": 283063,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-HPLC.txt",
+    "sha256": "7dae9587187663d18fffdfb241b83fff7008c68572788ff178b67e16cd3a6c5c",
+    "bytes": 3307,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-MS.pdf",
+    "sha256": "e931edc13b9a2ae9cb31d5828e7eedc29a7cb78a66b0d58c9fc598928aab35a7",
+    "bytes": 113157,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-MS.txt",
+    "sha256": "2e4f188a0962451ddbb6ce06a5cb5b630e962c10b8faab18de0e276f122ddb03",
+    "bytes": 1823,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-2C9227238G0_3/C9227238G0-3-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "97bd3b0dc392e62d04dc923d15b3b026c007bc6da2333132f9b18984662e47f0",
+    "bytes": 35989,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-2C9227238G0_3/C9227238G0-3-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "9b37947cd36b1fdaab072c66d342d162489ca10ae12cc2de0baa2cdff4e6c0f8",
+    "bytes": 3267,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/81201337_C9227238G0_5_COA_C9227238G0-5-PE0295.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/81201337_C9227238G0_5_COA_C9227238G0-5-PE0295.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/81201337_C9227238G0_5_COA_C9227238G0-5-PE0295.pdf",
+    "sha256": "e60c2ad356c9d31aa3d8f35dff0c4d25d456df125524060bd3df2b318569a48d",
+    "bytes": 74511,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/81201337_C9227238G0_5_COA_C9227238G0-5-PE0295.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/81201337_C9227238G0_5_COA_C9227238G0-5-PE0295.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/81201337_C9227238G0_5_COA_C9227238G0-5-PE0295.txt",
+    "sha256": "0be7d1a71daaa09fc1d397a85fad3156ead46fa338376cdc74f5f9201f534584",
+    "bytes": 2070,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-HPLC.pdf",
+    "sha256": "3f373dc9198d5af5497518dba651331edb991944ec8d3a1d2f44d8294162c8a5",
+    "bytes": 283000,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-HPLC.txt",
+    "sha256": "16df7a31ef8ff4c07fda0454c67ca95c64f13f1bdd36fcaffe14fab19f218dcf",
+    "bytes": 2896,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-MS.pdf",
+    "sha256": "d4f6dd29a40623f8341353702f35a517ea4b272d771942f96c3c11a9fe634284",
+    "bytes": 126133,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-MS.txt",
+    "sha256": "de54c2c96216a49062009701904423ef02eae759a66bfb9e487e08d9327c7de0",
+    "bytes": 1769,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-3C9227238G0_5/C9227238G0-5-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "24be646db4368ea2462340693cfb8ce27784b73a21dba566ea28e5318d1d821a",
+    "bytes": 36061,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-3C9227238G0_5/C9227238G0-5-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "7a3b3483dcea4fb24e6fbf13fdf47796887cd103834d05ed68ba6c66acc17e07",
+    "bytes": 3266,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/81201358_C9227238G0_7_COA_C9227238G0-7-PE0297.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/81201358_C9227238G0_7_COA_C9227238G0-7-PE0297.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/81201358_C9227238G0_7_COA_C9227238G0-7-PE0297.pdf",
+    "sha256": "4a2145b40c8e8a776a330d19d0ff7029234a924c720b4d47edad44530198d0a4",
+    "bytes": 74670,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/81201358_C9227238G0_7_COA_C9227238G0-7-PE0297.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/81201358_C9227238G0_7_COA_C9227238G0-7-PE0297.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/81201358_C9227238G0_7_COA_C9227238G0-7-PE0297.txt",
+    "sha256": "aba5c0f0b4a88f600ca144f45ee67b2d39ee8c6cf330bb946681580e13fd8d30",
+    "bytes": 2103,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-HPLC.pdf",
+    "sha256": "62c3126a7e0232c138aa07a92acdcbbe94661d79d45ba44ce11b98eebed87852",
+    "bytes": 284044,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-HPLC.txt",
+    "sha256": "125b39f60664467df2c823ec4d030dd993454c2ddf13f8e9c36d4c1de9438806",
+    "bytes": 2686,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-MS.pdf",
+    "sha256": "183e8ff8c634a58af3400b3c46ae5694057c785701e5780c9712806f7b2f3b60",
+    "bytes": 88403,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-MS.txt",
+    "sha256": "efa06bad688ca8d3c89b544b36ce6f65fa26d63b01a1341a5923394de10b3620",
+    "bytes": 1874,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-4C9227238G0_7/C9227238G0-7-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "c95b62cc18c879925dcd2e83d5b528fb77ad82a6249d0671ff3eeb69b9a254f0",
+    "bytes": 36143,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-4C9227238G0_7/C9227238G0-7-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "e097379090fa7e24bd2cdd781e7e30eca01f83bb797b05608582cb42e2d84a26",
+    "bytes": 3254,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/81201394_C9227238G0_9_COA_C9227238G0-9-PE0299.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/81201394_C9227238G0_9_COA_C9227238G0-9-PE0299.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/81201394_C9227238G0_9_COA_C9227238G0-9-PE0299.pdf",
+    "sha256": "99ea299643c090cb5a187db293c90c4fc4cbd2b01c32d392de5d05b85498ea8e",
+    "bytes": 74529,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/81201394_C9227238G0_9_COA_C9227238G0-9-PE0299.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/81201394_C9227238G0_9_COA_C9227238G0-9-PE0299.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/81201394_C9227238G0_9_COA_C9227238G0-9-PE0299.txt",
+    "sha256": "fb622f76907f7d1ac6ac224fbfe760f815bbb7b6b093fe9d853d3c191689214b",
+    "bytes": 2070,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-HPLC.pdf",
+    "sha256": "da9c19669311b38d0bce64e15ebfad0088893a664b5092f2d6c4e1e68ef81554",
+    "bytes": 568021,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-HPLC.txt",
+    "sha256": "1963da3d40764c58578e2e51f099724c67fd2b525f6ac0f51e1e3e27e70df765",
+    "bytes": 4703,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-MS.pdf",
+    "sha256": "28eff55818ad9f34b5efa10dddf430eb5d37fd2e42e27f466cb724c0faf6038d",
+    "bytes": 127666,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-MS.txt",
+    "sha256": "ff69a50df47a659bf7a5d3cbaf14a89fbabec4752fa36a6427c12a188872d922",
+    "bytes": 1875,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-5C9227238G0_9/C9227238G0-9-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "203915cad864cd3baff43fdeea5de9ea77df6875349314e8d8eea0e1a7ea7eae",
+    "bytes": 35934,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-5C9227238G0_9/C9227238G0-9-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "4f70dbedbc4971efc10c7b08858667a1da6210a35f102adfbca5188b6d604fb8",
+    "bytes": 3266,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/81201453_C9227238G0_13_COA_C9227238G0-13-PE0303.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/81201453_C9227238G0_13_COA_C9227238G0-13-PE0303.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/81201453_C9227238G0_13_COA_C9227238G0-13-PE0303.pdf",
+    "sha256": "b07c21954953f90f06d8665d782b7c5dbbf50563c429335a62be56a0bc5932f1",
+    "bytes": 74457,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/81201453_C9227238G0_13_COA_C9227238G0-13-PE0303.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/81201453_C9227238G0_13_COA_C9227238G0-13-PE0303.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/81201453_C9227238G0_13_COA_C9227238G0-13-PE0303.txt",
+    "sha256": "123ce863ec76e7f0fb84ffc94f9aba5242982a372496c30545e88a74e7f8924c",
+    "bytes": 2084,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-HPLC.pdf",
+    "sha256": "cf9dc7ef496d4db4e582d9713e804d15a48242c315f6fd1d03df5f9a0af2351b",
+    "bytes": 290483,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-HPLC.txt",
+    "sha256": "26b7f3d684bd37da83976f4f7f9110e71530ba51a4346cf666ea697c175a19c4",
+    "bytes": 6211,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-MS.pdf",
+    "sha256": "d935849241fec2dbb992cb22f7198ae93f0d06f982afc7749699f1d8bbc1e669",
+    "bytes": 123023,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-MS.txt",
+    "sha256": "b87b1bdaec4817f61522009ac7c73b3a0ee674233273850a2b9763a2c1479011",
+    "bytes": 1680,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-7C9227238G0_13/C9227238G0-13-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "8f6f3c1e0581e0c1a35e32b9c4488e2f7f84e9ef59d6e5c501f64edc07964454",
+    "bytes": 35933,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-7C9227238G0_13/C9227238G0-13-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "15c58375ac459434e682fb4d7f128e4520aba61665c44c8bc564aaabf7119fac",
+    "bytes": 3263,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/81201495_C9227238G0_15_COA_C9227238G0-15-PE0305.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/81201495_C9227238G0_15_COA_C9227238G0-15-PE0305.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/81201495_C9227238G0_15_COA_C9227238G0-15-PE0305.pdf",
+    "sha256": "9b62c258b59129ec2cd6ef2da1bf75d8e83a469c4d0f02ae1db9c0a327fe738a",
+    "bytes": 74590,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/81201495_C9227238G0_15_COA_C9227238G0-15-PE0305.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/81201495_C9227238G0_15_COA_C9227238G0-15-PE0305.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/81201495_C9227238G0_15_COA_C9227238G0-15-PE0305.txt",
+    "sha256": "0d73b998f8218f92e97cf37c3cfe04529745fff1263fc806513a6d2843a82eba",
+    "bytes": 2073,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-HPLC.pdf",
+    "sha256": "da124e19efe466cd8b1c2ead2635fe554659430c1a64b3b05774a15bc40c125f",
+    "bytes": 282617,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-HPLC.txt",
+    "sha256": "e5fcf306dfead1a0ec5d19c4d5ce197ab42c0677cb7d3f83121c55315935d8c1",
+    "bytes": 3002,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-MS.pdf",
+    "sha256": "ab2e676aeea186a569e54f270ea3c077f9283d01abdce27e4e47a1d211f7275a",
+    "bytes": 101182,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-MS.txt",
+    "sha256": "bc1aef3b49f7c445c736ee663e55f2b5eb6e46dedff7fd3b0ea3cd1fa28e3cd7",
+    "bytes": 1787,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp1-8C9227238G0_15/C9227238G0-15-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "2857e8acf3664a1b51c709b6e09d96818fe4711a00055e9b5adfdda568af76de",
+    "bytes": 35932,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp1-8C9227238G0_15/C9227238G0-15-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "d1e6313726e9734be4bbe452f3b371d97bd70b722e9049de8f7ea4475faa4cfe",
+    "bytes": 3266,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/81201533_C9227238G0_17_COA_C9227238G0-17-PE0307.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/81201533_C9227238G0_17_COA_C9227238G0-17-PE0307.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/81201533_C9227238G0_17_COA_C9227238G0-17-PE0307.pdf",
+    "sha256": "d4aa2eaa44e0f24f6984f7457ec4fac288cc9aa5c4df3820eb6771bff00b9a5f",
+    "bytes": 74456,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/81201533_C9227238G0_17_COA_C9227238G0-17-PE0307.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/81201533_C9227238G0_17_COA_C9227238G0-17-PE0307.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/81201533_C9227238G0_17_COA_C9227238G0-17-PE0307.txt",
+    "sha256": "4b1ca542b04575e45164ac429c0b6d007959db8db0471331afacf6edcd1d2d44",
+    "bytes": 2061,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-HPLC.pdf",
+    "sha256": "0044fa787002bace0143ff4c94b8d1bd33f67fd91c0ef9b907a9915b513bf9d7",
+    "bytes": 284050,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-HPLC.txt",
+    "sha256": "d26891488c3b7891c925be30fe44409372d175920550a20868d7293d11268459",
+    "bytes": 2861,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-MS.pdf",
+    "sha256": "7f8db835044cff258b820f06c6c15cd35fafd675adecae78db635d5e57db8546",
+    "bytes": 119558,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-MS.txt",
+    "sha256": "ac91c477fcf5b877f0fec111bc5397ca17f86f980f0edc4587d8ca720b9e2a2c",
+    "bytes": 1456,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-1C9227238G0_17/C9227238G0-17-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "75e3bb9fb655379bea531f54f2b03411a583b9dd5a7052a3c551477abf0d0339",
+    "bytes": 36033,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-1C9227238G0_17/C9227238G0-17-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "a205b8f85f80d2bfd59a252c183bd85e4f736fa694b5ee271c8aa5a05da08d13",
+    "bytes": 3260,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/81201563_C9227238G0_19_COA_C9227238G0-19-PE0309.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/81201563_C9227238G0_19_COA_C9227238G0-19-PE0309.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/81201563_C9227238G0_19_COA_C9227238G0-19-PE0309.pdf",
+    "sha256": "b140e4c749b51d7f2ae545ca7322af0bb7981f5d75862d70917baee758ea1c8b",
+    "bytes": 74448,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/81201563_C9227238G0_19_COA_C9227238G0-19-PE0309.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/81201563_C9227238G0_19_COA_C9227238G0-19-PE0309.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/81201563_C9227238G0_19_COA_C9227238G0-19-PE0309.txt",
+    "sha256": "07ab02f89f7d09d5342779312e05e1317dc85bdbd262dd2028656a402dd9119e",
+    "bytes": 2082,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-HPLC.pdf",
+    "sha256": "e85d30432001e1d4ef762863925fcab9c8bebb457c48e9917a9588a74d888ef7",
+    "bytes": 561661,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-HPLC.txt",
+    "sha256": "b9e82f72352246d55a9888a1135fbffed315cc846c7d8f9a6b4a9fa6fcc466a1",
+    "bytes": 2507,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-MS.pdf",
+    "sha256": "a268a08569b0e474495a812c9936c764fff1abc08036db5d95d250c76e8906af",
+    "bytes": 114975,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-MS.txt",
+    "sha256": "cf1a37465f6832c0d6310c8fd2b3637e234cf8abfa4f7c8eace846c4db013342",
+    "bytes": 1402,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-2C9227238G0_19/C9227238G0-19-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "7b3473c4885d0060ae6ba17fffbc7d385e2a7edfa29f4547c2fa43e51feb16a5",
+    "bytes": 35872,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-2C9227238G0_19/C9227238G0-19-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "d90d059ed0d6686900a0357a59921ade3584990f0e3ae54f2a5a5a066346a62b",
+    "bytes": 3263,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/81201612_C9227238G0_21_COA_C9227238G0-21-PE0311.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/81201612_C9227238G0_21_COA_C9227238G0-21-PE0311.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/81201612_C9227238G0_21_COA_C9227238G0-21-PE0311.pdf",
+    "sha256": "125a5cd5803866647a674b9278287ad97ecc2b332464927e7a05d99db8c9272c",
+    "bytes": 74489,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/81201612_C9227238G0_21_COA_C9227238G0-21-PE0311.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/81201612_C9227238G0_21_COA_C9227238G0-21-PE0311.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/81201612_C9227238G0_21_COA_C9227238G0-21-PE0311.txt",
+    "sha256": "3bb9d5a1c7339f156f788b254a9d5f3a9ab418cf34730f6edb784aa92d72ee99",
+    "bytes": 2066,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-HPLC.pdf",
+    "sha256": "2c9e448c7ae08deddf10e76245c4482f967d5563871c723505654b18fa3133b7",
+    "bytes": 562307,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-HPLC.txt",
+    "sha256": "8bcd41d63d120a1afb2295313d544f6c46e61e6c91077304de81e5b0a7f4ca9c",
+    "bytes": 2690,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-MS.pdf",
+    "sha256": "518a9997203c70d84af9c20fb1ef5a3fcafa063173a8870a397d35c01db92bb6",
+    "bytes": 94183,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-MS.txt",
+    "sha256": "f346f818ed7fe0e373f347ee83646d005cdec4837c531b3500dee88224d2bd1e",
+    "bytes": 1624,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-3C9227238G0_21/C9227238G0-21-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "59d11b4e6cb25d71adaf2ba07e630d2a279641f79c4ce4a9a0f1ce92e5f879a7",
+    "bytes": 35916,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-3C9227238G0_21/C9227238G0-21-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "66ccb658fe9413b3b7459cef6ed35c797e5dfbc1fd28a7bc4751d1d1cddbc02f",
+    "bytes": 3263,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/81201648_C9227238G0_23_COA_C9227238G0-23-PE0313.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/81201648_C9227238G0_23_COA_C9227238G0-23-PE0313.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/81201648_C9227238G0_23_COA_C9227238G0-23-PE0313.pdf",
+    "sha256": "f2d6330b5e79b1aa1f1611f0f32ac49a1290b3fb9f6b086ceb2445665779e2c2",
+    "bytes": 75701,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/81201648_C9227238G0_23_COA_C9227238G0-23-PE0313.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/81201648_C9227238G0_23_COA_C9227238G0-23-PE0313.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/81201648_C9227238G0_23_COA_C9227238G0-23-PE0313.txt",
+    "sha256": "1bc6cd590231dd09c83b68088035e554a844dd071e25d39439f2ba18dc920e67",
+    "bytes": 2082,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-HPLC.pdf",
+    "sha256": "e91f7733a5ff1bc33339f3e7476c71c0dea9cf12a6d935d0f58194c19583660b",
+    "bytes": 561218,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-HPLC.txt",
+    "sha256": "7fcc126e21d1d1533c00a8361de98c90a3e3ba4745fb805078bc941368a65121",
+    "bytes": 2218,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-MS.pdf",
+    "sha256": "8b745b650b04fcb8aee0a6e4609f46e87cb7fb2d2d75a8c0cb203cbeacd4e29b",
+    "bytes": 115030,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-MS.txt",
+    "sha256": "6f6c72e3512c048bea00308ddcec8895c3ff2064c1662f3a2404f9cce898085b",
+    "bytes": 1923,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-4C9227238G0_23/C9227238G0-23-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "26a55c4c2e2b491b885fe0f2b3784ed08e1ae31a40fd149c6abf2fafef7a46d0",
+    "bytes": 36137,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-4C9227238G0_23/C9227238G0-23-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "500db2b7f5e7866544927dc75c0a5c5e5272aebe988115fa01afc840fb6ae41a",
+    "bytes": 3261,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/81201685_C9227238G0_25_COA_C9227238G0-25-PE0315.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/81201685_C9227238G0_25_COA_C9227238G0-25-PE0315.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/81201685_C9227238G0_25_COA_C9227238G0-25-PE0315.pdf",
+    "sha256": "35d9b7d951a52d933c357c5de2c9bd7e8a2b44e458115c0881bedc39fe83e70f",
+    "bytes": 74425,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/81201685_C9227238G0_25_COA_C9227238G0-25-PE0315.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/81201685_C9227238G0_25_COA_C9227238G0-25-PE0315.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/81201685_C9227238G0_25_COA_C9227238G0-25-PE0315.txt",
+    "sha256": "d16cc0ef806fd59fab35dac425c27fe6d65b8c996d1b963ae35e74e31eb588a1",
+    "bytes": 2073,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-HPLC.pdf",
+    "sha256": "b105e3a219de6fd4bcecd1d820d896e6e0ac568921d6e36011768d879bb02619",
+    "bytes": 284565,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-HPLC.txt",
+    "sha256": "9fedad98c6ddc55bafb1dbcf1935db3d537085f629f8757cb16ef6a1fec7dc97",
+    "bytes": 3242,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-MS.pdf",
+    "sha256": "b264220f1e77aa36c3408c88912651822cd0c2b94182f6b1177640d15b14795b",
+    "bytes": 121722,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-MS.txt",
+    "sha256": "d823b499264b07c62bbec79506e68905bd4cc2a524114f7d8380c2a6802202b4",
+    "bytes": 1596,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-5C9227238G0_25/C9227238G0-25-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "29bc6b5e795b5c61c83021e777c70b1441228707b192807f6afecd14935b73a2",
+    "bytes": 36037,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-5C9227238G0_25/C9227238G0-25-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "e37b7cefc87dda7a6f08267d88a9689925d061fd41b343bd511a94e992a55680",
+    "bytes": 3258,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/81201724_C9227238G0_27_COA_C9227238G0-27-PE0317.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/81201724_C9227238G0_27_COA_C9227238G0-27-PE0317.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/81201724_C9227238G0_27_COA_C9227238G0-27-PE0317.pdf",
+    "sha256": "aca59375ef005abbc40cbcf805112d812292ec9fdb4a2c63f5e1aa44fdf2b954",
+    "bytes": 74432,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/81201724_C9227238G0_27_COA_C9227238G0-27-PE0317.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/81201724_C9227238G0_27_COA_C9227238G0-27-PE0317.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/81201724_C9227238G0_27_COA_C9227238G0-27-PE0317.txt",
+    "sha256": "85ba2634f49e7d9bc0c2ec1d4bf37084047f74b00e4bc8636cb235baf41c4d4f",
+    "bytes": 2061,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-HPLC.pdf",
+    "sha256": "d9984ec78122e303bc6a9b44e63ea58b2c26b4ccb69416043ee4f1c2f7095a72",
+    "bytes": 564008,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-HPLC.txt",
+    "sha256": "a91929ca2e3d67d5b9535515cbd74ad298f5dbae42088f6d74ff618ac36a06a3",
+    "bytes": 3718,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-MS.pdf",
+    "sha256": "d15282922f8223d3c77f6a1d4194579ce6c6acb2954506d4c1735690c79e9843",
+    "bytes": 92638,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-MS.txt",
+    "sha256": "b189c5d017d7d818d2f64807a246183def0565f88ec012d2f67aac8d06f673bd",
+    "bytes": 1442,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-6C9227238G0_27/C9227238G0-27-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "b7feac84f0f8f3f62b259aa4fb76d52d56792e57f330596f09dda18c3a88fe4c",
+    "bytes": 35891,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-6C9227238G0_27/C9227238G0-27-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "294c042a9100147ea059f166dbfe4ba2038ef675687f86a0f27a43a22bf49ab4",
+    "bytes": 3260,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/81201750_C9227238G0_29_COA_C9227238G0-29-PE0319.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/81201750_C9227238G0_29_COA_C9227238G0-29-PE0319.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/81201750_C9227238G0_29_COA_C9227238G0-29-PE0319.pdf",
+    "sha256": "d5e8be6994dc92aaf66b192febce7adbb0db4302ee890ddaf32dfcaaeab56594",
+    "bytes": 74483,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/81201750_C9227238G0_29_COA_C9227238G0-29-PE0319.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/81201750_C9227238G0_29_COA_C9227238G0-29-PE0319.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/81201750_C9227238G0_29_COA_C9227238G0-29-PE0319.txt",
+    "sha256": "43232422d484f40193993f8f09d750a34466c69f7829758e13807d242d28b773",
+    "bytes": 2073,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-HPLC.pdf",
+    "sha256": "c2924be0b46d632fb50ad5dcbd30a56bd0eb9d78d343e4ce27b008c3340d1c4a",
+    "bytes": 283812,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-HPLC.txt",
+    "sha256": "8edc45fa54ac4a80dea22c02683aeca11108947f6039ccce9e35ee48fb2f8b65",
+    "bytes": 2905,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-MS.pdf",
+    "sha256": "b68311d28011fc5269881bccf995975a1c4ba0e8a556afd91fd204825059179c",
+    "bytes": 94625,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-MS.txt",
+    "sha256": "f9f6612f18921eef947289fac5730ffb93d7e1e00126f572ae3241da04703e01",
+    "bytes": 1483,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-7C9227238G0_29/C9227238G0-29-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "14d09a36d743d61d26f96df1182925320cf829fadcd7964ce33b866eb87b7b1c",
+    "bytes": 36030,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-7C9227238G0_29/C9227238G0-29-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "20c7841c0879054310976965c262955f2bf1b056d459d7a74d70616e8b2d5e29",
+    "bytes": 3257,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/81201785_C9227238G0_31_COA_C9227238G0-31-PE0321.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/81201785_C9227238G0_31_COA_C9227238G0-31-PE0321.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/81201785_C9227238G0_31_COA_C9227238G0-31-PE0321.pdf",
+    "sha256": "d24e2ecf7bb0d0bef460cc3578d0f4e8362414b3239b4abed7486abe069c0a9f",
+    "bytes": 74583,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/81201785_C9227238G0_31_COA_C9227238G0-31-PE0321.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/81201785_C9227238G0_31_COA_C9227238G0-31-PE0321.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/81201785_C9227238G0_31_COA_C9227238G0-31-PE0321.txt",
+    "sha256": "ebacabf3fc258bc6147734c681cb392bf0591aaf1677bce8688f6a9b013c89d3",
+    "bytes": 2089,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-HPLC.pdf",
+    "sha256": "3d4de623d452386a7c6ed8240bb455fc25d2ac2f6e2cf607e7329c3a9228cccd",
+    "bytes": 283133,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-HPLC.txt",
+    "sha256": "3a18e6c145bc2f7ad6ca235d903e0003e93a4d3d243546ff969612c143c8d735",
+    "bytes": 2994,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-MS.pdf",
+    "sha256": "07cf1b4cffb9253538e1f33d988fc2394afa3c59f8ef477c290c93fb1bd88e0e",
+    "bytes": 92832,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-MS.txt",
+    "sha256": "9165a3c8dd8cdd5fc8441da6f90e83cab66fe0994db498029cacbe6f932fb438",
+    "bytes": 1480,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp2-8C9227238G0_31/C9227238G0-31-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "ba8d96b39202daeaa81daa681691359fd1b3a1485af42b267731da989d7c79ef",
+    "bytes": 36124,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp2-8C9227238G0_31/C9227238G0-31-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "a11d1c678b372bfdf7fe0695fb5b7a7bb5e85a505a318d3fd5e5374b1a5787d8",
+    "bytes": 3266,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/81201807_C9227238G0_33_COA_C9227238G0-33-PE0323.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/81201807_C9227238G0_33_COA_C9227238G0-33-PE0323.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/81201807_C9227238G0_33_COA_C9227238G0-33-PE0323.pdf",
+    "sha256": "996a743341caa227eba669e62bb01143410dd8f323f95bc3ba96d2cf0e8b291a",
+    "bytes": 74789,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/81201807_C9227238G0_33_COA_C9227238G0-33-PE0323.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/81201807_C9227238G0_33_COA_C9227238G0-33-PE0323.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/81201807_C9227238G0_33_COA_C9227238G0-33-PE0323.txt",
+    "sha256": "887f992e07680c88777acd6c650d75c8922053d7cf8822888825d0c4f0ffe023",
+    "bytes": 2082,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-HPLC.pdf",
+    "sha256": "45f30fbfb5d1d4cbb4500c36001c29ea69d62975a89066ce627bdbee52f8f414",
+    "bytes": 562882,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-HPLC.txt",
+    "sha256": "de0f704bcd826ed6b2a3d1c91f6286fcfcc0e6bd50e4161a2e5abedfc33d6c63",
+    "bytes": 2787,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-MS.pdf",
+    "sha256": "ddf3b4f4f630f2d2df53394414949c9e13f7e167f8f82f40f57cf19dbf590e4a",
+    "bytes": 116598,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-MS.txt",
+    "sha256": "3ed5d8784d010db83e5831047dbf702d45b116f599395a56969191ec37db33cd",
+    "bytes": 1929,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-1C9227238G0_33/C9227238G0-33-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "d043645370d50620b418d43b41ae4750b7be45602bf175bda3a5d6e0f9363b8e",
+    "bytes": 36141,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-1C9227238G0_33/C9227238G0-33-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "80d2ad6fc6e83d81f32d06059b8256dd2a71bb18eec70384e30af244495bd836",
+    "bytes": 3263,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/81201843_C9227238G0_35_COA_C9227238G0-35-PE0325.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/81201843_C9227238G0_35_COA_C9227238G0-35-PE0325.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/81201843_C9227238G0_35_COA_C9227238G0-35-PE0325.pdf",
+    "sha256": "f4f25a160483ebba18276ffc46fe4df86b2ba65c87e0fd470484edb74536dc8f",
+    "bytes": 74764,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/81201843_C9227238G0_35_COA_C9227238G0-35-PE0325.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/81201843_C9227238G0_35_COA_C9227238G0-35-PE0325.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/81201843_C9227238G0_35_COA_C9227238G0-35-PE0325.txt",
+    "sha256": "5faf1172b5b83351b5b8b4c447ec95f9be516d908549ecec986ca24d88299cf3",
+    "bytes": 2094,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-HPLC.pdf",
+    "sha256": "1ca9c24b0de643e2f36db3746ba5e927edf43ab6ad796eaf0c8fc530a0bcf46d",
+    "bytes": 285140,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-HPLC.txt",
+    "sha256": "5f3894d2b39e886f0ab9ef4b72da9912d6214eaff242c19d691c977f3959b118",
+    "bytes": 5208,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-MS.pdf",
+    "sha256": "192bf7657248e09306ae8cf5004b6e59862a80b363fe816ef11e82377c8d7c01",
+    "bytes": 112874,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-MS.txt",
+    "sha256": "0ba43f6fb7f357e3c66c77688a203bc8b02bfbd25a75ba3609d79cac7f74856c",
+    "bytes": 1763,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-2C9227238G0_35/C9227238G0-35-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "105143a1c8d968b5558055bdaeacf684931ea007603ada29cf5fd427415b8db8",
+    "bytes": 36267,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-2C9227238G0_35/C9227238G0-35-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "c2dd600a6da2407978002f662214a27bee50b2fb5c9805691b37e9edd193b1f8",
+    "bytes": 3260,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/81201898_C9227238G0_37_COA_C9227238G0-37-PE0327.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/81201898_C9227238G0_37_COA_C9227238G0-37-PE0327.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/81201898_C9227238G0_37_COA_C9227238G0-37-PE0327.pdf",
+    "sha256": "4ce82973034e43aad9d9c001b04459c0b7b7e5daa7956f5d61648e2840a1e282",
+    "bytes": 74749,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/81201898_C9227238G0_37_COA_C9227238G0-37-PE0327.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/81201898_C9227238G0_37_COA_C9227238G0-37-PE0327.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/81201898_C9227238G0_37_COA_C9227238G0-37-PE0327.txt",
+    "sha256": "08bd71686020553e09e5dcc3a3d17659ccb3bf1cb2a00a052fa823463d0e308b",
+    "bytes": 2075,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-HPLC.pdf",
+    "sha256": "5702d63316a30bffa2d8a6ed02cac40960bece64ddd50a31e539957f8ad5fc8a",
+    "bytes": 283634,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-HPLC.txt",
+    "sha256": "94a223fcdc3d10f67518a887108f18e9364466968d006de34fb5d2fc9719d1ec",
+    "bytes": 2933,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-MS.pdf",
+    "sha256": "71e3bc8d55e80761fe7bfed880c08960d01db6529d7ce4933266eea17855685c",
+    "bytes": 86027,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-MS.txt",
+    "sha256": "7bd3a1330d5b61483900fe536a26e3e1ba5ada181cbedfb21544cc6650017184",
+    "bytes": 1517,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-3C9227238G0_37/C9227238G0-37-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "8387e6266541a7bd40929e0897440d7090923a031ba7cc4430500f080e579620",
+    "bytes": 36173,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-3C9227238G0_37/C9227238G0-37-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "03fccc109b349c93b4310de5fc6f5b869104cce318a35b9cd4394d1f860aa1e4",
+    "bytes": 3265,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/81201934_C9227238G0_39_COA_C9227238G0-39-PE0329.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/81201934_C9227238G0_39_COA_C9227238G0-39-PE0329.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/81201934_C9227238G0_39_COA_C9227238G0-39-PE0329.pdf",
+    "sha256": "62123e50124543539845fd4e857ba9487de4a62c1ec65caf2f49f374c50ed7e2",
+    "bytes": 74722,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/81201934_C9227238G0_39_COA_C9227238G0-39-PE0329.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/81201934_C9227238G0_39_COA_C9227238G0-39-PE0329.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/81201934_C9227238G0_39_COA_C9227238G0-39-PE0329.txt",
+    "sha256": "f4458f352f24704dac17e23ac0cc2175c43c3f76fd4c2e7398a494056020a0a7",
+    "bytes": 2093,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-HPLC.pdf",
+    "sha256": "ceccfbec2885be948695ddecc6e282d154669f7ce41d335be08fc212d20660b1",
+    "bytes": 282987,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-HPLC.txt",
+    "sha256": "89b438e0ef49d07b3c1e5a6b873382adc8a263bb5970aedef0cc1bddc94663cb",
+    "bytes": 2878,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-MS.pdf",
+    "sha256": "757b3c7a2e4bcafe7b5eed9f6c28937ffa68ffc44a2d83e9f5f43070feab9bd2",
+    "bytes": 97276,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-MS.txt",
+    "sha256": "4c92238e3fdfd2f921feac7fdb3bce8bcbffdb283b0aceacbb8ae318f17d3747",
+    "bytes": 1785,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-4C9227238G0_39/C9227238G0-39-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "b365e554520df71a08d810a2f594eef7b6c792b424d6a7230d8a8bdc3e8ec19b",
+    "bytes": 36056,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-4C9227238G0_39/C9227238G0-39-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "86e8b21292c989d71e4335d0e0368be45069e155ffa89564691d32991f632d12",
+    "bytes": 3266,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/81201962_C9227238G0_41_COA_C9227238G0-41-PE0331.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/81201962_C9227238G0_41_COA_C9227238G0-41-PE0331.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/81201962_C9227238G0_41_COA_C9227238G0-41-PE0331.pdf",
+    "sha256": "d54bbcd209f07581912e10f025de348882d4739042a67c37bb56e1715bdcd6c5",
+    "bytes": 74702,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/81201962_C9227238G0_41_COA_C9227238G0-41-PE0331.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/81201962_C9227238G0_41_COA_C9227238G0-41-PE0331.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/81201962_C9227238G0_41_COA_C9227238G0-41-PE0331.txt",
+    "sha256": "7227939e4193e25d0b0a6f8912bca90aa6da59e196639aa70fd62d61b16c9c09",
+    "bytes": 2079,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-HPLC.pdf",
+    "sha256": "4d3c6ff7a33c3308205410174e9a22958e024d8d0217c6f147a86fe908900bb4",
+    "bytes": 282629,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-HPLC.txt",
+    "sha256": "d5d0e04fa462ad458101352469f9740faea58d88a0887793e1e71b5aaaa0308a",
+    "bytes": 2695,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-MS.pdf",
+    "sha256": "38d878a62276f14cef3aa3443c9427d15cacf129f181f1450b89016ae6f083e8",
+    "bytes": 114348,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-MS.txt",
+    "sha256": "02440311674c6ce7528f9e020fcb1a49ed2a24179d5cc152a286a6d849ebbea1",
+    "bytes": 1682,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-5C9227238G0_41/C9227238G0-41-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "f7895380ebe692a57b36145149d6c8bc8d226852947a72f7b010f4b9aa14ae3a",
+    "bytes": 36225,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-5C9227238G0_41/C9227238G0-41-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "d326cd47682a09e4030714c3d17bd9a829681b41b1dd3291c490a108cc25c61a",
+    "bytes": 3268,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/81201991_C9227238G0_43_COA_C9227238G0-43-PE0333.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/81201991_C9227238G0_43_COA_C9227238G0-43-PE0333.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/81201991_C9227238G0_43_COA_C9227238G0-43-PE0333.pdf",
+    "sha256": "9d20733fd732b8cd1b770a530a012ff021af2233fa46e36c584e947d5f276d2f",
+    "bytes": 74509,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/81201991_C9227238G0_43_COA_C9227238G0-43-PE0333.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/81201991_C9227238G0_43_COA_C9227238G0-43-PE0333.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/81201991_C9227238G0_43_COA_C9227238G0-43-PE0333.txt",
+    "sha256": "55ed062f6d78eaf42662e549ef0ebc252f0c06577beab64ff0f9b408e9fb35a0",
+    "bytes": 2098,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-HPLC.pdf",
+    "sha256": "df769f24f8269aba90ebc778b4d426fda8eb5141369e304df2f8e20b162b4a54",
+    "bytes": 284338,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-HPLC.txt",
+    "sha256": "032395677efe4864f2c41aaafa4e2cbce57c57f30dbbe87a42105d70586dcebe",
+    "bytes": 3664,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-MS.pdf",
+    "sha256": "332513123d30ef40c8f9df89586d5ca0c7d1c20badd584daa8807d9ca1c75665",
+    "bytes": 117200,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-MS.txt",
+    "sha256": "49dd06f9712df91e9d8c408f7dfeec955bd1365872741fd935e248bbe7ab3b7a",
+    "bytes": 1885,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-6C9227238G0_43/C9227238G0-43-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "3e17792fd94c61de2b33e7645b132274000db497b38c952fbe53f09f9c7227f1",
+    "bytes": 35908,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-6C9227238G0_43/C9227238G0-43-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "a445830f6b78c662a0c24e7a66f0d11cd619ee81b421925ff71ff6eed2eb760a",
+    "bytes": 3263,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/81202021_C9227238G0_45_COA_C9227238G0-45-PE0335.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/81202021_C9227238G0_45_COA_C9227238G0-45-PE0335.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/81202021_C9227238G0_45_COA_C9227238G0-45-PE0335.pdf",
+    "sha256": "d801b77bd2796e589eb29cdd2565037beb86b2763f9de92a12ac5730df5c177e",
+    "bytes": 74519,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/81202021_C9227238G0_45_COA_C9227238G0-45-PE0335.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/81202021_C9227238G0_45_COA_C9227238G0-45-PE0335.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/81202021_C9227238G0_45_COA_C9227238G0-45-PE0335.txt",
+    "sha256": "b895d3b5a26da6a2fd3863c671e705f3b272223fdfa536e55a7afb584949e886",
+    "bytes": 2071,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-HPLC.pdf",
+    "sha256": "bb63b4898ef700d2aaa55ea654d2b51587a6f54845ca5503d968143011c15760",
+    "bytes": 565130,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-HPLC.txt",
+    "sha256": "d819866f78585ee9084d3bebe2076ee9152b7c0c3311a27ffea4dcaa53e8afce",
+    "bytes": 3112,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-MS.pdf",
+    "sha256": "ecfca3fcf21a48a62c70e44a22f4f7e96ed6ce55a0b4c74549354e69e53dc19a",
+    "bytes": 108256,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-MS.txt",
+    "sha256": "76c9c57097df1e3bf055ef6beb7d9c48c54359c7694d4c1e301a1b0ff97b917f",
+    "bytes": 1823,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-7C9227238G0_45/C9227238G0-45-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "17a65cffef84717fdb1491690cdd43d057322d766f318f2540b0fcd4cfe6ac87",
+    "bytes": 35910,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-7C9227238G0_45/C9227238G0-45-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "7c19ad940a8e93ccea93fe6c5ce89ebbfe61d86ffbd44e67f80e6a55a84a82d8",
+    "bytes": 3264,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/81202058_C9227238G0_49_COA_C9227238G0-49-PE0339.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/81202058_C9227238G0_49_COA_C9227238G0-49-PE0339.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/81202058_C9227238G0_49_COA_C9227238G0-49-PE0339.pdf",
+    "sha256": "951bb62c6af1a102b08d1d3f283e1f212b033778f28e42a56bbdde03416566b2",
+    "bytes": 74555,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/81202058_C9227238G0_49_COA_C9227238G0-49-PE0339.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/81202058_C9227238G0_49_COA_C9227238G0-49-PE0339.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/81202058_C9227238G0_49_COA_C9227238G0-49-PE0339.txt",
+    "sha256": "61ccbb3282dbd9fac9b629650c8a10e76f5f6ab4d45c18e8b760dc673b7d2c65",
+    "bytes": 2089,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-HPLC.pdf",
+    "sha256": "e77148d79d2497ab858702aef72ada2e1f1a34fce5af43012267ca8c75db6fcf",
+    "bytes": 282549,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-HPLC.txt",
+    "sha256": "59a67e4b1102aa1928d3195490eb32aea6229e1a4c8cf382db950833e941549d",
+    "bytes": 2949,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-MS.pdf",
+    "sha256": "a7f931fb8a072b544e2038558263417df7bf262427e88a53756ede4998c6c8a6",
+    "bytes": 88437,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-MS.txt",
+    "sha256": "a25feeb5da0291761b293d5af20ee2293f1dc614ccfb871020ecd8e1663ba63b",
+    "bytes": 1592,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-9C9227238G0_49/C9227238G0-49-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "dc6a1547e624c36e22766bfda22fb1fce1171e2431067d33f6692f3ec7b8c667",
+    "bytes": 35942,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-9C9227238G0_49/C9227238G0-49-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "b891df0ca0d346f3cf8058bbf5d6f17b28635a59eb588c6288e24956bff665ce",
+    "bytes": 3266,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/81202083_C9227238G0_53_COA_C9227238G0-53-PE0343.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/81202083_C9227238G0_53_COA_C9227238G0-53-PE0343.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/81202083_C9227238G0_53_COA_C9227238G0-53-PE0343.pdf",
+    "sha256": "d65be24b3329c972237caae29327d230d2bdf35638d1755ee3c9e6dffcc54d9b",
+    "bytes": 75595,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/81202083_C9227238G0_53_COA_C9227238G0-53-PE0343.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/81202083_C9227238G0_53_COA_C9227238G0-53-PE0343.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/81202083_C9227238G0_53_COA_C9227238G0-53-PE0343.txt",
+    "sha256": "27024bec77864fb8e0081e1ece3a1972c697ab54be05880dcb42a44d4be29987",
+    "bytes": 2065,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-HPLC.pdf",
+    "sha256": "b483878d824349e1b17aef23b63084bb2740f13523a4ebb00201ce3e3bf51646",
+    "bytes": 282073,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-HPLC.txt",
+    "sha256": "6beb7f941f0e1f1eb49851887174e57bc65cb92f466836498a894c40774d55ce",
+    "bytes": 2827,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-MS.pdf",
+    "sha256": "8497f752f3e93d1161474a1f8dfbe7b4e9e5c8251a8ff64484e277a82a461ca5",
+    "bytes": 119791,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-MS.txt",
+    "sha256": "25e6a00bd77d8e88ea2a3c452647e6edcb7ca8d9156ebf2657309e67ef1e186a",
+    "bytes": 1960,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-11C9227238G0_53/C9227238G0-53-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "90bad101bff40ee907cc69a9eb5ddec44b745780cff93e6374d102dc462889aa",
+    "bytes": 36072,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-11C9227238G0_53/C9227238G0-53-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "b0e96553056090440991e43c457eae0a9741e87965ba8dbf1aa3d1aa558d59c3",
+    "bytes": 3259,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/81202093_C9227238G0_55_COA_C9227238G0-55-PE0345.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/81202093_C9227238G0_55_COA_C9227238G0-55-PE0345.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/81202093_C9227238G0_55_COA_C9227238G0-55-PE0345.pdf",
+    "sha256": "216dc82a4b824aa8a51dd370241e6cd782df8742c668318085bc345a0c519d4a",
+    "bytes": 74519,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/81202093_C9227238G0_55_COA_C9227238G0-55-PE0345.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/81202093_C9227238G0_55_COA_C9227238G0-55-PE0345.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/81202093_C9227238G0_55_COA_C9227238G0-55-PE0345.txt",
+    "sha256": "ba8ac30af6f91ffd3665b6e13f60491efef956fdb80084d1567609044aeaf2ec",
+    "bytes": 2071,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-HPLC.pdf",
+    "sha256": "90505450e6dc5b0cd64766886d45d30da47d7670a48fd329b97459237d9f0854",
+    "bytes": 284576,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-HPLC.txt",
+    "sha256": "3dcba520cba055b471d25cd63d4fd00aa66c6b24074390f7e953cf2b509c35b8",
+    "bytes": 2980,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-MS.pdf",
+    "sha256": "7b2d4d5986a9f6f9da784f387cdd5eaf90fdef6366b10676524b5c9607abe10d",
+    "bytes": 103476,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-MS.txt",
+    "sha256": "97d2afa6b5f404fe9e44029d3fd7b606421a3c7240599c44ca61db3859bb55bf",
+    "bytes": 1668,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-12C9227238G0_55/C9227238G0-55-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "4da65e0377ffde48b85e8fb0fd13184811e061fe2be4601c51cba7d968fa9f90",
+    "bytes": 35913,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-12C9227238G0_55/C9227238G0-55-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "d30b3d1ba210a0976efd85b659a957b1e20fcf0e24cbab2c8f39a2a75841713f",
+    "bytes": 3261,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/81202109_C9227238G0_57_COA_C9227238G0-57-PE0347.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/81202109_C9227238G0_57_COA_C9227238G0-57-PE0347.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/81202109_C9227238G0_57_COA_C9227238G0-57-PE0347.pdf",
+    "sha256": "bd68b5d50651a0306564fc6f866be6ff8ad6c0c70293e611c5d088d4f4116c5b",
+    "bytes": 75701,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/81202109_C9227238G0_57_COA_C9227238G0-57-PE0347.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/81202109_C9227238G0_57_COA_C9227238G0-57-PE0347.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/81202109_C9227238G0_57_COA_C9227238G0-57-PE0347.txt",
+    "sha256": "a2817368b80baf49d0854194d29ade2ea758d6bc56b7a156077a01f4cbf4614b",
+    "bytes": 2099,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-HPLC.pdf",
+    "sha256": "72efe694e80ae04a204987e90eda3757d88e54ac5d6f297c372cbd7209f13ddd",
+    "bytes": 284533,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-HPLC.txt",
+    "sha256": "4aeef8a2db33ce2501136cc86dbbf5b7b6f7e25aa183abb1d9ef49e9c59429aa",
+    "bytes": 3704,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-MS.pdf",
+    "sha256": "79e8ec058510023531044da3df5618eb884d948dd3da7c364ad20e6467239369",
+    "bytes": 114528,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-MS.txt",
+    "sha256": "95b87644a5a462b0f0262ad103d8cc37c01682fb4677952c561cb25a17391be7",
+    "bytes": 1873,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-13C9227238G0_57/C9227238G0-57-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "b4f2670a33f4b8753ec4bb3cfcc0d61c5faff4d11bf796c5399f52f239c1cbae",
+    "bytes": 35932,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-13C9227238G0_57/C9227238G0-57-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "4fe0300a13bfe0c3a4722ea2d4d8a617b18f1abeebf89ff862854106ea832d82",
+    "bytes": 3267,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/81202121_C9227238G0_59_COA_C9227238G0-59-PE0349.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/81202121_C9227238G0_59_COA_C9227238G0-59-PE0349.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/81202121_C9227238G0_59_COA_C9227238G0-59-PE0349.pdf",
+    "sha256": "eea74502060f7c4360961b014bf5c80a7d1437339c676ced2b1b277a428e23fa",
+    "bytes": 75851,
+    "role": "supplier_original_COA"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/81202121_C9227238G0_59_COA_C9227238G0-59-PE0349.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/81202121_C9227238G0_59_COA_C9227238G0-59-PE0349.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/81202121_C9227238G0_59_COA_C9227238G0-59-PE0349.txt",
+    "sha256": "898eaa9fa806f8b0a4fb4c6db140340fac3ccea524d8a87b83a571e4736f1b4d",
+    "bytes": 2083,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-HPLC.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-HPLC.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-HPLC.pdf",
+    "sha256": "138470d6bc2b98ebd1ba6b58babc3221c74ccd34e54b79ce1978157837c424fc",
+    "bytes": 564521,
+    "role": "supplier_original_HPLC"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-HPLC.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-HPLC.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-HPLC.txt",
+    "sha256": "9064b359ef6f75b2217cab420dd9ed024232e30586edaf39a23f31f715adcb85",
+    "bytes": 3577,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-MS.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-MS.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-MS.pdf",
+    "sha256": "f891eaf45e1c7efcf093424d7701763e18fc6a2fe88d56fb615854b5a6929d34",
+    "bytes": 122874,
+    "role": "supplier_original_MS"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-MS.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-MS.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-MS.txt",
+    "sha256": "89d8bbb035ec7f5a5806669ab95775176226713e2f331b2ad087709b0a5c2b22",
+    "bytes": 1681,
+    "role": "supplier_prior_text_extraction_reused"
+  },
+  "feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-Peptide Qualitative Solubility Test Report.pdf": {
+    "relative_path": "feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-Peptide Qualitative Solubility Test Report.pdf",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/extracted/合成报告/pp3-14C9227238G0_59/C9227238G0-59-Peptide Qualitative Solubility Test Report.pdf",
+    "sha256": "621f5fbbb9e0de15c93cb57963cdf47c8faeb32d56e54947ccc077c000083a68",
+    "bytes": 36246,
+    "role": "supplier_original_solubility"
+  },
+  "feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-Peptide Qualitative Solubility Test Report.txt": {
+    "relative_path": "feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-Peptide Qualitative Solubility Test Report.txt",
+    "absolute_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/feishu_history/supplier_archive/text/合成报告/pp3-14C9227238G0_59/C9227238G0-59-Peptide Qualitative Solubility Test Report.txt",
+    "sha256": "c1c571e2eae451776644f9e55865fdcdd30be93f14ae96c2e4224d86cb3f04ba",
+    "bytes": 3255,
+    "role": "supplier_prior_text_extraction_reused"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "CE_DDPM_REUSED": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "EMPIRICAL_POSTERIOR_B": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "COORDINATE_PERMUTATION_C": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "REFERENCE_G_PRIOR_D": {
+    "FREE": 422,
+    "AMD": 423
+  }
+}

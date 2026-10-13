@@ -1,0 +1,20 @@
+{
+  "status": "CANDIDATE_FOR_INDEPENDENT_REVIEW_NOT_EXECUTED",
+  "natural_model_calls": 0,
+  "natural_weight_loads": 0,
+  "receipt_issued_by_author": false,
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+      "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_CHECKPOINT_RECOVERY_CONTRACT_v1.json",
+      "sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_checkpoint_recovery_candidate_validation_v1/VALIDATION.json",
+      "sha256": "c0ac74aae8b0201dccd52b51f9c9563e06678cb07dcff51b01b051b9f4fbbea1"
+    }
+  ]
+}

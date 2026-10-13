@@ -1,0 +1,111 @@
+{
+  "schema": "AMP_H5_FOCUSED_MECHANISM_EVIDENCE_V1",
+  "status": "DESIGN_ONLY_NO_TRAINING",
+  "scope": "仅补充direct-z最小方案；三篇正式AMP论文，不改冻结计划、不扩候选训练。文献结果均作者报告，未重算湿实验或复现外部模型。",
+  "selected_mechanism": {
+    "name": "直接学习冻结解码器实际输入的terminal-conditional聚合后验z分布",
+    "math": "q_bar(z|c)=1/n_c sum_{i:c_i=c} Normal(z;mu_i,diag(exp(2*logsigma_i))). 固定q与AR A，Z学习此混合分布；R先学习r=(mu,logsigma)再重参数化。",
+    "why": "本地ARv3 A的正确后验S8重建0.690802、错配latent0.097533，表明A使用z；但自由生成六比较全失败、C更好。支持定位prior-to-decoder分布接口，而未证明先验是唯一原因。直接z避免必须先生成合理logσ再指数变换；其生成过程仍可能失败或不优于C。",
+    "ideal_equivalence": "若R精确复现经验r分布，其重参数化所得z也恰为q_bar。因此Z无理想模型表达力优势；本实验只检验有限容量/预算、数值尺度与学习目标适配。不能把结果唯一归因于通道或目标变化。",
+    "precedents": [
+      {
+        "paper": "Diagnosing and Enhancing VAE Models",
+        "venue": "ICLR 2019",
+        "paper_url": "https://openreview.net/forum?id=B1e0X3C9tQ",
+        "code_url": "https://github.com/daib13/TwoStageVAE/blob/master/network/two_stage_vae_model.py",
+        "transfer": "第二阶段学习第一阶段latent分布；只借接口分离思想，不称复现其stage2 VAE。"
+      },
+      {
+        "paper": "Score-based Generative Modeling in Latent Space",
+        "venue": "NeurIPS 2021",
+        "paper_url": "https://papers.nips.cc/paper_files/paper/2021/hash/5dca4c6b9e244d24a30b4c45601d9720-Abstract.html",
+        "code_url": "https://github.com/NVlabs/LSGM/blob/main/training_obj_joint.py",
+        "transfer": "对encoder实际latent做扩散；其联合训练与本次冻结q/A不同，属于成熟机制适配。"
+      }
+    ],
+    "counterfactual": "固定A/q/train279/dev41，R与Z均重新标准化拟合1000步，C已审计32条复用。R/Z有效参数差641(0.003444%)，无无效补参；对象曝光/批次/时刻/标签丢弃共享，q采样随机性和边界初始化差异明报。",
+    "cost": "未来总计算作业wall硬限4800s；工程180+自然4560+独立后审60。自然2000更新、最多6090forward。一次配置/训练seed/自然尝试，失败不重试。本轮零model forward。",
+    "falsification": "每端16条，仅一次32条/臂。Z对R两端MMD²至少10%且严格改善、JS严格改善，长度均值偏差/合法率/复制重复不劣；再用同规则对C。未过任一门就停止；只胜R不胜C不能证明复杂管线价值。双过仅SCREEN_POSITIVE/HOLD；不扩样追显著性、不打开test。"
+  },
+  "strong_AR": {
+    "factorization": "p(x,EOS|c)=product_{t=1}^{L+1} p(x_t | x_<t,c)，末项为EOS。teacher-forced categorical CE直接优化观测序列对数似然，EOS把停止/长度纳入同一分布。",
+    "advantages": "共享参数学习相邻及长程依赖；输出类别有合法概率归一化，无需把残基类别当连续数值回归；自由生成只需自身prefix和已知terminal，C还避免学习额外latent先验。这里的数学条件化顺序不要求生物合成存在同一因果顺序。",
+    "limits": "训练真prefix和采样自生成prefix存在暴露偏差；279小样本仍会过拟合。A使用latent不等于latent一定帮助自由生成，重建提高不保证边缘p(x|c)更好。冻结C是本地实际可跑、已完成的强机制对照，不是外部SOTA证明。",
+    "code_evidence": "AMP-Designer作者train_AMP_GPT.py明确shift_logits/shift_labels+CE忽略PAD；生成器逐步softmax/multinomial、遇SEP停止。此证据支持AR机制，不授权照搬其数据/超参/模型。",
+    "sources": [
+      "https://raw.githubusercontent.com/jkwang93/AMP-Designer/main/train_AMP_GPT.py",
+      "https://raw.githubusercontent.com/jkwang93/AMP-Designer/main/AMP_GPT_generator.py"
+    ]
+  },
+  "papers": [
+    {
+      "name": "AMPGen",
+      "venue": "Communications Biology 2025",
+      "identity": "Shuwen Jin等，DOI 10.1038/s42003-025-08282-7；不是同名attention-VAE GitHub项目，也不是当前3DHumanRehab/AMP代码身份。",
+      "paper": "https://www.nature.com/articles/s42003-025-08282-7",
+      "reported": "EvoDiff序列/OA与MSA模型，AMP-MSA条件＋理化筛选＋XGBoost分类＋LSTM MIC排序。序列基础模型42M UniRef50、640M参数；本地AMP数据10249唯一序列，分类正9964/负11989；MIC回归按72:18:10。40候选中38合成，31/38在其菌株/阈值MIC≤75µM下活跃。",
+      "interpretation": "这是筛选后候选的命中率，不能当原始生成率，更不能与H5分布距离或异菌株/阈值的94.4%比较。MSA提供额外序列信息且长度15–35被预定，不能暗接到terminal-only H5公平臂。",
+      "leakage": "论文报告去重和回归划分，已查正文未给出可核验的同源簇隔离证据。需分别审计预训练/MSA供体/评分器与评价数据重合；未执行交集检查，不判已发生泄漏。UniProt关键词排除不等于湿实验阴性。",
+      "reproducibility": "论文声明Zenodo提供代码/数据/模型，但参考65 DOI为10.5281/zenodo.15454482.7433980，本轮返回404；未成功核验发布包。不能宣称已本机可跑。论文报告序列50k生成约A6000×5天；不纳入CPU80分钟合同。",
+      "mechanism_lesson": "离散残基条件分布与生成后活性筛选应分开评价；MSA不是免费条件。AMPGen作为用户相关参考，不默认最强。"
+    },
+    {
+      "name": "HydrAMP",
+      "venue": "Nature Communications 2023",
+      "paper": "https://www.nature.com/articles/s41467-023-36994-z",
+      "code": "https://github.com/szczurek-lab/hydramp",
+      "reported": "cVAE联合重建、无原型生成、原型类似物生成，条件为AMP与低MIC，含classifier/Jacobian disentanglement等目标；长度上限25。论文摘要报告9个临床相关原型类似物及6个原不活跃肽类似物高活性；非未筛选自由生成的统一命中率。",
+      "split_code": "作者hydra_training_procedure.ipynb中AMP和MIC各自随机切10%再从余量切20%(72:18:10)，MIC活性行额外重复25份。saved输出含16028/4007 AMP、40904/620 MIC等批量与180194/22524无标签量；它们不是已核验的唯一序列总量，不能相加作N。当前正式论文精确唯一训练N未充分核验，保留未决。",
+      "leakage": "随机行划分代码不足以证明同源家族隔离；AMP/MIC两流和冻结classifier的跨流重叠需独立去重/簇审计。这里未读其数据，不断言实际泄漏。",
+      "reproducibility": "作者仓库有训练notebook、权重/数据/结果下载说明；重训要求定制TensorFlow wheel，作者测试Linux/Windows Python3.8，约RTX2080与32CPU线程14h。本Mac单线程未验证兼容，不能标已复现；本轮不安装第三方定制wheel。",
+      "mechanism_lesson": "生成时要满足的性质在训练里明确监督，并独立报告筛选/湿验证；H5只有terminal条件，不能凭借HydrAMP成功引入未经验证MIC奖励或多目标联合改动。",
+      "sources": [
+        "https://raw.githubusercontent.com/szczurek-lab/hydramp/master/scripts/hydra_training_procedure.ipynb",
+        "https://raw.githubusercontent.com/szczurek-lab/hydramp/master/amp/data_utils/data_loader.py"
+      ],
+      "version_note": "官方2023 correction修正Fig.2误用Fig.5，引用正式修订版；不能拿早期预印本图替代。https://www.nature.com/articles/s41467-023-40879-6"
+    },
+    {
+      "name": "AMP-Designer",
+      "venue": "Science Advances 2025,11,eads8932",
+      "paper": "https://www.science.org/doi/10.1126/sciadv.ads8932",
+      "code": "https://github.com/jkwang93/AMP-Designer",
+      "reported": "AR AMP-GPT＋对比prompt学习＋蒸馏/RL，论文摘要报告筛选18条的94.4%体外成功。作者稿给出UniProt630683短肽、9896AMP/2303non-AMP，MIC数据75:15:10；这些详细N/划分本轮读取作者arXiv稿，未与不可读取的最终全文逐项核对。",
+      "author_manuscript": "https://arxiv.org/pdf/2407.12296",
+      "code_verified": "train_AMP_GPT.py为12层768维GPT、25词表，训练输入随机90:10划分；这属于GPT预训练loader，不要和MIC75:15:10混作同一划分。生成器逐token采样EOS；实际代码可静态读取，未执行。",
+      "leakage": "代码random.shuffle行切分未显示簇隔离，外部预训练/多库AMP/奖励预测器重叠未核验。性质优化会偏向评分器，高预测分或文中候选命中率不证明279样本原始生成泛化。",
+      "reproducibility": "README给训练/生成入口、依赖与权重Zenodo链接；本轮权重链接返回429，未下载/验证checkpoint。不重试或声称可在当前预算完整复现。",
+      "mechanism_lesson": "最值得吸收的是直接序列概率学习和EOS停止；目前保留本地C作已跑强基线，不能把大数据预训练/奖励筛选性能归给AR结构本身。"
+    }
+  ],
+  "not_prioritized": [
+    "经验q混合/供体重放：对aggregated posterior是有意义的参照，但易记忆；旧卷积读出下的供体替代并未保证指标提升，不能许诺修复。此次不再开一臂。",
+    "InfoVAE/VampPrior/联合KL调节：同时改变q或decoder，破坏本次固定接口归因；暂无必要在direct-z验证前重启。",
+    "离散masked/OA diffusion：绕开连续残基读出有依据，但要重训序列模型、指定/建模长度、重新配平调参预算；C已提供直接离散AR对照，先不并开。",
+    "性质奖励/RL/MSA大模型：需要额外可靠标签、外部预训练或序列条件及泄漏审计；与目前terminal-only、train279、CPU合同不等价。"
+  ],
+  "task_separation": {
+    "distribution": "当前H5评估序列长度、组成/二肽分布与复制性；421特征线性MMD非特征核，只约束有限特征均值，JS是池化二肽，不覆盖完整序列分布。",
+    "control": "Free/Amide是已知末端条件；不是AMP/MIC/菌株特异活性标签，不应声称已实现性质控制。",
+    "activity": "活性判定需要指定菌株、MIC单位/阈值、候选筛选流程与合成/检测分母。文献不同命中率不可直接排序；32样本统计不能替代抗菌活性，也不继承任何旧湿实验的前瞻证据。",
+    "fairness": "外部方法目前是机制参考和候选baseline来源；若未来使用预训练，必须另列数据/计算轨道。当前只允许冻结train279/dev41，不开test，不引外部数据拟合。"
+  },
+  "remaining_blockers": [
+    "direct-z实现尚未编写、合成吞吐/数值边界与独立exact-code工程审查未完成；本设计receipt不授权训练。",
+    "本轮ps被沙箱拒绝，未能重新确认活跃H5进程；零训练启动。将来启动前必须获准完成只读进程检查并持锁。",
+    "三项外部完整baseline均未本机运行；AMPGen发布DOI、AMP-Designer权重、HydrAMP环境与唯一N未完全核验，已明确标记，不靠猜测补齐。"
+  ],
+  "plan_path": "amp_h5/direct_z_plan_v1/MINIMAL_PLAN_v2.json",
+  "plan_sha256": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8",
+  "independent_plan_receipt": "amp_h5/direct_z_plan_v1/INDEPENDENT_DESIGN_REVIEW_v2.json",
+  "independent_plan_receipt_sha256": "a27396d04c7f5f1a9675373d6ce575cbc114ba4e561e12f87c7400c01c8c981a",
+  "backup": "BACKUP_BLOCKED_NO_AUTHORIZED_VERIFIED_DESTINATION；未扩展备份工作",
+  "activity": {
+    "model_forward": 0,
+    "training": 0,
+    "new_rng": 0,
+    "test_reads": 0,
+    "uploads": 0,
+    "dependency_installations": 0
+  }
+}

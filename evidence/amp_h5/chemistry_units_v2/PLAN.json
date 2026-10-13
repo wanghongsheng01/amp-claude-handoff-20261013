@@ -1,0 +1,39 @@
+{
+  "schema": "AMP_H5_CHEMISTRY_UNIT_PLAN_V2",
+  "created_utc": "2026-10-12T08:56:11.785895+00:00",
+  "scope": "75 previously acquired monomer detail records, no HTTP requests or new observations, no natural-model training or train/dev/test access",
+  "inputs": {
+    "batch_final_manifest_sha256": "81dd8772f706bfbe2f8398f81f2fa63cebe38ea508689ca5c7309b42293e3df7",
+    "peptides_jsonl_sha256": "1481b8de54866c4178b7a6a0d923031d8bc2595d29985f73045dce4b75efcd89",
+    "MIC_jsonl_sha256": "dea21d1435a0385e54d210f765eb5f164727f84fdbbd1b49167fedf51d0c458f"
+  },
+  "identity_checks": [
+    "RDKit sanitize every provided SMILES; no dot fragment stripping or salt removal. Require exactly one connected fragment, neutral formal charge, no isotopic labels or unspecified stereocenters.",
+    "All provided tautomer SMILES must have identical formula and average molecular weight; preserve metadata and formula conflicts.",
+    "Independently reconstruct standard amino-acid peptide graph from sequence, invert residue stereocenters for lowercase D notation, and apply explicit C-terminal AMD, disulfide bonds and mainchain N-C amide closure. Other unusual residues/modifications or bonds remain pending.",
+    "Null terminal objects remain unknown annotations; if SMILES matches unmodified end model, report represented-structure consistency only, not an independent source assertion of free termini.",
+    "Require exact stereo graph agreement or only neutral arginine-like guanidine tautomer normalization. Normalize C bonded 3 N, bond orders 1/1/2, 2 terminal N degree1 and 1 chain N degree2; reject labelled/charged/stereospecified motifs. Set chain N single and one terminal N double, reset H only on these N. Require invariant formula/charge/heavy edges/chiral tags, unchanged atoms and bonds outside motif, and 1/2/1 local N hydrogen counts. No generic tautomer search. All source variants must match independently reconstructed graph. Independent elemental formula and average molar mass still required."
+  ],
+  "conversion": "For a structurally matched single neutral parent, conditional parent-peptide-equivalent uM = ug_per_ml * 1000 / verified_represented_parent_MW_g_per_mol. Preserve raw value/unit/operator, strictness and unresolved range/plusminus semantics. This conditional value is not an admitted assay concentration.",
+  "pass_refuse_pending": {
+    "PASS": "Structural mass checks pass AND existing record explicitly establishes the assayed mass basis as this covalent parent or specified stoichiometry, independently reviewed.",
+    "REFUSE": "Disconnected mixtures/counterions, invalid SMILES, conflicting formula/structure, isotopes or unsupported charge/stoichiometry: do not apply neutral single-parent conversion.",
+    "PENDING": "Missing/unsupported chemical detail, stereochemical ambiguity, unmatched supported structure, or assay material mass basis not established. No guessed salt/purity/hydrate correction."
+  },
+  "material_basis": "Do not equate an auto-generated database SMILES with verified assay material composition. No pre-approved positive mass-basis overrides; source records may supply evidence, but no assumption from unit name alone.",
+  "outputs": [
+    "chemical_identity_audit.jsonl",
+    "mass_MIC_conversion_draft.csv",
+    "mass_MIC_conversion_draft.jsonl",
+    "SUMMARY.json",
+    "FREEZE.json",
+    "MANIFEST.json",
+    "CNN_REPRESENTATION_AUDIT.json"
+  ],
+  "independence": "Reuse frozen sample family/group identifiers; report counts of unique IDs/backbones/families/sourcegroups for structural-pass, conditional-convertible, assay-PASS/REFUSE/PENDING and actual newly admitted groups relative to existing34row draft. Chemical checks do not implement contamination isolation.",
+  "failure_rules": "Preserve all errors and nonpassing records. Any source hash mismatch stops script. Individual chemistry failures remain classified with reason, no replacement or requests.",
+  "software": "Existing RDKit2023.9.5, Python3.12, standard library; no installs/downloads.",
+  "backup": "BACKUP_BLOCKED",
+  "predecessor": "v1 preserved unchanged; 41 generic tautomer enumeration cap PENDING outcomes motivate this narrow, independently preaudited algorithm revision. No statistical target optimization.",
+  "representation": "Report plain 20-AA CNN compatibility separately; D/noncanonical residues, bonds/cycles, terminal modifications and >100 length are not silently discarded. Null terminus stays unknown. Compatibility is not admission."
+}

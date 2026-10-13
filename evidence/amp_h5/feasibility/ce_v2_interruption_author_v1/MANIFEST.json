@@ -1,0 +1,28 @@
+{
+  "state": "AUTHOR_FORENSICS_AND_NON_EXECUTABLE_RECOVERY_PROPOSAL",
+  "model_calls": 0,
+  "weight_deserializations": 0,
+  "execution_authorized": false,
+  "files": [
+    {
+      "path": "EVIDENCE.json",
+      "sha256": "608b6ad973f960bad648a36667807405b5e9e3c491ed6b5a5b0b20884b7a5c22"
+    },
+    {
+      "path": "READOUT_AND_RECOVERY_PROPOSAL.zh.md",
+      "sha256": "3b6007d6ca62373d4286540ac5cb2ba85c25d919e4acddace72c60e266ecefbd"
+    },
+    {
+      "path": "RECOVERY_CONTRACT_DRAFT.json",
+      "sha256": "1afa0b9315456dcb24112dce3ca5c39c323915e6f06ee2dd499b29560b9b7c5c"
+    },
+    {
+      "path": "RECOVERY_ENTRY.py.draft",
+      "sha256": "1a4085beb4974675fa1e8465d17773018bf1b4e9c55eea50faa5a606abc47735"
+    },
+    {
+      "path": "STATIC_REVIEW_FACTS.json",
+      "sha256": "46da4adf804a6b1a594a3f2598e9375e42aefb4e7d8e6435692d1c86ced2ae01"
+    }
+  ]
+}

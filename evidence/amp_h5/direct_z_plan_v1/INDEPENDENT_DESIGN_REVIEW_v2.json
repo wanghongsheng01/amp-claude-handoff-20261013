@@ -1,0 +1,39 @@
+{
+  "schema": "amp_h5.direct_z.independent_design_review.v2",
+  "status": "PASS_DESIGN",
+  "independent_author": "/root/ar_admission_independent",
+  "review_scope": "仅核验v1→v2两项修订及其工程检查条目；未扩大科学或工程审查。",
+  "plan_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/MINIMAL_PLAN_v2.json",
+  "plan_sha256": "4997223d750ce742e10490ba4931f09ff60b0678bfe2bd98ff19be5bbd5894c8",
+  "prior_review_path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/direct_z_plan_v1/INDEPENDENT_DESIGN_REVIEW_v1.json",
+  "prior_review_sha256": "191221f346e8281c03de3693d1130f4d5e97d5b1f9a7a02d98ebbcd55f7c8af2",
+  "delta_checks": [
+    {
+      "id": "R1",
+      "status": "PASS",
+      "finding": "evaluation.metrics明确R/Z/C薄wrapper、冻结公式、96槽及每臂每端16条；禁止调用旧ABCD硬编码入口和伪造D。"
+    },
+    {
+      "id": "R2",
+      "status": "PASS",
+      "finding": "diffusion.failures明确实际float32 sigma有限且严格>0，欠流0或溢出失败并保留全部槽位；禁止mu-only、clamp和重采样。"
+    },
+    {
+      "id": "scope",
+      "status": "PASS",
+      "finding": "额外变化仅版本号、supersedes和对应工程检查项；科学目标、阈值、种子和预算未改。"
+    }
+  ],
+  "required_revisions": [],
+  "natural_execution_authorized": false,
+  "training_authorized": false,
+  "plan_authorization_status": "DESIGN_ONLY_NO_TRAINING_AUTHORIZATION",
+  "conclusion": "仅设计审查通过；不授权模型执行或训练。实际实现、有限合成吞吐、独立工程验收及自然执行准入均未由本回执完成。",
+  "activity": {
+    "model_forward": 0,
+    "training": false,
+    "new_rng": false,
+    "test_access": false,
+    "external_research": false
+  }
+}

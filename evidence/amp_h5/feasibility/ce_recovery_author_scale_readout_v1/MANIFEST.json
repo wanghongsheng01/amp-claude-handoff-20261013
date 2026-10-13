@@ -1,0 +1,18 @@
+{
+  "role": "author numerical interpretation, not independent authorization",
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_author_terminal_readout_v1/RECOVERY_AUTHOR_READOUT.json",
+    "sha256": "c49b244dc6156d0a1965f74d5b779905f397b144ea99c9c5764da83ff2b2bb69"
+  },
+  "files": [
+    {
+      "path": "READOUT.zh.md",
+      "sha256": "033198065dfa95ad81c58a8ba69e3e9de25f7d9614a3c3c8a85e5a94ab5dd44d"
+    }
+  ],
+  "model_calls": 0,
+  "new_sequence_quality_calculation": false,
+  "original_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+  "recovery_engineering": "requires independent postflight",
+  "PROMOTE": "HOLD"
+}

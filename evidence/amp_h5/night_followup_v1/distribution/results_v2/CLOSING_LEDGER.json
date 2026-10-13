@@ -1,0 +1,8 @@
+{
+  "state": "completed",
+  "manifest_sha256": "41d72f7c2a8eb81eb6061fb97efe3ae98c085f3cf08c49de27683b7af14c70b0",
+  "process_seconds_after_manifest_before_closing": 5.758362582884729,
+  "wall_cap_seconds": 120,
+  "original_CE_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+  "PROMOTE": "HOLD"
+}

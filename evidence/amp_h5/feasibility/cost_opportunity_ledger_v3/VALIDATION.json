@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_direct_sources_stable": true,
+    "MSE_completed1000_1000": true,
+    "MSE32completed_no_fail": true,
+    "outer_sum_arithmetic": true,
+    "actual_total_unknown": true,
+    "updates_accounting": true,
+    "allocated168_started_atleast120_completed98": true,
+    "legality_counts97_and88": true,
+    "complete_empty_short_legal_partition": true,
+    "partial16_not_completed": true,
+    "latent4_separate": true,
+    "scalar_live_not_notstarted": true,
+    "scalar_actuals_null_excluded": true,
+    "no_scalar_live_log_reads": true,
+    "original_CE_stale_preserved": true,
+    "PROMOTE_HOLD": true,
+    "old_equalcompute_limit_preserved": true
+  },
+  "model_calls": 0,
+  "source_cohort_reads": 0,
+  "v1_v2_or_run_mutations": 0
+}

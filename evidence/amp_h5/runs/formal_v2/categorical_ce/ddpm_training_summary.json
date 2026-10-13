@@ -1,0 +1,12 @@
+{
+  "updates": 1000,
+  "requested_updates": 1000,
+  "fixed_endpoint_reached": true,
+  "initial_tensor_state_sha256": "bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f",
+  "posterior_encoding_and_setup_seconds": 6.299964915961027,
+  "elapsed_seconds_before_checkpoint_io": 563.7486409158446,
+  "parameters": 18612994,
+  "ema_step": 1000,
+  "ema_semantics": "inherited reset/copy until 2000 updates; beta=.995 thereafter",
+  "elapsed_seconds": 564.3461695411243
+}

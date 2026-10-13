@@ -1,0 +1,305 @@
+{
+  "terminals": {
+    "FREE": {
+      "saved_z_raw_bytes_equal": true,
+      "epsilon_seed": 422,
+      "epsilon_digest": "448a0d48c977800be7b5e363e5edf4d2391a6c977ada88eaa8279c755e880bc9",
+      "preceding_gaussian_tensor_count": 998,
+      "preceding_gaussian_stream_sha256": "200818dfee5aa6a03e35d412fec116d197fc2f6b7d0faf3e736f18a098a63d4b",
+      "initial_rng_digest": "b5e25206698152630574c2312ab1c43989befbf554e2cc42f773bbf7186b8f71",
+      "pre_epsilon_rng_digest": "d2f20d14c3e2ee2f248eed54510689696545ecfb5abd3dffc0e2b5d9c126242d",
+      "post_epsilon_rng_digest": "14065ea4229c01c3d286e17e2bf1c7303af5b5a85a52207bba1e22c5b83b2338",
+      "selector_seed": 523,
+      "selector_state_before": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 267025617611310835937296552240856651076,
+          "inc": 260497616267964713391056323246626523645
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "selector_state_after": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 65520331148016357124613200662268620636,
+          "inc": 260497616267964713391056323246626523645
+        },
+        "has_uint32": 0,
+        "uinteger": 3484403711
+      },
+      "selected_row_ids": [
+        68,
+        4,
+        193,
+        271,
+        23,
+        85,
+        97,
+        164,
+        64,
+        187,
+        96,
+        52,
+        249,
+        75,
+        202,
+        226
+      ],
+      "local_indices": [
+        35,
+        1,
+        88,
+        124,
+        12,
+        43,
+        47,
+        74,
+        31,
+        86,
+        46,
+        25,
+        114,
+        37,
+        92,
+        102
+      ],
+      "duplicate_count": 0,
+      "permutation_seed": 625,
+      "permutation_state_before": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 182591710596617438779316899760229142331,
+          "inc": 193838392911308406152051900260895808941
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "permutation_state_after": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 66687421555859751636413589246505102913,
+          "inc": 193838392911308406152051900260895808941
+        },
+        "has_uint32": 0,
+        "uinteger": 902084332
+      },
+      "per_coordinate_mapping_and_bit_multiset_checks": 768,
+      "g_digest": "25b40087efb0a91b31855f84b6eca733e35be6247eb081c014f37118aa0c9896",
+      "g_independent_formula_bytes_equal": true,
+      "g_source_row_ids": [
+        68,
+        4,
+        193,
+        271,
+        23,
+        85,
+        97,
+        164,
+        64,
+        187,
+        96,
+        52,
+        249,
+        75,
+        202,
+        226
+      ],
+      "g_reference_lengths": [
+        17,
+        22,
+        12,
+        20,
+        9,
+        17,
+        16,
+        10,
+        22,
+        22,
+        22,
+        18,
+        18,
+        18,
+        22,
+        35
+      ],
+      "g_reference_sequence_sha256": [
+        "cd503de15738b1de7f713cf5168943597487477464f783f1aabaf0b6800ffe98",
+        "d4d720290838181299c6836cb9fb94bf0993bd20d3c6b2acd17a4a1cf600a642",
+        "1253d2de736f5d42d4ee012dcd49e2ab370a6d7bd1cc7b2f32e0732e717c8a59",
+        "c054d1cef190b6257b4066208402d63947d7e167a09fd95b854e7aa5a1afbba0",
+        "201672060eefb2b1c821d67c7f3b281f796b2c821201aa4c218247382cf0c76e",
+        "fc59caade716fe2bcaba94c25922f5462686e07366c64c8485dfc81896efe10e",
+        "8b092a075cf4a1e22f5552907016972f210dee6021b2819b87c7d96e7b93a12b",
+        "268eec6db7a32173305ffa6443485321d5b15edfdfd2dc86cdee5baf18e410c6",
+        "2a67db686341842bb00f3a026594c0db080d6e144dbbf201e1a6b6370f11e3f1",
+        "5147c1b3eda1dea54e5a37bad41e54943391983784c0c4f515da2abd5dbc7a6a",
+        "f2cf68bfbff574e9958e4fc51921013b15067abf70fa8dd5237dcb469fe335ec",
+        "a0ae6cb42dac2f814898dd63ef599ba77a9b9673764e50943a154e7589e6ff3f",
+        "616951118cb1f4a878a9e20288a3c88b3a58f6d2a2189e6c54423d89bc7f107d",
+        "26e6d54abe1c8e78fe51e5947ad8c7e8f02f8d0df4f807cd0ed1307317735640",
+        "f998a93578fc61f34e69cb3cd04ebbe522254cec83abc47c579c6e7df4d3b698",
+        "abd8c8ee17e42509ce0b4d53c0b1cccdaf76ce7ca8dbcd8dba07f680716effbb"
+      ],
+      "g_padding_positive_zero": true,
+      "scaler_sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "prepared_npz_sha256": "9a48b60c908c7fead64ab4b6286f451ffd6fb59074a2d9c30928325659838628"
+    },
+    "AMD": {
+      "saved_z_raw_bytes_equal": true,
+      "epsilon_seed": 423,
+      "epsilon_digest": "d431c9e90f425c9c9e718e193f98465713f2d9ced9a0a2ae1d6f1f278434d6cf",
+      "preceding_gaussian_tensor_count": 998,
+      "preceding_gaussian_stream_sha256": "bfdb690d013a2b93adadac01657865f56873d9ed91c4d917834d50ac1db01fa2",
+      "initial_rng_digest": "900a0a2154b42afd96eaa3389e6b785d618711801b9480c25fef8d3f52afc7cd",
+      "pre_epsilon_rng_digest": "0bc3d52ddf11fd5e2761398c2fb7b043154a3045f76355b7252aeb08ace3e4be",
+      "post_epsilon_rng_digest": "5472229a82271100d55871a9ed71a83db8385b22d9c16a8e85a45e3cbb48a784",
+      "selector_seed": 524,
+      "selector_state_before": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 19441571734090932494507922265923335017,
+          "inc": 283640784278828886098456029661071576507
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "selector_state_after": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 55021752674470144832167394009783091697,
+          "inc": 283640784278828886098456029661071576507
+        },
+        "has_uint32": 0,
+        "uinteger": 2963180436
+      },
+      "selected_row_ids": [
+        27,
+        33,
+        53,
+        145,
+        205,
+        117,
+        117,
+        77,
+        268,
+        203,
+        217,
+        155,
+        270,
+        214,
+        141,
+        194
+      ],
+      "local_indices": [
+        13,
+        15,
+        27,
+        77,
+        112,
+        58,
+        58,
+        38,
+        145,
+        110,
+        119,
+        83,
+        146,
+        118,
+        75,
+        105
+      ],
+      "duplicate_count": 1,
+      "permutation_seed": 626,
+      "permutation_state_before": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 334804657241689713105186468792406625361,
+          "inc": 140291306474002049525902062120714648981
+        },
+        "has_uint32": 0,
+        "uinteger": 0
+      },
+      "permutation_state_after": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 140974466651377139729747153186584553251,
+          "inc": 140291306474002049525902062120714648981
+        },
+        "has_uint32": 0,
+        "uinteger": 2679711693
+      },
+      "per_coordinate_mapping_and_bit_multiset_checks": 768,
+      "g_digest": "2998962b13b93601fabe9c1e5a9cdbfbe26a6bbe3e39fb08a42682d2fd2386b3",
+      "g_independent_formula_bytes_equal": true,
+      "g_source_row_ids": [
+        27,
+        33,
+        53,
+        145,
+        205,
+        117,
+        117,
+        77,
+        268,
+        203,
+        217,
+        155,
+        270,
+        214,
+        141,
+        194
+      ],
+      "g_reference_lengths": [
+        13,
+        14,
+        12,
+        16,
+        12,
+        9,
+        9,
+        11,
+        25,
+        8,
+        10,
+        9,
+        20,
+        19,
+        10,
+        16
+      ],
+      "g_reference_sequence_sha256": [
+        "c1a6bf46063bfebcba5b001b2a5599252783260a9f6c5750e42570882203fb07",
+        "dab8940f1acafd5acc1dbb28a51ff97226bcbe71eaca3c254471a3ed0ed2783d",
+        "843b08771556c6ccc2a96baef42cce9127763670e2f936f176b47bb52a65c8c2",
+        "70472ed43321268231f75976bf631664fd1b917565081243c1d4c8a8e95b99f3",
+        "5e55acab72fc6989d559d73d06412756c22ab4634cbaabe7e1062659322a4134",
+        "5144c871b5cfc8f1b3192fe653159ae553f070f2f4fbbbb87be23c3d17397432",
+        "5144c871b5cfc8f1b3192fe653159ae553f070f2f4fbbbb87be23c3d17397432",
+        "f82d984fa9f5654a41efad5911ceed833ce725f02a081cc4e7da910b87827cf4",
+        "25bc65f409b08174de211e374f99956430c301ecdd328773cd0da74cdf0fe8d3",
+        "ba418eea8ffc42ef7dde07cb799a24bdd79e800ea67f47428ed5635555bbf40a",
+        "0e3819350b5e694856106c544eadf61979b14f20ce93d30bcea672cc71cc7808",
+        "6f52554f27a64ffbf79c736213e05f09b63681c4333aeed0746030ad44f6f127",
+        "dd4714eac6e42b311f8561778f2ceab667d3b8a6d279b943caec4bd43f407da4",
+        "4006647c466649b2f1a933c275336325b65c1382e1ecd4bda0f6f53efef193bf",
+        "9f4282b8872efbf43dda31850ae1e33e3bb85131c1946aaa5255150d269d84ba",
+        "42611615f87aeb56dd9031f04d4faa62c3218eda3256a874693d8ad89164a344"
+      ],
+      "g_padding_positive_zero": true,
+      "scaler_sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+      "prepared_npz_sha256": "157b23762e859e39c7d927d0d3d9186be2b8ebc844034f0ff5a35fb752c8a725"
+    }
+  },
+  "source": "exact original RNG reconstruction, no inverse residual",
+  "g_fit_calls": 0,
+  "global_rng_restored": true,
+  "all_saved_z_raw_bytes_equal": true,
+  "sealed_before_any_model_construction_or_forward": true,
+  "D_z_not_yet_computed": true,
+  "train_descriptor_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/dbaasp_v4_release2/train.csv",
+  "train_descriptor_sha256": "f71de05d3a2086c37b082716781397f7bb6db65322b807366f4f19ebf3058e03",
+  "train_cohort_path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+  "train_cohort_sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+  "scaler_sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d"
+}

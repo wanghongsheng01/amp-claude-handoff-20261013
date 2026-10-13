@@ -1,0 +1,46 @@
+{
+  "state": "recovery_completed",
+  "scope_id": "AMP_H5_CE_CHECKPOINT_RECOVERY_V1",
+  "attempt_id": "ce_checkpoint_recovery_v1",
+  "training_updates_this_attempt": 0,
+  "original_v2_outcome": "INCOMPLETE_EXIT_CAUSE_UNKNOWN",
+  "original_v2_engineering_gate": "NOT_EVALUABLE_INTERRUPTION",
+  "PROMOTE": "HOLD",
+  "recovery_contract_sha256": "bf610d590f06fa21e4d1b7fc2459ec62d3564bdd5bd32fdbe1fbdfb8e5a71a00",
+  "recovery_plan_sha256": "3e66ffa415dc759e396d25d4ff9c445c7c855fb0e48aaf96b834d6da1b1ae1e4",
+  "independent_receipt_sha256": "0e9e4d79e34a7e56dee012a0716c240fc63e6b6dcb7492a5c28ad4274b1f3e56",
+  "script_sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+  "protocol_deviation": "One separately approved generation restart after an unclassified execution interruption. This departs from original v2 no-retry rule; original E/L/G remain NOT_EVALUABLE_INTERRUPTION. Not a t200 continuation and not proof of infrastructure cause.",
+  "generation_restart": "complete original seed422/423 chains; not t200 continuation",
+  "source_train_read_attempted": true,
+  "source_train_read_validated": true,
+  "source_dev_read_attempted": true,
+  "source_dev_read_validated": true,
+  "test_read": false,
+  "budget_seconds": {
+    "training_updates": 0,
+    "generation": 1800,
+    "outer_total": 1980
+  },
+  "phase": "closed",
+  "model_calls_authorized_only_by_new_receipt": true,
+  "setup_seconds": 1.3591534583829343,
+  "generation": {
+    "elapsed_seconds": 1115.4961699172854,
+    "requested": 32,
+    "successful_execution": 32,
+    "failed_execution": 0,
+    "not_executed": 0,
+    "condition_inputs": [
+      "terminal class only"
+    ],
+    "no_retry_or_filter": true
+  },
+  "generation_cap_exceeded": false,
+  "export_seconds": 6.814929542131722,
+  "original_inputs_unchanged": true,
+  "model_states_unchanged": true,
+  "process_seconds_before_final_status_io": 1123.995185916312,
+  "outer_cap_exceeded": false,
+  "finalization_errors": []
+}

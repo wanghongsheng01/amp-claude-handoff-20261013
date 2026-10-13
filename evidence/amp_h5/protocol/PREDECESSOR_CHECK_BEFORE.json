@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-11T15:50:00.400718+00:00",
+  "reports": [
+    {
+      "manifest": "DELIVERY_H4_H2_BRIDGE_FINAL_INDEX.json",
+      "checked": 64,
+      "missing": [],
+      "mismatched": [],
+      "skipped_protected": []
+    },
+    {
+      "manifest": "DELIVERY_H3_FINAL_INDEX.json",
+      "checked": 45,
+      "missing": [],
+      "mismatched": [],
+      "skipped_protected": []
+    },
+    {
+      "manifest": "DELIVERY_H2_FINAL_INDEX.json",
+      "checked": 32,
+      "missing": [],
+      "mismatched": [],
+      "skipped_protected": []
+    }
+  ]
+}

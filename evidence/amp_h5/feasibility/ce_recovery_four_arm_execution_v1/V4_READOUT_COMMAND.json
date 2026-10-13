@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-11T20:00:45.129524+00:00",
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v4.py",
+    "--contract",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/READOUT_V4_CE_RECOVERY_FOUR_ARM_v1.json",
+    "--output",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_readout_v4_v1"
+  ],
+  "shell_command": "/Library/Developer/CommandLineTools/usr/bin/python3 -B /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/build_readout_v4.py --contract /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/READOUT_V4_CE_RECOVERY_FOUR_ARM_v1.json --output /Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_four_arm_readout_v4_v1",
+  "contract": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/READOUT_V4_CE_RECOVERY_FOUR_ARM_v1.json",
+    "bytes": 3422,
+    "sha256": "9186377cc28f044efe0b49865a854e8b5680429a3d0876ee9adb3ee8553c8619"
+  },
+  "scalar_postflight": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/SCALAR_V2_POSTFLIGHT_v1.json",
+    "bytes": 14224,
+    "sha256": "911a453786a351ac4365e30c818af37aaeac446c5c93159fedf17aab37396d5c"
+  },
+  "all_real_completed_roots": true,
+  "original_protocol_E_L_G": "NOT_EVALUABLE",
+  "model_calls": 0,
+  "test_access": false
+}

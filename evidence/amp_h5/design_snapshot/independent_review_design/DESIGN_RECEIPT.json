@@ -1,0 +1,25 @@
+{
+  "kind": "independent_design_review_not_execution_approval",
+  "status": "DESIGN_OPTIONS_AND_CONSEQUENTIAL_RISKS_DELIVERED",
+  "created_at_utc": "2026-10-11T15:36:11.255041+00:00",
+  "preferred_minimal_pair": "position CE versus legal-prefix normalized NLL with identical21head/commonJ/sharedKLpolicy",
+  "three_arm_option": "rawonehot square + positionCE + legalprefixNLL only if separate regression-to-classification attribution is required and budget authorized",
+  "numeric_result_thresholds_set": false,
+  "execution_approved": false,
+  "needs_prelock": [
+    "objective arm list and primary comparison",
+    "legal length support",
+    "shared KL normalization and coefficient policy",
+    "initialization and RNG coupling",
+    "bounded synthetic/short-overfit smoke and stop branches",
+    "per-new-encoder matched DDPM fit",
+    "AR training/selection/data/terminal-information opportunity",
+    "fixed endpoint and complete recording"
+  ],
+  "no_same_latent_claim_under_shared_noise": true,
+  "no_extra_agent_spawn": true,
+  "real_model_calls": 0,
+  "fit_calls": 0,
+  "test_reads": 0,
+  "backup_status": "BACKUP_BLOCKED"
+}

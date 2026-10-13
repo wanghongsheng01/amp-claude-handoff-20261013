@@ -1,0 +1,144 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-10-11T19:12:12.860442+00:00",
+  "source": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+    "bytes": 24404,
+    "sha256": "b894a7c56cd5c59c5fb77c046baa3c9873ae390d244082dd1f09998459e85417"
+  },
+  "frozen_metrics_dependency": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/frozen_metrics_v1.py",
+    "bytes": 25377,
+    "sha256": "f65eec16391d98a382d415e7b879f99555a33b33398f8be704661d1c7c027480"
+  },
+  "train": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "bytes": 64083,
+    "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660"
+  },
+  "development": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+    "bytes": 9489,
+    "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1"
+  },
+  "sample_inputs": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "bytes": 2135,
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated.csv",
+      "bytes": 1970,
+      "sha256": "948653f3adac79b256a328f9cadb100aed1d835a7213cdb006f50a6ab81a264e"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv",
+      "bytes": 2404,
+      "sha256": "d0d639a30472afd022c7b45b4dec89c093cfbc76c820b62093e709f9eaf61715"
+    }
+  ],
+  "reconstruction_inputs": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+      "bytes": 128631,
+      "sha256": "76c8e5bd6e986466b8d221a0e55cdbf4ba5aa65596012c1c294484a8fdbcd020"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_reconstruction.csv",
+      "bytes": 130790,
+      "sha256": "c51ef3d43c43e1ea37ec06fc89945115ed7bcc1cf7a453608d73788f64d1e0a0"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+      "bytes": 19017,
+      "sha256": "d991d673161dcdcaf5db7647fec35c613e62d28b2027a8fbe70238b4b6e55a49"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/dev_reconstruction.csv",
+      "bytes": 19213,
+      "sha256": "1b0b6836e6129e1e924fb5ceb3329295e4681b643163ac1b2cf2781a636953ec"
+    }
+  ],
+  "ar_nll_inputs": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/train_nll.json",
+      "bytes": 613,
+      "sha256": "866812f1b0fbc57133a320d441743b7cc78dda7bc35b5dfc3c489f8a2d296dd3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/dev_nll.json",
+      "bytes": 613,
+      "sha256": "6b3d2647cbeceb1f1e62db988b3ba2787bc68bf18891922861ab80ba56e9d11a"
+    }
+  ],
+  "sampling_seed_schedule": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SAMPLING_SEEDS.json",
+    "bytes": 226,
+    "sha256": "a510ca518166b56325b91f4a4df666726ae5f447ca98d8afad340447c7ef5580"
+  },
+  "seed_check": "prelocked_schedule_checked",
+  "requests_per_method_terminal": 16,
+  "methods": [
+    "CE21_DDPM",
+    "MSE21_DDPM",
+    "terminal_LSTM"
+  ],
+  "rows_retained": 96,
+  "model_calls": 0,
+  "test_accessed": false,
+  "wall_seconds": 4.900440334000001,
+  "argv": [
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/evaluate_h5.py",
+    "--train",
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+    "--development",
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+    "--train-sha256",
+    "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+    "--development-sha256",
+    "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+    "--train-rows",
+    "279",
+    "--development-rows",
+    "41",
+    "--methods",
+    "CE21_DDPM,MSE21_DDPM,terminal_LSTM",
+    "--requests",
+    "16",
+    "--sampling-seeds-json",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/SAMPLING_SEEDS.json",
+    "--samples",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated.csv",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv",
+    "--reconstruction-train",
+    "CE21_DDPM=/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/train_reconstruction.csv",
+    "--reconstruction-development",
+    "CE21_DDPM=/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/dev_reconstruction.csv",
+    "--reconstruction-train",
+    "MSE21_DDPM=/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/train_reconstruction.csv",
+    "--reconstruction-development",
+    "MSE21_DDPM=/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/dev_reconstruction.csv",
+    "--ar-nll",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/train_nll.json",
+    "--ar-nll",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/dev_nll.json",
+    "--output",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/ce_recovery_mse_ar_evaluation_v1"
+  ],
+  "python": "3.9.6 (default, Nov 11 2024, 03:15:38) \n[Clang 16.0.0 (clang-1600.0.26.6)]",
+  "policy": {
+    "scope": "exploratory single-fit train/development pilot; no test access",
+    "mmd": "biased linear MMD squared on 421 frozen features; valid canonical 1..48 only",
+    "feature_blocks": "length/48,20 AA fractions,400 dipeptide fractions; each scaled by 1/sqrt(3)",
+    "reconstruction": "posterior mean only; rendered sequence aligned to target positions; no nearest-neighbor truth",
+    "macro": "mean recall over amino-acid classes supported by target; PAD excluded",
+    "missing_prediction": "counts incorrect at every unrendered target position; never removes truth denominator",
+    "ar_nll": "teacher-forced diagnostic reported separately; not comparable with VAE objective",
+    "uncertainty": "no p-values/CI; draws are not independent training replicates; development has been reused",
+    "claims": "no activity, wetlab validation, significance, novelty, general method superiority or submission-readiness claim",
+    "engineering_prerequisite": "screens require complete request execution here and independently verified fixed-step training/budget upstream"
+  },
+  "backup": "BACKUP_BLOCKED"
+}

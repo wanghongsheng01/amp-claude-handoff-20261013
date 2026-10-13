@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/INDEX_SEAL.json",
+      "sha256": "9882ca817a5c813dfc89d756080a15e34522dbe61b8fa4ed28e41661687b77c1"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_same_n_group_reference_v1/SAME_N_READOUT.json",
+      "sha256": "bded28a9a808f367dcfba11bc63d6bf53246e633b3f7af294012441a342bde22"
+    }
+  ],
+  "protocol_sha256": "69996b7e20e0126878f2847c51e8a06d982924cc76d0b60e2d6d4e62c238d0b3",
+  "script_sha256": "4f8e18e287b1f81a9103db1140f3ffb2d30ae4f182173fa26b63b156abc1861a",
+  "analysis_wall_seconds": 11.834126624744385,
+  "model_calls": 0
+}

@@ -1,0 +1,100 @@
+{
+  "status": "PREASSEMBLY_EVIDENCE_REVIEW_COMPLETE_NOT_PACKAGE_SIGNOFF",
+  "utc": "2026-10-13T02:11:10.630672+00:00",
+  "reviewer": "/root/claude_handoff_audit",
+  "read_only_source_review": true,
+  "network_calls": 0,
+  "model_runs": 0,
+  "test37_reads": 0,
+  "boundaries": [
+    "warmup: CLOSED_NEGATIVE; four preregistered success guards failed; no seed expansion.",
+    "AR+latent v3: target-informed reconstruction information PASS; free generation FAIL versus B/C/D in both terminals; C smaller capacity, D historical.",
+    "direct-z: FAIL_MECHANISM_SCREEN; value screen NOT_INTERPRETED; 8086 saved-sequence metrics verified but checkpoint weights_only loading failed, whole independent pipeline INCOMPLETE.",
+    "Four-arm CE21 versus MSE21 improves reconstruction at fixed beta; formal interrupted E/L/G permanently NOT_EVALUABLE; descriptive recovery L PASS/G FAIL. AR_ADEQUACY NOT_ESTABLISHED and equal updates are not equal compute.",
+    "native MIC: original 46/39-point data; CNN worse than mean in both units, mass-unit ridge direction changes with weights; development only.",
+    "censored MIC: 147 points + 26 right bounds; tail-likelihood ridge worse than endpoint in all three weighting MAE/RMSE comparisons. No claim against censored-likelihood theory.",
+    "EB-context: NOT_SUPPORTED; partial dev equal-terminal sequence NLL49.1643086 vs pooled48.5871033, separate48.9177190, fresh AR48.0430212; all384 requests retained; not official PBCT replication.",
+    "Fixed200: 1788 MIC rows/165 peptide IDs; 318 Ecoli rows/158 IDs; native points mass103/71ID/49family/27source, molar88/42ID/28family/19source. Native units never converted.",
+    "Fixed200 bounds mass15/molar24; raw Ecoli formats226point/43right/44range/5plusminus; unsupported ranges never recoded to points/validated interval censoring. Missing references25752:204864 and25758:204939 remain unresolved.",
+    "Wetlab27 exists: synthesis/MIC reports, 108 summary cells=30numeric+78N. N undefined, lot-to-plate and historical generation/filter chain incomplete; no H5 attribution; author answer pending.",
+    "Bioinformatics: NOT_COMPLIANT_CURRENT_USE for substantive AI prose per stored2026-10-12 policy erratum; disclosure alone insufficient. CommsBio scientific NO_GO and unproven human-control requirements remain.",
+    "No test37, new experiments, novelty/efficacy/paper-readiness claims; third-party unclear-license originals replaced by indexed acquisition instructions."
+  ],
+  "sources": [
+    {
+      "path": "amp_h5/research_stage_delivery_v1/independent/LATEST_CONCLUSIONS_AND_EVIDENCE.zh.md",
+      "bytes": 7493,
+      "sha256": "6a4631dfd0c88b39eab5f542bb2aa9d956667b03298ff7aee4af880ca9c47d89"
+    },
+    {
+      "path": "amp_h5/feasibility/ce_recovery_four_arm_full_metrics_addendum_v1/FULL_METRICS_AND_NATIVE_CAP_v1.zh.md",
+      "bytes": 13430,
+      "sha256": "0963b7e71e17b2032d2d35b698a05c17889ae67853eef07cc35488cf736ba71f"
+    },
+    {
+      "path": "amp_h5/ar_latent_v3/DELIVERY_INDEX_v1.json",
+      "bytes": 10264,
+      "sha256": "f07f46f63bba9c953b9e53df7b653eeee1f9ddc094fdc236f533938a89fc6dc6"
+    },
+    {
+      "path": "amp_h5/direct_z_impl_v1/DELIVERY_DIRECT_Z_v3.json",
+      "bytes": 28009,
+      "sha256": "4ac7ae95a6e4ba276a87ef41d568ccda924ac5c39b40a13cd8aebd555166325e"
+    },
+    {
+      "path": "amp_h5/native_baseline_v1/RESULT_REPORT.zh.md",
+      "bytes": 2844,
+      "sha256": "b4b5328234bc4c26cac73de99a7d5c5e4aa35d63d5d4213b4c498d62b3fba018"
+    },
+    {
+      "path": "amp_h5/censored_likelihood_v1/REPORT.zh.md",
+      "bytes": 4683,
+      "sha256": "f149fcc04060099e22b171fae701083bd74a8992311bb4e529ee2331bd3f656c"
+    },
+    {
+      "path": "amp_h5/eb_context_v1/DELIVERY.json",
+      "bytes": 5967,
+      "sha256": "c20722e01cdfc7346dd5385140f1212701c57b0af23c7bc6dfbf1e59aaa54dcb"
+    },
+    {
+      "path": "amp_h5/eb_context_v1/natural_run/READOUT.csv",
+      "bytes": 6006,
+      "sha256": "7cb949fac1b814dd308c5b13ccb4c5040abea066f9da5f3e20cf71b408a33c40"
+    },
+    {
+      "path": "amp_h5/wetlab_evidence_map_v1/REPORT.zh.md",
+      "bytes": 5659,
+      "sha256": "cf9c77951046a212bdd5b3dea0ceb0746fb1904cc044c7a0c71a69fa40c17bab"
+    },
+    {
+      "path": "amp_h5/historical_binding_search_v1/SUMMARY.json",
+      "bytes": 1039,
+      "sha256": "3c3f285a029307954f6e38438095bb92134bcd9e1140c9b5cd43787b64313949"
+    },
+    {
+      "path": "amp_h5/remote_history_binding_v1/SUMMARY.json",
+      "bytes": 1340,
+      "sha256": "ce36ca2be1a7e91dd44410879ace85393111bbf26ea5cf729af3072c495ca658"
+    },
+    {
+      "path": "amp_h5/dbaasp_checkpoint_v7/RESULT_SUMMARY.json",
+      "bytes": 2847,
+      "sha256": "45ba2f933e566dea652e92b143cf1624997f3a3008dc48802afb01631c3e5576"
+    },
+    {
+      "path": "amp_h5/data_admission_final_v1/independent/DATA_CLOSURE_REVIEW.md",
+      "bytes": 1924,
+      "sha256": "1d20b93abeb83fd86fa81f4672adfc4558d17a47350326363cf8c06e59ba4155"
+    },
+    {
+      "path": "amp_h5/library_delivery_20261012/policy_correction_v2/BIOINFORMATICS_POLICY_ERRATUM_v2.zh.md",
+      "bytes": 2241,
+      "sha256": "781e05c92bf62c9148af0412e5d9a8f0271054821b93fd39d2f80f29ab761e5e"
+    },
+    {
+      "path": "amp_h5/library_delivery_20261012/policy_correction_v2/COMMSBIO_READONLY_ASSESSMENT.zh.md",
+      "bytes": 2754,
+      "sha256": "600696f714fe434593228e9e19968837ed7f535a6df7c33ee6c463f1d89d3513"
+    }
+  ]
+}

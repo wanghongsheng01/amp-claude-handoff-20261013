@@ -1,0 +1,81 @@
+{
+  "utc": "2026-10-12T15:05:30.813206+00:00",
+  "reviewer": "Independent non-author agent eb_context_independent",
+  "scope": "Standalone private-review addendum only; original v1 artifacts unmodified",
+  "documentary_claims_status": "PASS",
+  "numbers_and_denominators_status": "PASS",
+  "manual_layout_status": "PASS",
+  "pdf_pages": 4,
+  "all_pages_visually_inspected": true,
+  "inspection_render": "100 dpi grayscale page-composited PNGs 1 through 4",
+  "full_submission_gate": "NOT_PASSED",
+  "scientific_status": "NO_GO; partial-pooling candidate NOT_SUPPORTED",
+  "bioinformatics_status": "NOT_COMPLIANT_CURRENT_USE",
+  "surface_automation_status": "FAIL_WITH_DOCUMENTED_TRUTHFUL_DISCLOSURE_EXCEPTION",
+  "automation_exception": "Original mandated Poppler bbox process aborted. PyMuPDF word-box replacement preserved other skill thresholds and found zero typography/font/glyph/log errors, but literal source marker requires author verification not established here. Human verification is not fabricated; broader AI roles and lack of established approval remain disclosed. This exception permits a candid private record, not journal-policy or scientific clearance.",
+  "repairs_verified": [
+    "Distribution table heading and table kept together; no orphan heading.",
+    "AI disclosure kept complete on final page with sources.",
+    "Dev first-open claim explicitly limited to this run.",
+    "BOS padding explicit for initial contexts."
+  ],
+  "remaining_documentary_corrections": [],
+  "no_new_model_forward_passes": true,
+  "no_training_tuning_sampling": true,
+  "no_original_split_or_test_access": true,
+  "old_v1_binding_changes": false,
+  "bindings": {
+    "AMP_H5_EB_context_addendum.tex": {
+      "sha256": "c3eb209ded9d61cfd26f3401e3a8af36d50e0b81d73d47f513e71c44c4f647c7",
+      "bytes": 12306
+    },
+    "nll_table.tex": {
+      "sha256": "0c42c4baa267ee3f7f1c5dfb9d1170554fad48953d00b4552f7b597932e3a504",
+      "bytes": 442
+    },
+    "rates_table.tex": {
+      "sha256": "6ae98312c8ed116ad4c1ad800598022484b07c79a355a61108ae2920157f865b",
+      "bytes": 385
+    },
+    "distribution_table.tex": {
+      "sha256": "d5ef80b13485a7008e4d55fd2fb4e3b0cfda3498bdfe70927725c93f94e35fca",
+      "bytes": 512
+    },
+    "AMP_H5_EB_context_addendum_metrics.csv": {
+      "sha256": "7cb949fac1b814dd308c5b13ccb4c5040abea066f9da5f3e20cf71b408a33c40",
+      "bytes": 6006
+    },
+    "build/AMP_H5_EB_context_addendum.pdf": {
+      "sha256": "c8c909ce56ee55d288fee3ed87c8676000e90d8c46e1c0aa8aff018e72d414f6",
+      "bytes": 168258
+    },
+    "build/AMP_H5_EB_context_addendum.log": {
+      "sha256": "bb5a51de7d530da382dfd0a8a043cbd602785d98d337fd52bc595bd60a209ff2",
+      "bytes": 24115
+    },
+    "SURFACE_FALLBACK.json": {
+      "sha256": "13b153e7c0b84c0ff498b4341ba054fcd8e56c063ae9dbff9282beeca5134e05",
+      "bytes": 808
+    },
+    "SURFACE_FALLBACK_METHOD.json": {
+      "sha256": "5b2104564e23a3b8def473e2c22da4aa56b8e0dc0e535a0eb9c7576c20151207",
+      "bytes": 317
+    },
+    "build/page-1.png": {
+      "sha256": "c85a14cc418a2876b3ba4eb809191be6ce28072427413471900cdb22e3b26cd0",
+      "bytes": 269833
+    },
+    "build/page-2.png": {
+      "sha256": "087212ddfb3ce3bd68970b817384f9c672ba49be96f774e41bc90c6564831420",
+      "bytes": 218464
+    },
+    "build/page-3.png": {
+      "sha256": "61d9a63ffd5f5360add985d8482237845eced1fc9c8fb779eda8aa845ed9a350",
+      "bytes": 206926
+    },
+    "build/page-4.png": {
+      "sha256": "6e187b6d49bcd9bc19658cb1f2e9770d47b93be76bc211530e110c8e092f6114",
+      "bytes": 247494
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "launched_utc": "2026-10-11T21:12:25.642373+00:00",
+  "supervisor_pid": 80881,
+  "argv": [
+    "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/env/bin/python",
+    "-u",
+    "-B",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/supervise.py",
+    "--plan",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_PLAN_v2.json",
+    "--receipt",
+    "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RMS_RECONSTRUCTION_PREFLIGHT_v2.json"
+  ],
+  "plan_sha256": "b917c14e8db3e89f5a6a862bda5d3318bb202ed295244f04e80beee5ff5c909d",
+  "receipt_sha256": "dbc0840f9a5958590b18393b66ad33bb5242400d09080a61d4701ed24e38391e",
+  "launcher_sha256": "f2afb79a841c6c40cda13547808f070d9592439069e670a19d880f08ae472b21",
+  "separate_process_session": true,
+  "stdout": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_launch_v2/LAUNCH.stdout.log",
+  "lifetime_bound": "supervise.py per-job outer timeout and global H5_PROCESS.lock",
+  "system_settings_changed": false,
+  "temporary_keep_awake": {
+    "pid": 80882,
+    "until_supervisor_pid_exits": 80881
+  }
+}

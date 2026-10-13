@@ -1,0 +1,32 @@
+{
+  "state": "PREPARED_NOT_RUN_ON_NATURAL_OUTPUTS",
+  "model_calls": 0,
+  "closed_artifacts_modified": false,
+  "live_CE_outputs_read_by_script": false,
+  "files": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/author_terminal_engineering_readout_v1.py",
+      "sha256": "17914cc749b66e548dd016e9e47d33257e04784edf232cc0bb0023a5a1426780"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_V2_AUTHOR_TERMINAL_READOUT_REQUEST_v1.json",
+      "sha256": "502204f0bd6847cc5eb0bd40f152143be82251051a2eb2cf35a5fee1778cd954"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/staged_remaining_vae_drafts_v1/MSE_V2_PLAN_DRAFT.json",
+      "sha256": "e9cef4d67ea1aeabba8a80027d95bf54c724e9e97fe87e9647c1546df9e1b169"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/staged_remaining_vae_drafts_v1/SCALAR_V2_PLAN_DRAFT.json",
+      "sha256": "044ffb38d3417de582b43877c840e8376bcbf447b77d0f15ffccea2a5931c45d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/author_terminal_readout_validation_v1/VALIDATION.json",
+      "sha256": "9860c7a6dedbd06677fb4370fc46cdbde9afc7340dbc8c2295dde0e5532106d2"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/author_terminal_readout_validation_v1/USAGE.zh.md",
+      "sha256": "7ad59c228a89131de6b2d65ebb765e6b1825b0b12a22ea08eda7d5fb0d825526"
+    }
+  ]
+}

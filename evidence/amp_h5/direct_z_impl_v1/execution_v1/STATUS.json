@@ -1,0 +1,127 @@
+{
+  "schema": "AMP_H5_DIRECT_Z_NATURAL_PROCESS_V1",
+  "state": "completed",
+  "started_utc": "2026-10-12T03:06:54.509840+00:00",
+  "supervisor_pid": 23289,
+  "manifest_sha256": "72fffaade67bda42821f642c7f57f866517d38f9138d4eedbd8700d0f009f1a0",
+  "receipt_sha256": "ead863bdeaebf171caf904ea3b42088f7f2c81677177bf8f0a3a31802046d5bb",
+  "safety_sha256": "ab9a11117feccac14596544eacf7e851cef4f403ba559d3d65ec3a1c3ac5fcf6",
+  "outer_cap_seconds": 4560,
+  "phase_caps": {
+    "prepare": 60,
+    "R_training": 720,
+    "Z_training": 720,
+    "R_generation": 1440,
+    "Z_generation": 1440,
+    "decode_score": 120,
+    "closure": 60
+  },
+  "engineering_wall_seconds": 75.97498020809144,
+  "retry_allowed": false,
+  "managed_h5_jobs_clear": true,
+  "host_process_scan_completed": false,
+  "timeout_grace_seconds": 0,
+  "child_pid": 23291,
+  "exit_code": 0,
+  "timed_out": false,
+  "error": null,
+  "stop_phase": null,
+  "phase_observations": [
+    {
+      "phase": "prepare",
+      "started_monotonic": 2311186.716734916,
+      "cap_seconds": 60,
+      "deadline_monotonic": 2311246.716734916,
+      "total_started_monotonic": 2311186.71608275
+    },
+    {
+      "phase": "R_training",
+      "started_monotonic": 2311189.93468775,
+      "cap_seconds": 720,
+      "deadline_monotonic": 2311909.93468775,
+      "total_started_monotonic": 2311186.71608275
+    },
+    {
+      "phase": "Z_training",
+      "started_monotonic": 2311740.631265333,
+      "cap_seconds": 720,
+      "deadline_monotonic": 2312460.631265333,
+      "total_started_monotonic": 2311186.71608275
+    },
+    {
+      "phase": "R_generation",
+      "started_monotonic": 2312287.099010333,
+      "cap_seconds": 1440,
+      "deadline_monotonic": 2313727.099010333,
+      "total_started_monotonic": 2311186.71608275
+    },
+    {
+      "phase": "Z_generation",
+      "started_monotonic": 2313422.146849916,
+      "cap_seconds": 1440,
+      "deadline_monotonic": 2314862.146849916,
+      "total_started_monotonic": 2311186.71608275
+    },
+    {
+      "phase": "decode_score",
+      "started_monotonic": 2314558.379756583,
+      "cap_seconds": 120,
+      "deadline_monotonic": 2314678.379756583,
+      "total_started_monotonic": 2311186.71608275
+    },
+    {
+      "phase": "closure",
+      "started_monotonic": 2314559.464806625,
+      "cap_seconds": 60,
+      "deadline_monotonic": 2314619.464806625,
+      "total_started_monotonic": 2311186.71608275
+    }
+  ],
+  "wall_seconds": 3374.7391436668113,
+  "wall_through_child_exit": 3374.7279585828073,
+  "overrun_seconds": 0,
+  "binding_drift": [],
+  "actual_phase_timings": {
+    "prepare": {
+      "wall_seconds": 3.217757834121585,
+      "cap_seconds": 60,
+      "exceeded": false
+    },
+    "R_training": {
+      "wall_seconds": 550.696280958131,
+      "cap_seconds": 720,
+      "exceeded": false
+    },
+    "Z_training": {
+      "wall_seconds": 546.467505833134,
+      "cap_seconds": 720,
+      "exceeded": false
+    },
+    "R_generation": {
+      "wall_seconds": 1135.0472176671028,
+      "cap_seconds": 1440,
+      "exceeded": false
+    },
+    "Z_generation": {
+      "wall_seconds": 1136.2323366673663,
+      "cap_seconds": 1440,
+      "exceeded": false
+    },
+    "decode_score": {
+      "wall_seconds": 1.0847627501934767,
+      "cap_seconds": 120,
+      "exceeded": false
+    },
+    "closure": {
+      "wall_seconds": 0.5118429576978087,
+      "cap_seconds": 60,
+      "exceeded": false
+    }
+  },
+  "timing_errors": [],
+  "total_compute_seconds_so_far": 3450.7141238749027,
+  "postflight_cap_seconds": 60,
+  "finished_utc": "2026-10-12T04:03:09.161579+00:00",
+  "wall_scope": "Main entry through child exit and final binding hash check. Final JSON writes excluded; no compute grace.",
+  "requires_independent_postflight": true
+}

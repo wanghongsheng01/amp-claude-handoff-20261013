@@ -1,0 +1,809 @@
+{
+  "created_utc": "2026-10-11T19:24:25.839171+00:00",
+  "project": "AMP H5 antimicrobial peptide end-to-end pilot",
+  "status": "STATIC_ROUTE_CONSISTENT_WITH_DECLARED_DIFFERENCES_CAUSE_UNRESOLVED",
+  "scope": "Frozen code/config/CE completed training+recovery metadata and schema-only completed CE/MSE artifacts. No live scalar content, test/cohort records, model imports, forwards, new random draws or quality calculations.",
+  "confirmed_active_route_implementation_bugs": [],
+  "absence_of_found_bug_is_not_proof_of_absence": true,
+  "causal_claims_authorized": false,
+  "PROMOTE": "HOLD",
+  "findings": [
+    {
+      "id": "S01",
+      "classification": "STATIC_MATCH_WITH_DECLARED_TRANSFORM",
+      "title": "Descriptor scaler and abs boundary",
+      "conclusion": "H5 fits population mean/std on train descriptors only (279 global vectors; 4868 actual residues in saved scaler), uses scale=1 for constant columns, transforms actual residues then pads g with zero. h is abs(zscore(global)); g keeps signs. abs is applied once in H5 tensorize because it calls the encoder directly, not VAEModel.forward. Original wrapper also abs(global); H4 reconstruction runner uses the same declared train zscore. No latent parameter standardizer is in this path.",
+      "limitation": "abs is non-invertible and discards global descriptor sign relative to the mean, but is inherited/declared. The reconstruction pipeline does not need an inverse feature transform. Saved scaler metadata is checked without rereading train/dev/cohort records; historical preprocessing faithfulness is not claimed.",
+      "evidence": [
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 154,
+          "last_line": 186,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "154: class FeatureScaler:\n155:     \"\"\"Same train-only population zscore before inherited abs(global).\"\"\"\n156:     def __init__(self, train):\n157:         g = [[float(v) for v in r.global_descriptor] for r in train]\n158:         s = [[float(v) for v in row] for r in train for row in r.residue_descriptors]\n159:         self.stats = {\"global\": self._stats(g), \"residue\": self._stats(s),\n160:                       \"fit_record_ids\": [r.idx for r in train], \"fit_scope\": \"train only\",\n161:                       \"method\": \"train_zscore_before_original_model_abs\"}\n162: \n163:     @staticmethod\n164:     def _stats(rows):\n165:         means = [sum(r[j] for r in rows) / len(rows) for j in range(len(rows[0]))]\n166:         scales = [math.sqrt(sum((r[j] - means[j]) ** 2 for r in rows) / len(rows))\n167:                   for j in range(len(means))]\n168:         return {\"mean\": means, \"scale\": [s if s > 0 else 1.0 for s in scales], \"n\": len(rows)}\n169: \n170:     def tensorize(self, records):\n171:         target = torch.tensor([[AA.index(a) for a in r.protein] + [20] * (48-len(r.protein))\n172:                                for r in records], dtype=torch.long)\n173:         g = torch.zeros(len(records), 3, 48, dtype=torch.float32)\n174:         globals_ = []\n175:         for i, r in enumerate(records):\n176:             st = self.stats[\"global\"]\n177:             # Float64 abs then float32 in the encoder matches the inherited boundary.\n178:             globals_.append([abs((float(v)-st[\"mean\"][j])/st[\"scale\"][j])\n179:                              for j, v in enumerate(r.global_descriptor)])\n180:             st = self.stats[\"residue\"]\n181:             for t, row in enumerate(r.residue_descriptors):\n182:                 g[i, :, t] = torch.tensor([(float(v)-st[\"mean\"][j])/st[\"scale\"][j]\n183:                                           for j, v in enumerate(row)], dtype=torch.float32)\n184:         h = torch.tensor(globals_, dtype=torch.float64)\n185:         labels = torch.tensor([r.class_index for r in records], dtype=torch.long)\n186:         return target, g, h, labels"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 198,
+          "last_line": 202,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "198:     z, mu, logsigma = v.encoder(v.word_emb(target.T).permute(1, 2, 0), v.g_pre_net(g), h)\n199:     raw = v.decoder(z)\n200:     zp = v.prior_flow(z, g)\n201:     logq = torch.distributions.Normal(mu, logsigma.exp()).log_prob(z)\n202:     logp = v.prior_dist.log_prob(zp)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 347,
+          "last_line": 363,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "347: def posterior_parameters(model, records, scaler, batch_size, budget=None):\n348:     model.eval()\n349:     xs, ys = [], []\n350:     with torch.random.fork_rng(), torch.no_grad():\n351:         torch.manual_seed(0)\n352:         for i in range(0, len(records), batch_size):\n353:             if budget is not None and budget.exhausted():\n354:                 raise TimeoutError(\"training budget exhausted before posterior encoding batch\")\n355:             target, g, h, y = scaler.tensorize(records[i:i+batch_size])\n356:             v = model.vae\n357:             _, mu, logs = v.encoder(v.word_emb(target.T).permute(1, 2, 0), v.g_pre_net(g), h)\n358:             value = torch.stack((mu, logs), dim=1).contiguous()\n359:             finite(value, \"posterior parameters\")\n360:             if value.shape[1:] != (2, 16, 48):\n361:                 raise ValueError(\"posterior shape\")\n362:             xs.append(value); ys.append(y)\n363:     return torch.cat(xs), torch.cat(ys)"
+        },
+        {
+          "source_id": "V",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+          "first_line": 365,
+          "last_line": 382,
+          "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+          "excerpt": "365:     def forward(self, batch, ret, train=True, return_latent=False, temperature=1.):\n366:         infer = not train\n367:         # Strict numeric parsing; rejects incomplete, nonfinite or misaligned data.\n368:         # Historical abs behavior is retained explicitly, not scientifically endorsed.\n369:         parsed_data, batch_parsed = parse_model_batch(batch)\n370:         numpy_data = np.array(parsed_data, dtype=float)\n371:         point_describe = torch.abs(torch.tensor(numpy_data).to(self._device))\n372: \n373:         max_units = 48\n374:         max_subunits = max(len(unit) for item in batch_parsed for unit in item)\n375:         batch_tensor = torch.zeros((len(batch_parsed), max_units, max_subunits))\n376:         \n377: \n378:         for i, item in enumerate(batch_parsed):\n379:             for j, unit in enumerate(item):\n380:                 batch_tensor[i, j, :len(unit)] = torch.tensor(unit)\n381:         # [B,T,N]-->[T,N,B]\n382:         describe = batch_tensor.to(self._device).permute(1, 2, 0)"
+        },
+        {
+          "source_id": "OLD",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/run_rebuild_v3r2.py",
+          "first_line": 87,
+          "last_line": 112,
+          "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8",
+          "excerpt": "87:     def __init__(self, records):\n88:         global_values, residues = parse_model_batch(raw_batch(records))\n89:         residue_values = [row for sequence in residues for row in sequence]\n90:         self.stats = {\"global\": self._stats(global_values), \"residue\": self._stats(residue_values),\n91:                       \"fit_record_ids\": [r.idx for r in records],\n92:                       \"fit_scope\": \"train only; population standard deviation; constant columns scale=1\",\n93:                       \"method\": \"train_zscore_before_original_model_abs\",\n94:                       \"historical_preprocessing_reproduction\": False}\n95: \n96:     @staticmethod\n97:     def _stats(rows):\n98:         width = len(rows[0])\n99:         means = [sum(row[j] for row in rows) / len(rows) for j in range(width)]\n100:         scales = [math.sqrt(sum((row[j] - means[j]) ** 2 for row in rows) / len(rows)) for j in range(width)]\n101:         return {\"mean\": means, \"scale\": [v if v > 0 else 1.0 for v in scales], \"n\": len(rows)}\n102: \n103:     def transform(self, sample):\n104:         global_values, residues = parse_model_batch(sample)\n105:         output = {key: list(value) for key, value in sample.items()}\n106:         def scale(row, kind):\n107:             st = self.stats[kind]\n108:             return [(value - st[\"mean\"][j]) / st[\"scale\"][j] for j, value in enumerate(row)]\n109:         output[\"point_describe\"] = [json.dumps(scale(row, \"global\")) for row in global_values]\n110:         output[\"describe\"] = [\",\".join(\"[\" + \" \".join(format(v, \".17g\") for v in scale(row, \"residue\")) + \"]\"\n111:                                       for row in sequence) for sequence in residues]\n112:         return output"
+        },
+        {
+          "source_id": "OLD",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/run_rebuild_v3r2.py",
+          "first_line": 144,
+          "last_line": 153,
+          "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8",
+          "excerpt": "144: def explicit_vae_forward(model, sample, train=True):\n145:     \"\"\"Same FVAE core; float32 is declared before host-to-device transfer.\"\"\"\n146:     device = next(model.parameters()).device\n147:     global_features, residue_features = parse_model_batch(sample)\n148:     target = targets(sample).to(device)\n149:     g = torch.zeros(len(residue_features), 48, 3, dtype=torch.float32)\n150:     for i, rows in enumerate(residue_features):\n151:         g[i, :len(rows)] = torch.tensor(rows, dtype=torch.float32)\n152:     h = torch.tensor(global_features, dtype=torch.float32).abs().to(device)\n153:     result = model.vae(x=target.T, g=g.permute(1, 2, 0).to(device), h=h, infer=not train)"
+        },
+        {
+          "source_id": "SCALER",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+          "first_line": 1,
+          "last_line": 40,
+          "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+          "excerpt": "1: {\n2:   \"global\": {\n3:     \"mean\": [\n4:       3.967741935483871,\n5:       3.2867383512544803,\n6:       0.6810035842293907,\n7:       0.6353487229472834,\n8:       -13.76383512544802,\n9:       865.762123578447,\n10:       0.28634481962486863,\n11:       -0.44413495108435885,\n12:       835.2893548387094\n13:     ],\n14:     \"scale\": [\n15:       3.0800023724676397,\n16:       2.8189457165836505,\n17:       1.3971416276046318,\n18:       0.1075936646597883,\n19:       5.87977043306761,\n20:       337.0833784807305,\n21:       0.03916678389497856,\n22:       0.054739365433806614,\n23:       364.497777577699\n24:     ],\n25:     \"n\": 279\n26:   },\n27:   \"residue\": {\n28:     \"mean\": [\n29:       136.8733381265407,\n30:       -0.3395336894001643,\n31:       79.7521446179129\n32:     ],\n33:     \"scale\": [\n34:       31.29788765628059,\n35:       0.7749840618440833,\n36:       21.568494970911342\n37:     ],\n38:     \"n\": 4868\n39:   },\n40:   \"fit_record_ids\": ["
+        },
+        {
+          "source_id": "SCALER",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/train_feature_scaler.json",
+          "first_line": 321,
+          "last_line": 322,
+          "sha256": "bc531f3cc3587f6515bc22b8a72383f1ce50582e6b33c7f96b5c260260eae63d",
+          "excerpt": "321:   \"fit_scope\": \"train only\",\n322:   \"method\": \"train_zscore_before_original_model_abs\""
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "classification": "STATIC_MATCH",
+      "title": "DDPM target and latent axes",
+      "conclusion": "Encoder mu and logsigma are [B,16,48]; H5 stacks them at dim=1 as [B,2,16,48]. Channel0=mu, channel1=log standard deviation, positions=last axis including padded positions. DDPM predicts injected epsilon with mean MSE, not mu/z/variance. Generated channels are split by the identical convention and sigma=exp(logsigma); no factor 0.5 belongs here.",
+      "limitation": "This excludes an identified axis or log-variance interpretation mismatch in inspected code; it does not prove DDPM has learned the target distribution. Padding positions are modelled, not masked out.",
+      "evidence": [
+        {
+          "source_id": "V",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+          "first_line": 114,
+          "last_line": 127,
+          "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+          "excerpt": "114:     def forward(self, x, g, h):\n115: \n116:         x = self.wn(x, g)\n117:         if h!=None:\n118: \n119:             x = self.att(sequence=x.permute(0, 2, 1).to(torch.float), feature=h.to(torch.float))\n120: \n121:         x = self.out_proj(x)\n122: \n123:         m, logs = torch.split(x, self.latent_channels, dim=1)\n124: \n125:         z = (m + torch.randn_like(m) * torch.exp(logs))\n126: \n127:         return z, m, logs"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 347,
+          "last_line": 363,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "347: def posterior_parameters(model, records, scaler, batch_size, budget=None):\n348:     model.eval()\n349:     xs, ys = [], []\n350:     with torch.random.fork_rng(), torch.no_grad():\n351:         torch.manual_seed(0)\n352:         for i in range(0, len(records), batch_size):\n353:             if budget is not None and budget.exhausted():\n354:                 raise TimeoutError(\"training budget exhausted before posterior encoding batch\")\n355:             target, g, h, y = scaler.tensorize(records[i:i+batch_size])\n356:             v = model.vae\n357:             _, mu, logs = v.encoder(v.word_emb(target.T).permute(1, 2, 0), v.g_pre_net(g), h)\n358:             value = torch.stack((mu, logs), dim=1).contiguous()\n359:             finite(value, \"posterior parameters\")\n360:             if value.shape[1:] != (2, 16, 48):\n361:                 raise ValueError(\"posterior shape\")\n362:             xs.append(value); ys.append(y)\n363:     return torch.cat(xs), torch.cat(ys)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 376,
+          "last_line": 378,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "376:     values, labels = posterior_parameters(model, train, scaler, config[\"vae_batch_size\"], budget)\n377:     np.savez_compressed(out / \"train_posterior_parameters.npz\", values=values.numpy(), labels=labels.numpy(),\n378:                         row_ids=np.asarray([r.idx for r in train]))"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 400,
+          "last_line": 409,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "400:         value, label = values[idx], labels[idx]\n401:         t = torch.randint(1, config[\"noise_steps\"], (len(idx),))\n402:         noise = torch.randn_like(value)\n403:         a = abar[t][:, None, None, None]\n404:         xt = a.sqrt()*value+(1-a).sqrt()*noise\n405:         dropped = random.random() < 0.1\n406:         diff.train(); opt.zero_grad(set_to_none=True)\n407:         pred = diff(xt, t, None if dropped else label)\n408:         finite(pred, \"DDPM prediction\")\n409:         loss = torch.nn.functional.mse_loss(pred, noise)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 502,
+          "last_line": 518,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "502:                 mu, logsigma = x[:, 0], x[:, 1]\n503:                 observations.update(mu=mu, logsigma=logsigma)\n504:                 phase = \"final_posterior_before_exp\"\n505:                 # Retain generated posterior parameters even if exp(logsigma) later fails.\n506:                 np.savez_compressed(out / f\"generated_posterior_{terminal}.npz\", values=x.numpy())\n507:                 dump(out / f\"generated_posterior_summary_{terminal}.json\", {\"terminal\": terminal,\n508:                     \"mu\": tensor_observation_summary(mu), \"logsigma\": tensor_observation_summary(logsigma),\n509:                     \"posterior_parameters\": tensor_observation_summary(x), \"recorded_before_exp\": True})\n510:                 phase = \"posterior_exp\"\n511:                 sigma = logsigma.exp()\n512:                 observations[\"sigma\"] = sigma\n513:                 finite(sigma, \"generated exp(logsigma)\")\n514:                 if not bool((sigma > 0).all()):\n515:                     raise FloatingPointError(\"generated exp(logsigma) underflow\")\n516:                 z = mu+torch.randn_like(mu)*sigma\n517:                 phase = \"sampled_z_and_decode\"\n518:                 seqs, tokens, lengths, raw, length_scores = decode(model, z, config[\"arm\"], observations)"
+        },
+        {
+          "source_id": "OLD",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/run_rebuild_v3r2.py",
+          "first_line": 334,
+          "last_line": 350,
+          "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8",
+          "excerpt": "334: def encode(model, records, size):\n335:     values, labels = [], []\n336:     model.eval()\n337:     with torch.random.fork_rng(devices=[]), torch.no_grad():\n338:         # The old encoder samples z even when only deterministic mu/logs are used.\n339:         # This encoding must never let validation size alter training RNG state.\n340:         torch.random.default_generator.manual_seed(0)\n341:         for sample in batches(records, size):\n342:             if next(model.parameters()).device.type != \"cpu\":\n343:                 raise RuntimeError(\"encoding requires explicit prior transfer to CPU\")\n344:             (_, _, mu, logs), _ = explicit_vae_forward(model, sample, train=False)\n345:             value = torch.stack((mu, logs), dim=1).permute(0, 1, 3, 2).contiguous()\n346:             finite(value, \"posterior parameters\")\n347:             assert value.shape[1:] == (2, 16, 48)\n348:             values.append(value)\n349:             labels.extend(int(v) for v in sample[\"class\"])\n350:     return torch.cat(values), torch.tensor(labels, dtype=torch.long)"
+        },
+        {
+          "source_id": "ROOTDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+          "first_line": 155,
+          "last_line": 167,
+          "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da",
+          "excerpt": "155:             labels = torch.Tensor(list(map(int, sample['class'])))\n156:             with torch.cuda.amp.autocast() and (torch.inference_mode() if not train else torch.enable_grad()):\n157:                 with torch.no_grad():\n158:                     _, m_q, logs_q = self.infer_vae(batch=new_dict, ret=model_out, train=False, temperature=1.)\n159:                 combined = torch.stack((m_q, logs_q), dim=2)  # （bs，seq_len，2，z_dim）\n160:                 distri = combined.permute(0, 3, 2, 1).to(self.device)  # （bs ,z_dim ,2 ,seq_len）\n161:                 labels = labels.to(self.device).long()\n162:                 t = self.sample_timesteps(distri.shape[0]).to(self.device)\n163:                 x_t, noise = self.noise_images(distri, t)\n164:                 if np.random.random() < 0.1:\n165:                     labels = None\n166:                 predicted_noise = self.model(x_t.permute(0, 2, 1, 3), t, labels)\n167:                 loss = self.mse(noise.permute(0, 2, 1, 3), predicted_noise)"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "classification": "STATIC_MATCH",
+      "title": "No latent inverse standardization or inverse-flow omission",
+      "conclusion": "The DDPM cache stores native mu/logsigma without standardization, whitening, clipping or abs. Training adds diffusion noise in that coordinate system and generation consumes it directly. Therefore no missing latent inverse-scaler is identified. The posterior-parameter DDPM samples decoder-coordinate z=mu+sigma*epsilon and should go directly to decoder; inverse flow belongs to a different prior route.",
+      "limitation": "Standardizing these latent channels or clipping log scales would change the experiment and requires a new version; static consistency does not establish target adequacy.",
+      "evidence": [
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 347,
+          "last_line": 378,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "347: def posterior_parameters(model, records, scaler, batch_size, budget=None):\n348:     model.eval()\n349:     xs, ys = [], []\n350:     with torch.random.fork_rng(), torch.no_grad():\n351:         torch.manual_seed(0)\n352:         for i in range(0, len(records), batch_size):\n353:             if budget is not None and budget.exhausted():\n354:                 raise TimeoutError(\"training budget exhausted before posterior encoding batch\")\n355:             target, g, h, y = scaler.tensorize(records[i:i+batch_size])\n356:             v = model.vae\n357:             _, mu, logs = v.encoder(v.word_emb(target.T).permute(1, 2, 0), v.g_pre_net(g), h)\n358:             value = torch.stack((mu, logs), dim=1).contiguous()\n359:             finite(value, \"posterior parameters\")\n360:             if value.shape[1:] != (2, 16, 48):\n361:                 raise ValueError(\"posterior shape\")\n362:             xs.append(value); ys.append(y)\n363:     return torch.cat(xs), torch.cat(ys)\n364: \n365: \n366: def noise_schedule(steps):\n367:     beta = torch.linspace(1e-4, 0.02, steps)\n368:     alpha = 1-beta\n369:     return beta, alpha, torch.cumprod(alpha, dim=0)\n370: \n371: \n372: def train_ddpm(config, model, train, scaler, out, method_started):\n373:     budget = Budget(config[\"ddpm_seconds_cap\"], method_started, config[\"training_seconds_cap\"])\n374:     if budget.exhausted():\n375:         raise TimeoutError(\"training budget exhausted at DDPM stage entry\")\n376:     values, labels = posterior_parameters(model, train, scaler, config[\"vae_batch_size\"], budget)\n377:     np.savez_compressed(out / \"train_posterior_parameters.npz\", values=values.numpy(), labels=labels.numpy(),\n378:                         row_ids=np.asarray([r.idx for r in train]))"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 400,
+          "last_line": 409,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "400:         value, label = values[idx], labels[idx]\n401:         t = torch.randint(1, config[\"noise_steps\"], (len(idx),))\n402:         noise = torch.randn_like(value)\n403:         a = abar[t][:, None, None, None]\n404:         xt = a.sqrt()*value+(1-a).sqrt()*noise\n405:         dropped = random.random() < 0.1\n406:         diff.train(); opt.zero_grad(set_to_none=True)\n407:         pred = diff(xt, t, None if dropped else label)\n408:         finite(pred, \"DDPM prediction\")\n409:         loss = torch.nn.functional.mse_loss(pred, noise)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 502,
+          "last_line": 524,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "502:                 mu, logsigma = x[:, 0], x[:, 1]\n503:                 observations.update(mu=mu, logsigma=logsigma)\n504:                 phase = \"final_posterior_before_exp\"\n505:                 # Retain generated posterior parameters even if exp(logsigma) later fails.\n506:                 np.savez_compressed(out / f\"generated_posterior_{terminal}.npz\", values=x.numpy())\n507:                 dump(out / f\"generated_posterior_summary_{terminal}.json\", {\"terminal\": terminal,\n508:                     \"mu\": tensor_observation_summary(mu), \"logsigma\": tensor_observation_summary(logsigma),\n509:                     \"posterior_parameters\": tensor_observation_summary(x), \"recorded_before_exp\": True})\n510:                 phase = \"posterior_exp\"\n511:                 sigma = logsigma.exp()\n512:                 observations[\"sigma\"] = sigma\n513:                 finite(sigma, \"generated exp(logsigma)\")\n514:                 if not bool((sigma > 0).all()):\n515:                     raise FloatingPointError(\"generated exp(logsigma) underflow\")\n516:                 z = mu+torch.randn_like(mu)*sigma\n517:                 phase = \"sampled_z_and_decode\"\n518:                 seqs, tokens, lengths, raw, length_scores = decode(model, z, config[\"arm\"], observations)\n519:                 phase = \"successful_export\"\n520:                 arrays = {\"posterior_parameters\": x.numpy(), \"z\": z.numpy(), \"raw\": raw.numpy(),\n521:                           \"tokens\": tokens.numpy(), \"lengths\": lengths.numpy()}\n522:                 if length_scores is not None:\n523:                     arrays[\"length_scores\"] = length_scores.numpy()\n524:                 np.savez_compressed(out / f\"generated_{terminal}.npz\", **arrays)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 238,
+          "last_line": 245,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "238: def decode(model, z, arm, observations=None):\n239:     if observations is not None:\n240:         observations[\"sampled_z\"] = z\n241:     finite(z, \"decoder input\")\n242:     raw = model.vae.decoder(z)\n243:     if observations is not None:\n244:         observations[\"decoder_raw\"] = raw\n245:     finite(raw, \"decoder output\")"
+        },
+        {
+          "source_id": "H4",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+          "first_line": 125,
+          "last_line": 148,
+          "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78",
+          "excerpt": "125:                 if g['method']==METHODS[0]:\n126:                     cond=torch.from_numpy(np.ascontiguousarray(pool_g[indices]));epsilon=torch.randn(16,16,48);capture('g_flow',cond);capture('epsilon',epsilon)\n127:                     context['stage']='inverse_flow';cap();calls['inverse_flow_attempted']+=1\n128:                     z=vae.vae.prior_flow(epsilon,cond,reverse=True);calls['inverse_flow_completed']+=1\n129:                 elif g['method']==METHODS[1]:\n130:                     mu=torch.from_numpy(np.ascontiguousarray(pool_mu[indices]));log=torch.from_numpy(np.ascontiguousarray(pool_logs[indices]));capture('mu',mu);capture('logsigma',log)\n131:                     scale=log.exp();capture('posterior_scale',scale);finite(scale,'aggregate scale')\n132:                     if not bool((scale>0).all()): raise FloatingPointError('aggregate underflow')\n133:                     epsilon=torch.randn_like(mu);capture('epsilon',epsilon);z=mu+epsilon*scale\n134:                 else:\n135:                     x=torch.randn(16,2,16,48);capture('ddpm_initial',x);labels=torch.full((16,),g['class'],dtype=torch.long)\n136:                     for step in reversed(range(1,999)):\n137:                         context.update(stage='DDPM_reverse',timestep=step);capture('ddpm_last_input',x);cap()\n138:                         tt=torch.full((16,),step,dtype=torch.long);calls['ddpm_attempted']+=1\n139:                         pred=ddpm(x,tt,labels);calls['ddpm_completed']+=1;capture('ddpm_last_prediction',pred)\n140:                         noise=torch.randn_like(x) if step>1 else torch.zeros_like(x);capture('ddpm_last_noise',noise)\n141:                         x=(x-(1-alpha[step])/(1-alpha_hat[step]).sqrt()*pred)/alpha[step].sqrt()+beta[step].sqrt()*noise\n142:                         capture('ddpm_last_state',x);finite(x,'DDPM state')\n143:                         if step%100==0 or step==1: write(out/'PROGRESS.json',{'context':context,'elapsed_seconds':time.perf_counter()-tic,'calls':calls})\n144:                     mu,log=x[:,0],x[:,1];capture('ddpm_final_parameters',x);scale=log.exp();capture('posterior_scale',scale);finite(scale,'DDPMscale')\n145:                     if not bool((scale>0).all()): raise FloatingPointError('DDPMposterior underflow')\n146:                     epsilon=torch.randn_like(mu);capture('epsilon',epsilon);z=mu+epsilon*scale\n147:                 capture('latent',z);finite(z,'generated latent');context['stage']='decoder_WN';cap();calls['WN_attempted']+=1\n148:                 hidden=vae.vae.decoder.wn(z,g=None);calls['WN_completed']+=1;capture('hidden',hidden);finite(hidden,'decoder hidden')"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "classification": "INHERITED_ENDPOINT_CONVENTION",
+      "title": "999 coefficients versus 998 reverse updates",
+      "conclusion": "Both train and sample use a length999 linear beta[0..998] schedule (1e-4 to .02), alpha=1-beta, abar=cumprod(alpha). Training randint(1,999) gives t=1..998; generation reverses 998..1, conditional epsilon prediction, variance beta[t] and zero final noise at t=1. There is no t=999 access and no train/sample index range mismatch.",
+      "limitation": "The inherited schedule has abar[0]=.9999, not 1. The loop ends at index0 without an extra t0-to-clean transition. This is a precise endpoint convention/departure from an exactly clean endpoint, not evidence that it caused current latent mismatch. No correction or trajectory rerun was performed.",
+      "evidence": [
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 366,
+          "last_line": 369,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "366: def noise_schedule(steps):\n367:     beta = torch.linspace(1e-4, 0.02, steps)\n368:     alpha = 1-beta\n369:     return beta, alpha, torch.cumprod(alpha, dim=0)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 401,
+          "last_line": 404,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "401:         t = torch.randint(1, config[\"noise_steps\"], (len(idx),))\n402:         noise = torch.randn_like(value)\n403:         a = abar[t][:, None, None, None]\n404:         xt = a.sqrt()*value+(1-a).sqrt()*noise"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 483,
+          "last_line": 501,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "483:                 x = torch.randn(n, 2, 16, 48)\n484:                 observations.update(labels=labels, posterior_parameters=x)\n485:                 phase = \"reverse_ddpm\"\n486:                 for timestep in reversed(range(1, config[\"noise_steps\"])):\n487:                     if time.perf_counter()-started >= config[\"generation_seconds_cap\"]:\n488:                         raise TimeoutError(\"generation cap reached; no retry\")\n489:                     t = torch.full((n,), timestep, dtype=torch.long)\n490:                     observations[\"timestep_tensor\"] = t\n491:                     prediction = ddpm(x, t, labels)\n492:                     observations[\"latest_prediction\"] = prediction\n493:                     noise = torch.randn_like(x) if timestep > 1 else torch.zeros_like(x)\n494:                     observations[\"latest_noise\"] = noise\n495:                     x = (x-(1-alpha[timestep])/(1-abar[timestep]).sqrt()*prediction)/alpha[timestep].sqrt()\n496:                     x = x+beta[timestep].sqrt()*noise\n497:                     observations[\"posterior_parameters\"] = x\n498:                     finite(x, \"reverse DDPM\")\n499:                     if timestep % 100 == 0 or timestep == 1:\n500:                         log(out / \"generation_progress.jsonl\", {\"terminal\": terminal,\n501:                             \"timestep\": timestep, \"elapsed_seconds\": time.perf_counter()-started})"
+        },
+        {
+          "source_id": "CONFIG",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/config.json",
+          "first_line": 23,
+          "last_line": 23,
+          "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+          "excerpt": "23:   \"noise_steps\": 999,"
+        },
+        {
+          "source_id": "CONFIG",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/config.json",
+          "first_line": 38,
+          "last_line": 38,
+          "sha256": "d44631a12bffc0ac85eecc2ca6d361419a03e4bf6cbfc2479092bd53b52be467",
+          "excerpt": "38:     \"ddpm_noise\": \"linear beta 1e-4..0.02,999 steps; train and reverse timesteps1..998\","
+        },
+        {
+          "source_id": "ROOTDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+          "first_line": 92,
+          "last_line": 103,
+          "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da",
+          "excerpt": "92:     def prepare_noise_schedule(self):\n93:         return torch.linspace(self.beta_start, self.beta_end, self.noise_steps)\n94: \n95:     def sample_timesteps(self, n):\n96:         return torch.randint(low=1, high=self.noise_steps, size=(n,))\n97: \n98:     def noise_images(self, x, t):\n99:         \"Add noise to sample at instant t\"\n100:         sqrt_alpha_hat = torch.sqrt(self.alpha_hat[t])[:, None, None, None]\n101:         sqrt_one_minus_alpha_hat = torch.sqrt(1 - self.alpha_hat[t])[:, None, None, None]\n102:         Ɛ = torch.randn_like(x)\n103:         return sqrt_alpha_hat * x + sqrt_one_minus_alpha_hat * Ɛ, Ɛ"
+        },
+        {
+          "source_id": "ROOTDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+          "first_line": 114,
+          "last_line": 131,
+          "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da",
+          "excerpt": "114:             x = torch.randn((n, self.c_in, 16, maxlen)).to(self.device)\n115:             for i in progress_bar(reversed(range(1, self.noise_steps)), total=self.noise_steps - 1, leave=False):\n116:                 t = (torch.ones(n) * i).long().to(self.device)\n117:                 predicted_noise = model(x, t, labels)\n118:                 if cfg_scale > 0:\n119:                     uncond_predicted_noise = model(x, t, None)\n120:                     predicted_noise = torch.lerp(uncond_predicted_noise, \n121:                                                  predicted_noise, cfg_scale)\n122:                 alpha = self.alpha[t][:, None, None, None]\n123:                 alpha_hat = self.alpha_hat[t][:, None, None, None]\n124:                 beta = self.beta[t][:, None, None, None]\n125:                 if i > 1:\n126:                     noise = torch.randn_like(x)\n127:                 else:\n128:                     noise = torch.zeros_like(x)\n129:                 x = 1 / torch.sqrt(alpha) * (\n130:                             x - ((1 - alpha) / (torch.sqrt(1 - alpha_hat))) * predicted_noise) + torch.sqrt(\n131:                     beta) * noise"
+        },
+        {
+          "source_id": "OLD",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/runner/run_rebuild_v3r2.py",
+          "first_line": 353,
+          "last_line": 361,
+          "sha256": "a6dd4e75d890aecb19efa6deeef7fd77228e303d932f8537605d018b3bb293b8",
+          "excerpt": "353: def noise_schedule(steps):\n354:     beta = torch.linspace(1e-4, 0.02, steps)\n355:     alpha = 1 - beta\n356:     return beta, alpha, torch.cumprod(alpha, dim=0)\n357: \n358: \n359: def noisy(value, alpha_hat, steps):\n360:     t = torch.randint(1, steps, (value.shape[0],))\n361:     noise = torch.randn_like(value)"
+        },
+        {
+          "source_id": "H4",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+          "first_line": 135,
+          "last_line": 146,
+          "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78",
+          "excerpt": "135:                     x=torch.randn(16,2,16,48);capture('ddpm_initial',x);labels=torch.full((16,),g['class'],dtype=torch.long)\n136:                     for step in reversed(range(1,999)):\n137:                         context.update(stage='DDPM_reverse',timestep=step);capture('ddpm_last_input',x);cap()\n138:                         tt=torch.full((16,),step,dtype=torch.long);calls['ddpm_attempted']+=1\n139:                         pred=ddpm(x,tt,labels);calls['ddpm_completed']+=1;capture('ddpm_last_prediction',pred)\n140:                         noise=torch.randn_like(x) if step>1 else torch.zeros_like(x);capture('ddpm_last_noise',noise)\n141:                         x=(x-(1-alpha[step])/(1-alpha_hat[step]).sqrt()*pred)/alpha[step].sqrt()+beta[step].sqrt()*noise\n142:                         capture('ddpm_last_state',x);finite(x,'DDPM state')\n143:                         if step%100==0 or step==1: write(out/'PROGRESS.json',{'context':context,'elapsed_seconds':time.perf_counter()-tic,'calls':calls})\n144:                     mu,log=x[:,0],x[:,1];capture('ddpm_final_parameters',x);scale=log.exp();capture('posterior_scale',scale);finite(scale,'DDPMscale')\n145:                     if not bool((scale>0).all()): raise FloatingPointError('DDPMposterior underflow')\n146:                     epsilon=torch.randn_like(mu);capture('epsilon',epsilon);z=mu+epsilon*scale"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "classification": "DECLARED_INACTIVE_AVERAGING",
+      "title": "EMA at update1000 is current-weight copy",
+      "conclusion": "The inherited EMA helper resets to current state before step2000. H5 updates it after each optimizer step and returns the EMA model for generation. At the frozen1000 endpoint, CE current/EMA metadata contain identical tensor-state digests a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c. Recovery loads the saved EMA state and checks that digest.",
+      "limitation": "Calling this checkpoint averaged weights would be inaccurate. This is declared historical warmup, not a discovered checkpoint mix-up. Weight binaries were not loaded in this audit; equality is supported by existing metadata plus exact helper logic.",
+      "evidence": [
+        {
+          "source_id": "D",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/diff.py",
+          "first_line": 11,
+          "last_line": 36,
+          "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13",
+          "excerpt": "11: class EMA:\n12:     def __init__(self, beta):\n13:         super().__init__()\n14:         self.beta = beta\n15:         self.step = 0\n16: \n17:     def update_model_average(self, ma_model, current_model):\n18:         for current_params, ma_params in zip(current_model.parameters(), ma_model.parameters()):\n19:             old_weight, up_weight = ma_params.data, current_params.data\n20:             ma_params.data = self.update_average(old_weight, up_weight)\n21: \n22:     def update_average(self, old, new):\n23:         if old is None:\n24:             return new\n25:         return old * self.beta + (1 - self.beta) * new\n26: \n27:     def step_ema(self, ema_model, model, step_start_ema=2000):\n28:         if self.step < step_start_ema:\n29:             self.reset_parameters(ema_model, model)\n30:             self.step += 1\n31:             return\n32:         self.update_model_average(ema_model, model)\n33:         self.step += 1\n34: \n35:     def reset_parameters(self, ema_model, model):\n36:         ema_model.load_state_dict(model.state_dict())"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 382,
+          "last_line": 385,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "382:     diff = UNet_conditional(c_in=2, c_out=2, time_dim=256, num_class1=2, num_class2=2)\n383:     initial = state_hash(diff)\n384:     ema = copy.deepcopy(diff).eval().requires_grad_(False)\n385:     helper = EMA(0.995)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 411,
+          "last_line": 429,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "411:         opt.step(); check_parameters(diff, opt); helper.step_ema(ema, diff); scheduler.step()\n412:         done = step\n413:         log(out / \"ddpm_train.jsonl\", {\"step\": step, \"record_indices\": idx, \"rows\": len(idx),\n414:             \"mse\": float(loss.detach()), \"lr\": opt.param_groups[0][\"lr\"], \"label_dropped\": dropped,\n415:             \"noise_timestep_sha256\": batch_hash(noise, t), \"duration_seconds\": time.perf_counter()-tic,\n416:             \"elapsed_stage_seconds\": time.perf_counter()-budget.started})\n417:     info = {\"updates\": done, \"requested_updates\": config[\"ddpm_updates\"],\n418:             \"fixed_endpoint_reached\": done == config[\"ddpm_updates\"],\n419:             \"initial_tensor_state_sha256\": initial, \"posterior_encoding_and_setup_seconds\": setup_seconds,\n420:             \"elapsed_seconds_before_checkpoint_io\": time.perf_counter()-budget.started,\n421:             \"parameters\": sum(p.numel() for p in diff.parameters()), \"ema_step\": helper.step,\n422:             \"ema_semantics\": \"inherited reset/copy until 2000 updates; beta=.995 thereafter\"}\n423:     save_model(out, \"ddpm_state\", diff, info); save_model(out, \"ddpm_ema_state\", ema, info)\n424:     torch.save({\"optimizer\": opt.state_dict(), \"scheduler\": scheduler.state_dict(),\n425:                 \"torch_rng\": torch.get_rng_state(), \"python_rng\": random.getstate(),\n426:                 \"ema_step\": helper.step, \"completed_updates\": done}, out / \"ddpm_training_state.pt\")\n427:     info[\"elapsed_seconds\"] = time.perf_counter()-budget.started\n428:     dump(out / \"ddpm_training_summary.json\", info)\n429:     return ema, (beta, alpha, abar), info"
+        },
+        {
+          "source_id": "DDPM_CURRENT_META",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_state.json",
+          "first_line": 1,
+          "last_line": 13,
+          "sha256": "77e0999541e9ffb5c6eca8188b4037d1d5dcf5835e7a60ad032f4a6f26b336af",
+          "excerpt": "1: {\n2:   \"sha256\": \"c3e29c13282a602e0ac15bb69430d36f1a8e4651a9c2d88a2a32833553f7c56c\",\n3:   \"tensor_state_sha256\": \"a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c\",\n4:   \"updates\": 1000,\n5:   \"requested_updates\": 1000,\n6:   \"fixed_endpoint_reached\": true,\n7:   \"initial_tensor_state_sha256\": \"bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f\",\n8:   \"posterior_encoding_and_setup_seconds\": 6.299964915961027,\n9:   \"elapsed_seconds_before_checkpoint_io\": 563.7486409158446,\n10:   \"parameters\": 18612994,\n11:   \"ema_step\": 1000,\n12:   \"ema_semantics\": \"inherited reset/copy until 2000 updates; beta=.995 thereafter\"\n13: }"
+        },
+        {
+          "source_id": "DDPM_EMA_META",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/categorical_ce/ddpm_ema_state.json",
+          "first_line": 1,
+          "last_line": 13,
+          "sha256": "97f3db5bf0286af52f05cf46291cc3b1f2ce290cfda451d0e0fe77dbe980e0ac",
+          "excerpt": "1: {\n2:   \"sha256\": \"e2bcd87466180892bd2bca3f8725dbe462dd3d230006d3c31c090cf5b66688d1\",\n3:   \"tensor_state_sha256\": \"a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c\",\n4:   \"updates\": 1000,\n5:   \"requested_updates\": 1000,\n6:   \"fixed_endpoint_reached\": true,\n7:   \"initial_tensor_state_sha256\": \"bdf7e752b8fc6466aa56c283a16eaea0282a35dd167f4e7b6f33d3ffe2c8240f\",\n8:   \"posterior_encoding_and_setup_seconds\": 6.299964915961027,\n9:   \"elapsed_seconds_before_checkpoint_io\": 563.7486409158446,\n10:   \"parameters\": 18612994,\n11:   \"ema_step\": 1000,\n12:   \"ema_semantics\": \"inherited reset/copy until 2000 updates; beta=.995 thereafter\"\n13: }"
+        },
+        {
+          "source_id": "RECOVERY",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+          "first_line": 163,
+          "last_line": 169,
+          "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+          "excerpt": "163:     for name in ('vae_state', 'ddpm_ema_state'):\n164:         meta = read_json(SOURCE / (name + '.json'))\n165:         if not (meta['updates'] == meta['requested_updates'] == 1000 and meta['fixed_endpoint_reached'] is True):\n166:             raise ValueError('checkpoint is not the frozen 1000 update endpoint')\n167:         if sha(SOURCE / (name + '.pt')) != meta['sha256'] or meta['tensor_state_sha256'] != contract['checkpoint_tensor_digests'][name]:\n168:             raise ValueError('checkpoint file or expected tensor digest differs')\n169:         checkpoint_meta[name] = meta"
+        },
+        {
+          "source_id": "RECOVERY",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+          "first_line": 200,
+          "last_line": 216,
+          "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+          "excerpt": "200:         models['vae_state'] = m.make_model(config['arm'], config['initialization_seed'])\n201:         models['vae_state'].load_state_dict(m.torch.load(SOURCE / 'vae_state.pt', map_location='cpu', weights_only=True), strict=True)\n202:         m.torch.manual_seed(config['ddpm_seed'])\n203:         models['ddpm_ema_state'] = m.UNet_conditional(c_in=2, c_out=2, time_dim=256, num_class1=2, num_class2=2)\n204:         models['ddpm_ema_state'].load_state_dict(m.torch.load(SOURCE / 'ddpm_ema_state.pt', map_location='cpu', weights_only=True), strict=True)\n205:         models['ddpm_ema_state'].eval().requires_grad_(False)\n206:         for name, model in models.items():\n207:             before[name] = m.state_hash(model)\n208:             if before[name] != checkpoint_meta[name]['tensor_state_sha256']:\n209:                 raise ValueError('loaded tensor digest differs: ' + name)\n210:             for key, tensor in model.state_dict().items():\n211:                 m.finite(tensor, 'loaded ' + name + ':' + key)\n212:         dump(out / 'loaded_state_identity.json', {'before': before, 'expected': contract['checkpoint_tensor_digests']})\n213:         state.update(setup_seconds=time.perf_counter()-process_started, phase='generation')\n214:         dump(out / 'status.json', state)\n215:         schedule = m.noise_schedule(config['noise_steps'])\n216:         generation = m.generate(config, models['vae_state'], models['ddpm_ema_state'], schedule, out, rows)"
+        },
+        {
+          "source_id": "REC_LOADED",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/loaded_state_identity.json",
+          "first_line": 1,
+          "last_line": 10,
+          "sha256": "fa6c248213a8b1bf1ad2bead2a03e791491d2f70d25be9d2913392619fbf2123",
+          "excerpt": "1: {\n2:   \"before\": {\n3:     \"vae_state\": \"f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789\",\n4:     \"ddpm_ema_state\": \"a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c\"\n5:   },\n6:   \"expected\": {\n7:     \"vae_state\": \"f57f91b37cac31d7640e089c2e941743f22ec2a9474d2beed7e8e6b1a444c789\",\n8:     \"ddpm_ema_state\": \"a339af1652047bd0aee90cc3d343f5c177a0e625dd12a4cb21c4b1b418f4c94c\"\n9:   }\n10: }"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "classification": "ENTRYPOINT_CONTRACT_DIFFERENCE",
+      "title": "Classifier-free guidance differs between source entrypoints",
+      "conclusion": "H5 invokes only ddpm(x,t,labels): conditional-only, with no unconditional blend. The repository-root diffusion.py defaults cfg_scale=-1 and inference explicitly passes -1, equivalent to this conditional-only branch. The separate AMP_VAEflow/tasks/train_diffusion.py defaults7 and its inference passes3, uses16 channels with spatial axes2×length and random length10..35; H5 uses2 channels with spatial axes16×48, following the root/H4 convention. These are distinct configurations, not interchangeable replicas.",
+      "limitation": "Do not call H5 faithful to every original entrypoint or CFG3. No absent CFG application is identified relative to the frozen H5/H4 contract. Source config classes3 versus H5 terminal classes2 is an intentional label-task change; historical class biological meaning is not inferred.",
+      "evidence": [
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 382,
+          "last_line": 382,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "382:     diff = UNet_conditional(c_in=2, c_out=2, time_dim=256, num_class1=2, num_class2=2)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 469,
+          "last_line": 496,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "469: def generate(config, model, ddpm, schedule, out, rows):\n470:     started = time.perf_counter()\n471:     beta, alpha, abar = schedule\n472:     model.eval(); ddpm.eval()\n473:     for label, terminal in enumerate((\"FREE\", \"AMD\")):\n474:         selected = [r for r in rows if r[\"terminal\"] == terminal]\n475:         if time.perf_counter()-started >= config[\"generation_seconds_cap\"]:\n476:             break\n477:         observations, phase, timestep = {}, \"initial_noise\", None\n478:         try:\n479:             with torch.no_grad():\n480:                 torch.manual_seed(config[\"sampling_seeds\"][label])\n481:                 n = len(selected)\n482:                 labels = torch.full((n,), label, dtype=torch.long)\n483:                 x = torch.randn(n, 2, 16, 48)\n484:                 observations.update(labels=labels, posterior_parameters=x)\n485:                 phase = \"reverse_ddpm\"\n486:                 for timestep in reversed(range(1, config[\"noise_steps\"])):\n487:                     if time.perf_counter()-started >= config[\"generation_seconds_cap\"]:\n488:                         raise TimeoutError(\"generation cap reached; no retry\")\n489:                     t = torch.full((n,), timestep, dtype=torch.long)\n490:                     observations[\"timestep_tensor\"] = t\n491:                     prediction = ddpm(x, t, labels)\n492:                     observations[\"latest_prediction\"] = prediction\n493:                     noise = torch.randn_like(x) if timestep > 1 else torch.zeros_like(x)\n494:                     observations[\"latest_noise\"] = noise\n495:                     x = (x-(1-alpha[timestep])/(1-abar[timestep]).sqrt()*prediction)/alpha[timestep].sqrt()\n496:                     x = x+beta[timestep].sqrt()*noise"
+        },
+        {
+          "source_id": "ROOTDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+          "first_line": 42,
+          "last_line": 64,
+          "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da",
+          "excerpt": "42: config = SimpleNamespace(\n43:     run_name=\"DDPM_conditional\",\n44:     data_dir='/root/VAE_rnn/AMP_VAEflow/datasets/combined_dataset_for_diff.csv',\n45:     epochs=50,\n46:     noise_steps=999,\n47:     seed=222,\n48:     batch_size=8,\n49:     seq_len=48,\n50:     num_class1=3,\n51:     num_class2=2,\n52:     channel_size=2,\n53:     train_folder=\"train\",\n54:     val_folder=\"test\",\n55:     device=\"cuda:2\",\n56:     slice_size=1,\n57:     do_validation=True,\n58:     fp16=True,\n59:     log_every_epoch=5,\n60:     num_workers=10,\n61:     lr=5e-3,\n62:     mode='train',\n63:     #mode='infer'\n64:     )"
+        },
+        {
+          "source_id": "ROOTDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+          "first_line": 105,
+          "last_line": 121,
+          "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da",
+          "excerpt": "105:     @torch.inference_mode()\n106:     def sample(self, use_ema, labels, cfg_scale=-1):\n107:         model = self.ema_model if use_ema else self.model\n108:         n = len(labels)\n109:         logging.info(f\"Sampling {n} new AMP....\")\n110:         model.eval()\n111:         with torch.inference_mode():\n112:             maxlen=self.seq_len\n113:             # noise(bs, 2, 16, maxlen)\n114:             x = torch.randn((n, self.c_in, 16, maxlen)).to(self.device)\n115:             for i in progress_bar(reversed(range(1, self.noise_steps)), total=self.noise_steps - 1, leave=False):\n116:                 t = (torch.ones(n) * i).long().to(self.device)\n117:                 predicted_noise = model(x, t, labels)\n118:                 if cfg_scale > 0:\n119:                     uncond_predicted_noise = model(x, t, None)\n120:                     predicted_noise = torch.lerp(uncond_predicted_noise, \n121:                                                  predicted_noise, cfg_scale)"
+        },
+        {
+          "source_id": "ROOTDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/diffusion.py",
+          "first_line": 261,
+          "last_line": 280,
+          "sha256": "076fb913ac53a706b2640db14acaa2f76ab54d38cd19ea84d9d49780e80631da",
+          "excerpt": "261:         with open(file_path0, 'a') as file:\n262:             output, lenthout = diffuser.sample(use_ema=True,\n263:                                                labels=torch.zeros(sample_nums).to(config.device).long(),\n264:                                                cfg_scale=-1)\n265:             for i in range(sample_nums):\n266:                 x = output[i]  # [2, 16, 30]\n267:                 x1, x2 = x.split(1, dim=0)  # [1,16,30]\n268:                 m = x1.squeeze(1)  # [16, 30]\n269:                 logs = x2.squeeze(1)  # [16, 30]\n270:                 z = (m + torch.randn_like(m) * torch.exp(logs))\n271:                 output1 = diffuser.infer_vae.vae.infer(z)\n272:                 print(output1, len(output1))\n273:                 # print(m,logs)\n274:                 if len(output1) >= 5:\n275:                     file.write(output1 + '\\n')\n276: \n277:         with open(file_path1, 'a') as file:\n278:             output, lenthout = diffuser.sample(use_ema=True,\n279:                                                labels=torch.ones(sample_nums).to(config.device).long(),\n280:                                                cfg_scale=-1)"
+        },
+        {
+          "source_id": "TASKDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/train_diffusion.py",
+          "first_line": 42,
+          "last_line": 62,
+          "sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8",
+          "excerpt": "42: config = SimpleNamespace(\n43:     run_name=\"DDPM_conditional\",\n44:     epochs=50,\n45:     noise_steps=999,\n46:     seed=42,\n47:     batch_size=8,\n48:     seq_len=35,\n49:     num_class1=2,\n50:     num_class2=2,\n51:     channel_size=16,\n52:     train_folder=\"train\",\n53:     val_folder=\"test\",\n54:     device=\"cuda:1\",\n55:     slice_size=1,\n56:     do_validation=True,\n57:     fp16=True,\n58:     log_every_epoch=5,\n59:     num_workers=10,\n60:     lr=5e-3,\n61:     mode='train'\n62:     )"
+        },
+        {
+          "source_id": "TASKDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/train_diffusion.py",
+          "first_line": 103,
+          "last_line": 123,
+          "sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8",
+          "excerpt": "103:     @torch.inference_mode()\n104:     # cfg_scale代表标签引导的强度\n105:     def sample(self, use_ema, labels, cfg_scale=7):\n106:         model = self.ema_model if use_ema else self.model\n107:         n = len(labels)\n108:         logging.info(f\"Sampling {n} new AMP....\")\n109:         model.eval()\n110:         with torch.inference_mode():\n111: \n112:             maxlen=random.randint(10, self.seq_len)\n113: \n114:             # x=(bs, 16, 2, maxlen)\n115:             print(f\"len:{maxlen}\")\n116:             x = torch.randn((n, self.c_in, 2, maxlen)).to(self.device)\n117:             for i in progress_bar(reversed(range(1, self.noise_steps)), total=self.noise_steps - 1, leave=False):\n118:                 t = (torch.ones(n) * i).long().to(self.device)\n119:                 predicted_noise = model(x, t, labels)\n120:                 if cfg_scale > 0:\n121:                     uncond_predicted_noise = model(x, t, None)\n122:                     predicted_noise = torch.lerp(uncond_predicted_noise, \n123:                                                  predicted_noise, cfg_scale)"
+        },
+        {
+          "source_id": "TASKDIFF",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/tasks/train_diffusion.py",
+          "first_line": 283,
+          "last_line": 295,
+          "sha256": "541c7737bfa90f4c96cea652a23c441b74b5e66a3f7e9f1284f4239cc50ee9f8",
+          "excerpt": "283:             for i in range(500):\n284:                 output,lenthout = diffuser.sample(use_ema=True, labels=torch.tensor([1]).to(config.device), cfg_scale=3)\n285:                 x = output.squeeze(0)  # 形状变为 [16, 2, 30]\n286:                 x1, x2 = x.split(1, dim=1)  # 形状分别为 [16, 1, 30] 和 [16, 1, 30]\n287:                 m = x1.squeeze(1)  # 形状变为 [16, 30]\n288:                 logs = x2.squeeze(1)  # 形状变为 [16, 30]\n289:                 # 生成均值和标准差，再根据此分布进行采样，特征维度为16，也就是16个分布\n290:                 z = (m + torch.randn_like(m) * torch.exp(logs)).unsqueeze(0)\n291:                 # 半程推理\n292:                 output = diffuser.infer_vae.vae.infer(z)\n293:                 print(output)\n294:                 if len(output)>=10:\n295:                     file.write(f\"len:{lenthout}\"+\"     \"+output+'\\n')"
+        },
+        {
+          "source_id": "H4",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+          "first_line": 135,
+          "last_line": 141,
+          "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78",
+          "excerpt": "135:                     x=torch.randn(16,2,16,48);capture('ddpm_initial',x);labels=torch.full((16,),g['class'],dtype=torch.long)\n136:                     for step in reversed(range(1,999)):\n137:                         context.update(stage='DDPM_reverse',timestep=step);capture('ddpm_last_input',x);cap()\n138:                         tt=torch.full((16,),step,dtype=torch.long);calls['ddpm_attempted']+=1\n139:                         pred=ddpm(x,tt,labels);calls['ddpm_completed']+=1;capture('ddpm_last_prediction',pred)\n140:                         noise=torch.randn_like(x) if step>1 else torch.zeros_like(x);capture('ddpm_last_noise',noise)\n141:                         x=(x-(1-alpha[step])/(1-alpha_hat[step]).sqrt()*pred)/alpha[step].sqrt()+beta[step].sqrt()*noise"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "classification": "STATIC_REACHABILITY_CONFIRMED",
+      "title": "Terminal label mapping and dropout",
+      "conclusion": "Preprocessing maps FREE=0 and AMD=1. H5 verifies descriptor/cohort class+terminal identity, carries labels to the posterior cache, trains a2-class embedding, and allocates FREE thenAMD by enumeration. Only label_emb(y) reaches the active UNet; hierarchical embed_level_1/2 are defined but get_label_emb is not called. Label dropping is one Python Bernoulli(.1) decision per minibatch, not per-example and not VAE descriptor dropout. VAE cond_drop=False, active WN dropout defaults0. Generation requests use only terminal label plus random tensors.",
+      "limitation": "This proves reachable software conditioning, not measured conditional fidelity or synthesized terminal chemistry. Global/residue descriptors are used for encoding the training sequences, not supplied at generation. Full cohort binding was not re-executed in this audit.",
+      "evidence": [
+        {
+          "source_id": "REP",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/molecular_representation.py",
+          "first_line": 15,
+          "last_line": 19,
+          "sha256": "4d0d6abb6cb7c49efe69a387270dbd44e49e6749c8515ce2d844ccdc4a717dd4",
+          "excerpt": "15: AA = frozenset(\"ARNDCEQGHILKMFPSTWYV\")\n16: GLOBAL_NAMES = [\"RingCount\", \"NumAromaticRings\", \"NumSaturatedRings\", \"FractionCSP3\",\n17:                 \"HallKierAlpha\", \"LabuteASA\", \"MaxPartialCharge\", \"MinPartialCharge\", \"TPSA\"]\n18: RESIDUE_NAMES = [\"MolWt\", \"MolLogP\", \"TPSA\"]\n19: CLASS = {\"FREE\": 0, \"AMD\": 1}"
+        },
+        {
+          "source_id": "BUILD",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/build_descriptors_v2.py",
+          "first_line": 99,
+          "last_line": 116,
+          "sha256": "66533dcb00f88b1be61a9fea19a0a3726e4c63000cb6c0310aa4f626fbb7de06",
+          "excerpt": "99:             sequence, state = row[\"sequence\"], row[\"terminal_state\"]\n100:             rep = representation(sequence, state)\n101:             if row[\"sequence_sha256\"] != rep[\"sequence_sha256\"] or row[\"molecule_sha256\"] != rep[\"molecule_sha256\"]:\n102:                 raise ValueError(\"source molecule/sequence hash mismatch\")\n103:             if len(sequence) != int(row[\"length\"]) or int(row[\"class\"]) != CLASS[state]:\n104:                 raise ValueError(\"source length/class mismatch\")\n105:             if rep[\"molecule_sha256\"] in all_molecules:\n106:                 raise ValueError(\"duplicate chemical object\")\n107:             if sequence in prior_split_sequences:\n108:                 raise ValueError(\"cross-split exact sequence leakage\")\n109:             if not row.get(\"component_id\") or not row.get(\"source_ids\"):\n110:                 raise ValueError(\"missing component or source binding\")\n111:             all_molecules.add(rep[\"molecule_sha256\"])\n112:             split_sequences.add(sequence)\n113:             local = [table[aa] for aa in sequence]\n114:             triplets = \",\".join(\"[\" + \" \".join(format(x, \".17g\") for x in v) + \"]\" for v in local)\n115:             records.append({\"idx\": next_idx, \"protein\": sequence, \"describe\": triplets,\n116:                             \"point_describe\": json.dumps(rep[\"global_raw\"], allow_nan=False), \"class\": CLASS[state]})"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 147,
+          "last_line": 150,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "147:     for i, (r, row) in enumerate(zip(result.records, cohort)):\n148:         if (r.idx != idx_start + i or r.protein != row[\"sequence\"] or r.class_index != int(row[\"class\"])\n149:                 or row[\"terminal_state\"] != (\"FREE\", \"AMD\")[r.class_index]):\n150:             raise ValueError(\"cohort/descriptor row identity differs at \" + str(i))"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 185,
+          "last_line": 192,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "185:         labels = torch.tensor([r.class_index for r in records], dtype=torch.long)\n186:         return target, g, h, labels\n187: \n188: \n189: def make_model(arm, seed):\n190:     torch.manual_seed(seed)\n191:     return VAEModel(out_dim=1 if arm == \"scalar_legacy\" else 21, con_dim=3, latent_size=16,\n192:                     sqz_prior=False, cond_drop=False, use_prior_flow=True, device=\"cpu\")"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 357,
+          "last_line": 378,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "357:             _, mu, logs = v.encoder(v.word_emb(target.T).permute(1, 2, 0), v.g_pre_net(g), h)\n358:             value = torch.stack((mu, logs), dim=1).contiguous()\n359:             finite(value, \"posterior parameters\")\n360:             if value.shape[1:] != (2, 16, 48):\n361:                 raise ValueError(\"posterior shape\")\n362:             xs.append(value); ys.append(y)\n363:     return torch.cat(xs), torch.cat(ys)\n364: \n365: \n366: def noise_schedule(steps):\n367:     beta = torch.linspace(1e-4, 0.02, steps)\n368:     alpha = 1-beta\n369:     return beta, alpha, torch.cumprod(alpha, dim=0)\n370: \n371: \n372: def train_ddpm(config, model, train, scaler, out, method_started):\n373:     budget = Budget(config[\"ddpm_seconds_cap\"], method_started, config[\"training_seconds_cap\"])\n374:     if budget.exhausted():\n375:         raise TimeoutError(\"training budget exhausted at DDPM stage entry\")\n376:     values, labels = posterior_parameters(model, train, scaler, config[\"vae_batch_size\"], budget)\n377:     np.savez_compressed(out / \"train_posterior_parameters.npz\", values=values.numpy(), labels=labels.numpy(),\n378:                         row_ids=np.asarray([r.idx for r in train]))"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 381,
+          "last_line": 407,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "381:     torch.manual_seed(config[\"ddpm_seed\"]); random.seed(config[\"ddpm_seed\"])\n382:     diff = UNet_conditional(c_in=2, c_out=2, time_dim=256, num_class1=2, num_class2=2)\n383:     initial = state_hash(diff)\n384:     ema = copy.deepcopy(diff).eval().requires_grad_(False)\n385:     helper = EMA(0.995)\n386:     opt = torch.optim.AdamW(diff.parameters(), lr=config[\"ddpm_lr\"], eps=1e-5)\n387:     scheduler = torch.optim.lr_scheduler.OneCycleLR(opt, max_lr=config[\"ddpm_lr\"],\n388:                                                   total_steps=config[\"ddpm_updates\"])\n389:     beta, alpha, abar = noise_schedule(config[\"noise_steps\"])\n390:     generator = torch.Generator().manual_seed(config[\"ddpm_seed\"])\n391:     order, cursor, done = [], 0, 0\n392:     setup_seconds = time.perf_counter()-budget.started\n393:     for step in range(1, config[\"ddpm_updates\"]+1):\n394:         if budget.exhausted():\n395:             break\n396:         tic = time.perf_counter()\n397:         if cursor >= len(order):\n398:             order = torch.randperm(len(values), generator=generator).tolist(); cursor = 0\n399:         idx = order[cursor:cursor+config[\"ddpm_batch_size\"]]; cursor += len(idx)\n400:         value, label = values[idx], labels[idx]\n401:         t = torch.randint(1, config[\"noise_steps\"], (len(idx),))\n402:         noise = torch.randn_like(value)\n403:         a = abar[t][:, None, None, None]\n404:         xt = a.sqrt()*value+(1-a).sqrt()*noise\n405:         dropped = random.random() < 0.1\n406:         diff.train(); opt.zero_grad(set_to_none=True)\n407:         pred = diff(xt, t, None if dropped else label)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 432,
+          "last_line": 439,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "432: def allocated_requests(config):\n433:     rows = []\n434:     for label, terminal in enumerate((\"FREE\", \"AMD\")):\n435:         for i in range(config[\"samples_per_terminal\"]):\n436:             rows.append({\"sample_id\": f\"{ARMS[config['arm']]}_{terminal}_{i:03d}\",\n437:                          \"method\": ARMS[config[\"arm\"]], \"terminal\": terminal, \"sequence\": \"\",\n438:                          \"status\": \"not_executed\", \"length\": 0, \"seed\": config[\"sampling_seeds\"][label],\n439:                          \"terminal_sample_id\": i})"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 480,
+          "last_line": 491,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "480:                 torch.manual_seed(config[\"sampling_seeds\"][label])\n481:                 n = len(selected)\n482:                 labels = torch.full((n,), label, dtype=torch.long)\n483:                 x = torch.randn(n, 2, 16, 48)\n484:                 observations.update(labels=labels, posterior_parameters=x)\n485:                 phase = \"reverse_ddpm\"\n486:                 for timestep in reversed(range(1, config[\"noise_steps\"])):\n487:                     if time.perf_counter()-started >= config[\"generation_seconds_cap\"]:\n488:                         raise TimeoutError(\"generation cap reached; no retry\")\n489:                     t = torch.full((n,), timestep, dtype=torch.long)\n490:                     observations[\"timestep_tensor\"] = t\n491:                     prediction = ddpm(x, t, labels)"
+        },
+        {
+          "source_id": "D",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/diff.py",
+          "first_line": 158,
+          "last_line": 169,
+          "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13",
+          "excerpt": "158:         self.num_class1 = num_class1\n159:         self.num_class2 = num_class2\n160:         self.label_emb = nn.Embedding(self.num_class1, time_dim)\n161: \n162:         self.embed_level_1 = nn.Embedding(self.num_class1, self.time_dim)\n163:         self.embed_level_2 = nn.Embedding(self.num_class2, self.time_dim)\n164: \n165:     def get_label_emb(self, labels):\n166:         embed_level_1 = self.embed_level_1(labels[:, 0])\n167:         embed_level_2 = self.embed_level_2(labels[:, 1])\n168: \n169:         return embed_level_1, embed_level_2"
+        },
+        {
+          "source_id": "D",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/diff.py",
+          "first_line": 212,
+          "last_line": 221,
+          "sha256": "b3712fc77b4800b8d9391a46bdb23299d0a6a7dbcb1bd8a9fad15757c0d90c13",
+          "excerpt": "212:     def forward(self, x, t, y=None):\n213:         # y is label[a,b]\n214:         t = t.unsqueeze(-1)\n215:         t = self.pos_encoding(t, self.time_dim)\n216: \n217:         if y is not None:\n218:             # a, b = self.get_label_emb(y)\n219:             t += self.label_emb(y)\n220: \n221:         return self.unet_forward(x, t)"
+        },
+        {
+          "source_id": "V",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+          "first_line": 333,
+          "last_line": 347,
+          "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+          "excerpt": "333:     def __init__(self, out_dim=1, con_dim=3, latent_size=16, sqz_prior=False, cond_drop=False, use_prior_flow=True,\n334:                  device='cpu'):\n335:         super().__init__()\n336:         self._device = device\n337:         self.cond_drop = cond_drop\n338:         if self.cond_drop:\n339:             self.dropout = nn.Dropout(0.5)\n340: \n341:         self.out_dim = out_dim\n342:         self.sqz_prior = sqz_prior\n343:         self.use_prior_flow = use_prior_flow\n344:         self.vae = FVAE(out_channels=self.out_dim, hidden_channels=256, latent_size=latent_size, kernel_size=5,\n345:                         enc_n_layers=8, dec_n_layers=4, gin_channels=con_dim, strides=[1],\n346:                         use_prior_glow=self.use_prior_flow, glow_hidden=64, glow_kernel_size=3,\n347:                         glow_n_blocks=4, sqz_prior=sqz_prior).to(self._device)"
+        },
+        {
+          "source_id": "FLOW",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+          "first_line": 78,
+          "last_line": 100,
+          "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+          "excerpt": "78: class WN(torch.nn.Module):\n79:     def __init__(self, hidden_channels, kernel_size, dilation_rate, n_layers, gin_channels=0,\n80:                  p_dropout=0, share_cond_layers=False):\n81:         super(WN, self).__init__()\n82:         assert (kernel_size % 2 == 1)\n83:         assert (hidden_channels % 2 == 0)\n84:         self.hidden_channels = hidden_channels\n85:         self.kernel_size = kernel_size\n86:         self.dilation_rate = dilation_rate\n87:         self.n_layers = n_layers\n88:         self.gin_channels = gin_channels\n89:         self.p_dropout = p_dropout\n90:         self.share_cond_layers = share_cond_layers\n91: \n92:         self.in_layers = torch.nn.ModuleList()\n93:         self.res_skip_layers = torch.nn.ModuleList()\n94:         \n95:         self.drop = nn.Dropout(p_dropout)\n96: \n97: \n98:         if gin_channels != 0 and not share_cond_layers:\n99:             cond_layer = torch.nn.Conv1d(gin_channels, 2 * hidden_channels * n_layers, 1)\n100:             self.cond_layer = torch.nn.utils.weight_norm(cond_layer, name='weight')"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "classification": "PRIOR_CONTROL_BOUNDARY",
+      "title": "N(0,I) applies to flow-space zp, not necessarily decoder z",
+      "conclusion": "With use_prior_flow=True, training computes zp=prior_flow(z,g), evaluates Normal(0,1) density at zp, and decodes z. For fixed lawful g, sampling that learned conditional prior requires zp~N(0,I), z=prior_flow(zp,g,reverse=True), then decoder(z). g is a sequence-derived3×48 descriptor tensor. The original H4 empirical-condition-flow route explicitly selects a training descriptor and applies reverse flow.",
+      "limitation": "There is no specified terminal-to-g generator in frozen H5. g=None is callable in WN but drops a conditioning signal present during training, and cannot be silently equated with the learned conditional prior. Selecting training g is empirical-conditioned prior sampling; feeding decoder a standard normal z directly is a standard-normal latent control and has no terminal input of its own.",
+      "evidence": [
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 189,
+          "last_line": 202,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "189: def make_model(arm, seed):\n190:     torch.manual_seed(seed)\n191:     return VAEModel(out_dim=1 if arm == \"scalar_legacy\" else 21, con_dim=3, latent_size=16,\n192:                     sqz_prior=False, cond_drop=False, use_prior_flow=True, device=\"cpu\")\n193: \n194: \n195: def objective(model, target, g, h, arm):\n196:     \"\"\"Retain the encoder/flow/sample rule; normalize CE21/MSE21 by B*48.\"\"\"\n197:     v = model.vae\n198:     z, mu, logsigma = v.encoder(v.word_emb(target.T).permute(1, 2, 0), v.g_pre_net(g), h)\n199:     raw = v.decoder(z)\n200:     zp = v.prior_flow(z, g)\n201:     logq = torch.distributions.Normal(mu, logsigma.exp()).log_prob(z)\n202:     logp = v.prior_dist.log_prob(zp)"
+        },
+        {
+          "source_id": "V",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+          "first_line": 174,
+          "last_line": 193,
+          "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+          "excerpt": "174:         if use_prior_glow:\n175: \n176:             self.prior_flow = ResidualCouplingBlock(\n177:                 latent_size, glow_hidden, glow_kernel_size, 1, glow_n_blocks, 4, gin_channels=gin_channels)\n178:         self.use_pos_embed = use_pos_emb\n179: \n180:         if sqz_prior:\n181:             self.query_proj = nn.Linear(latent_size, latent_size)\n182:             self.key_proj = nn.Linear(latent_size, latent_size)\n183:             self.value_proj = nn.Linear(latent_size, hidden_channels)\n184:             self.decoder = FVAEDecoder(hidden_channels, hidden_channels, out_channels, kernel_size,\n185:                                        dec_n_layers, gin_channels, strides=strides)\n186: \n187:             if self.use_pos_embed:\n188:                 self.embed_positions = SinusoidalPositionalEmbedding(self.latent_size, 0, init_size=2000 + 1, )\n189:         else:\n190:             self.decoder = FVAEDecoder(latent_size, hidden_channels, out_channels, kernel_size,\n191:                                        dec_n_layers, gin_channels, strides=strides)\n192: \n193:         self.prior_dist = dist.Normal(0, 1)"
+        },
+        {
+          "source_id": "V",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+          "first_line": 290,
+          "last_line": 303,
+          "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+          "excerpt": "290:             else:\n291:                 x_recon = self.decoder(z_q)\n292:             q_dist = dist.Normal(m_q, logs_q.exp())\n293:             if self.use_prior_glow:\n294:                 logqx = q_dist.log_prob(z_q)\n295:                 z_p = self.prior_flow(z_q, g_for_sqz)\n296:                 logpx = self.prior_dist.log_prob(z_p)\n297:                 loss_kl = (logqx - logpx).sum() / logqx.shape[1]\n298: \n299:             else:\n300:                 loss_kl = torch.distributions.kl_divergence(q_dist, self.prior_dist)\n301:                 loss_kl = (loss_kl).sum() / z_q.shape[1]\n302:                 z_p = z_q\n303:             return x_recon, loss_kl, z_p.transpose(1, 2), m_q.transpose(1, 2), logs_q.transpose(1, 2)"
+        },
+        {
+          "source_id": "FLOW",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+          "first_line": 120,
+          "last_line": 133,
+          "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+          "excerpt": "120:     def forward(self, x, g=None, **kwargs):\n121:         output = torch.zeros_like(x)\n122:         n_channels_tensor = torch.IntTensor([self.hidden_channels])\n123:         if g is not None and not self.share_cond_layers:\n124:             g = self.cond_layer(g)\n125:         for i in range(self.n_layers):\n126:             x_in = self.in_layers[i](x)\n127:             x_in = self.drop(x_in)\n128:             if g is not None:\n129:                 cond_offset = i * 2 * self.hidden_channels\n130:                 g_l = g[:, cond_offset:cond_offset + 2 * self.hidden_channels, :]\n131:             else:\n132:                 g_l = torch.zeros_like(x_in)\n133:             acts = fused_add_tanh_sigmoid_multiply(x_in, g_l, n_channels_tensor)"
+        },
+        {
+          "source_id": "FLOW",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+          "first_line": 234,
+          "last_line": 254,
+          "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+          "excerpt": "234:     def forward(self, x, g=None, reverse=False):\n235:         x0, x1 = torch.split(x, [self.half_channels] * 2, 1)\n236:         # 对第一份conv\n237:         h = self.pre(x0)\n238:         h = self.enc(h, g=g)\n239:         stats = self.post(h)\n240:         if not self.mean_only:\n241:             m, logs = torch.split(stats, [self.half_channels] * 2, 1)\n242:         else:\n243:             m = stats\n244:             logs = torch.zeros_like(m)\n245:         if not reverse:\n246:             x1 = m + x1 * torch.exp(logs)\n247:             x = torch.cat([x0, x1], 1)\n248:             logdet = torch.sum(logs, [1, 2])\n249:             return x, logdet\n250:         else:\n251:             x1 = (x1 - m) * torch.exp(-logs)\n252:             x = torch.cat([x0, x1], 1)\n253:             logdet = -torch.sum(logs, [1, 2])\n254:             return x, logdet"
+        },
+        {
+          "source_id": "FLOW",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+          "first_line": 278,
+          "last_line": 291,
+          "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+          "excerpt": "278:             self.flows.append(\n279:                 ResidualCouplingLayer(channels, hidden_channels, kernel_size, dilation_rate, n_layers,\n280:                                       gin_channels=gin_channels, mean_only=True, nn_type=nn_type))\n281:             self.flows.append(Flip())\n282: \n283:     def forward(self, x, g=None, reverse=False):\n284: \n285:         if not reverse:\n286:             for flow in self.flows:\n287:                 x, _ = flow(x, g=g, reverse=reverse)\n288:         else:\n289:             for flow in reversed(self.flows):\n290:                 x, _ = flow(x, g=g, reverse=reverse)\n291:         return x"
+        },
+        {
+          "source_id": "BUILD",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_preprocessing/build_descriptors_v2.py",
+          "first_line": 113,
+          "last_line": 116,
+          "sha256": "66533dcb00f88b1be61a9fea19a0a3726e4c63000cb6c0310aa4f626fbb7de06",
+          "excerpt": "113:             local = [table[aa] for aa in sequence]\n114:             triplets = \",\".join(\"[\" + \" \".join(format(x, \".17g\") for x in v) + \"]\" for v in local)\n115:             records.append({\"idx\": next_idx, \"protein\": sequence, \"describe\": triplets,\n116:                             \"point_describe\": json.dumps(rep[\"global_raw\"], allow_nan=False), \"class\": CLASS[state]})"
+        },
+        {
+          "source_id": "H4",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+          "first_line": 125,
+          "last_line": 128,
+          "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78",
+          "excerpt": "125:                 if g['method']==METHODS[0]:\n126:                     cond=torch.from_numpy(np.ascontiguousarray(pool_g[indices]));epsilon=torch.randn(16,16,48);capture('g_flow',cond);capture('epsilon',epsilon)\n127:                     context['stage']='inverse_flow';cap();calls['inverse_flow_attempted']+=1\n128:                     z=vae.vae.prior_flow(epsilon,cond,reverse=True);calls['inverse_flow_completed']+=1"
+        },
+        {
+          "source_id": "V",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+          "first_line": 142,
+          "last_line": 146,
+          "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+          "excerpt": "142:     def forward(self, x):\n143:         g = None\n144:         x = self.wn(x, g)\n145:         x2 = self.out_proj(x)\n146:         return x2.squeeze(1)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 238,
+          "last_line": 245,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "238: def decode(model, z, arm, observations=None):\n239:     if observations is not None:\n240:         observations[\"sampled_z\"] = z\n241:     finite(z, \"decoder input\")\n242:     raw = model.vae.decoder(z)\n243:     if observations is not None:\n244:         observations[\"decoder_raw\"] = raw\n245:     finite(raw, \"decoder output\")"
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "classification": "NO_IDENTIFIED_JACOBIAN_OMISSION",
+      "title": "Active coupling has zero log-determinant",
+      "conclusion": "The active ResidualCouplingBlock instantiates mean_only=True couplings; logs are zeros, so each additive coupling logdet is zero. Channel flip has unit absolute determinant. Ignoring the returned logdet in the block is therefore consistent for this active architecture.",
+      "limitation": "This statement is limited to the inspected mean_only block. A different affine/non-volume-preserving flow would require its own density accounting.",
+      "evidence": [
+        {
+          "source_id": "FLOW",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+          "first_line": 192,
+          "last_line": 196,
+          "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+          "excerpt": "192: class Flip(nn.Module):\n193:     def forward(self, x, *args, reverse=False, **kwargs):\n194:         x = torch.flip(x, [1])\n195:         logdet = torch.zeros(x.size(0)).to(dtype=x.dtype, device=x.device)\n196:         return x, logdet"
+        },
+        {
+          "source_id": "FLOW",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+          "first_line": 234,
+          "last_line": 254,
+          "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+          "excerpt": "234:     def forward(self, x, g=None, reverse=False):\n235:         x0, x1 = torch.split(x, [self.half_channels] * 2, 1)\n236:         # 对第一份conv\n237:         h = self.pre(x0)\n238:         h = self.enc(h, g=g)\n239:         stats = self.post(h)\n240:         if not self.mean_only:\n241:             m, logs = torch.split(stats, [self.half_channels] * 2, 1)\n242:         else:\n243:             m = stats\n244:             logs = torch.zeros_like(m)\n245:         if not reverse:\n246:             x1 = m + x1 * torch.exp(logs)\n247:             x = torch.cat([x0, x1], 1)\n248:             logdet = torch.sum(logs, [1, 2])\n249:             return x, logdet\n250:         else:\n251:             x1 = (x1 - m) * torch.exp(-logs)\n252:             x = torch.cat([x0, x1], 1)\n253:             logdet = -torch.sum(logs, [1, 2])\n254:             return x, logdet"
+        },
+        {
+          "source_id": "FLOW",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/flow_base.py",
+          "first_line": 278,
+          "last_line": 291,
+          "sha256": "eee115d640d9b172d661e09a19ab28308263c65d900e4eeab501d23b68687f45",
+          "excerpt": "278:             self.flows.append(\n279:                 ResidualCouplingLayer(channels, hidden_channels, kernel_size, dilation_rate, n_layers,\n280:                                       gin_channels=gin_channels, mean_only=True, nn_type=nn_type))\n281:             self.flows.append(Flip())\n282: \n283:     def forward(self, x, g=None, reverse=False):\n284: \n285:         if not reverse:\n286:             for flow in self.flows:\n287:                 x, _ = flow(x, g=g, reverse=reverse)\n288:         else:\n289:             for flow in reversed(self.flows):\n290:                 x, _ = flow(x, g=g, reverse=reverse)\n291:         return x"
+        },
+        {
+          "source_id": "V",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/corrected_code/AMP_VAEflow/modules/vae.py",
+          "first_line": 174,
+          "last_line": 177,
+          "sha256": "161f9766330119e10ea75d5ceccd54bb1c7a671c8b77f4ad313e76df2a993e09",
+          "excerpt": "174:         if use_prior_glow:\n175: \n176:             self.prior_flow = ResidualCouplingBlock(\n177:                 latent_size, glow_hidden, glow_kernel_size, 1, glow_n_blocks, 4, gin_channels=gin_channels)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 200,
+          "last_line": 203,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "200:     zp = v.prior_flow(z, g)\n201:     logq = torch.distributions.Normal(mu, logsigma.exp()).log_prob(z)\n202:     logp = v.prior_dist.log_prob(zp)\n203:     density = (logq-logp).sum()"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "classification": "SAVED_EVIDENCE_LIMIT",
+      "title": "Epsilon not saved in CE recovery or MSE generated NPZ",
+      "conclusion": "Completed CE recovery/MSE generated arrays save posterior_parameters,z,raw,tokens,lengths,length_scores; posterior files save values only. The final randn_like(mu) is intended as a fresh standard-normal draw, but uses the same seeded generator stream after initial/reverse DDPM draws. The saved files have no original epsilon/sigma/mu/logsigma keys; mu/logsigma can be sliced from posterior_parameters, while sigma and epsilon would be derived/reconstructed.",
+      "limitation": "Algebraic (z-mu)/exp(logsigma) is a floating-point residual, not guaranteed bit-exact original noise. Replaying seed consumption would be new RNG execution and was not done. Shared seeds alone do not prove strict statistical independence or identical realization across arms. decoder(epsilon) is a new control, not a replay of saved z.",
+      "evidence": [
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 480,
+          "last_line": 524,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "480:                 torch.manual_seed(config[\"sampling_seeds\"][label])\n481:                 n = len(selected)\n482:                 labels = torch.full((n,), label, dtype=torch.long)\n483:                 x = torch.randn(n, 2, 16, 48)\n484:                 observations.update(labels=labels, posterior_parameters=x)\n485:                 phase = \"reverse_ddpm\"\n486:                 for timestep in reversed(range(1, config[\"noise_steps\"])):\n487:                     if time.perf_counter()-started >= config[\"generation_seconds_cap\"]:\n488:                         raise TimeoutError(\"generation cap reached; no retry\")\n489:                     t = torch.full((n,), timestep, dtype=torch.long)\n490:                     observations[\"timestep_tensor\"] = t\n491:                     prediction = ddpm(x, t, labels)\n492:                     observations[\"latest_prediction\"] = prediction\n493:                     noise = torch.randn_like(x) if timestep > 1 else torch.zeros_like(x)\n494:                     observations[\"latest_noise\"] = noise\n495:                     x = (x-(1-alpha[timestep])/(1-abar[timestep]).sqrt()*prediction)/alpha[timestep].sqrt()\n496:                     x = x+beta[timestep].sqrt()*noise\n497:                     observations[\"posterior_parameters\"] = x\n498:                     finite(x, \"reverse DDPM\")\n499:                     if timestep % 100 == 0 or timestep == 1:\n500:                         log(out / \"generation_progress.jsonl\", {\"terminal\": terminal,\n501:                             \"timestep\": timestep, \"elapsed_seconds\": time.perf_counter()-started})\n502:                 mu, logsigma = x[:, 0], x[:, 1]\n503:                 observations.update(mu=mu, logsigma=logsigma)\n504:                 phase = \"final_posterior_before_exp\"\n505:                 # Retain generated posterior parameters even if exp(logsigma) later fails.\n506:                 np.savez_compressed(out / f\"generated_posterior_{terminal}.npz\", values=x.numpy())\n507:                 dump(out / f\"generated_posterior_summary_{terminal}.json\", {\"terminal\": terminal,\n508:                     \"mu\": tensor_observation_summary(mu), \"logsigma\": tensor_observation_summary(logsigma),\n509:                     \"posterior_parameters\": tensor_observation_summary(x), \"recorded_before_exp\": True})\n510:                 phase = \"posterior_exp\"\n511:                 sigma = logsigma.exp()\n512:                 observations[\"sigma\"] = sigma\n513:                 finite(sigma, \"generated exp(logsigma)\")\n514:                 if not bool((sigma > 0).all()):\n515:                     raise FloatingPointError(\"generated exp(logsigma) underflow\")\n516:                 z = mu+torch.randn_like(mu)*sigma\n517:                 phase = \"sampled_z_and_decode\"\n518:                 seqs, tokens, lengths, raw, length_scores = decode(model, z, config[\"arm\"], observations)\n519:                 phase = \"successful_export\"\n520:                 arrays = {\"posterior_parameters\": x.numpy(), \"z\": z.numpy(), \"raw\": raw.numpy(),\n521:                           \"tokens\": tokens.numpy(), \"lengths\": lengths.numpy()}\n522:                 if length_scores is not None:\n523:                     arrays[\"length_scores\"] = length_scores.numpy()\n524:                 np.savez_compressed(out / f\"generated_{terminal}.npz\", **arrays)"
+        },
+        {
+          "source_id": "RECOVERY",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+          "first_line": 151,
+          "last_line": 156,
+          "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+          "excerpt": "151:     spec = importlib.util.spec_from_file_location('h5_frozen_formal_v2_recovery', FROZEN_RUNNER)\n152:     m = importlib.util.module_from_spec(spec)\n153:     sys.dont_write_bytecode = True\n154:     spec.loader.exec_module(m)\n155:     m.validate_config(config)\n156:     if config['arm'] != 'categorical_ce' or config['generation_seconds_cap'] != 1800 or config['sampling_seeds'] != [422, 423] or config['samples_per_terminal'] != 16 or config['noise_steps'] != 999:"
+        },
+        {
+          "source_id": "RECOVERY",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_checkpoint_recovery_v1.py",
+          "first_line": 215,
+          "last_line": 216,
+          "sha256": "4eb9bd3fa480fef6cc23b87925dea8e6b2ce771be0290e84d635c6e86ff0bc6c",
+          "excerpt": "215:         schedule = m.noise_schedule(config['noise_steps'])\n216:         generation = m.generate(config, models['vae_state'], models['ddpm_ema_state'], schedule, out, rows)"
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "classification": "REFERENCE_NOT_GENERATION",
+      "title": "Mean reconstruction and empirical posterior reference boundaries",
+      "conclusion": "Saved train/dev reconstruction CSVs export deterministic mu decoding only. raw_prediction_tokens48 versus prediction_tokens48 are output representations of the same mean decode, not independent mean/sample branches. A posterior resampling reference using cached training mu/logsigma retains sequence-derived posterior information; it is an empirical aggregated-posterior reference, not independent prior generation.",
+      "limitation": "Mean reconstruction has privileged observed sequence+descriptors. Neither this score nor a training-posterior resampling control establishes independent generation quality. Any new control must be named, prelocked and counted separately; this audit launches none.",
+      "evidence": [
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 347,
+          "last_line": 363,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "347: def posterior_parameters(model, records, scaler, batch_size, budget=None):\n348:     model.eval()\n349:     xs, ys = [], []\n350:     with torch.random.fork_rng(), torch.no_grad():\n351:         torch.manual_seed(0)\n352:         for i in range(0, len(records), batch_size):\n353:             if budget is not None and budget.exhausted():\n354:                 raise TimeoutError(\"training budget exhausted before posterior encoding batch\")\n355:             target, g, h, y = scaler.tensorize(records[i:i+batch_size])\n356:             v = model.vae\n357:             _, mu, logs = v.encoder(v.word_emb(target.T).permute(1, 2, 0), v.g_pre_net(g), h)\n358:             value = torch.stack((mu, logs), dim=1).contiguous()\n359:             finite(value, \"posterior parameters\")\n360:             if value.shape[1:] != (2, 16, 48):\n361:                 raise ValueError(\"posterior shape\")\n362:             xs.append(value); ys.append(y)\n363:     return torch.cat(xs), torch.cat(ys)"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 551,
+          "last_line": 565,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "551: def monitor_mean(config, model, dev, scaler, out, step):\n552:     \"\"\"Fixed-interval, no-selection development diagnostics; preserve training RNG.\"\"\"\n553:     started = time.perf_counter()\n554:     was_training = model.training\n555:     before_rng = batch_hash(torch.get_rng_state())\n556:     sums = {\"correct_nonpad\": 0, \"nonpad\": 0, \"absolute_length_error\": 0, \"exact_sequences\": 0}\n557:     reconstruction_sum = 0.0\n558:     try:\n559:         with torch.random.fork_rng(), torch.no_grad():\n560:             values, _ = posterior_parameters(model, dev, scaler, config[\"vae_batch_size\"])\n561:             for i in range(0, len(dev), config[\"vae_batch_size\"]):\n562:                 block = dev[i:i+config[\"vae_batch_size\"]]\n563:                 target, _, _, _ = scaler.tensorize(block)\n564:                 seqs, _, lengths, raw, _ = decode(model, values[i:i+len(block), 0], config[\"arm\"])\n565:                 visible = torch.tensor([[AA.index(a) for a in s]+[20]*(48-len(s)) for s in seqs])"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 591,
+          "last_line": 608,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "591: def reconstruction_export(config, model, records, scaler, out, role):\n592:     \"\"\"No fitting/selection here. Export deterministic mean rows for independent evaluation.\"\"\"\n593:     values, _ = posterior_parameters(model, records, scaler, config[\"vae_batch_size\"])\n594:     rows = []\n595:     with torch.no_grad():\n596:         for i in range(0, len(records), config[\"vae_batch_size\"]):\n597:             block = records[i:i+config[\"vae_batch_size\"]]\n598:             seqs, tokens, _, _, _ = decode(model, values[i:i+len(block), 0], config[\"arm\"])\n599:             for j, (r, seq, tok) in enumerate(zip(block, seqs, tokens.tolist())):\n600:                 visible_tokens = [AA.index(a) for a in seq]+[20]*(48-len(seq))\n601:                 rows.append({\"row_id\": i+j, \"terminal\": (\"FREE\", \"AMD\")[r.class_index],\n602:                     \"truth_sequence\": r.protein, \"prediction_sequence\": seq,\n603:                     \"prediction_tokens48\": json.dumps(visible_tokens),\n604:                     \"raw_prediction_tokens48\": json.dumps(tok),\n605:                     \"token_encoding\": \"ARNDCEQGHILKMFPSTWYV=0..19;PAD=20\", \"status\": \"ok\"})\n606:     write_csv(out / f\"{role}_reconstruction.csv\", rows,\n607:               [\"row_id\", \"terminal\", \"truth_sequence\", \"prediction_sequence\", \"prediction_tokens48\",\n608:                \"raw_prediction_tokens48\", \"token_encoding\", \"status\"])"
+        },
+        {
+          "source_id": "H4",
+          "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/diagnostics_h4_h2_generation_bridge_v1/h4_run.py",
+          "first_line": 129,
+          "last_line": 134,
+          "sha256": "40001430bd85deb512b7b02fa19e713ce3f4cd93b360992e1ee840b70ce57d78",
+          "excerpt": "129:                 elif g['method']==METHODS[1]:\n130:                     mu=torch.from_numpy(np.ascontiguousarray(pool_mu[indices]));log=torch.from_numpy(np.ascontiguousarray(pool_logs[indices]));capture('mu',mu);capture('logsigma',log)\n131:                     scale=log.exp();capture('posterior_scale',scale);finite(scale,'aggregate scale')\n132:                     if not bool((scale>0).all()): raise FloatingPointError('aggregate underflow')\n133:                     epsilon=torch.randn_like(mu);capture('epsilon',epsilon);z=mu+epsilon*scale\n134:                 else:"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "classification": "CAUSAL_LIMIT",
+      "title": "Finite generation is not latent matching, and mismatch is not bug proof",
+      "conclusion": "The frozen sampler exponentiates unbounded generated logσ, checks finite/positive sigma and finite z/raw, and records failures without clipping or replacement. Finite successful outputs establish engineering execution only. No active-route channel/logscale/scaler/EMA-label mismatch was identified in the inspected path.",
+      "limitation": "This static audit cannot establish the cause of reported distribution mismatch or distinguish DDPM fitting limits, posterior modelling difficulty, decoder sensitivity and objective effects. No new quality statistics, forward passes or models were run. CE-vs-MSE and scalar-vs21-head contrasts also differ in the declared objective normalization; scalar-toCE is not a single-component causal claim.",
+      "evidence": [
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 205,
+          "last_line": 223,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "205:     if arm == \"scalar_legacy\":\n206:         reconstruction = (raw-target).square().sum() / (target != 20).sum()\n207:         kl = density / 16\n208:     else:\n209:         if raw.shape != (len(target), 21, 48):\n210:             raise ValueError(\"21-head output shape\")\n211:         if arm == \"categorical_ce\":\n212:             reconstruction = torch.nn.functional.cross_entropy(raw, target, reduction=\"sum\") / denom\n213:         elif arm == \"raw_onehot_mse\":\n214:             onehot = torch.nn.functional.one_hot(target, num_classes=21).permute(0, 2, 1).to(raw)\n215:             reconstruction = 0.5 * (raw-onehot).square().sum() / denom\n216:         else:\n217:             raise ValueError(\"unknown arm\")\n218:         kl = density / denom\n219:     for name, value in ((\"raw\", raw), (\"mu\", mu), (\"logsigma\", logsigma),\n220:                         (\"density\", density), (\"reconstruction\", reconstruction)):\n221:         finite(value, name)\n222:     return {\"loss\": reconstruction+kl, \"reconstruction\": reconstruction, \"kl\": kl,\n223:             \"density_sum\": density, \"mu\": mu, \"logsigma\": logsigma, \"raw\": raw}"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 238,
+          "last_line": 245,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "238: def decode(model, z, arm, observations=None):\n239:     if observations is not None:\n240:         observations[\"sampled_z\"] = z\n241:     finite(z, \"decoder input\")\n242:     raw = model.vae.decoder(z)\n243:     if observations is not None:\n244:         observations[\"decoder_raw\"] = raw\n245:     finite(raw, \"decoder output\")"
+        },
+        {
+          "source_id": "F",
+          "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/vae_pipeline_formal_v2.py",
+          "first_line": 502,
+          "last_line": 546,
+          "sha256": "e97d2a766774461793cba1860455e4cb4c8d689656b60becc326a9f11297ca9b",
+          "excerpt": "502:                 mu, logsigma = x[:, 0], x[:, 1]\n503:                 observations.update(mu=mu, logsigma=logsigma)\n504:                 phase = \"final_posterior_before_exp\"\n505:                 # Retain generated posterior parameters even if exp(logsigma) later fails.\n506:                 np.savez_compressed(out / f\"generated_posterior_{terminal}.npz\", values=x.numpy())\n507:                 dump(out / f\"generated_posterior_summary_{terminal}.json\", {\"terminal\": terminal,\n508:                     \"mu\": tensor_observation_summary(mu), \"logsigma\": tensor_observation_summary(logsigma),\n509:                     \"posterior_parameters\": tensor_observation_summary(x), \"recorded_before_exp\": True})\n510:                 phase = \"posterior_exp\"\n511:                 sigma = logsigma.exp()\n512:                 observations[\"sigma\"] = sigma\n513:                 finite(sigma, \"generated exp(logsigma)\")\n514:                 if not bool((sigma > 0).all()):\n515:                     raise FloatingPointError(\"generated exp(logsigma) underflow\")\n516:                 z = mu+torch.randn_like(mu)*sigma\n517:                 phase = \"sampled_z_and_decode\"\n518:                 seqs, tokens, lengths, raw, length_scores = decode(model, z, config[\"arm\"], observations)\n519:                 phase = \"successful_export\"\n520:                 arrays = {\"posterior_parameters\": x.numpy(), \"z\": z.numpy(), \"raw\": raw.numpy(),\n521:                           \"tokens\": tokens.numpy(), \"lengths\": lengths.numpy()}\n522:                 if length_scores is not None:\n523:                     arrays[\"length_scores\"] = length_scores.numpy()\n524:                 np.savez_compressed(out / f\"generated_{terminal}.npz\", **arrays)\n525:                 for row, seq, length in zip(selected, seqs, lengths.tolist()):\n526:                     status = \"empty_sequence\" if length == 0 else (\"ok\" if length < 48 else \"no_eos_at_limit\")\n527:                     row.update(sequence=seq, length=length, status=status)\n528:         except Exception as exc:\n529:             failure_traceback = traceback.format_exc()\n530:             for row in selected:\n531:                 row[\"status\"] = \"error:\" + type(exc).__name__\n532:             observation_error = None\n533:             try:\n534:                 save_generation_observations(out, terminal, observations, phase, timestep, repr(exc))\n535:             except Exception as observation_exc:\n536:                 # A diagnostic IO failure must not replace the original model error.\n537:                 observation_error = repr(observation_exc)\n538:             log(out / \"generation_errors.jsonl\", {\"terminal\": terminal,\n539:                 \"error\": repr(exc), \"traceback\": failure_traceback,\n540:                 \"observation_write_error\": observation_error})\n541:         write_csv(out / \"generated.csv\", rows, GENERATED_FIELDS)\n542:     info = {\"elapsed_seconds\": time.perf_counter()-started, \"requested\": len(rows),\n543:             \"successful_execution\": sum(r[\"status\"] in SUCCESS_STATUSES for r in rows),\n544:             \"failed_execution\": sum(r[\"status\"].startswith(\"error:\") for r in rows),\n545:             \"not_executed\": sum(r[\"status\"] == \"not_executed\" for r in rows),\n546:             \"condition_inputs\": [\"terminal class only\"], \"no_retry_or_filter\": True}"
+        }
+      ]
+    }
+  ],
+  "control_names": {
+    "decoder_of_standard_normal": "standard-normal latent control; no terminal-conditioned prior claim",
+    "decoder_of_train_mu": "privileged posterior-mean reconstruction reference",
+    "decoder_of_selected_train_mu_plus_sigma_epsilon": "empirical training-posterior resampling reference",
+    "inverse_flow_of_standard_normal_given_empirical_g": "empirical-descriptor-conditioned flow prior",
+    "frozen_H5_generator": "terminal-conditioned posterior-parameter DDPM followed by posterior draw and decoder"
+  },
+  "reviewer_actions": {
+    "model_imports": 0,
+    "weight_loads": 0,
+    "neural_forwards": 0,
+    "training_updates": 0,
+    "new_generation": 0,
+    "RNG_reconstructions": 0,
+    "quality_recalculations": 0,
+    "test_or_cohort_records_read": 0,
+    "live_scalar_contents_read": 0,
+    "frozen_files_modified": 0
+  },
+  "remaining_limits": [
+    "Recorded metadata/hashes and static paths cannot replace full end-to-end execution proof.",
+    "Existing observed latent mismatch is not itself proof of a coding bug.",
+    "No new head, normalization, noise schedule, EMA warmup or CFG setting is proposed or applied.",
+    "New controls, if later authorized, require fixed inputs/denominators and independent review; they cannot retroactively change original32-slot outcomes."
+  ]
+}

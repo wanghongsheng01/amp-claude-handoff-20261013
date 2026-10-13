@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-12T09:04:57.486750+00:00",
+  "stage": "Freeze recount definitions before new aggregate computation; existing labels already exposed so not prospective blind design",
+  "inputs_sha256": {
+    "dbaasp_bounded_v3/prepared/peptides.jsonl": "1481b8de54866c4178b7a6a0d923031d8bc2595d29985f73045dce4b75efcd89",
+    "dbaasp_bounded_v3/prepared/mic_measurements.jsonl": "dea21d1435a0385e54d210f765eb5f164727f84fdbbd1b49167fedf51d0c458f",
+    "chemistry_units_v2/results/chemical_identity_audit.jsonl": "68309522c055abe716726a76844c04122e712e3f012cd8326d455b7b240b7002"
+  },
+  "local_sha256": {
+    "COUNTING_RULES.json": "f3e7d762c00ba7590f88cb0ba3c9969a534f96cbc3c3ade93b9678f405be910c",
+    "recount.py": "dc4afd6fffb89eb58c92001efd2b20ba3949f62faee742e805dc75e3172875f8"
+  },
+  "limits": {
+    "new_acquisition": 0,
+    "natural_training": 0,
+    "model_execution": 0,
+    "test37_reads": 0
+  }
+}

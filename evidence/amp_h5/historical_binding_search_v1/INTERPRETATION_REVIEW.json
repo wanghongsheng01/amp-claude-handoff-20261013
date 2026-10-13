@@ -1,0 +1,20 @@
+{
+  "reviewed_at_utc": "2026-10-12T11:47:37.324319+00:00",
+  "review_type": "primary-agent source-category and positive-match review; independent signoff separate",
+  "classification_is_not_automated_provenance_detection": true,
+  "complete_link_count": 0,
+  "basis": [
+    "62 source code/config/data text units contain no target exact/normalized sequence or sample-ID hits",
+    "Paper/version texts and original paragraphs were inspected by category; sequence mentions are manuscript/structure-process narratives, not identified generated-output/selection/submission ledgers",
+    "All 27 have supplier and MIC identity matches, preserved as partial evidence",
+    "Original submission request and historical generated output/candidate-level scoring ledger not recovered within explicit finite sources"
+  ],
+  "scope_only": true,
+  "not_claimed": [
+    "no wetlab experiment",
+    "no historical generation ever occurred",
+    "global absence of other files",
+    "success rate or fair method superiority",
+    "historical experimental dates inferred from commit/document metadata"
+  ]
+}

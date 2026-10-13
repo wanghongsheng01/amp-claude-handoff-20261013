@@ -1,0 +1,146 @@
+{
+  "attempts": 384,
+  "backup": "BACKUP_BLOCKED",
+  "claims": "One reused development split; no efficacy, novelty, significance, or submission-readiness evidence.",
+  "elapsed_seconds": 140.0353804170154,
+  "failure_reasons": [
+    "grouped_train_cv: partial does not improve balanced sequence NLL over pooled",
+    "grouped_train_cv: partial worsens FREE sequence NLL versus pooled",
+    "grouped_train_cv: partial worsens AMD sequence NLL versus pooled",
+    "grouped_train_cv: partial worsens AMD sequence NLL versus separate",
+    "grouped_train_cv: partial does not improve balanced sequence NLL over ar_cv",
+    "grouped_train_cv: partial worsens FREE sequence NLL versus ar_cv",
+    "grouped_train_cv: partial worsens AMD sequence NLL versus ar_cv",
+    "development: partial does not improve balanced sequence NLL over pooled",
+    "development: partial worsens AMD sequence NLL versus pooled",
+    "development: partial does not improve balanced sequence NLL over separate",
+    "development: partial worsens FREE sequence NLL versus separate",
+    "development: partial worsens AMD sequence NLL versus separate",
+    "development: partial does not improve balanced sequence NLL over ar_cv",
+    "development: partial worsens FREE sequence NLL versus ar_cv",
+    "development: partial worsens AMD sequence NLL versus ar_cv",
+    "generation: partial AMD short_below5 exceeds pooled",
+    "generation: partial FREE short_below5 exceeds ar_cv",
+    "generation: partial FREE cap48 exceeds ar_cv",
+    "generation: partial AMD short_below5 exceeds ar_cv",
+    "generation: partial FREE short_below5 exceeds ar_historical",
+    "generation: partial FREE cap48 exceeds ar_historical",
+    "generation: partial AMD short_below5 exceeds ar_historical"
+  ],
+  "further_tuning_authorized": false,
+  "generation_guards": {
+    "ar_cv": {
+      "AMD": {
+        "cap48": 0,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 1
+      },
+      "FREE": {
+        "cap48": 1,
+        "copies": 0,
+        "empty": 2,
+        "short_below5": 2
+      }
+    },
+    "ar_historical": {
+      "AMD": {
+        "cap48": 0,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 0
+      },
+      "FREE": {
+        "cap48": 0,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 0
+      }
+    },
+    "ngram": {
+      "AMD": {
+        "cap48": 0,
+        "copies": 0,
+        "empty": 1,
+        "short_below5": 12
+      },
+      "FREE": {
+        "cap48": 2,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 5
+      }
+    },
+    "partial": {
+      "AMD": {
+        "cap48": 0,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 11
+      },
+      "FREE": {
+        "cap48": 2,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 3
+      }
+    },
+    "pooled": {
+      "AMD": {
+        "cap48": 1,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 7
+      },
+      "FREE": {
+        "cap48": 2,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 9
+      }
+    },
+    "separate": {
+      "AMD": {
+        "cap48": 0,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 13
+      },
+      "FREE": {
+        "cap48": 3,
+        "copies": 0,
+        "empty": 0,
+        "short_below5": 5
+      }
+    }
+  },
+  "models": {
+    "ar_cv": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/ar_cv.pt",
+      "sha256": "53b932f72722df70adfd36beb837aed5b357eb6a4f3d8d02b802b07e81a24d7d"
+    },
+    "ar_historical": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/training/final.pt",
+      "sha256": "0b01c4beb3469ce6d7edb183480140f6f7b8def88bc4a8efa77a7c48d98c756c"
+    },
+    "ngram": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/ngram.json",
+      "sha256": "60d515dc7a5ec71a866571cd7e5d77f0347fc1c30c275e45c25f96010472c2bb"
+    },
+    "partial": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/partial.json",
+      "sha256": "a431ac3a3106dcf900420eac5e9017642e21bc6dca698bdea206f6e7a7901520"
+    },
+    "pooled": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/pooled.json",
+      "sha256": "f00a0140d71a8e26689e935689ccbd21f09a4e1b8cac3bece5b39d7e8bb28d06"
+    },
+    "separate": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/eb_context_v1/natural_run/separate.json",
+      "sha256": "aadea2681f68e0a7a0879ed950734249271e59a9f13710b478ffc865bb7b75ef"
+    }
+  },
+  "natural_run_retries": 0,
+  "status": "NOT_SUPPORTED",
+  "test_accessed": false
+}

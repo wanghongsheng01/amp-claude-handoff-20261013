@@ -1,0 +1,81 @@
+{
+  "scope_id": "AMP_H5_WARMUP_POSTTRAIN_RMS_V1",
+  "status": "BOUND_SUCCESSFUL_WARMUP1000",
+  "checkpoint": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_state.pt",
+    "sha256": "05b9497ec78697dafdbceaae0cac5ef54e8b157b3b3f9cf417053b6d7e9e96d6",
+    "bytes": 6800314
+  },
+  "checkpoint_tensor_digest": "85f650713eadc074b126c7082903fa4153cc07d1ab2b20d53e5a94913d97a89a",
+  "checkpoint_metadata": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_state.json",
+    "sha256": "57318bb04fdf6b92d44b87f9996947623a10879f7235460080a6c0fae6908c25",
+    "bytes": 421
+  },
+  "training_summary": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_training_summary.json",
+    "sha256": "284d4916224b1f564a0cbe3f1ef76b94c607ecd696427b57186f44cf90d10c69",
+    "bytes": 289
+  },
+  "training_status": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/status.json",
+    "sha256": "394a1674f23ec2de5754b499f3e77186ad348391c3200d53ff214b21c8134975",
+    "bytes": 627
+  },
+  "training_supervisor": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_execution_v1/SUPERVISOR_STATUS.json",
+    "sha256": "e770303d23968d3d7696f917167ae927c83abbf80a6401337b2c94b20983c329",
+    "bytes": 1176
+  },
+  "training_independent_postflight": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_POSTFLIGHT_v1.json",
+    "sha256": "98ec7bd6937f05816493905c9ec5d77a2a09b673660c010cc4b8838657b6eb23",
+    "bytes": 9098
+  },
+  "training_execution_contract": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/CONTRACT.json",
+    "sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a",
+    "bytes": 38678
+  },
+  "bindings_for_integrity": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_state.pt",
+      "sha256": "05b9497ec78697dafdbceaae0cac5ef54e8b157b3b3f9cf417053b6d7e9e96d6",
+      "bytes": 6800314
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_state.json",
+      "sha256": "57318bb04fdf6b92d44b87f9996947623a10879f7235460080a6c0fae6908c25",
+      "bytes": 421
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/vae_training_summary.json",
+      "sha256": "284d4916224b1f564a0cbe3f1ef76b94c607ecd696427b57186f44cf90d10c69",
+      "bytes": 289
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/run_v1/status.json",
+      "sha256": "394a1674f23ec2de5754b499f3e77186ad348391c3200d53ff214b21c8134975",
+      "bytes": 627
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_execution_v1/SUPERVISOR_STATUS.json",
+      "sha256": "e770303d23968d3d7696f917167ae927c83abbf80a6401337b2c94b20983c329",
+      "bytes": 1176
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_BETA_WARMUP_VAE_ONLY_POSTFLIGHT_v1.json",
+      "sha256": "98ec7bd6937f05816493905c9ec5d77a2a09b673660c010cc4b8838657b6eb23",
+      "bytes": 9098
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/CONTRACT.json",
+      "sha256": "733ad7dab4c3dd1bfad010f07b3fb5ebf8e32f0c0f60ce71521caaed0fdafc9a",
+      "bytes": 38678
+    }
+  ],
+  "independent_paired_trace_pass": true,
+  "root_confirms_single_beta_schedule_only": true,
+  "note": "Populate a NEW LATE_BOUND_TRAINING.json only after successful verified1000 training. Candidate does not infer or guess these identities.",
+  "created_utc": "2026-10-12T00:50:39.327874+00:00"
+}

@@ -1,0 +1,9 @@
+# B/C/D 候选 v2：仅异常分类修复
+
+v1 未运行；原script、contract、plan、seed、96槽、合成报告及manifest全部保留。独审唯一阻断R-S1：v1最外层except会把模型之后的finally/导出异常误写成零模型调用的准入失败。
+
+v2仅将validate_request的异常包装为AdmissionFailure，只有该特定异常记录admission96请求、0实际调用、96未执行。准入之后的未捕获Exception或DiagnosticInterrupt统一记录execution_or_finalization_failure_phase_unknown，实际调用/完成/未执行计数为null；尽力保存最近status及hash，明确它可能陈旧，即使其中completed也不能当终态成功。status缺失/损坏仍保留错误，不伪造0。监督stderr和预封96槽继续提供固定意图分母。
+
+自己的script/contract/plan/receipt/output/supervisor-output/seed/slots路径与scope均为v2。seed文件字节与v1相同，96行内容与v1相同，仅slot声明scope变为V2。数学、随机数轨迹、选择/排列种子、g来源、flow/decoder次数、容差、预算及评价指标不变。原函数除execute/main之外AST完全相同；execute在准入包装以后的整个body AST相同。
+
+26项原合成接口/排列/字节/reader检查通过，31项窄修复与AST检查通过，包含5种合成异常注入：准入失败、模拟已有模型调用后的最终写入异常、损坏status、缺失status、DiagnosticInterrupt。没有自然数组读取、自然随机重建、模型import或forward。本包不是执行授权；仍需新的v2正式plan与独审精确receipt。完成判定必须联合supervisor exit、status和CLOSING_LEDGER。

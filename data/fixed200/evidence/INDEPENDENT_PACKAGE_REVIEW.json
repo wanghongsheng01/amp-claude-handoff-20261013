@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "scope": "Independent brief package data/claim consistency review; not scientific or formal model admission",
+  "reviewed_utc": "2026-10-12T15:51:03.230035+00:00",
+  "checks": {
+    "table_row_counts": {
+      "peptides": 200,
+      "MIC": 1788,
+      "Ecoli_MIC": 318
+    },
+    "native_point_rows_and_IDs": {
+      "ug_ml_native": [
+        103,
+        71
+      ],
+      "uM_native": [
+        88,
+        42
+      ]
+    },
+    "native_bound_rows_and_IDs": {
+      "ug_ml_native": [
+        15,
+        15
+      ],
+      "uM_native": [
+        24,
+        18
+      ]
+    },
+    "key_dictionary_and_all_MIC_field_coverage": "PASS",
+    "cleaner_static_boundary": "Local package JSONL inputs and frozen upstream structure status; stdlib only; no network/model/unit conversion; preserves range/plusminus and strict operators; explicit missing source is not imputed",
+    "author_CLI_evidence": "PASS, all three rebuilt CSV files byte-identical per saved author receipt; reviewer did not rerun cleaner",
+    "appendix_visual": "One-page preview visually checked: readable, no clipped content, table/semantic counts match audited data; ASCII ug/ml/uM deliberate, raw symbols retained in tables",
+    "README_boundaries": "Frozen rules, missingness, repeated measurements, descriptive grouping, nonrandom sample and unchanged NO_GO explicitly stated",
+    "unresolved_references": "Both 25752/204864 and 25758/204939 remain unresolved ranges; only latter Ecoli; no reference=1 guess",
+    "formal_training_admitted": "False on all 1788 rows"
+  },
+  "limitations": [
+    "This is package closure PASS only; HOLD/NO_GO unchanged.",
+    "Chemical analysis and author cleaner not rerun.",
+    "Final ZIP/HASHES manifest to be sealed by parent after inclusion of this review; upload not performed by reviewer."
+  ],
+  "reviewed_sha256": {
+    "APPENDIX_1PAGE.pdf": "651966f8eb1bfc97c78216e9dbf36746ddbfd9942c0c7162529937f789713121",
+    "DATA_DICTIONARY.csv": "a99618ee324103d37fa28fb18461c7fa1ade094abce211c0395c6ed3fdfb1f1a",
+    "DBAASP_ATTRIBUTION.txt": "00941bab00cd482246ea496aef53fd10ca745758068d7a86da059b03158f4c2e",
+    "README.txt": "9dcbdf7f479418fd6fe64be065358754d93a412fe7f9ac75324ae3650f5bd7f1",
+    "data/Ecoli_native.csv": "602943ce73f1f5c511236f651809d1bddc146f623085d98e99dd71f132602fe3",
+    "data/MEASUREMENT_SOURCE_INDEX.csv": "735bd67a8df745e9503461f5d51cd7dd548a24873449d86c37ceff0d5cd93c5b",
+    "data/SNAPSHOT_DELTAS.csv": "529a108ea55dda5e6a7bd9441f93b35266489fb47b12dc9315eb7900df1aac2f",
+    "data/SOURCE_INDEX.csv": "c12be7a80fc5a3b2bf5a3e386b294b64451bb31d7328b2cbfb2d76899ee0792d",
+    "data/all_MIC.csv": "1667fbf032b7e37e815208a58250402f9bee158d6e1989417c789e20012f4c97",
+    "data/measurement_inputs.jsonl": "83151b83be079312a6875615769d551b591d1cc718836f64285f3d35823490f1",
+    "data/peptide_groups.csv": "3f38c9fee5a88392adb0257e22356ddc8307127841069a2db60d0d0b7dce23f9",
+    "data/peptide_inputs.jsonl": "1d763f02e71b19dbf2349355231446f886e0e01e431a4993abd20823e316eaa9",
+    "evidence/ALL_200_COVERAGE.csv": "8164721f3bd00a6dcfe68be5b2e259b3e553212f6a8c69077d05e7657d5b1c7d",
+    "evidence/AUTHOR_DELIVERY_CHECK.json": "5c2c612972dfd5285d7ca29a44007b079d9f0b991335fe0ee8acd108dfa9128a",
+    "evidence/BUILD_NOTES.json": "ea51b7e79d98fe7818ca017400df80b915113a88fa0ad8ca719a25afbacb94b0",
+    "evidence/CHECKPOINT_INDEPENDENT_AUDIT.json": "86ba3a3bbdae0db7b0d462754d8d7e1fbe1db4c988c2186b7709561378f11d41",
+    "evidence/CLI_REPRODUCTION.json": "1ba57079e3218d351b6a718e238e0a0f0ceb7a1cfa55e70db564e59a2999dc37",
+    "evidence/FINAL_COUNTS.json": "64d106f9ada068f7ba3228191492e3c43ec87f6b60575f27f2c27e8040f4a825",
+    "evidence/FROZEN_CHEMISTRY_AUDIT.jsonl": "c473e7d8d7bdf00f3f81d9cb1264905d0840a16a53f6f221035f9b839213e5bd",
+    "evidence/PDF_CHECK.json": "53dafa0f24a4e82f46f6c0c031e02f1a1921c73c268ca52c66c32764098e7387",
+    "evidence/RAW_200_MANIFEST.csv": "ad40b0a7b706cecc60ed17f84702a0c9afa4bce82f47b962b4454d344f1cb0c5",
+    "evidence/SEMANTICS_AUDIT.json": "5bd7c58230ac3507046da916ab5fa1fe617d7ed94ab1d5832445a9fb12411617",
+    "evidence/UNRESOLVED_REFERENCES.json": "b1a9806b895c41129f299bb569d2d041ba51cb0f3b02d35c9abde821bb3c85e0",
+    "evidence/VALIDATION.json": "b4630cdf920eaaddf5e46b40e5adb80cc88bf99cc49ed612d46a4b4eeb8eb550",
+    "scripts/clean_data.py": "3a033ade71fb89c57041b12e34e3dcce8f44323442cb84ff746417d108976a8b",
+    "scripts/frozen_analyze_native.py": "9bc6177eb581bf07aa943a94e65bec1a3149958d75882694f3e20b406c0fb39e",
+    "scripts/frozen_chemistry_engine.py": "1f1ec396f17c0f1910dd70f59eeccfe2671365ae97c834a922bc84321716a9a2",
+    "scripts/frozen_prepare_coverage.py": "d9d0605bd4011d2121d514efdd82fdd77e75bc9660b578663a223090ea243437"
+  }
+}

@@ -1,0 +1,650 @@
+[
+  {
+    "sample_id": "pp1-1",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-1",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-1",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-1",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-2",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-2",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-2",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-2",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-3",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-3",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-3",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-3",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-4",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-4",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-4",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-4",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-5",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-5",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-5",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-5",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-7",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-7",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-7",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-7",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-8",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp1-8",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-8",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp1-8",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-1",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-1",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-1",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-1",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-2",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-2",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-2",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-2",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-3",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-3",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-3",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-3",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-4",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-4",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-4",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-4",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-5",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-5",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-5",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-5",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-6",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-6",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-6",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-6",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-7",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-7",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-7",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-7",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-8",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp2-8",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-8",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp2-8",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-1",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-1",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-1",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-1",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-2",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-2",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-2",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-2",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-3",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-3",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-3",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-3",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-4",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-4",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-4",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-4",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-5",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-5",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-5",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-5",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-6",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-6",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-6",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-6",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-7",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-7",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-7",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-7",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-9",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-9",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-9",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-9",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-11",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-11",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-11",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-11",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-12",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-12",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-12",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-12",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-13",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-13",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-13",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-13",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-14",
+    "type": "COA",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  },
+  {
+    "sample_id": "pp3-14",
+    "type": "HPLC",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-14",
+    "type": "MS",
+    "hash_match": true,
+    "sequence_direct_text_checked": false
+  },
+  {
+    "sample_id": "pp3-14",
+    "type": "solubility",
+    "hash_match": true,
+    "sequence_direct_text_checked": true
+  }
+]

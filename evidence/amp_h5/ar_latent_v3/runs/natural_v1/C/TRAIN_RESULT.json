@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "inner120_exceeded": false,
+  "outer150_exceeded": false,
+  "completed_updates": 1000,
+  "attempted_updates": 1000,
+  "failure": null,
+  "seconds": 12.991648375056684,
+  "final_state_sha256": "d4bdc1d3b700e9b51457a2770dbd9296c5289f6a8a07504d5345a728a8e891be",
+  "checkpoint_selection": "final_only"
+}

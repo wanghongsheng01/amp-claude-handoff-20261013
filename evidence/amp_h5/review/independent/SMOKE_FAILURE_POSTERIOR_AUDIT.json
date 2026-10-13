@@ -1,0 +1,91 @@
+{
+  "scope": "Read existing generated numeric arrays only, no model calls or natural-data records",
+  "correction": "Final frozen smoke runner already saved pre-exp posterior arrays. Earlier reviewer message claiming missing raw x was based on an older code excerpt and is withdrawn.",
+  "rows": [
+    {
+      "path": "amp_h5/runs/smoke_v1/categorical_ce/generated_posterior_AMD.npz",
+      "shape": [
+        1,
+        2,
+        16,
+        48
+      ],
+      "dtype": "float32",
+      "all_finite": true,
+      "mu_min": -715.2327880859375,
+      "mu_max": 680.4600219726562,
+      "logsigma_min": -714.0074462890625,
+      "logsigma_max": 636.8909912109375,
+      "logsigma_above_float32_logmax": 326,
+      "float32_logmax": 88.72283935546875
+    },
+    {
+      "path": "amp_h5/runs/smoke_v1/categorical_ce/generated_posterior_FREE.npz",
+      "shape": [
+        1,
+        2,
+        16,
+        48
+      ],
+      "dtype": "float32",
+      "all_finite": true,
+      "mu_min": -599.8474731445312,
+      "mu_max": 850.855224609375,
+      "logsigma_min": -942.982421875,
+      "logsigma_max": 655.7024536132812,
+      "logsigma_above_float32_logmax": 250,
+      "float32_logmax": 88.72283935546875
+    },
+    {
+      "path": "amp_h5/runs/smoke_v1/raw_onehot_mse/generated_posterior_AMD.npz",
+      "shape": [
+        1,
+        2,
+        16,
+        48
+      ],
+      "dtype": "float32",
+      "all_finite": true,
+      "mu_min": -707.1400756835938,
+      "mu_max": 683.4441528320312,
+      "logsigma_min": -715.3682250976562,
+      "logsigma_max": 638.3247680664062,
+      "logsigma_above_float32_logmax": 327,
+      "float32_logmax": 88.72283935546875
+    },
+    {
+      "path": "amp_h5/runs/smoke_v1/raw_onehot_mse/generated_posterior_FREE.npz",
+      "shape": [
+        1,
+        2,
+        16,
+        48
+      ],
+      "dtype": "float32",
+      "all_finite": true,
+      "mu_min": -593.62353515625,
+      "mu_max": 854.3800048828125,
+      "logsigma_min": -941.5715942382812,
+      "logsigma_max": 660.4686279296875,
+      "logsigma_above_float32_logmax": 250,
+      "float32_logmax": 88.72283935546875
+    },
+    {
+      "path": "amp_h5/runs/smoke_v1/scalar_legacy/generated_posterior_FREE.npz",
+      "shape": [
+        1,
+        2,
+        16,
+        48
+      ],
+      "dtype": "float32",
+      "all_finite": true,
+      "mu_min": -601.1375122070312,
+      "mu_max": 850.0640258789062,
+      "logsigma_min": -943.0933227539062,
+      "logsigma_max": 655.6301879882812,
+      "logsigma_above_float32_logmax": 249,
+      "float32_logmax": 88.72283935546875
+    }
+  ]
+}

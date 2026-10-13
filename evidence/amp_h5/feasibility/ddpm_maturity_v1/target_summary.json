@@ -1,0 +1,82 @@
+{
+  "mu": {
+    "shape": [
+      279,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 214272,
+    "finite_elements": 214272,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -2.3634424209594727,
+    "finite_max": 2.147148847579956,
+    "finite_mean": 0.032345864881736686,
+    "finite_std": 0.4254730278122187,
+    "finite_rms": 0.4267007761542561,
+    "finite_q01_q50_q99": [
+      -1.00821794629097,
+      -0.008929113391786814,
+      1.0843789422512056
+    ]
+  },
+  "logsigma": {
+    "shape": [
+      279,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 214272,
+    "finite_elements": 214272,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": -3.207310914993286,
+    "finite_max": 2.163658618927002,
+    "finite_mean": -0.14027062577327581,
+    "finite_std": 0.41477441482299965,
+    "finite_rms": 0.43785118892905633,
+    "finite_q01_q50_q99": [
+      -1.2471387147903443,
+      -0.10165374353528023,
+      0.7969738781452201
+    ]
+  },
+  "sigma": {
+    "shape": [
+      279,
+      16,
+      48
+    ],
+    "dtype": "float32",
+    "elements": 214272,
+    "finite_elements": 214272,
+    "all_finite": true,
+    "nan_elements": 0,
+    "positive_inf_elements": 0,
+    "negative_inf_elements": 0,
+    "finite_min": 0.040465280413627625,
+    "finite_max": 8.702919960021973,
+    "finite_mean": 0.943898487252429,
+    "finite_std": 0.3942082680458563,
+    "finite_rms": 1.0229098263449898,
+    "finite_q01_q50_q99": [
+      0.2873257461190224,
+      0.9033422768115997,
+      2.2188164067268423
+    ]
+  },
+  "train_z_analytic_marginal": {
+    "mean": 0.032345864881736686,
+    "std": 1.107868137563688,
+    "rms": 1.1083402298950364,
+    "scope": "analytic moments of uniformly mixed train q(z); no z draws, no encoder"
+  },
+  "sha256": "df03a4363fb288eeae68626db4e3f233ee43ab19f5a37283fe449d344ac5ae0f",
+  "fit_vae_here": false
+}

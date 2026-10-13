@@ -1,0 +1,635 @@
+{
+  "schema": "AMP_H5_COST_OPPORTUNITY_LEDGER_V2",
+  "created_utc": "2026-10-11T18:15:40.485135+00:00",
+  "supersedes_as_snapshot_only": "cost_opportunity_ledger_v1 remains unchanged",
+  "prior_manifest_sha256": "c50df10ed1accbd24de77b3c2538ef30aec4dcfabb94c402b449028117be9299",
+  "original_status_policy": "Preserve stale running bytes; classify via frozen forensic evidence, never invent exitcause/time/code or terminal status.",
+  "events": [
+    {
+      "event_id": "AR_smoke_v1",
+      "method": "terminal_LSTM",
+      "category": "smoke",
+      "state": "completed",
+      "started_utc": "2026-10-11T15:59:02.792285+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 3.714580708183348,
+        "method_process_wall_seconds": 3.477028749883175,
+        "cpu_process_user_system_seconds": null,
+        "measurement_device": "CPU, one torch thread",
+        "scope_note": "Nested timings overlap. Supervisor is outer elapsed wall, not CPU process utilization time.",
+        "training_pipeline_wall_seconds": 2.68213608302176,
+        "AR_update_wall_seconds": 1.233375369105488,
+        "monitor_wall_seconds": 0.0,
+        "generation_wall_seconds": 0.006877250038087368
+      },
+      "updates": {
+        "AR": 100,
+        "VAE": 0,
+        "DDPM": 0
+      },
+      "attempts": {
+        "sequence_allocated_slots": 2,
+        "sequence_sampling_attempts": 2,
+        "latent_only_attempts": 0,
+        "completed_sequence_executions": 2,
+        "failed_sequence_executions": 0,
+        "not_executed_sequence_slots": 0,
+        "reused_historical_rows": 0,
+        "status_counts": {
+          "empty_sequence": 1,
+          "ok": 1
+        },
+        "nonempty_sequences": 1
+      },
+      "train_only_development_stage": true,
+      "development_access": false,
+      "test_access": false,
+      "training_warm_start_from_prior_run": false,
+      "monitor_points": 0,
+      "fixed_endpoint": true,
+      "training_seed": 222,
+      "sampling_seeds": {
+        "FREE": 422,
+        "AMD": 423
+      },
+      "budget_cap_seconds": 180,
+      "checkpoint_selection": "fixed final",
+      "note": "Fresh initialization for each run. Repeated prefix work remains charged; smoke is not free formal training."
+    },
+    {
+      "event_id": "AR_formal_v1",
+      "method": "terminal_LSTM",
+      "category": "formal",
+      "state": "completed",
+      "started_utc": "2026-10-11T16:13:33.841918+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 15.3623446659185,
+        "method_process_wall_seconds": 15.10993174975738,
+        "cpu_process_user_system_seconds": null,
+        "measurement_device": "CPU, one torch thread",
+        "scope_note": "Nested timings overlap. Supervisor is outer elapsed wall, not CPU process utilization time.",
+        "training_pipeline_wall_seconds": 14.292998417280614,
+        "AR_update_wall_seconds": 12.268115932121873,
+        "monitor_wall_seconds": 0.5697879591025412,
+        "generation_wall_seconds": 0.020189667120575905
+      },
+      "updates": {
+        "AR": 1000,
+        "VAE": 0,
+        "DDPM": 0
+      },
+      "attempts": {
+        "sequence_allocated_slots": 32,
+        "sequence_sampling_attempts": 32,
+        "latent_only_attempts": 0,
+        "completed_sequence_executions": 32,
+        "failed_sequence_executions": 0,
+        "not_executed_sequence_slots": 0,
+        "reused_historical_rows": 0,
+        "status_counts": {
+          "ok": 32
+        },
+        "nonempty_sequences": 32
+      },
+      "train_only_development_stage": false,
+      "development_access": true,
+      "test_access": false,
+      "training_warm_start_from_prior_run": false,
+      "monitor_points": 10,
+      "fixed_endpoint": true,
+      "training_seed": 222,
+      "sampling_seeds": {
+        "FREE": 422,
+        "AMD": 423
+      },
+      "budget_cap_seconds": 2940,
+      "checkpoint_selection": "fixed final",
+      "note": "Fresh initialization for each run. Repeated prefix work remains charged; smoke is not free formal training."
+    },
+    {
+      "event_id": "categorical_ce_smoke_v1",
+      "method": "categorical_ce",
+      "category": "smoke",
+      "state": "completed_with_failure",
+      "started_utc": "2026-10-11T15:59:06.507557+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 84.14928554091603,
+        "method_process_wall_seconds": 83.61939104227349,
+        "cpu_process_user_system_seconds": null,
+        "measurement_device": "CPU, one torch thread",
+        "scope_note": "Nested timings overlap. Supervisor is outer elapsed wall, not CPU process utilization time.",
+        "training_pipeline_wall_seconds": 42.02405612496659,
+        "VAE_stage_wall_seconds": 24.353376041166484,
+        "DDPM_stage_wall_seconds": 17.653014792129397,
+        "VAE_update_wall_seconds": 22.992942456621677,
+        "DDPM_update_wall_seconds": 11.016980040818453,
+        "DDPM_encoding_and_setup_wall_seconds": 6.071865875273943,
+        "generation_wall_seconds": 41.07353204116225
+      },
+      "updates": {
+        "AR": 0,
+        "VAE": 20,
+        "DDPM": 20
+      },
+      "attempts": {
+        "sequence_allocated_slots": 2,
+        "sequence_sampling_attempts": 2,
+        "latent_only_attempts": 0,
+        "completed_sequence_executions": 0,
+        "failed_sequence_executions": 2,
+        "not_executed_sequence_slots": 0,
+        "reused_historical_rows": 0,
+        "status_counts": {
+          "error:FloatingPointError": 2
+        }
+      },
+      "train_only_development_stage": true,
+      "development_access": false,
+      "test_access": false,
+      "training_warm_start_from_prior_run": false,
+      "monitor_points": 0,
+      "training_seed": 222,
+      "DDPM_seed": 322,
+      "budget_cap_seconds": 180,
+      "checkpoint_selection": "fixed 20/20 endpoint",
+      "note": "Both requests failed exp(logsigma); all attempted requests charged. No formal quality evidence. DDPM stage includes encoding/setup; do not add its nested setup time twice."
+    },
+    {
+      "event_id": "raw_onehot_mse_smoke_v1",
+      "method": "raw_onehot_mse",
+      "category": "smoke",
+      "state": "completed_with_failure",
+      "started_utc": "2026-10-11T16:00:30.657777+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 86.69244345789775,
+        "method_process_wall_seconds": 86.12129270890728,
+        "cpu_process_user_system_seconds": null,
+        "measurement_device": "CPU, one torch thread",
+        "scope_note": "Nested timings overlap. Supervisor is outer elapsed wall, not CPU process utilization time.",
+        "training_pipeline_wall_seconds": 43.488666917197406,
+        "VAE_stage_wall_seconds": 25.211269792169333,
+        "DDPM_stage_wall_seconds": 18.2594505418092,
+        "VAE_update_wall_seconds": 23.68066212721169,
+        "DDPM_update_wall_seconds": 11.376541876699775,
+        "DDPM_encoding_and_setup_wall_seconds": 6.27455179207027,
+        "generation_wall_seconds": 41.96440399996936
+      },
+      "updates": {
+        "AR": 0,
+        "VAE": 20,
+        "DDPM": 20
+      },
+      "attempts": {
+        "sequence_allocated_slots": 2,
+        "sequence_sampling_attempts": 2,
+        "latent_only_attempts": 0,
+        "completed_sequence_executions": 0,
+        "failed_sequence_executions": 2,
+        "not_executed_sequence_slots": 0,
+        "reused_historical_rows": 0,
+        "status_counts": {
+          "error:FloatingPointError": 2
+        }
+      },
+      "train_only_development_stage": true,
+      "development_access": false,
+      "test_access": false,
+      "training_warm_start_from_prior_run": false,
+      "monitor_points": 0,
+      "training_seed": 222,
+      "DDPM_seed": 322,
+      "budget_cap_seconds": 180,
+      "checkpoint_selection": "fixed 20/20 endpoint",
+      "note": "Both requests failed exp(logsigma); all attempted requests charged. No formal quality evidence. DDPM stage includes encoding/setup; do not add its nested setup time twice."
+    },
+    {
+      "event_id": "scalar_legacy_smoke_v1",
+      "method": "scalar_legacy",
+      "category": "smoke",
+      "state": "completed_with_failure",
+      "started_utc": "2026-10-11T16:01:57.350973+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 85.87268779193982,
+        "method_process_wall_seconds": 85.32932429201901,
+        "cpu_process_user_system_seconds": null,
+        "measurement_device": "CPU, one torch thread",
+        "scope_note": "Nested timings overlap. Supervisor is outer elapsed wall, not CPU process utilization time.",
+        "training_pipeline_wall_seconds": 42.37623491603881,
+        "VAE_stage_wall_seconds": 24.873011250048876,
+        "DDPM_stage_wall_seconds": 17.485744333826005,
+        "VAE_update_wall_seconds": 23.341598375234753,
+        "DDPM_update_wall_seconds": 10.684558250010014,
+        "DDPM_encoding_and_setup_wall_seconds": 6.19123495882377,
+        "generation_wall_seconds": 42.27294475026429
+      },
+      "updates": {
+        "AR": 0,
+        "VAE": 20,
+        "DDPM": 20
+      },
+      "attempts": {
+        "sequence_allocated_slots": 2,
+        "sequence_sampling_attempts": 2,
+        "latent_only_attempts": 0,
+        "completed_sequence_executions": 0,
+        "failed_sequence_executions": 2,
+        "not_executed_sequence_slots": 0,
+        "reused_historical_rows": 0,
+        "status_counts": {
+          "error:FloatingPointError": 2
+        }
+      },
+      "train_only_development_stage": true,
+      "development_access": false,
+      "test_access": false,
+      "training_warm_start_from_prior_run": false,
+      "monitor_points": 0,
+      "training_seed": 222,
+      "DDPM_seed": 322,
+      "budget_cap_seconds": 180,
+      "checkpoint_selection": "fixed 20/20 endpoint",
+      "note": "Both requests failed exp(logsigma); all attempted requests charged. No formal quality evidence. DDPM stage includes encoding/setup; do not add its nested setup time twice."
+    },
+    {
+      "event_id": "H4_saved_t1_parity",
+      "method": "shared_VAE_path",
+      "category": "additional_diagnostic",
+      "state": "PASS",
+      "started_utc": "2026-10-11T16:19:15.734695+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 2.600359874777496,
+        "method_process_wall_seconds": 2.391429416835308,
+        "cpu_process_user_system_seconds": null,
+        "measurement_device": "CPU, one torch thread",
+        "scope_note": "Nested timings overlap. Supervisor is outer elapsed wall, not CPU process utilization time."
+      },
+      "updates": {
+        "AR": 0,
+        "VAE": 0,
+        "DDPM": 0
+      },
+      "attempts": {
+        "sequence_allocated_slots": 0,
+        "sequence_sampling_attempts": 0,
+        "latent_only_attempts": 0,
+        "completed_sequence_executions": 0,
+        "failed_sequence_executions": 0,
+        "not_executed_sequence_slots": 0,
+        "reused_historical_rows": 32
+      },
+      "train_only_development_stage": false,
+      "development_access": false,
+      "test_access": false,
+      "training_warm_start_from_prior_run": false,
+      "ddpm_forwards": 2,
+      "decoder_forwards": 2,
+      "comparison_checks": 20,
+      "note": "Two stored 16-row batches, saved t=1 only. Zero new samples or training; not a full 998-step chain replay."
+    },
+    {
+      "event_id": "DDPM_maturity_1000_4",
+      "method": "categorical_ce20_frozen_representation",
+      "category": "additional_diagnostic",
+      "state": "COMPLETE_WITH_NUMERICAL_FAILURES",
+      "started_utc": "2026-10-11T16:27:17.774736+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 651.8265761248767,
+        "method_process_wall_seconds": 651.2082062079571,
+        "cpu_process_user_system_seconds": null,
+        "measurement_device": "CPU, one torch thread",
+        "scope_note": "Nested timings overlap. Supervisor is outer elapsed wall, not CPU process utilization time.",
+        "training_pipeline_wall_seconds": 558.6888052499853,
+        "DDPM_update_wall_seconds": 556.0205724490806,
+        "generation_wall_seconds": 91.69133349973708
+      },
+      "updates": {
+        "AR": 0,
+        "VAE": 0,
+        "DDPM": 1000
+      },
+      "attempts": {
+        "sequence_allocated_slots": 0,
+        "sequence_sampling_attempts": 0,
+        "latent_only_attempts": 4,
+        "completed_sequence_executions": 0,
+        "failed_sequence_executions": 0,
+        "not_executed_sequence_slots": 0,
+        "reused_historical_rows": 0,
+        "latent_finite_successes": 2,
+        "latent_numerical_failures": 2
+      },
+      "train_only_development_stage": true,
+      "development_access": false,
+      "test_access": false,
+      "training_warm_start_from_prior_run": false,
+      "checkpoint_observation_points": [
+        20,
+        1000
+      ],
+      "training_seed": 322,
+      "frozen_VAE_training_updates_charged_here": 0,
+      "budget_cap_seconds": 1020,
+      "note": "One fresh 1000-update trajectory, not 20+1000 independent training updates. Four latent-only requests; no decoder or sequence strings. CE20 posterior reused from smoke, no new VAE training. Horizon1000 schedule differs from original smoke horizon20. Provides extra engineering information before CE formal; not matched extra diagnostics for all arms."
+    },
+    {
+      "event_id": "CE_formal_v1_entry_failure",
+      "method": "categorical_ce",
+      "category": "failed_formal_entry",
+      "state": "failed",
+      "started_utc": "2026-10-11T16:42:06.656847+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 1.074364208150655,
+        "method_process_wall_seconds": 0.8533692504279315,
+        "cpu_process_user_system_seconds": null,
+        "measurement_device": "CPU, one torch thread",
+        "scope_note": "Nested timings overlap. Supervisor is outer elapsed wall, not CPU process utilization time."
+      },
+      "updates": {
+        "AR": 0,
+        "VAE": 0,
+        "DDPM": 0
+      },
+      "attempts": {
+        "sequence_allocated_slots": 32,
+        "sequence_sampling_attempts": 0,
+        "latent_only_attempts": 0,
+        "completed_sequence_executions": 0,
+        "failed_sequence_executions": 0,
+        "not_executed_sequence_slots": 32,
+        "reused_historical_rows": 0
+      },
+      "train_only_development_stage": false,
+      "development_access": true,
+      "test_access": false,
+      "training_warm_start_from_prior_run": false,
+      "raw_status_development_read": false,
+      "development_access_correction": "Raw false flag was written only after successful validation; dev file was already opened. Corrected interpretation from frozen repair report, no back-edit.",
+      "note": "Input idx guard failed before model creation. Zero updates and sampling attempts, but real setup/failed-entry cost retained. One explicit contract repair follows; not a successful formal run."
+    },
+    {
+      "event_id": "CE_formal_v2_original_interrupted",
+      "method": "categorical_ce",
+      "category": "formal_interrupted",
+      "external_forensic_state": "INTERRUPTED_WITH_STALE_RUNNING_STATUS",
+      "state": "INTERRUPTED_NO_FINAL_STATUS",
+      "original_runner_saved_state": "running",
+      "original_supervisor_saved_state": "running",
+      "original_started_utc": "2026-10-11T16:48:18.257378+00:00",
+      "exit_cause": "UNKNOWN",
+      "exit_code": null,
+      "exit_time": null,
+      "original_exact_total_wall_seconds": null,
+      "timing": {
+        "supervisor_job_wall_seconds": null,
+        "method_process_wall_seconds": null,
+        "VAE_stage_wall_seconds": 1179.0319216251373,
+        "DDPM_stage_wall_seconds": 564.3461695411243,
+        "training_stage_subtotal_wall_seconds": 1743.3780911662616,
+        "partial_generation_wall_seconds_lower_bound": 451.9357427917421,
+        "recorded_disjoint_work_wall_seconds_lower_bound": 2195.3138339580037,
+        "scope_note": "Sequential stage times plus partial FREE generation; setup/interstage gaps and unlogged work remain unknown. Not a measured original whole-process time."
+      },
+      "updates": {
+        "AR": 0,
+        "VAE": 1000,
+        "DDPM": 1000
+      },
+      "attempts": {
+        "sequence_allocated_slots": 32,
+        "sequence_sampling_attempts_lower_bound": 16,
+        "sequence_sampling_attempts_exact": null,
+        "partial_interrupted_slots": 16,
+        "FREE": {
+          "slots": 16,
+          "state": "partial_interrupted",
+          "reverse_steps_each_at_least": 799
+        },
+        "AMD": {
+          "slots": 16,
+          "state": "no_start_evidence"
+        },
+        "completed_sequence_exports": 0,
+        "raw_csv_status_counts": {
+          "not_executed": 32
+        },
+        "latent_only_attempts": 0,
+        "interpretation": "Raw CSV is preallocated. FREE progress proves real partial work; AMD has no start evidence. Unknown later unlogged work prevents an exact original attempt/time total."
+      },
+      "development_access": true,
+      "monitor_points": 10,
+      "test_access": false,
+      "checkpoint_selection": "fixed final1000, not dev selected",
+      "original_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+      "note": "No final generation/export/manifest in original attempt; checkpoint recovery never backfills its status or cost."
+    },
+    {
+      "event_id": "CE_checkpoint_recovery_v1",
+      "method": "categorical_ce_checkpoint_recovery",
+      "category": "additional_generation_restart",
+      "state": "recovery_completed",
+      "started_utc": "2026-10-11T17:49:09.718544+00:00",
+      "timing": {
+        "supervisor_job_wall_seconds": 1124.2520439173095,
+        "method_process_wall_seconds": 1123.995185916312,
+        "setup_wall_seconds": 1.3591534583829343,
+        "generation_wall_seconds": 1115.4961699172854,
+        "export_wall_seconds": 6.814929542131722,
+        "scope_note": "Use supervisor1124.252... once. Setup/generation/export are nested and not added again."
+      },
+      "updates": {
+        "AR": 0,
+        "VAE": 0,
+        "DDPM": 0
+      },
+      "attempts": {
+        "sequence_allocated_slots": 32,
+        "sequence_sampling_attempts": 32,
+        "completed_sequence_executions": 32,
+        "failed_sequence_executions": 0,
+        "not_executed_sequence_slots": 0,
+        "latent_only_attempts": 0,
+        "status_counts": {
+          "no_eos_at_limit": 1,
+          "ok": 31
+        }
+      },
+      "development_access": true,
+      "source_train_dev_rows_exported": [
+        279,
+        41
+      ],
+      "test_access": false,
+      "generation_seeds": {
+        "FREE": 422,
+        "AMD": 423
+      },
+      "training_seed_replicates_added": 0,
+      "training_weights_from": "original CEv2 fixed1000 VAE and DDPM EMA checkpoint",
+      "protocol_deviation": "One separately authorized full32 generation restart violates original no-retry rule; not t200 continuation. Count added generation/cost; do not count as an independent training seed or new matched arm.",
+      "recovery_engineering": "PASS",
+      "original_E_L_G": "NOT_EVALUABLE_INTERRUPTION",
+      "PROMOTE": "HOLD"
+    },
+    {
+      "event_id": "raw_onehot_mse_formal_not_started",
+      "method": "raw_onehot_mse",
+      "category": "formal_not_started",
+      "state": "NOT_STARTED_PER_DELEGATED_SNAPSHOT",
+      "timing": null,
+      "updates": {
+        "AR": 0,
+        "VAE": 0,
+        "DDPM": 0
+      },
+      "attempts": {
+        "sequence_allocated_slots": 0,
+        "sequence_sampling_attempts": 0,
+        "latent_only_attempts": 0
+      },
+      "planned_sequence_slots": 32,
+      "planned_updates": {
+        "VAE": 1000,
+        "DDPM": 1000
+      },
+      "planned_training_cap_seconds": 2940,
+      "note": "Snapshot only, no inferred launch from prepared configuration. Smoke remains separately charged."
+    },
+    {
+      "event_id": "scalar_legacy_formal_not_started",
+      "method": "scalar_legacy",
+      "category": "formal_not_started",
+      "state": "NOT_STARTED_PER_DELEGATED_SNAPSHOT",
+      "timing": null,
+      "updates": {
+        "AR": 0,
+        "VAE": 0,
+        "DDPM": 0
+      },
+      "attempts": {
+        "sequence_allocated_slots": 0,
+        "sequence_sampling_attempts": 0,
+        "latent_only_attempts": 0
+      },
+      "planned_sequence_slots": 32,
+      "planned_updates": {
+        "VAE": 1000,
+        "DDPM": 1000
+      },
+      "planned_training_cap_seconds": 2940,
+      "note": "Snapshot only, no inferred launch from prepared configuration. Smoke remains separately charged."
+    }
+  ],
+  "totals": {
+    "historical_v1_eight_job_outer_wall_seconds": 931.2926423726603,
+    "recovery_outer_wall_seconds": 1124.2520439173095,
+    "nine_terminal_job_supervisor_wall_seconds_sum": 2055.54468628997,
+    "original_CEv2_recorded_training_stage_subtotal_seconds": 1743.3780911662616,
+    "original_CEv2_partial_generation_lower_bound_seconds": 451.9357427917421,
+    "original_CEv2_exact_total_seconds": null,
+    "CEv2_plus_recovery_disjoint_wall_cost_lower_bound_seconds": 3319.565877875313,
+    "all_accounted_disjoint_wall_cost_lower_bound_seconds": 4250.8585202479735,
+    "overall_exact_wall_cost_seconds": null,
+    "scope": "Nine terminal job outer wall times plus original interrupted CE recorded disjoint training stages and partial generation lower bound. Excludes unknown original work/setup gaps, unclocked diagnostics/reviews, and all future work. Not complete project CPU time.",
+    "updates_by_family": {
+      "AR": 1100,
+      "VAE": 1060,
+      "DDPM": 2060
+    },
+    "sequence_allocated_slots": 136,
+    "sequence_sampling_attempts_observed_lower_bound": 88,
+    "sequence_sampling_attempts_exact": null,
+    "latent_only_attempts": 4,
+    "final_sequence_exports_with_completed_execution": 66,
+    "recorded_failed_sequence_executions": 6,
+    "original_CEv2_partial_FREE_slots": 16,
+    "CEv1_zero_update_failure_not_executed_slots": 32,
+    "original_CEv2_AMD_no_start_evidence_slots": 16,
+    "H4_reused_historical_rows_not_new_attempts": 32,
+    "formal_MSE_scalar_new_training_or_generation": 0,
+    "slot_partition_check": "136 = 66 completed exports + 6 numerical failures + 16 observed partial FREE + 32 CEv1 not_executed + 16 original AMD no-start-evidence. This is an evidence-state partition, not an exact unknown-exit runtime census."
+  },
+  "development_opportunities": {
+    "prelocked_formal_policy": {
+      "configs_per_method": 1,
+      "training_seeds_per_method": 1,
+      "checkpoints_chosen_per_method": "fixed final",
+      "hyperparameter_tuning": 0,
+      "VAE_or_AR_monitor_points_per_method": 10,
+      "DDPM_dev_monitors": 0
+    },
+    "actual_compute_equal": false,
+    "formal_common_training_cap_seconds": 2940,
+    "known_additional_readonly_work": [
+      {
+        "work": "AR final descriptor/nearest-neighbor/NLL author readout",
+        "recorded_wall_seconds": 1.8991414169999998,
+        "model_calls": 0,
+        "train_and_dev_rows_read": [
+          279,
+          41
+        ],
+        "included_in_supervisor_total": false
+      },
+      {
+        "work": "Saved coordinate audit",
+        "recorded_wall_seconds": null,
+        "no_model_loads": true,
+        "no_generation": true,
+        "included_in_supervisor_total": false
+      },
+      {
+        "work": "Analytic zero-predictor reference",
+        "recorded_wall_seconds": null,
+        "model_calls": 0,
+        "included_in_supervisor_total": false
+      },
+      {
+        "work": "Contract repair independent check",
+        "recorded_wall_seconds": null,
+        "checks": 22,
+        "model_calls": 0,
+        "train_and_dev_read": true,
+        "included_in_supervisor_total": false
+      }
+    ],
+    "AR_adequacy": {
+      "status": "NOT_ESTABLISHED",
+      "train100_NLL": 2.5835970324035844,
+      "train1000_NLL": 1.6431238127375474,
+      "dev100_NLL": 2.6314405662351543,
+      "dev1000_NLL": 3.169792648274301,
+      "diagnosis": "training NLL drops at all recorded intervals while dev rises after200; overfitting evidence; fixed final retained. Neither tuning adequacy nor strong-baseline status established."
+    },
+    "promotion": "HOLD",
+    "four_arm_comparison": "NOT_COMPLETE",
+    "v1_accounting_retained_as_history": [
+      "Four real smoke runs: AR100 and three VAE20+DDPM20; none promoted as formal weights.",
+      "One completed AR formal initialization/seed, 10 descriptive train/dev monitors and one final checkpoint. Dev trajectory reveals overfit; no best checkpoint selection.",
+      "Shared saved-t1 parity plus coordinate/zero-predictor analyses were added after numerical smoke failures.",
+      "CE20-specific frozen-representation diagnostic adds fresh DDPM1000 and two checkpoint observations with four paired latent requests. Counts as extra development information and cost.",
+      "One failed CE formal entry opened dev before failing; one input-contract repair version changes idx guards/status accounting, with no model/training/seed/loss change documented.",
+      "CEv2 is a separate pending execution, and later formal-arm starts are staged by engineering feasibility. This is adaptive execution order, not an untouched simultaneous one-shot experiment.",
+      "The declared zero hyperparameter search is a narrow formal-policy field; it does not mean zero additional diagnosis, implementation revision, development exposure or execution opportunity."
+    ],
+    "current_snapshot_additions": [
+      "CEv2 completed original VAE1000/DDPM1000 and ten recorded dev monitoring points; did not complete original generation/export or obtain terminal process status.",
+      "Saved FREE16 progress at t200 adds at least451.9357427917421s; original raw not_executed32 does not erase this cost.",
+      "One new explicitly authorized checkpoint recovery reran all32 original seeds/chains, with zero training and1124.2520439173095s outer wall. This is additional development/execution opportunity and a documented no-retry deviation.",
+      "Recovery read train279/dev41 for originally planned mean reconstructions and exported both. Same reused dev is not independent confirmation.",
+      "CE remains one training seed. Recovery same seeds are a restart, not independent stochastic or training replication. Formal MSE/scalar are not started in this snapshot.",
+      "Common2940s training cap remains a planned resource envelope. Actual cost is unequal, and CE total includes extra generation, failed entry, smoke and targeted DDPM diagnostic.",
+      "AR1000 retained; evidence of overfit and AR_ADEQUACY=NOT_ESTABLISHED remain. No checkpoint/model/seed selection was added by this ledger."
+    ],
+    "original_E": "NOT_EVALUABLE_INTERRUPTION",
+    "original_L": "NOT_EVALUABLE_INTERRUPTION",
+    "original_G": "NOT_EVALUABLE_INTERRUPTION",
+    "recovery_engineering": "PASS_SCOPED_ENGINEERING_ONLY",
+    "training_seed_replication": "one per executed formal method; not established across seeds",
+    "development_set": "reused41, not an untouched holdout"
+  },
+  "no_models_or_source_train_dev_test_csv_read": true,
+  "no_original_live_status_polling": true,
+  "all_times_elapsed_wall_not_CPU_user_system_time": true,
+  "PROMOTE": "HOLD",
+  "original_four_arm_E_L_G": "NOT_EVALUABLE_INTERRUPTION"
+}

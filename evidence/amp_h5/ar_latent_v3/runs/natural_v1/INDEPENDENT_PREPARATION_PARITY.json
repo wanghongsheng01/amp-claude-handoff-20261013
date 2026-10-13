@@ -1,0 +1,11 @@
+{
+  "initial_state_sha256": {
+    "A": "bc6bcb084f5f1f6360399db66f869a12ff49c39742853d916c913fbf9c020373",
+    "B": "bc6bcb084f5f1f6360399db66f869a12ff49c39742853d916c913fbf9c020373",
+    "C": "7f9cc39b1a9729ed83aaf184191bdb130779fbf7fc2debb1c9a35932eaecfae1"
+  },
+  "batch_indices_sha256": "cb6a18e909568b7596c46891dda9c26f3237bec0b49125c8db969fe68ece7d62",
+  "train_mappings_digest": "a4394ba643fff9968e81b1e68994c62d2808feff3e4bb5579f0ac38ad9408571",
+  "dev_mappings_digest": "69cc152c36a8802aae60f89762f0fa2c8ca642c02b0c3e6a274cf58ab6692499",
+  "uniforms_digest": "e0c67f434b1f36142dd738ad80344d0c72b2b79eb76366daf006832426b23a3b"
+}

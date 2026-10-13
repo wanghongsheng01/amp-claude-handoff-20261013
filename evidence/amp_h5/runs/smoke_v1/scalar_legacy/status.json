@@ -1,0 +1,24 @@
+{
+  "state": "completed_with_failure",
+  "purpose": "train_only_smoke",
+  "config_sha256": "f46c560fd2da9da68f76490e284f65e0aa5723270c24e703552815aaf2a3c3c9",
+  "runner_sha256": "9fabbd28171a7b1f98118161ca399dbc1fa81a3448cdb42668cddbf0468a492b",
+  "test_read": false,
+  "development_read": false,
+  "training_seconds": 42.37623491603881,
+  "training_cap_exceeded": false,
+  "vae_updates": 20,
+  "ddpm_updates": 20,
+  "generation": {
+    "elapsed_seconds": 42.27294475026429,
+    "requested": 2,
+    "successful_execution": 0,
+    "failed_execution": 2,
+    "not_executed": 0,
+    "condition_inputs": [
+      "terminal class only"
+    ],
+    "no_retry_or_filter": true
+  },
+  "process_seconds": 85.32932429201901
+}

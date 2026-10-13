@@ -1,0 +1,78 @@
+{
+  "shape": [
+    320,
+    16,
+    48
+  ],
+  "dtype": "float32",
+  "device": "cpu",
+  "row_order": "train0..278 then development0..40",
+  "banks": [
+    {
+      "seed": 1422,
+      "epsilon_sha256": "51e1df5ffc0603229b2e9d7587bf926f642d71a808a5669e7d59dabec7930e06",
+      "initial_generator_sha256": "fb3acd1dd8514f6947f9ce3dad885d87b390ea30fad2ca8a795514b96e7f71e3",
+      "final_generator_sha256": "f24debda0c3e359ba5d29cb4bda8a2917951cf9fefd9326f0416f9d42ec62c62",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1422.npz",
+      "file_sha256": "ca84c611d068ecedc7277c8b32dc6e3f34e2be632078380bdbd13d90617601ad"
+    },
+    {
+      "seed": 1423,
+      "epsilon_sha256": "1a2b64c7ea5674ea347665d0720be8e20d9c701e5e0d0b22cbf3decf23050a78",
+      "initial_generator_sha256": "3513d363b046d409e5d1468e0608ef24d8acb474623102a48ab0fa2afaee3204",
+      "final_generator_sha256": "27f694b31b0aca70aa92f8d5c978c6fb1eba500b3aed6a5b823bcceb11b73dd0",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1423.npz",
+      "file_sha256": "bf8b41b0f65c02c525d65b21339fdaf02f60e86ea3ce6a8946bbe7af48fdac50"
+    },
+    {
+      "seed": 1424,
+      "epsilon_sha256": "764430a2a15aa94a3e6bee5e3acb92aa6d1f9a7a1a48db545743cd9cbfdcfc53",
+      "initial_generator_sha256": "5f4c343d69e264872c65cf344d15517eebd478485fb5285f8c8509159cd56510",
+      "final_generator_sha256": "132cd3bdf94e09971f36e2cb506e2d20b1ea54fe8829b00a7716fb9497828118",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1424.npz",
+      "file_sha256": "30343fc7b90414dbfb5ad76d94352c067ca5dcd4f5f38a601d17e95d819d0c59"
+    },
+    {
+      "seed": 1425,
+      "epsilon_sha256": "f172260e293b913b3cb8123bbe49ee8ff988d5220f87e80d542d2a07cbaed8a9",
+      "initial_generator_sha256": "2b9bff8a79323c7051cec83b14245bf02cbc593e31118d5fbd5f3fd16c02748c",
+      "final_generator_sha256": "1023c865fcedee78096d2f866831688b2e8a11c69f58141312b2c7b3d2d63782",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1425.npz",
+      "file_sha256": "dca8e9a241f31211121d35a03f60bcd5d4c11f2d4a4ef6fcaef408a97fca323a"
+    },
+    {
+      "seed": 1426,
+      "epsilon_sha256": "df936536250f50a71bb05dad8e35c487cf3951989bb829cac7dd66465bedf204",
+      "initial_generator_sha256": "80e09173cf109de47d24f7cdd09af627c4a3e33733aea059ccfbf516034cf6f6",
+      "final_generator_sha256": "5a79257a4f4452a755547e2d6fe749d932c47dc0192473673c7351a268556ab2",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1426.npz",
+      "file_sha256": "7887518f0ea0ce72ba7ae6ad0bb012ab17e153fe72899e6f6ca84f4763d89487"
+    },
+    {
+      "seed": 1427,
+      "epsilon_sha256": "14a255be1465cff01904277e92178d61cd5416cbb391d49d37f576bf2fd3acce",
+      "initial_generator_sha256": "a757face1e5665ec8323db1423f769e0d857ac722b861eec53d91cec8ef60c73",
+      "final_generator_sha256": "776a2791d8cde532267f204e141e0814ffbb0d753d7a1343c0252415300ace95",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1427.npz",
+      "file_sha256": "9307da4c497dcf296335e14580ec0201ca0132f5a62d833efeaa18f69d66f1cf"
+    },
+    {
+      "seed": 1428,
+      "epsilon_sha256": "e5ebbdb2954651c29b2ba4bb0adb5d424a3cb20ecc019cecba2ecb067e1ae34b",
+      "initial_generator_sha256": "5e5e9fd8e1403bca062ef287e4adaaf089f40093272f18f70bf61b48e912ae1b",
+      "final_generator_sha256": "8f79f3935fd33c5aee6074bb6d458e77651e3abfa982adf2161c0f9472f4a35c",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1428.npz",
+      "file_sha256": "52fbbb36fecb9d5356f7abacc6614046dd55a0d56b1df60c91f1328014f0a8b9"
+    },
+    {
+      "seed": 1429,
+      "epsilon_sha256": "b3c095a77b902ab8515efd66a8e8856c29c99ac88e160e2dd0d2567cacc3a110",
+      "initial_generator_sha256": "66c8068d25a94285101754a5a72568619ee1c0779a7e8e25fb041dc97b226b26",
+      "final_generator_sha256": "e3373fbad5060e8ed168147e709ed90eaf1be882850ddeeb0160e98cd80bc7f5",
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/epsilon_seed_1429.npz",
+      "file_sha256": "704263ad81ec7d566349d4c6d45981703019e3c25c6215ca40a78d23082b2d43"
+    }
+  ],
+  "global_rng_unchanged": true,
+  "generated_before_any_model_construction_or_forward": true
+}

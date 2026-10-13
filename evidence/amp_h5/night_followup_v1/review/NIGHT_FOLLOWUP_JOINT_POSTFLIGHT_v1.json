@@ -1,0 +1,346 @@
+{
+  "status": "PASS",
+  "scope_id": "AMP_H5_NIGHT_FOLLOWUP_JOINT_REVIEW_V1",
+  "checks": [
+    {
+      "name": "score_terminal_exit_and_caps",
+      "passed": true
+    },
+    {
+      "name": "score_authority_and_sources",
+      "passed": true
+    },
+    {
+      "name": "score320refs2880predictions_complete",
+      "passed": true
+    },
+    {
+      "name": "all2880_sequence_edit_length_and_saved_property_deltas",
+      "passed": true
+    },
+    {
+      "name": "exact_fraction_primary_gate_full41x8",
+      "passed": true
+    },
+    {
+      "name": "all60_stratified_groups_macro_support_counts_and_core_means",
+      "passed": true
+    },
+    {
+      "name": "distribution_completed_within_caps",
+      "passed": true
+    },
+    {
+      "name": "frozen421_point_estimates_fourarms_independently_recomputed",
+      "passed": true
+    },
+    {
+      "name": "all2048_wholecomponent_indices_and_all_reference_bootstrap_MMDs_recomputed",
+      "passed": true
+    },
+    {
+      "name": "reference_quantiles_positions_and_SRS_population_denominator",
+      "passed": true
+    },
+    {
+      "name": "distribution_scope_limits_preserved",
+      "passed": true
+    },
+    {
+      "name": "B_cached32_slots31donors_exact_persequence_recount",
+      "passed": true
+    },
+    {
+      "name": "candidate_manifest_12sources_and_three_table_pointers_bound",
+      "passed": true
+    },
+    {
+      "name": "candidate_explicit_scope_and_inference_boundaries",
+      "passed": true
+    }
+  ],
+  "model_calls": 0,
+  "new_RNG_calls": 0,
+  "new_RDKit_calls": 0,
+  "test_reads": 0,
+  "original_CE_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+  "PROMOTE": "HOLD",
+  "training_authorized": false,
+  "scoring_postflight": {
+    "status": "PASS",
+    "primary_gate": {
+      "status": "EVALUABLE",
+      "threshold": 0.05,
+      "n_dev_sequences": 41,
+      "posterior_draws": 8,
+      "M_sequence_equal_accuracy": 0.7227961128580324,
+      "S8_sequence_equal_accuracy": 0.6611157984837004,
+      "M_minus_S8": 0.06168031437433197,
+      "crosses_investment_threshold": true,
+      "all320x9_complete_finite": true,
+      "meaning": "Prespecified investment screen only; not significance, causal proof, independent repeats or training authorization.",
+      "descriptor_missing_affects_this_gate": false,
+      "difference_exact_fraction": {
+        "numerator": 435643512761,
+        "denominator": 7062926270400
+      },
+      "comparison_rule": "Exact rational counts/target lengths; compare against1/20, no floating tolerance."
+    },
+    "baseline_success_guards": {
+      "M_equal_sequence_accuracy": 0.7227961128580324,
+      "S8_equal_sequence_accuracy": 0.6611157984837004,
+      "M_length_MAE": 0.0,
+      "S8_supported_AA_macro": 0.3792556605509777
+    },
+    "scoring_outer_seconds": 10.145751459000001,
+    "RMS_descriptor_chemistry_review": "Original function/version bound and saved raw deltas checked; no independent additional RDKit calls."
+  },
+  "distribution_postflight": {
+    "status": "PASS",
+    "repetitions_checked": 2048,
+    "new_RNG_calls": 0,
+    "outer_seconds": 5.842333540786058,
+    "conclusion": "Fixed-fit empirical sensitivity only; ranges are not CI/p-values. No new method gate. Single training seed, repeatedly used dev and train-seen references remain."
+  },
+  "candidate_documents_review": {
+    "status": "PASS_WITH_MINOR_WORDING_NOTE",
+    "scope": "Sealed four-arm and source diagnostic candidate only, not the new night measurements; original manuscript unedited.",
+    "manual_review": "Read full Methods/Results; correct 701/41, eight zero-recall classes, 4x2x16 denominators, original CE NE versus recovery, AR limitations, B/C/D 96new+32reuse, C=B sampled-z, D extra reference-g, historical cost lower-bound and unknown wall. No superiority, novelty or activity claim.",
+    "minor_nonblocking_note": "In a future candidate version, say VAE logs per-update training loss and every100-step dev mean reconstruction, while AR records train/dev NLL; current generic training/development monitoring wording is less precise. Do not overwrite this sealed candidate."
+  },
+  "warmup_investment_judgment": {
+    "eligible_for_exact_preflight": true,
+    "judgment": "One bounded known-method beta-warmup VAE-only1000 falsification is reasonable under the prelocked four success guards. It is not a unique KL/sigma causal diagnosis or generation advance. No launch without exact plan and independent receipt.",
+    "root_guard_sha256": "ded427051cf6d9065fea913711f1020a51b8b0872e1da8eac662e92ba4e45194"
+  },
+  "candidate_warmup_static_review": {
+    "status": "MATHEMATICS_READY_EXACT_EXECUTION_PREAUDIT_PENDING",
+    "manifest": {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/warmup_candidate/MANIFEST.json",
+      "sha256": "888c0c022e136e9ae72d616c5217ca0378e745080ec1d5bfeb3f0aec646a1bc4",
+      "bytes": 1227
+    },
+    "scope": "Read wrapper/objective/loop hooks/code-only bootstrap; no model or repeat synthetic run.",
+    "conditions": [
+      "Exact root receipt binds complete score closing/outer result and this exact rational gate; do not replace with a handwritten rounded float gap.",
+      "Final budget success requires external supervisor wall <=2100; wrapper completed and its pre-manifest timer are insufficient.",
+      "No posttraining RMS, DDPM or generation included automatically; separate scoped evaluation needed."
+    ],
+    "execution_authorized": false
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_execution_v2/RESULT.json",
+      "sha256": "7b827a09b1724b23e2744a5750d1fba108702c69388a064b83a9f8b057733285",
+      "bytes": 3112
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/CLOSING_LEDGER.json",
+      "sha256": "041c836602d3ba77a30bd523522405d8e3ed2c48707fe2036c1f53af40896eaa",
+      "bytes": 515
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/MANIFEST.json",
+      "sha256": "c2cc1fba99f43c84b1d191bfd6f2daee41eebc67f53c148b4ae2a47c27af3ef0",
+      "bytes": 2408
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/STATUS.json",
+      "sha256": "fabe420075b444f089975147002acc6dfdb5a7e88aec1388429e93fcd032be3e",
+      "bytes": 2362
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/CE_RMS_RECONSTRUCTION_POSTFLIGHT_v2.json",
+      "sha256": "9786d0be1c9d1fa345f598c626cb6d9b284f63aa41e60b8a706bc6772d5e5666",
+      "bytes": 6749
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/reference_rows.csv",
+      "sha256": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3",
+      "bytes": 17182
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/reconstructions.csv",
+      "sha256": "5e9723d9a6ba31e3799aa0e4c9b5a4d752ce3bc306c5d2090dd97407e8783b49",
+      "bytes": 901776
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/ROW_METRICS.jsonl",
+      "sha256": "83e99f21ca2aff9cf9ba7b5debca5b3d72116a4e1da2e9763bfa7bcc9ff36d37",
+      "bytes": 18266466
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/DESCRIPTOR_CACHE.jsonl",
+      "sha256": "866a5822fb0a2568d3de6987fd8f01e6120b3b70fba3cdeb9064d98861d6260b",
+      "bytes": 903626
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/INVESTMENT_SCREEN.json",
+      "sha256": "1290fa554b55d9e6ecc6c5251ec52966529bb1dc44cb423ced795fedf7d1f9ff",
+      "bytes": 703
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/rms_scoring_run_v2/STRATIFIED_CORE_SUMMARIES.json",
+      "sha256": "4934ef758b3302b081123d97b5402fe4eef34f4abaa70173fe04fd069fb922ed",
+      "bytes": 199243
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/DELIVERY_INDEX_v2.json",
+      "sha256": "45b0416062a01cb413c94746151c8a80c2fa1650b391fe62780504aa75c3e926",
+      "bytes": 7889
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/MANIFEST.json",
+      "sha256": "41d72f7c2a8eb81eb6061fb97efe3ae98c085f3cf08c49de27683b7af14c70b0",
+      "bytes": 4136
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/execution_v2/RESULT.json",
+      "sha256": "d5ce4f9dd1b4c33d633f7a884b0ec64d44eb7283435744644f5b889d0c66d1e0",
+      "bytes": 710
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/CLOSING_LEDGER.json",
+      "sha256": "60d0e223177f77d122efeace33c7249c89b1ba4e9adc18ab5ab9ad6fde503920",
+      "bytes": 286
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/PROTOCOL_v2.json",
+      "sha256": "027611e8a8c3e1fee211c60c7f4ae6be2ba9c59ff8cc9af201efa5ef969c0c3a",
+      "bytes": 11616
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/SUMMARY.json",
+      "sha256": "31658bb3b0d247bcf0633e7c862c829fe0859e941fd0b85f793bfff22618b8dc",
+      "bytes": 526514
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/INDEX_SEAL.json",
+      "sha256": "fa9f3c0e4a77f053770886774d135bd755b95df8a2f7291678f58832daf00cef",
+      "bytes": 8025810
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/REFERENCE_REPLICATES.json",
+      "sha256": "b561249e4df06d85222d697985702bd92309f8f2b5c6c25243c04e6d131c3be2",
+      "bytes": 2586751
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/distribution/results_v2/BOOTSTRAP_REPLICATES.json",
+      "sha256": "feef2d1712c46762b93a84c1a5c0ee6fb567e5abe12f957923fc0c4077f470af",
+      "bytes": 13797204
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/train.csv",
+      "sha256": "a232401fb46bb9419cf8d690f21476447b853862fd23622e81247b88add0b660",
+      "bytes": 64083
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-09/task-8/amp_commsbio_20261011/rebuild_experiments_20261011/expanded_cohort/release_v2/runner_train_val/val.csv",
+      "sha256": "65fdc7d402240235698d30aa769de3ea45c577cbcb28931970571ee808098ec1",
+      "bytes": 9489
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_checkpoint_recovery_v1/generated.csv",
+      "sha256": "d36083bc6b72682062d54a27889a74136204758541ddfae276acfe712d3b4c57",
+      "bytes": 2135
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/raw_onehot_mse/generated.csv",
+      "sha256": "948653f3adac79b256a328f9cadb100aed1d835a7213cdb006f50a6ab81a264e",
+      "bytes": 1970
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v2/scalar_legacy/generated.csv",
+      "sha256": "97ae42b13738644494ffd5954ad80142b13ab526bf99bfef09e99385592c2e7f",
+      "bytes": 2580
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/formal_v1/terminal_lstm/generated.csv",
+      "sha256": "d0d639a30472afd022c7b45b4dec89c093cfbc76c820b62093e709f9eaf61715",
+      "bytes": 2404
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/MANIFEST.json",
+      "sha256": "19ef565bd442fdd5e5c2e2329c6aca26ced7af54fca8c808d0b6caac82fe86c0",
+      "bytes": 1296
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/posterior_path/RESULTS.json",
+      "sha256": "086868e492b7ad6a1af39040bcc7952d166ec9ba09ca6d8e8ce402907d1f7c84",
+      "bytes": 36268
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/manuscript_candidate/MANIFEST.json",
+      "sha256": "765b0ce2a29f6fd21f65417177637f88690759d463855e2007747cc5821867ae",
+      "bytes": 1509
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/manuscript_candidate/EVIDENCE_MAP.json",
+      "sha256": "e135578c2a3e114a8345e0c730112a2767c4c9a45824d4a14da79d336bfdc9be",
+      "bytes": 5501
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/FORMAL_PROTOCOL.json",
+      "sha256": "113146eba8d1b7f1ce1efce64bf5ca989f975f570b39a158555ac326ad7d755a",
+      "bytes": 4366
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/FOUR_ARM_FINAL_SCIENTIFIC_REVIEW_v1.json",
+      "sha256": "4fa10c677f8165152698243a99371e7ca22e4173529f9de64915bcb61b84e42a",
+      "bytes": 52866
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_RECOVERY_FOUR_ARM_DELIVERY_v1.json",
+      "sha256": "72dc82556c3b0bcfe8f959724002bba614ff53871dd48c1f731b00009b84ad38",
+      "bytes": 12365
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/literature/SOURCE_REPLACEMENT_FINAL_SCIENTIFIC_REVIEW_v2.json",
+      "sha256": "c29e17a53b99dc18c2258bf06a860fec649a2e4acb5e0eb11e70a4a73865f9d4",
+      "bytes": 94700
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/CE_SOURCE_REPLACEMENT_EVALUATION_DELIVERY_v2.json",
+      "sha256": "4370fdb76d765cd190cac3d7b33013b87345a45dfd0c0ed51ffe2a63b86d7dab",
+      "bytes": 10933
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_SOURCE_REPLACEMENT_CONTRACT_v2.json",
+      "sha256": "7fcc1352f1902ea2ae2d72d8803f9a94defee97452b0a40a969e34c081e22ec8",
+      "bytes": 29507
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_replacement_v2_v1/COST_ADDENDUM.json",
+      "sha256": "8132da75896f07623f5389a56274bee82db4611d664288a2df1d53f3986a4a52",
+      "bytes": 12087
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/cost_addendum_source_c_erratum_v1/ERRATUM_SOURCE_C_v1.json",
+      "sha256": "a4c2c7f33db7a0f1d87c71c3990bae83e97070f22a4f39afd71947cbbd8fdda4",
+      "bytes": 5294
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/manuscript_candidate/TABLE_DEV_MEAN.csv",
+      "sha256": "691d18181decedf5e57802044512380f572d725bc62aab0f4a569e075977d325",
+      "bytes": 484
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/manuscript_candidate/TABLE_FOUR_ARM_GENERATION.csv",
+      "sha256": "a96648b8e32c2cd46021c92866a0a81023f408991f1d1e17aec864dc899fd886",
+      "bytes": 702
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/manuscript_candidate/TABLE_POSTHOC_SOURCE.csv",
+      "sha256": "4428a2d2554a3c586790fe0f92b8833fb18b7f40d27122cba380e1446c385cc0",
+      "bytes": 826
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/audit_night_joint_v1.py",
+      "sha256": "6c6b3d5714a8f9ab2c04514d5f90cca8153b684030eecf57b891c9b47bc423f0",
+      "bytes": 19005
+    }
+  ],
+  "check_count": 14,
+  "numeric_values_compared": 2635396,
+  "audit_seconds_before_receipt_io": 3.6886593750678003
+}

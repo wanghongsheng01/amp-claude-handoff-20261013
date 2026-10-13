@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-11T19:30:23.667976+00:00",
+  "document_type": "PRESENTATION_CLARIFICATION_NO_RECOMPUTATION_OR_CHANGE",
+  "original_bundle_manifest": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/DELIVERY_MANIFEST.json",
+    "sha256": "9507ad6f6ad04f4bb94fa4f55f9a85b91984a73327c5aa7268474cb92b11459c"
+  },
+  "original_readout": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/feasibility/latent_match_diagnostic_v1/LATENT_MATCH_READOUT.json",
+    "sha256": "9f0a1fb765fd61770e0b15c9c4708951bd6e12fad137aa63b878f4df860c0a39"
+  },
+  "independent_review": {
+    "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/review/independent/LATENT_MATCH_DIAGNOSTIC_INDEPENDENT_REVIEW_v1.json",
+    "sha256": "c72a525c2f6875214c2858d7ff1ddc7f632fe740c2ccb91a3573891fd534463f"
+  },
+  "real_token_macro_accuracy": "In this author latent package only, arithmetic mean of each peptide correct-real-token / true-length fraction; use display label per_peptide_mean_real_token_accuracy. It is NOT the main evaluator supported-amino-acid macro recall. Do not substitute this value into the original evaluator macro metric.",
+  "outside_training_interval": "Fraction outside finite empirical train min-max or quantile intervals, pooled or matched-coordinate as labelled. These intervals are not latent support, acceptance boundaries, invalidity rates, failures or biological risk estimates; dependencies and finite-sample variation remain.",
+  "immutability": "All audited original bundle files remain unchanged. No metrics recomputed and no model/RNG calls.",
+  "future_control_implementation_note": "The non-executable historical draft described a local Generator. The final candidate follows the later root/independent requirement: global torch.manual_seed plus original draw order inside torch.random.fork_rng, with restoration verified. Both original saved z tensors must match bitwise before any model construction/forward. This is an implementation clarification, not control execution."
+}

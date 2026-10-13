@@ -1,0 +1,1 @@
+仅候选模型合同最终哈希更新：47d69cf0…，保留旧v1不变。评分/pairedguard代码、所有数学、22项合成检查、输出路径、成功条件与预算完全不变。新模型contract只澄清baseline config/scaler字段与旧slot标签provenance。实际仅使用本目录两份新config；代码继续复用v1精确文件。未执行任何自然模型、评分或成功门。

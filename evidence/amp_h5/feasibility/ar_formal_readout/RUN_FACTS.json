@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-10-11T16:19:39.882683+00:00",
+  "scope": "completed AR-only descriptive feasibility",
+  "training_updates": 1000,
+  "training_seed": 222,
+  "parameter_count": 62501,
+  "attempts": 32,
+  "attempts_per_terminal": 16,
+  "generation_seeds": {
+    "FREE": 422,
+    "AMD": 423
+  },
+  "architecture": {
+    "token_embedding_dim": 32,
+    "terminal_embedding_dim": 8,
+    "hidden_dim": 64,
+    "layers": 2,
+    "max_length": 48
+  },
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "gradient_clip_l2": 1.0
+  },
+  "generation_information": "requested terminal and model-generated prefix/randomness only",
+  "no_rejection_or_resampling": true,
+  "costs": {
+    "recorded_training_pipeline_seconds": 14.292998417280614,
+    "recorded_training_update_seconds": 12.268115932121873,
+    "recorded_monitor_seconds": 0.5697879591025412,
+    "recorded_generation_seconds": 0.020189667120575905,
+    "recorded_method_process_seconds": 15.10993174975738,
+    "evaluation_seconds_before_output": 1.8991414169999998
+  },
+  "training_and_generation_status": {
+    "state": "completed",
+    "training_state": "COMPLETED_FIXED_STEPS"
+  },
+  "comparisons_performed": 0,
+  "other_method_observations_created": 0,
+  "L_and_G_comparison": "NOT_EVALUATED_NO_MATCHED_FORMAL_VAE_ARMS",
+  "AR_ADEQUACY": "NOT_ESTABLISHED",
+  "PROMOTE": "HOLD",
+  "independent_execution_audit": "separate; not claimed here",
+  "operations": {
+    "train_rows_read": 279,
+    "development_rows_read": 41,
+    "test_reads": 0,
+    "model_calls": 0,
+    "training_updates": 0,
+    "generation_calls": 0,
+    "checkpoint_loads": 0
+  },
+  "limitations": [
+    "single fitted seed and 16 requests per terminal; no significance or independent confirmation",
+    "reference development set has been reused; no test37 access",
+    "MMD421/JS/length/copy/nearest metrics are sequence-distribution descriptions, not antimicrobial activity or safety",
+    "teacher-forced NLL/accuracy are AR likelihood diagnostics, not generation reconstruction accuracy or VAE objective comparisons",
+    "all fixed monitor points retained; no checkpoint selection, continuation or new adequacy threshold",
+    "VAE formal arms are absent; no comparison or superiority claim",
+    "BACKUP_BLOCKED"
+  ]
+}

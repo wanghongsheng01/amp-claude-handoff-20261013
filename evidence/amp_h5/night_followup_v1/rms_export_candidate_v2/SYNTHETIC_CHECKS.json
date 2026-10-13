@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "2880_unique_fixed_slots",
+      "pass": true
+    },
+    {
+      "name": "320M_2560S_fixed8",
+      "pass": true
+    },
+    {
+      "name": "split_and_source_identity",
+      "pass": true
+    },
+    {
+      "name": "all_pending_rows_retained",
+      "pass": true
+    },
+    {
+      "name": "exact_frozen_slot_ledger",
+      "pass": true
+    },
+    {
+      "name": "contract_binding_script",
+      "pass": true
+    },
+    {
+      "name": "99decoder_2encoder_fixed",
+      "pass": true
+    },
+    {
+      "name": "all_bound_input_hashes",
+      "pass": true
+    },
+    {
+      "name": "private_full320_epsilon_streams",
+      "pass": true
+    },
+    {
+      "name": "frozen_encoder_route_once",
+      "pass": true
+    },
+    {
+      "name": "no_forbidden_call_names",
+      "pass": true
+    },
+    {
+      "name": "no_teacherforcing_or_inverse_call",
+      "pass": true
+    },
+    {
+      "name": "post_manifest_clock_gate",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_epsilon_banks",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_decode_batch",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_build_reference",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_bits_equal",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_allocated_rows",
+      "pass": true
+    },
+    {
+      "name": "v1_v2_AST_same_slot_intent",
+      "pass": true
+    },
+    {
+      "name": "bootstrap_no_frozen_whole_manifest_call",
+      "pass": true
+    },
+    {
+      "name": "bootstrap_skip_before_content_sha",
+      "pass": true
+    },
+    {
+      "name": "bootstrap_synthetic_never_hashes_legacy_dataset",
+      "pass": true
+    },
+    {
+      "name": "toy_empty_and_cap_retained",
+      "pass": true
+    },
+    {
+      "name": "toy_tokens_finite_output",
+      "pass": true
+    },
+    {
+      "name": "failure_observations_shared_reference",
+      "pass": true
+    },
+    {
+      "name": "synthetic_M_exact_parity",
+      "pass": true
+    },
+    {
+      "name": "synthetic_M_parity_mismatch_fails",
+      "pass": true
+    },
+    {
+      "name": "exception_AdmissionFailure",
+      "pass": true
+    },
+    {
+      "name": "exception_RuntimeError",
+      "pass": true
+    },
+    {
+      "name": "exception_ExportInterrupt",
+      "pass": true
+    }
+  ],
+  "check_count": 30,
+  "natural_model_calls": 0,
+  "torch_imported": false,
+  "natural_RNG_or_arrays": false,
+  "scope": "stdlib fake tensors and AST only; verifies no claim of scientific outcome"
+}

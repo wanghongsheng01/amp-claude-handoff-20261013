@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "scope_id": "AMP_H5_CE_RMS_RECONSTRUCTION_V2",
+  "checks": [
+    {
+      "name": "terminal_before_any_array_audit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "single_job_exit0_outer_budget",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inner_closing_budget_and_manifest",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_plan_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_original_bound_inputs_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manifest_all_members_hash_bytes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "status_plan_receipt_contract_script_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "declared_exact_calls_and_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "input_model_integrity_and_historical_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "checkpoint_identity_evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "code_only_runtime_no_legacy_data_hash",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_reference_and_prediction_identities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_truth_row_map_and_all_seeds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "runtime_versions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved_q320_train_cache_dev41_full_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "posterior_mu_logsigma_sigma_finite_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "dev_encoder_work_calls_only_discarded_samples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_eight_existing_private_epsilon_banks_byte_replayed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved_input_seals_bound",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all99_saved_batches_all2880_reparameterizations_and_J_byte_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all320_historical_M_token_truth_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "retained_first_batch_throughput_rule",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final_bound_inputs_still_unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "model_calls_by_reviewer": 0,
+  "new_prediction_rows_by_reviewer": 0,
+  "independent_additional_encoder_decoder_flow_DDPM_calls": 0,
+  "test_access": false,
+  "original_CE_E_L_G": "NOT_EVALUABLE_PERMANENTLY",
+  "PROMOTE": "HOLD",
+  "training_authorized": false,
+  "evidence": {
+    "outer_seconds": 4.965703167021275,
+    "inner_after_manifest_seconds": 4.749741875100881,
+    "forward_calls_recorded": {
+      "encoder": 2,
+      "decoder": 99,
+      "DDPM": 0,
+      "prior_flow": 0,
+      "training": 0
+    },
+    "predictions": 2880,
+    "status_counts": {
+      "ok": 2880
+    },
+    "scale_description": {
+      "mu_min": -4.517267227172852,
+      "mu_max": 5.389507293701172,
+      "logsigma_min": -0.2593546509742737,
+      "logsigma_max": 0.25921621918678284,
+      "sigma_min": 0.7715493440628052,
+      "sigma_max": 1.2959139347076416,
+      "all_saved_z_min": -8.167909622192383,
+      "all_saved_z_max": 9.019759178161621,
+      "scope": "finite continuous diagnostics only; no learned-distribution adequacy claim"
+    }
+  },
+  "source_bindings": [
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_PLAN_v2.json",
+      "bytes": 11592,
+      "sha256": "b917c14e8db3e89f5a6a862bda5d3318bb202ed295244f04e80beee5ff5c909d"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/protocol/CE_RMS_RECONSTRUCTION_CONTRACT_v2.json",
+      "bytes": 17551,
+      "sha256": "6829e2d4787f92fc46a4950f64ac72df847ab9c29384b32bd0a800d767d3ee0f"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/implementation/ce_rms_reconstruction_v2.py",
+      "bytes": 28397,
+      "sha256": "2b18396ad721d06aaf09f20faef90b5f9e77a0905c779b963aac04783a29b10b"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_execution_v2/SUPERVISOR_STATUS.json",
+      "bytes": 1279,
+      "sha256": "a1b97c261da00c304b16abc008b52eb5ea29858b2b5cc32b587a0636518f5d48"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/manifest.json",
+      "bytes": 29891,
+      "sha256": "4fd0d9e25101aa304c9ed76b4a86c22ce067f930e4e0b6f814c0c32ee4799531"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/CLOSING_LEDGER.json",
+      "bytes": 325,
+      "sha256": "c736b746aaf2dc98569b1e54fe0062a0d3c9e80586128130f96af104c83a61bc"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/status.json",
+      "bytes": 1470,
+      "sha256": "4bb9685daab8bbc3bdc7fa1503e8b52a832c9ff8766d2106aae266a0b03f3193"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/reference_rows.csv",
+      "bytes": 17182,
+      "sha256": "cd751cce6d66f73eea26b103fdd53b71ffcb3ec29b7555754af457adad37a0a3"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/runs/ce_rms_reconstruction_v2/reconstructions.csv",
+      "bytes": 901776,
+      "sha256": "5e9723d9a6ba31e3799aa0e4c9b5a4d752ce3bc306c5d2090dd97407e8783b49"
+    },
+    {
+      "path": "/Users/loctek/Documents/Codex/2026-10-11/task-4/amp_h5/night_followup_v1/review/audit_rms_model_v2.py",
+      "bytes": 14756,
+      "sha256": "db8317cb1cc82d1b06f3a6931b25285c4a42a2580789a310007aed7ca80b5eaa"
+    }
+  ],
+  "inference_boundaries": [
+    "Saved logits/J/reparameterization and RNG banks were independently checked; there was no extra model forward.",
+    "New dev posterior parameters have recorded encoder provenance and historical M token parity, but were not recomputed with a second independent encoder forward.",
+    "Before/after model tensor identities are runtime evidence; reviewer rechecked checkpoint file hashes without constructing or deserializing model weights.",
+    "This engineering PASS only permits the separately bound scorer; investment gate and any training permission are separate."
+  ],
+  "check_count": 23,
+  "audit_seconds_before_receipt_io": 1.194592250045389
+}
